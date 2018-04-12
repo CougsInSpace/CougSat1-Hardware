@@ -1,0 +1,7 @@
+# Autodesk old versions
+OldVersions/
+
+# EAGLE old versions
+*.b#*
+*.s#*
+*.epf
