@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1344,7 +1344,7 @@ Charging</text>
 <text x="241.3" y="97.79" size="1.778" layer="97" font="vector" align="center">CougSat-1 Payload</text>
 <text x="226.06" y="55.88" size="1.778" layer="97" font="vector" align="center-left">Unused</text>
 <text x="226.06" y="40.64" size="1.778" layer="97" font="vector" align="center-left">Unused</text>
-<text x="147.32" y="33.02" size="1.778" layer="97" font="vector" align="center-left">Each 2 pin power rail (PR_) is rated for 500mA. Currents shown are the expected consumption</text>
+<text x="147.32" y="33.02" size="1.778" layer="97" font="vector" align="center-left">Each power rail channel (PR_) is rated for 1A. Currents shown are the expected consumption</text>
 <wire x1="144.78" y1="99.06" x2="259.08" y2="99.06" width="0.254" layer="97" style="longdash"/>
 <text x="241.3" y="146.05" size="1.778" layer="97" font="vector" align="center">Satellite Bus</text>
 <text x="106.68" y="156.21" size="1.778" layer="97" font="vector" align="center">3.3V-A</text>
