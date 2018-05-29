@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -541,19 +541,11 @@ Space EE</text>
 <wire x1="-0.381" y1="0" x2="0.127" y2="0" width="0.1524" layer="97"/>
 <wire x1="0.127" y1="0" x2="0.127" y2="0.762" width="0.1524" layer="97" curve="180"/>
 </symbol>
-<symbol name="DIAGRAM-MEASURE-V">
-<description>&lt;h3&gt;Block Diagram Measurement - Voltage&lt;/h3&gt;</description>
-<circle x="0" y="0" radius="1.27" width="0.254" layer="97"/>
-<wire x1="-0.508" y1="0.762" x2="0" y2="-0.762" width="0.1524" layer="97"/>
-<wire x1="0" y1="-0.762" x2="0.508" y2="0.762" width="0.1524" layer="97"/>
-</symbol>
-<symbol name="DIAGRAM-MEASURE-I">
-<description>&lt;h3&gt;Block Diagram Measurement - Current&lt;/h3&gt;</description>
+<symbol name="DIAGRAM-MEASURE-T">
+<description>&lt;h3&gt;Block Diagram Measurement - Temperature&lt;/h3&gt;</description>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="97"/>
 <wire x1="-0.508" y1="0.762" x2="0" y2="0.762" width="0.1524" layer="97"/>
 <wire x1="0" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="97"/>
-<wire x1="-0.508" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="97"/>
-<wire x1="0" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="97"/>
 <wire x1="0" y1="0.762" x2="0" y2="-0.762" width="0.1524" layer="97"/>
 </symbol>
 </symbols>
@@ -598,23 +590,10 @@ Space EE</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DIAGRAM-MEASURE-V" prefix="DIA">
-<description>&lt;h3&gt;Block Diagram Measurement - Voltage&lt;/h3&gt;</description>
+<deviceset name="DIAGRAM-MEASURE-T" prefix="DIA">
+<description>&lt;h3&gt;Block Diagram Measurement - Temperature&lt;/h3&gt;</description>
 <gates>
-<gate name="G$1" symbol="DIAGRAM-MEASURE-V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DIAGRAM-MEASURE-I" prefix="DIA">
-<description>&lt;h3&gt;Block Diagram Measurement - Current&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIAGRAM-MEASURE-I" x="0" y="0"/>
+<gate name="G$1" symbol="DIAGRAM-MEASURE-T" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -644,29 +623,33 @@ Space EE</text>
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
 <part name="DIA1" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
-<part name="DIA2" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA3" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA4" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA5" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA6" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA7" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
 <part name="DIA8" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
-<part name="DIA9" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-V" device=""/>
-<part name="DIA10" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-I" device=""/>
-<part name="DIA11" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-I" device=""/>
+<part name="DIA12" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA13" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA14" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA15" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA16" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA17" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
+<part name="DIA2" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
+<part name="DIA9" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="33.02" y1="111.76" x2="83.82" y2="111.76" width="0.254" layer="94"/>
-<wire x1="83.82" y1="111.76" x2="83.82" y2="101.6" width="0.254" layer="94"/>
-<wire x1="83.82" y1="101.6" x2="33.02" y2="101.6" width="0.254" layer="94"/>
-<wire x1="33.02" y1="101.6" x2="33.02" y2="111.76" width="0.254" layer="94"/>
+<wire x1="33.02" y1="114.3" x2="83.82" y2="114.3" width="0.254" layer="94"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="99.06" width="0.254" layer="94"/>
+<wire x1="83.82" y1="99.06" x2="33.02" y2="99.06" width="0.254" layer="94"/>
+<wire x1="33.02" y1="99.06" x2="33.02" y2="114.3" width="0.254" layer="94"/>
 <text x="58.42" y="106.68" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
-<wire x1="101.6" y1="111.76" x2="101.6" y2="101.6" width="0.254" layer="94"/>
-<wire x1="101.6" y1="101.6" x2="162.56" y2="101.6" width="0.254" layer="94"/>
-<wire x1="162.56" y1="101.6" x2="162.56" y2="111.76" width="0.254" layer="94"/>
-<wire x1="162.56" y1="111.76" x2="101.6" y2="111.76" width="0.254" layer="94"/>
+<wire x1="101.6" y1="114.3" x2="101.6" y2="99.06" width="0.254" layer="94"/>
+<wire x1="101.6" y1="99.06" x2="162.56" y2="99.06" width="0.254" layer="94"/>
+<wire x1="162.56" y1="99.06" x2="162.56" y2="114.3" width="0.254" layer="94"/>
+<wire x1="162.56" y1="114.3" x2="101.6" y2="114.3" width="0.254" layer="94"/>
 <wire x1="208.28" y1="111.76" x2="208.28" y2="76.2" width="0.254" layer="94"/>
 <wire x1="208.28" y1="76.2" x2="233.68" y2="76.2" width="0.254" layer="94"/>
 <wire x1="233.68" y1="76.2" x2="233.68" y2="111.76" width="0.254" layer="94"/>
@@ -687,31 +670,30 @@ To EPS</text>
 Current</text>
 <wire x1="101.6" y1="106.68" x2="99.06" y2="109.22" width="0.254" layer="97"/>
 <wire x1="101.6" y1="106.68" x2="99.06" y2="104.14" width="0.254" layer="97"/>
-<wire x1="172.72" y1="106.68" x2="172.72" y2="81.28" width="0.254" layer="97"/>
 <wire x1="208.28" y1="81.28" x2="205.74" y2="83.82" width="0.254" layer="97"/>
 <wire x1="208.28" y1="81.28" x2="205.74" y2="78.74" width="0.254" layer="97"/>
-<wire x1="33.02" y1="86.36" x2="83.82" y2="86.36" width="0.254" layer="94"/>
-<wire x1="83.82" y1="86.36" x2="83.82" y2="76.2" width="0.254" layer="94"/>
-<wire x1="83.82" y1="76.2" x2="33.02" y2="76.2" width="0.254" layer="94"/>
-<wire x1="33.02" y1="76.2" x2="33.02" y2="86.36" width="0.254" layer="94"/>
+<wire x1="33.02" y1="88.9" x2="83.82" y2="88.9" width="0.254" layer="94"/>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="73.66" width="0.254" layer="94"/>
+<wire x1="83.82" y1="73.66" x2="33.02" y2="73.66" width="0.254" layer="94"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="88.9" width="0.254" layer="94"/>
 <text x="58.42" y="81.28" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
-<wire x1="101.6" y1="86.36" x2="101.6" y2="76.2" width="0.254" layer="94"/>
-<wire x1="101.6" y1="76.2" x2="162.56" y2="76.2" width="0.254" layer="94"/>
-<wire x1="162.56" y1="76.2" x2="162.56" y2="86.36" width="0.254" layer="94"/>
-<wire x1="162.56" y1="86.36" x2="101.6" y2="86.36" width="0.254" layer="94"/>
+<wire x1="101.6" y1="88.9" x2="101.6" y2="73.66" width="0.254" layer="94"/>
+<wire x1="101.6" y1="73.66" x2="162.56" y2="73.66" width="0.254" layer="94"/>
+<wire x1="162.56" y1="73.66" x2="162.56" y2="88.9" width="0.254" layer="94"/>
+<wire x1="162.56" y1="88.9" x2="101.6" y2="88.9" width="0.254" layer="94"/>
 <text x="132.08" y="81.28" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
 <wire x1="101.6" y1="81.28" x2="99.06" y2="83.82" width="0.254" layer="97"/>
 <wire x1="101.6" y1="81.28" x2="99.06" y2="78.74" width="0.254" layer="97"/>
 <text x="193.04" y="82.55" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
-<wire x1="185.42" y1="137.16" x2="185.42" y2="93.98" width="0.254" layer="97"/>
-<wire x1="185.42" y1="93.98" x2="147.32" y2="93.98" width="0.254" layer="97"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="101.6" width="0.254" layer="97"/>
-<wire x1="147.32" y1="101.6" x2="144.78" y2="99.06" width="0.254" layer="97"/>
-<wire x1="147.32" y1="101.6" x2="149.86" y2="99.06" width="0.254" layer="97"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="86.36" width="0.254" layer="97"/>
-<wire x1="147.32" y1="86.36" x2="149.86" y2="88.9" width="0.254" layer="97"/>
-<wire x1="147.32" y1="86.36" x2="144.78" y2="88.9" width="0.254" layer="97"/>
-<text x="157.48" y="95.504" size="1.778" layer="97" font="vector" align="center">Output Enable</text>
+<wire x1="177.8" y1="137.16" x2="177.8" y2="93.98" width="0.254" layer="97"/>
+<wire x1="177.8" y1="93.98" x2="147.32" y2="93.98" width="0.254" layer="97"/>
+<wire x1="147.32" y1="93.98" x2="147.32" y2="99.06" width="0.254" layer="97"/>
+<wire x1="147.32" y1="99.06" x2="144.78" y2="96.52" width="0.254" layer="97"/>
+<wire x1="147.32" y1="99.06" x2="149.86" y2="96.52" width="0.254" layer="97"/>
+<wire x1="147.32" y1="93.98" x2="147.32" y2="88.9" width="0.254" layer="97"/>
+<wire x1="147.32" y1="88.9" x2="149.86" y2="91.44" width="0.254" layer="97"/>
+<wire x1="147.32" y1="88.9" x2="144.78" y2="91.44" width="0.254" layer="97"/>
+<text x="160.02" y="95.504" size="1.778" layer="97" font="vector" align="center">Output Enable</text>
 <wire x1="162.56" y1="160.02" x2="165.1" y2="157.48" width="0.254" layer="97"/>
 <wire x1="165.1" y1="157.48" x2="167.64" y2="160.02" width="0.254" layer="97"/>
 <wire x1="193.04" y1="160.02" x2="195.58" y2="157.48" width="0.254" layer="97"/>
@@ -748,10 +730,10 @@ Voltage</text>
 <wire x1="111.76" y1="170.18" x2="111.76" y2="157.48" width="0.254" layer="97"/>
 <wire x1="111.76" y1="157.48" x2="114.3" y2="160.02" width="0.254" layer="97"/>
 <wire x1="109.22" y1="160.02" x2="111.76" y2="157.48" width="0.254" layer="97"/>
-<text x="82.55" y="102.87" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="82.55" y="77.47" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="161.29" y="102.87" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="161.29" y="77.47" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="82.55" y="100.33" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="82.55" y="74.93" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="161.29" y="100.33" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="161.29" y="74.93" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
 <text x="232.41" y="77.47" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
 <text x="196.85" y="138.43" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
 <text x="166.37" y="138.43" size="1.778" layer="97" font="vector" align="bottom-right">Page 4</text>
@@ -780,32 +762,41 @@ To ADCS
 <wire x1="195.58" y1="55.88" x2="198.12" y2="53.34" width="0.254" layer="97"/>
 <text x="232.41" y="44.45" size="1.778" layer="97" font="vector" align="bottom-right">Page 5</text>
 <text x="194.31" y="44.45" size="1.778" layer="97" font="vector" align="bottom-right">Page 5</text>
-<wire x1="208.28" y1="81.28" x2="179.07" y2="81.28" width="0.254" layer="97"/>
-<wire x1="176.53" y1="81.28" x2="172.72" y2="81.28" width="0.254" layer="97"/>
-<wire x1="172.72" y1="81.28" x2="168.91" y2="81.28" width="0.254" layer="97"/>
+<wire x1="208.28" y1="81.28" x2="168.91" y2="81.28" width="0.254" layer="97"/>
 <wire x1="166.37" y1="81.28" x2="162.56" y2="81.28" width="0.254" layer="97"/>
 <wire x1="162.56" y1="106.68" x2="166.37" y2="106.68" width="0.254" layer="97"/>
-<wire x1="168.91" y1="106.68" x2="172.72" y2="106.68" width="0.254" layer="97"/>
+<wire x1="168.91" y1="106.68" x2="208.28" y2="106.68" width="0.254" layer="97"/>
 <wire x1="83.82" y1="106.68" x2="90.17" y2="106.68" width="0.254" layer="97"/>
 <wire x1="92.71" y1="106.68" x2="101.6" y2="106.68" width="0.254" layer="97"/>
 <wire x1="101.6" y1="81.28" x2="92.71" y2="81.28" width="0.254" layer="97"/>
 <wire x1="90.17" y1="81.28" x2="83.82" y2="81.28" width="0.254" layer="97"/>
+<text x="63.5" y="154.94" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
+<text x="63.5" y="149.86" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
+<text x="63.5" y="144.78" size="1.778" layer="97" font="vector" align="center-left">Back side</text>
+<text x="63.5" y="139.7" size="1.778" layer="97" font="vector" align="center-left">Back side</text>
+<wire x1="208.28" y1="106.68" x2="205.74" y2="109.22" width="0.254" layer="97"/>
+<wire x1="208.28" y1="106.68" x2="205.74" y2="104.14" width="0.254" layer="97"/>
+<text x="193.04" y="107.95" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="TITLE" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="DIA1" gate="G$1" x="147.32" y="93.98"/>
-<instance part="DIA2" gate="G$1" x="172.72" y="81.28"/>
 <instance part="DIA3" gate="G$1" x="157.48" y="170.18"/>
 <instance part="DIA4" gate="G$1" x="165.1" y="165.1"/>
 <instance part="DIA5" gate="G$1" x="187.96" y="170.18"/>
 <instance part="DIA6" gate="G$1" x="195.58" y="165.1"/>
 <instance part="DIA7" gate="G$1" x="91.44" y="106.68"/>
 <instance part="DIA8" gate="G$1" x="91.44" y="81.28"/>
-<instance part="DIA9" gate="G$1" x="177.8" y="81.28"/>
-<instance part="DIA10" gate="G$1" x="167.64" y="81.28"/>
-<instance part="DIA11" gate="G$1" x="167.64" y="106.68"/>
+<instance part="DIA12" gate="G$1" x="104.14" y="111.76"/>
+<instance part="DIA13" gate="G$1" x="104.14" y="86.36"/>
+<instance part="DIA14" gate="G$1" x="60.96" y="154.94"/>
+<instance part="DIA15" gate="G$1" x="60.96" y="149.86"/>
+<instance part="DIA16" gate="G$1" x="60.96" y="144.78"/>
+<instance part="DIA17" gate="G$1" x="60.96" y="139.7"/>
+<instance part="DIA2" gate="G$1" x="167.64" y="106.68"/>
+<instance part="DIA9" gate="G$1" x="167.64" y="81.28"/>
 </instances>
 <busses>
 </busses>
