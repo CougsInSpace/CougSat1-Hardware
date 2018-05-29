@@ -805,18 +805,9 @@ IC (PMIC)</text>
 <wire x1="12.7" y1="83.82" x2="10.16" y2="86.36" width="0.254" layer="97"/>
 <wire x1="12.7" y1="83.82" x2="10.16" y2="81.28" width="0.254" layer="97"/>
 <text x="163.576" y="34.29" size="1.778" layer="97" font="vector" align="center">I²C</text>
-<wire x1="38.1" y1="167.64" x2="50.8" y2="167.64" width="0.254" layer="97"/>
-<wire x1="50.8" y1="167.64" x2="48.26" y2="170.18" width="0.254" layer="97"/>
-<wire x1="50.8" y1="167.64" x2="48.26" y2="165.1" width="0.254" layer="97"/>
-<wire x1="38.1" y1="139.7" x2="50.8" y2="139.7" width="0.254" layer="97"/>
-<wire x1="50.8" y1="139.7" x2="48.26" y2="142.24" width="0.254" layer="97"/>
-<wire x1="50.8" y1="139.7" x2="48.26" y2="137.16" width="0.254" layer="97"/>
-<wire x1="38.1" y1="111.76" x2="50.8" y2="111.76" width="0.254" layer="97"/>
-<wire x1="50.8" y1="111.76" x2="48.26" y2="114.3" width="0.254" layer="97"/>
-<wire x1="50.8" y1="111.76" x2="48.26" y2="109.22" width="0.254" layer="97"/>
-<wire x1="38.1" y1="83.82" x2="50.8" y2="83.82" width="0.254" layer="97"/>
-<wire x1="50.8" y1="83.82" x2="48.26" y2="86.36" width="0.254" layer="97"/>
-<wire x1="50.8" y1="83.82" x2="48.26" y2="81.28" width="0.254" layer="97"/>
+<wire x1="38.1" y1="162.56" x2="50.8" y2="162.56" width="0.254" layer="97"/>
+<wire x1="50.8" y1="162.56" x2="48.26" y2="165.1" width="0.254" layer="97"/>
+<wire x1="50.8" y1="162.56" x2="48.26" y2="160.02" width="0.254" layer="97"/>
 <text x="165.354" y="65.024" size="1.778" layer="97" font="vector" align="center">Switching Control</text>
 <wire x1="81.28" y1="76.2" x2="81.28" y2="106.68" width="0.254" layer="94"/>
 <wire x1="81.28" y1="106.68" x2="116.84" y2="106.68" width="0.254" layer="94"/>
@@ -838,10 +829,7 @@ IC</text>
 <wire x1="99.06" y1="162.56" x2="96.52" y2="165.1" width="0.254" layer="97"/>
 <wire x1="228.6" y1="180.34" x2="226.06" y2="177.8" width="0.254" layer="97"/>
 <wire x1="228.6" y1="180.34" x2="226.06" y2="182.88" width="0.254" layer="97"/>
-<text x="43.18" y="168.91" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
-<text x="43.18" y="140.97" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
-<text x="43.18" y="113.03" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
-<text x="43.18" y="85.09" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<text x="43.18" y="163.83" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
 <text x="81.28" y="176.53" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
 <text x="81.28" y="120.65" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
 <text x="167.64" y="153.67" size="1.778" layer="97" font="vector" align="center">3.3V 3A</text>
@@ -1008,6 +996,34 @@ IC</text>
 <wire x1="119.38" y1="182.88" x2="134.62" y2="182.88" width="0.254" layer="94"/>
 <wire x1="134.62" y1="182.88" x2="134.62" y2="129.54" width="0.254" layer="94"/>
 <wire x1="134.62" y1="129.54" x2="139.7" y2="129.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="172.72" x2="50.8" y2="172.72" width="0.254" layer="97"/>
+<wire x1="50.8" y1="172.72" x2="48.26" y2="175.26" width="0.254" layer="97"/>
+<wire x1="50.8" y1="172.72" x2="48.26" y2="170.18" width="0.254" layer="97"/>
+<text x="43.18" y="173.99" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="134.62" x2="50.8" y2="134.62" width="0.254" layer="97"/>
+<wire x1="50.8" y1="134.62" x2="48.26" y2="137.16" width="0.254" layer="97"/>
+<wire x1="50.8" y1="134.62" x2="48.26" y2="132.08" width="0.254" layer="97"/>
+<text x="43.18" y="135.89" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="144.78" x2="50.8" y2="144.78" width="0.254" layer="97"/>
+<wire x1="50.8" y1="144.78" x2="48.26" y2="147.32" width="0.254" layer="97"/>
+<wire x1="50.8" y1="144.78" x2="48.26" y2="142.24" width="0.254" layer="97"/>
+<text x="43.18" y="146.05" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="106.68" x2="50.8" y2="106.68" width="0.254" layer="97"/>
+<wire x1="50.8" y1="106.68" x2="48.26" y2="109.22" width="0.254" layer="97"/>
+<wire x1="50.8" y1="106.68" x2="48.26" y2="104.14" width="0.254" layer="97"/>
+<text x="43.18" y="107.95" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="116.84" x2="50.8" y2="116.84" width="0.254" layer="97"/>
+<wire x1="50.8" y1="116.84" x2="48.26" y2="119.38" width="0.254" layer="97"/>
+<wire x1="50.8" y1="116.84" x2="48.26" y2="114.3" width="0.254" layer="97"/>
+<text x="43.18" y="118.11" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="78.74" x2="50.8" y2="78.74" width="0.254" layer="97"/>
+<wire x1="50.8" y1="78.74" x2="48.26" y2="81.28" width="0.254" layer="97"/>
+<wire x1="50.8" y1="78.74" x2="48.26" y2="76.2" width="0.254" layer="97"/>
+<text x="43.18" y="80.01" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
+<wire x1="38.1" y1="88.9" x2="50.8" y2="88.9" width="0.254" layer="97"/>
+<wire x1="50.8" y1="88.9" x2="48.26" y2="91.44" width="0.254" layer="97"/>
+<wire x1="50.8" y1="88.9" x2="48.26" y2="86.36" width="0.254" layer="97"/>
+<text x="43.18" y="90.17" size="1.778" layer="97" font="vector" align="center">4.1V CC</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
@@ -1380,6 +1396,10 @@ Charging</text>
 <text x="20.32" y="110.49" size="1.778" layer="97" font="vector" align="center">PV_IN-1</text>
 <text x="20.32" y="107.95" size="1.778" layer="97" font="vector" align="center">PV_IN-2</text>
 <text x="20.32" y="105.41" size="1.778" layer="97" font="vector" align="center">PV_IN-3</text>
+<text x="20.32" y="102.87" size="1.778" layer="97" font="vector" align="center">PV_IN-4</text>
+<text x="20.32" y="100.33" size="1.778" layer="97" font="vector" align="center">PV_IN-5</text>
+<text x="20.32" y="97.79" size="1.778" layer="97" font="vector" align="center">PV_IN-6</text>
+<text x="20.32" y="95.25" size="1.778" layer="97" font="vector" align="center">PV_IN-7</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0">
