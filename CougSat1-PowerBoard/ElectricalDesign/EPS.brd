@@ -1755,12 +1755,6 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-1003" x="18.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMP" value="±25ppm/°C" x="18.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R6" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="22.5" y="-76" rot="R90">
-<attribute name="PACKAGE" value="1608" x="22.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POWER" value="1/10W" x="22.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SKU" value="21-0000" x="22.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="TEMP" value="70°C Max 2A" x="22.5" y="-76" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
 <element name="Q25" library="CougsInSpace-DiscreteSemi" package="SOT23-3" value="DMN53D0L" x="27.5" y="-75" rot="R90">
 <attribute name="CURRENT" value="500mA" x="27.5" y="-75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RDS" value="4.5mΩ" x="27.5" y="-75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1890,6 +1884,12 @@ design rules under a new name.</description>
 <attribute name="B2585" value="3984K 0.5%" x="-48" y="-107" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="THT" x="-48" y="-107" size="1.778" layer="27" display="off"/>
 <attribute name="SKU" value="26-3001" x="-48" y="-107" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-55.5" y="-119">
+<attribute name="PACKAGE" value="1608" x="-55.5" y="-119" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/10W" x="-55.5" y="-119" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="21-0000" x="-55.5" y="-119" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="70°C Max 2A" x="-55.5" y="-119" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2303,12 +2303,12 @@ design rules under a new name.</description>
 <signal name="UMB_IN">
 <contactref element="J5" pad="3"/>
 <contactref element="J5" pad="4"/>
-<contactref element="R6" pad="1"/>
 <contactref element="Q9" pad="1"/>
 <contactref element="Q9" pad="4"/>
-<wire x1="93.35" y1="-76.915" x2="94.65" y2="-75.085" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5" y1="-76.865" x2="93.35" y2="-76.915" width="0" layer="19" extent="1-1"/>
-<wire x1="58.4" y1="0.75" x2="22.5" y2="-76.865" width="0" layer="19" extent="1-1"/>
+<contactref element="R6" pad="1"/>
+<wire x1="93.35" y1="-76.915" x2="-56.365" y2="-119" width="0" layer="19" extent="1-1"/>
+<wire x1="94.65" y1="-75.085" x2="93.35" y2="-76.915" width="0" layer="19" extent="1-1"/>
+<wire x1="58.4" y1="0.75" x2="94.65" y2="-75.085" width="0" layer="19" extent="1-1"/>
 <wire x1="58.4" y1="2.25" x2="58.4" y2="0.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN-B">
@@ -2337,11 +2337,11 @@ design rules under a new name.</description>
 <contactref element="Q9" pad="3"/>
 <contactref element="R8" pad="2"/>
 <contactref element="BT2" pad="C"/>
-<contactref element="D2" pad="A"/>
+<contactref element="D1" pad="A"/>
 <wire x1="40.485" y1="-54" x2="86" y2="21" width="0" layer="19" extent="1-1"/>
 <wire x1="40.65" y1="-54.915" x2="40.485" y2="-54" width="0" layer="19" extent="1-1"/>
-<wire x1="41.5" y1="-74.55" x2="40.65" y2="-54.915" width="0" layer="19" extent="1-1"/>
-<wire x1="62.985" y1="-76" x2="41.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
+<wire x1="36.5" y1="-74.55" x2="40.65" y2="-54.915" width="0" layer="19" extent="1-1"/>
+<wire x1="62.985" y1="-76" x2="36.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
 <wire x1="63.15" y1="-76.915" x2="62.985" y2="-76" width="0" layer="19" extent="1-1"/>
 <wire x1="67.485" y1="-76" x2="63.15" y2="-76.915" width="0" layer="19" extent="1-1"/>
 <wire x1="67.65" y1="-76.915" x2="67.485" y2="-76" width="0" layer="19" extent="1-1"/>
@@ -2357,7 +2357,7 @@ design rules under a new name.</description>
 <wire x1="90.15" y1="-76.915" x2="89.985" y2="-76" width="0" layer="19" extent="1-1"/>
 <wire x1="94.485" y1="-76" x2="90.15" y2="-76.915" width="0" layer="19" extent="1-1"/>
 <wire x1="94.65" y1="-76.915" x2="94.485" y2="-76" width="0" layer="19" extent="1-1"/>
-<wire x1="8.975" y1="-74.45" x2="41.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
+<wire x1="8.975" y1="-74.45" x2="36.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
 <wire x1="8.325" y1="-74.45" x2="8.975" y2="-74.45" width="0" layer="19" extent="1-1"/>
 <wire x1="7.675" y1="-74.45" x2="8.325" y2="-74.45" width="0" layer="19" extent="1-1"/>
 <wire x1="7.025" y1="-74.45" x2="7.675" y2="-74.45" width="0" layer="19" extent="1-1"/>
@@ -2397,16 +2397,14 @@ design rules under a new name.</description>
 <contactref element="Q9" pad="6"/>
 <contactref element="R4" pad="2"/>
 <contactref element="BT1" pad="C"/>
-<contactref element="D1" pad="A"/>
+<contactref element="D2" pad="A"/>
 <wire x1="-1.975" y1="-74.45" x2="-26.5" y2="-61.635" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.325" y1="-74.45" x2="-1.975" y2="-74.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.675" y1="-74.45" x2="-1.325" y2="-74.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.025" y1="-74.45" x2="-0.675" y2="-74.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-1" y1="-75.675" x2="-1.325" y2="-74.45" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5" y1="-74.55" x2="-0.025" y2="-74.45" width="0" layer="19" extent="1-1"/>
-<wire x1="39.515" y1="-54" x2="36.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
-<wire x1="39.35" y1="-53.085" x2="39.515" y2="-54" width="0" layer="19" extent="1-1"/>
-<wire x1="61.85" y1="-75.085" x2="36.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="-74.55" x2="-0.025" y2="-74.45" width="0" layer="19" extent="1-1"/>
+<wire x1="61.85" y1="-75.085" x2="41.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
 <wire x1="62.015" y1="-76" x2="61.85" y2="-75.085" width="0" layer="19" extent="1-1"/>
 <wire x1="66.35" y1="-75.085" x2="62.015" y2="-76" width="0" layer="19" extent="1-1"/>
 <wire x1="66.515" y1="-76" x2="66.35" y2="-75.085" width="0" layer="19" extent="1-1"/>
@@ -2422,6 +2420,8 @@ design rules under a new name.</description>
 <wire x1="89.015" y1="-76" x2="88.85" y2="-75.085" width="0" layer="19" extent="1-1"/>
 <wire x1="93.35" y1="-75.085" x2="89.015" y2="-76" width="0" layer="19" extent="1-1"/>
 <wire x1="93.515" y1="-76" x2="93.35" y2="-75.085" width="0" layer="19" extent="1-1"/>
+<wire x1="39.515" y1="-54" x2="41.5" y2="-74.55" width="0" layer="19" extent="1-1"/>
+<wire x1="39.35" y1="-53.085" x2="39.515" y2="-54" width="0" layer="19" extent="1-1"/>
 <wire x1="86" y1="-21" x2="84.35" y2="-75.085" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT_PROTECT_COUT-A">
@@ -2493,12 +2493,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="BATT_SW_CTRL">
 <contactref element="R10" pad="1"/>
-<contactref element="R6" pad="2"/>
 <contactref element="Q25" pad="1"/>
 <contactref element="R12" pad="2"/>
-<wire x1="26.55" y1="-76.31" x2="46" y2="-75.135" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5" y1="-75.135" x2="26.55" y2="-76.31" width="0" layer="19" extent="1-1"/>
-<wire x1="18.5" y1="-76.865" x2="22.5" y2="-75.135" width="0" layer="19" extent="1-1"/>
+<contactref element="R6" pad="2"/>
+<wire x1="18.5" y1="-76.865" x2="-54.635" y2="-119" width="0" layer="19" extent="1-1"/>
+<wire x1="26.55" y1="-76.31" x2="18.5" y2="-76.865" width="0" layer="19" extent="1-1"/>
+<wire x1="46" y1="-75.135" x2="26.55" y2="-76.31" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBATT-A">
 <contactref element="Q23" pad="3"/>
