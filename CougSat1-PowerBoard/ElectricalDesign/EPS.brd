@@ -4794,8 +4794,8 @@ design rules under a new name.</description>
 <contactref element="U7" pad="20"/>
 </signal>
 <signal name="GND">
-<contactref element="U7" pad="10"/>
 <contactref element="U7" pad="PAD"/>
+<contactref element="U7" pad="10"/>
 <wire x1="-123.5" y1="-438.5" x2="-124.25" y2="-440.725" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
