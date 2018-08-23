@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11862,40 +11862,40 @@ optimize ringing and efficiency</text>
 <text x="203.2" y="91.44" size="1.27" layer="97" align="center-right">&lt;4D2 </text>
 <text x="10.16" y="177.8" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="10.16" y="170.18" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="12.7" y="160.02" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="12.7" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="12.7" y="160.02" size="1.27" layer="97" align="center-right">&lt;10A1 </text>
+<text x="12.7" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A1 </text>
 <text x="10.16" y="182.88" size="1.27" layer="97" align="center-right">5C6&gt; </text>
 <text x="10.16" y="185.42" size="1.27" layer="97" align="center-right">5A6&gt; </text>
 <text x="73.66" y="177.8" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="73.66" y="170.18" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="76.2" y="160.02" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="76.2" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="76.2" y="160.02" size="1.27" layer="97" align="center-right">&lt;10A3 </text>
+<text x="76.2" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A3 </text>
 <text x="137.16" y="177.8" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="137.16" y="170.18" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="139.7" y="160.02" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="139.7" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="139.7" y="160.02" size="1.27" layer="97" align="center-right">&lt;10A1 </text>
+<text x="139.7" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A1 </text>
 <text x="200.66" y="177.8" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="200.66" y="170.18" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="203.2" y="160.02" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="203.2" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="203.2" y="160.02" size="1.27" layer="97" align="center-right">&lt;10A3 </text>
+<text x="203.2" y="147.32" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A3 </text>
 <text x="10.16" y="132.08" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="10.16" y="124.46" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="12.7" y="114.3" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="12.7" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="12.7" y="114.3" size="1.27" layer="97" align="center-right">&lt;10A1 </text>
+<text x="12.7" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A1 </text>
 <text x="10.16" y="137.16" size="1.27" layer="97" align="center-right">5C6&gt; </text>
 <text x="10.16" y="139.7" size="1.27" layer="97" align="center-right">5A6&gt; </text>
 <text x="73.66" y="132.08" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="73.66" y="124.46" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="76.2" y="114.3" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="76.2" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="76.2" y="114.3" size="1.27" layer="97" align="center-right">&lt;10A3 </text>
+<text x="76.2" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A3 </text>
 <text x="137.16" y="132.08" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="137.16" y="124.46" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="139.7" y="114.3" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="139.7" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="139.7" y="114.3" size="1.27" layer="97" align="center-right">&lt;10A1 </text>
+<text x="139.7" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A1 </text>
 <text x="200.66" y="132.08" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="200.66" y="124.46" size="1.27" layer="97" align="center-right">8xx&gt; </text>
-<text x="203.2" y="114.3" size="1.27" layer="97" align="center-right">&lt;9xx </text>
-<text x="203.2" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;9xx </text>
+<text x="203.2" y="114.3" size="1.27" layer="97" align="center-right">&lt;10A3 </text>
+<text x="203.2" y="101.6" size="1.27" layer="97" align="center-right">&lt;6C5 &lt;10A3 </text>
 <text x="10.16" y="86.36" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="10.16" y="78.74" size="1.27" layer="97" align="center-right">8xx&gt; </text>
 <text x="12.7" y="68.58" size="1.27" layer="97" align="center-right">&lt;9xx </text>
@@ -16283,8 +16283,8 @@ Addr = 0x28 | R/!W</text>
 <text x="299.72" y="139.7" size="1.27" layer="97" align="center-left"> &lt;5C4</text>
 <text x="299.72" y="134.62" size="1.27" layer="97" align="center-left"> &lt;5C6</text>
 <text x="299.72" y="132.08" size="1.27" layer="97" align="center-left"> &lt;5C6</text>
-<text x="342.9" y="187.96" size="1.27" layer="97" align="center-left"> &lt;6A1</text>
-<text x="342.9" y="185.42" size="1.27" layer="97" align="center-left"> &lt;6A1</text>
+<text x="7.62" y="154.94" size="1.27" layer="97" rot="MR0" align="center-left">6A1&gt; </text>
+<text x="7.62" y="152.4" size="1.27" layer="97" rot="MR0" align="center-left">6A1&gt; </text>
 <text x="386.08" y="149.86" size="1.27" layer="97" align="center-left"> &lt;7A1</text>
 <text x="386.08" y="147.32" size="1.27" layer="97" align="center-left"> &lt;7A1</text>
 <text x="386.08" y="142.24" size="1.27" layer="97" align="center-left"> &lt;7A2</text>
@@ -16313,20 +16313,20 @@ Addr = 0x28 | R/!W</text>
 <text x="472.44" y="177.8" size="1.27" layer="97" align="center-left"> &lt;7D1</text>
 <text x="472.44" y="172.72" size="1.27" layer="97" align="center-left"> &lt;7D2</text>
 <text x="472.44" y="170.18" size="1.27" layer="97" align="center-left"> &lt;7D2</text>
-<text x="342.9" y="180.34" size="1.27" layer="97" align="center-left"> &lt;6A2</text>
-<text x="342.9" y="177.8" size="1.27" layer="97" align="center-left"> &lt;6A2</text>
-<text x="342.9" y="172.72" size="1.27" layer="97" align="center-left"> &lt;6A4</text>
-<text x="342.9" y="170.18" size="1.27" layer="97" align="center-left"> &lt;6A4</text>
-<text x="342.9" y="165.1" size="1.27" layer="97" align="center-left"> &lt;6A5</text>
-<text x="342.9" y="162.56" size="1.27" layer="97" align="center-left"> &lt;6A5</text>
-<text x="342.9" y="157.48" size="1.27" layer="97" align="center-left"> &lt;6B1</text>
-<text x="342.9" y="154.94" size="1.27" layer="97" align="center-left"> &lt;6B1</text>
-<text x="342.9" y="149.86" size="1.27" layer="97" align="center-left"> &lt;6B2</text>
-<text x="342.9" y="147.32" size="1.27" layer="97" align="center-left"> &lt;6B2</text>
-<text x="342.9" y="142.24" size="1.27" layer="97" align="center-left"> &lt;6B4</text>
-<text x="342.9" y="139.7" size="1.27" layer="97" align="center-left"> &lt;6B4</text>
-<text x="342.9" y="134.62" size="1.27" layer="97" align="center-left"> &lt;6B5</text>
-<text x="342.9" y="132.08" size="1.27" layer="97" align="center-left"> &lt;6B5</text>
+<text x="88.9" y="177.8" size="1.27" layer="97" align="center-left"> &lt;6A2</text>
+<text x="88.9" y="175.26" size="1.27" layer="97" align="center-left"> &lt;6A2</text>
+<text x="7.62" y="160.02" size="1.27" layer="97" rot="MR0" align="center-left">6A4&gt; </text>
+<text x="7.62" y="162.56" size="1.27" layer="97" rot="MR0" align="center-left">6A4&gt; </text>
+<text x="88.9" y="162.56" size="1.27" layer="97" align="center-left"> &lt;6A5</text>
+<text x="88.9" y="160.02" size="1.27" layer="97" align="center-left"> &lt;6A5</text>
+<text x="7.62" y="167.64" size="1.27" layer="97" rot="MR0" align="center-left">6B1&gt; </text>
+<text x="7.62" y="170.18" size="1.27" layer="97" rot="MR0" align="center-left">6B1&gt; </text>
+<text x="88.9" y="154.94" size="1.27" layer="97" align="center-left"> &lt;6B2</text>
+<text x="88.9" y="152.4" size="1.27" layer="97" align="center-left"> &lt;6B2</text>
+<text x="7.62" y="175.26" size="1.27" layer="97" rot="MR0" align="center-left">6B4&gt; </text>
+<text x="7.62" y="177.8" size="1.27" layer="97" rot="MR0" align="center-left">6B4&gt; </text>
+<text x="88.9" y="167.64" size="1.27" layer="97" align="center-left"> &lt;6B5</text>
+<text x="88.9" y="170.18" size="1.27" layer="97" align="center-left"> &lt;6B5</text>
 <text x="386.08" y="187.96" size="1.27" layer="97" align="center-left"> &lt;6C1</text>
 <text x="386.08" y="185.42" size="1.27" layer="97" align="center-left"> &lt;6C1</text>
 <text x="386.08" y="180.34" size="1.27" layer="97" align="center-left"> &lt;6C2</text>
@@ -16414,22 +16414,22 @@ whichever is best for routing, including the DS adc on page 10</text>
 <instance part="OFFSHEET313" gate="G$1" x="297.18" y="139.7" rot="MR0"/>
 <instance part="OFFSHEET314" gate="G$1" x="297.18" y="134.62" rot="MR0"/>
 <instance part="OFFSHEET315" gate="G$1" x="297.18" y="132.08" rot="MR0"/>
-<instance part="OFFSHEET316" gate="G$1" x="340.36" y="187.96" rot="MR0"/>
-<instance part="OFFSHEET317" gate="G$1" x="340.36" y="185.42" rot="MR0"/>
-<instance part="OFFSHEET318" gate="G$1" x="340.36" y="180.34" rot="MR0"/>
-<instance part="OFFSHEET319" gate="G$1" x="340.36" y="177.8" rot="MR0"/>
-<instance part="OFFSHEET320" gate="G$1" x="340.36" y="172.72" rot="MR0"/>
-<instance part="OFFSHEET321" gate="G$1" x="340.36" y="170.18" rot="MR0"/>
-<instance part="OFFSHEET322" gate="G$1" x="340.36" y="165.1" rot="MR0"/>
-<instance part="OFFSHEET323" gate="G$1" x="340.36" y="162.56" rot="MR0"/>
-<instance part="OFFSHEET324" gate="G$1" x="340.36" y="157.48" rot="MR0"/>
-<instance part="OFFSHEET325" gate="G$1" x="340.36" y="154.94" rot="MR0"/>
-<instance part="OFFSHEET326" gate="G$1" x="340.36" y="149.86" rot="MR0"/>
-<instance part="OFFSHEET327" gate="G$1" x="340.36" y="147.32" rot="MR0"/>
-<instance part="OFFSHEET328" gate="G$1" x="340.36" y="142.24" rot="MR0"/>
-<instance part="OFFSHEET329" gate="G$1" x="340.36" y="139.7" rot="MR0"/>
-<instance part="OFFSHEET330" gate="G$1" x="340.36" y="134.62" rot="MR0"/>
-<instance part="OFFSHEET331" gate="G$1" x="340.36" y="132.08" rot="MR0"/>
+<instance part="OFFSHEET316" gate="G$1" x="10.16" y="154.94"/>
+<instance part="OFFSHEET317" gate="G$1" x="10.16" y="152.4"/>
+<instance part="OFFSHEET318" gate="G$1" x="86.36" y="177.8" rot="MR0"/>
+<instance part="OFFSHEET319" gate="G$1" x="86.36" y="175.26" rot="MR0"/>
+<instance part="OFFSHEET320" gate="G$1" x="10.16" y="160.02"/>
+<instance part="OFFSHEET321" gate="G$1" x="10.16" y="162.56"/>
+<instance part="OFFSHEET322" gate="G$1" x="86.36" y="162.56" rot="MR0"/>
+<instance part="OFFSHEET323" gate="G$1" x="86.36" y="160.02" rot="MR0"/>
+<instance part="OFFSHEET324" gate="G$1" x="10.16" y="167.64"/>
+<instance part="OFFSHEET325" gate="G$1" x="10.16" y="170.18"/>
+<instance part="OFFSHEET326" gate="G$1" x="86.36" y="154.94" rot="MR0"/>
+<instance part="OFFSHEET327" gate="G$1" x="86.36" y="152.4" rot="MR0"/>
+<instance part="OFFSHEET328" gate="G$1" x="10.16" y="175.26"/>
+<instance part="OFFSHEET329" gate="G$1" x="10.16" y="177.8"/>
+<instance part="OFFSHEET330" gate="G$1" x="86.36" y="167.64" rot="MR0"/>
+<instance part="OFFSHEET331" gate="G$1" x="86.36" y="170.18" rot="MR0"/>
 <instance part="OFFSHEET332" gate="G$1" x="383.54" y="187.96" rot="MR0"/>
 <instance part="OFFSHEET333" gate="G$1" x="383.54" y="185.42" rot="MR0"/>
 <instance part="OFFSHEET334" gate="G$1" x="383.54" y="180.34" rot="MR0"/>
@@ -16951,50 +16951,58 @@ whichever is best for routing, including the DS adc on page 10</text>
 </net>
 <net name="I_3.3V-0" class="0">
 <segment>
-<wire x1="317.5" y1="187.96" x2="337.82" y2="187.96" width="0.1524" layer="91"/>
-<label x="318.008" y="187.96" size="1.778" layer="95"/>
+<wire x1="33.02" y1="154.94" x2="12.7" y2="154.94" width="0.1524" layer="91"/>
+<label x="32.512" y="154.94" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH6"/>
 </segment>
 </net>
 <net name="I_3.3V-1" class="0">
 <segment>
-<wire x1="317.5" y1="180.34" x2="337.82" y2="180.34" width="0.1524" layer="91"/>
-<label x="318.008" y="180.34" size="1.778" layer="95"/>
+<wire x1="63.5" y1="177.8" x2="83.82" y2="177.8" width="0.1524" layer="91"/>
+<label x="64.008" y="177.8" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH8"/>
 </segment>
 </net>
 <net name="I_3.3V-2" class="0">
 <segment>
-<wire x1="317.5" y1="172.72" x2="337.82" y2="172.72" width="0.1524" layer="91"/>
-<label x="318.008" y="172.72" size="1.778" layer="95"/>
+<wire x1="33.02" y1="160.02" x2="12.7" y2="160.02" width="0.1524" layer="91"/>
+<label x="32.512" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH5"/>
 </segment>
 </net>
 <net name="I_3.3V-3" class="0">
 <segment>
-<wire x1="317.5" y1="165.1" x2="337.82" y2="165.1" width="0.1524" layer="91"/>
-<label x="318.008" y="165.1" size="1.778" layer="95"/>
+<wire x1="63.5" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
+<label x="64.008" y="162.56" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH12"/>
 </segment>
 </net>
 <net name="I_3.3V-4" class="0">
 <segment>
-<wire x1="317.5" y1="157.48" x2="337.82" y2="157.48" width="0.1524" layer="91"/>
-<label x="318.008" y="157.48" size="1.778" layer="95"/>
+<wire x1="33.02" y1="167.64" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
+<label x="32.512" y="167.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH3"/>
 </segment>
 </net>
 <net name="I_3.3V-5" class="0">
 <segment>
-<wire x1="317.5" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
-<label x="318.008" y="149.86" size="1.778" layer="95"/>
+<wire x1="63.5" y1="154.94" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
+<label x="64.008" y="154.94" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH14"/>
 </segment>
 </net>
 <net name="I_3.3V-6" class="0">
 <segment>
-<wire x1="317.5" y1="142.24" x2="337.82" y2="142.24" width="0.1524" layer="91"/>
-<label x="318.008" y="142.24" size="1.778" layer="95"/>
+<wire x1="33.02" y1="175.26" x2="12.7" y2="175.26" width="0.1524" layer="91"/>
+<label x="32.512" y="175.26" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH1"/>
 </segment>
 </net>
 <net name="I_3.3V-7" class="0">
 <segment>
-<wire x1="317.5" y1="134.62" x2="337.82" y2="134.62" width="0.1524" layer="91"/>
-<label x="318.008" y="134.62" size="1.778" layer="95"/>
+<wire x1="63.5" y1="170.18" x2="83.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="64.008" y="170.18" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH10"/>
 </segment>
 </net>
 <net name="I_3.3V-8" class="0">
@@ -17029,50 +17037,51 @@ whichever is best for routing, including the DS adc on page 10</text>
 </net>
 <net name="PR_3.3V-0" class="0">
 <segment>
-<wire x1="317.5" y1="185.42" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
-<label x="318.008" y="185.42" size="1.778" layer="95"/>
+<wire x1="33.02" y1="152.4" x2="12.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="32.512" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH7"/>
 </segment>
 </net>
 <net name="PR_3.3V-1" class="0">
 <segment>
-<wire x1="317.5" y1="177.8" x2="337.82" y2="177.8" width="0.1524" layer="91"/>
-<label x="318.008" y="177.8" size="1.778" layer="95"/>
+<wire x1="63.5" y1="175.26" x2="83.82" y2="175.26" width="0.1524" layer="91"/>
+<label x="64.008" y="175.26" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH9"/>
 </segment>
 </net>
 <net name="PR_3.3V-2" class="0">
 <segment>
-<wire x1="317.5" y1="170.18" x2="337.82" y2="170.18" width="0.1524" layer="91"/>
-<label x="318.008" y="170.18" size="1.778" layer="95"/>
+<wire x1="33.02" y1="162.56" x2="12.7" y2="162.56" width="0.1524" layer="91"/>
+<label x="32.512" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH4"/>
 </segment>
 </net>
 <net name="PR_3.3V-3" class="0">
 <segment>
-<wire x1="317.5" y1="162.56" x2="337.82" y2="162.56" width="0.1524" layer="91"/>
-<label x="318.008" y="162.56" size="1.778" layer="95"/>
+<wire x1="63.5" y1="160.02" x2="83.82" y2="160.02" width="0.1524" layer="91"/>
+<label x="64.008" y="160.02" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH13"/>
 </segment>
 </net>
 <net name="PR_3.3V-4" class="0">
 <segment>
-<wire x1="317.5" y1="154.94" x2="337.82" y2="154.94" width="0.1524" layer="91"/>
-<label x="318.008" y="154.94" size="1.778" layer="95"/>
+<wire x1="33.02" y1="170.18" x2="12.7" y2="170.18" width="0.1524" layer="91"/>
+<label x="32.512" y="170.18" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH2"/>
 </segment>
 </net>
 <net name="PR_3.3V-5" class="0">
 <segment>
-<wire x1="317.5" y1="147.32" x2="337.82" y2="147.32" width="0.1524" layer="91"/>
-<label x="318.008" y="147.32" size="1.778" layer="95"/>
+<wire x1="63.5" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
+<label x="64.008" y="152.4" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH15"/>
 </segment>
 </net>
 <net name="PR_3.3V-6" class="0">
 <segment>
-<wire x1="317.5" y1="139.7" x2="337.82" y2="139.7" width="0.1524" layer="91"/>
-<label x="318.008" y="139.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PR_3.3V-7" class="0">
-<segment>
-<wire x1="317.5" y1="132.08" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
-<label x="318.008" y="132.08" size="1.778" layer="95"/>
+<wire x1="33.02" y1="177.8" x2="12.7" y2="177.8" width="0.1524" layer="91"/>
+<label x="32.512" y="177.8" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U9" gate="G$1" pin="CH0"/>
 </segment>
 </net>
 <net name="PR_3.3V-8" class="0">
@@ -17331,6 +17340,13 @@ whichever is best for routing, including the DS adc on page 10</text>
 <pinref part="U15" gate="G$1" pin="MUXOUTP"/>
 <wire x1="121.92" y1="53.34" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="55.88" x2="124.46" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PR_3.3V-7" class="0">
+<segment>
+<wire x1="63.5" y1="167.64" x2="83.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="64.008" y="167.64" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="CH11"/>
 </segment>
 </net>
 </nets>
