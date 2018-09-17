@@ -1925,9 +1925,9 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY6" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY7" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY8" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="J9" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Deployment Switch"/>
+<part name="J9" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Separation Switch"/>
 <part name="SUPPLY9" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="J10" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Deployment Switch"/>
+<part name="J10" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Separation Switch"/>
 <part name="SUPPLY10" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="FRAME5" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Mechanical"/>
@@ -1944,6 +1944,9 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY16" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="C2" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R2" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
+<part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
+<part name="R3" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
+<part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2076,6 +2079,9 @@ Page 5: Mechanical</text>
 <instance part="OFFSHEET1" gate="G$1" x="248.92" y="175.26"/>
 <instance part="OFFSHEET2" gate="G$1" x="248.92" y="114.3"/>
 <instance part="OFFSHEET3" gate="G$1" x="248.92" y="71.12"/>
+<instance part="SUPPLY17" gate="G$1" x="17.78" y="12.7"/>
+<instance part="R3" gate="G$1" x="17.78" y="20.32"/>
+<instance part="SUPPLY18" gate="G$1" x="10.16" y="12.7"/>
 </instances>
 <busses>
 <bus name="BUS_I2C0_IRQ,BUS_I2C0_SCL,BUS_I2C0_SDA,BUS_I2C1_IRQ,BUS_I2C1_SCL,BUS_I2C1_SDA,BUS_SPI_MISO,BUS_SPI_MOSI,BUS_SPI_SCK,COM_USART_IRQ,COM_USART_MISO,COM_USART_MOSI,COM_USART_SCK,CTRL_!RESET,CTRL_SYNC">
@@ -2988,6 +2994,22 @@ Page 5: Mechanical</text>
 <wire x1="241.3" y1="48.26" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="45.72" x2="213.36" y2="45.72" width="0.1524" layer="91"/>
 <label x="213.36" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PGND" class="0">
+<segment>
+<pinref part="SUPPLY17" gate="G$1" pin="PGND"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="15.24" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CHASSIS" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="G$1" pin="CHASSIS"/>
+<wire x1="17.78" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="27.94" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
