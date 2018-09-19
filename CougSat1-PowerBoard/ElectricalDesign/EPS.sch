@@ -14988,8 +14988,8 @@ This occurs when the PMIC is reset or being programmed</text>
 <text x="154.94" y="-22.86" size="1.27" layer="97" align="center-left"> 3C4&gt;</text>
 <text x="154.94" y="-25.4" size="1.27" layer="97" align="center-left"> 3C4&gt;</text>
 <text x="76.2" y="58.42" size="1.27" layer="97" align="center-left"> 3A4&gt;</text>
-<text x="121.92" y="167.64" size="1.27" layer="97" align="center-left"> 3C3&gt;</text>
-<text x="121.92" y="170.18" size="1.27" layer="97" align="center-left"> 3C4&gt;</text>
+<text x="121.92" y="170.18" size="1.27" layer="97" align="center-left"> 3C3&gt;</text>
+<text x="121.92" y="167.64" size="1.27" layer="97" align="center-left"> 3C4&gt;</text>
 <text x="287.02" y="93.98" size="6.4516" layer="97" align="center-left">Note: Fix all off sheet designators linked to this sheet (JTAG too)
 
 Note: All signals above are GPIO, connect to any GPIO bank,
@@ -15833,13 +15833,6 @@ to input</text>
 </net>
 <net name="UMB_SW-A" class="0">
 <segment>
-<wire x1="96.52" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
-<label x="97.155" y="167.64" size="1.778" layer="95"/>
-<pinref part="U5" gate="B" pin="PB7"/>
-</segment>
-</net>
-<net name="UMB_SW-B" class="0">
-<segment>
 <wire x1="96.52" y1="170.18" x2="116.84" y2="170.18" width="0.1524" layer="91"/>
 <label x="97.155" y="170.18" size="1.778" layer="95"/>
 <pinref part="U5" gate="B" pin="PB6"/>
@@ -16318,6 +16311,13 @@ to input</text>
 <wire x1="50.8" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <label x="51.435" y="68.58" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="P03"/>
+</segment>
+</net>
+<net name="UMB_SW-B" class="0">
+<segment>
+<wire x1="96.52" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
+<label x="97.155" y="167.64" size="1.778" layer="95"/>
+<pinref part="U5" gate="B" pin="PB7"/>
 </segment>
 </net>
 </nets>
