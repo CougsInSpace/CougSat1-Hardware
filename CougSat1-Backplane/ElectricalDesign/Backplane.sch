@@ -539,6 +539,10 @@ Space EE</text>
 <wire x1="2.54" y1="0" x2="1.524" y2="1.016" width="0.254" layer="94"/>
 <text x="0" y="0" size="1.27" layer="97" align="center">BI</text>
 </symbol>
+<symbol name="DIAGRAM-CONNECT_DOT">
+<description>&lt;h3&gt;Block Diagram Connecting Dot&lt;/h3&gt;</description>
+<circle x="0" y="0" radius="0.254" width="0.508" layer="97"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A" prefix="FRAME">
@@ -560,6 +564,19 @@ Space EE</text>
 &lt;p&gt;Used to indicate a signal is connected on a different sheet&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="OFF_SHEET-BI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIAGRAM-CONNECT_DOT" prefix="DIA">
+<description>&lt;h3&gt;Block Diagram Connecting Dot&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIAGRAM-CONNECT_DOT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1882,7 +1899,7 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="DESIGNER" value="Bradley L. Davis"/>
 <attribute name="PART_NUMBER" value="68-0005"/>
 <attribute name="PROJECT" value="CougSat-1: Backplane"/>
-<attribute name="REV" value="2.1.0"/>
+<attribute name="REV" value="2.1.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -1947,6 +1964,13 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R3" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
+<part name="DIA1" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA2" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA3" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA4" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA5" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA6" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="DIA7" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2043,11 +2067,19 @@ Page 5: Mechanical</text>
 <text x="191.77" y="102.87" size="1.778" layer="97" align="bottom-right">Page 3, 4</text>
 <text x="222.25" y="102.87" size="1.778" layer="97" align="bottom-right">Page 3, 4</text>
 <text x="252.73" y="102.87" size="1.778" layer="97" align="bottom-right">Page 3, 4</text>
+<text x="28.702" y="127.508" size="1.778" layer="97">Power, Data</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0">
 <attribute name="TITLE" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="DIA1" gate="G$1" x="27.94" y="127"/>
+<instance part="DIA2" gate="G$1" x="58.42" y="127"/>
+<instance part="DIA3" gate="G$1" x="88.9" y="127"/>
+<instance part="DIA4" gate="G$1" x="119.38" y="127"/>
+<instance part="DIA5" gate="G$1" x="149.86" y="127"/>
+<instance part="DIA6" gate="G$1" x="180.34" y="127"/>
+<instance part="DIA7" gate="G$1" x="210.82" y="127"/>
 </instances>
 <busses>
 </busses>
