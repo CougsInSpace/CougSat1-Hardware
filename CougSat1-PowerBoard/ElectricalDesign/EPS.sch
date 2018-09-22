@@ -17327,7 +17327,7 @@ Addr = 0x6A | R/!W</text>
 <text x="71.12" y="48.26" size="1.778" layer="97" align="top-left">Note:
 Addr = 0x6C | R/!W</text>
 <text x="10.16" y="86.36" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;4B2</text>
-<text x="86.36" y="68.58" size="1.27" layer="97" align="center-left"> &lt;4B5</text>
+<text x="10.16" y="71.12" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;4B5</text>
 <text x="86.36" y="86.36" size="1.27" layer="97" align="center-left"> &lt;4D3</text>
 <text x="10.16" y="60.96" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;4A3</text>
 <text x="86.36" y="60.96" size="1.27" layer="97" align="center-left"> &lt;4A5</text>
@@ -17335,12 +17335,12 @@ Addr = 0x6C | R/!W</text>
 <text x="86.36" y="71.12" size="1.27" layer="97" align="center-left"> &lt;5C6</text>
 <text x="10.16" y="63.5" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
 <text x="86.36" y="63.5" size="1.27" layer="97" align="center-left"> &lt;1xx</text>
-<text x="10.16" y="71.12" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
+<text x="10.16" y="76.2" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
 <text x="86.36" y="78.74" size="1.27" layer="97" align="center-left"> &lt;1xx</text>
 <text x="10.16" y="68.58" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
 <text x="86.36" y="83.82" size="1.27" layer="97" align="center-left"> &lt;1xx</text>
 <text x="10.16" y="78.74" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
-<text x="10.16" y="76.2" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
+<text x="86.36" y="68.58" size="1.27" layer="97" align="center-left"> &lt;1xx</text>
 <text x="10.16" y="83.82" size="1.27" layer="97" rot="MR0" align="center-left"> &lt;1xx</text>
 <text x="48.26" y="102.87" size="1.778" layer="97" align="bottom-center">CAD Note: Decoupling</text>
 <wire x1="35.56" y1="121.92" x2="35.56" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
@@ -17719,9 +17719,9 @@ allows inputs up to ±5.4V</text>
 </net>
 <net name="UMB_IN" class="0">
 <segment>
-<wire x1="33.02" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="32.512" y="76.2" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U13" gate="G$1" pin="CH3"/>
+<wire x1="33.02" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
+<label x="32.512" y="71.12" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="CH4"/>
 </segment>
 </net>
 <net name="TEMP-BATT-A" class="0">
@@ -17818,9 +17818,9 @@ allows inputs up to ±5.4V</text>
 <label x="167.64" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="33.02" y1="71.12" x2="15.24" y2="71.12" width="0.1524" layer="91"/>
-<label x="32.512" y="71.12" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U13" gate="G$1" pin="CH4"/>
+<wire x1="63.5" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
+<label x="64.008" y="68.58" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="CH13"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
@@ -17976,13 +17976,6 @@ allows inputs up to ±5.4V</text>
 <pinref part="U12" gate="G$1" pin="CH2"/>
 </segment>
 </net>
-<net name="TEMP-BATT-B" class="0">
-<segment>
-<wire x1="63.5" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
-<label x="64.008" y="68.58" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="CH13"/>
-</segment>
-</net>
 <net name="VBATT-B" class="0">
 <segment>
 <wire x1="63.5" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
@@ -18002,6 +17995,13 @@ allows inputs up to ±5.4V</text>
 <wire x1="33.02" y1="167.64" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
 <label x="32.512" y="167.64" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U12" gate="G$1" pin="CH3"/>
+</segment>
+</net>
+<net name="TEMP-BATT-B" class="0">
+<segment>
+<wire x1="33.02" y1="76.2" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
+<label x="32.512" y="76.2" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U13" gate="G$1" pin="CH3"/>
 </segment>
 </net>
 </nets>
