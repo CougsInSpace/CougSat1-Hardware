@@ -221,7 +221,6 @@
 <wire x1="33.7" y1="32.5" x2="33.7" y2="27.5" width="0.15" layer="22" locked="yes"/>
 <wire x1="33.7" y1="27.5" x2="34.5" y2="27.5" width="0.15" layer="22" locked="yes"/>
 <wire x1="34.5" y1="27.5" x2="34.5" y2="12" width="0.15" layer="22" locked="yes"/>
-<wire x1="0" y1="0" x2="93.4" y2="0" width="0.2" layer="49"/>
 </plain>
 <libraries>
 <library name="CougsInSpace-Energy">
@@ -4047,7 +4046,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="44.8" y="-8.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="44.8" y="-8.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
 </element>
-<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="65.3" y="-36.5" rot="R90"/>
+<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="28" y="2.8" rot="R90"/>
 <element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-BRADLEY" value="SIGNATUREBRADLEY" x="86.7" y="-33.7" rot="R90"/>
 <element name="R79" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="62.4" y="-36.8" rot="MR180">
 <attribute name="PACKAGE" value="1608" x="62.4" y="-36.8" size="0.8" layer="28" font="vector" ratio="15" rot="MR180" display="off"/>
