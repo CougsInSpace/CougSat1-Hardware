@@ -777,7 +777,8 @@ Antenna</text>
 <text x="111.76" y="73.66" size="3.81" layer="94" align="center">SD Cards</text>
 <text x="215.9" y="60.96" size="3.81" layer="94" align="center">Connector:
 To Backplane</text>
-<text x="160.02" y="43.18" size="3.81" layer="94" align="center">IFJR</text>
+<text x="160.02" y="43.18" size="3.81" layer="94" align="center">IFJR
+µController</text>
 <text x="111.76" y="43.18" size="3.81" layer="94" align="center">SD Cards</text>
 <wire x1="198.12" y1="86.36" x2="233.68" y2="86.36" width="0.254" layer="94"/>
 <wire x1="233.68" y1="86.36" x2="233.68" y2="35.56" width="0.254" layer="94"/>
