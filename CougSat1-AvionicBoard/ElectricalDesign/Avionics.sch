@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -610,7 +610,7 @@ Space EE</text>
 <attribute name="DESIGNER" value="Gabe Adamson"/>
 <attribute name="PART_NUMBER" value="68-0004"/>
 <attribute name="PROJECT" value="CougSat-1: Avionics"/>
-<attribute name="REV" value="1.0.0"/>
+<attribute name="REV" value="1.1.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
