@@ -582,184 +582,155 @@ Space EE</text>
 </part>
 <part name="DIA1" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA2" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
-<part name="DIA3" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <wire x1="137.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram</text>
-<text x="40.64" y="167.64" size="3.81" layer="94" align="center">Ground
+<text x="38.1" y="149.86" size="3.81" layer="94" align="center">Ground
 Computer</text>
-<text x="81.28" y="167.64" size="3.81" layer="94" align="center">USB SDR</text>
-<text x="121.92" y="147.32" size="3.81" layer="94" align="center">Power
+<text x="78.74" y="149.86" size="3.81" layer="94" align="center">USB SDR</text>
+<text x="119.38" y="124.46" size="3.81" layer="94" align="center">Power
 Amplifier</text>
-<text x="195.58" y="167.64" size="3.81" layer="94" align="center">High Gain
+<text x="193.04" y="149.86" size="3.81" layer="94" align="center">High Gain
 230mm
 Antenna</text>
-<text x="203.2" y="142.24" size="3.81" layer="94" align="center">High Gain 700mm
-+45° Polarization
+<text x="193.04" y="124.46" size="3.81" layer="94" align="center">High Gain
+700mm
 Antenna</text>
-<wire x1="25.4" y1="175.26" x2="25.4" y2="160.02" width="0.254" layer="94"/>
-<wire x1="25.4" y1="160.02" x2="55.88" y2="160.02" width="0.254" layer="94"/>
-<wire x1="55.88" y1="160.02" x2="55.88" y2="175.26" width="0.254" layer="94"/>
-<wire x1="55.88" y1="175.26" x2="25.4" y2="175.26" width="0.254" layer="94"/>
-<wire x1="66.04" y1="175.26" x2="96.52" y2="175.26" width="0.254" layer="94"/>
-<wire x1="96.52" y1="175.26" x2="96.52" y2="160.02" width="0.254" layer="94"/>
-<wire x1="96.52" y1="160.02" x2="66.04" y2="160.02" width="0.254" layer="94"/>
-<wire x1="66.04" y1="160.02" x2="66.04" y2="175.26" width="0.254" layer="94"/>
-<wire x1="106.68" y1="175.26" x2="106.68" y2="160.02" width="0.254" layer="94"/>
-<wire x1="106.68" y1="160.02" x2="137.16" y2="160.02" width="0.254" layer="94"/>
-<wire x1="137.16" y1="160.02" x2="137.16" y2="175.26" width="0.254" layer="94"/>
-<wire x1="137.16" y1="175.26" x2="106.68" y2="175.26" width="0.254" layer="94"/>
-<wire x1="180.34" y1="177.8" x2="180.34" y2="157.48" width="0.254" layer="94"/>
-<wire x1="180.34" y1="157.48" x2="210.82" y2="157.48" width="0.254" layer="94"/>
-<wire x1="210.82" y1="157.48" x2="210.82" y2="177.8" width="0.254" layer="94"/>
-<wire x1="210.82" y1="177.8" x2="180.34" y2="177.8" width="0.254" layer="94"/>
-<wire x1="180.34" y1="152.4" x2="180.34" y2="132.08" width="0.254" layer="94"/>
-<wire x1="180.34" y1="132.08" x2="226.06" y2="132.08" width="0.254" layer="94"/>
-<wire x1="226.06" y1="132.08" x2="226.06" y2="152.4" width="0.254" layer="94"/>
-<wire x1="226.06" y1="152.4" x2="180.34" y2="152.4" width="0.254" layer="94"/>
-<text x="157.48" y="167.64" size="3.81" layer="94" align="center">RF
+<wire x1="22.86" y1="157.48" x2="22.86" y2="142.24" width="0.254" layer="94"/>
+<wire x1="22.86" y1="142.24" x2="53.34" y2="142.24" width="0.254" layer="94"/>
+<wire x1="53.34" y1="142.24" x2="53.34" y2="157.48" width="0.254" layer="94"/>
+<wire x1="53.34" y1="157.48" x2="22.86" y2="157.48" width="0.254" layer="94"/>
+<wire x1="63.5" y1="157.48" x2="93.98" y2="157.48" width="0.254" layer="94"/>
+<wire x1="93.98" y1="157.48" x2="93.98" y2="142.24" width="0.254" layer="94"/>
+<wire x1="93.98" y1="142.24" x2="63.5" y2="142.24" width="0.254" layer="94"/>
+<wire x1="63.5" y1="142.24" x2="63.5" y2="157.48" width="0.254" layer="94"/>
+<wire x1="104.14" y1="157.48" x2="104.14" y2="142.24" width="0.254" layer="94"/>
+<wire x1="104.14" y1="142.24" x2="134.62" y2="142.24" width="0.254" layer="94"/>
+<wire x1="134.62" y1="142.24" x2="134.62" y2="157.48" width="0.254" layer="94"/>
+<wire x1="134.62" y1="157.48" x2="104.14" y2="157.48" width="0.254" layer="94"/>
+<wire x1="177.8" y1="160.02" x2="177.8" y2="139.7" width="0.254" layer="94"/>
+<wire x1="177.8" y1="139.7" x2="208.28" y2="139.7" width="0.254" layer="94"/>
+<wire x1="208.28" y1="139.7" x2="208.28" y2="160.02" width="0.254" layer="94"/>
+<wire x1="208.28" y1="160.02" x2="177.8" y2="160.02" width="0.254" layer="94"/>
+<wire x1="177.8" y1="134.62" x2="177.8" y2="114.3" width="0.254" layer="94"/>
+<wire x1="177.8" y1="114.3" x2="208.28" y2="114.3" width="0.254" layer="94"/>
+<wire x1="208.28" y1="114.3" x2="208.28" y2="134.62" width="0.254" layer="94"/>
+<wire x1="208.28" y1="134.62" x2="177.8" y2="134.62" width="0.254" layer="94"/>
+<text x="154.94" y="149.86" size="3.81" layer="94" align="center">RF
 Switch</text>
-<wire x1="147.32" y1="175.26" x2="147.32" y2="160.02" width="0.254" layer="94"/>
-<wire x1="147.32" y1="160.02" x2="167.64" y2="160.02" width="0.254" layer="94"/>
-<wire x1="167.64" y1="160.02" x2="167.64" y2="175.26" width="0.254" layer="94"/>
-<wire x1="167.64" y1="175.26" x2="147.32" y2="175.26" width="0.254" layer="94"/>
-<text x="203.2" y="116.84" size="3.81" layer="94" align="center">High Gain 700mm
--45° Polarization
-Antenna</text>
-<wire x1="180.34" y1="127" x2="180.34" y2="106.68" width="0.254" layer="94"/>
-<wire x1="180.34" y1="106.68" x2="226.06" y2="106.68" width="0.254" layer="94"/>
-<wire x1="226.06" y1="106.68" x2="226.06" y2="127" width="0.254" layer="94"/>
-<wire x1="226.06" y1="127" x2="180.34" y2="127" width="0.254" layer="94"/>
-<text x="157.48" y="129.54" size="3.81" layer="94" align="center">RF
-Switch</text>
-<wire x1="147.32" y1="137.16" x2="147.32" y2="121.92" width="0.254" layer="94"/>
-<wire x1="147.32" y1="121.92" x2="167.64" y2="121.92" width="0.254" layer="94"/>
-<wire x1="167.64" y1="121.92" x2="167.64" y2="137.16" width="0.254" layer="94"/>
-<wire x1="167.64" y1="137.16" x2="147.32" y2="137.16" width="0.254" layer="94"/>
-<wire x1="167.64" y1="167.64" x2="180.34" y2="167.64" width="0.254" layer="97"/>
-<wire x1="180.34" y1="142.24" x2="177.8" y2="144.78" width="0.254" layer="97"/>
-<wire x1="177.8" y1="144.78" x2="180.34" y2="142.24" width="0.254" layer="97"/>
-<wire x1="180.34" y1="142.24" x2="177.8" y2="139.7" width="0.254" layer="97"/>
-<wire x1="180.34" y1="142.24" x2="172.72" y2="142.24" width="0.254" layer="97"/>
-<wire x1="172.72" y1="142.24" x2="172.72" y2="129.54" width="0.254" layer="97"/>
-<wire x1="172.72" y1="129.54" x2="167.64" y2="129.54" width="0.254" layer="97"/>
-<wire x1="167.64" y1="129.54" x2="172.72" y2="129.54" width="0.254" layer="97"/>
-<wire x1="172.72" y1="129.54" x2="172.72" y2="116.84" width="0.254" layer="97"/>
-<wire x1="172.72" y1="116.84" x2="180.34" y2="116.84" width="0.254" layer="97"/>
-<wire x1="180.34" y1="116.84" x2="177.8" y2="119.38" width="0.254" layer="97"/>
-<wire x1="180.34" y1="116.84" x2="177.8" y2="114.3" width="0.254" layer="97"/>
-<wire x1="167.64" y1="129.54" x2="170.18" y2="132.08" width="0.254" layer="97"/>
-<wire x1="167.64" y1="129.54" x2="170.18" y2="127" width="0.254" layer="97"/>
-<wire x1="137.16" y1="167.64" x2="147.32" y2="167.64" width="0.254" layer="97"/>
-<text x="121.92" y="167.64" size="3.81" layer="94" align="center">Low Noise
+<wire x1="144.78" y1="157.48" x2="144.78" y2="142.24" width="0.254" layer="94"/>
+<wire x1="144.78" y1="142.24" x2="165.1" y2="142.24" width="0.254" layer="94"/>
+<wire x1="165.1" y1="142.24" x2="165.1" y2="157.48" width="0.254" layer="94"/>
+<wire x1="165.1" y1="157.48" x2="144.78" y2="157.48" width="0.254" layer="94"/>
+<wire x1="165.1" y1="149.86" x2="177.8" y2="149.86" width="0.254" layer="97"/>
+<wire x1="177.8" y1="124.46" x2="175.26" y2="127" width="0.254" layer="97"/>
+<wire x1="175.26" y1="127" x2="177.8" y2="124.46" width="0.254" layer="97"/>
+<wire x1="177.8" y1="124.46" x2="175.26" y2="121.92" width="0.254" layer="97"/>
+<wire x1="177.8" y1="124.46" x2="154.94" y2="124.46" width="0.254" layer="97"/>
+<wire x1="154.94" y1="124.46" x2="134.62" y2="124.46" width="0.254" layer="97"/>
+<wire x1="134.62" y1="149.86" x2="144.78" y2="149.86" width="0.254" layer="97"/>
+<text x="119.38" y="149.86" size="3.81" layer="94" align="center">Low Noise
 Amplifier</text>
-<wire x1="106.68" y1="154.94" x2="106.68" y2="139.7" width="0.254" layer="94"/>
-<wire x1="106.68" y1="139.7" x2="137.16" y2="139.7" width="0.254" layer="94"/>
-<wire x1="137.16" y1="139.7" x2="137.16" y2="154.94" width="0.254" layer="94"/>
-<wire x1="137.16" y1="154.94" x2="106.68" y2="154.94" width="0.254" layer="94"/>
-<wire x1="96.52" y1="167.64" x2="106.68" y2="167.64" width="0.254" layer="97"/>
-<wire x1="106.68" y1="147.32" x2="81.28" y2="147.32" width="0.254" layer="97"/>
-<wire x1="81.28" y1="147.32" x2="81.28" y2="160.02" width="0.254" layer="97"/>
-<wire x1="66.04" y1="167.64" x2="55.88" y2="167.64" width="0.254" layer="97"/>
-<wire x1="55.88" y1="167.64" x2="58.42" y2="170.18" width="0.254" layer="97"/>
-<wire x1="58.42" y1="170.18" x2="55.88" y2="167.64" width="0.254" layer="97"/>
-<wire x1="55.88" y1="167.64" x2="58.42" y2="165.1" width="0.254" layer="97"/>
-<wire x1="63.5" y1="170.18" x2="66.04" y2="167.64" width="0.254" layer="97"/>
-<wire x1="66.04" y1="167.64" x2="63.5" y2="165.1" width="0.254" layer="97"/>
-<wire x1="175.26" y1="180.34" x2="231.14" y2="180.34" width="0.254" layer="97" style="shortdash"/>
-<wire x1="231.14" y1="180.34" x2="231.14" y2="96.52" width="0.254" layer="97" style="shortdash"/>
-<wire x1="231.14" y1="96.52" x2="203.2" y2="96.52" width="0.254" layer="97" style="shortdash"/>
-<wire x1="203.2" y1="96.52" x2="175.26" y2="96.52" width="0.254" layer="97" style="shortdash"/>
-<wire x1="175.26" y1="96.52" x2="175.26" y2="180.34" width="0.254" layer="97" style="shortdash"/>
-<text x="185.42" y="76.2" size="3.81" layer="94" align="center">Elevation
+<wire x1="104.14" y1="132.08" x2="104.14" y2="116.84" width="0.254" layer="94"/>
+<wire x1="104.14" y1="116.84" x2="134.62" y2="116.84" width="0.254" layer="94"/>
+<wire x1="134.62" y1="116.84" x2="134.62" y2="132.08" width="0.254" layer="94"/>
+<wire x1="134.62" y1="132.08" x2="104.14" y2="132.08" width="0.254" layer="94"/>
+<wire x1="93.98" y1="149.86" x2="104.14" y2="149.86" width="0.254" layer="97"/>
+<wire x1="104.14" y1="124.46" x2="78.74" y2="124.46" width="0.254" layer="97"/>
+<wire x1="78.74" y1="124.46" x2="78.74" y2="142.24" width="0.254" layer="97"/>
+<wire x1="63.5" y1="149.86" x2="53.34" y2="149.86" width="0.254" layer="97"/>
+<wire x1="53.34" y1="149.86" x2="55.88" y2="152.4" width="0.254" layer="97"/>
+<wire x1="55.88" y1="152.4" x2="53.34" y2="149.86" width="0.254" layer="97"/>
+<wire x1="53.34" y1="149.86" x2="55.88" y2="147.32" width="0.254" layer="97"/>
+<wire x1="60.96" y1="152.4" x2="63.5" y2="149.86" width="0.254" layer="97"/>
+<wire x1="63.5" y1="149.86" x2="60.96" y2="147.32" width="0.254" layer="97"/>
+<wire x1="172.72" y1="162.56" x2="213.36" y2="162.56" width="0.254" layer="97" style="shortdash"/>
+<wire x1="213.36" y1="162.56" x2="213.36" y2="106.68" width="0.254" layer="97" style="shortdash"/>
+<wire x1="213.36" y1="106.68" x2="193.04" y2="106.68" width="0.254" layer="97" style="shortdash"/>
+<wire x1="193.04" y1="106.68" x2="172.72" y2="106.68" width="0.254" layer="97" style="shortdash"/>
+<wire x1="172.72" y1="106.68" x2="172.72" y2="162.56" width="0.254" layer="97" style="shortdash"/>
+<text x="175.26" y="86.36" size="3.81" layer="94" align="center">Elevation
 Servo</text>
-<text x="220.98" y="76.2" size="3.81" layer="94" align="center">Azimuth
+<text x="210.82" y="86.36" size="3.81" layer="94" align="center">Azimuth
 Servo</text>
-<wire x1="172.72" y1="83.82" x2="172.72" y2="68.58" width="0.254" layer="94"/>
-<wire x1="172.72" y1="68.58" x2="198.12" y2="68.58" width="0.254" layer="94"/>
-<wire x1="198.12" y1="68.58" x2="198.12" y2="83.82" width="0.254" layer="94"/>
-<wire x1="198.12" y1="83.82" x2="172.72" y2="83.82" width="0.254" layer="94"/>
-<wire x1="208.28" y1="83.82" x2="233.68" y2="83.82" width="0.254" layer="94"/>
-<wire x1="233.68" y1="83.82" x2="233.68" y2="68.58" width="0.254" layer="94"/>
-<wire x1="233.68" y1="68.58" x2="208.28" y2="68.58" width="0.254" layer="94"/>
-<wire x1="208.28" y1="68.58" x2="208.28" y2="83.82" width="0.254" layer="94"/>
-<text x="176.53" y="97.79" size="3.81" layer="97">Antenna Tracker</text>
-<text x="203.2" y="48.26" size="3.81" layer="94" align="center">Antenna Tracker
+<wire x1="162.56" y1="93.98" x2="162.56" y2="78.74" width="0.254" layer="94"/>
+<wire x1="162.56" y1="78.74" x2="187.96" y2="78.74" width="0.254" layer="94"/>
+<wire x1="187.96" y1="78.74" x2="187.96" y2="93.98" width="0.254" layer="94"/>
+<wire x1="187.96" y1="93.98" x2="162.56" y2="93.98" width="0.254" layer="94"/>
+<wire x1="198.12" y1="93.98" x2="223.52" y2="93.98" width="0.254" layer="94"/>
+<wire x1="223.52" y1="93.98" x2="223.52" y2="78.74" width="0.254" layer="94"/>
+<wire x1="223.52" y1="78.74" x2="198.12" y2="78.74" width="0.254" layer="94"/>
+<wire x1="198.12" y1="78.74" x2="198.12" y2="93.98" width="0.254" layer="94"/>
+<text x="173.99" y="107.95" size="3.81" layer="97">Antenna Tracker</text>
+<text x="193.04" y="58.42" size="3.81" layer="94" align="center">Antenna Tracker
 µController</text>
-<wire x1="172.72" y1="58.42" x2="233.68" y2="58.42" width="0.254" layer="94"/>
-<wire x1="233.68" y1="58.42" x2="233.68" y2="38.1" width="0.254" layer="94"/>
-<wire x1="233.68" y1="38.1" x2="172.72" y2="38.1" width="0.254" layer="94"/>
-<wire x1="172.72" y1="38.1" x2="172.72" y2="58.42" width="0.254" layer="94"/>
-<wire x1="185.42" y1="58.42" x2="185.42" y2="68.58" width="0.254" layer="97"/>
-<wire x1="185.42" y1="68.58" x2="187.96" y2="66.04" width="0.254" layer="97"/>
-<wire x1="185.42" y1="68.58" x2="182.88" y2="66.04" width="0.254" layer="97"/>
-<wire x1="220.98" y1="58.42" x2="220.98" y2="68.58" width="0.254" layer="97"/>
-<wire x1="220.98" y1="68.58" x2="218.44" y2="66.04" width="0.254" layer="97"/>
-<wire x1="220.98" y1="68.58" x2="223.52" y2="66.04" width="0.254" layer="97"/>
-<wire x1="185.42" y1="83.82" x2="185.42" y2="88.9" width="0.254" layer="97"/>
-<wire x1="185.42" y1="88.9" x2="203.2" y2="88.9" width="0.254" layer="97"/>
-<wire x1="203.2" y1="88.9" x2="203.2" y2="96.52" width="0.254" layer="97"/>
-<wire x1="203.2" y1="96.52" x2="200.66" y2="93.98" width="0.254" layer="97"/>
-<wire x1="203.2" y1="96.52" x2="205.74" y2="93.98" width="0.254" layer="97"/>
-<wire x1="220.98" y1="83.82" x2="220.98" y2="88.9" width="0.254" layer="97"/>
-<wire x1="220.98" y1="88.9" x2="203.2" y2="88.9" width="0.254" layer="97"/>
-<wire x1="40.64" y1="160.02" x2="40.64" y2="48.26" width="0.254" layer="97"/>
-<wire x1="40.64" y1="48.26" x2="172.72" y2="48.26" width="0.254" layer="97"/>
-<wire x1="172.72" y1="48.26" x2="170.18" y2="50.8" width="0.254" layer="97"/>
-<wire x1="172.72" y1="48.26" x2="170.18" y2="45.72" width="0.254" layer="97"/>
-<wire x1="170.18" y1="170.18" x2="167.64" y2="167.64" width="0.254" layer="97"/>
-<wire x1="167.64" y1="167.64" x2="170.18" y2="165.1" width="0.254" layer="97"/>
-<text x="134.62" y="76.2" size="3.81" layer="94" align="center">Power Supply</text>
-<wire x1="116.84" y1="83.82" x2="152.4" y2="83.82" width="0.254" layer="94"/>
-<wire x1="152.4" y1="83.82" x2="152.4" y2="68.58" width="0.254" layer="94"/>
-<wire x1="152.4" y1="68.58" x2="116.84" y2="68.58" width="0.254" layer="94"/>
-<wire x1="116.84" y1="68.58" x2="116.84" y2="83.82" width="0.254" layer="94"/>
-<wire x1="134.62" y1="68.58" x2="134.62" y2="63.5" width="0.254" layer="97"/>
-<wire x1="134.62" y1="63.5" x2="175.26" y2="63.5" width="0.254" layer="97"/>
-<wire x1="175.26" y1="63.5" x2="210.82" y2="63.5" width="0.254" layer="97"/>
-<wire x1="210.82" y1="63.5" x2="210.82" y2="68.58" width="0.254" layer="97"/>
-<wire x1="210.82" y1="68.58" x2="208.28" y2="66.04" width="0.254" layer="97"/>
-<wire x1="210.82" y1="68.58" x2="213.36" y2="66.04" width="0.254" layer="97"/>
-<wire x1="175.26" y1="68.58" x2="172.72" y2="66.04" width="0.254" layer="97"/>
-<wire x1="175.26" y1="68.58" x2="177.8" y2="66.04" width="0.254" layer="97"/>
-<wire x1="175.26" y1="68.58" x2="175.26" y2="63.5" width="0.254" layer="97"/>
-<wire x1="104.14" y1="149.86" x2="106.68" y2="147.32" width="0.254" layer="97"/>
-<wire x1="106.68" y1="147.32" x2="104.14" y2="144.78" width="0.254" layer="97"/>
-<wire x1="99.06" y1="170.18" x2="96.52" y2="167.64" width="0.254" layer="97"/>
-<wire x1="96.52" y1="167.64" x2="99.06" y2="165.1" width="0.254" layer="97"/>
-<wire x1="139.7" y1="170.18" x2="137.16" y2="167.64" width="0.254" layer="97"/>
-<wire x1="137.16" y1="167.64" x2="139.7" y2="165.1" width="0.254" layer="97"/>
-<wire x1="157.48" y1="137.16" x2="157.48" y2="160.02" width="0.254" layer="97"/>
-<wire x1="157.48" y1="160.02" x2="154.94" y2="157.48" width="0.254" layer="97"/>
-<wire x1="157.48" y1="160.02" x2="160.02" y2="157.48" width="0.254" layer="97"/>
-<wire x1="137.16" y1="147.32" x2="149.86" y2="147.32" width="0.254" layer="97"/>
-<wire x1="149.86" y1="147.32" x2="149.86" y2="137.16" width="0.254" layer="97"/>
-<wire x1="149.86" y1="137.16" x2="152.4" y2="139.7" width="0.254" layer="97"/>
-<wire x1="147.32" y1="139.7" x2="149.86" y2="137.16" width="0.254" layer="97"/>
-<text x="60.96" y="168.148" size="1.778" layer="97" align="bottom-center">USB</text>
-<text x="96.52" y="147.828" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="101.6" y="168.148" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="142.24" y="168.148" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="142.24" y="147.828" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="172.72" y="168.148" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="172.72" y="142.748" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="160.02" y="145.288" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="213.36" y="89.408" size="1.778" layer="97" align="bottom-center">Mechanical Array</text>
-<text x="160.02" y="64.008" size="1.778" layer="97" align="bottom-center">6V</text>
-<text x="193.04" y="58.928" size="1.778" layer="97" align="bottom-center">Servo PWM</text>
-<text x="228.6" y="58.928" size="1.778" layer="97" align="bottom-center">Servo PWM</text>
-<text x="162.56" y="48.768" size="1.778" layer="97" align="bottom-center">USB</text>
+<wire x1="162.56" y1="68.58" x2="223.52" y2="68.58" width="0.254" layer="94"/>
+<wire x1="223.52" y1="68.58" x2="223.52" y2="48.26" width="0.254" layer="94"/>
+<wire x1="223.52" y1="48.26" x2="162.56" y2="48.26" width="0.254" layer="94"/>
+<wire x1="162.56" y1="48.26" x2="162.56" y2="68.58" width="0.254" layer="94"/>
+<wire x1="175.26" y1="68.58" x2="175.26" y2="78.74" width="0.254" layer="97"/>
+<wire x1="175.26" y1="78.74" x2="177.8" y2="76.2" width="0.254" layer="97"/>
+<wire x1="175.26" y1="78.74" x2="172.72" y2="76.2" width="0.254" layer="97"/>
+<wire x1="210.82" y1="68.58" x2="210.82" y2="78.74" width="0.254" layer="97"/>
+<wire x1="210.82" y1="78.74" x2="208.28" y2="76.2" width="0.254" layer="97"/>
+<wire x1="210.82" y1="78.74" x2="213.36" y2="76.2" width="0.254" layer="97"/>
+<wire x1="175.26" y1="93.98" x2="175.26" y2="99.06" width="0.254" layer="97"/>
+<wire x1="175.26" y1="99.06" x2="193.04" y2="99.06" width="0.254" layer="97"/>
+<wire x1="193.04" y1="99.06" x2="193.04" y2="106.68" width="0.254" layer="97"/>
+<wire x1="193.04" y1="106.68" x2="190.5" y2="104.14" width="0.254" layer="97"/>
+<wire x1="193.04" y1="106.68" x2="195.58" y2="104.14" width="0.254" layer="97"/>
+<wire x1="210.82" y1="93.98" x2="210.82" y2="99.06" width="0.254" layer="97"/>
+<wire x1="210.82" y1="99.06" x2="193.04" y2="99.06" width="0.254" layer="97"/>
+<wire x1="38.1" y1="142.24" x2="38.1" y2="58.42" width="0.254" layer="97"/>
+<wire x1="38.1" y1="58.42" x2="162.56" y2="58.42" width="0.254" layer="97"/>
+<wire x1="162.56" y1="58.42" x2="160.02" y2="60.96" width="0.254" layer="97"/>
+<wire x1="162.56" y1="58.42" x2="160.02" y2="55.88" width="0.254" layer="97"/>
+<wire x1="167.64" y1="152.4" x2="165.1" y2="149.86" width="0.254" layer="97"/>
+<wire x1="165.1" y1="149.86" x2="167.64" y2="147.32" width="0.254" layer="97"/>
+<text x="124.46" y="86.36" size="3.81" layer="94" align="center">Power Supply</text>
+<wire x1="106.68" y1="93.98" x2="142.24" y2="93.98" width="0.254" layer="94"/>
+<wire x1="142.24" y1="93.98" x2="142.24" y2="78.74" width="0.254" layer="94"/>
+<wire x1="142.24" y1="78.74" x2="106.68" y2="78.74" width="0.254" layer="94"/>
+<wire x1="106.68" y1="78.74" x2="106.68" y2="93.98" width="0.254" layer="94"/>
+<wire x1="124.46" y1="78.74" x2="124.46" y2="73.66" width="0.254" layer="97"/>
+<wire x1="124.46" y1="73.66" x2="165.1" y2="73.66" width="0.254" layer="97"/>
+<wire x1="165.1" y1="73.66" x2="200.66" y2="73.66" width="0.254" layer="97"/>
+<wire x1="200.66" y1="73.66" x2="200.66" y2="78.74" width="0.254" layer="97"/>
+<wire x1="200.66" y1="78.74" x2="198.12" y2="76.2" width="0.254" layer="97"/>
+<wire x1="200.66" y1="78.74" x2="203.2" y2="76.2" width="0.254" layer="97"/>
+<wire x1="165.1" y1="78.74" x2="162.56" y2="76.2" width="0.254" layer="97"/>
+<wire x1="165.1" y1="78.74" x2="167.64" y2="76.2" width="0.254" layer="97"/>
+<wire x1="165.1" y1="78.74" x2="165.1" y2="73.66" width="0.254" layer="97"/>
+<wire x1="101.6" y1="127" x2="104.14" y2="124.46" width="0.254" layer="97"/>
+<wire x1="104.14" y1="124.46" x2="101.6" y2="121.92" width="0.254" layer="97"/>
+<wire x1="96.52" y1="152.4" x2="93.98" y2="149.86" width="0.254" layer="97"/>
+<wire x1="93.98" y1="149.86" x2="96.52" y2="147.32" width="0.254" layer="97"/>
+<wire x1="137.16" y1="152.4" x2="134.62" y2="149.86" width="0.254" layer="97"/>
+<wire x1="134.62" y1="149.86" x2="137.16" y2="147.32" width="0.254" layer="97"/>
+<wire x1="154.94" y1="142.24" x2="152.4" y2="139.7" width="0.254" layer="97"/>
+<wire x1="154.94" y1="142.24" x2="157.48" y2="139.7" width="0.254" layer="97"/>
+<text x="58.42" y="150.368" size="1.778" layer="97" align="bottom-center">USB</text>
+<text x="93.98" y="124.968" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="99.06" y="150.368" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="139.7" y="150.368" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="139.7" y="124.968" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="170.18" y="150.368" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="203.2" y="99.568" size="1.778" layer="97" align="bottom-center">Mechanical Array</text>
+<text x="149.86" y="74.168" size="1.778" layer="97" align="bottom-center">6V</text>
+<text x="182.88" y="69.088" size="1.778" layer="97" align="bottom-center">Servo PWM</text>
+<text x="218.44" y="69.088" size="1.778" layer="97" align="bottom-center">Servo PWM</text>
+<text x="152.4" y="58.928" size="1.778" layer="97" align="bottom-center">USB</text>
+<wire x1="154.94" y1="124.46" x2="154.94" y2="142.24" width="0.254" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0">
 <attribute name="TITLE" x="0" y="0" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="DIA1" gate="G$1" x="175.26" y="63.5"/>
-<instance part="DIA2" gate="G$1" x="203.2" y="88.9"/>
-<instance part="DIA3" gate="G$1" x="172.72" y="129.54"/>
+<instance part="DIA1" gate="G$1" x="165.1" y="73.66"/>
+<instance part="DIA2" gate="G$1" x="193.04" y="99.06"/>
 </instances>
 <busses>
 </busses>
