@@ -3351,15 +3351,6 @@ Last character is an incremented letter for each variant of the same value and p
 <circle x="0" y="0" radius="0.95" width="0.15" layer="40"/>
 <circle x="0" y="0" radius="0.95" width="0.15" layer="22"/>
 </package>
-<package name="THT-1.0">
-<description>&lt;h3&gt;Through Hole 1.0 mm Drill</description>
-<pad name="1" x="0" y="0" drill="1"/>
-<text x="0" y="1.6" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.075" width="0.15" layer="21"/>
-<circle x="0" y="0" radius="1.075" width="0.15" layer="39"/>
-<circle x="0" y="0" radius="1.075" width="0.15" layer="40"/>
-<circle x="0" y="0" radius="1.075" width="0.15" layer="22"/>
-</package>
 <package name="THT-1.5">
 <description>&lt;h3&gt;Through Hole 1.5 mm Drill</description>
 <pad name="1" x="0" y="0" drill="1.5"/>
@@ -3433,6 +3424,13 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="7.9" y1="7.85" x2="9.4" y2="7.85" width="0.15" layer="39"/>
 <wire x1="9.4" y1="7.85" x2="9.4" y2="6.425" width="0.15" layer="39"/>
 <text x="0" y="-1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="THT-1.0">
+<description>&lt;h3&gt;Through Hole 1.0 mm Drill</description>
+<pad name="1" x="0" y="0" drill="1"/>
+<text x="0" y="1.6" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="1.075" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="1.075" width="0.15" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -3806,7 +3804,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY23" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY24" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
 <part name="C15" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-270PF" value="270pF 1%"/>
-<part name="TP1" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.5"/>
+<part name="TP1" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25" value="TEST_POINT-SMD-C-1.25"/>
 <part name="C17" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY29" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -3814,7 +3812,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="FB1" library="CougsInSpace-Coils" deviceset="CHOKE-H" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
 <part name="SUPPLY33" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY34" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="TP2" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.5"/>
+<part name="TP2" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25" value="TEST_POINT-SMD-C-1.25"/>
 <part name="C18" library="CougsInSpace-Capacitors" deviceset="CAP-POL-V" device="-4028" technology="-4.7UF" value="4.7µF 10%"/>
 <part name="C19" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY35" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -3950,6 +3948,10 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="R45" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="R46" library="CougsInSpace-Resistors" deviceset="RES-H" device="-3216" technology="-0.1R" value="100mΩ 1%"/>
 <part name="R47" library="CougsInSpace-Resistors" deviceset="RES-H" device="-3216" technology="-0.1R" value="100mΩ 1%"/>
+<part name="R3" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
+<part name="R13" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
+<part name="SUPPLY66" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY67" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4926,8 +4928,8 @@ corresponding to signal name</text>
 <text x="119.38" y="83.82" size="1.778" layer="97" align="center-left"> &lt;2B2</text>
 <text x="48.26" y="172.72" size="1.778" layer="97" align="center-right">3B4&gt; </text>
 <text x="48.26" y="170.18" size="1.778" layer="97" align="center-right">3B4&gt; </text>
-<text x="152.4" y="137.16" size="1.778" layer="97" align="center-left"> 3A1&gt; &lt;3C3&gt;</text>
-<text x="152.4" y="134.62" size="1.778" layer="97" align="center-left"> 3A1&gt; 3C3&gt;</text>
+<text x="170.18" y="137.16" size="1.778" layer="97" align="center-left"> 3A1&gt; &lt;3C3&gt;</text>
+<text x="170.18" y="134.62" size="1.778" layer="97" align="center-left"> 3A1&gt; 3C3&gt;</text>
 <text x="101.6" y="55.88" size="1.778" layer="97" align="center-left"> &lt;3B4</text>
 <text x="101.6" y="53.34" size="1.778" layer="97" align="center-left"> &lt;3B4&gt;</text>
 <text x="152.4" y="132.08" size="1.778" layer="97" align="center-left"> &lt;3A6</text>
@@ -4938,6 +4940,11 @@ corresponding to signal name</text>
 <wire x1="40.64" y1="167.64" x2="12.7" y2="167.64" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="12.7" y1="167.64" x2="12.7" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="182.88" y="48.26" size="1.778" layer="97" align="center-right">&lt;3C3 </text>
+<text x="142.24" y="157.48" size="1.778" layer="97">CAD Note: Place at end of bus</text>
+<wire x1="139.7" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="177.8" y1="162.56" x2="177.8" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="177.8" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="139.7" y1="142.24" x2="139.7" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0">
@@ -5004,10 +5011,10 @@ corresponding to signal name</text>
 <instance part="OFFSHEET29" gate="G$1" x="50.8" y="172.72"/>
 <instance part="OFFSHEET30" gate="G$1" x="50.8" y="170.18"/>
 <instance part="OFFSHEET37" gate="G$1" x="99.06" y="55.88" rot="MR0"/>
-<instance part="OFFSHEET40" gate="G$1" x="149.86" y="134.62" rot="MR0"/>
+<instance part="OFFSHEET40" gate="G$1" x="167.64" y="134.62" rot="MR0"/>
 <instance part="OFFSHEET41" gate="G$1" x="149.86" y="132.08" rot="MR0"/>
 <instance part="OFFSHEET42" gate="G$1" x="149.86" y="129.54" rot="MR0"/>
-<instance part="OFFSHEET39" gate="G$1" x="149.86" y="137.16"/>
+<instance part="OFFSHEET39" gate="G$1" x="167.64" y="137.16"/>
 <instance part="OFFSHEET43" gate="G$1" x="99.06" y="53.34"/>
 <instance part="L4" gate="G$1" x="175.26" y="104.14"/>
 <instance part="C16" gate="G$1" x="25.4" y="180.34"/>
@@ -5030,6 +5037,10 @@ corresponding to signal name</text>
 <instance part="R38" gate="G$1" x="22.86" y="27.94" rot="MR0"/>
 <instance part="SUPPLY37" gate="G$1" x="38.1" y="20.32"/>
 <instance part="SUPPLY43" gate="G$1" x="22.86" y="20.32"/>
+<instance part="R3" gate="G$1" x="149.86" y="147.32"/>
+<instance part="R13" gate="G$1" x="162.56" y="147.32"/>
+<instance part="SUPPLY66" gate="G$1" x="149.86" y="152.4"/>
+<instance part="SUPPLY67" gate="G$1" x="162.56" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -5145,6 +5156,14 @@ corresponding to signal name</text>
 <junction x="27.94" y="154.94"/>
 <wire x1="25.4" y1="154.94" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY28" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="SUPPLY66" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="SUPPLY67" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -5290,8 +5309,12 @@ corresponding to signal name</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="134.62" y="137.16" size="1.778" layer="95"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="137.16" x2="165.1" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="144.78" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<junction x="162.56" y="137.16"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -5308,8 +5331,12 @@ corresponding to signal name</text>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="132.08" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <label x="134.62" y="134.62" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="134.62" x2="165.1" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="144.78" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<junction x="149.86" y="134.62"/>
 </segment>
 </net>
 <net name="AVDD" class="0">

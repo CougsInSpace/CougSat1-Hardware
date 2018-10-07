@@ -612,14 +612,12 @@ Last character is an incremented letter for each variant of the same value and p
 04-xxxx: SMD&lt;br&gt;
 05-xxxx: THT</description>
 <packages>
-<package name="THT-1.5">
-<description>&lt;h3&gt;Through Hole 1.5 mm Drill</description>
-<pad name="1" x="0" y="0" drill="1.5"/>
-<text x="0" y="2" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="21"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="39"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="40"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="22"/>
+<package name="SMD-C-1.25">
+<description>&lt;h3&gt;SMD Circular - 1.25mm&lt;/h3&gt;</description>
+<smd name="1" x="0" y="0" dx="1.25" dy="1.25" layer="1" roundness="100"/>
+<text x="0" y="1.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.95" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="0.95" width="0.15" layer="39"/>
 </package>
 <package name="PICOLOCK1.5-10">
 <description>&lt;h3&gt;PicoLock 1.5mm - 10 Conductor&lt;/h3&gt;</description>
@@ -1435,8 +1433,8 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608" x="-45.72" y="110.49" size="1.778" layer="27" display="off"/>
 <attribute name="SKU" value="26-0004" x="-45.72" y="110.49" size="1.778" layer="27" display="off"/>
 </element>
-<element name="TP1" library="CougsInSpace-Connectors" package="THT-1.5" value="TEST_POINT-THT-1.5" x="-72.39" y="93.98"/>
-<element name="TP2" library="CougsInSpace-Connectors" package="THT-1.5" value="TEST_POINT-THT-1.5" x="-76.2" y="93.98"/>
+<element name="TP1" library="CougsInSpace-Connectors" package="SMD-C-1.25" value="TEST_POINT-SMD-C-1.25" x="-72.39" y="93.98"/>
+<element name="TP2" library="CougsInSpace-Connectors" package="SMD-C-1.25" value="TEST_POINT-SMD-C-1.25" x="-76.2" y="93.98"/>
 <element name="U1" library="CougsInSpace-IC-Power" package="TSSOP8" value="SPV1040" x="-38.1" y="93.98">
 <attribute name="SKU" value="60-0001" x="-38.1" y="93.98" size="1.778" layer="27" display="off"/>
 </element>
@@ -1662,6 +1660,18 @@ design rules under a new name.</description>
 <attribute name="POWER" value="1/4W" x="-106.68" y="-161.29" size="1.778" layer="27" display="off"/>
 <attribute name="SKU" value="23-0.10" x="-106.68" y="-161.29" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="75ppm/°C" x="-106.68" y="-161.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-107.95" y="-165.1">
+<attribute name="PACKAGE" value="1608" x="-107.95" y="-165.1" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/10W" x="-107.95" y="-165.1" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="21-0000" x="-107.95" y="-165.1" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="70°C Max 2A" x="-107.95" y="-165.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R13" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-107.95" y="-168.91">
+<attribute name="PACKAGE" value="1608" x="-107.95" y="-168.91" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/10W" x="-107.95" y="-168.91" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="21-0000" x="-107.95" y="-168.91" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="70°C Max 2A" x="-107.95" y="-168.91" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2018,6 +2028,8 @@ design rules under a new name.</description>
 <contactref element="R28" pad="2"/>
 <contactref element="R29" pad="2"/>
 <contactref element="R30" pad="2"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R13" pad="2"/>
 <wire x1="-96.925" y1="-40.64" x2="-96.925" y2="-44.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-93.115" y1="-40.64" x2="-96.925" y2="-40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="-98.655" y1="-36.83" x2="-96.925" y2="-40.64" width="0" layer="19" extent="1-1"/>
@@ -2033,6 +2045,8 @@ design rules under a new name.</description>
 <wire x1="-75.335" y1="106.68" x2="-79.145" y2="106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.795" y1="101.6" x2="-75.335" y2="106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.23" y1="95.88" x2="-75.795" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.085" y1="-165.1" x2="-96.925" y2="-44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.085" y1="-168.91" x2="-107.085" y2="-165.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND">
 <contactref element="U6" pad="2"/>
@@ -2080,15 +2094,19 @@ design rules under a new name.</description>
 <contactref element="U4" pad="3"/>
 <contactref element="U3" pad="20"/>
 <contactref element="J1" pad="2"/>
+<contactref element="R13" pad="1"/>
 <wire x1="-90.03" y1="52.55" x2="-83.65" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.73" y1="95.88" x2="-90.03" y2="52.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-108.815" y1="-168.91" x2="-83.65" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="U4" pad="2"/>
 <contactref element="U3" pad="19"/>
 <contactref element="J1" pad="3"/>
+<contactref element="R3" pad="1"/>
 <wire x1="-90.03" y1="53.05" x2="-85.15" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.23" y1="95.88" x2="-90.03" y2="53.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-108.815" y1="-165.1" x2="-85.15" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVDD">
 <contactref element="FB1" pad="2"/>
