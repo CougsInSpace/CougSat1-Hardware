@@ -8746,7 +8746,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET290" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET422" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY142" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="OFFSHEET425" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET426" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY146" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY147" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
@@ -9395,9 +9394,6 @@ B</text>
 <wire x1="60.96" y1="45.72" x2="35.56" y2="45.72" width="0.254" layer="94"/>
 <text x="48.26" y="53.34" size="3.81" layer="94" align="center">Switching</text>
 <wire x1="5.08" y1="121.92" x2="5.08" y2="45.72" width="0.254" layer="94"/>
-<wire x1="30.48" y1="114.3" x2="35.56" y2="114.3" width="0.254" layer="97"/>
-<wire x1="35.56" y1="114.3" x2="33.02" y2="116.84" width="0.254" layer="97"/>
-<wire x1="35.56" y1="114.3" x2="33.02" y2="111.76" width="0.254" layer="97"/>
 <wire x1="30.48" y1="53.34" x2="35.56" y2="53.34" width="0.254" layer="97"/>
 <wire x1="35.56" y1="53.34" x2="33.02" y2="55.88" width="0.254" layer="97"/>
 <wire x1="35.56" y1="53.34" x2="33.02" y2="50.8" width="0.254" layer="97"/>
@@ -16648,7 +16644,6 @@ Addr = 0x42 | R/!W</text>
 <text x="101.6" y="129.54" size="1.778" layer="97" align="center-left">CAD Note:
 Thermally
 Connected</text>
-<text x="180.34" y="139.7" size="1.27" layer="97" align="center-right">10B5&gt; </text>
 <text x="251.46" y="35.56" size="1.27" layer="97" align="center-left"> &lt;10B5</text>
 <wire x1="198.12" y1="116.84" x2="246.38" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="246.38" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="97" style="shortdash"/>
@@ -16909,7 +16904,6 @@ JTAG termination</text>
 <instance part="OFFSHEET290" gate="G$1" x="40.64" y="121.92" rot="MR0"/>
 <instance part="OFFSHEET422" gate="G$1" x="177.8" y="45.72"/>
 <instance part="SUPPLY142" gate="1" x="198.12" y="63.5"/>
-<instance part="OFFSHEET425" gate="G$1" x="182.88" y="139.7"/>
 <instance part="OFFSHEET426" gate="G$1" x="248.92" y="35.56" rot="MR0"/>
 <instance part="SUPPLY146" gate="G$1" x="218.44" y="111.76">
 <attribute name="VALUE" x="218.44" y="115.316" size="1.27" layer="96" align="center"/>
@@ -17842,10 +17836,6 @@ JTAG termination</text>
 <wire x1="226.06" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
 <label x="226.06" y="35.56" size="1.778" layer="95"/>
 <pinref part="U5" gate="G$1" pin="OE"/>
-</segment>
-<segment>
-<wire x1="205.74" y1="139.7" x2="185.42" y2="139.7" width="0.1524" layer="91"/>
-<label x="186.69" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
@@ -20231,38 +20221,11 @@ ables</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,4,53.34,124.46,U6,BAT,BATT_PROTECT_BAT-A,,,"/>
-<approved hash="104,4,53.34,114.3,U6,VSS,BP_VSS-A,,,"/>
-<approved hash="104,4,177.8,124.46,U7,BAT,BATT_PROTECT_BAT-B,,,"/>
-<approved hash="104,4,177.8,114.3,U7,VSS,BP_VSS-B,,,"/>
-<approved hash="104,5,73.66,76.2,U12,VIN,VBATT-B,,,"/>
 <approved hash="104,5,73.66,170.18,U1,VIN,VBATT-A,,,"/>
 <approved hash="104,5,218.44,134.62,D3,GND,PGND,,,"/>
 <approved hash="104,5,218.44,40.64,D6,GND,PGND,,,"/>
-<approved hash="104,9,127,109.22,U10BASE,VDDA/VREF+,3.3V,,,"/>
-<approved hash="104,9,86.36,111.76,U10BASE,VBAT,VBATT,,,"/>
-<approved hash="104,9,86.36,99.06,U10BASE,VDDUSB,3.3V,,,"/>
-<approved hash="104,9,86.36,106.68,U10BASE,VDD,3.3V,,,"/>
-<approved hash="104,9,86.36,104.14,U10BASE,VDD,3.3V,,,"/>
-<approved hash="104,9,86.36,101.6,U10BASE,VDD,3.3V,,,"/>
-<approved hash="104,9,127,93.98,U10BASE,VSS,DGND,,,"/>
-<approved hash="104,9,127,96.52,U10BASE,VSS,DGND,,,"/>
-<approved hash="104,9,127,99.06,U10BASE,VSS,DGND,,,"/>
-<approved hash="104,9,127,101.6,U10BASE,VSS,DGND,,,"/>
-<approved hash="104,9,127,106.68,U10BASE,VSSA/VREF-,DGND,,,"/>
-<approved hash="104,9,25.4,76.2,U2,VCC,3.3V,,,"/>
-<approved hash="104,9,210.82,78.74,U5E1,VCC,3.3V,,,"/>
-<approved hash="104,9,210.82,68.58,U5E1,GND,DGND,,,"/>
-<approved hash="104,10,33.02,182.88,U15,VCC,3.3V,,,"/>
-<approved hash="104,10,124.46,182.88,U9,VCC,3.3V,,,"/>
-<approved hash="104,10,33.02,91.44,U14,VCC,3.3V,,,"/>
-<approved hash="104,10,124.46,91.44,U11,VCC,3.3V,,,"/>
-<approved hash="104,11,33.02,182.88,U4,VCC,3.3V,,,"/>
-<approved hash="104,11,33.02,91.44,U3,VCC,3.3V,,,"/>
-<approved hash="104,11,193.04,175.26,U8,OUT,AVREF,,,"/>
 <approved hash="104,4,215.9,68.58,D2,GND,PGND,,,"/>
 <approved hash="104,4,215.9,48.26,D5,GND,PGND,,,"/>
-<approved hash="104,9,106.68,76.2,U13,VCC,3.3V,,,"/>
 <approved hash="110,8,60.96,109.22,PV_SW-4A,PV_SW-6B,,,,"/>
 </errors>
 </schematic>
