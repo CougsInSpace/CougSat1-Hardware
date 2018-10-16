@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -163,6 +163,171 @@
 <description>&lt;h3&gt;Aesthetics&lt;/h3&gt;
 &lt;p&gt;Non-functional items such as logos, build/ordering notes, frame blocks, etc.&lt;/p&gt;</description>
 <packages>
+<package name="SIGN-BRADLEY">
+<description>&lt;h3&gt;Signature - Bradley Davis&lt;/h3&gt;</description>
+<wire x1="-1.5" y1="-1.9" x2="-2.1" y2="-1.9" width="0.2032" layer="1" curve="-150.513051"/>
+<wire x1="-2.1" y1="-1.9" x2="-1.6" y2="-1.5" width="0.2032" layer="1" curve="-132.166741"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="1" curve="20.138703"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="1" curve="17.950694"/>
+<wire x1="-1.5" y1="0.1" x2="-1.5" y2="-0.5" width="0.2032" layer="1" curve="162.048801"/>
+<wire x1="-1.5" y1="-0.5" x2="2" y2="-0.2" width="0.2032" layer="1" curve="27.749383"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="1" curve="-10"/>
+<wire x1="-1.5" y1="2.2" x2="-1.25" y2="0.5" width="0.2" layer="1" curve="-14"/>
+<wire x1="0.36" y1="-1.98" x2="0.3" y2="0.1" width="0.2032" layer="1" curve="159"/>
+<wire x1="-1.5" y1="2.2" x2="-1.25" y2="0.5" width="0.2" layer="29" curve="-14"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="1" curve="20.138703"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="29" curve="20.138703"/>
+<wire x1="-2.1" y1="-1.9" x2="-1.6" y2="-1.5" width="0.2032" layer="29" curve="-132.166741"/>
+<wire x1="-1.5" y1="-1.9" x2="-2.1" y2="-1.9" width="0.2032" layer="29" curve="-150.513051"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="1" curve="-10"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="29" curve="-10"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="1" curve="17.950694"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="29" curve="17.950694"/>
+<wire x1="-1.5" y1="0.1" x2="-1.5" y2="-0.5" width="0.2032" layer="29" curve="162.048801"/>
+<wire x1="-1.5" y1="-0.5" x2="2" y2="-0.2" width="0.2032" layer="29" curve="27.749383"/>
+<wire x1="0.36" y1="-1.98" x2="0.3" y2="0.1" width="0.2032" layer="29" curve="159"/>
+</package>
+<package name="SIGN-HENDRIK-HAM">
+<description>&lt;h3&gt;Signature - Hendrik the Ham&lt;/h3&gt;</description>
+<wire x1="9.2" y1="-2.8" x2="11.05" y2="-2.75" width="0.25" layer="21"/>
+<wire x1="11.05" y1="-2.75" x2="11.375" y2="-2.975" width="0.25" layer="21"/>
+<wire x1="11.375" y1="-2.975" x2="12" y2="-3.4" width="0.25" layer="21" curve="0.958903"/>
+<wire x1="12" y1="-3.4" x2="12.7" y2="-3.1" width="0.25" layer="21" curve="113.869664"/>
+<wire x1="12.7" y1="-3.1" x2="12.6" y2="-2.6" width="0.25" layer="21" curve="42.352358"/>
+<wire x1="12.6" y1="-2.6" x2="12" y2="-2" width="0.25" layer="21" curve="25.027722"/>
+<wire x1="9.2" y1="-1.6" x2="11" y2="-1.7" width="0.25" layer="21"/>
+<wire x1="11" y1="-1.7" x2="11.2" y2="-1.4" width="0.25" layer="21"/>
+<wire x1="11.2" y1="-1.4" x2="11.8" y2="-1" width="0.25" layer="21" curve="-45.23973"/>
+<wire x1="11.8" y1="-1" x2="12.3" y2="-1" width="0.25" layer="21" curve="-22.140082"/>
+<wire x1="12.3" y1="-1" x2="12.5" y2="-1.4" width="0.25" layer="21" curve="-104.729714"/>
+<wire x1="12.5" y1="-1.4" x2="12" y2="-2" width="0.25" layer="21" curve="-28.011873"/>
+<wire x1="5.7" y1="-3.6" x2="3.1" y2="-4.3" width="0.4" layer="21"/>
+<wire x1="3.1" y1="-4.3" x2="1.5" y2="-4.5" width="0.4" layer="21" curve="-15.886941"/>
+<wire x1="1.5" y1="-4.5" x2="0.8" y2="-4.5" width="0.4" layer="21" curve="1.636871"/>
+<wire x1="0.8" y1="-4.5" x2="0.1" y2="-4.6" width="0.4" layer="21" curve="14.623342"/>
+<wire x1="0.1" y1="-4.6" x2="-2.9" y2="-5" width="0.4" layer="21" curve="-15.69417"/>
+<wire x1="5.7" y1="-3.6" x2="6.3" y2="-3.5" width="0.4" layer="21" curve="-11.212332"/>
+<wire x1="6.3" y1="-3.5" x2="8.1" y2="-3.3" width="0.4" layer="21" curve="4.968178"/>
+<wire x1="8.1" y1="-3.3" x2="8.9" y2="-2.8" width="0.4" layer="21" curve="46.362176"/>
+<wire x1="8.9" y1="-2.8" x2="8.8" y2="-2.6" width="0.4" layer="21"/>
+<wire x1="8.8" y1="-2.6" x2="8.8" y2="-2.1" width="0.4" layer="21" curve="-53.130102"/>
+<wire x1="8.8" y1="-2.1" x2="9" y2="-1.7" width="0.4" layer="21"/>
+<wire x1="9" y1="-1.7" x2="8.8" y2="-1.4" width="0.4" layer="21" curve="120.509466"/>
+<wire x1="8.8" y1="-1.4" x2="8.3" y2="-1.4" width="0.4" layer="21" curve="-7.887878"/>
+<wire x1="8.3" y1="-1.4" x2="7.3" y2="-1.2" width="0.4" layer="21" curve="-14.731984"/>
+<wire x1="7.3" y1="-1.2" x2="6.8" y2="-0.9" width="0.4" layer="21" curve="-24.575726"/>
+<wire x1="6.8" y1="-0.9" x2="5.4" y2="0.3" width="0.4" layer="21" curve="5.300785"/>
+<wire x1="5.4" y1="0.3" x2="4.8" y2="0.7" width="0.4" layer="21" curve="8.521662"/>
+<wire x1="4.8" y1="0.7" x2="4.2" y2="1.2" width="0.4" layer="21" curve="-20.75272"/>
+<wire x1="4.2" y1="1.2" x2="1.6" y2="3.7" width="0.4" layer="21" curve="12.610384"/>
+<wire x1="1.6" y1="3.7" x2="-0.3" y2="4.5" width="0.4" layer="21" curve="29.475705"/>
+<wire x1="-0.3" y1="4.5" x2="-2.3" y2="4.4" width="0.4" layer="21" curve="21.916421"/>
+<wire x1="-2.28" y1="4.48" x2="-2.725" y2="4.4" width="0.25" layer="21"/>
+<wire x1="-2.725" y1="4.4" x2="-3.7" y2="3.9" width="0.25" layer="21" curve="27.818325"/>
+<wire x1="-3.7" y1="3.9" x2="-4.9" y2="1.6" width="0.25" layer="21" curve="42.776682"/>
+<wire x1="-4.9" y1="1.6" x2="-5" y2="-1.8" width="0.25" layer="21" curve="8.959486"/>
+<wire x1="-5" y1="-1.8" x2="-4.5" y2="-4" width="0.25" layer="21" curve="20.018425"/>
+<wire x1="-4.5" y1="-4" x2="-3.405" y2="-5.02" width="0.25" layer="21" curve="42.922574"/>
+<polygon width="0.25" layer="21">
+<vertex x="-3.9" y="0"/>
+<vertex x="-3.9" y="-0.3" curve="31.890792"/>
+<vertex x="-3.7" y="-1" curve="72.615536"/>
+<vertex x="-3.2" y="-1.2" curve="38.36777"/>
+<vertex x="-2.9" y="-1" curve="40.853842"/>
+<vertex x="-2.6" y="0"/>
+<vertex x="-2.825" y="0"/>
+<vertex x="-2.825" y="-0.05" curve="-30.136956"/>
+<vertex x="-3" y="-0.7" curve="-52.346015"/>
+<vertex x="-3.3" y="-0.9" curve="-96.664162"/>
+<vertex x="-3.85" y="-0.425"/>
+</polygon>
+<polygon width="0.25" layer="21">
+<vertex x="-2.6" y="0"/>
+<vertex x="-2.6" y="0.1" curve="31.890792"/>
+<vertex x="-2.8" y="0.8" curve="26.218557"/>
+<vertex x="-3" y="1" curve="63.781355"/>
+<vertex x="-3.5" y="1" curve="41.081603"/>
+<vertex x="-3.75" y="0.675"/>
+<vertex x="-3.725" y="0.725" curve="-61.059458"/>
+<vertex x="-3.3" y="1" curve="-78.490201"/>
+<vertex x="-2.9" y="0.7" curve="-15.538392"/>
+<vertex x="-2.825" y="0"/>
+</polygon>
+<wire x1="-3.9" y1="0" x2="-3.9" y2="0.1" width="0.25" layer="21"/>
+<wire x1="-3.9" y1="0.1" x2="-3.75" y2="0.675" width="0.25" layer="21" curve="-29.241723"/>
+<wire x1="-2.4" y1="4.4" x2="-2.3" y2="4.3" width="0.25" layer="21"/>
+<wire x1="-2.3" y1="4.3" x2="-1.4" y2="2.5" width="0.25" layer="21" curve="-36.869898"/>
+<wire x1="-1.4" y1="2.5" x2="-1.2" y2="0.8" width="0.25" layer="21" curve="-2.840436"/>
+<wire x1="-1.2" y1="0.8" x2="-1.5" y2="-2.5" width="0.25" layer="21" curve="-20.968083"/>
+<wire x1="-1.5" y1="-2.5" x2="-3.54" y2="-4.93" width="0.25" layer="21" curve="-48.254192"/>
+<wire x1="-2.9" y1="-5" x2="-3.375" y2="-4.95" width="0.4" layer="21" curve="-11.513131"/>
+<wire x1="-1.9" y1="-5" x2="-0.9" y2="-4.1" width="0.25" layer="21"/>
+<wire x1="-0.9" y1="-4.1" x2="1.9" y2="-0.9" width="0.25" layer="21" curve="13.653724"/>
+<wire x1="1.9" y1="-0.9" x2="3.5" y2="2" width="0.25" layer="21" curve="10.94495"/>
+<wire x1="-1.3" y1="-1.7" x2="-0.5" y2="-1.1" width="0.25" layer="21"/>
+<wire x1="-0.5" y1="-1.1" x2="1.3" y2="0.9" width="0.25" layer="21" curve="22.285782"/>
+<wire x1="1.3" y1="0.9" x2="2.3" y2="3.1" width="0.25" layer="21" curve="12.800706"/>
+<wire x1="-1.2" y1="1.3" x2="-1.075" y2="1.325" width="0.25" layer="21"/>
+<wire x1="-1.075" y1="1.325" x2="-0.6" y2="1.5" width="0.25" layer="21" curve="17.829854"/>
+<wire x1="-0.6" y1="1.5" x2="0.9" y2="4.2" width="0.25" layer="21" curve="63.611321"/>
+<wire x1="-1.45" y1="2.925" x2="-1.3" y2="3.05" width="0.25" layer="21"/>
+<wire x1="-1.3" y1="3.05" x2="-0.4" y2="4.473" width="0.25" layer="21" curve="40.106073"/>
+<wire x1="0.8" y1="-4.5" x2="1.4" y2="-3.9" width="0.25" layer="21"/>
+<wire x1="1.4" y1="-3.9" x2="4.4" y2="1" width="0.25" layer="21" curve="27.046326"/>
+<wire x1="3" y1="-4.3" x2="3.4" y2="-3.85" width="0.25" layer="21"/>
+<wire x1="3.4" y1="-3.85" x2="5.6" y2="0.2" width="0.25" layer="21" curve="26.244589"/>
+<wire x1="5.1" y1="-3.7" x2="5.4" y2="-3.325" width="0.25" layer="21"/>
+<wire x1="5.4" y1="-3.325" x2="6.45" y2="-0.625" width="0.25" layer="21" curve="34.818598"/>
+<wire x1="7.1" y1="-3.4" x2="7.3" y2="-3.075" width="0.25" layer="21"/>
+<wire x1="7.3" y1="-3.075" x2="7.9" y2="-1.3" width="0.25" layer="21" curve="25.861603"/>
+<wire x1="8.8" y1="-2.8" x2="8.1" y2="-2.4" width="0.25" layer="21"/>
+<wire x1="8.1" y1="-2.4" x2="6.9" y2="-1" width="0.25" layer="21" curve="-39.307648"/>
+<wire x1="7.4" y1="-3.4" x2="6.8" y2="-2.8" width="0.25" layer="21"/>
+<wire x1="6.8" y1="-2.8" x2="4.3" y2="0.9" width="0.25" layer="21" curve="-21.908123"/>
+<wire x1="5.7" y1="-3.6" x2="5.4" y2="-3.2" width="0.25" layer="21"/>
+<wire x1="5.4" y1="-3.2" x2="1" y2="4.1" width="0.25" layer="21" curve="-11.581716"/>
+<wire x1="4.4" y1="-4" x2="3.8" y2="-3.3" width="0.25" layer="21"/>
+<wire x1="3.8" y1="-3.3" x2="-0.5" y2="4.5" width="0.25" layer="21" curve="-23.468272"/>
+<wire x1="2.7" y1="-4.5" x2="2.2" y2="-3.8" width="0.25" layer="21"/>
+<wire x1="2.2" y1="-3.8" x2="-1.4" y2="2.7" width="0.25" layer="21" curve="-13.115941"/>
+<wire x1="0.9" y1="-4.5" x2="0.4" y2="-3.9" width="0.25" layer="21"/>
+<wire x1="0.4" y1="-3.9" x2="-1.2" y2="-1.1" width="0.25" layer="21" curve="-20.121379"/>
+<wire x1="-0.6" y1="-4.8" x2="-0.8" y2="-4.5" width="0.25" layer="21"/>
+<wire x1="-0.8" y1="-4.5" x2="-1.6" y2="-2.9" width="0.25" layer="21" curve="-14.250033"/>
+<wire x1="-1.6" y1="0" x2="-1.6" y2="-0.2" width="0.25" layer="21"/>
+<wire x1="-1.6" y1="-0.2" x2="-2" y2="-2.5" width="0.25" layer="21" curve="-19.731614"/>
+<wire x1="-2" y1="-2.5" x2="-3.1" y2="-4.1" width="0.25" layer="21" curve="-29.553843"/>
+<wire x1="-3.1" y1="-4.1" x2="-3.9" y2="-4" width="0.25" layer="21" curve="-95.679288"/>
+<wire x1="-3.9" y1="-4" x2="-4.5" y2="-2.5" width="0.25" layer="21" curve="-26.468125"/>
+<wire x1="-4.5" y1="-2.5" x2="-4.6" y2="0.4" width="0.25" layer="21" curve="-13.184804"/>
+<wire x1="-1.6" y1="0" x2="-1.8" y2="1.8" width="0.25" layer="21" curve="12.680383"/>
+<polygon width="0.25" layer="21">
+<vertex x="-4.6" y="0.4" curve="-26.254412"/>
+<vertex x="-3.8" y="2.9" curve="-28.256289"/>
+<vertex x="-3.4" y="3.3" curve="-78.003842"/>
+<vertex x="-2.7" y="3.2" curve="-20.265501"/>
+<vertex x="-1.8" y="1.8"/>
+<vertex x="-1.9" y="2.4" curve="34.205458"/>
+<vertex x="-2.5" y="3.6" curve="79.984078"/>
+<vertex x="-3.3" y="3.7" curve="24.266053"/>
+<vertex x="-3.8" y="3.2" curve="34.360994"/>
+</polygon>
+</package>
+<package name="SIGN-HENDRIK">
+<description>&lt;h3&gt;Signature - Hendrik Melse&lt;/h3&gt;</description>
+<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="1" curve="-43.729953"/>
+<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="1" curve="-43.977"/>
+<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="1" curve="-32.088536"/>
+<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="1" curve="-36.276177"/>
+<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="29" curve="-43.729953"/>
+<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="29" curve="-43.977"/>
+<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="1"/>
+<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="29" curve="-32.088536"/>
+<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="1"/>
+<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="29" curve="-36.276177"/>
+<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="29"/>
+<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-A">
@@ -543,6 +708,15 @@ Space EE</text>
 <description>&lt;h3&gt;Block Diagram Connecting Dot&lt;/h3&gt;</description>
 <circle x="0" y="0" radius="0.254" width="0.508" layer="97"/>
 </symbol>
+<symbol name="SIGNATURE">
+<description>&lt;h3&gt;Signature of Designer&lt;/h3&gt;</description>
+<text x="0" y="2.794" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">Signature</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A" prefix="FRAME">
@@ -586,6 +760,29 @@ Space EE</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SIGNATURE" prefix="LOGO">
+<description>&lt;h3&gt;Designer's (Artist's) Signature&lt;h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGNATURE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRADLEY" package="SIGN-BRADLEY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HENDRIK-HAM" package="SIGN-HENDRIK-HAM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HENDRIK" package="SIGN-HENDRIK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="CougsInSpace-Connectors">
@@ -599,206 +796,206 @@ Space EE</text>
 <description>&lt;h3&gt;SODIMM - DDR1&lt;/h3&gt;</description>
 <hole x="38.3" y="0" drill="1.45"/>
 <hole x="-38.3" y="0" drill="1.05"/>
-<smd name="1" x="-31.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="2" x="-31.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="3" x="-31.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="4" x="-30.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="5" x="-30.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="6" x="-30.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="7" x="-29.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="8" x="-29.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="9" x="-29.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="10" x="-28.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="11" x="-28.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="12" x="-28.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="13" x="-28.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="14" x="-27.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="15" x="-27.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="16" x="-27.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="17" x="-26.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="18" x="-26.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="19" x="-26.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="20" x="-25.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="21" x="-25.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="22" x="-25.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="23" x="-25.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="24" x="-24.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="25" x="-24.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="26" x="-24.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="27" x="-23.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="28" x="-23.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="29" x="-23.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="30" x="-22.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="31" x="-22.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="32" x="-22.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="33" x="-22.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="34" x="-21.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="35" x="-21.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="36" x="-21.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="37" x="-20.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="38" x="-20.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="39" x="-20.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="40" x="-19.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="41" x="-16.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="42" x="-15.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="43" x="-15.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="44" x="-15.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="45" x="-14.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="46" x="-14.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="47" x="-14.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="48" x="-13.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="49" x="-13.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="50" x="-13.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="51" x="-13.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="52" x="-12.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="53" x="-12.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="54" x="-12.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="55" x="-11.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="56" x="-11.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="57" x="-11.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="58" x="-10.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="59" x="-10.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="60" x="-10.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="61" x="-10.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="62" x="-9.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="63" x="-9.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="64" x="-9.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="65" x="-8.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="66" x="-8.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="67" x="-8.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="68" x="-7.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="69" x="-7.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="70" x="-7.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="71" x="-7.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="72" x="-6.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="73" x="-6.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="74" x="-6.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="75" x="-5.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="76" x="-5.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="77" x="-5.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="78" x="-4.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="79" x="-4.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="80" x="-4.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="81" x="-4.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="82" x="-3.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="83" x="-3.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="84" x="-3.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="85" x="-2.85" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="86" x="-2.55" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="87" x="-2.25" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="88" x="-1.95" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="89" x="-1.65" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="90" x="-1.35" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="91" x="-1.05" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="92" x="-0.75" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="93" x="-0.45" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="94" x="-0.15" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="95" x="0.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="96" x="0.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="97" x="0.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="98" x="1.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="99" x="1.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="100" x="1.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="101" x="1.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="102" x="2.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="103" x="2.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="104" x="2.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="105" x="3.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="106" x="3.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="107" x="3.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="108" x="4.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="109" x="4.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="110" x="4.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="111" x="4.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="112" x="5.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="113" x="5.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="114" x="5.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="115" x="6.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="116" x="6.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="117" x="6.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="118" x="7.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="119" x="7.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="120" x="7.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="121" x="7.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="122" x="8.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="123" x="8.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="124" x="8.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="125" x="9.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="126" x="9.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="127" x="9.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="128" x="10.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="129" x="10.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="130" x="10.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="131" x="10.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="132" x="11.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="133" x="11.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="134" x="11.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="135" x="12.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="136" x="12.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="137" x="12.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="138" x="13.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="139" x="13.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="140" x="13.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="141" x="13.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="142" x="14.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="143" x="14.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="144" x="14.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="145" x="15.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="146" x="15.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="147" x="15.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="148" x="16.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="149" x="16.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="150" x="16.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="151" x="16.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="152" x="17.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="153" x="17.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="154" x="17.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="155" x="18.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="156" x="18.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="157" x="18.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="158" x="19.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="159" x="19.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="160" x="19.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="161" x="19.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="162" x="20.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="163" x="20.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="164" x="20.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="165" x="21.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="166" x="21.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="167" x="21.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="168" x="22.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="169" x="22.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="170" x="22.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="171" x="22.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="172" x="23.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="173" x="23.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="174" x="23.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="175" x="24.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="176" x="24.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="177" x="24.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="178" x="25.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="179" x="25.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="180" x="25.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="181" x="25.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="182" x="26.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="183" x="26.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="184" x="26.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="185" x="27.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="186" x="27.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="187" x="27.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="188" x="28.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="189" x="28.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="190" x="28.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="191" x="28.95" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="192" x="29.25" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="193" x="29.55" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="194" x="29.85" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="195" x="30.15" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="196" x="30.45" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="197" x="30.75" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="198" x="31.05" y="3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="199" x="31.35" y="-3.25" dx="0.35" dy="1.9" layer="1"/>
-<smd name="200" x="31.65" y="3.25" dx="0.35" dy="1.9" layer="1"/>
+<smd name="1" x="-31.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="2" x="-31.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="3" x="-31.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="4" x="-30.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="5" x="-30.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="6" x="-30.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="7" x="-29.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="8" x="-29.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="9" x="-29.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="10" x="-28.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="11" x="-28.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="12" x="-28.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="13" x="-28.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="14" x="-27.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="15" x="-27.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="16" x="-27.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="17" x="-26.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="18" x="-26.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="19" x="-26.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="20" x="-25.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="21" x="-25.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="22" x="-25.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="23" x="-25.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="24" x="-24.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="25" x="-24.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="26" x="-24.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="27" x="-23.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="28" x="-23.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="29" x="-23.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="30" x="-22.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="31" x="-22.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="32" x="-22.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="33" x="-22.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="34" x="-21.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="35" x="-21.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="36" x="-21.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="37" x="-20.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="38" x="-20.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="39" x="-20.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="40" x="-19.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="41" x="-16.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="42" x="-15.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="43" x="-15.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="44" x="-15.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="45" x="-14.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="46" x="-14.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="47" x="-14.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="48" x="-13.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="49" x="-13.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="50" x="-13.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="51" x="-13.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="52" x="-12.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="53" x="-12.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="54" x="-12.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="55" x="-11.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="56" x="-11.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="57" x="-11.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="58" x="-10.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="59" x="-10.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="60" x="-10.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="61" x="-10.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="62" x="-9.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="63" x="-9.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="64" x="-9.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="65" x="-8.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="66" x="-8.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="67" x="-8.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="68" x="-7.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="69" x="-7.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="70" x="-7.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="71" x="-7.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="72" x="-6.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="73" x="-6.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="74" x="-6.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="75" x="-5.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="76" x="-5.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="77" x="-5.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="78" x="-4.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="79" x="-4.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="80" x="-4.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="81" x="-4.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="82" x="-3.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="83" x="-3.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="84" x="-3.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="85" x="-2.85" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="86" x="-2.55" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="87" x="-2.25" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="88" x="-1.95" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="89" x="-1.65" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="90" x="-1.35" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="91" x="-1.05" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="92" x="-0.75" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="93" x="-0.45" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="94" x="-0.15" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="95" x="0.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="96" x="0.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="97" x="0.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="98" x="1.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="99" x="1.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="100" x="1.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="101" x="1.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="102" x="2.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="103" x="2.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="104" x="2.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="105" x="3.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="106" x="3.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="107" x="3.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="108" x="4.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="109" x="4.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="110" x="4.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="111" x="4.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="112" x="5.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="113" x="5.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="114" x="5.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="115" x="6.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="116" x="6.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="117" x="6.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="118" x="7.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="119" x="7.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="120" x="7.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="121" x="7.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="122" x="8.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="123" x="8.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="124" x="8.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="125" x="9.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="126" x="9.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="127" x="9.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="128" x="10.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="129" x="10.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="130" x="10.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="131" x="10.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="132" x="11.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="133" x="11.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="134" x="11.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="135" x="12.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="136" x="12.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="137" x="12.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="138" x="13.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="139" x="13.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="140" x="13.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="141" x="13.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="142" x="14.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="143" x="14.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="144" x="14.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="145" x="15.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="146" x="15.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="147" x="15.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="148" x="16.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="149" x="16.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="150" x="16.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="151" x="16.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="152" x="17.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="153" x="17.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="154" x="17.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="155" x="18.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="156" x="18.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="157" x="18.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="158" x="19.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="159" x="19.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="160" x="19.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="161" x="19.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="162" x="20.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="163" x="20.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="164" x="20.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="165" x="21.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="166" x="21.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="167" x="21.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="168" x="22.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="169" x="22.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="170" x="22.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="171" x="22.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="172" x="23.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="173" x="23.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="174" x="23.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="175" x="24.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="176" x="24.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="177" x="24.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="178" x="25.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="179" x="25.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="180" x="25.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="181" x="25.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="182" x="26.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="183" x="26.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="184" x="26.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="185" x="27.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="186" x="27.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="187" x="27.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="188" x="28.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="189" x="28.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="190" x="28.65" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="191" x="28.95" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="192" x="29.25" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="193" x="29.55" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="194" x="29.85" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="195" x="30.15" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="196" x="30.45" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="197" x="30.75" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="198" x="31.05" y="3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="199" x="31.35" y="-3.3" dx="0.35" dy="2" layer="1"/>
+<smd name="200" x="31.65" y="3.3" dx="0.35" dy="2" layer="1"/>
 <wire x1="-32.5" y1="3.3" x2="32.5" y2="3.3" width="0.15" layer="51"/>
 <wire x1="32.5" y1="3.3" x2="32.5" y2="4.2" width="0.15" layer="51"/>
 <wire x1="32.5" y1="4.2" x2="39.9" y2="4.2" width="0.15" layer="51"/>
@@ -835,7 +1032,7 @@ Space EE</text>
 <wire x1="40.3" y1="-4.5" x2="-40.3" y2="-4.5" width="0.15" layer="39"/>
 <wire x1="-40.3" y1="-4.5" x2="-40.3" y2="4.5" width="0.15" layer="39"/>
 <wire x1="-40.3" y1="4.5" x2="40.3" y2="4.5" width="0.15" layer="39"/>
-<text x="-17.9" y="3.85" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="-17.9" y="3.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 <package name="PICOLOCK1.5-04">
 <description>&lt;h3&gt;PicoLock 1.5mm - 4 Conductor&lt;/h3&gt;</description>
@@ -1809,6 +2006,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="25ppm/°C" constant="no"/>
 <attribute name="VALUE" value="39.2kΩ 0.1%" constant="no"/>
 </technology>
+<technology name="-4.75M">
+<attribute name="PACKAGE" value="1608" constant="no"/>
+<attribute name="POWER" value="1/10W" constant="no"/>
+<attribute name="SKU" value="21-4754" constant="no"/>
+<attribute name="TEMP" value="100ppm/°C" constant="no"/>
+<attribute name="VALUE" value="4.75MΩ 1%" constant="no"/>
+</technology>
 <technology name="-47K">
 <attribute name="PACKAGE" value="1608" constant="no"/>
 <attribute name="POWER" value="1/8W" constant="no"/>
@@ -1961,9 +2165,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY16" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="C2" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R2" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
-<part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="R3" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
-<part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="DIA1" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA2" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA3" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
@@ -1971,6 +2172,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="DIA5" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA6" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA7" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="BRADLEY"/>
 </parts>
 <sheets>
 <sheet>
@@ -2070,16 +2272,22 @@ Page 5: Mechanical</text>
 <text x="28.702" y="127.508" size="1.778" layer="97">Power, Data</text>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0">
-<attribute name="TITLE" x="0" y="0" size="1.778" layer="96" display="off"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="DIA1" gate="G$1" x="27.94" y="127"/>
-<instance part="DIA2" gate="G$1" x="58.42" y="127"/>
-<instance part="DIA3" gate="G$1" x="88.9" y="127"/>
-<instance part="DIA4" gate="G$1" x="119.38" y="127"/>
-<instance part="DIA5" gate="G$1" x="149.86" y="127"/>
-<instance part="DIA6" gate="G$1" x="180.34" y="127"/>
-<instance part="DIA7" gate="G$1" x="210.82" y="127"/>
+<instance part="DIA1" gate="G$1" x="27.94" y="127" smashed="yes"/>
+<instance part="DIA2" gate="G$1" x="58.42" y="127" smashed="yes"/>
+<instance part="DIA3" gate="G$1" x="88.9" y="127" smashed="yes"/>
+<instance part="DIA4" gate="G$1" x="119.38" y="127" smashed="yes"/>
+<instance part="DIA5" gate="G$1" x="149.86" y="127" smashed="yes"/>
+<instance part="DIA6" gate="G$1" x="180.34" y="127" smashed="yes"/>
+<instance part="DIA7" gate="G$1" x="210.82" y="127" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2093,27 +2301,78 @@ Page 5: Mechanical</text>
 <text x="251.46" y="71.12" size="1.27" layer="97" align="center-left"> &lt;3C6&gt;</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0">
-<attribute name="TITLE" x="0" y="0" size="1.27" layer="96" align="center-left" display="off"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="J1" gate="DATA" x="17.78" y="142.24"/>
-<instance part="J1" gate="GPIO" x="17.78" y="93.98"/>
-<instance part="J1" gate="JTAG" x="17.78" y="53.34"/>
-<instance part="J2" gate="DATA" x="78.74" y="142.24"/>
-<instance part="J2" gate="GPIO" x="78.74" y="93.98"/>
-<instance part="J2" gate="JTAG" x="78.74" y="53.34"/>
-<instance part="J3" gate="DATA" x="139.7" y="142.24"/>
-<instance part="J3" gate="GPIO" x="139.7" y="93.98"/>
-<instance part="J3" gate="JTAG" x="139.7" y="53.34"/>
-<instance part="J4" gate="DATA" x="200.66" y="142.24"/>
-<instance part="J4" gate="GPIO" x="200.66" y="93.98"/>
-<instance part="J4" gate="JTAG" x="200.66" y="53.34"/>
-<instance part="OFFSHEET1" gate="G$1" x="248.92" y="175.26"/>
-<instance part="OFFSHEET2" gate="G$1" x="248.92" y="114.3"/>
-<instance part="OFFSHEET3" gate="G$1" x="248.92" y="71.12"/>
-<instance part="SUPPLY17" gate="G$1" x="17.78" y="12.7"/>
-<instance part="R3" gate="G$1" x="17.78" y="20.32"/>
-<instance part="SUPPLY18" gate="G$1" x="10.16" y="12.7"/>
+<instance part="J1" gate="DATA" x="17.78" y="142.24" smashed="yes">
+<attribute name="NAME" x="17.78" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J1" gate="GPIO" x="17.78" y="93.98" smashed="yes">
+<attribute name="NAME" x="17.78" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J1" gate="JTAG" x="17.78" y="53.34" smashed="yes">
+<attribute name="NAME" x="17.78" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J2" gate="DATA" x="78.74" y="142.24" smashed="yes">
+<attribute name="NAME" x="78.74" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J2" gate="GPIO" x="78.74" y="93.98" smashed="yes">
+<attribute name="NAME" x="78.74" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J2" gate="JTAG" x="78.74" y="53.34" smashed="yes">
+<attribute name="NAME" x="78.74" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J3" gate="DATA" x="139.7" y="142.24" smashed="yes">
+<attribute name="NAME" x="139.7" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J3" gate="GPIO" x="139.7" y="93.98" smashed="yes">
+<attribute name="NAME" x="139.7" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J3" gate="JTAG" x="139.7" y="53.34" smashed="yes">
+<attribute name="NAME" x="139.7" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J4" gate="DATA" x="200.66" y="142.24" smashed="yes">
+<attribute name="NAME" x="200.66" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J4" gate="GPIO" x="200.66" y="93.98" smashed="yes">
+<attribute name="NAME" x="200.66" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J4" gate="JTAG" x="200.66" y="53.34" smashed="yes">
+<attribute name="NAME" x="200.66" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="OFFSHEET1" gate="G$1" x="248.92" y="175.26" smashed="yes"/>
+<instance part="OFFSHEET2" gate="G$1" x="248.92" y="114.3" smashed="yes"/>
+<instance part="OFFSHEET3" gate="G$1" x="248.92" y="71.12" smashed="yes"/>
 </instances>
 <busses>
 <bus name="BUS_I2C0_IRQ,BUS_I2C0_SCL,BUS_I2C0_SDA,BUS_I2C1_IRQ,BUS_I2C1_SCL,BUS_I2C1_SDA,BUS_SPI_MISO,BUS_SPI_MOSI,BUS_SPI_SCK,COM_USART_IRQ,COM_USART_MISO,COM_USART_MOSI,COM_USART_SCK,CTRL_!RESET,CTRL_SYNC">
@@ -3028,22 +3287,6 @@ Page 5: Mechanical</text>
 <label x="213.36" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PGND" class="0">
-<segment>
-<pinref part="SUPPLY17" gate="G$1" pin="PGND"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="15.24" x2="17.78" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CHASSIS" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="17.78" y1="25.4" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="CHASSIS"/>
-<wire x1="17.78" y1="27.94" x2="10.16" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="27.94" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -3053,24 +3296,78 @@ Page 5: Mechanical</text>
 <text x="251.46" y="71.12" size="1.27" layer="97" align="center-left"> &lt;2C6&gt;</text>
 </plain>
 <instances>
-<instance part="FRAME4" gate="G$1" x="0" y="0">
-<attribute name="TITLE" x="0" y="0" size="1.27" layer="96" align="center-left" display="off"/>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="J5" gate="DATA" x="17.78" y="142.24"/>
-<instance part="J5" gate="GPIO" x="17.78" y="93.98"/>
-<instance part="J5" gate="JTAG" x="17.78" y="53.34"/>
-<instance part="J6" gate="DATA" x="78.74" y="142.24"/>
-<instance part="J6" gate="GPIO" x="78.74" y="93.98"/>
-<instance part="J6" gate="JTAG" x="78.74" y="53.34"/>
-<instance part="J7" gate="DATA" x="139.7" y="142.24"/>
-<instance part="J7" gate="GPIO" x="139.7" y="93.98"/>
-<instance part="J7" gate="JTAG" x="139.7" y="53.34"/>
-<instance part="J8" gate="DATA" x="200.66" y="142.24"/>
-<instance part="J8" gate="GPIO" x="200.66" y="93.98"/>
-<instance part="J8" gate="JTAG" x="200.66" y="53.34"/>
-<instance part="OFFSHEET4" gate="G$1" x="248.92" y="175.26"/>
-<instance part="OFFSHEET5" gate="G$1" x="248.92" y="114.3"/>
-<instance part="OFFSHEET6" gate="G$1" x="248.92" y="71.12"/>
+<instance part="J5" gate="DATA" x="17.78" y="142.24" smashed="yes">
+<attribute name="NAME" x="17.78" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J5" gate="GPIO" x="17.78" y="93.98" smashed="yes">
+<attribute name="NAME" x="17.78" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J5" gate="JTAG" x="17.78" y="53.34" smashed="yes">
+<attribute name="NAME" x="17.78" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J6" gate="DATA" x="78.74" y="142.24" smashed="yes">
+<attribute name="NAME" x="78.74" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J6" gate="GPIO" x="78.74" y="93.98" smashed="yes">
+<attribute name="NAME" x="78.74" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J6" gate="JTAG" x="78.74" y="53.34" smashed="yes">
+<attribute name="NAME" x="78.74" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J7" gate="DATA" x="139.7" y="142.24" smashed="yes">
+<attribute name="NAME" x="139.7" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J7" gate="GPIO" x="139.7" y="93.98" smashed="yes">
+<attribute name="NAME" x="139.7" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J7" gate="JTAG" x="139.7" y="53.34" smashed="yes">
+<attribute name="NAME" x="139.7" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J8" gate="DATA" x="200.66" y="142.24" smashed="yes">
+<attribute name="NAME" x="200.66" y="171.45" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="123.19" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="121.158" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J8" gate="GPIO" x="200.66" y="93.98" smashed="yes">
+<attribute name="NAME" x="200.66" y="110.49" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="80.01" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="77.978" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J8" gate="JTAG" x="200.66" y="53.34" smashed="yes">
+<attribute name="NAME" x="200.66" y="67.31" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="OFFSHEET4" gate="G$1" x="248.92" y="175.26" smashed="yes"/>
+<instance part="OFFSHEET5" gate="G$1" x="248.92" y="114.3" smashed="yes"/>
+<instance part="OFFSHEET6" gate="G$1" x="248.92" y="71.12" smashed="yes"/>
 </instances>
 <busses>
 <bus name="BUS_I2C0_IRQ,BUS_I2C0_SCL,BUS_I2C0_SDA,BUS_I2C1_IRQ,BUS_I2C1_SCL,BUS_I2C1_SDA,BUS_SPI_MISO,BUS_SPI_MOSI,BUS_SPI_SCK,COM_USART_CLK,COM_USART_IRQ,COM_USART_RX,COM_USART_TX,CTRL_!RESET,CTRL_SYNC">
@@ -3991,29 +4288,77 @@ Page 5: Mechanical</text>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0">
-<attribute name="TITLE" x="0" y="0" size="1.778" layer="96" align="center-left" display="off"/>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="J1" gate="POWER" x="17.78" y="149.86"/>
-<instance part="SUPPLY1" gate="G$1" x="33.02" y="116.84"/>
-<instance part="J2" gate="POWER" x="78.74" y="149.86"/>
-<instance part="J3" gate="POWER" x="139.7" y="149.86"/>
-<instance part="J4" gate="POWER" x="200.66" y="149.86"/>
-<instance part="SUPPLY2" gate="G$1" x="93.98" y="116.84"/>
-<instance part="SUPPLY3" gate="G$1" x="154.94" y="116.84"/>
-<instance part="SUPPLY4" gate="G$1" x="215.9" y="116.84"/>
-<instance part="SUPPLY5" gate="G$1" x="33.02" y="40.64"/>
-<instance part="SUPPLY6" gate="G$1" x="93.98" y="40.64"/>
-<instance part="SUPPLY7" gate="G$1" x="154.94" y="40.64"/>
-<instance part="SUPPLY8" gate="G$1" x="215.9" y="40.64"/>
-<instance part="J5" gate="POWER" x="17.78" y="73.66"/>
-<instance part="J6" gate="POWER" x="78.74" y="73.66"/>
-<instance part="J7" gate="POWER" x="139.7" y="73.66"/>
-<instance part="J8" gate="POWER" x="200.66" y="73.66"/>
-<instance part="J9" gate="G$1" x="15.24" y="17.78"/>
-<instance part="SUPPLY9" gate="G$1" x="30.48" y="10.16"/>
-<instance part="J10" gate="G$1" x="43.18" y="17.78"/>
-<instance part="SUPPLY10" gate="G$1" x="58.42" y="10.16"/>
+<instance part="J1" gate="POWER" x="17.78" y="149.86" smashed="yes">
+<attribute name="NAME" x="17.78" y="179.07" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="118.11" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="116.078" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="33.02" y="116.84" smashed="yes"/>
+<instance part="J2" gate="POWER" x="78.74" y="149.86" smashed="yes">
+<attribute name="NAME" x="78.74" y="179.07" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="118.11" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="116.078" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J3" gate="POWER" x="139.7" y="149.86" smashed="yes">
+<attribute name="NAME" x="139.7" y="179.07" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="118.11" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="116.078" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J4" gate="POWER" x="200.66" y="149.86" smashed="yes">
+<attribute name="NAME" x="200.66" y="179.07" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="118.11" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="116.078" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="93.98" y="116.84" smashed="yes"/>
+<instance part="SUPPLY3" gate="G$1" x="154.94" y="116.84" smashed="yes"/>
+<instance part="SUPPLY4" gate="G$1" x="215.9" y="116.84" smashed="yes"/>
+<instance part="SUPPLY5" gate="G$1" x="33.02" y="40.64" smashed="yes"/>
+<instance part="SUPPLY6" gate="G$1" x="93.98" y="40.64" smashed="yes"/>
+<instance part="SUPPLY7" gate="G$1" x="154.94" y="40.64" smashed="yes"/>
+<instance part="SUPPLY8" gate="G$1" x="215.9" y="40.64" smashed="yes"/>
+<instance part="J5" gate="POWER" x="17.78" y="73.66" smashed="yes">
+<attribute name="NAME" x="17.78" y="102.87" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="17.78" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="17.78" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J6" gate="POWER" x="78.74" y="73.66" smashed="yes">
+<attribute name="NAME" x="78.74" y="102.87" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="78.74" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="78.74" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J7" gate="POWER" x="139.7" y="73.66" smashed="yes">
+<attribute name="NAME" x="139.7" y="102.87" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="139.7" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="139.7" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J8" gate="POWER" x="200.66" y="73.66" smashed="yes">
+<attribute name="NAME" x="200.66" y="102.87" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="200.66" y="41.91" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="200.66" y="39.878" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J9" gate="G$1" x="15.24" y="17.78" smashed="yes">
+<attribute name="VALUE" x="15.875" y="11.43" size="1.778" layer="96" align="center"/>
+<attribute name="NAME" x="15.875" y="26.67" size="1.778" layer="95" align="center"/>
+<attribute name="SKU" x="15.875" y="9.398" size="1.778" layer="97" align="center"/>
+<attribute name="PACKAGE" x="15.875" y="7.366" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="30.48" y="10.16" smashed="yes"/>
+<instance part="J10" gate="G$1" x="43.18" y="17.78" smashed="yes">
+<attribute name="VALUE" x="43.815" y="11.43" size="1.778" layer="96" align="center"/>
+<attribute name="NAME" x="43.815" y="26.67" size="1.778" layer="95" align="center"/>
+<attribute name="SKU" x="43.815" y="9.398" size="1.778" layer="97" align="center"/>
+<attribute name="PACKAGE" x="43.815" y="7.366" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="58.42" y="10.16" smashed="yes"/>
 </instances>
 <busses>
 <bus name="PR_3.3V-[0..12],PR_BATT-[0..6],PWR_CTRL_SW">
@@ -5245,21 +5590,66 @@ Page 5: Mechanical</text>
 <wire x1="177.8" y1="114.3" x2="179.07" y2="113.03" width="0.254" layer="97"/>
 </plain>
 <instances>
-<instance part="FRAME5" gate="G$1" x="0" y="0">
-<attribute name="TITLE" x="0" y="0" size="1.778" layer="96" align="center-left" display="off"/>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="H1" gate="G$1" x="10.16" y="53.34" rot="MR0"/>
-<instance part="SUPPLY11" gate="G$1" x="15.24" y="38.1"/>
-<instance part="SUPPLY12" gate="G$1" x="20.32" y="38.1"/>
-<instance part="SUPPLY13" gate="G$1" x="35.56" y="38.1"/>
-<instance part="C1" gate="G$1" x="20.32" y="45.72"/>
-<instance part="R1" gate="G$1" x="35.56" y="45.72"/>
-<instance part="H2" gate="G$1" x="10.16" y="33.02" rot="MR0"/>
-<instance part="SUPPLY14" gate="G$1" x="15.24" y="17.78"/>
-<instance part="SUPPLY15" gate="G$1" x="20.32" y="17.78"/>
-<instance part="SUPPLY16" gate="G$1" x="35.56" y="17.78"/>
-<instance part="C2" gate="G$1" x="20.32" y="25.4"/>
-<instance part="R2" gate="G$1" x="35.56" y="25.4"/>
+<instance part="H1" gate="G$1" x="10.16" y="53.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.16" y="56.642" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="10.16" y="50.038" size="1.27" layer="96" rot="MR0" align="center"/>
+<attribute name="SKU" x="10.16" y="48.514" size="1.27" layer="97" rot="MR0" align="center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="15.24" y="38.1" smashed="yes"/>
+<instance part="SUPPLY12" gate="G$1" x="20.32" y="38.1" smashed="yes"/>
+<instance part="SUPPLY13" gate="G$1" x="35.56" y="38.1" smashed="yes"/>
+<instance part="C1" gate="G$1" x="20.32" y="45.72" smashed="yes">
+<attribute name="NAME" x="23.114" y="50.8" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="23.114" y="49.276" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="23.114" y="47.752" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="23.114" y="46.228" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="23.114" y="44.704" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="23.114" y="43.18" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="35.56" y="45.72" smashed="yes">
+<attribute name="NAME" x="36.83" y="50.8" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="49.276" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="36.83" y="46.228" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="36.83" y="44.704" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="36.83" y="43.18" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="36.83" y="47.752" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="H2" gate="G$1" x="10.16" y="33.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.16" y="36.322" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="10.16" y="29.718" size="1.27" layer="96" rot="MR0" align="center"/>
+<attribute name="SKU" x="10.16" y="28.194" size="1.27" layer="97" rot="MR0" align="center"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="15.24" y="17.78" smashed="yes"/>
+<instance part="SUPPLY15" gate="G$1" x="20.32" y="17.78" smashed="yes"/>
+<instance part="SUPPLY16" gate="G$1" x="35.56" y="17.78" smashed="yes"/>
+<instance part="C2" gate="G$1" x="20.32" y="25.4" smashed="yes">
+<attribute name="NAME" x="23.114" y="30.48" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="23.114" y="28.956" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="23.114" y="27.432" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="23.114" y="25.908" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="23.114" y="24.384" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="23.114" y="22.86" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="R2" gate="G$1" x="35.56" y="25.4" smashed="yes">
+<attribute name="NAME" x="36.83" y="30.48" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="36.83" y="28.956" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="36.83" y="25.908" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="36.83" y="24.384" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="36.83" y="22.86" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="36.83" y="27.432" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="LOGO1" gate="G$1" x="114.3" y="10.16" smashed="yes">
+<attribute name="NAME" x="114.3" y="12.954" size="1.778" layer="95" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
