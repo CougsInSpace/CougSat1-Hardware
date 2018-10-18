@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -80,59 +80,59 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -141,21 +141,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -177,7 +177,7 @@
 <wire x1="0" y1="-24" x2="38.3" y2="-24" width="0.2" layer="49"/>
 <wire x1="0" y1="-33" x2="38.3" y2="-33" width="0.2" layer="49"/>
 <wire x1="32" y1="-7" x2="41" y2="-7" width="0.35" layer="41"/>
-<text x="0" y="-3.5" size="1.5" layer="21" font="vector" ratio="15" align="center">Backplane V2.1 4218</text>
+<text x="0" y="-3.5" size="1.5" layer="21" font="vector" ratio="15" align="center">Backplane V2.1 1842</text>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">
@@ -841,7 +841,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-17.9" y="-33.65" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="-37.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J10" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="-32" y="0" locked="yes" smashed="yes" rot="R90">
+<element name="J5" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="-32" y="0" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="-30.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="PicoLock" x="-32" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SKU" value="04-0001" x="-32" y="0" size="1.778" layer="27" rot="R90" display="off"/>
@@ -858,35 +858,35 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-17.9" y="-6.65" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="-10.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J5" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="10.5" locked="yes" smashed="yes">
+<element name="J7" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="10.5" locked="yes" smashed="yes">
 <attribute name="NAME" x="-17.9" y="14.35" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="10.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J6" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="19.5" locked="yes" smashed="yes">
+<element name="J8" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="19.5" locked="yes" smashed="yes">
 <attribute name="NAME" x="-17.9" y="23.35" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="19.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J7" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="28.5" locked="yes" smashed="yes">
+<element name="J9" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="28.5" locked="yes" smashed="yes">
 <attribute name="NAME" x="-17.9" y="32.35" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="28.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J8" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="37.5" locked="yes" smashed="yes">
+<element name="J10" library="CougsInSpace-Connectors" package="SODIMM-DDR1" value="CougSat Socket" x="0" y="37.5" locked="yes" smashed="yes">
 <attribute name="NAME" x="-17.9" y="41.35" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="04-0006" x="0" y="37.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J9" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="32" y="0" locked="yes" smashed="yes" rot="R270">
+<element name="J6" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="32" y="0" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="30.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="PACKAGE" value="PicoLock" x="32" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SKU" value="04-0001" x="32" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-1.8" y="4.7" smashed="yes" rot="R180">
+<element name="R2" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-1.8" y="4.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="0.7" y="4.7" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-1.8" y="4.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="POWER" value="1/10W" x="-1.8" y="4.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SKU" value="21-0000" x="-1.8" y="4.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-1.8" y="4.7" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="7.5" y="0" smashed="yes" rot="R90">
+<element name="R1" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="7.5" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.5" y="2.2" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="7.5" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="POWER" value="1/10W" x="7.5" y="0" size="1.778" layer="27" rot="R90" display="off"/>
@@ -905,14 +905,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="175"/>
 <contactref element="J4" pad="173"/>
 <contactref element="J4" pad="175"/>
-<contactref element="J5" pad="173"/>
-<contactref element="J5" pad="175"/>
-<contactref element="J6" pad="173"/>
-<contactref element="J6" pad="175"/>
 <contactref element="J7" pad="173"/>
 <contactref element="J7" pad="175"/>
 <contactref element="J8" pad="173"/>
 <contactref element="J8" pad="175"/>
+<contactref element="J9" pad="173"/>
+<contactref element="J9" pad="175"/>
+<contactref element="J10" pad="173"/>
+<contactref element="J10" pad="175"/>
 <wire x1="23.55" y1="34.2" x2="23.55" y2="35.4" width="0.35" layer="1"/>
 <wire x1="24.15" y1="35.4" x2="24.15" y2="34.2" width="0.35" layer="1"/>
 <wire x1="23.55" y1="35.4" x2="24.15" y2="35.4" width="0.35" layer="1"/>
@@ -1026,14 +1026,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="179"/>
 <contactref element="J4" pad="177"/>
 <contactref element="J4" pad="179"/>
-<contactref element="J5" pad="177"/>
-<contactref element="J5" pad="179"/>
-<contactref element="J6" pad="177"/>
-<contactref element="J6" pad="179"/>
 <contactref element="J7" pad="177"/>
 <contactref element="J7" pad="179"/>
 <contactref element="J8" pad="177"/>
 <contactref element="J8" pad="179"/>
+<contactref element="J9" pad="177"/>
+<contactref element="J9" pad="179"/>
+<contactref element="J10" pad="177"/>
+<contactref element="J10" pad="179"/>
 <wire x1="24.75" y1="34.2" x2="24.75" y2="35.4" width="0.35" layer="1"/>
 <wire x1="25.35" y1="35.4" x2="24.75" y2="35.4" width="0.35" layer="1"/>
 <via x="25.05" y="35.575" extent="1-16" drill="0.3"/>
@@ -1147,14 +1147,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="183"/>
 <contactref element="J4" pad="181"/>
 <contactref element="J4" pad="183"/>
-<contactref element="J5" pad="181"/>
-<contactref element="J5" pad="183"/>
-<contactref element="J6" pad="181"/>
-<contactref element="J6" pad="183"/>
 <contactref element="J7" pad="181"/>
 <contactref element="J7" pad="183"/>
 <contactref element="J8" pad="181"/>
 <contactref element="J8" pad="183"/>
+<contactref element="J9" pad="181"/>
+<contactref element="J9" pad="183"/>
+<contactref element="J10" pad="181"/>
+<contactref element="J10" pad="183"/>
 <wire x1="26.55" y1="35.4" x2="25.95" y2="35.4" width="0.35" layer="1"/>
 <via x="26.25" y="35.575" extent="1-16" drill="0.3"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -1268,14 +1268,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="123"/>
 <contactref element="J4" pad="121"/>
 <contactref element="J4" pad="123"/>
-<contactref element="J5" pad="121"/>
-<contactref element="J5" pad="123"/>
-<contactref element="J6" pad="121"/>
-<contactref element="J6" pad="123"/>
 <contactref element="J7" pad="121"/>
 <contactref element="J7" pad="123"/>
 <contactref element="J8" pad="121"/>
 <contactref element="J8" pad="123"/>
+<contactref element="J9" pad="121"/>
+<contactref element="J9" pad="123"/>
+<contactref element="J10" pad="121"/>
+<contactref element="J10" pad="123"/>
 <wire x1="7.95" y1="34.2" x2="7.95" y2="35.4" width="0.35" layer="1"/>
 <wire x1="8.55" y1="35.4" x2="8.55" y2="34.2" width="0.35" layer="1"/>
 <wire x1="7.95" y1="35.4" x2="8.55" y2="35.4" width="0.35" layer="1"/>
@@ -1393,14 +1393,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="127"/>
 <contactref element="J4" pad="125"/>
 <contactref element="J4" pad="127"/>
-<contactref element="J5" pad="125"/>
-<contactref element="J5" pad="127"/>
-<contactref element="J6" pad="125"/>
-<contactref element="J6" pad="127"/>
 <contactref element="J7" pad="125"/>
 <contactref element="J7" pad="127"/>
 <contactref element="J8" pad="125"/>
 <contactref element="J8" pad="127"/>
+<contactref element="J9" pad="125"/>
+<contactref element="J9" pad="127"/>
+<contactref element="J10" pad="125"/>
+<contactref element="J10" pad="127"/>
 <wire x1="9.15" y1="34.2" x2="9.15" y2="35.4" width="0.35" layer="1"/>
 <wire x1="9.75" y1="35.4" x2="9.75" y2="34.2" width="0.35" layer="1"/>
 <wire x1="9.15" y1="35.4" x2="9.75" y2="35.4" width="0.35" layer="1"/>
@@ -1518,14 +1518,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="131"/>
 <contactref element="J4" pad="129"/>
 <contactref element="J4" pad="131"/>
-<contactref element="J5" pad="129"/>
-<contactref element="J5" pad="131"/>
-<contactref element="J6" pad="129"/>
-<contactref element="J6" pad="131"/>
 <contactref element="J7" pad="129"/>
 <contactref element="J7" pad="131"/>
 <contactref element="J8" pad="129"/>
 <contactref element="J8" pad="131"/>
+<contactref element="J9" pad="129"/>
+<contactref element="J9" pad="131"/>
+<contactref element="J10" pad="129"/>
+<contactref element="J10" pad="131"/>
 <wire x1="10.35" y1="34.2" x2="10.35" y2="35.4" width="0.35" layer="1"/>
 <wire x1="10.95" y1="35.4" x2="10.95" y2="34.2" width="0.35" layer="1"/>
 <wire x1="10.35" y1="35.4" x2="10.95" y2="35.4" width="0.35" layer="1"/>
@@ -1643,14 +1643,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="151"/>
 <contactref element="J4" pad="149"/>
 <contactref element="J4" pad="151"/>
-<contactref element="J5" pad="149"/>
-<contactref element="J5" pad="151"/>
-<contactref element="J6" pad="149"/>
-<contactref element="J6" pad="151"/>
 <contactref element="J7" pad="149"/>
 <contactref element="J7" pad="151"/>
 <contactref element="J8" pad="149"/>
 <contactref element="J8" pad="151"/>
+<contactref element="J9" pad="149"/>
+<contactref element="J9" pad="151"/>
+<contactref element="J10" pad="149"/>
+<contactref element="J10" pad="151"/>
 <wire x1="16.95" y1="35.4" x2="16.95" y2="34.2" width="0.35" layer="1"/>
 <wire x1="16.35" y1="35.4" x2="16.95" y2="35.4" width="0.35" layer="1"/>
 <via x="16.65" y="35.575" extent="1-16" drill="0.3"/>
@@ -1768,14 +1768,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="155"/>
 <contactref element="J4" pad="153"/>
 <contactref element="J4" pad="155"/>
-<contactref element="J5" pad="153"/>
-<contactref element="J5" pad="155"/>
-<contactref element="J6" pad="153"/>
-<contactref element="J6" pad="155"/>
 <contactref element="J7" pad="153"/>
 <contactref element="J7" pad="155"/>
 <contactref element="J8" pad="153"/>
 <contactref element="J8" pad="155"/>
+<contactref element="J9" pad="153"/>
+<contactref element="J9" pad="155"/>
+<contactref element="J10" pad="153"/>
+<contactref element="J10" pad="155"/>
 <wire x1="17.55" y1="34.2" x2="17.55" y2="35.4" width="0.35" layer="1"/>
 <wire x1="18.15" y1="35.4" x2="18.15" y2="34.2" width="0.35" layer="1"/>
 <wire x1="17.55" y1="35.4" x2="18.15" y2="35.4" width="0.35" layer="1"/>
@@ -1893,14 +1893,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="159"/>
 <contactref element="J4" pad="157"/>
 <contactref element="J4" pad="159"/>
-<contactref element="J5" pad="157"/>
-<contactref element="J5" pad="159"/>
-<contactref element="J6" pad="157"/>
-<contactref element="J6" pad="159"/>
 <contactref element="J7" pad="157"/>
 <contactref element="J7" pad="159"/>
 <contactref element="J8" pad="157"/>
 <contactref element="J8" pad="159"/>
+<contactref element="J9" pad="157"/>
+<contactref element="J9" pad="159"/>
+<contactref element="J10" pad="157"/>
+<contactref element="J10" pad="159"/>
 <wire x1="18.75" y1="34.2" x2="18.75" y2="35.4" width="0.35" layer="1"/>
 <wire x1="19.35" y1="35.4" x2="19.35" y2="34.2" width="0.35" layer="1"/>
 <wire x1="18.75" y1="35.4" x2="19.35" y2="35.4" width="0.35" layer="1"/>
@@ -2018,14 +2018,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="167"/>
 <contactref element="J4" pad="165"/>
 <contactref element="J4" pad="167"/>
-<contactref element="J5" pad="165"/>
-<contactref element="J5" pad="167"/>
-<contactref element="J6" pad="165"/>
-<contactref element="J6" pad="167"/>
 <contactref element="J7" pad="165"/>
 <contactref element="J7" pad="167"/>
 <contactref element="J8" pad="165"/>
 <contactref element="J8" pad="167"/>
+<contactref element="J9" pad="165"/>
+<contactref element="J9" pad="167"/>
+<contactref element="J10" pad="165"/>
+<contactref element="J10" pad="167"/>
 <wire x1="21.15" y1="34.2" x2="21.15" y2="35.4" width="0.35" layer="1"/>
 <wire x1="21.75" y1="35.4" x2="21.75" y2="34.2" width="0.35" layer="1"/>
 <wire x1="21.15" y1="35.4" x2="21.75" y2="35.4" width="0.35" layer="1"/>
@@ -2139,14 +2139,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="171"/>
 <contactref element="J4" pad="169"/>
 <contactref element="J4" pad="171"/>
-<contactref element="J5" pad="169"/>
-<contactref element="J5" pad="171"/>
-<contactref element="J6" pad="169"/>
-<contactref element="J6" pad="171"/>
 <contactref element="J7" pad="169"/>
 <contactref element="J7" pad="171"/>
 <contactref element="J8" pad="169"/>
 <contactref element="J8" pad="171"/>
+<contactref element="J9" pad="169"/>
+<contactref element="J9" pad="171"/>
+<contactref element="J10" pad="169"/>
+<contactref element="J10" pad="171"/>
 <wire x1="22.35" y1="34.2" x2="22.35" y2="35.4" width="0.35" layer="1"/>
 <wire x1="22.95" y1="35.4" x2="22.95" y2="34.2" width="0.35" layer="1"/>
 <wire x1="22.35" y1="35.4" x2="22.95" y2="35.4" width="0.35" layer="1"/>
@@ -2260,14 +2260,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="135"/>
 <contactref element="J4" pad="133"/>
 <contactref element="J4" pad="135"/>
-<contactref element="J5" pad="133"/>
-<contactref element="J5" pad="135"/>
-<contactref element="J6" pad="133"/>
-<contactref element="J6" pad="135"/>
 <contactref element="J7" pad="133"/>
 <contactref element="J7" pad="135"/>
 <contactref element="J8" pad="133"/>
 <contactref element="J8" pad="135"/>
+<contactref element="J9" pad="133"/>
+<contactref element="J9" pad="135"/>
+<contactref element="J10" pad="133"/>
+<contactref element="J10" pad="135"/>
 <wire x1="11.55" y1="34.2" x2="11.55" y2="35.4" width="0.35" layer="1"/>
 <wire x1="12.15" y1="35.4" x2="12.15" y2="34.2" width="0.35" layer="1"/>
 <wire x1="11.55" y1="35.4" x2="12.15" y2="35.4" width="0.35" layer="1"/>
@@ -2385,14 +2385,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="139"/>
 <contactref element="J4" pad="137"/>
 <contactref element="J4" pad="139"/>
-<contactref element="J5" pad="137"/>
-<contactref element="J5" pad="139"/>
-<contactref element="J6" pad="137"/>
-<contactref element="J6" pad="139"/>
 <contactref element="J7" pad="137"/>
 <contactref element="J7" pad="139"/>
 <contactref element="J8" pad="137"/>
 <contactref element="J8" pad="139"/>
+<contactref element="J9" pad="137"/>
+<contactref element="J9" pad="139"/>
+<contactref element="J10" pad="137"/>
+<contactref element="J10" pad="139"/>
 <wire x1="12.75" y1="34.2" x2="12.75" y2="35.4" width="0.35" layer="1"/>
 <wire x1="13.35" y1="35.4" x2="13.35" y2="34.2" width="0.35" layer="1"/>
 <wire x1="12.75" y1="35.4" x2="13.35" y2="35.4" width="0.35" layer="1"/>
@@ -2510,14 +2510,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="143"/>
 <contactref element="J4" pad="141"/>
 <contactref element="J4" pad="143"/>
-<contactref element="J5" pad="141"/>
-<contactref element="J5" pad="143"/>
-<contactref element="J6" pad="141"/>
-<contactref element="J6" pad="143"/>
 <contactref element="J7" pad="141"/>
 <contactref element="J7" pad="143"/>
 <contactref element="J8" pad="141"/>
 <contactref element="J8" pad="143"/>
+<contactref element="J9" pad="141"/>
+<contactref element="J9" pad="143"/>
+<contactref element="J10" pad="141"/>
+<contactref element="J10" pad="143"/>
 <wire x1="13.95" y1="34.2" x2="13.95" y2="35.4" width="0.35" layer="1"/>
 <wire x1="14.55" y1="35.4" x2="14.55" y2="34.2" width="0.35" layer="1"/>
 <wire x1="13.95" y1="35.4" x2="14.55" y2="35.4" width="0.35" layer="1"/>
@@ -2635,14 +2635,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="147"/>
 <contactref element="J4" pad="145"/>
 <contactref element="J4" pad="147"/>
-<contactref element="J5" pad="145"/>
-<contactref element="J5" pad="147"/>
-<contactref element="J6" pad="145"/>
-<contactref element="J6" pad="147"/>
 <contactref element="J7" pad="145"/>
 <contactref element="J7" pad="147"/>
 <contactref element="J8" pad="145"/>
 <contactref element="J8" pad="147"/>
+<contactref element="J9" pad="145"/>
+<contactref element="J9" pad="147"/>
+<contactref element="J10" pad="145"/>
+<contactref element="J10" pad="147"/>
 <wire x1="15.15" y1="34.2" x2="15.15" y2="35.4" width="0.35" layer="1"/>
 <wire x1="15.75" y1="35.4" x2="15.75" y2="34.2" width="0.35" layer="1"/>
 <wire x1="15.15" y1="35.4" x2="15.75" y2="35.4" width="0.35" layer="1"/>
@@ -2760,14 +2760,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="83"/>
 <contactref element="J4" pad="81"/>
 <contactref element="J4" pad="83"/>
-<contactref element="J5" pad="81"/>
-<contactref element="J5" pad="83"/>
-<contactref element="J6" pad="81"/>
-<contactref element="J6" pad="83"/>
 <contactref element="J7" pad="81"/>
 <contactref element="J7" pad="83"/>
 <contactref element="J8" pad="81"/>
 <contactref element="J8" pad="83"/>
+<contactref element="J9" pad="81"/>
+<contactref element="J9" pad="83"/>
+<contactref element="J10" pad="81"/>
+<contactref element="J10" pad="83"/>
 <wire x1="-3.45" y1="35.4" x2="-4.05" y2="35.4" width="0.35" layer="1"/>
 <via x="-3.75" y="35.575" extent="1-16" drill="0.3"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -2885,14 +2885,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="87"/>
 <contactref element="J4" pad="85"/>
 <contactref element="J4" pad="87"/>
-<contactref element="J5" pad="85"/>
-<contactref element="J5" pad="87"/>
-<contactref element="J6" pad="85"/>
-<contactref element="J6" pad="87"/>
 <contactref element="J7" pad="85"/>
 <contactref element="J7" pad="87"/>
 <contactref element="J8" pad="85"/>
 <contactref element="J8" pad="87"/>
+<contactref element="J9" pad="85"/>
+<contactref element="J9" pad="87"/>
+<contactref element="J10" pad="85"/>
+<contactref element="J10" pad="87"/>
 <wire x1="-2.25" y1="35.4" x2="-2.85" y2="35.4" width="0.35" layer="1"/>
 <via x="-2.55" y="35.575" extent="1-16" drill="0.3"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -3008,14 +3008,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="91"/>
 <contactref element="J4" pad="89"/>
 <contactref element="J4" pad="91"/>
-<contactref element="J5" pad="89"/>
-<contactref element="J5" pad="91"/>
-<contactref element="J6" pad="89"/>
-<contactref element="J6" pad="91"/>
 <contactref element="J7" pad="89"/>
 <contactref element="J7" pad="91"/>
 <contactref element="J8" pad="89"/>
 <contactref element="J8" pad="91"/>
+<contactref element="J9" pad="89"/>
+<contactref element="J9" pad="91"/>
+<contactref element="J10" pad="89"/>
+<contactref element="J10" pad="91"/>
 <wire x1="-1.65" y1="34.2" x2="-1.65" y2="35.4" width="0.35" layer="1"/>
 <wire x1="-1.05" y1="35.4" x2="-1.65" y2="35.4" width="0.35" layer="1"/>
 <via x="-1.35" y="35.575" extent="1-16" drill="0.3"/>
@@ -3131,14 +3131,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="99"/>
 <contactref element="J4" pad="97"/>
 <contactref element="J4" pad="99"/>
-<contactref element="J5" pad="97"/>
-<contactref element="J5" pad="99"/>
-<contactref element="J6" pad="97"/>
-<contactref element="J6" pad="99"/>
 <contactref element="J7" pad="97"/>
 <contactref element="J7" pad="99"/>
 <contactref element="J8" pad="97"/>
 <contactref element="J8" pad="99"/>
+<contactref element="J9" pad="97"/>
+<contactref element="J9" pad="99"/>
+<contactref element="J10" pad="97"/>
+<contactref element="J10" pad="99"/>
 <wire x1="1.35" y1="35.4" x2="1.35" y2="34.2" width="0.35" layer="1"/>
 <wire x1="0.75" y1="35.4" x2="1.35" y2="35.4" width="0.35" layer="1"/>
 <via x="1.05" y="35.575" extent="1-16" drill="0.3"/>
@@ -3253,14 +3253,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="103"/>
 <contactref element="J4" pad="101"/>
 <contactref element="J4" pad="103"/>
-<contactref element="J5" pad="101"/>
-<contactref element="J5" pad="103"/>
-<contactref element="J6" pad="101"/>
-<contactref element="J6" pad="103"/>
 <contactref element="J7" pad="101"/>
 <contactref element="J7" pad="103"/>
 <contactref element="J8" pad="101"/>
 <contactref element="J8" pad="103"/>
+<contactref element="J9" pad="101"/>
+<contactref element="J9" pad="103"/>
+<contactref element="J10" pad="101"/>
+<contactref element="J10" pad="103"/>
 <wire x1="2.55" y1="35.4" x2="1.95" y2="35.4" width="0.35" layer="1"/>
 <via x="2.25" y="35.575" extent="1-16" drill="0.3"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -3375,14 +3375,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="107"/>
 <contactref element="J4" pad="105"/>
 <contactref element="J4" pad="107"/>
-<contactref element="J5" pad="105"/>
-<contactref element="J5" pad="107"/>
-<contactref element="J6" pad="105"/>
-<contactref element="J6" pad="107"/>
 <contactref element="J7" pad="105"/>
 <contactref element="J7" pad="107"/>
 <contactref element="J8" pad="105"/>
 <contactref element="J8" pad="107"/>
+<contactref element="J9" pad="105"/>
+<contactref element="J9" pad="107"/>
+<contactref element="J10" pad="105"/>
+<contactref element="J10" pad="107"/>
 <wire x1="3.15" y1="34.2" x2="3.15" y2="35.4" width="0.35" layer="1"/>
 <wire x1="3.75" y1="35.4" x2="3.75" y2="34.2" width="0.35" layer="1"/>
 <wire x1="3.15" y1="35.4" x2="3.75" y2="35.4" width="0.35" layer="1"/>
@@ -3500,14 +3500,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="111"/>
 <contactref element="J4" pad="109"/>
 <contactref element="J4" pad="111"/>
-<contactref element="J5" pad="109"/>
-<contactref element="J5" pad="111"/>
-<contactref element="J6" pad="109"/>
-<contactref element="J6" pad="111"/>
 <contactref element="J7" pad="109"/>
 <contactref element="J7" pad="111"/>
 <contactref element="J8" pad="109"/>
 <contactref element="J8" pad="111"/>
+<contactref element="J9" pad="109"/>
+<contactref element="J9" pad="111"/>
+<contactref element="J10" pad="109"/>
+<contactref element="J10" pad="111"/>
 <wire x1="4.35" y1="34.2" x2="4.35" y2="35.4" width="0.35" layer="1"/>
 <wire x1="4.95" y1="35.4" x2="4.95" y2="34.2" width="0.35" layer="1"/>
 <wire x1="4.35" y1="35.4" x2="4.95" y2="35.4" width="0.35" layer="1"/>
@@ -3625,14 +3625,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="115"/>
 <contactref element="J4" pad="113"/>
 <contactref element="J4" pad="115"/>
-<contactref element="J5" pad="113"/>
-<contactref element="J5" pad="115"/>
-<contactref element="J6" pad="113"/>
-<contactref element="J6" pad="115"/>
 <contactref element="J7" pad="113"/>
 <contactref element="J7" pad="115"/>
 <contactref element="J8" pad="113"/>
 <contactref element="J8" pad="115"/>
+<contactref element="J9" pad="113"/>
+<contactref element="J9" pad="115"/>
+<contactref element="J10" pad="113"/>
+<contactref element="J10" pad="115"/>
 <wire x1="5.55" y1="34.2" x2="5.55" y2="35.4" width="0.35" layer="1"/>
 <wire x1="6.15" y1="35.4" x2="5.55" y2="35.4" width="0.35" layer="1"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -3752,14 +3752,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="119"/>
 <contactref element="J4" pad="117"/>
 <contactref element="J4" pad="119"/>
-<contactref element="J5" pad="117"/>
-<contactref element="J5" pad="119"/>
-<contactref element="J6" pad="117"/>
-<contactref element="J6" pad="119"/>
 <contactref element="J7" pad="117"/>
 <contactref element="J7" pad="119"/>
 <contactref element="J8" pad="117"/>
 <contactref element="J8" pad="119"/>
+<contactref element="J9" pad="117"/>
+<contactref element="J9" pad="119"/>
+<contactref element="J10" pad="117"/>
+<contactref element="J10" pad="119"/>
 <wire x1="7.35" y1="35.4" x2="6.75" y2="35.4" width="0.35" layer="1"/>
 <via x="7.05" y="35.575" extent="1-16" drill="0.3"/>
 <polygon width="0.35" layer="1" thermals="no">
@@ -3877,14 +3877,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="187"/>
 <contactref element="J4" pad="185"/>
 <contactref element="J4" pad="187"/>
-<contactref element="J5" pad="185"/>
-<contactref element="J5" pad="187"/>
-<contactref element="J6" pad="185"/>
-<contactref element="J6" pad="187"/>
 <contactref element="J7" pad="185"/>
 <contactref element="J7" pad="187"/>
 <contactref element="J8" pad="185"/>
 <contactref element="J8" pad="187"/>
+<contactref element="J9" pad="185"/>
+<contactref element="J9" pad="187"/>
+<contactref element="J10" pad="185"/>
+<contactref element="J10" pad="187"/>
 <wire x1="27.15" y1="34.2" x2="27.15" y2="35.4" width="0.35" layer="1"/>
 <wire x1="27.75" y1="35.4" x2="27.75" y2="34.2" width="0.35" layer="1"/>
 <wire x1="27.15" y1="35.4" x2="27.75" y2="35.4" width="0.35" layer="1"/>
@@ -4026,14 +4026,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="191"/>
 <contactref element="J4" pad="189"/>
 <contactref element="J4" pad="191"/>
-<contactref element="J5" pad="189"/>
-<contactref element="J5" pad="191"/>
-<contactref element="J6" pad="189"/>
-<contactref element="J6" pad="191"/>
 <contactref element="J7" pad="189"/>
 <contactref element="J7" pad="191"/>
 <contactref element="J8" pad="189"/>
 <contactref element="J8" pad="191"/>
+<contactref element="J9" pad="189"/>
+<contactref element="J9" pad="191"/>
+<contactref element="J10" pad="189"/>
+<contactref element="J10" pad="191"/>
 <wire x1="28.35" y1="34.2" x2="28.35" y2="35.4" width="0.35" layer="1"/>
 <wire x1="28.95" y1="35.4" x2="28.95" y2="34.2" width="0.35" layer="1"/>
 <wire x1="28.35" y1="35.4" x2="28.95" y2="35.4" width="0.35" layer="1"/>
@@ -4175,14 +4175,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="195"/>
 <contactref element="J4" pad="193"/>
 <contactref element="J4" pad="195"/>
-<contactref element="J5" pad="193"/>
-<contactref element="J5" pad="195"/>
-<contactref element="J6" pad="193"/>
-<contactref element="J6" pad="195"/>
 <contactref element="J7" pad="193"/>
 <contactref element="J7" pad="195"/>
 <contactref element="J8" pad="193"/>
 <contactref element="J8" pad="195"/>
+<contactref element="J9" pad="193"/>
+<contactref element="J9" pad="195"/>
+<contactref element="J10" pad="193"/>
+<contactref element="J10" pad="195"/>
 <wire x1="29.55" y1="34.2" x2="29.55" y2="35.4" width="0.35" layer="1"/>
 <wire x1="30.15" y1="35.4" x2="30.15" y2="34.2" width="0.35" layer="1"/>
 <wire x1="29.55" y1="35.4" x2="30.15" y2="35.4" width="0.35" layer="1"/>
@@ -4324,14 +4324,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="199"/>
 <contactref element="J4" pad="197"/>
 <contactref element="J4" pad="199"/>
-<contactref element="J5" pad="197"/>
-<contactref element="J5" pad="199"/>
-<contactref element="J6" pad="197"/>
-<contactref element="J6" pad="199"/>
 <contactref element="J7" pad="197"/>
 <contactref element="J7" pad="199"/>
 <contactref element="J8" pad="197"/>
 <contactref element="J8" pad="199"/>
+<contactref element="J9" pad="197"/>
+<contactref element="J9" pad="199"/>
+<contactref element="J10" pad="197"/>
+<contactref element="J10" pad="199"/>
 <wire x1="30.75" y1="34.2" x2="30.75" y2="35.4" width="0.35" layer="1"/>
 <wire x1="31.35" y1="35.4" x2="31.35" y2="34.2" width="0.35" layer="1"/>
 <wire x1="30.75" y1="35.4" x2="31.35" y2="35.4" width="0.35" layer="1"/>
@@ -4473,14 +4473,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="188"/>
 <contactref element="J4" pad="186"/>
 <contactref element="J4" pad="188"/>
-<contactref element="J5" pad="186"/>
-<contactref element="J5" pad="188"/>
-<contactref element="J6" pad="186"/>
-<contactref element="J6" pad="188"/>
 <contactref element="J7" pad="186"/>
 <contactref element="J7" pad="188"/>
 <contactref element="J8" pad="186"/>
 <contactref element="J8" pad="188"/>
+<contactref element="J9" pad="186"/>
+<contactref element="J9" pad="188"/>
+<contactref element="J10" pad="186"/>
+<contactref element="J10" pad="188"/>
 <wire x1="28.05" y1="40.8" x2="28.05" y2="39.6" width="0.35" layer="1"/>
 <wire x1="27.45" y1="39.6" x2="27.45" y2="40.8" width="0.35" layer="1"/>
 <wire x1="28.05" y1="39.6" x2="27.45" y2="39.6" width="0.35" layer="1"/>
@@ -4623,14 +4623,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="192"/>
 <contactref element="J4" pad="190"/>
 <contactref element="J4" pad="192"/>
-<contactref element="J5" pad="190"/>
-<contactref element="J5" pad="192"/>
-<contactref element="J6" pad="190"/>
-<contactref element="J6" pad="192"/>
 <contactref element="J7" pad="190"/>
 <contactref element="J7" pad="192"/>
 <contactref element="J8" pad="190"/>
 <contactref element="J8" pad="192"/>
+<contactref element="J9" pad="190"/>
+<contactref element="J9" pad="192"/>
+<contactref element="J10" pad="190"/>
+<contactref element="J10" pad="192"/>
 <wire x1="29.25" y1="40.8" x2="29.25" y2="39.6" width="0.35" layer="1"/>
 <wire x1="28.65" y1="39.6" x2="28.65" y2="40.8" width="0.35" layer="1"/>
 <wire x1="29.25" y1="39.6" x2="28.65" y2="39.6" width="0.35" layer="1"/>
@@ -4773,14 +4773,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="196"/>
 <contactref element="J4" pad="194"/>
 <contactref element="J4" pad="196"/>
-<contactref element="J5" pad="194"/>
-<contactref element="J5" pad="196"/>
-<contactref element="J6" pad="194"/>
-<contactref element="J6" pad="196"/>
 <contactref element="J7" pad="194"/>
 <contactref element="J7" pad="196"/>
 <contactref element="J8" pad="194"/>
 <contactref element="J8" pad="196"/>
+<contactref element="J9" pad="194"/>
+<contactref element="J9" pad="196"/>
+<contactref element="J10" pad="194"/>
+<contactref element="J10" pad="196"/>
 <wire x1="30.45" y1="40.8" x2="30.45" y2="39.6" width="0.35" layer="1"/>
 <wire x1="29.85" y1="39.6" x2="29.85" y2="40.8" width="0.35" layer="1"/>
 <wire x1="30.45" y1="39.6" x2="29.85" y2="39.6" width="0.35" layer="1"/>
@@ -4923,14 +4923,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="200"/>
 <contactref element="J4" pad="198"/>
 <contactref element="J4" pad="200"/>
-<contactref element="J5" pad="198"/>
-<contactref element="J5" pad="200"/>
-<contactref element="J6" pad="198"/>
-<contactref element="J6" pad="200"/>
 <contactref element="J7" pad="198"/>
 <contactref element="J7" pad="200"/>
 <contactref element="J8" pad="198"/>
 <contactref element="J8" pad="200"/>
+<contactref element="J9" pad="198"/>
+<contactref element="J9" pad="200"/>
+<contactref element="J10" pad="198"/>
+<contactref element="J10" pad="200"/>
 <wire x1="31.65" y1="40.8" x2="31.65" y2="39.6" width="0.35" layer="1"/>
 <wire x1="31.05" y1="39.6" x2="31.05" y2="40.8" width="0.35" layer="1"/>
 <wire x1="31.65" y1="39.6" x2="31.05" y2="39.6" width="0.35" layer="1"/>
@@ -5273,110 +5273,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="180"/>
 <contactref element="J4" pad="182"/>
 <contactref element="J4" pad="184"/>
-<contactref element="J5" pad="82"/>
-<contactref element="J5" pad="84"/>
-<contactref element="J5" pad="86"/>
-<contactref element="J5" pad="88"/>
-<contactref element="J5" pad="90"/>
-<contactref element="J5" pad="92"/>
-<contactref element="J5" pad="94"/>
-<contactref element="J5" pad="96"/>
-<contactref element="J5" pad="98"/>
-<contactref element="J5" pad="100"/>
-<contactref element="J5" pad="102"/>
-<contactref element="J5" pad="104"/>
-<contactref element="J5" pad="106"/>
-<contactref element="J5" pad="108"/>
-<contactref element="J5" pad="110"/>
-<contactref element="J5" pad="112"/>
-<contactref element="J5" pad="114"/>
-<contactref element="J5" pad="116"/>
-<contactref element="J5" pad="118"/>
-<contactref element="J5" pad="120"/>
-<contactref element="J5" pad="122"/>
-<contactref element="J5" pad="124"/>
-<contactref element="J5" pad="126"/>
-<contactref element="J5" pad="128"/>
-<contactref element="J5" pad="130"/>
-<contactref element="J5" pad="132"/>
-<contactref element="J5" pad="134"/>
-<contactref element="J5" pad="136"/>
-<contactref element="J5" pad="138"/>
-<contactref element="J5" pad="140"/>
-<contactref element="J5" pad="142"/>
-<contactref element="J5" pad="144"/>
-<contactref element="J5" pad="146"/>
-<contactref element="J5" pad="148"/>
-<contactref element="J5" pad="150"/>
-<contactref element="J5" pad="152"/>
-<contactref element="J5" pad="154"/>
-<contactref element="J5" pad="156"/>
-<contactref element="J5" pad="158"/>
-<contactref element="J5" pad="160"/>
-<contactref element="J5" pad="162"/>
-<contactref element="J5" pad="164"/>
-<contactref element="J5" pad="166"/>
-<contactref element="J5" pad="168"/>
-<contactref element="J5" pad="170"/>
-<contactref element="J5" pad="172"/>
-<contactref element="J5" pad="174"/>
-<contactref element="J5" pad="176"/>
-<contactref element="J5" pad="178"/>
-<contactref element="J5" pad="180"/>
-<contactref element="J5" pad="182"/>
-<contactref element="J5" pad="184"/>
-<contactref element="J6" pad="82"/>
-<contactref element="J6" pad="84"/>
-<contactref element="J6" pad="86"/>
-<contactref element="J6" pad="88"/>
-<contactref element="J6" pad="90"/>
-<contactref element="J6" pad="92"/>
-<contactref element="J6" pad="94"/>
-<contactref element="J6" pad="96"/>
-<contactref element="J6" pad="98"/>
-<contactref element="J6" pad="100"/>
-<contactref element="J6" pad="102"/>
-<contactref element="J6" pad="104"/>
-<contactref element="J6" pad="106"/>
-<contactref element="J6" pad="108"/>
-<contactref element="J6" pad="110"/>
-<contactref element="J6" pad="112"/>
-<contactref element="J6" pad="114"/>
-<contactref element="J6" pad="116"/>
-<contactref element="J6" pad="118"/>
-<contactref element="J6" pad="120"/>
-<contactref element="J6" pad="122"/>
-<contactref element="J6" pad="124"/>
-<contactref element="J6" pad="126"/>
-<contactref element="J6" pad="128"/>
-<contactref element="J6" pad="130"/>
-<contactref element="J6" pad="132"/>
-<contactref element="J6" pad="134"/>
-<contactref element="J6" pad="136"/>
-<contactref element="J6" pad="138"/>
-<contactref element="J6" pad="140"/>
-<contactref element="J6" pad="142"/>
-<contactref element="J6" pad="144"/>
-<contactref element="J6" pad="146"/>
-<contactref element="J6" pad="148"/>
-<contactref element="J6" pad="150"/>
-<contactref element="J6" pad="152"/>
-<contactref element="J6" pad="154"/>
-<contactref element="J6" pad="156"/>
-<contactref element="J6" pad="158"/>
-<contactref element="J6" pad="160"/>
-<contactref element="J6" pad="162"/>
-<contactref element="J6" pad="164"/>
-<contactref element="J6" pad="166"/>
-<contactref element="J6" pad="168"/>
-<contactref element="J6" pad="170"/>
-<contactref element="J6" pad="172"/>
-<contactref element="J6" pad="174"/>
-<contactref element="J6" pad="176"/>
-<contactref element="J6" pad="178"/>
-<contactref element="J6" pad="180"/>
-<contactref element="J6" pad="182"/>
-<contactref element="J6" pad="184"/>
 <contactref element="J7" pad="82"/>
 <contactref element="J7" pad="84"/>
 <contactref element="J7" pad="86"/>
@@ -5481,14 +5377,118 @@ design rules under a new name.</description>
 <contactref element="J8" pad="180"/>
 <contactref element="J8" pad="182"/>
 <contactref element="J8" pad="184"/>
-<contactref element="J9" pad="3"/>
-<contactref element="J9" pad="4"/>
-<contactref element="J10" pad="3"/>
-<contactref element="J10" pad="4"/>
+<contactref element="J9" pad="82"/>
+<contactref element="J9" pad="84"/>
+<contactref element="J9" pad="86"/>
+<contactref element="J9" pad="88"/>
+<contactref element="J9" pad="90"/>
+<contactref element="J9" pad="92"/>
+<contactref element="J9" pad="94"/>
+<contactref element="J9" pad="96"/>
+<contactref element="J9" pad="98"/>
+<contactref element="J9" pad="100"/>
+<contactref element="J9" pad="102"/>
+<contactref element="J9" pad="104"/>
+<contactref element="J9" pad="106"/>
+<contactref element="J9" pad="108"/>
+<contactref element="J9" pad="110"/>
+<contactref element="J9" pad="112"/>
+<contactref element="J9" pad="114"/>
+<contactref element="J9" pad="116"/>
+<contactref element="J9" pad="118"/>
+<contactref element="J9" pad="120"/>
+<contactref element="J9" pad="122"/>
+<contactref element="J9" pad="124"/>
+<contactref element="J9" pad="126"/>
+<contactref element="J9" pad="128"/>
+<contactref element="J9" pad="130"/>
+<contactref element="J9" pad="132"/>
+<contactref element="J9" pad="134"/>
+<contactref element="J9" pad="136"/>
+<contactref element="J9" pad="138"/>
+<contactref element="J9" pad="140"/>
+<contactref element="J9" pad="142"/>
+<contactref element="J9" pad="144"/>
+<contactref element="J9" pad="146"/>
+<contactref element="J9" pad="148"/>
+<contactref element="J9" pad="150"/>
+<contactref element="J9" pad="152"/>
+<contactref element="J9" pad="154"/>
+<contactref element="J9" pad="156"/>
+<contactref element="J9" pad="158"/>
+<contactref element="J9" pad="160"/>
+<contactref element="J9" pad="162"/>
+<contactref element="J9" pad="164"/>
+<contactref element="J9" pad="166"/>
+<contactref element="J9" pad="168"/>
+<contactref element="J9" pad="170"/>
+<contactref element="J9" pad="172"/>
+<contactref element="J9" pad="174"/>
+<contactref element="J9" pad="176"/>
+<contactref element="J9" pad="178"/>
+<contactref element="J9" pad="180"/>
+<contactref element="J9" pad="182"/>
+<contactref element="J9" pad="184"/>
+<contactref element="J10" pad="82"/>
+<contactref element="J10" pad="84"/>
+<contactref element="J10" pad="86"/>
+<contactref element="J10" pad="88"/>
+<contactref element="J10" pad="90"/>
+<contactref element="J10" pad="92"/>
+<contactref element="J10" pad="94"/>
+<contactref element="J10" pad="96"/>
+<contactref element="J10" pad="98"/>
+<contactref element="J10" pad="100"/>
+<contactref element="J10" pad="102"/>
+<contactref element="J10" pad="104"/>
+<contactref element="J10" pad="106"/>
+<contactref element="J10" pad="108"/>
+<contactref element="J10" pad="110"/>
+<contactref element="J10" pad="112"/>
+<contactref element="J10" pad="114"/>
+<contactref element="J10" pad="116"/>
+<contactref element="J10" pad="118"/>
+<contactref element="J10" pad="120"/>
+<contactref element="J10" pad="122"/>
+<contactref element="J10" pad="124"/>
+<contactref element="J10" pad="126"/>
+<contactref element="J10" pad="128"/>
+<contactref element="J10" pad="130"/>
+<contactref element="J10" pad="132"/>
+<contactref element="J10" pad="134"/>
+<contactref element="J10" pad="136"/>
+<contactref element="J10" pad="138"/>
+<contactref element="J10" pad="140"/>
+<contactref element="J10" pad="142"/>
+<contactref element="J10" pad="144"/>
+<contactref element="J10" pad="146"/>
+<contactref element="J10" pad="148"/>
+<contactref element="J10" pad="150"/>
+<contactref element="J10" pad="152"/>
+<contactref element="J10" pad="154"/>
+<contactref element="J10" pad="156"/>
+<contactref element="J10" pad="158"/>
+<contactref element="J10" pad="160"/>
+<contactref element="J10" pad="162"/>
+<contactref element="J10" pad="164"/>
+<contactref element="J10" pad="166"/>
+<contactref element="J10" pad="168"/>
+<contactref element="J10" pad="170"/>
+<contactref element="J10" pad="172"/>
+<contactref element="J10" pad="174"/>
+<contactref element="J10" pad="176"/>
+<contactref element="J10" pad="178"/>
+<contactref element="J10" pad="180"/>
+<contactref element="J10" pad="182"/>
+<contactref element="J10" pad="184"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J6" pad="4"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J5" pad="4"/>
 <contactref element="C1" pad="2"/>
-<contactref element="R1" pad="1"/>
-<contactref element="C2" pad="2"/>
 <contactref element="R2" pad="1"/>
+<contactref element="C2" pad="2"/>
+<contactref element="R1" pad="1"/>
 <wire x1="9.4" y1="-0.865" x2="7.5" y2="-0.865" width="0.2" layer="1"/>
 <wire x1="-32.3" y1="-1.5" x2="-32.3" y2="-1.95" width="0.2" layer="1"/>
 <wire x1="-32" y1="-2.25" x2="-32.3" y2="-1.95" width="0.2" layer="1"/>
@@ -5500,7 +5500,7 @@ design rules under a new name.</description>
 <via x="-4" y="0.4" extent="1-16" drill="0.3"/>
 <wire x1="-27.25" y1="-6.55" x2="-10.35" y2="-6.55" width="0.2" layer="16"/>
 <wire x1="-10.35" y1="-6.55" x2="-4" y2="-0.2" width="0.2" layer="16"/>
-<polygon width="0.3" layer="1" rank="2">
+<polygon width="0.2" layer="1" rank="2">
 <vertex x="38.4" y="41.1"/>
 <vertex x="-3.75" y="41.1"/>
 <vertex x="-3.75" y="9.1"/>
@@ -5526,18 +5526,18 @@ design rules under a new name.</description>
 <contactref element="J3" pad="163"/>
 <contactref element="J4" pad="161"/>
 <contactref element="J4" pad="163"/>
-<contactref element="J5" pad="161"/>
-<contactref element="J5" pad="163"/>
-<contactref element="J6" pad="161"/>
-<contactref element="J6" pad="163"/>
 <contactref element="J7" pad="161"/>
 <contactref element="J7" pad="163"/>
 <contactref element="J8" pad="161"/>
 <contactref element="J8" pad="163"/>
-<contactref element="J9" pad="2"/>
-<contactref element="J9" pad="1"/>
-<contactref element="J10" pad="2"/>
-<contactref element="J10" pad="1"/>
+<contactref element="J9" pad="161"/>
+<contactref element="J9" pad="163"/>
+<contactref element="J10" pad="161"/>
+<contactref element="J10" pad="163"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J5" pad="1"/>
 <wire x1="19.95" y1="34.2" x2="19.95" y2="35.4" width="0.35" layer="1"/>
 <wire x1="20.55" y1="35.4" x2="20.55" y2="34.2" width="0.35" layer="1"/>
 <wire x1="19.95" y1="35.4" x2="20.55" y2="35.4" width="0.35" layer="1"/>
@@ -5678,14 +5678,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="2"/>
 <contactref element="J4" pad="3"/>
 <contactref element="J4" pad="4"/>
-<contactref element="J5" pad="1"/>
-<contactref element="J5" pad="2"/>
-<contactref element="J5" pad="3"/>
-<contactref element="J5" pad="4"/>
-<contactref element="J6" pad="1"/>
-<contactref element="J6" pad="2"/>
-<contactref element="J6" pad="3"/>
-<contactref element="J6" pad="4"/>
 <contactref element="J7" pad="1"/>
 <contactref element="J7" pad="2"/>
 <contactref element="J7" pad="3"/>
@@ -5694,6 +5686,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="2"/>
 <contactref element="J8" pad="3"/>
 <contactref element="J8" pad="4"/>
+<contactref element="J9" pad="1"/>
+<contactref element="J9" pad="2"/>
+<contactref element="J9" pad="3"/>
+<contactref element="J9" pad="4"/>
+<contactref element="J10" pad="1"/>
+<contactref element="J10" pad="2"/>
+<contactref element="J10" pad="3"/>
+<contactref element="J10" pad="4"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-31.05" y="33.5"/>
 <vertex x="-31.05" y="33"/>
@@ -5866,14 +5866,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="6"/>
 <contactref element="J4" pad="7"/>
 <contactref element="J4" pad="8"/>
-<contactref element="J5" pad="5"/>
-<contactref element="J5" pad="6"/>
-<contactref element="J5" pad="7"/>
-<contactref element="J5" pad="8"/>
-<contactref element="J6" pad="5"/>
-<contactref element="J6" pad="6"/>
-<contactref element="J6" pad="7"/>
-<contactref element="J6" pad="8"/>
 <contactref element="J7" pad="5"/>
 <contactref element="J7" pad="6"/>
 <contactref element="J7" pad="7"/>
@@ -5882,6 +5874,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="6"/>
 <contactref element="J8" pad="7"/>
 <contactref element="J8" pad="8"/>
+<contactref element="J9" pad="5"/>
+<contactref element="J9" pad="6"/>
+<contactref element="J9" pad="7"/>
+<contactref element="J9" pad="8"/>
+<contactref element="J10" pad="5"/>
+<contactref element="J10" pad="6"/>
+<contactref element="J10" pad="7"/>
+<contactref element="J10" pad="8"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-29.85" y="33.5"/>
 <vertex x="-29.85" y="33"/>
@@ -6054,14 +6054,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="10"/>
 <contactref element="J4" pad="11"/>
 <contactref element="J4" pad="12"/>
-<contactref element="J5" pad="9"/>
-<contactref element="J5" pad="10"/>
-<contactref element="J5" pad="11"/>
-<contactref element="J5" pad="12"/>
-<contactref element="J6" pad="9"/>
-<contactref element="J6" pad="10"/>
-<contactref element="J6" pad="11"/>
-<contactref element="J6" pad="12"/>
 <contactref element="J7" pad="9"/>
 <contactref element="J7" pad="10"/>
 <contactref element="J7" pad="11"/>
@@ -6070,6 +6062,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="10"/>
 <contactref element="J8" pad="11"/>
 <contactref element="J8" pad="12"/>
+<contactref element="J9" pad="9"/>
+<contactref element="J9" pad="10"/>
+<contactref element="J9" pad="11"/>
+<contactref element="J9" pad="12"/>
+<contactref element="J10" pad="9"/>
+<contactref element="J10" pad="10"/>
+<contactref element="J10" pad="11"/>
+<contactref element="J10" pad="12"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-28.65" y="33.5"/>
 <vertex x="-28.65" y="33"/>
@@ -6242,14 +6242,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="14"/>
 <contactref element="J4" pad="15"/>
 <contactref element="J4" pad="16"/>
-<contactref element="J5" pad="13"/>
-<contactref element="J5" pad="14"/>
-<contactref element="J5" pad="15"/>
-<contactref element="J5" pad="16"/>
-<contactref element="J6" pad="13"/>
-<contactref element="J6" pad="14"/>
-<contactref element="J6" pad="15"/>
-<contactref element="J6" pad="16"/>
 <contactref element="J7" pad="13"/>
 <contactref element="J7" pad="14"/>
 <contactref element="J7" pad="15"/>
@@ -6258,6 +6250,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="14"/>
 <contactref element="J8" pad="15"/>
 <contactref element="J8" pad="16"/>
+<contactref element="J9" pad="13"/>
+<contactref element="J9" pad="14"/>
+<contactref element="J9" pad="15"/>
+<contactref element="J9" pad="16"/>
+<contactref element="J10" pad="13"/>
+<contactref element="J10" pad="14"/>
+<contactref element="J10" pad="15"/>
+<contactref element="J10" pad="16"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-27.45" y="33.5"/>
 <vertex x="-27.45" y="33"/>
@@ -6430,14 +6430,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="18"/>
 <contactref element="J4" pad="19"/>
 <contactref element="J4" pad="20"/>
-<contactref element="J5" pad="17"/>
-<contactref element="J5" pad="18"/>
-<contactref element="J5" pad="19"/>
-<contactref element="J5" pad="20"/>
-<contactref element="J6" pad="17"/>
-<contactref element="J6" pad="18"/>
-<contactref element="J6" pad="19"/>
-<contactref element="J6" pad="20"/>
 <contactref element="J7" pad="17"/>
 <contactref element="J7" pad="18"/>
 <contactref element="J7" pad="19"/>
@@ -6446,6 +6438,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="18"/>
 <contactref element="J8" pad="19"/>
 <contactref element="J8" pad="20"/>
+<contactref element="J9" pad="17"/>
+<contactref element="J9" pad="18"/>
+<contactref element="J9" pad="19"/>
+<contactref element="J9" pad="20"/>
+<contactref element="J10" pad="17"/>
+<contactref element="J10" pad="18"/>
+<contactref element="J10" pad="19"/>
+<contactref element="J10" pad="20"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-26.25" y="33.5"/>
 <vertex x="-26.25" y="33"/>
@@ -6614,14 +6614,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="22"/>
 <contactref element="J4" pad="23"/>
 <contactref element="J4" pad="24"/>
-<contactref element="J5" pad="21"/>
-<contactref element="J5" pad="22"/>
-<contactref element="J5" pad="23"/>
-<contactref element="J5" pad="24"/>
-<contactref element="J6" pad="21"/>
-<contactref element="J6" pad="22"/>
-<contactref element="J6" pad="23"/>
-<contactref element="J6" pad="24"/>
 <contactref element="J7" pad="21"/>
 <contactref element="J7" pad="22"/>
 <contactref element="J7" pad="23"/>
@@ -6630,6 +6622,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="22"/>
 <contactref element="J8" pad="23"/>
 <contactref element="J8" pad="24"/>
+<contactref element="J9" pad="21"/>
+<contactref element="J9" pad="22"/>
+<contactref element="J9" pad="23"/>
+<contactref element="J9" pad="24"/>
+<contactref element="J10" pad="21"/>
+<contactref element="J10" pad="22"/>
+<contactref element="J10" pad="23"/>
+<contactref element="J10" pad="24"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-25.05" y="33.5"/>
 <vertex x="-25.05" y="33"/>
@@ -6798,14 +6798,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="26"/>
 <contactref element="J4" pad="27"/>
 <contactref element="J4" pad="28"/>
-<contactref element="J5" pad="25"/>
-<contactref element="J5" pad="26"/>
-<contactref element="J5" pad="27"/>
-<contactref element="J5" pad="28"/>
-<contactref element="J6" pad="25"/>
-<contactref element="J6" pad="26"/>
-<contactref element="J6" pad="27"/>
-<contactref element="J6" pad="28"/>
 <contactref element="J7" pad="25"/>
 <contactref element="J7" pad="26"/>
 <contactref element="J7" pad="27"/>
@@ -6814,6 +6806,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="26"/>
 <contactref element="J8" pad="27"/>
 <contactref element="J8" pad="28"/>
+<contactref element="J9" pad="25"/>
+<contactref element="J9" pad="26"/>
+<contactref element="J9" pad="27"/>
+<contactref element="J9" pad="28"/>
+<contactref element="J10" pad="25"/>
+<contactref element="J10" pad="26"/>
+<contactref element="J10" pad="27"/>
+<contactref element="J10" pad="28"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-23.85" y="33.5"/>
 <vertex x="-23.85" y="33"/>
@@ -6982,14 +6982,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="30"/>
 <contactref element="J4" pad="31"/>
 <contactref element="J4" pad="32"/>
-<contactref element="J5" pad="29"/>
-<contactref element="J5" pad="30"/>
-<contactref element="J5" pad="31"/>
-<contactref element="J5" pad="32"/>
-<contactref element="J6" pad="29"/>
-<contactref element="J6" pad="30"/>
-<contactref element="J6" pad="31"/>
-<contactref element="J6" pad="32"/>
 <contactref element="J7" pad="29"/>
 <contactref element="J7" pad="30"/>
 <contactref element="J7" pad="31"/>
@@ -6998,6 +6990,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="30"/>
 <contactref element="J8" pad="31"/>
 <contactref element="J8" pad="32"/>
+<contactref element="J9" pad="29"/>
+<contactref element="J9" pad="30"/>
+<contactref element="J9" pad="31"/>
+<contactref element="J9" pad="32"/>
+<contactref element="J10" pad="29"/>
+<contactref element="J10" pad="30"/>
+<contactref element="J10" pad="31"/>
+<contactref element="J10" pad="32"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-22.65" y="33.5"/>
 <vertex x="-22.65" y="33"/>
@@ -7166,14 +7166,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="34"/>
 <contactref element="J4" pad="35"/>
 <contactref element="J4" pad="36"/>
-<contactref element="J5" pad="33"/>
-<contactref element="J5" pad="34"/>
-<contactref element="J5" pad="35"/>
-<contactref element="J5" pad="36"/>
-<contactref element="J6" pad="33"/>
-<contactref element="J6" pad="34"/>
-<contactref element="J6" pad="35"/>
-<contactref element="J6" pad="36"/>
 <contactref element="J7" pad="33"/>
 <contactref element="J7" pad="34"/>
 <contactref element="J7" pad="35"/>
@@ -7182,6 +7174,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="34"/>
 <contactref element="J8" pad="35"/>
 <contactref element="J8" pad="36"/>
+<contactref element="J9" pad="33"/>
+<contactref element="J9" pad="34"/>
+<contactref element="J9" pad="35"/>
+<contactref element="J9" pad="36"/>
+<contactref element="J10" pad="33"/>
+<contactref element="J10" pad="34"/>
+<contactref element="J10" pad="35"/>
+<contactref element="J10" pad="36"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-21.45" y="33.5"/>
 <vertex x="-21.45" y="33"/>
@@ -7350,14 +7350,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="38"/>
 <contactref element="J4" pad="39"/>
 <contactref element="J4" pad="40"/>
-<contactref element="J5" pad="37"/>
-<contactref element="J5" pad="38"/>
-<contactref element="J5" pad="39"/>
-<contactref element="J5" pad="40"/>
-<contactref element="J6" pad="37"/>
-<contactref element="J6" pad="38"/>
-<contactref element="J6" pad="39"/>
-<contactref element="J6" pad="40"/>
 <contactref element="J7" pad="37"/>
 <contactref element="J7" pad="38"/>
 <contactref element="J7" pad="39"/>
@@ -7366,6 +7358,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="38"/>
 <contactref element="J8" pad="39"/>
 <contactref element="J8" pad="40"/>
+<contactref element="J9" pad="37"/>
+<contactref element="J9" pad="38"/>
+<contactref element="J9" pad="39"/>
+<contactref element="J9" pad="40"/>
+<contactref element="J10" pad="37"/>
+<contactref element="J10" pad="38"/>
+<contactref element="J10" pad="39"/>
+<contactref element="J10" pad="40"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-20.25" y="33.5"/>
 <vertex x="-20.25" y="33"/>
@@ -7534,14 +7534,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="42"/>
 <contactref element="J4" pad="43"/>
 <contactref element="J4" pad="44"/>
-<contactref element="J5" pad="41"/>
-<contactref element="J5" pad="42"/>
-<contactref element="J5" pad="43"/>
-<contactref element="J5" pad="44"/>
-<contactref element="J6" pad="41"/>
-<contactref element="J6" pad="42"/>
-<contactref element="J6" pad="43"/>
-<contactref element="J6" pad="44"/>
 <contactref element="J7" pad="41"/>
 <contactref element="J7" pad="42"/>
 <contactref element="J7" pad="43"/>
@@ -7550,6 +7542,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="42"/>
 <contactref element="J8" pad="43"/>
 <contactref element="J8" pad="44"/>
+<contactref element="J9" pad="41"/>
+<contactref element="J9" pad="42"/>
+<contactref element="J9" pad="43"/>
+<contactref element="J9" pad="44"/>
+<contactref element="J10" pad="41"/>
+<contactref element="J10" pad="42"/>
+<contactref element="J10" pad="43"/>
+<contactref element="J10" pad="44"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-15.45" y="33.5"/>
 <vertex x="-15.45" y="33"/>
@@ -7729,14 +7729,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="46"/>
 <contactref element="J4" pad="47"/>
 <contactref element="J4" pad="48"/>
-<contactref element="J5" pad="45"/>
-<contactref element="J5" pad="46"/>
-<contactref element="J5" pad="47"/>
-<contactref element="J5" pad="48"/>
-<contactref element="J6" pad="45"/>
-<contactref element="J6" pad="46"/>
-<contactref element="J6" pad="47"/>
-<contactref element="J6" pad="48"/>
 <contactref element="J7" pad="45"/>
 <contactref element="J7" pad="46"/>
 <contactref element="J7" pad="47"/>
@@ -7745,6 +7737,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="46"/>
 <contactref element="J8" pad="47"/>
 <contactref element="J8" pad="48"/>
+<contactref element="J9" pad="45"/>
+<contactref element="J9" pad="46"/>
+<contactref element="J9" pad="47"/>
+<contactref element="J9" pad="48"/>
+<contactref element="J10" pad="45"/>
+<contactref element="J10" pad="46"/>
+<contactref element="J10" pad="47"/>
+<contactref element="J10" pad="48"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-14.25" y="33.5"/>
 <vertex x="-14.25" y="33"/>
@@ -7924,14 +7924,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="50"/>
 <contactref element="J4" pad="51"/>
 <contactref element="J4" pad="52"/>
-<contactref element="J5" pad="49"/>
-<contactref element="J5" pad="50"/>
-<contactref element="J5" pad="51"/>
-<contactref element="J5" pad="52"/>
-<contactref element="J6" pad="49"/>
-<contactref element="J6" pad="50"/>
-<contactref element="J6" pad="51"/>
-<contactref element="J6" pad="52"/>
 <contactref element="J7" pad="49"/>
 <contactref element="J7" pad="50"/>
 <contactref element="J7" pad="51"/>
@@ -7940,6 +7932,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="50"/>
 <contactref element="J8" pad="51"/>
 <contactref element="J8" pad="52"/>
+<contactref element="J9" pad="49"/>
+<contactref element="J9" pad="50"/>
+<contactref element="J9" pad="51"/>
+<contactref element="J9" pad="52"/>
+<contactref element="J10" pad="49"/>
+<contactref element="J10" pad="50"/>
+<contactref element="J10" pad="51"/>
+<contactref element="J10" pad="52"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-13.05" y="33.5"/>
 <vertex x="-13.05" y="33"/>
@@ -8123,14 +8123,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="54"/>
 <contactref element="J4" pad="55"/>
 <contactref element="J4" pad="56"/>
-<contactref element="J5" pad="53"/>
-<contactref element="J5" pad="54"/>
-<contactref element="J5" pad="55"/>
-<contactref element="J5" pad="56"/>
-<contactref element="J6" pad="53"/>
-<contactref element="J6" pad="54"/>
-<contactref element="J6" pad="55"/>
-<contactref element="J6" pad="56"/>
 <contactref element="J7" pad="53"/>
 <contactref element="J7" pad="54"/>
 <contactref element="J7" pad="55"/>
@@ -8139,6 +8131,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="54"/>
 <contactref element="J8" pad="55"/>
 <contactref element="J8" pad="56"/>
+<contactref element="J9" pad="53"/>
+<contactref element="J9" pad="54"/>
+<contactref element="J9" pad="55"/>
+<contactref element="J9" pad="56"/>
+<contactref element="J10" pad="53"/>
+<contactref element="J10" pad="54"/>
+<contactref element="J10" pad="55"/>
+<contactref element="J10" pad="56"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-11.85" y="33.5"/>
 <vertex x="-11.85" y="33"/>
@@ -8320,14 +8320,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="58"/>
 <contactref element="J4" pad="59"/>
 <contactref element="J4" pad="60"/>
-<contactref element="J5" pad="57"/>
-<contactref element="J5" pad="58"/>
-<contactref element="J5" pad="59"/>
-<contactref element="J5" pad="60"/>
-<contactref element="J6" pad="57"/>
-<contactref element="J6" pad="58"/>
-<contactref element="J6" pad="59"/>
-<contactref element="J6" pad="60"/>
 <contactref element="J7" pad="57"/>
 <contactref element="J7" pad="58"/>
 <contactref element="J7" pad="59"/>
@@ -8336,6 +8328,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="58"/>
 <contactref element="J8" pad="59"/>
 <contactref element="J8" pad="60"/>
+<contactref element="J9" pad="57"/>
+<contactref element="J9" pad="58"/>
+<contactref element="J9" pad="59"/>
+<contactref element="J9" pad="60"/>
+<contactref element="J10" pad="57"/>
+<contactref element="J10" pad="58"/>
+<contactref element="J10" pad="59"/>
+<contactref element="J10" pad="60"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-10.65" y="33.5"/>
 <vertex x="-10.65" y="33"/>
@@ -8517,14 +8517,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="62"/>
 <contactref element="J4" pad="63"/>
 <contactref element="J4" pad="64"/>
-<contactref element="J5" pad="61"/>
-<contactref element="J5" pad="62"/>
-<contactref element="J5" pad="63"/>
-<contactref element="J5" pad="64"/>
-<contactref element="J6" pad="61"/>
-<contactref element="J6" pad="62"/>
-<contactref element="J6" pad="63"/>
-<contactref element="J6" pad="64"/>
 <contactref element="J7" pad="61"/>
 <contactref element="J7" pad="62"/>
 <contactref element="J7" pad="63"/>
@@ -8533,6 +8525,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="62"/>
 <contactref element="J8" pad="63"/>
 <contactref element="J8" pad="64"/>
+<contactref element="J9" pad="61"/>
+<contactref element="J9" pad="62"/>
+<contactref element="J9" pad="63"/>
+<contactref element="J9" pad="64"/>
+<contactref element="J10" pad="61"/>
+<contactref element="J10" pad="62"/>
+<contactref element="J10" pad="63"/>
+<contactref element="J10" pad="64"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-9.45" y="33.5"/>
 <vertex x="-9.45" y="33"/>
@@ -8701,14 +8701,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="66"/>
 <contactref element="J4" pad="67"/>
 <contactref element="J4" pad="68"/>
-<contactref element="J5" pad="65"/>
-<contactref element="J5" pad="66"/>
-<contactref element="J5" pad="67"/>
-<contactref element="J5" pad="68"/>
-<contactref element="J6" pad="65"/>
-<contactref element="J6" pad="66"/>
-<contactref element="J6" pad="67"/>
-<contactref element="J6" pad="68"/>
 <contactref element="J7" pad="65"/>
 <contactref element="J7" pad="66"/>
 <contactref element="J7" pad="67"/>
@@ -8717,6 +8709,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="66"/>
 <contactref element="J8" pad="67"/>
 <contactref element="J8" pad="68"/>
+<contactref element="J9" pad="65"/>
+<contactref element="J9" pad="66"/>
+<contactref element="J9" pad="67"/>
+<contactref element="J9" pad="68"/>
+<contactref element="J10" pad="65"/>
+<contactref element="J10" pad="66"/>
+<contactref element="J10" pad="67"/>
+<contactref element="J10" pad="68"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-8.25" y="33.5"/>
 <vertex x="-8.25" y="33"/>
@@ -8885,14 +8885,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="70"/>
 <contactref element="J4" pad="71"/>
 <contactref element="J4" pad="72"/>
-<contactref element="J5" pad="69"/>
-<contactref element="J5" pad="70"/>
-<contactref element="J5" pad="71"/>
-<contactref element="J5" pad="72"/>
-<contactref element="J6" pad="69"/>
-<contactref element="J6" pad="70"/>
-<contactref element="J6" pad="71"/>
-<contactref element="J6" pad="72"/>
 <contactref element="J7" pad="69"/>
 <contactref element="J7" pad="70"/>
 <contactref element="J7" pad="71"/>
@@ -8901,6 +8893,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="70"/>
 <contactref element="J8" pad="71"/>
 <contactref element="J8" pad="72"/>
+<contactref element="J9" pad="69"/>
+<contactref element="J9" pad="70"/>
+<contactref element="J9" pad="71"/>
+<contactref element="J9" pad="72"/>
+<contactref element="J10" pad="69"/>
+<contactref element="J10" pad="70"/>
+<contactref element="J10" pad="71"/>
+<contactref element="J10" pad="72"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-7.05" y="33.5"/>
 <vertex x="-7.05" y="33"/>
@@ -9069,14 +9069,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="74"/>
 <contactref element="J4" pad="75"/>
 <contactref element="J4" pad="76"/>
-<contactref element="J5" pad="73"/>
-<contactref element="J5" pad="74"/>
-<contactref element="J5" pad="75"/>
-<contactref element="J5" pad="76"/>
-<contactref element="J6" pad="73"/>
-<contactref element="J6" pad="74"/>
-<contactref element="J6" pad="75"/>
-<contactref element="J6" pad="76"/>
 <contactref element="J7" pad="73"/>
 <contactref element="J7" pad="74"/>
 <contactref element="J7" pad="75"/>
@@ -9085,6 +9077,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="74"/>
 <contactref element="J8" pad="75"/>
 <contactref element="J8" pad="76"/>
+<contactref element="J9" pad="73"/>
+<contactref element="J9" pad="74"/>
+<contactref element="J9" pad="75"/>
+<contactref element="J9" pad="76"/>
+<contactref element="J10" pad="73"/>
+<contactref element="J10" pad="74"/>
+<contactref element="J10" pad="75"/>
+<contactref element="J10" pad="76"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-5.85" y="33.5"/>
 <vertex x="-5.85" y="33"/>
@@ -9253,14 +9253,6 @@ design rules under a new name.</description>
 <contactref element="J4" pad="78"/>
 <contactref element="J4" pad="79"/>
 <contactref element="J4" pad="80"/>
-<contactref element="J5" pad="77"/>
-<contactref element="J5" pad="78"/>
-<contactref element="J5" pad="79"/>
-<contactref element="J5" pad="80"/>
-<contactref element="J6" pad="77"/>
-<contactref element="J6" pad="78"/>
-<contactref element="J6" pad="79"/>
-<contactref element="J6" pad="80"/>
 <contactref element="J7" pad="77"/>
 <contactref element="J7" pad="78"/>
 <contactref element="J7" pad="79"/>
@@ -9269,6 +9261,14 @@ design rules under a new name.</description>
 <contactref element="J8" pad="78"/>
 <contactref element="J8" pad="79"/>
 <contactref element="J8" pad="80"/>
+<contactref element="J9" pad="77"/>
+<contactref element="J9" pad="78"/>
+<contactref element="J9" pad="79"/>
+<contactref element="J9" pad="80"/>
+<contactref element="J10" pad="77"/>
+<contactref element="J10" pad="78"/>
+<contactref element="J10" pad="79"/>
+<contactref element="J10" pad="80"/>
 <polygon width="0.35" layer="1" thermals="no">
 <vertex x="-4.65" y="33.5"/>
 <vertex x="-4.65" y="33"/>
@@ -9421,7 +9421,7 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="CHASSIS">
-<contactref element="R1" pad="2"/>
+<contactref element="R2" pad="2"/>
 <contactref element="H1" pad="1"/>
 <contactref element="H1" pad="V1"/>
 <contactref element="H1" pad="V2"/>
@@ -9432,7 +9432,7 @@ design rules under a new name.</description>
 <contactref element="H1" pad="V7"/>
 <contactref element="H1" pad="V8"/>
 <contactref element="C1" pad="1"/>
-<contactref element="R2" pad="2"/>
+<contactref element="R1" pad="2"/>
 <contactref element="H2" pad="1"/>
 <contactref element="H2" pad="V1"/>
 <contactref element="H2" pad="V2"/>
@@ -9500,14 +9500,14 @@ design rules under a new name.</description>
 <contactref element="J3" pad="95"/>
 <contactref element="J4" pad="93"/>
 <contactref element="J4" pad="95"/>
-<contactref element="J5" pad="93"/>
-<contactref element="J5" pad="95"/>
-<contactref element="J6" pad="93"/>
-<contactref element="J6" pad="95"/>
 <contactref element="J7" pad="93"/>
 <contactref element="J7" pad="95"/>
 <contactref element="J8" pad="93"/>
 <contactref element="J8" pad="95"/>
+<contactref element="J9" pad="93"/>
+<contactref element="J9" pad="95"/>
+<contactref element="J10" pad="93"/>
+<contactref element="J10" pad="95"/>
 <wire x1="-0.45" y1="34.2" x2="-0.45" y2="35.4" width="0.35" layer="1"/>
 <wire x1="0.15" y1="35.4" x2="0.15" y2="34.2" width="0.35" layer="1"/>
 <wire x1="-0.45" y1="35.4" x2="0.15" y2="35.4" width="0.35" layer="1"/>
