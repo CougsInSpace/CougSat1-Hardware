@@ -5,3 +5,6 @@ OldVersions/
 *.b#*
 *.s#*
 *.epf
+
+# Microsoft Temp Files
+*~$*
