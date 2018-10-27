@@ -4072,123 +4072,144 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="C26" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY77" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY78" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="DIA4" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="33.02" y1="114.3" x2="83.82" y2="114.3" width="0.254" layer="94"/>
-<wire x1="83.82" y1="114.3" x2="83.82" y2="99.06" width="0.254" layer="94"/>
-<wire x1="83.82" y1="99.06" x2="33.02" y2="99.06" width="0.254" layer="94"/>
-<wire x1="33.02" y1="99.06" x2="33.02" y2="114.3" width="0.254" layer="94"/>
-<text x="58.42" y="106.68" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
-<wire x1="101.6" y1="114.3" x2="101.6" y2="99.06" width="0.254" layer="94"/>
-<wire x1="101.6" y1="99.06" x2="162.56" y2="99.06" width="0.254" layer="94"/>
-<wire x1="162.56" y1="99.06" x2="162.56" y2="114.3" width="0.254" layer="94"/>
-<wire x1="162.56" y1="114.3" x2="101.6" y2="114.3" width="0.254" layer="94"/>
-<wire x1="208.28" y1="111.76" x2="208.28" y2="40.64" width="0.254" layer="94"/>
-<wire x1="208.28" y1="40.64" x2="233.68" y2="40.64" width="0.254" layer="94"/>
-<wire x1="233.68" y1="40.64" x2="233.68" y2="111.76" width="0.254" layer="94"/>
-<wire x1="233.68" y1="111.76" x2="208.28" y2="111.76" width="0.254" layer="94"/>
-<wire x1="172.72" y1="157.48" x2="172.72" y2="137.16" width="0.254" layer="94"/>
-<wire x1="172.72" y1="137.16" x2="198.12" y2="137.16" width="0.254" layer="94"/>
-<wire x1="198.12" y1="137.16" x2="198.12" y2="157.48" width="0.254" layer="94"/>
-<wire x1="198.12" y1="157.48" x2="172.72" y2="157.48" width="0.254" layer="94"/>
-<wire x1="167.64" y1="137.16" x2="167.64" y2="157.48" width="0.254" layer="94"/>
-<wire x1="167.64" y1="157.48" x2="127" y2="157.48" width="0.254" layer="94"/>
-<wire x1="127" y1="157.48" x2="127" y2="137.16" width="0.254" layer="94"/>
-<wire x1="127" y1="137.16" x2="167.64" y2="137.16" width="0.254" layer="94"/>
-<text x="132.08" y="106.68" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
-<text x="220.98" y="88.9" size="3.81" layer="94" font="vector" align="center">Connector:
+<wire x1="33.02" y1="81.28" x2="83.82" y2="81.28" width="0.254" layer="94"/>
+<wire x1="83.82" y1="81.28" x2="83.82" y2="66.04" width="0.254" layer="94"/>
+<wire x1="83.82" y1="66.04" x2="33.02" y2="66.04" width="0.254" layer="94"/>
+<wire x1="33.02" y1="66.04" x2="33.02" y2="81.28" width="0.254" layer="94"/>
+<text x="58.42" y="73.66" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
+<wire x1="101.6" y1="81.28" x2="101.6" y2="66.04" width="0.254" layer="94"/>
+<wire x1="101.6" y1="66.04" x2="162.56" y2="66.04" width="0.254" layer="94"/>
+<wire x1="162.56" y1="66.04" x2="162.56" y2="81.28" width="0.254" layer="94"/>
+<wire x1="162.56" y1="81.28" x2="101.6" y2="81.28" width="0.254" layer="94"/>
+<wire x1="208.28" y1="129.54" x2="233.68" y2="129.54" width="0.254" layer="94"/>
+<wire x1="233.68" y1="81.28" x2="208.28" y2="81.28" width="0.254" layer="94"/>
+<wire x1="172.72" y1="109.22" x2="172.72" y2="88.9" width="0.254" layer="94"/>
+<wire x1="172.72" y1="88.9" x2="198.12" y2="88.9" width="0.254" layer="94"/>
+<wire x1="198.12" y1="88.9" x2="198.12" y2="109.22" width="0.254" layer="94"/>
+<wire x1="198.12" y1="109.22" x2="172.72" y2="109.22" width="0.254" layer="94"/>
+<wire x1="167.64" y1="88.9" x2="167.64" y2="109.22" width="0.254" layer="94"/>
+<wire x1="167.64" y1="109.22" x2="127" y2="109.22" width="0.254" layer="94"/>
+<wire x1="127" y1="109.22" x2="127" y2="88.9" width="0.254" layer="94"/>
+<wire x1="127" y1="88.9" x2="167.64" y2="88.9" width="0.254" layer="94"/>
+<text x="132.08" y="73.66" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
+<text x="220.98" y="60.96" size="3.81" layer="94" font="vector" align="center">Connector:
 To EPS</text>
-<text x="185.42" y="147.32" size="3.81" layer="94" font="vector" align="center">I²C GPIO</text>
-<text x="147.32" y="147.32" size="3.81" layer="94" font="vector" align="center">I²C ADC</text>
-<wire x1="101.6" y1="106.68" x2="99.06" y2="109.22" width="0.254" layer="97"/>
-<wire x1="101.6" y1="106.68" x2="99.06" y2="104.14" width="0.254" layer="97"/>
-<wire x1="208.28" y1="81.28" x2="205.74" y2="83.82" width="0.254" layer="97"/>
-<wire x1="208.28" y1="81.28" x2="205.74" y2="78.74" width="0.254" layer="97"/>
-<wire x1="33.02" y1="88.9" x2="83.82" y2="88.9" width="0.254" layer="94"/>
-<wire x1="83.82" y1="88.9" x2="83.82" y2="73.66" width="0.254" layer="94"/>
-<wire x1="83.82" y1="73.66" x2="33.02" y2="73.66" width="0.254" layer="94"/>
-<wire x1="33.02" y1="73.66" x2="33.02" y2="88.9" width="0.254" layer="94"/>
-<text x="58.42" y="81.28" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
-<wire x1="101.6" y1="88.9" x2="101.6" y2="73.66" width="0.254" layer="94"/>
-<wire x1="101.6" y1="73.66" x2="162.56" y2="73.66" width="0.254" layer="94"/>
-<wire x1="162.56" y1="73.66" x2="162.56" y2="88.9" width="0.254" layer="94"/>
-<wire x1="162.56" y1="88.9" x2="101.6" y2="88.9" width="0.254" layer="94"/>
-<text x="132.08" y="81.28" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
-<wire x1="101.6" y1="81.28" x2="99.06" y2="83.82" width="0.254" layer="97"/>
-<wire x1="101.6" y1="81.28" x2="99.06" y2="78.74" width="0.254" layer="97"/>
-<text x="193.04" y="82.55" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
-<wire x1="177.8" y1="137.16" x2="177.8" y2="93.98" width="0.254" layer="97"/>
-<wire x1="177.8" y1="93.98" x2="147.32" y2="93.98" width="0.254" layer="97"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="99.06" width="0.254" layer="97"/>
-<wire x1="147.32" y1="99.06" x2="144.78" y2="96.52" width="0.254" layer="97"/>
-<wire x1="147.32" y1="99.06" x2="149.86" y2="96.52" width="0.254" layer="97"/>
-<wire x1="147.32" y1="93.98" x2="147.32" y2="88.9" width="0.254" layer="97"/>
-<wire x1="147.32" y1="88.9" x2="149.86" y2="91.44" width="0.254" layer="97"/>
-<wire x1="147.32" y1="88.9" x2="144.78" y2="91.44" width="0.254" layer="97"/>
-<text x="160.02" y="95.504" size="1.778" layer="97" font="vector" align="center">Output Enable</text>
-<wire x1="162.56" y1="160.02" x2="165.1" y2="157.48" width="0.254" layer="97"/>
-<wire x1="165.1" y1="157.48" x2="167.64" y2="160.02" width="0.254" layer="97"/>
-<wire x1="193.04" y1="160.02" x2="195.58" y2="157.48" width="0.254" layer="97"/>
-<wire x1="195.58" y1="157.48" x2="198.12" y2="160.02" width="0.254" layer="97"/>
-<wire x1="190.5" y1="160.02" x2="187.96" y2="157.48" width="0.254" layer="97"/>
-<wire x1="187.96" y1="157.48" x2="185.42" y2="160.02" width="0.254" layer="97"/>
-<wire x1="160.02" y1="160.02" x2="157.48" y2="157.48" width="0.254" layer="97"/>
-<wire x1="157.48" y1="157.48" x2="154.94" y2="160.02" width="0.254" layer="97"/>
-<wire x1="165.1" y1="157.48" x2="165.1" y2="165.1" width="0.254" layer="97"/>
-<wire x1="165.1" y1="165.1" x2="195.58" y2="165.1" width="0.254" layer="97"/>
-<wire x1="195.58" y1="165.1" x2="210.82" y2="165.1" width="0.254" layer="97"/>
-<wire x1="210.82" y1="111.76" x2="208.28" y2="114.3" width="0.254" layer="97"/>
-<wire x1="210.82" y1="111.76" x2="213.36" y2="114.3" width="0.254" layer="97"/>
-<wire x1="210.82" y1="111.76" x2="210.82" y2="165.1" width="0.254" layer="97"/>
-<wire x1="195.58" y1="157.48" x2="195.58" y2="165.1" width="0.254" layer="97"/>
-<wire x1="157.48" y1="157.48" x2="157.48" y2="170.18" width="0.254" layer="97"/>
-<wire x1="157.48" y1="170.18" x2="187.96" y2="170.18" width="0.254" layer="97"/>
-<wire x1="187.96" y1="170.18" x2="218.44" y2="170.18" width="0.254" layer="97"/>
-<wire x1="218.44" y1="170.18" x2="218.44" y2="111.76" width="0.254" layer="97"/>
-<wire x1="187.96" y1="157.48" x2="187.96" y2="170.18" width="0.254" layer="97"/>
-<text x="177.8" y="171.45" size="1.778" layer="97" font="vector" align="center">3.3V</text>
-<text x="177.8" y="166.37" size="1.778" layer="97" font="vector" align="center">I²C</text>
-<text x="82.55" y="100.33" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="82.55" y="74.93" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="161.29" y="100.33" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="161.29" y="74.93" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
-<text x="232.41" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
-<text x="196.85" y="138.43" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
-<text x="166.37" y="138.43" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
+<text x="185.42" y="99.06" size="3.81" layer="94" font="vector" align="center">I²C GPIO</text>
+<text x="147.32" y="99.06" size="3.81" layer="94" font="vector" align="center">I²C ADC</text>
+<wire x1="101.6" y1="73.66" x2="99.06" y2="76.2" width="0.254" layer="97"/>
+<wire x1="101.6" y1="73.66" x2="99.06" y2="71.12" width="0.254" layer="97"/>
+<wire x1="208.28" y1="48.26" x2="205.74" y2="50.8" width="0.254" layer="97"/>
+<wire x1="208.28" y1="48.26" x2="205.74" y2="45.72" width="0.254" layer="97"/>
+<wire x1="33.02" y1="55.88" x2="83.82" y2="55.88" width="0.254" layer="94"/>
+<wire x1="83.82" y1="55.88" x2="83.82" y2="40.64" width="0.254" layer="94"/>
+<wire x1="83.82" y1="40.64" x2="33.02" y2="40.64" width="0.254" layer="94"/>
+<wire x1="33.02" y1="40.64" x2="33.02" y2="55.88" width="0.254" layer="94"/>
+<text x="58.42" y="48.26" size="3.81" layer="94" font="vector" align="center">Solar Cell</text>
+<wire x1="101.6" y1="55.88" x2="101.6" y2="40.64" width="0.254" layer="94"/>
+<wire x1="101.6" y1="40.64" x2="162.56" y2="40.64" width="0.254" layer="94"/>
+<wire x1="162.56" y1="40.64" x2="162.56" y2="55.88" width="0.254" layer="94"/>
+<wire x1="162.56" y1="55.88" x2="101.6" y2="55.88" width="0.254" layer="94"/>
+<text x="132.08" y="48.26" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
+<wire x1="101.6" y1="48.26" x2="99.06" y2="50.8" width="0.254" layer="97"/>
+<wire x1="101.6" y1="48.26" x2="99.06" y2="45.72" width="0.254" layer="97"/>
+<text x="193.04" y="49.53" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
+<wire x1="177.8" y1="88.9" x2="177.8" y2="60.96" width="0.254" layer="97"/>
+<wire x1="177.8" y1="60.96" x2="147.32" y2="60.96" width="0.254" layer="97"/>
+<wire x1="147.32" y1="60.96" x2="147.32" y2="66.04" width="0.254" layer="97"/>
+<wire x1="147.32" y1="66.04" x2="144.78" y2="63.5" width="0.254" layer="97"/>
+<wire x1="147.32" y1="66.04" x2="149.86" y2="63.5" width="0.254" layer="97"/>
+<wire x1="147.32" y1="60.96" x2="147.32" y2="55.88" width="0.254" layer="97"/>
+<wire x1="147.32" y1="55.88" x2="149.86" y2="58.42" width="0.254" layer="97"/>
+<wire x1="147.32" y1="55.88" x2="144.78" y2="58.42" width="0.254" layer="97"/>
+<text x="160.02" y="62.484" size="1.778" layer="97" font="vector" align="center">Output Enable</text>
+<wire x1="162.56" y1="111.76" x2="165.1" y2="109.22" width="0.254" layer="97"/>
+<wire x1="165.1" y1="109.22" x2="167.64" y2="111.76" width="0.254" layer="97"/>
+<wire x1="193.04" y1="111.76" x2="195.58" y2="109.22" width="0.254" layer="97"/>
+<wire x1="195.58" y1="109.22" x2="198.12" y2="111.76" width="0.254" layer="97"/>
+<wire x1="190.5" y1="111.76" x2="187.96" y2="109.22" width="0.254" layer="97"/>
+<wire x1="187.96" y1="109.22" x2="185.42" y2="111.76" width="0.254" layer="97"/>
+<wire x1="160.02" y1="111.76" x2="157.48" y2="109.22" width="0.254" layer="97"/>
+<wire x1="157.48" y1="109.22" x2="154.94" y2="111.76" width="0.254" layer="97"/>
+<wire x1="165.1" y1="109.22" x2="165.1" y2="116.84" width="0.254" layer="97"/>
+<wire x1="165.1" y1="116.84" x2="195.58" y2="116.84" width="0.254" layer="97"/>
+<wire x1="195.58" y1="116.84" x2="210.82" y2="116.84" width="0.254" layer="97"/>
+<wire x1="210.82" y1="81.28" x2="208.28" y2="83.82" width="0.254" layer="97"/>
+<wire x1="210.82" y1="81.28" x2="213.36" y2="83.82" width="0.254" layer="97"/>
+<wire x1="210.82" y1="81.28" x2="210.82" y2="116.84" width="0.254" layer="97"/>
+<wire x1="195.58" y1="109.22" x2="195.58" y2="116.84" width="0.254" layer="97"/>
+<wire x1="157.48" y1="109.22" x2="157.48" y2="121.92" width="0.254" layer="97"/>
+<wire x1="157.48" y1="121.92" x2="187.96" y2="121.92" width="0.254" layer="97"/>
+<wire x1="187.96" y1="121.92" x2="218.44" y2="121.92" width="0.254" layer="97"/>
+<wire x1="218.44" y1="121.92" x2="218.44" y2="81.28" width="0.254" layer="97"/>
+<wire x1="187.96" y1="109.22" x2="187.96" y2="121.92" width="0.254" layer="97"/>
+<text x="177.8" y="123.19" size="1.778" layer="97" font="vector" align="center">3.3V</text>
+<text x="177.8" y="118.11" size="1.778" layer="97" font="vector" align="center">I²C</text>
+<text x="82.55" y="67.31" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="82.55" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="161.29" y="67.31" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="161.29" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
+<text x="232.41" y="130.81" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
+<text x="196.85" y="90.17" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
+<text x="166.37" y="90.17" size="1.778" layer="97" font="vector" align="bottom-right">Page 4</text>
 <wire x1="142.24" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" font="vector" align="top-left">Page 1: Block Diagram
 Page 2: Solar Cells, MPPT
 Page 3: Connectors, I²C GPIO, Magnetorquer
 Page 4: ADCs</text>
-<wire x1="195.58" y1="66.04" x2="195.58" y2="40.64" width="0.254" layer="94"/>
-<wire x1="195.58" y1="40.64" x2="165.1" y2="40.64" width="0.254" layer="94"/>
-<wire x1="165.1" y1="40.64" x2="165.1" y2="66.04" width="0.254" layer="94"/>
-<wire x1="165.1" y1="66.04" x2="195.58" y2="66.04" width="0.254" layer="94"/>
-<text x="180.34" y="53.34" size="3.81" layer="94" font="vector" align="center">Magnetorquer</text>
-<wire x1="195.58" y1="53.34" x2="198.12" y2="55.88" width="0.254" layer="97"/>
-<wire x1="195.58" y1="53.34" x2="198.12" y2="50.8" width="0.254" layer="97"/>
-<text x="194.31" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
-<wire x1="208.28" y1="81.28" x2="168.91" y2="81.28" width="0.254" layer="97"/>
-<wire x1="166.37" y1="81.28" x2="162.56" y2="81.28" width="0.254" layer="97"/>
-<wire x1="162.56" y1="106.68" x2="166.37" y2="106.68" width="0.254" layer="97"/>
-<wire x1="168.91" y1="106.68" x2="208.28" y2="106.68" width="0.254" layer="97"/>
-<wire x1="83.82" y1="106.68" x2="90.17" y2="106.68" width="0.254" layer="97"/>
-<wire x1="92.71" y1="106.68" x2="101.6" y2="106.68" width="0.254" layer="97"/>
-<wire x1="101.6" y1="81.28" x2="92.71" y2="81.28" width="0.254" layer="97"/>
-<wire x1="90.17" y1="81.28" x2="83.82" y2="81.28" width="0.254" layer="97"/>
-<text x="111.76" y="147.32" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
-<text x="111.76" y="142.24" size="1.778" layer="97" font="vector" align="center-left">Back side</text>
-<wire x1="208.28" y1="106.68" x2="205.74" y2="109.22" width="0.254" layer="97"/>
-<wire x1="208.28" y1="106.68" x2="205.74" y2="104.14" width="0.254" layer="97"/>
-<text x="193.04" y="107.95" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
-<wire x1="195.58" y1="53.34" x2="208.28" y2="53.34" width="0.254" layer="97"/>
-<wire x1="208.28" y1="66.04" x2="233.68" y2="66.04" width="0.254" layer="97" style="shortdash"/>
-<text x="220.98" y="53.34" size="3.81" layer="94" font="vector" align="center">From ADCS</text>
-<text x="111.76" y="152.4" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
+<wire x1="167.64" y1="177.8" x2="167.64" y2="157.48" width="0.254" layer="94"/>
+<wire x1="167.64" y1="157.48" x2="127" y2="157.48" width="0.254" layer="94"/>
+<wire x1="127" y1="157.48" x2="127" y2="177.8" width="0.254" layer="94"/>
+<wire x1="127" y1="177.8" x2="167.64" y2="177.8" width="0.254" layer="94"/>
+<text x="147.32" y="167.64" size="3.81" layer="94" font="vector" align="center">Magnetorquer</text>
+<text x="166.37" y="158.75" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
+<wire x1="208.28" y1="48.26" x2="168.91" y2="48.26" width="0.254" layer="97"/>
+<wire x1="166.37" y1="48.26" x2="162.56" y2="48.26" width="0.254" layer="97"/>
+<wire x1="162.56" y1="73.66" x2="166.37" y2="73.66" width="0.254" layer="97"/>
+<wire x1="168.91" y1="73.66" x2="208.28" y2="73.66" width="0.254" layer="97"/>
+<wire x1="83.82" y1="73.66" x2="90.17" y2="73.66" width="0.254" layer="97"/>
+<wire x1="92.71" y1="73.66" x2="101.6" y2="73.66" width="0.254" layer="97"/>
+<wire x1="101.6" y1="48.26" x2="92.71" y2="48.26" width="0.254" layer="97"/>
+<wire x1="90.17" y1="48.26" x2="83.82" y2="48.26" width="0.254" layer="97"/>
+<text x="109.22" y="99.06" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
+<text x="109.22" y="93.98" size="1.778" layer="97" font="vector" align="center-left">Back side</text>
+<wire x1="208.28" y1="73.66" x2="205.74" y2="76.2" width="0.254" layer="97"/>
+<wire x1="208.28" y1="73.66" x2="205.74" y2="71.12" width="0.254" layer="97"/>
+<text x="193.04" y="74.93" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
+<text x="220.98" y="139.7" size="3.81" layer="94" font="vector" align="center">Connector:
+To ADCS</text>
+<text x="109.22" y="104.14" size="1.778" layer="97" font="vector" align="center-left">Front side</text>
 <text x="237.49" y="26.67" size="1.778" layer="97">Variant: </text>
 <text x="246.38" y="26.67" size="1.778" layer="97">&gt;ASSEMBLY_VARIANT</text>
+<wire x1="208.28" y1="81.28" x2="208.28" y2="40.64" width="0.254" layer="94"/>
+<wire x1="208.28" y1="40.64" x2="233.68" y2="40.64" width="0.254" layer="94"/>
+<wire x1="233.68" y1="40.64" x2="233.68" y2="81.28" width="0.254" layer="94"/>
+<wire x1="208.28" y1="129.54" x2="208.28" y2="149.86" width="0.254" layer="94"/>
+<wire x1="208.28" y1="149.86" x2="233.68" y2="149.86" width="0.254" layer="94"/>
+<wire x1="233.68" y1="149.86" x2="233.68" y2="129.54" width="0.254" layer="94"/>
+<wire x1="167.64" y1="129.54" x2="167.64" y2="149.86" width="0.254" layer="94"/>
+<wire x1="167.64" y1="149.86" x2="127" y2="149.86" width="0.254" layer="94"/>
+<wire x1="127" y1="149.86" x2="127" y2="129.54" width="0.254" layer="94"/>
+<wire x1="127" y1="129.54" x2="167.64" y2="129.54" width="0.254" layer="94"/>
+<text x="147.32" y="139.7" size="3.81" layer="94" font="vector" align="center">I²C ADC</text>
+<text x="166.37" y="130.81" size="1.778" layer="97" font="vector" align="bottom-right">Page 4</text>
+<wire x1="157.48" y1="121.92" x2="157.48" y2="129.54" width="0.254" layer="97"/>
+<wire x1="157.48" y1="129.54" x2="154.94" y2="127" width="0.254" layer="97"/>
+<wire x1="157.48" y1="129.54" x2="160.02" y2="127" width="0.254" layer="97"/>
+<text x="187.96" y="140.97" size="1.778" layer="97" font="vector" align="center">I²C</text>
+<wire x1="208.28" y1="139.7" x2="167.64" y2="139.7" width="0.254" layer="97"/>
+<wire x1="167.64" y1="139.7" x2="170.18" y2="142.24" width="0.254" layer="97"/>
+<wire x1="167.64" y1="139.7" x2="170.18" y2="137.16" width="0.254" layer="97"/>
+<wire x1="208.28" y1="139.7" x2="205.74" y2="142.24" width="0.254" layer="97"/>
+<wire x1="208.28" y1="139.7" x2="205.74" y2="137.16" width="0.254" layer="97"/>
+<wire x1="220.98" y1="149.86" x2="220.98" y2="167.64" width="0.254" layer="97"/>
+<wire x1="220.98" y1="167.64" x2="167.64" y2="167.64" width="0.254" layer="97"/>
+<wire x1="167.64" y1="167.64" x2="170.18" y2="170.18" width="0.254" layer="97"/>
+<wire x1="167.64" y1="167.64" x2="170.18" y2="165.1" width="0.254" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -4200,18 +4221,19 @@ Page 4: ADCs</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="DIA1" gate="G$1" x="147.32" y="93.98" smashed="yes"/>
-<instance part="DIA5" gate="G$1" x="187.96" y="170.18" smashed="yes"/>
-<instance part="DIA6" gate="G$1" x="195.58" y="165.1" smashed="yes"/>
-<instance part="DIA7" gate="G$1" x="91.44" y="106.68" smashed="yes"/>
-<instance part="DIA8" gate="G$1" x="91.44" y="81.28" smashed="yes"/>
-<instance part="DIA12" gate="G$1" x="104.14" y="111.76" smashed="yes"/>
-<instance part="DIA13" gate="G$1" x="104.14" y="86.36" smashed="yes"/>
-<instance part="DIA15" gate="G$1" x="109.22" y="147.32" smashed="yes"/>
-<instance part="DIA16" gate="G$1" x="109.22" y="142.24" smashed="yes"/>
-<instance part="DIA2" gate="G$1" x="167.64" y="106.68" smashed="yes"/>
-<instance part="DIA9" gate="G$1" x="167.64" y="81.28" smashed="yes"/>
-<instance part="DIA3" gate="G$1" x="109.22" y="152.4" smashed="yes"/>
+<instance part="DIA1" gate="G$1" x="147.32" y="60.96" smashed="yes"/>
+<instance part="DIA5" gate="G$1" x="187.96" y="121.92" smashed="yes"/>
+<instance part="DIA6" gate="G$1" x="195.58" y="116.84" smashed="yes"/>
+<instance part="DIA7" gate="G$1" x="91.44" y="73.66" smashed="yes"/>
+<instance part="DIA8" gate="G$1" x="91.44" y="48.26" smashed="yes"/>
+<instance part="DIA12" gate="G$1" x="104.14" y="78.74" smashed="yes"/>
+<instance part="DIA13" gate="G$1" x="104.14" y="53.34" smashed="yes"/>
+<instance part="DIA15" gate="G$1" x="106.68" y="99.06" smashed="yes"/>
+<instance part="DIA16" gate="G$1" x="106.68" y="93.98" smashed="yes"/>
+<instance part="DIA2" gate="G$1" x="167.64" y="73.66" smashed="yes"/>
+<instance part="DIA9" gate="G$1" x="167.64" y="48.26" smashed="yes"/>
+<instance part="DIA3" gate="G$1" x="106.68" y="104.14" smashed="yes"/>
+<instance part="DIA4" gate="G$1" x="157.48" y="121.92" smashed="yes"/>
 </instances>
 <busses>
 </busses>
