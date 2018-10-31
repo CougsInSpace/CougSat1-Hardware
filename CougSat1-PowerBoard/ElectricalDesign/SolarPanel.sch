@@ -4108,7 +4108,6 @@ Last character is an incremented letter for each variant of the same value and p
 </part>
 <part name="C16" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY26" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY27" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="FRAME4" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="ADCs"/>
 </part>
@@ -4248,7 +4247,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY21" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C17" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY29" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY32" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET20" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET21" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -4306,7 +4304,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY76" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C26" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY77" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY78" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="DIA4" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="OFFSHEET13" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET44" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
@@ -4326,6 +4323,9 @@ Last character is an incremented letter for each variant of the same value and p
 </part>
 <part name="SUPPLY79" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY80" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY27" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY78" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5901,7 +5901,6 @@ corresponding to signal name</text>
 <instance part="SUPPLY26" gate="G$1" x="60.96" y="124.46" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="60.96" y="128.016" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="SUPPLY27" gate="G$1" x="60.96" y="114.3" smashed="yes" rot="MR0"/>
 <instance part="R28" gate="G$1" x="88.9" y="152.4" smashed="yes">
 <attribute name="NAME" x="90.17" y="157.48" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="90.17" y="155.956" size="1.27" layer="96" align="center-left"/>
@@ -6016,6 +6015,7 @@ corresponding to signal name</text>
 <instance part="SUPPLY80" gate="G$1" x="73.66" y="50.8" smashed="yes">
 <attribute name="VALUE" x="73.66" y="54.356" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY27" gate="1" x="60.96" y="114.3" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6111,6 +6111,10 @@ corresponding to signal name</text>
 <pinref part="SUPPLY31" gate="1" pin="DGND"/>
 <wire x1="116.84" y1="121.92" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="SUPPLY27" gate="1" pin="DGND"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -6123,10 +6127,6 @@ corresponding to signal name</text>
 <pinref part="C18" gate="G$1" pin="C"/>
 <pinref part="SUPPLY35" gate="G$1" pin="AGND"/>
 <wire x1="208.28" y1="109.22" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="SUPPLY27" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -6490,7 +6490,6 @@ corresponding to signal name</text>
 <instance part="SUPPLY29" gate="G$1" x="66.04" y="116.84" smashed="yes">
 <attribute name="VALUE" x="66.04" y="120.396" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY30" gate="G$1" x="66.04" y="106.68" smashed="yes"/>
 <instance part="SUPPLY32" gate="G$1" x="48.26" y="124.46" smashed="yes"/>
 <instance part="OFFSHEET20" gate="G$1" x="116.84" y="167.64" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET21" gate="G$1" x="116.84" y="162.56" smashed="yes" rot="MR0"/>
@@ -6612,9 +6611,10 @@ corresponding to signal name</text>
 <instance part="SUPPLY77" gate="G$1" x="66.04" y="27.94" smashed="yes">
 <attribute name="VALUE" x="66.04" y="31.496" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY78" gate="G$1" x="66.04" y="17.78" smashed="yes"/>
 <instance part="OFFSHEET45" gate="G$1" x="111.76" y="58.42" smashed="yes"/>
 <instance part="OFFSHEET46" gate="G$1" x="111.76" y="55.88" smashed="yes" rot="MR0"/>
+<instance part="SUPPLY30" gate="1" x="66.04" y="106.68" smashed="yes"/>
+<instance part="SUPPLY78" gate="1" x="66.04" y="17.78" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6722,6 +6722,14 @@ corresponding to signal name</text>
 <pinref part="SUPPLY76" gate="1" pin="DGND"/>
 <wire x1="134.62" y1="27.94" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="SUPPLY30" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="SUPPLY78" gate="1" pin="DGND"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -6733,10 +6741,6 @@ corresponding to signal name</text>
 <pinref part="U5" gate="G$1" pin="COM"/>
 <wire x1="50.8" y1="40.64" x2="48.26" y2="40.64" width="0.1524" layer="91"/>
 <junction x="48.26" y="40.64"/>
-</segment>
-<segment>
-<pinref part="C17" gate="G$1" pin="2"/>
-<pinref part="SUPPLY30" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY32" gate="G$1" pin="AGND"/>
@@ -6757,10 +6761,6 @@ corresponding to signal name</text>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="116.84" x2="22.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY43" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C26" gate="G$1" pin="2"/>
-<pinref part="SUPPLY78" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
