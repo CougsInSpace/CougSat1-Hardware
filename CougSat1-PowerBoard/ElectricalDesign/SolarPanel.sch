@@ -6870,16 +6870,16 @@ corresponding to signal name</text>
 </net>
 <net name="TEMP_FRONT_BOTTOM" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CH14"/>
-<wire x1="114.3" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
-<label x="111.76" y="154.94" size="1.778" layer="95" rot="MR0"/>
+<label x="111.76" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH12"/>
+<wire x1="114.3" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TEMP_FRONT_TOP" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CH15"/>
-<wire x1="114.3" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
-<label x="111.76" y="152.4" size="1.778" layer="95" rot="MR0"/>
+<label x="111.76" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH13"/>
+<wire x1="114.3" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PV_IIN_P-A" class="0">
@@ -7024,20 +7024,6 @@ corresponding to signal name</text>
 <label x="27.94" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="TEMP_MPPT-A" class="0">
-<segment>
-<label x="111.76" y="162.56" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U4" gate="G$1" pin="CH12"/>
-<wire x1="114.3" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TEMP_MPPT-B" class="0">
-<segment>
-<label x="111.76" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U4" gate="G$1" pin="CH13"/>
-<wire x1="114.3" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="PV_IIN_N-B" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="CH5"/>
@@ -7072,6 +7058,20 @@ corresponding to signal name</text>
 <label x="111.76" y="167.64" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U4" gate="G$1" pin="CH11"/>
 <wire x1="114.3" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEMP_MPPT-B" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH14"/>
+<wire x1="114.3" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
+<label x="111.76" y="154.94" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="TEMP_MPPT-A" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH15"/>
+<wire x1="114.3" y1="152.4" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="111.76" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
