@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4326,6 +4326,8 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY27" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY78" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="C27" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-4.7UF" value="4.7µF 10%"/>
+<part name="C28" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-4.7UF" value="4.7µF 10%"/>
 </parts>
 <sheets>
 <sheet>
@@ -4553,13 +4555,13 @@ Connected</text>
 <attribute name="VOLTAGE" x="30.734" y="164.084" size="1.27" layer="97" align="center-left"/>
 <attribute name="ESR" x="30.734" y="162.56" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="53.34" y="152.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="50.546" y="157.48" size="1.27" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="50.546" y="155.956" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="SKU" x="50.546" y="154.432" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="PACKAGE" x="50.546" y="152.908" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="VOLTAGE" x="50.546" y="151.384" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="TEMP" x="50.546" y="149.86" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<instance part="C2" gate="G$1" x="53.34" y="162.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.546" y="167.64" size="1.27" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="50.546" y="166.116" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="SKU" x="50.546" y="164.592" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE" x="50.546" y="163.068" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="50.546" y="161.544" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="TEMP" x="50.546" y="160.02" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="27.94" y="142.24" smashed="yes"/>
 <instance part="SUPPLY2" gate="G$1" x="53.34" y="142.24" smashed="yes"/>
@@ -4721,13 +4723,13 @@ Connected</text>
 <attribute name="VOLTAGE" x="30.734" y="90.424" size="1.27" layer="97" align="center-left"/>
 <attribute name="ESR" x="30.734" y="88.9" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C9" gate="G$1" x="53.34" y="78.74" smashed="yes" rot="MR0">
-<attribute name="NAME" x="50.546" y="83.82" size="1.27" layer="95" rot="MR0" align="center-left"/>
-<attribute name="VALUE" x="50.546" y="82.296" size="1.27" layer="96" rot="MR0" align="center-left"/>
-<attribute name="SKU" x="50.546" y="80.772" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="PACKAGE" x="50.546" y="79.248" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="VOLTAGE" x="50.546" y="77.724" size="1.27" layer="97" rot="MR0" align="center-left"/>
-<attribute name="TEMP" x="50.546" y="76.2" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<instance part="C9" gate="G$1" x="53.34" y="88.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.546" y="93.98" size="1.27" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="50.546" y="92.456" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="SKU" x="50.546" y="90.932" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE" x="50.546" y="89.408" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="50.546" y="87.884" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="TEMP" x="50.546" y="86.36" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="27.94" y="68.58" smashed="yes"/>
 <instance part="SUPPLY9" gate="G$1" x="53.34" y="68.58" smashed="yes"/>
@@ -5080,6 +5082,22 @@ Connected</text>
 <instance part="SUPPLY68" gate="G$1" x="142.24" y="114.3" smashed="yes">
 <attribute name="VALUE" x="142.24" y="117.856" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="C27" gate="G$1" x="53.34" y="149.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.546" y="154.94" size="1.27" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="50.546" y="153.416" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="SKU" x="50.546" y="151.892" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE" x="50.546" y="150.368" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="50.546" y="148.844" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="TEMP" x="50.546" y="147.32" size="1.27" layer="97" rot="MR0" align="center-left"/>
+</instance>
+<instance part="C28" gate="G$1" x="53.34" y="76.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="50.546" y="81.28" size="1.27" layer="95" rot="MR0" align="center-left"/>
+<attribute name="VALUE" x="50.546" y="79.756" size="1.27" layer="96" rot="MR0" align="center-left"/>
+<attribute name="SKU" x="50.546" y="78.232" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="PACKAGE" x="50.546" y="76.708" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="VOLTAGE" x="50.546" y="75.184" size="1.27" layer="97" rot="MR0" align="center-left"/>
+<attribute name="TEMP" x="50.546" y="73.66" size="1.27" layer="97" rot="MR0" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5094,11 +5112,6 @@ Connected</text>
 <pinref part="SUPPLY1" gate="G$1" pin="PGND"/>
 <wire x1="27.94" y1="144.78" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
 <junction x="27.94" y="157.48"/>
-</segment>
-<segment>
-<pinref part="SUPPLY2" gate="G$1" pin="PGND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="144.78" x2="53.34" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
@@ -5140,11 +5153,6 @@ Connected</text>
 <pinref part="SUPPLY8" gate="G$1" pin="PGND"/>
 <wire x1="27.94" y1="71.12" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
 <junction x="27.94" y="83.82"/>
-</segment>
-<segment>
-<pinref part="SUPPLY9" gate="G$1" pin="PGND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="53.34" y1="71.12" x2="53.34" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
@@ -5240,6 +5248,16 @@ Connected</text>
 <pinref part="R45" gate="G$1" pin="1"/>
 <pinref part="SUPPLY64" gate="G$1" pin="PGND"/>
 </segment>
+<segment>
+<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="SUPPLY9" gate="G$1" pin="PGND"/>
+<wire x1="53.34" y1="71.12" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="PGND"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="144.78" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MPPT_SET-A" class="0">
 <segment>
@@ -5321,7 +5339,7 @@ Connected</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="157.48" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="167.64" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="170.18" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="L1" gate="G$1" pin="1"/>
@@ -5513,7 +5531,7 @@ Connected</text>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="83.82" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="93.98" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="66.04" y1="96.52" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
@@ -5729,6 +5747,20 @@ Connected</text>
 <pinref part="RT4" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <label x="114.3" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OUTPUT_CAP-B" class="0">
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="81.28" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OUTPUT_CAP-A" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="154.94" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -6251,18 +6283,11 @@ corresponding to signal name</text>
 <label x="35.56" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="!MPPT_XSHUT-A" class="0">
+<net name="!MPPT_XSHUT-B" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="P00"/>
 <label x="45.72" y="177.8" size="1.778" layer="95" rot="MR0"/>
 <wire x1="48.26" y1="177.8" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!MPPT_XSHUT-B" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="P01"/>
-<wire x1="48.26" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
-<label x="45.72" y="175.26" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GPIO_A0" class="0">
@@ -6357,6 +6382,13 @@ corresponding to signal name</text>
 <wire x1="99.06" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="!MPPT_XSHUT-A" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="P01"/>
+<wire x1="48.26" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
+<label x="45.72" y="175.26" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -6380,7 +6412,7 @@ corresponding to signal name</text>
 <text x="20.32" y="162.56" size="1.778" layer="97" align="center-right">2A3&gt; </text>
 <text x="20.32" y="160.02" size="1.778" layer="97" align="center-right">2B3&gt; </text>
 <text x="20.32" y="154.94" size="1.778" layer="97" align="center-right">2A6&gt; </text>
-<text x="20.32" y="152.4" size="1.778" layer="97" align="center-right">2B6&gt; </text>
+<text x="12.7" y="144.78" size="1.778" layer="97" align="center-right">2B6&gt; </text>
 <text x="119.38" y="170.18" size="1.778" layer="97" align="center-left"> &lt;2A2</text>
 <text x="119.38" y="175.26" size="1.778" layer="97" align="center-left"> &lt;2D5</text>
 <text x="109.22" y="147.32" size="1.778" layer="97" align="center-left"> &lt;3A6</text>
@@ -6503,7 +6535,7 @@ corresponding to signal name</text>
 <instance part="OFFSHEET31" gate="G$1" x="22.86" y="162.56" smashed="yes"/>
 <instance part="OFFSHEET32" gate="G$1" x="22.86" y="160.02" smashed="yes"/>
 <instance part="OFFSHEET33" gate="G$1" x="22.86" y="154.94" smashed="yes"/>
-<instance part="OFFSHEET34" gate="G$1" x="22.86" y="152.4" smashed="yes"/>
+<instance part="OFFSHEET34" gate="G$1" x="15.24" y="144.78" smashed="yes"/>
 <instance part="OFFSHEET17" gate="G$1" x="116.84" y="170.18" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET19" gate="G$1" x="116.84" y="175.26" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET37" gate="G$1" x="106.68" y="147.32" smashed="yes" rot="MR0"/>
@@ -6545,8 +6577,8 @@ corresponding to signal name</text>
 <instance part="SUPPLY17" gate="G$1" x="48.26" y="134.62" smashed="yes">
 <attribute name="VALUE" x="48.26" y="138.176" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY39" gate="G$1" x="116.84" y="180.34" smashed="yes">
-<attribute name="VALUE" x="116.84" y="183.896" size="1.27" layer="96" align="center"/>
+<instance part="SUPPLY39" gate="G$1" x="10.16" y="152.4" smashed="yes">
+<attribute name="VALUE" x="10.16" y="155.956" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="R48" gate="G$1" x="137.16" y="58.42" smashed="yes">
 <attribute name="NAME" x="138.43" y="63.5" size="1.27" layer="95" align="center-left"/>
@@ -6822,15 +6854,6 @@ corresponding to signal name</text>
 <wire x1="81.28" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AVREF" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH8"/>
-<wire x1="81.28" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
-<label x="111.76" y="177.8" size="1.778" layer="95" rot="MR0"/>
-<wire x1="116.84" y1="177.8" x2="116.84" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="SUPPLY39" gate="G$1" pin="AVREF"/>
-</segment>
-</net>
 <net name="I2C_SDA_PMIC" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SDA"/>
@@ -6861,93 +6884,37 @@ corresponding to signal name</text>
 </net>
 <net name="PV_IIN_P-A" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CH10"/>
-<wire x1="81.28" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
-<label x="111.76" y="170.18" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH3"/>
+<wire x1="50.8" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
+<label x="27.94" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PV_IIN_N-A" class="0">
-<segment>
-<label x="111.76" y="167.64" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U4" gate="G$1" pin="CH11"/>
-<wire x1="114.3" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PV_IIN_P-B" class="0">
-<segment>
-<label x="111.76" y="162.56" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U4" gate="G$1" pin="CH12"/>
-<wire x1="114.3" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PV_IIN_N-B" class="0">
-<segment>
-<label x="111.76" y="160.02" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U4" gate="G$1" pin="CH13"/>
-<wire x1="114.3" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TEMP_MPPT-A" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH4"/>
-<label x="27.94" y="162.56" size="1.778" layer="95"/>
-<wire x1="50.8" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="TEMP_MPPT-B" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH5"/>
-<wire x1="50.8" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
-<label x="27.94" y="160.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VOUT-A" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH6"/>
-<wire x1="50.8" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
-<label x="27.94" y="154.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VOUT-B" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH7"/>
-<wire x1="50.8" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="27.94" y="152.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MPPT_ICTRL_P-A" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH0"/>
-<wire x1="25.4" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
-<label x="27.94" y="177.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MPPT_ICTRL_N-A" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="CH1"/>
-<wire x1="25.4" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
-<label x="27.94" y="175.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MPPT_ICTRL_P-B" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="CH2"/>
 <wire x1="50.8" y1="170.18" x2="25.4" y2="170.18" width="0.1524" layer="91"/>
 <label x="27.94" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="PV_IIN_P-B" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH4"/>
+<label x="27.94" y="162.56" size="1.778" layer="95"/>
+<wire x1="50.8" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="MPPT_ICTRL_N-B" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CH3"/>
-<wire x1="50.8" y1="167.64" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<label x="27.94" y="167.64" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="CH8"/>
+<wire x1="81.28" y1="177.8" x2="114.3" y2="177.8" width="0.1524" layer="91"/>
+<label x="111.76" y="177.8" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TEMP_BACK" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="CH9"/>
-<wire x1="81.28" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
-<label x="111.76" y="175.26" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH6"/>
+<wire x1="50.8" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
+<label x="27.94" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_EPS_ADCINN" class="0">
@@ -7041,6 +7008,70 @@ corresponding to signal name</text>
 <wire x1="48.26" y1="53.34" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="MUXOUTN"/>
 <wire x1="48.26" y1="50.8" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MPPT_ICTRL_N-A" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH0"/>
+<wire x1="25.4" y1="177.8" x2="50.8" y2="177.8" width="0.1524" layer="91"/>
+<label x="27.94" y="177.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MPPT_ICTRL_P-A" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH1"/>
+<wire x1="25.4" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
+<label x="27.94" y="175.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEMP_MPPT-A" class="0">
+<segment>
+<label x="111.76" y="162.56" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH12"/>
+<wire x1="114.3" y1="162.56" x2="81.28" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TEMP_MPPT-B" class="0">
+<segment>
+<label x="111.76" y="160.02" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH13"/>
+<wire x1="114.3" y1="160.02" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PV_IIN_N-B" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH5"/>
+<wire x1="50.8" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
+<label x="27.94" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AVREF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH7"/>
+<wire x1="50.8" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91"/>
+<label x="27.94" y="152.4" size="1.778" layer="95"/>
+<pinref part="SUPPLY39" gate="G$1" pin="AVREF"/>
+</segment>
+</net>
+<net name="VOUT-B" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH10"/>
+<wire x1="81.28" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
+<label x="111.76" y="170.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="MPPT_ICTRL_P-B" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CH9"/>
+<wire x1="81.28" y1="175.26" x2="114.3" y2="175.26" width="0.1524" layer="91"/>
+<label x="111.76" y="175.26" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="VOUT-A" class="0">
+<segment>
+<label x="111.76" y="167.64" size="1.778" layer="95" rot="MR0"/>
+<pinref part="U4" gate="G$1" pin="CH11"/>
+<wire x1="114.3" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
