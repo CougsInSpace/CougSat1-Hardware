@@ -3025,7 +3025,9 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
-<part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device=""/>
+<part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="TITLE" value="Serial Transeiver"/>
+</part>
 <part name="U1" library="CougsInSpace-IC-Conversion" deviceset="FT230X" device="-QFN16" value="FT230XQ"/>
 <part name="J1" library="CougsInSpace-Connectors" deviceset="USB" device="-B-FEMALE"/>
 <part name="J2" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK"/>
@@ -3051,7 +3053,9 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="C4" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C5" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-4.7PF" value="4.7pF ±0.1"/>
-<part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device=""/>
+<part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="TITLE" value="Battery Charger"/>
+</part>
 <part name="U2" library="CougsInSpace-IC-Power" deviceset="BQ24650" device="" value="BQ24650"/>
 <part name="C7" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="SUPPLY2" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
@@ -3158,6 +3162,8 @@ To USB B Female</text>
 <text x="103.632" y="117.348" size="1.778" layer="97" align="bottom-right">4.1V CC</text>
 <text x="100.584" y="84.328" size="1.778" layer="97" align="bottom-right">UART</text>
 <text x="157.48" y="84.074" size="1.778" layer="97" align="bottom-center">USB</text>
+<text x="147.32" y="73.66" size="1.27" layer="97" rot="R180" align="center-left">Page 2</text>
+<text x="147.32" y="106.68" size="1.27" layer="97" rot="R180" align="center-left">Page 3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -3182,7 +3188,7 @@ To USB B Female</text>
 <wire x1="101.6" y1="73.66" x2="101.6" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <text x="104.14" y="76.2" size="1.778" layer="97">CAD Note: Decoupling</text>
-<text x="137.16" y="134.62" size="1.27" layer="97" align="center-right">3XX&gt; </text>
+<text x="137.16" y="134.62" size="1.27" layer="97" align="center-right">3C5&gt; </text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -3192,6 +3198,7 @@ To USB B Female</text>
 <attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
 <instance part="U1" gate="G$1" x="116.84" y="121.92" smashed="yes">
 <attribute name="NAME" x="116.84" y="138.43" size="1.778" layer="95" align="center"/>
@@ -3493,7 +3500,7 @@ To USB B Female</text>
 </sheet>
 <sheet>
 <plain>
-<text x="215.9" y="68.58" size="1.27" layer="97" align="center-left"> 2xx&gt;</text>
+<text x="215.9" y="68.58" size="1.27" layer="97" align="center-left"> 2B4&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -3503,6 +3510,7 @@ To USB B Female</text>
 <attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
 <instance part="U2" gate="G$1" x="132.08" y="111.76" smashed="yes">
 <attribute name="NAME" x="132.08" y="133.35" size="1.778" layer="95" align="center"/>
@@ -3817,7 +3825,7 @@ To USB B Female</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="DIODE_OUT" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="127" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
@@ -3835,7 +3843,7 @@ To USB B Female</text>
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="BTST" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="BTST"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -3850,20 +3858,6 @@ To USB B Female</text>
 </net>
 <net name="5.0V" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="CENTER"/>
-<pinref part="D1" gate="G$1" pin="IN"/>
-<wire x1="35.56" y1="165.1" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="G$1" pin="5.0V"/>
-<wire x1="78.74" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="167.64" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
-<junction x="38.1" y="165.1"/>
-<pinref part="U2" gate="G$1" pin="MPPSET"/>
-<wire x1="116.84" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="119.38" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
-<junction x="78.74" y="165.1"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="76.2" x2="48.26" y2="88.9" width="0.1524" layer="91"/>
@@ -3874,7 +3868,7 @@ To USB B Female</text>
 <pinref part="SUPPLY5" gate="G$1" pin="5.0V"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CHARGING_STAT_G" class="0">
 <segment>
 <pinref part="DS1" gate="G$1" pin="C"/>
 <wire x1="88.9" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
@@ -3897,7 +3891,7 @@ To USB B Female</text>
 <wire x1="68.58" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VREF" class="0">
 <segment>
 <wire x1="106.68" y1="127" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -3910,7 +3904,7 @@ To USB B Female</text>
 <junction x="106.68" y="127"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="CHARGING_STAT_R" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="STAT1"/>
 <wire x1="116.84" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
@@ -3919,7 +3913,7 @@ To USB B Female</text>
 <wire x1="78.74" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="147.32" y1="129.54" x2="147.32" y2="142.24" width="0.1524" layer="91"/>
@@ -3930,7 +3924,7 @@ To USB B Female</text>
 <junction x="147.32" y="142.24"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="PH" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -3947,7 +3941,7 @@ To USB B Female</text>
 <junction x="177.8" y="109.22"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="HIGHDV" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="HIGHDV"/>
 <wire x1="147.32" y1="111.76" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
@@ -3956,7 +3950,7 @@ To USB B Female</text>
 <wire x1="185.42" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="LODRV" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="LODRV"/>
 <wire x1="147.32" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
@@ -3965,7 +3959,7 @@ To USB B Female</text>
 <wire x1="185.42" y1="99.06" x2="187.96" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="REGN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="REGN"/>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -3983,7 +3977,7 @@ To USB B Female</text>
 <wire x1="238.76" y1="109.22" x2="246.38" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="SR_P" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SR_P"/>
 <wire x1="147.32" y1="101.6" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
@@ -4000,7 +3994,7 @@ To USB B Female</text>
 <junction x="226.06" y="109.22"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="BAT_CHARGE_OUT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SR_N"/>
 <wire x1="147.32" y1="99.06" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
@@ -4034,21 +4028,23 @@ To USB B Female</text>
 <wire x1="182.88" y1="68.58" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="VFB" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VFB"/>
 <wire x1="147.32" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="48.26" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="45.72" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="43.18" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 <junction x="231.14" y="48.26"/>
 <pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="45.72" x2="246.38" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="45.72" x2="246.38" y2="48.26" width="0.1524" layer="91"/>
+<junction x="246.38" y="48.26"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="TS" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -4064,6 +4060,22 @@ To USB B Female</text>
 <pinref part="U2" gate="G$1" pin="THERM_EN"/>
 <wire x1="116.84" y1="111.76" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="111.76" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BARREL_MPPSET" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="CENTER"/>
+<pinref part="D1" gate="G$1" pin="IN"/>
+<wire x1="35.56" y1="165.1" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="5.0V"/>
+<wire x1="78.74" y1="165.1" x2="86.36" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="167.64" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
+<junction x="38.1" y="165.1"/>
+<pinref part="U2" gate="G$1" pin="MPPSET"/>
+<wire x1="116.84" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="119.38" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
+<junction x="78.74" y="165.1"/>
 </segment>
 </net>
 </nets>
