@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -569,42 +569,71 @@ Space EE</text>
 <plain>
 <wire x1="137.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram</text>
-<text x="96.52" y="119.38" size="3.81" layer="94" align="center">High Gain
+<text x="99.06" y="129.54" size="3.81" layer="94" align="center">High Gain
 230mm
 Antenna</text>
-<text x="96.52" y="93.98" size="3.81" layer="94" align="center">Antenna
+<text x="99.06" y="104.14" size="3.81" layer="94" align="center">Antenna
 Deploy
 Release</text>
-<text x="157.48" y="119.38" size="3.81" layer="94" align="center">Connector:
+<text x="160.02" y="129.54" size="3.81" layer="94" align="center">Connector:
 To Comms</text>
-<text x="157.48" y="93.98" size="3.81" layer="94" align="center">Connector:
+<text x="160.02" y="104.14" size="3.81" layer="94" align="center">Connector:
 To EPS</text>
-<wire x1="142.24" y1="127" x2="172.72" y2="127" width="0.254" layer="94"/>
-<wire x1="172.72" y1="127" x2="172.72" y2="111.76" width="0.254" layer="94"/>
-<wire x1="172.72" y1="111.76" x2="142.24" y2="111.76" width="0.254" layer="94"/>
-<wire x1="142.24" y1="111.76" x2="142.24" y2="127" width="0.254" layer="94"/>
-<wire x1="142.24" y1="101.6" x2="142.24" y2="86.36" width="0.254" layer="94"/>
-<wire x1="142.24" y1="86.36" x2="172.72" y2="86.36" width="0.254" layer="94"/>
-<wire x1="172.72" y1="86.36" x2="172.72" y2="101.6" width="0.254" layer="94"/>
-<wire x1="172.72" y1="101.6" x2="142.24" y2="101.6" width="0.254" layer="94"/>
-<wire x1="81.28" y1="129.54" x2="111.76" y2="129.54" width="0.254" layer="94"/>
-<wire x1="111.76" y1="129.54" x2="111.76" y2="109.22" width="0.254" layer="94"/>
-<wire x1="111.76" y1="109.22" x2="81.28" y2="109.22" width="0.254" layer="94"/>
-<wire x1="81.28" y1="109.22" x2="81.28" y2="129.54" width="0.254" layer="94"/>
-<wire x1="81.28" y1="104.14" x2="111.76" y2="104.14" width="0.254" layer="94"/>
-<wire x1="81.28" y1="104.14" x2="81.28" y2="83.82" width="0.254" layer="94"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="83.82" width="0.254" layer="94"/>
-<wire x1="81.28" y1="83.82" x2="111.76" y2="83.82" width="0.254" layer="94"/>
-<wire x1="111.76" y1="119.38" x2="142.24" y2="119.38" width="0.254" layer="97"/>
-<wire x1="139.7" y1="121.92" x2="142.24" y2="119.38" width="0.254" layer="97"/>
-<wire x1="142.24" y1="119.38" x2="139.7" y2="116.84" width="0.254" layer="97"/>
-<wire x1="114.3" y1="121.92" x2="111.76" y2="119.38" width="0.254" layer="97"/>
-<wire x1="111.76" y1="119.38" x2="114.3" y2="116.84" width="0.254" layer="97"/>
-<wire x1="142.24" y1="93.98" x2="111.76" y2="93.98" width="0.254" layer="97"/>
-<wire x1="114.3" y1="96.52" x2="111.76" y2="93.98" width="0.254" layer="97"/>
-<wire x1="111.76" y1="93.98" x2="114.3" y2="91.44" width="0.254" layer="97"/>
-<text x="127" y="119.888" size="1.778" layer="97" align="bottom-center">RF</text>
-<text x="127" y="94.488" size="1.778" layer="97" align="bottom-center">Power</text>
+<wire x1="144.78" y1="137.16" x2="175.26" y2="137.16" width="0.254" layer="94"/>
+<wire x1="175.26" y1="137.16" x2="175.26" y2="121.92" width="0.254" layer="94"/>
+<wire x1="175.26" y1="121.92" x2="144.78" y2="121.92" width="0.254" layer="94"/>
+<wire x1="144.78" y1="121.92" x2="144.78" y2="137.16" width="0.254" layer="94"/>
+<wire x1="144.78" y1="111.76" x2="144.78" y2="96.52" width="0.254" layer="94"/>
+<wire x1="144.78" y1="96.52" x2="175.26" y2="96.52" width="0.254" layer="94"/>
+<wire x1="175.26" y1="96.52" x2="175.26" y2="111.76" width="0.254" layer="94"/>
+<wire x1="175.26" y1="111.76" x2="144.78" y2="111.76" width="0.254" layer="94"/>
+<wire x1="83.82" y1="139.7" x2="114.3" y2="139.7" width="0.254" layer="94"/>
+<wire x1="114.3" y1="139.7" x2="114.3" y2="119.38" width="0.254" layer="94"/>
+<wire x1="114.3" y1="119.38" x2="83.82" y2="119.38" width="0.254" layer="94"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="139.7" width="0.254" layer="94"/>
+<wire x1="83.82" y1="114.3" x2="114.3" y2="114.3" width="0.254" layer="94"/>
+<wire x1="83.82" y1="114.3" x2="83.82" y2="93.98" width="0.254" layer="94"/>
+<wire x1="114.3" y1="114.3" x2="114.3" y2="93.98" width="0.254" layer="94"/>
+<wire x1="83.82" y1="93.98" x2="114.3" y2="93.98" width="0.254" layer="94"/>
+<wire x1="114.3" y1="129.54" x2="144.78" y2="129.54" width="0.254" layer="97"/>
+<wire x1="142.24" y1="132.08" x2="144.78" y2="129.54" width="0.254" layer="97"/>
+<wire x1="144.78" y1="129.54" x2="142.24" y2="127" width="0.254" layer="97"/>
+<wire x1="116.84" y1="132.08" x2="114.3" y2="129.54" width="0.254" layer="97"/>
+<wire x1="114.3" y1="129.54" x2="116.84" y2="127" width="0.254" layer="97"/>
+<wire x1="144.78" y1="104.14" x2="114.3" y2="104.14" width="0.254" layer="97"/>
+<wire x1="116.84" y1="106.68" x2="114.3" y2="104.14" width="0.254" layer="97"/>
+<wire x1="114.3" y1="104.14" x2="116.84" y2="101.6" width="0.254" layer="97"/>
+<text x="129.54" y="130.048" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="129.54" y="104.648" size="1.778" layer="97" align="bottom-center">Power</text>
+<text x="99.06" y="78.74" size="3.81" layer="94" align="center">ADC</text>
+<text x="160.02" y="78.74" size="3.81" layer="94" align="center">Connector:
+To ADCS</text>
+<wire x1="144.78" y1="86.36" x2="144.78" y2="71.12" width="0.254" layer="94"/>
+<wire x1="144.78" y1="71.12" x2="175.26" y2="71.12" width="0.254" layer="94"/>
+<wire x1="175.26" y1="71.12" x2="175.26" y2="86.36" width="0.254" layer="94"/>
+<wire x1="175.26" y1="86.36" x2="144.78" y2="86.36" width="0.254" layer="94"/>
+<wire x1="83.82" y1="88.9" x2="114.3" y2="88.9" width="0.254" layer="94"/>
+<wire x1="83.82" y1="88.9" x2="83.82" y2="68.58" width="0.254" layer="94"/>
+<wire x1="114.3" y1="88.9" x2="114.3" y2="68.58" width="0.254" layer="94"/>
+<wire x1="83.82" y1="68.58" x2="114.3" y2="68.58" width="0.254" layer="94"/>
+<wire x1="144.78" y1="83.82" x2="114.3" y2="83.82" width="0.254" layer="97"/>
+<wire x1="116.84" y1="86.36" x2="114.3" y2="83.82" width="0.254" layer="97"/>
+<wire x1="114.3" y1="83.82" x2="116.84" y2="81.28" width="0.254" layer="97"/>
+<text x="129.54" y="84.328" size="1.778" layer="97" align="bottom-center">Power</text>
+<wire x1="144.78" y1="73.66" x2="114.3" y2="73.66" width="0.254" layer="97"/>
+<wire x1="116.84" y1="76.2" x2="114.3" y2="73.66" width="0.254" layer="97"/>
+<wire x1="114.3" y1="73.66" x2="116.84" y2="71.12" width="0.254" layer="97"/>
+<text x="129.54" y="74.168" size="1.778" layer="97" align="bottom-center">I²C</text>
+<wire x1="144.78" y1="73.66" x2="142.24" y2="71.12" width="0.254" layer="97"/>
+<wire x1="142.24" y1="76.2" x2="144.78" y2="73.66" width="0.254" layer="97"/>
+<text x="53.34" y="78.74" size="3.81" layer="94" align="center">Photodiodes</text>
+<wire x1="38.1" y1="88.9" x2="68.58" y2="88.9" width="0.254" layer="94"/>
+<wire x1="38.1" y1="88.9" x2="38.1" y2="68.58" width="0.254" layer="94"/>
+<wire x1="68.58" y1="88.9" x2="68.58" y2="68.58" width="0.254" layer="94"/>
+<wire x1="38.1" y1="68.58" x2="68.58" y2="68.58" width="0.254" layer="94"/>
+<wire x1="83.82" y1="78.74" x2="68.58" y2="78.74" width="0.254" layer="97"/>
+<wire x1="83.82" y1="78.74" x2="81.28" y2="76.2" width="0.254" layer="97"/>
+<wire x1="81.28" y1="81.28" x2="83.82" y2="78.74" width="0.254" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
