@@ -3266,7 +3266,8 @@ Last character is an incremented letter for each variant of the same value and p
 <plain>
 <wire x1="137.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram
-Page 2: Antannae and connectors</text>
+Page 2: Antannae and connectors
+Page 3: Photodiodes</text>
 <text x="30.48" y="172.72" size="3.81" layer="94" align="center">Low Gain
 700mm
 Antenna</text>
