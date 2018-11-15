@@ -3403,7 +3403,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="U2" library="CougsInSpace-IC-Power" deviceset="BQ24650" device="" value="BQ24650"/>
 <part name="C7" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="SUPPLY2" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="J3" library="CougsInSpace-Connectors" deviceset="BARREL" device="-2.1X5.5-R"/>
+<part name="J3" library="CougsInSpace-Connectors" deviceset="BARREL" device="-2.1X5.5-R" value="5V input"/>
 <part name="D1" library="CougsInSpace-DiscreteSemi" deviceset="LTC4411" device="" value="LTC4411"/>
 <part name="SUPPLY3" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY4" library="CougsInSpace-PowerSymbols" deviceset="5.0V" device=""/>
