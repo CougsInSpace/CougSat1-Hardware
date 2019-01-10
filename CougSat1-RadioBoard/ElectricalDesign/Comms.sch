@@ -10348,7 +10348,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET35" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET36" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="FRAME5" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
-<attribute name="TITLE" value="ADC &amp; SD Cards"/>
+<attribute name="TITLE" value="ADCs"/>
 </part>
 <part name="OFFSHEET44" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET45" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
@@ -11099,7 +11099,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY26" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY339" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY340" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
-<part name="SUPPLY341" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
 <part name="SUPPLY342" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
 <part name="RT7" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY343" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -14131,9 +14130,6 @@ At 16b, 142µV/LSB</text>
 <instance part="SUPPLY339" gate="1" x="187.96" y="104.14" smashed="yes"/>
 <instance part="SUPPLY340" gate="G$1" x="246.38" y="152.4" smashed="yes">
 <attribute name="VALUE" x="246.38" y="155.956" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY341" gate="G$1" x="63.5" y="182.88" smashed="yes">
-<attribute name="VALUE" x="63.5" y="186.436" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="SUPPLY342" gate="G$1" x="58.42" y="91.44" smashed="yes">
 <attribute name="VALUE" x="58.42" y="94.996" size="1.27" layer="96" align="center"/>
@@ -22603,10 +22599,10 @@ Divides by 2</text>
 1.2V =&gt; Gain: 45.5dB
 0.2V =&gt; Gain: 1.5dB</text>
 <text x="146.05" y="152.4" size="1.778" layer="97">Note: 1V ± 500mV</text>
-<text x="172.72" y="149.86" size="1.27" layer="97" align="center-left"> 10B2&gt;</text>
-<text x="172.72" y="147.32" size="1.27" layer="97" align="center-left"> 10B2&gt;</text>
-<text x="172.72" y="134.62" size="1.27" layer="97" align="center-left"> 10B2&gt;</text>
-<text x="172.72" y="132.08" size="1.27" layer="97" align="center-left"> 10B2&gt;</text>
+<text x="172.72" y="149.86" size="1.27" layer="97" align="center-left"> 13C1&gt;</text>
+<text x="172.72" y="147.32" size="1.27" layer="97" align="center-left"> 13C1&gt;</text>
+<text x="172.72" y="134.62" size="1.27" layer="97" align="center-left"> 13C4&gt;</text>
+<text x="172.72" y="132.08" size="1.27" layer="97" align="center-left"> 13C4&gt;</text>
 <wire x1="86.36" y1="190.5" x2="180.34" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="190.5" x2="180.34" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="180.34" y1="162.56" x2="86.36" y2="162.56" width="0.1524" layer="97" style="shortdash"/>

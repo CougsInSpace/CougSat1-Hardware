@@ -19,7 +19,7 @@ WINDOW 0 -16 -64 Bottom 2
 WINDOW 3 -16 64 Top 2
 SYMATTR Prefix X
 SYMATTR Value ad8137
-SYMATTR ModelFile C:\Users\Bradley\Downloads\ad8137.cir
+SYMATTR ModelFile ad8137.cir
 PIN -48 32 NONE 8
 PINATTR PinName 3a
 PINATTR SpiceOrder 1
