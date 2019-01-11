@@ -8550,6 +8550,7 @@ Last character is an incremented letter for each variant of the same value and p
 <smd name="18" x="2.7" y="-2.275" dx="1.25" dy="0.35" layer="1"/>
 <smd name="19" x="2.7" y="-1.625" dx="1.25" dy="0.35" layer="1"/>
 <smd name="20" x="2.7" y="-0.975" dx="1.25" dy="0.35" layer="1"/>
+<text x="0" y="5.4" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -9679,7 +9680,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <wire x1="20.5" y1="-13.75" x2="-20.5" y2="-13.75" width="0.15" layer="51"/>
 <wire x1="-20.5" y1="-13.75" x2="-20.5" y2="13.75" width="0.15" layer="51"/>
 <text x="0" y="-14.3" size="0.8" layer="51" font="vector" ratio="15" align="center">Under Lip</text>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">2.8mm Height Restriction</text>
+<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">2.7mm Height Restriction</text>
 <wire x1="-21.275" y1="-14.525" x2="-21.275" y2="14.525" width="0.15" layer="39"/>
 <wire x1="-21.275" y1="14.525" x2="21.275" y2="14.525" width="0.15" layer="39"/>
 <wire x1="21.275" y1="14.525" x2="21.275" y2="-14.525" width="0.15" layer="39"/>
@@ -9693,102 +9694,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <wire x1="-22.725" y1="15.975" x2="-22.725" y2="-15.975" width="0.15" layer="21"/>
 <wire x1="-22.725" y1="-15.975" x2="22.725" y2="-15.975" width="0.15" layer="21"/>
 <text x="0" y="16.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="SHIELD-3437">
-<description>&lt;h3&gt;Board Level Shielding - 34 x 37 mm&lt;/h3&gt;</description>
-<wire x1="-18.415" y1="16.84" x2="-18.415" y2="-16.84" width="0.15" layer="51"/>
-<wire x1="-18.415" y1="-16.84" x2="18.415" y2="-16.84" width="0.15" layer="51"/>
-<wire x1="18.415" y1="-16.84" x2="18.415" y2="16.84" width="0.15" layer="51"/>
-<wire x1="18.415" y1="16.84" x2="-18.415" y2="16.84" width="0.15" layer="51"/>
-<smd name="9" x="-3" y="-16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="8" x="-9" y="-16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="7" x="-15.955" y="-16.84" dx="5.72" dy="0.8" layer="1"/>
-<smd name="10" x="3" y="-16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="11" x="9" y="-16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="12" x="15.955" y="-16.84" dx="5.72" dy="0.8" layer="1"/>
-<smd name="22" x="-3" y="16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="23" x="-9" y="16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="24" x="-15.955" y="16.84" dx="5.72" dy="0.8" layer="1"/>
-<smd name="21" x="3" y="16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="20" x="9" y="16.84" dx="3.8" dy="0.8" layer="1"/>
-<smd name="19" x="15.955" y="16.84" dx="5.72" dy="0.8" layer="1"/>
-<smd name="4" x="-18.415" y="-3" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="5" x="-18.415" y="-9" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="6" x="-18.415" y="-14.77" dx="3.34" dy="0.8" layer="1" rot="R90"/>
-<smd name="3" x="-18.415" y="3" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="2" x="-18.415" y="9" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="1" x="-18.415" y="14.77" dx="3.34" dy="0.8" layer="1" rot="R90"/>
-<smd name="18" x="18.415" y="14.77" dx="3.34" dy="0.8" layer="1" rot="R90"/>
-<smd name="17" x="18.415" y="9" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="16" x="18.415" y="3" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="15" x="18.415" y="-3" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="14" x="18.415" y="-9" dx="3.8" dy="0.8" layer="1" rot="R90"/>
-<smd name="13" x="18.415" y="-14.77" dx="3.34" dy="0.8" layer="1" rot="R90"/>
-<wire x1="-16.9" y1="15.3" x2="16.9" y2="15.3" width="0.15" layer="51"/>
-<wire x1="16.9" y1="15.3" x2="16.9" y2="-15.3" width="0.15" layer="51"/>
-<wire x1="16.9" y1="-15.3" x2="-16.9" y2="-15.3" width="0.15" layer="51"/>
-<wire x1="-16.9" y1="-15.3" x2="-16.9" y2="15.3" width="0.15" layer="51"/>
-<text x="0" y="-15.9" size="0.8" layer="51" font="vector" ratio="15" align="center">Under Lip</text>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">4.8mm Height Restriction</text>
-<wire x1="-17.675" y1="16.1" x2="17.675" y2="16.1" width="0.15" layer="39"/>
-<wire x1="17.675" y1="16.1" x2="17.675" y2="-16.1" width="0.15" layer="39"/>
-<wire x1="17.675" y1="-16.1" x2="-17.675" y2="-16.1" width="0.15" layer="39"/>
-<wire x1="-17.675" y1="-16.1" x2="-17.675" y2="16.1" width="0.15" layer="39"/>
-<wire x1="-19.15" y1="17.575" x2="19.15" y2="17.575" width="0.15" layer="39"/>
-<wire x1="19.15" y1="17.575" x2="19.15" y2="-17.575" width="0.15" layer="39"/>
-<wire x1="19.15" y1="-17.575" x2="-19.15" y2="-17.575" width="0.15" layer="39"/>
-<wire x1="-19.15" y1="-17.575" x2="-19.15" y2="17.575" width="0.15" layer="39"/>
-<wire x1="-19.15" y1="-17.575" x2="19.15" y2="-17.575" width="0.15" layer="21"/>
-<wire x1="19.15" y1="-17.575" x2="19.15" y2="17.575" width="0.15" layer="21"/>
-<wire x1="19.15" y1="17.575" x2="-19.15" y2="17.575" width="0.15" layer="21"/>
-<wire x1="-19.15" y1="17.575" x2="-19.15" y2="-17.575" width="0.15" layer="21"/>
-<text x="0" y="18.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="SHIELD-1717">
-<description>&lt;h3&gt;Board Level Shielding - 17 x 17 mm&lt;/h3&gt;</description>
-<smd name="2" x="-8.15" y="0" dx="1" dy="3.8" layer="1"/>
-<smd name="8" x="8.15" y="0" dx="1" dy="3.8" layer="1"/>
-<smd name="11" x="0" y="8.15" dx="1" dy="3.8" layer="1" rot="R90"/>
-<smd name="5" x="0" y="-8.15" dx="1" dy="3.8" layer="1" rot="R90"/>
-<smd name="3" x="-8.15" y="-6.375" dx="1" dy="4.55" layer="1"/>
-<smd name="7" x="8.15" y="-6.375" dx="1" dy="4.55" layer="1"/>
-<smd name="9" x="8.15" y="6.375" dx="1" dy="4.55" layer="1"/>
-<smd name="1" x="-8.15" y="6.375" dx="1" dy="4.55" layer="1"/>
-<smd name="10" x="5.875" y="8.15" dx="1" dy="3.55" layer="1" rot="R270"/>
-<smd name="12" x="-5.875" y="8.15" dx="1" dy="3.55" layer="1" rot="R270"/>
-<smd name="6" x="5.875" y="-8.15" dx="1" dy="3.55" layer="1" rot="R270"/>
-<smd name="4" x="-5.875" y="-8.15" dx="1" dy="3.55" layer="1" rot="R270"/>
-<wire x1="-8.975" y1="8.975" x2="8.975" y2="8.975" width="0.15" layer="21"/>
-<wire x1="8.975" y1="8.975" x2="8.975" y2="-8.975" width="0.15" layer="21"/>
-<wire x1="8.975" y1="-8.975" x2="-8.975" y2="-8.975" width="0.15" layer="21"/>
-<wire x1="-8.975" y1="-8.975" x2="-8.975" y2="8.975" width="0.15" layer="21"/>
-<wire x1="-6.7" y1="6.7" x2="6.7" y2="6.7" width="0.15" layer="21"/>
-<wire x1="6.7" y1="6.7" x2="6.7" y2="-6.7" width="0.15" layer="21"/>
-<wire x1="6.7" y1="-6.7" x2="-6.7" y2="-6.7" width="0.15" layer="21"/>
-<wire x1="-6.7" y1="-6.7" x2="-6.7" y2="6.7" width="0.15" layer="21"/>
-<wire x1="-8.975" y1="8.975" x2="8.975" y2="8.975" width="0.15" layer="39"/>
-<wire x1="8.975" y1="8.975" x2="8.975" y2="-8.975" width="0.15" layer="39"/>
-<wire x1="8.975" y1="-8.975" x2="-8.975" y2="-8.975" width="0.15" layer="39"/>
-<wire x1="-8.975" y1="-8.975" x2="-8.975" y2="8.975" width="0.15" layer="39"/>
-<wire x1="-7.325" y1="7.325" x2="7.325" y2="7.325" width="0.15" layer="39"/>
-<wire x1="7.325" y1="7.325" x2="7.325" y2="-7.325" width="0.15" layer="39"/>
-<wire x1="7.325" y1="-7.325" x2="-7.325" y2="-7.325" width="0.15" layer="39"/>
-<wire x1="-7.325" y1="-7.325" x2="-7.325" y2="7.325" width="0.15" layer="39"/>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">3.4mm Height Restriction</text>
-<text x="0" y="-7" size="0.8" layer="51" font="vector" ratio="15" align="center">Under Lip</text>
-<wire x1="-8.25" y1="-8.25" x2="8.25" y2="-8.25" width="0.15" layer="51"/>
-<wire x1="8.25" y1="-8.25" x2="8.25" y2="8.25" width="0.15" layer="51"/>
-<wire x1="8.25" y1="8.25" x2="-8.25" y2="8.25" width="0.15" layer="51"/>
-<wire x1="-8.25" y1="8.25" x2="-8.25" y2="-8.25" width="0.15" layer="51"/>
-<wire x1="-3.925" y1="-8.25" x2="-2.075" y2="-8.25" width="0.15" layer="21"/>
-<wire x1="2.075" y1="-8.25" x2="3.925" y2="-8.25" width="0.15" layer="21"/>
-<wire x1="8.25" y1="-3.925" x2="8.25" y2="-2.075" width="0.15" layer="21"/>
-<wire x1="8.25" y1="2.075" x2="8.25" y2="3.925" width="0.15" layer="21"/>
-<wire x1="3.925" y1="8.25" x2="2.075" y2="8.25" width="0.15" layer="21"/>
-<wire x1="-2.075" y1="8.25" x2="-3.925" y2="8.25" width="0.15" layer="21"/>
-<wire x1="-8.25" y1="3.925" x2="-8.25" y2="2.075" width="0.15" layer="21"/>
-<wire x1="-8.25" y1="-2.075" x2="-8.25" y2="-3.925" width="0.15" layer="21"/>
-<text x="0" y="9.5" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 <package name="SHIELD-2626">
 <description>&lt;h3&gt;Board Level Shielding - 26 x 26 mm&lt;/h3&gt;</description>
@@ -9821,7 +9726,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <wire x1="11.6" y1="-11.6" x2="-11.6" y2="-11.6" width="0.15" layer="51"/>
 <wire x1="-11.6" y1="-11.6" x2="-11.6" y2="11.6" width="0.15" layer="51"/>
 <text x="0" y="-12" size="0.8" layer="51" font="vector" ratio="15" align="center">Under Lip</text>
-<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">4.8mm Height Restriction</text>
+<text x="0" y="0" size="0.8" layer="51" font="vector" ratio="15" align="center">2.19mm Height Restriction</text>
 <text x="0" y="14.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-12.175" y1="12.175" x2="-12.175" y2="-12.175" width="0.15" layer="39"/>
 <wire x1="-12.175" y1="-12.175" x2="12.175" y2="-12.175" width="0.15" layer="39"/>
@@ -10020,28 +9925,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 </technology>
 </technologies>
 </device>
-<device name="-3437" package="SHIELD-3437">
-<connects>
-<connect gate="G$1" pin="SHIELD" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="34mm x 37mm"/>
-<attribute name="SKU" value="48-0072"/>
-</technology>
-</technologies>
-</device>
-<device name="-1717" package="SHIELD-1717">
-<connects>
-<connect gate="G$1" pin="SHIELD" pad="1 2 3 4 5 6 7 8 9 10 11 12"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="17mm x 17mm"/>
-<attribute name="SKU" value="48-0076"/>
-</technology>
-</technologies>
-</device>
 <device name="-2626" package="SHIELD-2626">
 <connects>
 <connect gate="G$1" pin="SHIELD" pad="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"/>
@@ -10049,7 +9932,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <technologies>
 <technology name="">
 <attribute name="PACKAGE" value="26mm x 26mm"/>
-<attribute name="SKU" value="48-0077"/>
+<attribute name="SKU" value="48-0072"/>
 </technology>
 </technologies>
 </device>
@@ -10212,7 +10095,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <attribute name="DESIGNER" value="Bradley L. Davis"/>
 <attribute name="PART_NUMBER" value="68-0003"/>
 <attribute name="PROJECT" value="CougSat-1: Comms"/>
-<attribute name="REV" value="1.0.2"/>
+<attribute name="REV" value="1.0.3"/>
 </attributes>
 <variantdefs>
 <variantdef name="Main"/>
@@ -10271,14 +10154,14 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="J2" library="CougsInSpace-Boards" deviceset="CIS_CARD-OPEN+X" device="" value="CougSat Card">
 <attribute name="SKU" value="68-0003"/>
 </part>
-<part name="J4" library="CougsInSpace-Connectors" deviceset="SWD" device="SMD-6-R" value="SWD"/>
+<part name="J200" library="CougsInSpace-Connectors" deviceset="SWD" device="SMD-6-R" value="SWD"/>
 <part name="U17" library="CougsInSpace-IC-µController" deviceset="STM32-64P-?*" device="L496R" technology="GT" value="STM32L496RGT"/>
 <part name="SUPPLY39" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY40" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C148" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C147" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C155" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C156" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C215" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C214" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C222" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C223" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R53" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY41" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C81" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
@@ -10299,19 +10182,19 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY142" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET426" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY147" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C141" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C208" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="OFFSHEET500" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET501" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY133" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET420" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY145" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C138" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C205" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="OFFSHEET499" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET502" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET399" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET421" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET5" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
-<part name="RT15" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT210" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET7" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET376" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
@@ -10355,14 +10238,14 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="U12" library="CougsInSpace-IC-Conversion" deviceset="LTC2499" device="" value="LTC2499"/>
 <part name="SUPPLY28" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY29" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C159" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C226" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY32" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET56" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET57" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="R40" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
 <part name="R41" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
-<part name="R129" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
-<part name="R128" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R204" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R203" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
 <part name="SUPPLY37" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY43" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="U29" library="CougsInSpace-IC-Other" deviceset="MCP1501" device="E/RW" technology="-18" value="MCP1501-18"/>
@@ -10377,10 +10260,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY109" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY110" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY113" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="RT22" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
-<part name="RT5" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
-<part name="RT21" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
-<part name="RT6" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT217" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT200" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT216" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT201" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="OFFSHEET384" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET385" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET387" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
@@ -10388,8 +10271,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY114" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY115" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY116" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="TP1" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
-<part name="TP2" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
+<part name="TP200" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
+<part name="TP201" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
 <part name="C103" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY88" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY33" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -10449,7 +10332,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="U11" library="CougsInSpace-IC-Conversion" deviceset="LTC2499" device="" value="LTC2499"/>
 <part name="SUPPLY36" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY47" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="C160" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C227" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY56" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET70" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET71" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -10457,8 +10340,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY58" library="CougsInSpace-PowerSymbols" deviceset="5.0V" device=""/>
 <part name="R31" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
 <part name="R32" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
-<part name="R131" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
-<part name="R130" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R206" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R205" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
 <part name="SUPPLY60" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY61" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY57" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -10552,7 +10435,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C120" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-270PF" value="270pF 1%"/>
 <part name="R103" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-13.7K" value="13.7kΩ 0.1%"/>
 <part name="C119" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-56PF" value="56pF 2%"/>
-<part name="C135" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C202" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C112" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C123" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="OFFSHEET112" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
@@ -10572,8 +10455,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C66" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-270PF" value="270pF 1%"/>
 <part name="R65" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-13.7K" value="13.7kΩ 0.1%"/>
 <part name="C73" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-56PF" value="56pF 2%"/>
-<part name="C150" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C152" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C217" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C219" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C68" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="OFFSHEET118" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET119" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
@@ -10582,7 +10465,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="R79" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-470R" value="470Ω 0.5%"/>
 <part name="R75" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-470R" value="470Ω 0.5%"/>
 <part name="DS1" library="CougsInSpace-LEDs" deviceset="LED-V" device="-1608" technology="-GRN" value="Green"/>
-<part name="R125" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
+<part name="R200" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
 <part name="SUPPLY152" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="U4" library="CougsInSpace-RF" deviceset="AD834X" device="" technology="6" value="AD8346"/>
 <part name="SUPPLY139" library="CougsInSpace-PowerSymbols" deviceset="3.3V-1" device=""/>
@@ -10590,8 +10473,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY151" library="CougsInSpace-PowerSymbols" deviceset="3.3V-1" device=""/>
 <part name="C30" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="C21" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
-<part name="C162" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
-<part name="C161" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
+<part name="C229" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
+<part name="C228" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C19" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C24" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="R13" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-49.9" value="49.9Ω 0.1%"/>
@@ -10651,10 +10534,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY171" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET140" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="Q12" library="CougsInSpace-DiscreteSemi" deviceset="BJT-NPN" device="-SOT323" technology="-MMBTA06W" value="MMBTA06W"/>
-<part name="C134" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C153" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C157" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C133" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C201" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C220" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C224" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C200" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R76" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-100K" value="100kΩ 0.1%"/>
 <part name="R69" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-200K" value="200kΩ 0.1%"/>
 <part name="SUPPLY181" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -10747,8 +10630,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET163" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="C42" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="SUPPLY210" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="TP4" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
-<part name="TP5" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
+<part name="TP203" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
+<part name="TP204" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 <part name="U35" library="CougsInSpace-IC-Comms" deviceset="LEVEL_SHIFTER-2BIT" device="-XSON-8" value="TXS0102DQM"/>
 <part name="U30" library="CougsInSpace-IC-Comms" deviceset="LEVEL_SHIFTER-2BIT" device="-XSON-8" value="TXS0102DQM"/>
 <part name="SUPPLY11" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
@@ -10780,7 +10663,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="U27" library="CougsInSpace-IC-Power" deviceset="LM2776" device="" value="LM2776"/>
 <part name="C98" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="SUPPLY251" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C142" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
+<part name="C209" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="C106" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="SUPPLY218" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="FB7" library="CougsInSpace-Coils" deviceset="CHOKE-H" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
@@ -10788,7 +10671,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C97" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY220" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY221" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
-<part name="TP3" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
+<part name="TP202" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
 <part name="SUPPLY161" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="SUPPLY162" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="SUPPLY164" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
@@ -10856,8 +10739,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C51" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY256" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="SUPPLY257" library="CougsInSpace-PowerSymbols" deviceset="9.0V-0" device=""/>
-<part name="C143" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
-<part name="C146" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
+<part name="C210" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
+<part name="C213" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="C96" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C88" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C99" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
@@ -10874,7 +10757,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="U23" library="CougsInSpace-RF" deviceset="AMP-BIAS" device="-MAAM-011229" value="MAAM-011229"/>
 <part name="C82" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="FB3" library="CougsInSpace-Coils" deviceset="CHOKE-V" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
-<part name="C151" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C218" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C74" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="C85" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="R74" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-2K" value="2kΩ 0.1%">
@@ -10897,10 +10780,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C71" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.6PF" value="0.6pF ±0.1pF"/>
 <part name="L6" library="CougsInSpace-Coils" deviceset="INDUCTOR-V" device="-1608" technology="-110NH" value="110nH 2%"/>
 <part name="C77" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
-<part name="C149" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C216" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C79" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="L8" library="CougsInSpace-Coils" deviceset="INDUCTOR-V" device="-1608" technology="-560NH" value="560nH 5%"/>
-<part name="C154" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C221" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY238" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="U26" library="CougsInSpace-RF" deviceset="AD834X" device="" technology="5" value="AD8345"/>
 <part name="Q1" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET-P" device="-SON-3333" value="CSD25402Q3A"/>
@@ -10916,7 +10799,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET177" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET178" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="R7" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
-<part name="C163" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
+<part name="C230" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C8" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="R124" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
 <part name="C132" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
@@ -10954,7 +10837,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET76" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="U25" library="CougsInSpace-RF" deviceset="AMP-BIAS" device="-MAAM-011229" value="MAAM-011229"/>
 <part name="FB5" library="CougsInSpace-Coils" deviceset="CHOKE-V" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
-<part name="C144" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C211" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C94" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="C91" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="R77" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-2K" value="2kΩ 0.1%">
@@ -10970,7 +10853,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C102" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="U31" library="CougsInSpace-RF" deviceset="AMP-BIAS" device="-MAAM-011229" value="MAAM-011229"/>
 <part name="FB8" library="CougsInSpace-Coils" deviceset="CHOKE-V" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
-<part name="C136" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C203" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C113" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="C101" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1NF-B" value="1nF 1%"/>
 <part name="R90" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-2K" value="2kΩ 0.1%">
@@ -11032,7 +10915,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY328" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
 <part name="R85" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-20K" value="20kΩ 0.5%"/>
 <part name="R86" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
-<part name="Z2" library="CougsInSpace-Coils" deviceset="BALUN-SCT" device="-SM-22" technology="-ETK42T" value="Balun 1:4"/>
+<part name="Z1" library="CougsInSpace-Coils" deviceset="BALUN-SCT" device="-SM-22" technology="-ETK42T" value="Balun 1:4"/>
 <part name="C107" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C124" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C117" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF" value="1µF 10%"/>
@@ -11043,10 +10926,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET198" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET199" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET200" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="C137" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C139" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C145" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="C140" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
+<part name="C204" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C206" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C212" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C207" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C110" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C89" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="SUPPLY335" library="CougsInSpace-PowerSymbols" deviceset="5.0V-2" device=""/>
@@ -11055,16 +10938,16 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="H7" library="CougsInSpace-Hardware" deviceset="SHIELDING" device="-3044" value="Analog Shield"/>
 <part name="H8" library="CougsInSpace-Hardware" deviceset="SHIELDING" device="-3044" value="700mm RF Shield"/>
 <part name="H4" library="CougsInSpace-Hardware" deviceset="SHIELDING" device="-2626" value="230mm RF Shield"/>
-<part name="RT19" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT214" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY311" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET182" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT17" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT212" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY312" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET185" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="RT3" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY313" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET202" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT13" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT208" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY314" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET203" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="FRAME15" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
@@ -11089,24 +10972,24 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET38" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="R42" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
 <part name="R43" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-39.2K" value="39.2kΩ 0.1%"/>
-<part name="R127" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
-<part name="R126" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R202" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
+<part name="R201" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-8.45K" value="8.45kΩ 0.1%"/>
 <part name="SUPPLY22" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY23" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY24" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY25" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C158" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="C225" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY26" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY339" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY340" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
 <part name="SUPPLY342" library="CougsInSpace-PowerSymbols" deviceset="AVREF" device=""/>
-<part name="RT7" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT202" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY343" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET39" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT14" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT209" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY344" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET40" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT18" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT213" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY345" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET41" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET42" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -11119,19 +11002,19 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET213" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET214" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET215" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="RT9" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT204" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY348" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET216" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT12" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT207" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY349" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET217" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT11" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT206" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY350" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET220" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT8" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT203" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY351" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET221" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="RT10" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT205" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY352" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET224" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="DIA42" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
@@ -11141,7 +11024,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C9" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C129" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C64" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF-B" value="1µF 10%"/>
-<part name="RT20" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT215" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="SUPPLY356" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="OFFSHEET226" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="RT4" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
@@ -11266,7 +11149,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY353" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY354" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY355" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="RT16" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
+<part name="RT211" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-68K" value="68kΩ 5%"/>
 <part name="OFFSHEET231" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="U8" library="CougsInSpace-IC-Memory" deviceset="FLASH-(Q)SPI" device="-SO8" technology="-2MB" value="IS25LP016D"/>
 <part name="U9" library="CougsInSpace-IC-Memory" deviceset="FLASH-(Q)SPI" device="-SO8" technology="-2MB" value="IS25LP016D"/>
@@ -11405,9 +11288,9 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY84" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET48" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY85" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="ARTWORK" device="-SPEED_LIMIT" value="Speed Limit"/>
-<part name="LOGO2" library="CougsInSpace-Aesthetics" deviceset="CIS-LOGO" device="-SATELLITE-16MM" value="Satellite 16mm"/>
-<part name="LOGO3" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="BRADLEY"/>
+<part name="LOGO201" library="CougsInSpace-Aesthetics" deviceset="ARTWORK" device="-SPEED_LIMIT" value="Speed Limit"/>
+<part name="LOGO200" library="CougsInSpace-Aesthetics" deviceset="CIS-LOGO" device="-SATELLITE-16MM" value="Satellite 16mm"/>
+<part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="BRADLEY"/>
 </parts>
 <sheets>
 <sheet>
@@ -12588,7 +12471,7 @@ JTAG termination</text>
 <attribute name="VALUE" x="241.3" y="31.75" size="1.778" layer="96" rot="MR0" align="center"/>
 <attribute name="SKU" x="241.3" y="29.718" size="1.778" layer="97" rot="MR0" align="center"/>
 </instance>
-<instance part="J4" gate="G$1" x="20.32" y="172.72" smashed="yes">
+<instance part="J200" gate="G$1" x="20.32" y="172.72" smashed="yes">
 <attribute name="VALUE" x="19.05" y="163.83" size="1.778" layer="96" align="center"/>
 <attribute name="NAME" x="19.05" y="184.15" size="1.778" layer="95" align="center"/>
 <attribute name="SKU" x="19.05" y="161.798" size="1.778" layer="97" align="center"/>
@@ -12602,7 +12485,7 @@ JTAG termination</text>
 </instance>
 <instance part="SUPPLY39" gate="1" x="152.4" y="134.62" smashed="yes"/>
 <instance part="SUPPLY40" gate="1" x="7.62" y="119.38" smashed="yes"/>
-<instance part="C148" gate="G$1" x="7.62" y="129.54" smashed="yes">
+<instance part="C215" gate="G$1" x="7.62" y="129.54" smashed="yes">
 <attribute name="NAME" x="10.414" y="134.62" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="10.414" y="133.096" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="10.414" y="131.572" size="1.27" layer="97" align="center-left"/>
@@ -12610,7 +12493,7 @@ JTAG termination</text>
 <attribute name="VOLTAGE" x="10.414" y="128.524" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="10.414" y="127" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C147" gate="G$1" x="22.86" y="129.54" smashed="yes">
+<instance part="C214" gate="G$1" x="22.86" y="129.54" smashed="yes">
 <attribute name="NAME" x="25.654" y="134.62" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="25.654" y="133.096" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="25.654" y="131.572" size="1.27" layer="97" align="center-left"/>
@@ -12618,7 +12501,7 @@ JTAG termination</text>
 <attribute name="VOLTAGE" x="25.654" y="128.524" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="25.654" y="127" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C155" gate="G$1" x="38.1" y="129.54" smashed="yes">
+<instance part="C222" gate="G$1" x="38.1" y="129.54" smashed="yes">
 <attribute name="NAME" x="40.894" y="134.62" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="40.894" y="133.096" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="40.894" y="131.572" size="1.27" layer="97" align="center-left"/>
@@ -12626,7 +12509,7 @@ JTAG termination</text>
 <attribute name="VOLTAGE" x="40.894" y="128.524" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="40.894" y="127" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C156" gate="G$1" x="53.34" y="129.54" smashed="yes">
+<instance part="C223" gate="G$1" x="53.34" y="129.54" smashed="yes">
 <attribute name="NAME" x="56.134" y="134.62" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="56.134" y="133.096" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="56.134" y="131.572" size="1.27" layer="97" align="center-left"/>
@@ -12677,7 +12560,7 @@ JTAG termination</text>
 <instance part="SUPPLY142" gate="1" x="33.02" y="35.56" smashed="yes"/>
 <instance part="OFFSHEET426" gate="G$1" x="86.36" y="7.62" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY147" gate="1" x="119.38" y="7.62" smashed="yes"/>
-<instance part="C141" gate="G$1" x="119.38" y="15.24" smashed="yes">
+<instance part="C208" gate="G$1" x="119.38" y="15.24" smashed="yes">
 <attribute name="NAME" x="122.174" y="20.32" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="122.174" y="18.796" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="122.174" y="17.272" size="1.27" layer="97" align="center-left"/>
@@ -12690,7 +12573,7 @@ JTAG termination</text>
 <instance part="SUPPLY133" gate="1" x="33.02" y="2.54" smashed="yes"/>
 <instance part="OFFSHEET420" gate="G$1" x="86.36" y="40.64" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY145" gate="1" x="104.14" y="7.62" smashed="yes"/>
-<instance part="C138" gate="G$1" x="104.14" y="15.24" smashed="yes">
+<instance part="C205" gate="G$1" x="104.14" y="15.24" smashed="yes">
 <attribute name="NAME" x="106.934" y="20.32" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="106.934" y="18.796" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="106.934" y="17.272" size="1.27" layer="97" align="center-left"/>
@@ -12718,7 +12601,7 @@ JTAG termination</text>
 <attribute name="SKU" x="165.1" y="65.278" size="1.778" layer="97" align="center"/>
 </instance>
 <instance part="OFFSHEET5" gate="G$1" x="208.28" y="165.1" smashed="yes"/>
-<instance part="RT15" gate="G$1" x="137.16" y="124.46" smashed="yes">
+<instance part="RT210" gate="G$1" x="137.16" y="124.46" smashed="yes">
 <attribute name="NAME" x="135.89" y="126.492" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="135.636" y="121.92" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="135.89" y="120.396" size="1.27" layer="97" align="center"/>
@@ -12852,7 +12735,7 @@ JTAG termination</text>
 <attribute name="VF" x="160.02" y="149.86" size="1.27" layer="95" align="center-left"/>
 <attribute name="PACKAGE" x="160.02" y="152.908" size="1.27" layer="95" align="center-left"/>
 </instance>
-<instance part="R125" gate="G$1" x="157.48" y="142.24" smashed="yes">
+<instance part="R200" gate="G$1" x="157.48" y="142.24" smashed="yes">
 <attribute name="NAME" x="158.75" y="147.32" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="158.75" y="145.796" size="1.27" layer="96" align="center-left"/>
 <attribute name="PACKAGE" x="158.75" y="142.748" size="1.27" layer="97" align="center-left"/>
@@ -12932,17 +12815,17 @@ JTAG termination</text>
 <pinref part="SUPPLY39" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="C148" gate="G$1" pin="2"/>
+<pinref part="C215" gate="G$1" pin="2"/>
 <pinref part="SUPPLY40" gate="1" pin="DGND"/>
 <wire x1="7.62" y1="121.92" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C156" gate="G$1" pin="2"/>
+<pinref part="C223" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="124.46" x2="7.62" y2="127" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="127" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C147" gate="G$1" pin="2"/>
+<pinref part="C214" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="127" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C155" gate="G$1" pin="2"/>
+<pinref part="C222" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="127" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 <junction x="38.1" y="124.46"/>
 <wire x1="22.86" y1="124.46" x2="7.62" y2="124.46" width="0.1524" layer="91"/>
@@ -12961,13 +12844,13 @@ JTAG termination</text>
 <wire x1="170.18" y1="144.78" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="DGND"/>
+<pinref part="J200" gate="G$1" pin="DGND"/>
 <pinref part="SUPPLY44" gate="1" pin="DGND"/>
 <wire x1="27.94" y1="175.26" x2="60.96" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="175.26" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C141" gate="G$1" pin="2"/>
+<pinref part="C208" gate="G$1" pin="2"/>
 <pinref part="SUPPLY147" gate="1" pin="DGND"/>
 <wire x1="119.38" y1="10.16" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -12984,7 +12867,7 @@ JTAG termination</text>
 <pinref part="U35" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="C138" gate="G$1" pin="2"/>
+<pinref part="C205" gate="G$1" pin="2"/>
 <pinref part="SUPPLY145" gate="1" pin="DGND"/>
 <wire x1="104.14" y1="10.16" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 </segment>
@@ -13015,7 +12898,7 @@ JTAG termination</text>
 </segment>
 <segment>
 <pinref part="SUPPLY152" gate="1" pin="DGND"/>
-<pinref part="R125" gate="G$1" pin="1"/>
+<pinref part="R200" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="137.16" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -13028,7 +12911,7 @@ JTAG termination</text>
 </net>
 <net name="JTAG_TCK" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="SWCLK"/>
+<pinref part="J200" gate="G$1" pin="SWCLK"/>
 <wire x1="27.94" y1="177.8" x2="45.72" y2="177.8" width="0.1524" layer="91"/>
 <label x="30.48" y="177.8" size="1.778" layer="95"/>
 </segment>
@@ -13045,7 +12928,7 @@ JTAG termination</text>
 </net>
 <net name="JTAG_TMS" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="SWDIO"/>
+<pinref part="J200" gate="G$1" pin="SWDIO"/>
 <wire x1="27.94" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <label x="30.48" y="172.72" size="1.778" layer="95"/>
 </segment>
@@ -13062,7 +12945,7 @@ JTAG termination</text>
 </net>
 <net name="JTAG_TDO" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="SWO"/>
+<pinref part="J200" gate="G$1" pin="SWO"/>
 <wire x1="27.94" y1="167.64" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
 <label x="30.48" y="167.64" size="1.778" layer="95"/>
 </segment>
@@ -13084,7 +12967,7 @@ JTAG termination</text>
 <pinref part="SUPPLY9" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="RT15" gate="G$1" pin="2"/>
+<pinref part="RT210" gate="G$1" pin="2"/>
 <pinref part="SUPPLY17" gate="G$1" pin="AVDD"/>
 <wire x1="139.7" y1="124.46" x2="147.32" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="124.46" x2="147.32" y2="127" width="0.1524" layer="91"/>
@@ -13104,7 +12987,7 @@ JTAG termination</text>
 <label x="170.18" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="!RST"/>
+<pinref part="J200" gate="G$1" pin="!RST"/>
 <wire x1="45.72" y1="170.18" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
 <label x="30.48" y="170.18" size="1.778" layer="95"/>
 </segment>
@@ -13238,7 +13121,7 @@ JTAG termination</text>
 </net>
 <net name="TEMP_COMMS" class="0">
 <segment>
-<pinref part="RT15" gate="G$1" pin="1"/>
+<pinref part="RT210" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
 <label x="114.3" y="124.46" size="1.778" layer="95"/>
 </segment>
@@ -13391,12 +13274,12 @@ JTAG termination</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="C141" gate="G$1" pin="1"/>
+<pinref part="C208" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="20.32" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="C138" gate="G$1" pin="1"/>
+<pinref part="C205" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
@@ -13424,7 +13307,7 @@ JTAG termination</text>
 <wire x1="104.14" y1="144.78" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="VSENSE"/>
+<pinref part="J200" gate="G$1" pin="VSENSE"/>
 <wire x1="27.94" y1="180.34" x2="33.02" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="180.34" x2="33.02" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
@@ -13440,15 +13323,15 @@ JTAG termination</text>
 <pinref part="RN1" gate="B" pin="2"/>
 </segment>
 <segment>
-<pinref part="C148" gate="G$1" pin="1"/>
+<pinref part="C215" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="134.62" x2="7.62" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C156" gate="G$1" pin="1"/>
+<pinref part="C223" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="134.62" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="137.16" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="137.16" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C147" gate="G$1" pin="1"/>
+<pinref part="C214" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="134.62" x2="22.86" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C155" gate="G$1" pin="1"/>
+<pinref part="C222" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="134.62" x2="38.1" y2="137.16" width="0.1524" layer="91"/>
 <junction x="38.1" y="137.16"/>
 <wire x1="22.86" y1="137.16" x2="7.62" y2="137.16" width="0.1524" layer="91"/>
@@ -13560,7 +13443,7 @@ JTAG termination</text>
 </net>
 <net name="LED_C" class="0">
 <segment>
-<pinref part="R125" gate="G$1" pin="2"/>
+<pinref part="R200" gate="G$1" pin="2"/>
 <pinref part="DS1" gate="G$1" pin="C"/>
 <wire x1="157.48" y1="147.32" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 </segment>
@@ -13780,7 +13663,7 @@ At 16b, 142µV/LSB</text>
 </instance>
 <instance part="SUPPLY28" gate="1" x="104.14" y="180.34" smashed="yes" rot="R90"/>
 <instance part="SUPPLY29" gate="1" x="104.14" y="121.92" smashed="yes"/>
-<instance part="C159" gate="G$1" x="86.36" y="109.22" smashed="yes">
+<instance part="C226" gate="G$1" x="86.36" y="109.22" smashed="yes">
 <attribute name="NAME" x="89.154" y="114.3" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="89.154" y="112.776" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="89.154" y="111.252" size="1.27" layer="97" align="center-left"/>
@@ -13807,7 +13690,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="41.91" y="127" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="41.91" y="131.572" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R129" gate="G$1" x="58.42" y="116.84" smashed="yes" rot="MR0">
+<instance part="R204" gate="G$1" x="58.42" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.15" y="121.92" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="57.15" y="120.396" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="57.15" y="117.348" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -13815,7 +13698,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="57.15" y="114.3" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="57.15" y="118.872" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R128" gate="G$1" x="43.18" y="116.84" smashed="yes" rot="MR0">
+<instance part="R203" gate="G$1" x="43.18" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="41.91" y="121.92" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="41.91" y="120.396" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="41.91" y="117.348" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -13876,28 +13759,28 @@ At 16b, 142µV/LSB</text>
 <instance part="SUPPLY113" gate="G$1" x="215.9" y="55.88" smashed="yes">
 <attribute name="VALUE" x="215.9" y="59.436" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="RT22" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="MR0">
+<instance part="RT217" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="214.122" y="55.118" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="214.122" y="53.594" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="214.122" y="50.546" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="B2585" x="214.122" y="49.022" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="214.122" y="52.07" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="RT5" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="MR0">
+<instance part="RT200" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="226.822" y="55.118" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="226.822" y="53.594" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="226.822" y="50.546" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="B2585" x="226.822" y="49.022" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="226.822" y="52.07" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="RT21" gate="G$1" x="241.3" y="50.8" smashed="yes" rot="MR0">
+<instance part="RT216" gate="G$1" x="241.3" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="239.522" y="55.118" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="239.522" y="53.594" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="239.522" y="50.546" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="B2585" x="239.522" y="49.022" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="239.522" y="52.07" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="RT6" gate="G$1" x="254" y="50.8" smashed="yes" rot="MR0">
+<instance part="RT201" gate="G$1" x="254" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="252.222" y="55.118" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="252.222" y="53.594" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="252.222" y="50.546" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -13917,10 +13800,10 @@ At 16b, 142µV/LSB</text>
 <instance part="SUPPLY116" gate="G$1" x="254" y="55.88" smashed="yes">
 <attribute name="VALUE" x="254" y="59.436" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="TP1" gate="G$1" x="248.92" y="101.6" smashed="yes" rot="MR0">
+<instance part="TP200" gate="G$1" x="248.92" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="250.444" y="103.124" size="1.27" layer="95" rot="MR0" align="center"/>
 </instance>
-<instance part="TP2" gate="G$1" x="248.92" y="76.2" smashed="yes" rot="MR0">
+<instance part="TP201" gate="G$1" x="248.92" y="76.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="250.444" y="77.724" size="1.27" layer="95" rot="MR0" align="center"/>
 </instance>
 <instance part="C103" gate="G$1" x="231.14" y="119.38" smashed="yes">
@@ -13948,7 +13831,7 @@ At 16b, 142µV/LSB</text>
 </instance>
 <instance part="SUPPLY36" gate="1" x="99.06" y="88.9" smashed="yes" rot="R90"/>
 <instance part="SUPPLY47" gate="1" x="99.06" y="30.48" smashed="yes"/>
-<instance part="C160" gate="G$1" x="81.28" y="17.78" smashed="yes">
+<instance part="C227" gate="G$1" x="81.28" y="17.78" smashed="yes">
 <attribute name="NAME" x="84.074" y="22.86" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="84.074" y="21.336" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="84.074" y="19.812" size="1.27" layer="97" align="center-left"/>
@@ -13981,7 +13864,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="39.37" y="35.56" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="39.37" y="40.132" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R131" gate="G$1" x="55.88" y="25.4" smashed="yes" rot="MR0">
+<instance part="R206" gate="G$1" x="55.88" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="54.61" y="30.48" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="54.61" y="28.956" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="54.61" y="25.908" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -13989,7 +13872,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="54.61" y="22.86" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="54.61" y="27.432" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R130" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="MR0">
+<instance part="R205" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="39.37" y="30.48" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="39.37" y="28.956" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="39.37" y="25.908" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -14092,7 +13975,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="143.51" y="127" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="143.51" y="131.572" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R127" gate="G$1" x="160.02" y="116.84" smashed="yes" rot="MR0">
+<instance part="R202" gate="G$1" x="160.02" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="158.75" y="121.92" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="158.75" y="120.396" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="158.75" y="117.348" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -14100,7 +13983,7 @@ At 16b, 142µV/LSB</text>
 <attribute name="TEMP" x="158.75" y="114.3" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="158.75" y="118.872" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="R126" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="MR0">
+<instance part="R201" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="143.51" y="121.92" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="143.51" y="120.396" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="PACKAGE" x="143.51" y="117.348" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -14116,7 +13999,7 @@ At 16b, 142µV/LSB</text>
 <instance part="SUPPLY25" gate="G$1" x="170.18" y="182.88" smashed="yes">
 <attribute name="VALUE" x="170.18" y="186.436" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="C158" gate="G$1" x="187.96" y="109.22" smashed="yes">
+<instance part="C225" gate="G$1" x="187.96" y="109.22" smashed="yes">
 <attribute name="NAME" x="190.754" y="114.3" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="190.754" y="112.776" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="190.754" y="111.252" size="1.27" layer="97" align="center-left"/>
@@ -14263,11 +14146,11 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY36" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="C159" gate="G$1" pin="2"/>
+<pinref part="C226" gate="G$1" pin="2"/>
 <pinref part="SUPPLY31" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="C160" gate="G$1" pin="2"/>
+<pinref part="C227" gate="G$1" pin="2"/>
 <pinref part="SUPPLY55" gate="1" pin="DGND"/>
 </segment>
 <segment>
@@ -14289,7 +14172,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY10" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="C158" gate="G$1" pin="2"/>
+<pinref part="C225" gate="G$1" pin="2"/>
 <pinref part="SUPPLY339" gate="1" pin="DGND"/>
 </segment>
 <segment>
@@ -14315,12 +14198,12 @@ At 16b, 142µV/LSB</text>
 <wire x1="68.58" y1="129.54" x2="71.12" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R129" gate="G$1" pin="1"/>
+<pinref part="R204" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="114.3" x2="58.42" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY37" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R128" gate="G$1" pin="1"/>
+<pinref part="R203" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="114.3" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY43" gate="G$1" pin="AGND"/>
 </segment>
@@ -14357,12 +14240,12 @@ At 16b, 142µV/LSB</text>
 <wire x1="63.5" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R131" gate="G$1" pin="1"/>
+<pinref part="R206" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="22.86" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY60" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R130" gate="G$1" pin="1"/>
+<pinref part="R205" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="22.86" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY61" gate="G$1" pin="AGND"/>
 </segment>
@@ -14377,12 +14260,12 @@ At 16b, 142µV/LSB</text>
 <wire x1="170.18" y1="129.54" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R127" gate="G$1" pin="1"/>
+<pinref part="R202" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="114.3" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY22" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="R126" gate="G$1" pin="1"/>
+<pinref part="R201" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="114.3" x2="144.78" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="SUPPLY23" gate="G$1" pin="AGND"/>
 </segment>
@@ -14398,7 +14281,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="U29" gate="G$1" pin="FB"/>
 <wire x1="238.76" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="96.52" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
+<pinref part="TP200" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="101.6" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
 <junction x="241.3" y="101.6"/>
 <junction x="246.38" y="101.6"/>
@@ -14466,7 +14349,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="60.96" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R40" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="124.46" x2="58.42" y2="127" width="0.1524" layer="91"/>
-<pinref part="R129" gate="G$1" pin="2"/>
+<pinref part="R204" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="124.46" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <junction x="58.42" y="124.46"/>
 </segment>
@@ -14487,7 +14370,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="45.72" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R41" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="127" width="0.1524" layer="91"/>
-<pinref part="R128" gate="G$1" pin="2"/>
+<pinref part="R203" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
 <junction x="43.18" y="124.46"/>
 </segment>
@@ -14503,18 +14386,18 @@ At 16b, 142µV/LSB</text>
 <net name="AVDD" class="0">
 <segment>
 <pinref part="SUPPLY113" gate="G$1" pin="AVDD"/>
-<pinref part="RT22" gate="G$1" pin="2"/>
+<pinref part="RT217" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="RT5" gate="G$1" pin="2"/>
+<pinref part="RT200" gate="G$1" pin="2"/>
 <pinref part="SUPPLY114" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="RT21" gate="G$1" pin="2"/>
+<pinref part="RT216" gate="G$1" pin="2"/>
 <pinref part="SUPPLY115" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="RT6" gate="G$1" pin="2"/>
+<pinref part="RT201" gate="G$1" pin="2"/>
 <pinref part="SUPPLY116" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
@@ -14529,7 +14412,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY100" gate="G$1" pin="AVDD"/>
 <wire x1="246.38" y1="78.74" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 <junction x="246.38" y="76.2"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
+<pinref part="TP201" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="76.2" x2="246.38" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14564,7 +14447,7 @@ At 16b, 142µV/LSB</text>
 </net>
 <net name="TEMP-X-Y" class="0">
 <segment>
-<pinref part="RT6" gate="G$1" pin="1"/>
+<pinref part="RT201" gate="G$1" pin="1"/>
 <wire x1="254" y1="48.26" x2="254" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="254" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 <label x="200.66" y="45.72" size="1.778" layer="95"/>
@@ -14577,7 +14460,7 @@ At 16b, 142µV/LSB</text>
 </net>
 <net name="TEMP-X+Y" class="0">
 <segment>
-<pinref part="RT21" gate="G$1" pin="1"/>
+<pinref part="RT216" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="48.26" x2="241.3" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="43.18" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="200.66" y="43.18" size="1.778" layer="95"/>
@@ -14590,7 +14473,7 @@ At 16b, 142µV/LSB</text>
 </net>
 <net name="TEMP+X-Y" class="0">
 <segment>
-<pinref part="RT5" gate="G$1" pin="1"/>
+<pinref part="RT200" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="48.26" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="40.64" x2="200.66" y2="40.64" width="0.1524" layer="91"/>
 <label x="200.66" y="40.64" size="1.778" layer="95"/>
@@ -14603,7 +14486,7 @@ At 16b, 142µV/LSB</text>
 </net>
 <net name="TEMP+X+Y" class="0">
 <segment>
-<pinref part="RT22" gate="G$1" pin="1"/>
+<pinref part="RT217" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="48.26" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="200.66" y="38.1" size="1.778" layer="95"/>
@@ -14629,7 +14512,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY59" gate="G$1" pin="5.0V"/>
 </segment>
 <segment>
-<pinref part="C160" gate="G$1" pin="1"/>
+<pinref part="C227" gate="G$1" pin="1"/>
 <pinref part="SUPPLY58" gate="G$1" pin="5.0V"/>
 </segment>
 <segment>
@@ -14662,7 +14545,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY34" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="C159" gate="G$1" pin="1"/>
+<pinref part="C226" gate="G$1" pin="1"/>
 <pinref part="SUPPLY78" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -14672,7 +14555,7 @@ At 16b, 142µV/LSB</text>
 <pinref part="SUPPLY25" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="C158" gate="G$1" pin="1"/>
+<pinref part="C225" gate="G$1" pin="1"/>
 <pinref part="SUPPLY26" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -14693,7 +14576,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="58.42" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R131" gate="G$1" pin="2"/>
+<pinref part="R206" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="33.02"/>
 <pinref part="U11" gate="G$1" pin="ADCINN"/>
@@ -14714,7 +14597,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="43.18" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="33.02" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R130" gate="G$1" pin="2"/>
+<pinref part="R205" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="33.02" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <junction x="40.64" y="33.02"/>
 <pinref part="U11" gate="G$1" pin="ADCINP"/>
@@ -14902,7 +14785,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="162.56" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R42" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="124.46" x2="160.02" y2="127" width="0.1524" layer="91"/>
-<pinref part="R127" gate="G$1" pin="2"/>
+<pinref part="R202" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="124.46" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
 <junction x="160.02" y="124.46"/>
 </segment>
@@ -14923,7 +14806,7 @@ At 16b, 142µV/LSB</text>
 <wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<pinref part="R126" gate="G$1" pin="2"/>
+<pinref part="R201" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="124.46" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
 <junction x="144.78" y="124.46"/>
 </segment>
@@ -15476,10 +15359,10 @@ Gain: 100000
 <attribute name="TEMP" x="88.646" y="48.26" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
 <instance part="SUPPLY210" gate="G$1" x="91.44" y="45.72" smashed="yes"/>
-<instance part="TP4" gate="G$1" x="218.44" y="83.82" smashed="yes">
+<instance part="TP203" gate="G$1" x="218.44" y="83.82" smashed="yes">
 <attribute name="NAME" x="216.916" y="85.344" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="TP5" gate="G$1" x="210.82" y="144.78" smashed="yes">
+<instance part="TP204" gate="G$1" x="210.82" y="144.78" smashed="yes">
 <attribute name="NAME" x="209.296" y="146.304" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="C5" gate="G$1" x="198.12" y="127" smashed="yes">
@@ -15506,7 +15389,7 @@ Gain: 100000
 <attribute name="VOLTAGE" x="180.594" y="65.024" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="180.594" y="63.5" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="RT19" gate="G$1" x="101.6" y="149.86" smashed="yes">
+<instance part="RT214" gate="G$1" x="101.6" y="149.86" smashed="yes">
 <attribute name="NAME" x="100.33" y="151.892" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="100.076" y="147.32" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="100.33" y="145.796" size="1.27" layer="97" align="center"/>
@@ -15517,7 +15400,7 @@ Gain: 100000
 <attribute name="VALUE" x="111.76" y="155.956" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET182" gate="G$1" x="76.2" y="149.86" smashed="yes"/>
-<instance part="RT17" gate="G$1" x="114.3" y="88.9" smashed="yes">
+<instance part="RT212" gate="G$1" x="114.3" y="88.9" smashed="yes">
 <attribute name="NAME" x="113.03" y="90.932" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="112.776" y="86.36" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="113.03" y="84.836" size="1.27" layer="97" align="center"/>
@@ -15751,7 +15634,7 @@ Gain: 100000
 <wire x1="213.36" y1="144.78" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <junction x="213.36" y="139.7"/>
 <label x="232.41" y="144.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="TP5" gate="G$1" pin="1"/>
+<pinref part="TP204" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
 <junction x="213.36" y="144.78"/>
 <pinref part="C5" gate="G$1" pin="A"/>
@@ -15997,7 +15880,7 @@ Gain: 100000
 <junction x="220.98" y="78.74"/>
 <label x="240.03" y="83.82" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U6" gate="G$1" pin="VOUT"/>
-<pinref part="TP4" gate="G$1" pin="1"/>
+<pinref part="TP203" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <junction x="220.98" y="83.82"/>
 <pinref part="C36" gate="G$1" pin="A"/>
@@ -16050,13 +15933,13 @@ Gain: 100000
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="RT19" gate="G$1" pin="2"/>
+<pinref part="RT214" gate="G$1" pin="2"/>
 <pinref part="SUPPLY311" gate="G$1" pin="AVDD"/>
 <wire x1="104.14" y1="149.86" x2="111.76" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="149.86" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT17" gate="G$1" pin="2"/>
+<pinref part="RT212" gate="G$1" pin="2"/>
 <pinref part="SUPPLY312" gate="G$1" pin="AVDD"/>
 <wire x1="116.84" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="88.9" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
@@ -16064,14 +15947,14 @@ Gain: 100000
 </net>
 <net name="TEMP_5V" class="0">
 <segment>
-<pinref part="RT19" gate="G$1" pin="1"/>
+<pinref part="RT214" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="149.86" x2="78.74" y2="149.86" width="0.1524" layer="91"/>
 <label x="78.74" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_9V" class="0">
 <segment>
-<pinref part="RT17" gate="G$1" pin="1"/>
+<pinref part="RT212" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
 <label x="91.44" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -16407,7 +16290,7 @@ to the LDOs indicated by the net</text>
 <attribute name="TEMP" x="72.39" y="76.2" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="72.39" y="80.772" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="C163" gate="G$1" x="104.14" y="63.5" smashed="yes">
+<instance part="C230" gate="G$1" x="104.14" y="63.5" smashed="yes">
 <attribute name="NAME" x="106.934" y="68.58" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="106.934" y="67.056" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="106.934" y="65.532" size="1.27" layer="97" align="center-left"/>
@@ -16537,7 +16420,7 @@ to the LDOs indicated by the net</text>
 <attribute name="VOLTAGE" x="239.776" y="81.534" size="1.27" layer="97" align="center-right"/>
 <attribute name="TEMP" x="240.284" y="81.534" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="RT20" gate="G$1" x="215.9" y="48.26" smashed="yes">
+<instance part="RT215" gate="G$1" x="215.9" y="48.26" smashed="yes">
 <attribute name="NAME" x="214.63" y="50.292" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="214.376" y="45.72" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="214.63" y="44.196" size="1.27" layer="97" align="center"/>
@@ -16577,7 +16460,7 @@ to the LDOs indicated by the net</text>
 <instance part="SUPPLY353" gate="G$1" x="231.14" y="81.28" smashed="yes"/>
 <instance part="SUPPLY354" gate="G$1" x="88.9" y="81.28" smashed="yes"/>
 <instance part="SUPPLY355" gate="G$1" x="160.02" y="81.28" smashed="yes"/>
-<instance part="RT16" gate="G$1" x="215.9" y="33.02" smashed="yes">
+<instance part="RT211" gate="G$1" x="215.9" y="33.02" smashed="yes">
 <attribute name="NAME" x="214.63" y="35.052" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="214.376" y="30.48" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="214.63" y="28.956" size="1.27" layer="97" align="center"/>
@@ -16846,7 +16729,7 @@ to the LDOs indicated by the net</text>
 <pinref part="SUPPLY281" gate="G$1" pin="PGND"/>
 </segment>
 <segment>
-<pinref part="C163" gate="G$1" pin="2"/>
+<pinref part="C230" gate="G$1" pin="2"/>
 <pinref part="SUPPLY282" gate="G$1" pin="PGND"/>
 </segment>
 <segment>
@@ -17333,7 +17216,7 @@ to the LDOs indicated by the net</text>
 <net name="LDO_5.0V_FB-0" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="FB"/>
-<pinref part="C163" gate="G$1" pin="1"/>
+<pinref part="C230" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="71.12" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -17356,7 +17239,7 @@ to the LDOs indicated by the net</text>
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="RT20" gate="G$1" pin="2"/>
+<pinref part="RT215" gate="G$1" pin="2"/>
 <pinref part="SUPPLY356" gate="G$1" pin="AVDD"/>
 <wire x1="218.44" y1="48.26" x2="231.14" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="48.26" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
@@ -17364,7 +17247,7 @@ to the LDOs indicated by the net</text>
 <wire x1="226.06" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="48.26" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
 <junction x="231.14" y="48.26"/>
-<pinref part="RT16" gate="G$1" pin="2"/>
+<pinref part="RT211" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="40.64" x2="231.14" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="33.02" x2="218.44" y2="33.02" width="0.1524" layer="91"/>
 <junction x="231.14" y="40.64"/>
@@ -17372,7 +17255,7 @@ to the LDOs indicated by the net</text>
 </net>
 <net name="TEMP_LDO_230" class="0">
 <segment>
-<pinref part="RT20" gate="G$1" pin="1"/>
+<pinref part="RT215" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="48.26" x2="185.42" y2="48.26" width="0.1524" layer="91"/>
 <label x="185.42" y="48.26" size="1.778" layer="95"/>
 </segment>
@@ -17386,7 +17269,7 @@ to the LDOs indicated by the net</text>
 </net>
 <net name="TEMP_LDO_DEMOD" class="0">
 <segment>
-<pinref part="RT16" gate="G$1" pin="1"/>
+<pinref part="RT211" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="33.02" x2="185.42" y2="33.02" width="0.1524" layer="91"/>
 <label x="185.42" y="33.02" size="1.778" layer="95"/>
 </segment>
@@ -17619,7 +17502,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="33.274" y="123.444" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="33.274" y="121.92" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C135" gate="G$1" x="48.26" y="114.3" smashed="yes">
+<instance part="C202" gate="G$1" x="48.26" y="114.3" smashed="yes">
 <attribute name="NAME" x="51.054" y="119.38" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="51.054" y="117.856" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="51.054" y="116.332" size="1.27" layer="97" align="center-left"/>
@@ -17734,7 +17617,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="33.274" y="32.004" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="33.274" y="30.48" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C150" gate="G$1" x="48.26" y="22.86" smashed="yes">
+<instance part="C217" gate="G$1" x="48.26" y="22.86" smashed="yes">
 <attribute name="NAME" x="51.054" y="27.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="51.054" y="26.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="51.054" y="24.892" size="1.27" layer="97" align="center-left"/>
@@ -17742,7 +17625,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="51.054" y="21.844" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="51.054" y="20.32" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C152" gate="G$1" x="63.5" y="22.86" smashed="yes">
+<instance part="C219" gate="G$1" x="63.5" y="22.86" smashed="yes">
 <attribute name="NAME" x="66.294" y="27.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="66.294" y="26.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="66.294" y="24.892" size="1.27" layer="97" align="center-left"/>
@@ -17886,7 +17769,7 @@ Divides by 2</text>
 <instance part="SUPPLY306" gate="G$1" x="152.4" y="137.16" smashed="yes">
 <attribute name="VALUE" x="152.4" y="140.716" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="RT7" gate="G$1" x="68.58" y="182.88" smashed="yes">
+<instance part="RT202" gate="G$1" x="68.58" y="182.88" smashed="yes">
 <attribute name="NAME" x="67.31" y="184.912" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="67.056" y="180.34" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="67.31" y="178.816" size="1.27" layer="97" align="center"/>
@@ -17897,7 +17780,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="73.66" y="188.976" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET39" gate="G$1" x="38.1" y="182.88" smashed="yes"/>
-<instance part="RT14" gate="G$1" x="68.58" y="91.44" smashed="yes">
+<instance part="RT209" gate="G$1" x="68.58" y="91.44" smashed="yes">
 <attribute name="NAME" x="67.31" y="93.472" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="67.056" y="88.9" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="67.31" y="87.376" size="1.27" layer="97" align="center"/>
@@ -17908,7 +17791,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="73.66" y="97.536" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET40" gate="G$1" x="38.1" y="91.44" smashed="yes"/>
-<instance part="RT18" gate="G$1" x="205.74" y="134.62" smashed="yes">
+<instance part="RT213" gate="G$1" x="205.74" y="134.62" smashed="yes">
 <attribute name="NAME" x="204.47" y="136.652" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="204.216" y="132.08" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="204.47" y="130.556" size="1.27" layer="97" align="center"/>
@@ -18294,7 +18177,7 @@ Divides by 2</text>
 <pinref part="SUPPLY146" gate="G$1" pin="3.3V_1"/>
 </segment>
 <segment>
-<pinref part="C135" gate="G$1" pin="1"/>
+<pinref part="C202" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="119.38" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C112" gate="G$1" pin="1"/>
@@ -18357,10 +18240,10 @@ Divides by 2</text>
 </net>
 <net name="3.3V_2" class="0">
 <segment>
-<pinref part="C150" gate="G$1" pin="1"/>
+<pinref part="C217" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="27.94" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C152" gate="G$1" pin="1"/>
+<pinref part="C219" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="27.94" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C68" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="27.94" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
@@ -18457,19 +18340,19 @@ Divides by 2</text>
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="RT7" gate="G$1" pin="2"/>
+<pinref part="RT202" gate="G$1" pin="2"/>
 <pinref part="SUPPLY343" gate="G$1" pin="AVDD"/>
 <wire x1="71.12" y1="182.88" x2="73.66" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="182.88" x2="73.66" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT14" gate="G$1" pin="2"/>
+<pinref part="RT209" gate="G$1" pin="2"/>
 <pinref part="SUPPLY344" gate="G$1" pin="AVDD"/>
 <wire x1="71.12" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT18" gate="G$1" pin="2"/>
+<pinref part="RT213" gate="G$1" pin="2"/>
 <pinref part="SUPPLY345" gate="G$1" pin="AVDD"/>
 <wire x1="208.28" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="134.62" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
@@ -18477,21 +18360,21 @@ Divides by 2</text>
 </net>
 <net name="TEMP_CLK_MOD" class="0">
 <segment>
-<pinref part="RT7" gate="G$1" pin="1"/>
+<pinref part="RT202" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="182.88" x2="40.64" y2="182.88" width="0.1524" layer="91"/>
 <label x="40.64" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_CLK_230" class="0">
 <segment>
-<pinref part="RT18" gate="G$1" pin="1"/>
+<pinref part="RT213" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="177.8" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_CLK_DEMOD" class="0">
 <segment>
-<pinref part="RT14" gate="G$1" pin="1"/>
+<pinref part="RT209" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
 <label x="40.64" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -18507,7 +18390,7 @@ Divides by 2</text>
 <pinref part="SUPPLY122" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C135" gate="G$1" pin="2"/>
+<pinref part="C202" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="106.68" x2="48.26" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="109.22" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C112" gate="G$1" pin="2"/>
@@ -18627,10 +18510,10 @@ Divides by 2</text>
 <pinref part="SUPPLY141" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C150" gate="G$1" pin="2"/>
+<pinref part="C217" gate="G$1" pin="2"/>
 <wire x1="48.26" y1="15.24" x2="48.26" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="17.78" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="C152" gate="G$1" pin="2"/>
+<pinref part="C219" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="17.78" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="20.32" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C68" gate="G$1" pin="2"/>
@@ -19036,7 +18919,7 @@ Divides by 2</text>
 <attribute name="POWER" x="203.962" y="168.91" size="1.27" layer="97" align="center-left"/>
 <attribute name="FREQ" x="203.962" y="167.386" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C134" gate="G$1" x="99.06" y="12.7" smashed="yes">
+<instance part="C201" gate="G$1" x="99.06" y="12.7" smashed="yes">
 <attribute name="NAME" x="101.854" y="17.78" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="101.854" y="16.256" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="101.854" y="14.732" size="1.27" layer="97" align="center-left"/>
@@ -19044,7 +18927,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="101.854" y="11.684" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="101.854" y="10.16" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C153" gate="G$1" x="99.06" y="154.94" smashed="yes">
+<instance part="C220" gate="G$1" x="99.06" y="154.94" smashed="yes">
 <attribute name="NAME" x="101.854" y="160.02" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="101.854" y="158.496" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="101.854" y="156.972" size="1.27" layer="97" align="center-left"/>
@@ -19052,7 +18935,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="101.854" y="153.924" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="101.854" y="152.4" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C157" gate="G$1" x="99.06" y="106.68" smashed="yes">
+<instance part="C224" gate="G$1" x="99.06" y="106.68" smashed="yes">
 <attribute name="NAME" x="101.854" y="111.76" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="101.854" y="110.236" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="101.854" y="108.712" size="1.27" layer="97" align="center-left"/>
@@ -19060,7 +18943,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="101.854" y="105.664" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="101.854" y="104.14" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C133" gate="G$1" x="99.06" y="58.42" smashed="yes">
+<instance part="C200" gate="G$1" x="99.06" y="58.42" smashed="yes">
 <attribute name="NAME" x="101.854" y="63.5" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="101.854" y="61.976" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="101.854" y="60.452" size="1.27" layer="97" align="center-left"/>
@@ -19254,7 +19137,7 @@ Divides by 2</text>
 <instance part="SUPPLY251" gate="G$1" x="154.94" y="58.42" smashed="yes">
 <attribute name="VALUE" x="154.94" y="61.976" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="C142" gate="G$1" x="152.4" y="48.26" smashed="yes" rot="MR0">
+<instance part="C209" gate="G$1" x="152.4" y="48.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="149.606" y="53.34" size="1.27" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="149.606" y="51.816" size="1.27" layer="96" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="149.606" y="50.292" size="1.27" layer="97" rot="MR0" align="center-left"/>
@@ -19299,7 +19182,7 @@ Divides by 2</text>
 </instance>
 <instance part="SUPPLY220" gate="G$1" x="218.44" y="43.18" smashed="yes"/>
 <instance part="SUPPLY221" gate="G$1" x="233.68" y="43.18" smashed="yes"/>
-<instance part="TP3" gate="G$1" x="236.22" y="55.88" smashed="yes" rot="MR0">
+<instance part="TP202" gate="G$1" x="236.22" y="55.88" smashed="yes" rot="MR0">
 <attribute name="NAME" x="237.744" y="57.404" size="1.27" layer="95" rot="MR0" align="center"/>
 </instance>
 <instance part="SUPPLY161" gate="G$1" x="73.66" y="157.48" smashed="yes">
@@ -19400,7 +19283,7 @@ Divides by 2</text>
 <pinref part="SUPPLY249" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
-<pinref part="C142" gate="G$1" pin="2"/>
+<pinref part="C209" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="45.72" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY252" gate="G$1" pin="AGND"/>
 </segment>
@@ -19586,19 +19469,19 @@ Divides by 2</text>
 <pinref part="Q11" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="C134" gate="G$1" pin="1"/>
+<pinref part="C201" gate="G$1" pin="1"/>
 <pinref part="SUPPLY173" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="C133" gate="G$1" pin="1"/>
+<pinref part="C200" gate="G$1" pin="1"/>
 <pinref part="SUPPLY175" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="C157" gate="G$1" pin="1"/>
+<pinref part="C224" gate="G$1" pin="1"/>
 <pinref part="SUPPLY177" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="C153" gate="G$1" pin="1"/>
+<pinref part="C220" gate="G$1" pin="1"/>
 <pinref part="SUPPLY179" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
@@ -19925,7 +19808,7 @@ Divides by 2</text>
 <wire x1="154.94" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="58.42" x2="154.94" y2="55.88" width="0.1524" layer="91"/>
 <junction x="154.94" y="55.88"/>
-<pinref part="C142" gate="G$1" pin="1"/>
+<pinref part="C209" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="55.88" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <junction x="152.4" y="55.88"/>
 </segment>
@@ -19941,7 +19824,7 @@ Divides by 2</text>
 <wire x1="218.44" y1="55.88" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
 <junction x="218.44" y="55.88"/>
 <junction x="233.68" y="55.88"/>
-<pinref part="TP3" gate="G$1" pin="1"/>
+<pinref part="TP202" gate="G$1" pin="1"/>
 <wire x1="236.22" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY218" gate="G$1" pin="AVDD_NEG"/>
 <wire x1="233.68" y1="55.88" x2="233.68" y2="58.42" width="0.1524" layer="91"/>
@@ -19987,19 +19870,19 @@ Divides by 2</text>
 <junction x="73.66" y="17.78"/>
 </segment>
 <segment>
-<pinref part="C153" gate="G$1" pin="2"/>
+<pinref part="C220" gate="G$1" pin="2"/>
 <pinref part="SUPPLY174" gate="G$1" pin="AVDD_NEG"/>
 </segment>
 <segment>
-<pinref part="C134" gate="G$1" pin="2"/>
+<pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="SUPPLY172" gate="G$1" pin="AVDD_NEG"/>
 </segment>
 <segment>
-<pinref part="C133" gate="G$1" pin="2"/>
+<pinref part="C200" gate="G$1" pin="2"/>
 <pinref part="SUPPLY176" gate="G$1" pin="AVDD_NEG"/>
 </segment>
 <segment>
-<pinref part="C157" gate="G$1" pin="2"/>
+<pinref part="C224" gate="G$1" pin="2"/>
 <pinref part="SUPPLY178" gate="G$1" pin="AVDD_NEG"/>
 </segment>
 <segment>
@@ -20095,7 +19978,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="109.474" y="148.844" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="109.474" y="147.32" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C162" gate="G$1" x="121.92" y="149.86" smashed="yes">
+<instance part="C229" gate="G$1" x="121.92" y="149.86" smashed="yes">
 <attribute name="NAME" x="124.714" y="154.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="124.714" y="153.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="124.714" y="151.892" size="1.27" layer="97" align="center-left"/>
@@ -20103,7 +19986,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="124.714" y="148.844" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="124.714" y="147.32" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C161" gate="G$1" x="137.16" y="149.86" smashed="yes">
+<instance part="C228" gate="G$1" x="137.16" y="149.86" smashed="yes">
 <attribute name="NAME" x="139.954" y="154.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="139.954" y="153.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="139.954" y="151.892" size="1.27" layer="97" align="center-left"/>
@@ -20582,13 +20465,13 @@ Divides by 2</text>
 <segment>
 <pinref part="C30" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="154.94" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C161" gate="G$1" pin="1"/>
+<pinref part="C228" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="154.94" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="154.94" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C162" gate="G$1" pin="1"/>
+<pinref part="C229" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="154.94" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <junction x="121.92" y="157.48"/>
 <wire x1="106.68" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
@@ -20904,14 +20787,14 @@ Divides by 2</text>
 <segment>
 <pinref part="C30" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="142.24" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C161" gate="G$1" pin="2"/>
+<pinref part="C228" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="144.78" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="147.32" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="147.32" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C162" gate="G$1" pin="2"/>
+<pinref part="C229" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="147.32" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <junction x="121.92" y="144.78"/>
 <wire x1="106.68" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
@@ -21039,7 +20922,7 @@ Divides by 2</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="C143" gate="G$1" x="91.44" y="149.86" smashed="yes">
+<instance part="C210" gate="G$1" x="91.44" y="149.86" smashed="yes">
 <attribute name="NAME" x="94.234" y="154.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="94.234" y="153.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="94.234" y="151.892" size="1.27" layer="97" align="center-left"/>
@@ -21047,7 +20930,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="94.234" y="148.844" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="94.234" y="147.32" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C146" gate="G$1" x="106.68" y="149.86" smashed="yes">
+<instance part="C213" gate="G$1" x="106.68" y="149.86" smashed="yes">
 <attribute name="NAME" x="109.474" y="154.94" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="109.474" y="153.416" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="109.474" y="151.892" size="1.27" layer="97" align="center-left"/>
@@ -21138,7 +21021,7 @@ Divides by 2</text>
 <attribute name="DCR" x="191.77" y="134.62" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="191.77" y="139.192" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C151" gate="G$1" x="208.28" y="137.16" smashed="yes">
+<instance part="C218" gate="G$1" x="208.28" y="137.16" smashed="yes">
 <attribute name="NAME" x="211.074" y="142.24" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="211.074" y="140.716" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="211.074" y="139.192" size="1.27" layer="97" align="center-left"/>
@@ -21272,7 +21155,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="194.056" y="56.134" size="1.27" layer="97" align="center-right"/>
 <attribute name="TEMP" x="194.564" y="56.134" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C149" gate="G$1" x="195.58" y="73.66" smashed="yes">
+<instance part="C216" gate="G$1" x="195.58" y="73.66" smashed="yes">
 <attribute name="NAME" x="198.374" y="78.74" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="198.374" y="77.216" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="198.374" y="75.692" size="1.27" layer="97" align="center-left"/>
@@ -21296,7 +21179,7 @@ Divides by 2</text>
 <attribute name="DCR" x="179.07" y="71.12" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="179.07" y="75.692" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="C154" gate="G$1" x="210.82" y="73.66" smashed="yes">
+<instance part="C221" gate="G$1" x="210.82" y="73.66" smashed="yes">
 <attribute name="NAME" x="213.614" y="78.74" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="213.614" y="77.216" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="213.614" y="75.692" size="1.27" layer="97" align="center-left"/>
@@ -21399,7 +21282,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="237.236" y="53.594" size="1.27" layer="97" align="center-right"/>
 <attribute name="TEMP" x="237.744" y="53.594" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="RT13" gate="G$1" x="185.42" y="43.18" smashed="yes">
+<instance part="RT208" gate="G$1" x="185.42" y="43.18" smashed="yes">
 <attribute name="NAME" x="184.15" y="45.212" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="183.896" y="40.64" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="184.15" y="39.116" size="1.27" layer="97" align="center"/>
@@ -21410,7 +21293,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="195.58" y="49.276" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET203" gate="G$1" x="160.02" y="43.18" smashed="yes"/>
-<instance part="RT9" gate="G$1" x="124.46" y="96.52" smashed="yes">
+<instance part="RT204" gate="G$1" x="124.46" y="96.52" smashed="yes">
 <attribute name="NAME" x="123.19" y="98.552" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="122.936" y="93.98" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="123.19" y="92.456" size="1.27" layer="97" align="center"/>
@@ -21421,7 +21304,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="134.62" y="102.616" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET216" gate="G$1" x="96.52" y="96.52" smashed="yes"/>
-<instance part="RT12" gate="G$1" x="200.66" y="101.6" smashed="yes">
+<instance part="RT207" gate="G$1" x="200.66" y="101.6" smashed="yes">
 <attribute name="NAME" x="199.39" y="103.632" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="199.136" y="99.06" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="199.39" y="97.536" size="1.27" layer="97" align="center"/>
@@ -21731,7 +21614,7 @@ Divides by 2</text>
 <segment>
 <pinref part="L8" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="78.74" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C149" gate="G$1" pin="1"/>
+<pinref part="C216" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="78.74" x2="195.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
@@ -21740,7 +21623,7 @@ Divides by 2</text>
 <wire x1="180.34" y1="81.28" x2="182.88" y2="81.28" width="0.1524" layer="91"/>
 <junction x="180.34" y="81.28"/>
 <junction x="182.88" y="81.28"/>
-<pinref part="C154" gate="G$1" pin="1"/>
+<pinref part="C221" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="81.28" x2="210.82" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="81.28" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 <junction x="195.58" y="81.28"/>
@@ -21765,7 +21648,7 @@ Divides by 2</text>
 <pinref part="FB3" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="144.78" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
 <junction x="190.5" y="144.78"/>
-<pinref part="C151" gate="G$1" pin="1"/>
+<pinref part="C218" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="142.24" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <junction x="208.28" y="144.78"/>
 <pinref part="SUPPLY73" gate="G$1" pin="5.0V_1"/>
@@ -21790,13 +21673,13 @@ Divides by 2</text>
 <pinref part="SUPPLY75" gate="G$1" pin="5.0V_1"/>
 </segment>
 <segment>
-<pinref part="C143" gate="G$1" pin="1"/>
+<pinref part="C210" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="154.94" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C88" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="154.94" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C146" gate="G$1" pin="1"/>
+<pinref part="C213" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="154.94" x2="106.68" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="C96" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="154.94" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
@@ -21910,19 +21793,19 @@ Divides by 2</text>
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="RT13" gate="G$1" pin="2"/>
+<pinref part="RT208" gate="G$1" pin="2"/>
 <pinref part="SUPPLY314" gate="G$1" pin="AVDD"/>
 <wire x1="187.96" y1="43.18" x2="195.58" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="43.18" x2="195.58" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT9" gate="G$1" pin="2"/>
+<pinref part="RT204" gate="G$1" pin="2"/>
 <pinref part="SUPPLY348" gate="G$1" pin="AVDD"/>
 <wire x1="127" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="96.52" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT12" gate="G$1" pin="2"/>
+<pinref part="RT207" gate="G$1" pin="2"/>
 <pinref part="SUPPLY349" gate="G$1" pin="AVDD"/>
 <wire x1="203.2" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="101.6" x2="210.82" y2="104.14" width="0.1524" layer="91"/>
@@ -21930,21 +21813,21 @@ Divides by 2</text>
 </net>
 <net name="TEMP_PA_700" class="0">
 <segment>
-<pinref part="RT13" gate="G$1" pin="1"/>
+<pinref part="RT208" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="43.18" x2="162.56" y2="43.18" width="0.1524" layer="91"/>
 <label x="162.56" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_MOD_700" class="0">
 <segment>
-<pinref part="RT9" gate="G$1" pin="1"/>
+<pinref part="RT204" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 <label x="99.06" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_LNA_MOD" class="0">
 <segment>
-<pinref part="RT12" gate="G$1" pin="1"/>
+<pinref part="RT207" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <label x="175.26" y="101.6" size="1.778" layer="95"/>
 </segment>
@@ -21977,7 +21860,7 @@ Divides by 2</text>
 <pinref part="SUPPLY230" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C151" gate="G$1" pin="2"/>
+<pinref part="C218" gate="G$1" pin="2"/>
 <pinref part="SUPPLY232" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
@@ -22013,21 +21896,21 @@ Divides by 2</text>
 <pinref part="SUPPLY268" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C154" gate="G$1" pin="2"/>
+<pinref part="C221" gate="G$1" pin="2"/>
 <pinref part="SUPPLY269" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C149" gate="G$1" pin="2"/>
+<pinref part="C216" gate="G$1" pin="2"/>
 <pinref part="SUPPLY287" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C143" gate="G$1" pin="2"/>
+<pinref part="C210" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="142.24" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C88" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="144.78" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="147.32" x2="137.16" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="144.78" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C146" gate="G$1" pin="2"/>
+<pinref part="C213" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="147.32" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="C96" gate="G$1" pin="2"/>
@@ -22182,7 +22065,7 @@ Divides by 2</text>
 <attribute name="DCR" x="146.05" y="154.94" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="146.05" y="159.512" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C144" gate="G$1" x="162.56" y="157.48" smashed="yes">
+<instance part="C211" gate="G$1" x="162.56" y="157.48" smashed="yes">
 <attribute name="NAME" x="165.354" y="162.56" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="165.354" y="161.036" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="165.354" y="159.512" size="1.27" layer="97" align="center-left"/>
@@ -22258,7 +22141,7 @@ Divides by 2</text>
 <attribute name="DCR" x="146.05" y="88.9" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="146.05" y="93.472" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C136" gate="G$1" x="162.56" y="91.44" smashed="yes">
+<instance part="C203" gate="G$1" x="162.56" y="91.44" smashed="yes">
 <attribute name="NAME" x="165.354" y="96.52" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="165.354" y="94.996" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="165.354" y="93.472" size="1.27" layer="97" align="center-left"/>
@@ -22306,7 +22189,7 @@ Divides by 2</text>
 </instance>
 <instance part="OFFSHEET180" gate="G$1" x="58.42" y="58.42" smashed="yes"/>
 <instance part="OFFSHEET14" gate="G$1" x="190.5" y="76.2" smashed="yes" rot="MR0"/>
-<instance part="RT11" gate="G$1" x="165.1" y="121.92" smashed="yes">
+<instance part="RT206" gate="G$1" x="165.1" y="121.92" smashed="yes">
 <attribute name="NAME" x="163.83" y="123.952" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="163.576" y="119.38" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="163.83" y="117.856" size="1.27" layer="97" align="center"/>
@@ -22317,7 +22200,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="170.18" y="128.016" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET220" gate="G$1" x="132.08" y="121.92" smashed="yes"/>
-<instance part="RT8" gate="G$1" x="165.1" y="55.88" smashed="yes">
+<instance part="RT203" gate="G$1" x="165.1" y="55.88" smashed="yes">
 <attribute name="NAME" x="163.83" y="57.912" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="163.576" y="53.34" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="163.83" y="51.816" size="1.27" layer="97" align="center"/>
@@ -22412,7 +22295,7 @@ Divides by 2</text>
 <pinref part="FB5" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="165.1" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 <junction x="144.78" y="165.1"/>
-<pinref part="C144" gate="G$1" pin="1"/>
+<pinref part="C211" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="162.56" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
 <junction x="162.56" y="165.1"/>
 <pinref part="SUPPLY289" gate="G$1" pin="5.0V_2"/>
@@ -22431,7 +22314,7 @@ Divides by 2</text>
 <pinref part="FB8" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="99.06" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
 <junction x="144.78" y="99.06"/>
-<pinref part="C136" gate="G$1" pin="1"/>
+<pinref part="C203" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="96.52" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
 <junction x="162.56" y="99.06"/>
 <pinref part="SUPPLY302" gate="G$1" pin="5.0V_2"/>
@@ -22493,13 +22376,13 @@ Divides by 2</text>
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="RT11" gate="G$1" pin="2"/>
+<pinref part="RT206" gate="G$1" pin="2"/>
 <pinref part="SUPPLY350" gate="G$1" pin="AVDD"/>
 <wire x1="167.64" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="121.92" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RT8" gate="G$1" pin="2"/>
+<pinref part="RT203" gate="G$1" pin="2"/>
 <pinref part="SUPPLY351" gate="G$1" pin="AVDD"/>
 <wire x1="167.64" y1="55.88" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
@@ -22507,14 +22390,14 @@ Divides by 2</text>
 </net>
 <net name="TEMP_LNA_DEMOD-0" class="0">
 <segment>
-<pinref part="RT11" gate="G$1" pin="1"/>
+<pinref part="RT206" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="121.92" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="134.62" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_LNA_DEMOD-1" class="0">
 <segment>
-<pinref part="RT8" gate="G$1" pin="1"/>
+<pinref part="RT203" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
 <label x="134.62" y="55.88" size="1.778" layer="95"/>
 </segment>
@@ -22542,7 +22425,7 @@ Divides by 2</text>
 <pinref part="SUPPLY293" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C136" gate="G$1" pin="2"/>
+<pinref part="C203" gate="G$1" pin="2"/>
 <pinref part="SUPPLY294" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
@@ -22571,7 +22454,7 @@ Divides by 2</text>
 <pinref part="SUPPLY299" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C144" gate="G$1" pin="2"/>
+<pinref part="C211" gate="G$1" pin="2"/>
 <pinref part="SUPPLY300" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
@@ -22791,7 +22674,7 @@ Divides by 2</text>
 <attribute name="TEMP" x="74.93" y="101.6" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="SKU" x="74.93" y="106.172" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="Z2" gate="G$1" x="50.8" y="124.46" smashed="yes">
+<instance part="Z1" gate="G$1" x="50.8" y="124.46" smashed="yes">
 <attribute name="NAME" x="49.53" y="130.81" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="49.276" y="115.57" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="49.784" y="115.57" size="1.27" layer="97" align="center-left"/>
@@ -22851,7 +22734,7 @@ Divides by 2</text>
 <instance part="OFFSHEET198" gate="G$1" x="170.18" y="147.32" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET199" gate="G$1" x="170.18" y="134.62" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET200" gate="G$1" x="170.18" y="132.08" smashed="yes" rot="MR0"/>
-<instance part="C137" gate="G$1" x="91.44" y="175.26" smashed="yes">
+<instance part="C204" gate="G$1" x="91.44" y="175.26" smashed="yes">
 <attribute name="NAME" x="94.234" y="180.34" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="94.234" y="178.816" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="94.234" y="177.292" size="1.27" layer="97" align="center-left"/>
@@ -22859,7 +22742,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="94.234" y="174.244" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="94.234" y="172.72" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C139" gate="G$1" x="106.68" y="175.26" smashed="yes">
+<instance part="C206" gate="G$1" x="106.68" y="175.26" smashed="yes">
 <attribute name="NAME" x="109.474" y="180.34" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="109.474" y="178.816" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="109.474" y="177.292" size="1.27" layer="97" align="center-left"/>
@@ -22867,7 +22750,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="109.474" y="174.244" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="109.474" y="172.72" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C145" gate="G$1" x="121.92" y="175.26" smashed="yes">
+<instance part="C212" gate="G$1" x="121.92" y="175.26" smashed="yes">
 <attribute name="NAME" x="124.714" y="180.34" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="124.714" y="178.816" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="124.714" y="177.292" size="1.27" layer="97" align="center-left"/>
@@ -22875,7 +22758,7 @@ Divides by 2</text>
 <attribute name="VOLTAGE" x="124.714" y="174.244" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="124.714" y="172.72" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="C140" gate="G$1" x="137.16" y="175.26" smashed="yes">
+<instance part="C207" gate="G$1" x="137.16" y="175.26" smashed="yes">
 <attribute name="NAME" x="139.954" y="180.34" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="139.954" y="178.816" size="1.27" layer="96" align="center-left"/>
 <attribute name="SKU" x="139.954" y="177.292" size="1.27" layer="97" align="center-left"/>
@@ -22903,7 +22786,7 @@ Divides by 2</text>
 <attribute name="VALUE" x="91.44" y="188.976" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="OFFSHEET179" gate="G$1" x="15.24" y="116.84" smashed="yes"/>
-<instance part="RT10" gate="G$1" x="149.86" y="96.52" smashed="yes">
+<instance part="RT205" gate="G$1" x="149.86" y="96.52" smashed="yes">
 <attribute name="NAME" x="148.59" y="98.552" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="148.336" y="93.98" size="1.27" layer="96" align="center-right"/>
 <attribute name="PACKAGE" x="148.59" y="92.456" size="1.27" layer="97" align="center"/>
@@ -22963,7 +22846,7 @@ Divides by 2</text>
 <pinref part="SUPPLY322" gate="G$1" pin="AVDD"/>
 </segment>
 <segment>
-<pinref part="RT10" gate="G$1" pin="2"/>
+<pinref part="RT205" gate="G$1" pin="2"/>
 <pinref part="SUPPLY352" gate="G$1" pin="AVDD"/>
 <wire x1="152.4" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="96.52" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
@@ -23119,15 +23002,15 @@ Divides by 2</text>
 <junction x="111.76" y="121.92"/>
 </segment>
 <segment>
-<pinref part="C137" gate="G$1" pin="1"/>
+<pinref part="C204" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="180.34" x2="91.44" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C140" gate="G$1" pin="1"/>
+<pinref part="C207" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="180.34" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="182.88" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="182.88" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C139" gate="G$1" pin="1"/>
+<pinref part="C206" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="180.34" x2="106.68" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="C145" gate="G$1" pin="1"/>
+<pinref part="C212" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="180.34" x2="121.92" y2="182.88" width="0.1524" layer="91"/>
 <junction x="121.92" y="182.88"/>
 <wire x1="106.68" y1="182.88" x2="91.44" y2="182.88" width="0.1524" layer="91"/>
@@ -23220,20 +23103,20 @@ Divides by 2</text>
 <net name="DEMOD_700_BALUN_PRIMARY1" class="1">
 <segment>
 <pinref part="C124" gate="G$1" pin="2"/>
-<pinref part="Z2" gate="G$1" pin="PRIMARY-DOT"/>
+<pinref part="Z1" gate="G$1" pin="PRIMARY-DOT"/>
 <wire x1="45.72" y1="132.08" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DEMOD_700_BALUN_PRIMARY_DOT1" class="1">
 <segment>
 <pinref part="C107" gate="G$1" pin="2"/>
-<pinref part="Z2" gate="G$1" pin="PRIMARY"/>
+<pinref part="Z1" gate="G$1" pin="PRIMARY"/>
 <wire x1="45.72" y1="116.84" x2="40.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DEMOD_700_BALUN_SCT" class="2">
 <segment>
-<pinref part="Z2" gate="G$1" pin="SECONDARY-CT"/>
+<pinref part="Z1" gate="G$1" pin="SECONDARY-CT"/>
 <pinref part="C117" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="124.46" x2="58.42" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -23317,14 +23200,14 @@ Divides by 2</text>
 </net>
 <net name="DEMOD_700_IFI_P" class="2">
 <segment>
-<pinref part="Z2" gate="G$1" pin="SECONDARY-DOT"/>
+<pinref part="Z1" gate="G$1" pin="SECONDARY-DOT"/>
 <wire x1="53.34" y1="132.08" x2="114.3" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="IFI_N"/>
 </segment>
 </net>
 <net name="DEMOD_700_IFI_N" class="2">
 <segment>
-<pinref part="Z2" gate="G$1" pin="SECONDARY"/>
+<pinref part="Z1" gate="G$1" pin="SECONDARY"/>
 <wire x1="91.44" y1="116.84" x2="53.34" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U28" gate="G$1" pin="IFI_P"/>
 <wire x1="114.3" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
@@ -23345,7 +23228,7 @@ Divides by 2</text>
 </net>
 <net name="TEMP_DEMOD" class="0">
 <segment>
-<pinref part="RT10" gate="G$1" pin="1"/>
+<pinref part="RT205" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
 <label x="119.38" y="96.52" size="1.778" layer="95"/>
 </segment>
@@ -23393,16 +23276,16 @@ Divides by 2</text>
 <pinref part="SUPPLY331" gate="G$1" pin="RFGND-1"/>
 </segment>
 <segment>
-<pinref part="C137" gate="G$1" pin="2"/>
+<pinref part="C204" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="167.64" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C140" gate="G$1" pin="2"/>
+<pinref part="C207" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="170.18" x2="91.44" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="172.72" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="170.18" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C139" gate="G$1" pin="2"/>
+<pinref part="C206" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="170.18" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="172.72" x2="106.68" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="C145" gate="G$1" pin="2"/>
+<pinref part="C212" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="172.72" x2="121.92" y2="170.18" width="0.1524" layer="91"/>
 <junction x="121.92" y="170.18"/>
 <wire x1="106.68" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="91"/>
@@ -23765,15 +23648,15 @@ RF Circuits</text>
 <instance part="SUPPLY309" gate="G$1" x="35.56" y="12.7" smashed="yes"/>
 <instance part="SUPPLY310" gate="G$1" x="60.96" y="12.7" smashed="yes"/>
 <instance part="SUPPLY308" gate="1" x="10.16" y="12.7" smashed="yes"/>
-<instance part="LOGO1" gate="G$1" x="101.6" y="20.32" smashed="yes">
+<instance part="LOGO201" gate="G$1" x="101.6" y="20.32" smashed="yes">
 <attribute name="VALUE" x="101.6" y="20.32" size="1.778" layer="94" align="center"/>
 <attribute name="NAME" x="101.6" y="24.13" size="1.778" layer="95" align="center"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="124.46" y="7.62" smashed="yes">
+<instance part="LOGO200" gate="G$1" x="124.46" y="7.62" smashed="yes">
 <attribute name="NAME" x="124.46" y="16.51" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="124.46" y="13.97" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="LOGO3" gate="G$1" x="124.46" y="20.32" smashed="yes">
+<instance part="LOGO1" gate="G$1" x="124.46" y="20.32" smashed="yes">
 <attribute name="NAME" x="124.46" y="23.114" size="1.778" layer="95" align="bottom-center"/>
 </instance>
 </instances>
