@@ -9016,6 +9016,9 @@ corresponding to signal name</text>
 <text x="119.38" y="154.94" size="1.778" layer="97" align="center-left"> &lt;2B3</text>
 <text x="111.76" y="81.28" size="1.778" layer="97" align="center-left"> &lt;4C6</text>
 <text x="220.98" y="81.28" size="1.778" layer="97" align="center-left"> 4C3&gt;</text>
+<text x="195.58" y="88.9" size="1.778" layer="97" align="center-left">CAD Note:
+Place facing outwards
+in center of board</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
@@ -9865,18 +9868,18 @@ corresponding to signal name</text>
 <circle x="216" y="153" radius="1.15" width="0.1524" layer="94"/>
 <circle x="143" y="69" radius="1.15" width="0.1524" layer="94"/>
 <circle x="216" y="69" radius="1.15" width="0.1524" layer="94"/>
-<wire x1="172" y1="107" x2="180" y2="107" width="0.1524" layer="94"/>
-<wire x1="180" y1="107" x2="180" y2="91" width="0.1524" layer="94"/>
-<wire x1="180" y1="91" x2="172" y2="91" width="0.1524" layer="94"/>
-<wire x1="172" y1="91" x2="172" y2="107" width="0.1524" layer="94"/>
-<wire x1="172" y1="90" x2="172" y2="78" width="0.1524" layer="94"/>
-<wire x1="172" y1="78" x2="180" y2="78" width="0.1524" layer="94"/>
-<wire x1="180" y1="78" x2="180" y2="90" width="0.1524" layer="94"/>
-<wire x1="180" y1="90" x2="172" y2="90" width="0.1524" layer="94"/>
+<wire x1="179.62" y1="107" x2="187.62" y2="107" width="0.1524" layer="94"/>
+<wire x1="187.62" y1="107" x2="187.62" y2="91" width="0.1524" layer="94"/>
+<wire x1="187.62" y1="91" x2="179.62" y2="91" width="0.1524" layer="94"/>
+<wire x1="179.62" y1="91" x2="179.62" y2="107" width="0.1524" layer="94"/>
+<wire x1="179.62" y1="90" x2="179.62" y2="78" width="0.1524" layer="94"/>
+<wire x1="179.62" y1="78" x2="187.62" y2="78" width="0.1524" layer="94"/>
+<wire x1="187.62" y1="78" x2="187.62" y2="90" width="0.1524" layer="94"/>
+<wire x1="187.62" y1="90" x2="179.62" y2="90" width="0.1524" layer="94"/>
 <text x="80" y="103" size="1.778" layer="97" align="center">PV-A</text>
 <text x="80" y="119" size="1.778" layer="97" align="center">PV-B</text>
-<text x="176" y="99" size="1.778" layer="97" align="center">EPS</text>
-<text x="176" y="84" size="1.778" layer="97" align="center">ADCS</text>
+<text x="183.62" y="99" size="1.778" layer="97" align="center">EPS</text>
+<text x="183.62" y="84" size="1.778" layer="97" align="center">ADCS</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">

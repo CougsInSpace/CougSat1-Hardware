@@ -2010,7 +2010,7 @@ design rules under a new name.</description>
 <attribute name="VOLTAGE" value="6.3V" x="10.5" y="15.25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C23" library="CougsInSpace-Capacitors" package="1608" value="1nF 10%" x="7.25" y="19" smashed="yes" rot="MR90">
-<attribute name="NAME" x="7.239" y="21.262" size="0.8" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="NAME" x="7.439" y="21.362" size="0.8" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="PACKAGE" value="1608" x="7.25" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="SKU" value="11-102A" x="7.25" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TEMP" value="X7R" x="7.25" y="19" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2195,7 +2195,7 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="100ppm/°C" x="6.5" y="14.25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R42" library="CougsInSpace-Resistors" package="1608" value="360kΩ 1%" x="5.25" y="19" smashed="yes" rot="MR270">
-<attribute name="NAME" x="3.838" y="18.989" size="0.8" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
+<attribute name="NAME" x="5.011" y="21.338" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="5.25" y="19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="POWER" value="1/10W" x="5.25" y="19" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SKU" value="21-3603" x="5.25" y="19" size="1.778" layer="28" rot="MR270" display="off"/>
