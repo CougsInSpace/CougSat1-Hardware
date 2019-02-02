@@ -5,3 +5,11 @@ OldVersions/
 *.b#*
 *.s#*
 *.epf
+
+# Microsoft Temp Files
+*~$*
+
+#  LTSpice Simulation Results
+*.log*
+*.raw*
+*.plt*
