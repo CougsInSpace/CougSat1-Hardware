@@ -3204,19 +3204,19 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
 <wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
 <wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
 <smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
@@ -5255,19 +5255,19 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
 <wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
 <wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
 <smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
