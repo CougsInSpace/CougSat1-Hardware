@@ -3,7 +3,7 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
@@ -6502,12 +6502,12 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-1003" x="-122.71" y="161.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMP" value="25ppm/°C" x="-122.71" y="161.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R7" library="CougsInSpace-Resistors" package="1608" value="330kΩ 1%" x="38.1" y="38.1" smashed="yes">
+<element name="R7" library="CougsInSpace-Resistors" package="1608" value="316kΩ 0.1%" x="38.1" y="38.1" smashed="yes">
 <attribute name="NAME" x="45" y="41.1" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1/10W" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="21-3303" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="100ppm/°C" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/8W" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="21-3163" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="25ppm/°C" x="148.59" y="-135.89" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R58" library="CougsInSpace-Resistors" package="1608" value="200kΩ 0.1%" x="34.3" y="-13.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="15" y="18.1" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
@@ -12528,7 +12528,8 @@ design rules under a new name.</description>
 <wire x1="51.04" y1="2.325" x2="50.855" y2="2.51" width="0.16" layer="1"/>
 <wire x1="49.37" y1="-2.32" x2="51.04" y2="-0.65" width="0.16" layer="1"/>
 <wire x1="51.04" y1="-0.65" x2="51.04" y2="2.325" width="0.16" layer="1"/>
-<wire x1="45.375" y1="2.14" x2="45.375" y2="0.21" width="0.16" layer="1"/>
+<wire x1="45.375" y1="2.14" x2="45.375" y2="1.2" width="0.16" layer="1"/>
+<wire x1="45.375" y1="1.2" x2="45.375" y2="0.21" width="0.16" layer="1"/>
 <wire x1="46.35" y1="-2.005" x2="46.665" y2="-2.32" width="0.16" layer="1"/>
 <wire x1="45.375" y1="0.21" x2="46.35" y2="-0.765" width="0.16" layer="1"/>
 <wire x1="46.35" y1="-0.765" x2="46.35" y2="-2.005" width="0.16" layer="1"/>
