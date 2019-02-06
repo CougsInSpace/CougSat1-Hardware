@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6867,12 +6867,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.3" y="28.3" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="65-0009" x="221.12" y="52.94" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U2" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.1" x="63.3" y="41.5" smashed="yes">
+<element name="U2" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.3" x="63.3" y="41.5" smashed="yes">
 <attribute name="IMAX" value="250mA" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="63.3" y="43.9" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="SKU" value="60-0009" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="60-0013" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
 <attribute name="VDO" value="&lt;250mV" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
-<attribute name="VOUT" value="3.1V 2%" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
+<attribute name="VOUT" value="3.3V 2%" x="134.42" y="-105.82" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U5" library="CougsInSpace-RF" package="QFN-24-4040" value="ADF4360" x="69.6" y="33.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.8" y="35.5" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
@@ -6980,12 +6980,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.5" y="17.6" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="08-0002" x="169.68" y="-164.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U14" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.1" x="55.72" y="-1.34" smashed="yes" rot="R270">
+<element name="U14" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.3" x="55.72" y="-1.34" smashed="yes" rot="R270">
 <attribute name="IMAX" value="250mA" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.2" y="-1.4" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="SKU" value="60-0009" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SKU" value="60-0013" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VDO" value="&lt;250mV" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VOUT" value="3.1V 2%" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VOUT" value="3.3V 2%" x="-91.6" y="-138.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U17" library="CougsInSpace-IC-µController" package="QFP-64-1010" value="STM32L496RGT" x="26.4" y="-8.9" smashed="yes">
 <attribute name="EXTRAPIN" value="PD2" x="169.91" y="-116.85" size="1.778" layer="27" display="off"/>
@@ -6993,12 +6993,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.1" y="19.8" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="61-0004" x="169.91" y="-116.85" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U43" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.1" x="76.8" y="-41.9" smashed="yes" rot="R90">
+<element name="U43" library="CougsInSpace-IC-Power" package="SOT23-5" value="LP5907MFX-3.3" x="76.8" y="-41.9" smashed="yes" rot="R90">
 <attribute name="IMAX" value="250mA" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="50.5" y="-41.1" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="SKU" value="60-0009" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SKU" value="60-0013" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VDO" value="&lt;250mV" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOUT" value="3.1V 2%" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOUT" value="3.3V 2%" x="224.12" y="100.34" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U35" library="CougsInSpace-IC-Comms" package="X2SON-8" value="TXS0102DQM" x="8.5" y="-29" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.8" y="-29" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7915,6 +7915,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VDO" value="&lt;250mV"/>
 <attribute name="VOUT" value="3.1V 2%"/>
 </technology>
+<technology name="-3.3">
+<attribute name="IMAX" value="250mA"/>
+<attribute name="SKU" value="60-0013"/>
+<attribute name="VALUE" value="LP5907MFX-3.3"/>
+<attribute name="VDO" value="&lt;250mV"/>
+<attribute name="VOUT" value="3.3V 2%"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -10567,15 +10574,15 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="R12" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-4.7K" value="4.7kΩ 0.1%"/>
 <part name="C25" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10UF" value="10µF 10%"/>
 <part name="R4" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
-<part name="U2" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.1" value="LP5907MFX-3.1"/>
+<part name="U2" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.3" value="LP5907MFX-3.3"/>
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C7" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="R113" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
-<part name="U43" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.1" value="LP5907MFX-3.1"/>
+<part name="U43" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.3" value="LP5907MFX-3.3"/>
 <part name="C131" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C127" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="R37" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
-<part name="U14" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.1" value="LP5907MFX-3.1"/>
+<part name="U14" library="CougsInSpace-IC-Power" deviceset="LDO" device="-SOT23-5" technology="-3.3" value="LP5907MFX-3.3"/>
 <part name="C63" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C58" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="OFFSHEET102" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
