@@ -6575,9 +6575,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
-<part name="DIA1" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
-<part name="DIA5" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
-<part name="DIA6" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA7" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
 <part name="DIA8" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-P" device=""/>
 <part name="DIA12" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
@@ -6906,10 +6903,6 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="162.56" y1="81.28" x2="101.6" y2="81.28" width="0.254" layer="94"/>
 <wire x1="208.28" y1="129.54" x2="233.68" y2="129.54" width="0.254" layer="94"/>
 <wire x1="233.68" y1="81.28" x2="208.28" y2="81.28" width="0.254" layer="94"/>
-<wire x1="172.72" y1="109.22" x2="172.72" y2="88.9" width="0.254" layer="94"/>
-<wire x1="172.72" y1="88.9" x2="198.12" y2="88.9" width="0.254" layer="94"/>
-<wire x1="198.12" y1="88.9" x2="198.12" y2="109.22" width="0.254" layer="94"/>
-<wire x1="198.12" y1="109.22" x2="172.72" y2="109.22" width="0.254" layer="94"/>
 <wire x1="167.64" y1="88.9" x2="167.64" y2="109.22" width="0.254" layer="94"/>
 <wire x1="167.64" y1="109.22" x2="142.24" y2="109.22" width="0.254" layer="94"/>
 <wire x1="142.24" y1="109.22" x2="142.24" y2="88.9" width="0.254" layer="94"/>
@@ -6917,7 +6910,6 @@ Last character is an incremented letter for each variant of the same value and p
 <text x="132.08" y="73.66" size="3.81" layer="94" font="vector" align="center">Battery Charger with MPPT</text>
 <text x="220.98" y="60.96" size="3.81" layer="94" font="vector" align="center">Connector:
 To EPS</text>
-<text x="185.42" y="99.06" size="3.81" layer="94" font="vector" align="center">GPIO</text>
 <text x="154.94" y="99.06" size="3.81" layer="94" font="vector" align="center">ADC</text>
 <wire x1="101.6" y1="73.66" x2="99.06" y2="76.2" width="0.254" layer="97"/>
 <wire x1="101.6" y1="73.66" x2="99.06" y2="71.12" width="0.254" layer="97"/>
@@ -6936,39 +6928,22 @@ To EPS</text>
 <wire x1="101.6" y1="48.26" x2="99.06" y2="50.8" width="0.254" layer="97"/>
 <wire x1="101.6" y1="48.26" x2="99.06" y2="45.72" width="0.254" layer="97"/>
 <text x="193.04" y="49.53" size="1.778" layer="97" font="vector" align="center">4.1V Current Limited</text>
-<wire x1="177.8" y1="88.9" x2="177.8" y2="60.96" width="0.254" layer="97"/>
-<wire x1="177.8" y1="60.96" x2="147.32" y2="60.96" width="0.254" layer="97"/>
-<wire x1="147.32" y1="60.96" x2="147.32" y2="66.04" width="0.254" layer="97"/>
-<wire x1="147.32" y1="66.04" x2="144.78" y2="63.5" width="0.254" layer="97"/>
-<wire x1="147.32" y1="66.04" x2="149.86" y2="63.5" width="0.254" layer="97"/>
-<wire x1="147.32" y1="60.96" x2="147.32" y2="55.88" width="0.254" layer="97"/>
-<wire x1="147.32" y1="55.88" x2="149.86" y2="58.42" width="0.254" layer="97"/>
-<wire x1="147.32" y1="55.88" x2="144.78" y2="58.42" width="0.254" layer="97"/>
-<text x="160.02" y="62.484" size="1.778" layer="97" font="vector" align="center">Output Enable</text>
 <wire x1="162.56" y1="111.76" x2="165.1" y2="109.22" width="0.254" layer="97"/>
 <wire x1="165.1" y1="109.22" x2="167.64" y2="111.76" width="0.254" layer="97"/>
-<wire x1="193.04" y1="111.76" x2="195.58" y2="109.22" width="0.254" layer="97"/>
-<wire x1="195.58" y1="109.22" x2="198.12" y2="111.76" width="0.254" layer="97"/>
-<wire x1="190.5" y1="111.76" x2="187.96" y2="109.22" width="0.254" layer="97"/>
 <wire x1="165.1" y1="109.22" x2="165.1" y2="116.84" width="0.254" layer="97"/>
-<wire x1="165.1" y1="116.84" x2="195.58" y2="116.84" width="0.254" layer="97"/>
-<wire x1="195.58" y1="116.84" x2="210.82" y2="116.84" width="0.254" layer="97"/>
+<wire x1="165.1" y1="116.84" x2="210.82" y2="116.84" width="0.254" layer="97"/>
 <wire x1="210.82" y1="81.28" x2="208.28" y2="83.82" width="0.254" layer="97"/>
 <wire x1="210.82" y1="81.28" x2="213.36" y2="83.82" width="0.254" layer="97"/>
 <wire x1="210.82" y1="81.28" x2="210.82" y2="116.84" width="0.254" layer="97"/>
-<wire x1="195.58" y1="109.22" x2="195.58" y2="116.84" width="0.254" layer="97"/>
 <wire x1="154.94" y1="109.22" x2="154.94" y2="121.92" width="0.254" layer="97"/>
-<wire x1="154.94" y1="121.92" x2="187.96" y2="121.92" width="0.254" layer="97"/>
-<wire x1="187.96" y1="121.92" x2="218.44" y2="121.92" width="0.254" layer="97"/>
+<wire x1="154.94" y1="121.92" x2="218.44" y2="121.92" width="0.254" layer="97"/>
 <wire x1="218.44" y1="121.92" x2="218.44" y2="81.28" width="0.254" layer="97"/>
-<wire x1="187.96" y1="109.22" x2="187.96" y2="121.92" width="0.254" layer="97"/>
 <text x="177.8" y="123.19" size="1.778" layer="97" font="vector" align="center">3.3V</text>
 <text x="177.8" y="118.11" size="1.778" layer="97" font="vector" align="center">I²C</text>
 <text x="82.55" y="67.31" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
 <text x="82.55" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
 <text x="161.29" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 2</text>
 <text x="232.41" y="130.81" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
-<text x="196.85" y="90.17" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
 <text x="166.37" y="90.17" size="1.778" layer="97" font="vector" align="bottom-right">Page 4</text>
 <wire x1="142.24" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" font="vector" align="top-left">Page 1: Block Diagram
@@ -7029,7 +7004,6 @@ To ADCS</text>
 <text x="232.41" y="41.91" size="1.778" layer="97" font="vector" align="bottom-right">Page 3</text>
 <wire x1="157.48" y1="111.76" x2="154.94" y2="109.22" width="0.254" layer="97"/>
 <wire x1="154.94" y1="109.22" x2="152.4" y2="111.76" width="0.254" layer="97"/>
-<wire x1="187.96" y1="109.22" x2="185.42" y2="111.76" width="0.254" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -7041,9 +7015,6 @@ To ADCS</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="DIA1" gate="G$1" x="147.32" y="60.96" smashed="yes"/>
-<instance part="DIA5" gate="G$1" x="187.96" y="121.92" smashed="yes"/>
-<instance part="DIA6" gate="G$1" x="195.58" y="116.84" smashed="yes"/>
 <instance part="DIA7" gate="G$1" x="91.44" y="73.66" smashed="yes"/>
 <instance part="DIA8" gate="G$1" x="91.44" y="48.26" smashed="yes"/>
 <instance part="DIA12" gate="G$1" x="104.14" y="78.74" smashed="yes"/>
@@ -8333,7 +8304,7 @@ corresponding to signal name</text>
 <wire x1="81.28" y1="104.14" x2="81.28" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="81.28" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="43.18" y1="81.28" x2="43.18" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
-<text x="237.49" y="26.67" size="1.778" layer="97">Variant: </text>
+<text x="265.43" y="19.05" size="1.778" layer="97">Variant: </text>
 <text x="246.38" y="26.67" size="1.778" layer="97">&gt;ASSEMBLY_VARIANT</text>
 <text x="76.2" y="30.48" size="1.778" layer="97" align="center-left"> 4C3&gt;</text>
 <text x="76.2" y="33.02" size="1.778" layer="97" align="center-left"> &lt;4C3&gt;</text>
