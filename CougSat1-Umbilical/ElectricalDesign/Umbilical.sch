@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1117,19 +1117,19 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
 <wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
 <wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
 <smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
@@ -1309,11 +1309,25 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.6PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-0.6A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="0.6pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
 <technology name="-100NF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-104A"/>
 <attribute name="TEMP" value="X7R"/>
 <attribute name="VALUE" value="100nF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-100PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-101A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="100pF 1%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-10NF">
@@ -1344,11 +1358,25 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VALUE" value="15pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
+<technology name="-180PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-181A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="180pF 5%"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
 <technology name="-1NF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-102A"/>
 <attribute name="TEMP" value="X7R"/>
 <attribute name="VALUE" value="1nF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-1NF-B">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-102B"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="1nF 1%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-1UF">
@@ -1357,6 +1385,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="X5R"/>
 <attribute name="VALUE" value="1µF 10%"/>
 <attribute name="VOLTAGE" value="6.3V"/>
+</technology>
+<technology name="-1UF-B">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-105B"/>
+<attribute name="TEMP" value="X7R"/>
+<attribute name="VALUE" value="1µF 10%"/>
+<attribute name="VOLTAGE" value="16V"/>
 </technology>
 <technology name="-22PF">
 <attribute name="PACKAGE" value="1608"/>
@@ -1371,6 +1406,20 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="C0G"/>
 <attribute name="VALUE" value="270pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="-3.3PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-3.3A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="3.3pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="-3.9NF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-392A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="3.9nF 5%"/>
+<attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-4.7PF">
 <attribute name="PACKAGE" value="1608"/>
@@ -1387,17 +1436,24 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-47PF">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="11-470A" constant="no"/>
-<attribute name="TEMP" value="C0G" constant="no"/>
-<attribute name="VALUE" value="47pF 5%" constant="no"/>
-<attribute name="VOLTAGE" value="100V" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-470A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="47pF 5%"/>
+<attribute name="VOLTAGE" value="100V"/>
 </technology>
 <technology name="-560PF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-561A"/>
 <attribute name="TEMP" value="C0G"/>
 <attribute name="VALUE" value="560pF 1%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-56PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-560A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="56pF 2%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-6.8NF">
@@ -1430,11 +1486,11 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-10UF">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="SKU" value="13-106A" constant="no"/>
-<attribute name="TEMP" value="X7R" constant="no"/>
-<attribute name="VALUE" value="10µF 10%" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="SKU" value="13-106A"/>
+<attribute name="TEMP" value="X7R"/>
+<attribute name="VALUE" value="10µF 10%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </technology>
 <technology name="-4.7UF">
 <attribute name="PACKAGE" value="3216"/>
@@ -1474,11 +1530,25 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.6PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-0.6A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="0.6pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
 <technology name="-100NF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-104A"/>
 <attribute name="TEMP" value="X7R"/>
 <attribute name="VALUE" value="100nF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-100PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-101A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="100pF 1%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-10NF">
@@ -1509,11 +1579,25 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VALUE" value="15pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
+<technology name="-180PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-181A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="180pF 5%"/>
+<attribute name="VOLTAGE" value="100V"/>
+</technology>
 <technology name="-1NF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-102A"/>
 <attribute name="TEMP" value="X7R"/>
 <attribute name="VALUE" value="1nF 10%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-1NF-B">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-102B"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="1nF 1%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-1UF">
@@ -1522,6 +1606,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="X5R"/>
 <attribute name="VALUE" value="1µF 10%"/>
 <attribute name="VOLTAGE" value="6.3V"/>
+</technology>
+<technology name="-1UF-B">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-105B"/>
+<attribute name="TEMP" value="X7R"/>
+<attribute name="VALUE" value="1µF 10%"/>
+<attribute name="VOLTAGE" value="16V"/>
 </technology>
 <technology name="-22PF">
 <attribute name="PACKAGE" value="1608"/>
@@ -1536,6 +1627,20 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="C0G"/>
 <attribute name="VALUE" value="270pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="-3.3PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-3.3A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="3.3pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
+<technology name="-3.9NF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-392A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="3.9nF 5%"/>
+<attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-4.7PF">
 <attribute name="PACKAGE" value="1608"/>
@@ -1552,17 +1657,24 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-47PF">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="11-470A" constant="no"/>
-<attribute name="TEMP" value="C0G" constant="no"/>
-<attribute name="VALUE" value="47pF 5%" constant="no"/>
-<attribute name="VOLTAGE" value="100V" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-470A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="47pF 5%"/>
+<attribute name="VOLTAGE" value="100V"/>
 </technology>
 <technology name="-560PF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-561A"/>
 <attribute name="TEMP" value="C0G"/>
 <attribute name="VALUE" value="560pF 1%"/>
+<attribute name="VOLTAGE" value="50V"/>
+</technology>
+<technology name="-56PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-560A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="56pF 2%"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-6.8NF">
@@ -1595,11 +1707,11 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 <technology name="-10UF">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="SKU" value="13-106A" constant="no"/>
-<attribute name="TEMP" value="X7R" constant="no"/>
-<attribute name="VALUE" value="10µF 10%" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="SKU" value="13-106A"/>
+<attribute name="TEMP" value="X7R"/>
+<attribute name="VALUE" value="10µF 10%"/>
+<attribute name="VOLTAGE" value="10V"/>
 </technology>
 <technology name="-4.7UF">
 <attribute name="PACKAGE" value="3216"/>
@@ -1698,19 +1810,19 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
 <wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
 <wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
 <smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 </package>
@@ -1866,235 +1978,312 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-0">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-0000" constant="no"/>
-<attribute name="TEMP" value="70°C Max 2A" constant="no"/>
-<attribute name="VALUE" value="0Ω &lt;20mΩ" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-0000"/>
+<attribute name="TEMP" value="70°C Max 2A"/>
+<attribute name="VALUE" value="0Ω &lt;20mΩ"/>
 </technology>
 <technology name="-0.05R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
-<attribute name="SKU" value="21-0.05" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="50mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-0.05"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="50mΩ 1%"/>
+</technology>
+<technology name="-1.2K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-1201"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="1.2kΩ 0.1%"/>
 </technology>
 <technology name="-100K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1003" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="100kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1003"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="100kΩ 0.1%"/>
 </technology>
 <technology name="-102K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1023" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="102kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1023"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="102kΩ 0.1%"/>
 </technology>
 <technology name="-10K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1002" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="10kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1002"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="10kΩ 0.1%"/>
+</technology>
+<technology name="-10R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-10.0"/>
+<attribute name="TEMP" value="200ppm/°C"/>
+<attribute name="VALUE" value="10Ω 5%"/>
 </technology>
 <technology name="-12.1K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1212" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="12.1kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1212"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="12.1kΩ 0.1%"/>
+</technology>
+<technology name="-13.7K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1372"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="13.7kΩ 0.1%"/>
 </technology>
 <technology name="-150R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1500" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="150Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1500"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="150Ω 1%"/>
 </technology>
 <technology name="-158K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1583" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="158kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1583"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="158kΩ 0.1%"/>
 </technology>
 <technology name="-158R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1580" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="158Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1580"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="158Ω 1%"/>
 </technology>
 <technology name="-180K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1803" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="180kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1803"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="180kΩ 1%"/>
 </technology>
 <technology name="-1K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1001" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="1kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1001"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="1kΩ 0.1%"/>
 </technology>
 <technology name="-1M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1004" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="1MΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1004"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="1MΩ 1%"/>
 </technology>
 <technology name="-2.2K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2201" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="2.2kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2201"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="2.2kΩ 1%"/>
 </technology>
 <technology name="-2.2M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2204" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="2.2MΩ 5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2204"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="2.2MΩ 5%"/>
 </technology>
 <technology name="-200K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-2003" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="200kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-2003"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="200kΩ 0.1%"/>
 </technology>
 <technology name="-20K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
-<attribute name="SKU" value="21-2002" constant="no"/>
-<attribute name="TEMP" value="50ppm/°C" constant="no"/>
-<attribute name="VALUE" value="20kΩ 0.5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-2002"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="20kΩ 0.5%"/>
 </technology>
 <technology name="-220K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="220kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="220kΩ 1%"/>
+</technology>
+<technology name="-240R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-2400"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="240Ω 0.1%"/>
 </technology>
 <technology name="-27R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-27.0" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="27Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-27.0"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="27Ω 1%"/>
+</technology>
+<technology name="-2K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2001"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="2kΩ 0.1%"/>
 </technology>
 <technology name="-3.3K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3301" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="3.3kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3301"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="3.3kΩ 0.1%"/>
+</technology>
+<technology name="-30K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3002"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="30kΩ 1%"/>
 </technology>
 <technology name="-30M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3005" constant="no"/>
-<attribute name="TEMP" value="500ppm/°C" constant="no"/>
-<attribute name="VALUE" value="30MΩ 5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3005"/>
+<attribute name="TEMP" value="500ppm/°C"/>
+<attribute name="VALUE" value="30MΩ 5%"/>
 </technology>
 <technology name="-316K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3163" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="316kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3163"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="316kΩ 0.1%"/>
 </technology>
 <technology name="-330K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3303" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="330kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3303"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="330kΩ 1%"/>
 </technology>
 <technology name="-330R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3300" constant="no"/>
-<attribute name="TEMP" value="50ppm/°C" constant="no"/>
-<attribute name="VALUE" value="330Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3300"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="330Ω 1%"/>
 </technology>
 <technology name="-33K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3302" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="33kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3302"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="33kΩ 1%"/>
 </technology>
 <technology name="-360K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3603" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="360kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3603"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="360kΩ 1%"/>
 </technology>
 <technology name="-39.2K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3922" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="39.2kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3922"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="39.2kΩ 0.1%"/>
 </technology>
 <technology name="-4.75M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-4754" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="4.75MΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4754"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="4.75MΩ 1%"/>
+</technology>
+<technology name="-4.7K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4701"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="4.7kΩ 0.1%"/>
+</technology>
+<technology name="-442K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4423"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="442kΩ 1%"/>
+</technology>
+<technology name="-470R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4700"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="470Ω 0.5%"/>
 </technology>
 <technology name="-47K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-4702" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="47kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-4702"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="47kΩ 0.1%"/>
+</technology>
+<technology name="-49.9">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-49.9"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="49.9Ω 0.1%"/>
 </technology>
 <technology name="-536K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/4W" constant="no"/>
-<attribute name="SKU" value="21-5363" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="536kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="21-5363"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="536kΩ 1%"/>
 </technology>
 <technology name="-560R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-5600" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="560Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-5600"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="560Ω 1%"/>
+</technology>
+<technology name="-60.4R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-60.4"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="60.4Ω 0.1%"/>
 </technology>
 <technology name="-620K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-6203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="620kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-6203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="620kΩ 1%"/>
 </technology>
 <technology name="-8.45K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-8451" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="8.45kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-8451"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="8.45kΩ 0.1%"/>
 </technology>
 <technology name="-820K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-8203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="820kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-8203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="820kΩ 1%"/>
 </technology>
 </technologies>
 </device>
@@ -2105,18 +2294,18 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-0.01R">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="POWER" value="1/2W" constant="no"/>
-<attribute name="SKU" value="23-0.01" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="10mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/2W"/>
+<attribute name="SKU" value="23-0.01"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="10mΩ 1%"/>
 </technology>
 <technology name="-0.1R">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="POWER" value="1/4W" constant="no"/>
-<attribute name="SKU" value="23-0.10" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="100mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="23-0.10"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="100mΩ 1%"/>
 </technology>
 </technologies>
 </device>
@@ -2127,11 +2316,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-10R">
-<attribute name="PACKAGE" value="TO-220" constant="no"/>
-<attribute name="POWER" value="30W" constant="no"/>
-<attribute name="SKU" value="25-10.0" constant="no"/>
-<attribute name="TEMP" value="-55~150°C" constant="no"/>
-<attribute name="VALUE" value="10Ω 5%" constant="no"/>
+<attribute name="PACKAGE" value="TO-220"/>
+<attribute name="POWER" value="30W"/>
+<attribute name="SKU" value="25-10.0"/>
+<attribute name="TEMP" value="-55~150°C"/>
+<attribute name="VALUE" value="10Ω 5%"/>
 </technology>
 </technologies>
 </device>
@@ -2142,11 +2331,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-15R">
-<attribute name="PACKAGE" value="THT 15mm" constant="no"/>
-<attribute name="POWER" value="1W" constant="no"/>
-<attribute name="SKU" value="25-15.0" constant="no"/>
-<attribute name="TEMP" value="-40~275°C" constant="no"/>
-<attribute name="VALUE" value="15Ω 5%" constant="no"/>
+<attribute name="PACKAGE" value="THT 15mm"/>
+<attribute name="POWER" value="1W"/>
+<attribute name="SKU" value="25-15.0"/>
+<attribute name="TEMP" value="-40~275°C"/>
+<attribute name="VALUE" value="15Ω 5%"/>
 </technology>
 </technologies>
 </device>
@@ -2165,235 +2354,312 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-0">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-0000" constant="no"/>
-<attribute name="TEMP" value="70°C Max 2A" constant="no"/>
-<attribute name="VALUE" value="0Ω &lt;20mΩ" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-0000"/>
+<attribute name="TEMP" value="70°C Max 2A"/>
+<attribute name="VALUE" value="0Ω &lt;20mΩ"/>
 </technology>
 <technology name="-0.05R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
-<attribute name="SKU" value="21-0.05" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="50mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-0.05"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="50mΩ 1%"/>
+</technology>
+<technology name="-1.2K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-1201"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="1.2kΩ 0.1%"/>
 </technology>
 <technology name="-100K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1003" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="100kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1003"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="100kΩ 0.1%"/>
 </technology>
 <technology name="-102K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1023" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="102kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1023"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="102kΩ 0.1%"/>
 </technology>
 <technology name="-10K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1002" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="10kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1002"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="10kΩ 0.1%"/>
+</technology>
+<technology name="-10R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-10.0"/>
+<attribute name="TEMP" value="200ppm/°C"/>
+<attribute name="VALUE" value="10Ω 5%"/>
 </technology>
 <technology name="-12.1K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1212" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="12.1kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1212"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="12.1kΩ 0.1%"/>
+</technology>
+<technology name="-13.7K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1372"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="13.7kΩ 0.1%"/>
 </technology>
 <technology name="-150R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1500" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="150Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1500"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="150Ω 1%"/>
 </technology>
 <technology name="-158K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1583" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="158kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1583"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="158kΩ 0.1%"/>
 </technology>
 <technology name="-158R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1580" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="158Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1580"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="158Ω 1%"/>
 </technology>
 <technology name="-180K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1803" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="180kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1803"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="180kΩ 1%"/>
 </technology>
 <technology name="-1K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-1001" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="1kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-1001"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="1kΩ 0.1%"/>
 </technology>
 <technology name="-1M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-1004" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="1MΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1004"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="1MΩ 1%"/>
 </technology>
 <technology name="-2.2K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2201" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="2.2kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2201"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="2.2kΩ 1%"/>
 </technology>
 <technology name="-2.2M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2204" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="2.2MΩ 5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2204"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="2.2MΩ 5%"/>
 </technology>
 <technology name="-200K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-2003" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="200kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-2003"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="200kΩ 0.1%"/>
 </technology>
 <technology name="-20K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/5W" constant="no"/>
-<attribute name="SKU" value="21-2002" constant="no"/>
-<attribute name="TEMP" value="50ppm/°C" constant="no"/>
-<attribute name="VALUE" value="20kΩ 0.5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-2002"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="20kΩ 0.5%"/>
 </technology>
 <technology name="-220K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-2203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="220kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="220kΩ 1%"/>
+</technology>
+<technology name="-240R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/5W"/>
+<attribute name="SKU" value="21-2400"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="240Ω 0.1%"/>
 </technology>
 <technology name="-27R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-27.0" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="27Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-27.0"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="27Ω 1%"/>
+</technology>
+<technology name="-2K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-2001"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="2kΩ 0.1%"/>
 </technology>
 <technology name="-3.3K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3301" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="3.3kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3301"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="3.3kΩ 0.1%"/>
+</technology>
+<technology name="-30K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3002"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="30kΩ 1%"/>
 </technology>
 <technology name="-30M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3005" constant="no"/>
-<attribute name="TEMP" value="500ppm/°C" constant="no"/>
-<attribute name="VALUE" value="30MΩ 5%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3005"/>
+<attribute name="TEMP" value="500ppm/°C"/>
+<attribute name="VALUE" value="30MΩ 5%"/>
 </technology>
 <technology name="-316K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3163" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="316kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3163"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="316kΩ 0.1%"/>
 </technology>
 <technology name="-330K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3303" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="330kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3303"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="330kΩ 1%"/>
 </technology>
 <technology name="-330R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3300" constant="no"/>
-<attribute name="TEMP" value="50ppm/°C" constant="no"/>
-<attribute name="VALUE" value="330Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3300"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="330Ω 1%"/>
 </technology>
 <technology name="-33K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3302" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="33kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3302"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="33kΩ 1%"/>
 </technology>
 <technology name="-360K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-3603" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="360kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-3603"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="360kΩ 1%"/>
 </technology>
 <technology name="-39.2K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-3922" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="39.2kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-3922"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="39.2kΩ 0.1%"/>
 </technology>
 <technology name="-4.75M">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-4754" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="4.75MΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4754"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="4.75MΩ 1%"/>
+</technology>
+<technology name="-4.7K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4701"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="4.7kΩ 0.1%"/>
+</technology>
+<technology name="-442K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4423"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="442kΩ 1%"/>
+</technology>
+<technology name="-470R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-4700"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="470Ω 0.5%"/>
 </technology>
 <technology name="-47K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-4702" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="47kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-4702"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="47kΩ 0.1%"/>
+</technology>
+<technology name="-49.9">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-49.9"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="49.9Ω 0.1%"/>
 </technology>
 <technology name="-536K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/4W" constant="no"/>
-<attribute name="SKU" value="21-5363" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="536kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="21-5363"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="536kΩ 1%"/>
 </technology>
 <technology name="-560R">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-5600" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="560Ω 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-5600"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="560Ω 1%"/>
+</technology>
+<technology name="-60.4R">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-60.4"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="60.4Ω 0.1%"/>
 </technology>
 <technology name="-620K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-6203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="620kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-6203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="620kΩ 1%"/>
 </technology>
 <technology name="-8.45K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/8W" constant="no"/>
-<attribute name="SKU" value="21-8451" constant="no"/>
-<attribute name="TEMP" value="25ppm/°C" constant="no"/>
-<attribute name="VALUE" value="8.45kΩ 0.1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/8W"/>
+<attribute name="SKU" value="21-8451"/>
+<attribute name="TEMP" value="25ppm/°C"/>
+<attribute name="VALUE" value="8.45kΩ 0.1%"/>
 </technology>
 <technology name="-820K">
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="POWER" value="1/10W" constant="no"/>
-<attribute name="SKU" value="21-8203" constant="no"/>
-<attribute name="TEMP" value="100ppm/°C" constant="no"/>
-<attribute name="VALUE" value="820kΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-8203"/>
+<attribute name="TEMP" value="100ppm/°C"/>
+<attribute name="VALUE" value="820kΩ 1%"/>
 </technology>
 </technologies>
 </device>
@@ -2404,18 +2670,18 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-0.01R">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="POWER" value="1/2W" constant="no"/>
-<attribute name="SKU" value="23-0.01" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="10mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/2W"/>
+<attribute name="SKU" value="23-0.01"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="10mΩ 1%"/>
 </technology>
 <technology name="-0.1R">
-<attribute name="PACKAGE" value="3216" constant="no"/>
-<attribute name="POWER" value="1/4W" constant="no"/>
-<attribute name="SKU" value="23-0.10" constant="no"/>
-<attribute name="TEMP" value="75ppm/°C" constant="no"/>
-<attribute name="VALUE" value="100mΩ 1%" constant="no"/>
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="23-0.10"/>
+<attribute name="TEMP" value="75ppm/°C"/>
+<attribute name="VALUE" value="100mΩ 1%"/>
 </technology>
 </technologies>
 </device>
@@ -2426,11 +2692,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-10R">
-<attribute name="PACKAGE" value="TO-220" constant="no"/>
-<attribute name="POWER" value="30W" constant="no"/>
-<attribute name="SKU" value="25-10.0" constant="no"/>
-<attribute name="TEMP" value="-55~150°C" constant="no"/>
-<attribute name="VALUE" value="10Ω 5%" constant="no"/>
+<attribute name="PACKAGE" value="TO-220"/>
+<attribute name="POWER" value="30W"/>
+<attribute name="SKU" value="25-10.0"/>
+<attribute name="TEMP" value="-55~150°C"/>
+<attribute name="VALUE" value="10Ω 5%"/>
 </technology>
 </technologies>
 </device>
@@ -2441,11 +2707,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-15R">
-<attribute name="PACKAGE" value="THT 15mm" constant="no"/>
-<attribute name="POWER" value="1W" constant="no"/>
-<attribute name="SKU" value="25-15.0" constant="no"/>
-<attribute name="TEMP" value="-40~275°C" constant="no"/>
-<attribute name="VALUE" value="15Ω 5%" constant="no"/>
+<attribute name="PACKAGE" value="THT 15mm"/>
+<attribute name="POWER" value="1W"/>
+<attribute name="SKU" value="25-15.0"/>
+<attribute name="TEMP" value="-40~275°C"/>
+<attribute name="VALUE" value="15Ω 5%"/>
 </technology>
 </technologies>
 </device>
@@ -3448,8 +3714,10 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="R6" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
 <part name="OFFSHEET2" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="R10" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
-<part name="R7" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
 <part name="R8" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
+<part name="R7" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
+<part name="C8" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100NF" value="100nF 10%"/>
+<part name="SUPPLY7" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3459,9 +3727,9 @@ Last character is an incremented letter for each variant of the same value and p
 Page 2: Battery Charger
 Page 3: Serial Transciever
 Page 4: Mechanical</text>
-<wire x1="30.48" y1="114.3" x2="30.48" y2="83.82" width="0.254" layer="94"/>
-<wire x1="30.48" y1="83.82" x2="76.2" y2="83.82" width="0.254" layer="94"/>
-<wire x1="76.2" y1="83.82" x2="76.2" y2="114.3" width="0.254" layer="94"/>
+<wire x1="30.48" y1="114.3" x2="33.02" y2="78.74" width="0.254" layer="94"/>
+<wire x1="33.02" y1="78.74" x2="78.74" y2="78.74" width="0.254" layer="94"/>
+<wire x1="78.74" y1="78.74" x2="76.2" y2="114.3" width="0.254" layer="94"/>
 <wire x1="76.2" y1="114.3" x2="30.48" y2="114.3" width="0.254" layer="94"/>
 <text x="53.34" y="99.06" size="3.81" layer="94" align="center">Connector:
 To CougSat</text>
@@ -3529,362 +3797,6 @@ To USB B Female</text>
 <busses>
 </busses>
 <nets>
-</nets>
-</sheet>
-<sheet>
-<plain>
-<wire x1="165.1" y1="96.52" x2="165.1" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="165.1" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="68.58" x2="134.62" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="96.52" x2="165.1" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
-<text x="135.89" y="73.66" size="1.778" layer="97">CAD Note: Decoupling</text>
-<text x="168.91" y="129.54" size="1.778" layer="97" align="bottom-right">3B6&gt; </text>
-</plain>
-<instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
-</instance>
-<instance part="U1" gate="G$1" x="149.86" y="116.84" smashed="yes">
-<attribute name="NAME" x="149.86" y="133.35" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="149.86" y="102.87" size="1.778" layer="96" align="center"/>
-<attribute name="SKU" x="149.86" y="100.838" size="1.778" layer="97" align="center"/>
-</instance>
-<instance part="J1" gate="G$1" x="58.42" y="109.22" smashed="yes">
-<attribute name="NAME" x="58.42" y="118.11" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="58.42" y="100.33" size="1.778" layer="96" align="center"/>
-<attribute name="SKU" x="58.42" y="98.298" size="1.778" layer="97" align="center"/>
-</instance>
-<instance part="J2" gate="G$1" x="193.04" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="192.405" y="118.11" size="1.778" layer="96" rot="MR0" align="center"/>
-<attribute name="NAME" x="192.405" y="133.35" size="1.778" layer="95" rot="MR0" align="center"/>
-<attribute name="SKU" x="192.405" y="116.078" size="1.778" layer="97" rot="MR0" align="center"/>
-<attribute name="PACKAGE" x="192.405" y="114.046" size="1.778" layer="97" rot="MR0" align="center"/>
-</instance>
-<instance part="OFFSHEET1" gate="G$1" x="172.72" y="129.54" smashed="yes"/>
-<instance part="SUPPLY1" gate="G$1" x="180.34" y="119.38" smashed="yes"/>
-<instance part="C1" gate="G$1" x="149.86" y="83.82" smashed="yes">
-<attribute name="NAME" x="152.654" y="88.9" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="152.654" y="87.376" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="152.654" y="85.852" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="152.654" y="84.328" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="152.654" y="82.804" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="152.654" y="81.28" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="SUPPLY9" gate="G$1" x="132.08" y="129.54" smashed="yes">
-<attribute name="VALUE" x="132.08" y="133.35" size="1.27" layer="96" rot="R180" align="center"/>
-</instance>
-<instance part="SUPPLY11" gate="G$1" x="134.62" y="111.76" smashed="yes">
-<attribute name="VALUE" x="134.62" y="115.316" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY12" gate="G$1" x="149.86" y="88.9" smashed="yes">
-<attribute name="VALUE" x="149.86" y="92.456" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY13" gate="1" x="134.62" y="104.14" smashed="yes"/>
-<instance part="SUPPLY14" gate="1" x="30.48" y="10.16" smashed="yes"/>
-<instance part="SUPPLY10" gate="1" x="149.86" y="78.74" smashed="yes"/>
-<instance part="R1" gate="G$1" x="30.48" y="17.78" smashed="yes">
-<attribute name="NAME" x="31.75" y="22.86" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="31.75" y="21.336" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="31.75" y="18.288" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="31.75" y="16.764" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="31.75" y="15.24" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="31.75" y="19.812" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="SUPPLY15" gate="G$1" x="20.32" y="10.16" smashed="yes"/>
-<instance part="R2" gate="G$1" x="116.84" y="119.38" smashed="yes">
-<attribute name="NAME" x="115.57" y="121.412" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="115.316" y="117.348" size="1.27" layer="96" align="center-right"/>
-<attribute name="PACKAGE" x="115.316" y="115.824" size="1.27" layer="97" align="center-right"/>
-<attribute name="POWER" x="115.824" y="117.348" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="115.824" y="115.824" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="115.57" y="114.3" size="1.27" layer="97" align="center"/>
-</instance>
-<instance part="R3" gate="G$1" x="116.84" y="109.22" smashed="yes">
-<attribute name="NAME" x="115.57" y="111.252" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="115.316" y="107.188" size="1.27" layer="96" align="center-right"/>
-<attribute name="PACKAGE" x="115.316" y="105.664" size="1.27" layer="97" align="center-right"/>
-<attribute name="POWER" x="115.824" y="107.188" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="115.824" y="105.664" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="115.57" y="104.14" size="1.27" layer="97" align="center"/>
-</instance>
-<instance part="C2" gate="G$1" x="101.6" y="99.06" smashed="yes">
-<attribute name="NAME" x="104.394" y="104.14" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="104.394" y="102.616" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="104.394" y="101.092" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="104.394" y="99.568" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="104.394" y="98.044" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="104.394" y="96.52" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="C3" gate="G$1" x="88.9" y="99.06" smashed="yes">
-<attribute name="NAME" x="91.694" y="104.14" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="91.694" y="102.616" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="91.694" y="101.092" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="91.694" y="99.568" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="91.694" y="98.044" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="91.694" y="96.52" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="FB1" gate="G$1" x="93.98" y="142.24" smashed="yes">
-<attribute name="NAME" x="92.71" y="144.78" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="92.456" y="140.208" size="1.27" layer="96" align="center-right"/>
-<attribute name="PACKAGE" x="92.964" y="140.208" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="92.456" y="138.684" size="1.27" layer="97" align="center-right"/>
-<attribute name="DCR" x="92.964" y="138.684" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="92.71" y="137.16" size="1.27" layer="97" align="center"/>
-</instance>
-<instance part="C4" gate="G$1" x="101.6" y="132.08" smashed="yes">
-<attribute name="NAME" x="104.394" y="137.16" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="104.394" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="104.394" y="134.112" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="104.394" y="132.588" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="104.394" y="131.064" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="104.394" y="129.54" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="C5" gate="G$1" x="76.2" y="132.08" smashed="yes">
-<attribute name="NAME" x="78.994" y="137.16" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="78.994" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="78.994" y="134.112" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="78.994" y="132.588" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="78.994" y="131.064" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="78.994" y="129.54" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="SUPPLY8" gate="1" x="91.44" y="124.46" smashed="yes"/>
-<instance part="SUPPLY16" gate="1" x="93.98" y="91.44" smashed="yes"/>
-<instance part="SUPPLY6" gate="1" x="73.66" y="104.14" smashed="yes"/>
-<instance part="SUPPLY29" gate="G$1" x="68.58" y="71.12" smashed="yes"/>
-<instance part="C12" gate="G$1" x="73.66" y="81.28" smashed="yes">
-<attribute name="NAME" x="76.454" y="86.36" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="76.454" y="84.836" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="76.454" y="83.312" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="76.454" y="81.788" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="76.454" y="80.264" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="76.454" y="78.74" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="R13" gate="G$1" x="88.9" y="81.28" smashed="yes">
-<attribute name="NAME" x="90.17" y="86.36" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="90.17" y="84.836" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="90.17" y="81.788" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="90.17" y="80.264" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="90.17" y="78.74" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="90.17" y="83.312" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="SUPPLY30" gate="1" x="88.9" y="71.12" smashed="yes"/>
-<instance part="C6" gate="G$1" x="116.84" y="132.08" smashed="yes">
-<attribute name="NAME" x="119.634" y="137.16" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="119.634" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="119.634" y="134.112" size="1.27" layer="97" align="center-left"/>
-<attribute name="PACKAGE" x="119.634" y="132.588" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="119.634" y="131.064" size="1.27" layer="97" align="center-left"/>
-<attribute name="ESR" x="119.634" y="129.54" size="1.27" layer="97" align="center-left"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
-<net name="UMB_IN" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
-<label x="185.42" y="129.54" size="1.778" layer="97" rot="MR0"/>
-</segment>
-</net>
-<net name="PGND" class="0">
-<segment>
-<pinref part="SUPPLY1" gate="G$1" pin="PGND"/>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="180.34" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="22.86" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="G$1" pin="PGND"/>
-<wire x1="20.32" y1="25.4" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="UMB_RX" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="TXD"/>
-<wire x1="185.42" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
-<label x="185.42" y="127" size="1.778" layer="97" rot="MR0"/>
-</segment>
-</net>
-<net name="UMB_TX" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<pinref part="U1" gate="G$1" pin="RXD"/>
-<wire x1="185.42" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<label x="185.42" y="124.46" size="1.778" layer="97" rot="MR0"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
-<pinref part="U1" gate="G$1" pin="3V3OUT"/>
-<wire x1="137.16" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="124.46" x2="132.08" y2="127" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCCIO"/>
-<wire x1="132.08" y1="127" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
-<junction x="132.08" y="127"/>
-</segment>
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="!RESET"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="137.16" y1="111.76" x2="134.62" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DGND" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY10" gate="1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="DGND"/>
-<pinref part="SUPPLY13" gate="1" pin="DGND"/>
-<wire x1="137.16" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY14" gate="1" pin="DGND"/>
-<wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="76.2" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="129.54" x2="76.2" y2="127" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="127" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="127" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<junction x="101.6" y="127"/>
-<pinref part="SUPPLY8" gate="1" pin="DGND"/>
-<junction x="91.44" y="127"/>
-<pinref part="C6" gate="G$1" pin="C"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="96.52" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="93.98" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<junction x="93.98" y="93.98"/>
-<pinref part="SUPPLY16" gate="1" pin="DGND"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<pinref part="SUPPLY6" gate="1" pin="DGND"/>
-<wire x1="68.58" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="78.74" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="76.2" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="76.2" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
-<junction x="88.9" y="76.2"/>
-<pinref part="SUPPLY30" gate="1" pin="DGND"/>
-</segment>
-</net>
-<net name="USB_P" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="USBD_P"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB_N" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="USBD_N"/>
-<wire x1="137.16" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="127" y1="116.84" x2="127" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="127" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="USB_CONN_P" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="119.38" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="DATA_P"/>
-<wire x1="88.9" y1="111.76" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
-<junction x="88.9" y="111.76"/>
-</segment>
-</net>
-<net name="USB_CONN_N" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="109.22" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
-<junction x="101.6" y="109.22"/>
-<pinref part="J1" gate="G$1" pin="DATA_N"/>
-</segment>
-</net>
-<net name="USB5V_FILTERED" class="0">
-<segment>
-<wire x1="134.62" y1="142.24" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="137.16" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="FB1" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="142.24" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="142.24" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
-<junction x="116.84" y="142.24"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="142.24" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
-<junction x="101.6" y="142.24"/>
-<pinref part="C6" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="USB5V" class="0">
-<segment>
-<pinref part="FB1" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="VCC"/>
-<wire x1="68.58" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="142.24" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
-<junction x="76.2" y="142.24"/>
-</segment>
-</net>
-<net name="CHASSIS" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
-<wire x1="68.58" y1="104.14" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="73.66" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="SUPPLY29" gate="G$1" pin="CHASSIS"/>
-<wire x1="68.58" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<junction x="68.58" y="91.44"/>
-<wire x1="73.66" y1="86.36" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
-<junction x="73.66" y="91.44"/>
-<wire x1="88.9" y1="91.44" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
@@ -4106,14 +4018,6 @@ To USB B Female</text>
 <attribute name="POWER" x="214.63" y="77.724" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="214.63" y="76.2" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="214.63" y="80.772" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="R7" gate="G$1" x="170.18" y="111.76" smashed="yes">
-<attribute name="NAME" x="168.91" y="113.792" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="168.656" y="109.728" size="1.27" layer="96" align="center-right"/>
-<attribute name="PACKAGE" x="168.656" y="108.204" size="1.27" layer="97" align="center-right"/>
-<attribute name="POWER" x="169.164" y="109.728" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="169.164" y="108.204" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="168.91" y="106.68" size="1.27" layer="97" align="center"/>
 </instance>
 <instance part="R8" gate="G$1" x="187.96" y="111.76" smashed="yes">
 <attribute name="NAME" x="186.69" y="113.792" size="1.27" layer="95" align="center"/>
@@ -4365,13 +4269,15 @@ To USB B Female</text>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="111.76" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 <junction x="160.02" y="111.76"/>
 <wire x1="160.02" y1="101.6" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="101.6" x2="175.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="91.44" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
 <junction x="160.02" y="101.6"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="172.72" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BAT_CHARGE_OUT" class="0">
@@ -4433,11 +4339,395 @@ To USB B Female</text>
 <junction x="20.32" y="116.84"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+</nets>
+</sheet>
+<sheet>
+<plain>
+<wire x1="167.64" y1="162.56" x2="167.64" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="167.64" y1="137.16" x2="137.16" y2="137.16" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="137.16" x2="137.16" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="137.16" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
+<text x="138.43" y="142.24" size="1.778" layer="97">CAD Note: Decoupling</text>
+<text x="168.91" y="129.54" size="1.778" layer="97" align="bottom-right">3B6&gt; </text>
+</plain>
+<instances>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+</instance>
+<instance part="U1" gate="G$1" x="149.86" y="116.84" smashed="yes">
+<attribute name="NAME" x="149.86" y="133.35" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="149.86" y="102.87" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="149.86" y="100.838" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J1" gate="G$1" x="58.42" y="109.22" smashed="yes">
+<attribute name="NAME" x="58.42" y="118.11" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="58.42" y="100.33" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="58.42" y="98.298" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="J2" gate="G$1" x="193.04" y="124.46" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="192.405" y="118.11" size="1.778" layer="96" rot="MR0" align="center"/>
+<attribute name="NAME" x="192.405" y="133.35" size="1.778" layer="95" rot="MR0" align="center"/>
+<attribute name="SKU" x="192.405" y="116.078" size="1.778" layer="97" rot="MR0" align="center"/>
+<attribute name="PACKAGE" x="192.405" y="114.046" size="1.778" layer="97" rot="MR0" align="center"/>
+</instance>
+<instance part="OFFSHEET1" gate="G$1" x="172.72" y="129.54" smashed="yes"/>
+<instance part="SUPPLY1" gate="G$1" x="180.34" y="119.38" smashed="yes"/>
+<instance part="C1" gate="G$1" x="152.4" y="152.4" smashed="yes">
+<attribute name="NAME" x="155.194" y="157.48" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="155.194" y="155.956" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="155.194" y="154.432" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="155.194" y="152.908" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="155.194" y="151.384" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="155.194" y="149.86" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="132.08" y="129.54" smashed="yes">
+<attribute name="VALUE" x="132.08" y="133.35" size="1.27" layer="96" rot="R180" align="center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="119.38" y="96.52" smashed="yes">
+<attribute name="VALUE" x="119.38" y="100.076" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="152.4" y="157.48" smashed="yes">
+<attribute name="VALUE" x="152.4" y="161.036" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY13" gate="1" x="134.62" y="104.14" smashed="yes"/>
+<instance part="SUPPLY14" gate="1" x="30.48" y="10.16" smashed="yes"/>
+<instance part="SUPPLY10" gate="1" x="152.4" y="147.32" smashed="yes"/>
+<instance part="R1" gate="G$1" x="30.48" y="17.78" smashed="yes">
+<attribute name="NAME" x="31.75" y="22.86" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="31.75" y="21.336" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="31.75" y="18.288" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="31.75" y="16.764" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="31.75" y="15.24" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="31.75" y="19.812" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY15" gate="G$1" x="20.32" y="10.16" smashed="yes"/>
+<instance part="R2" gate="G$1" x="116.84" y="119.38" smashed="yes">
+<attribute name="NAME" x="115.57" y="121.412" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="115.316" y="117.348" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="115.316" y="115.824" size="1.27" layer="97" align="center-right"/>
+<attribute name="POWER" x="115.824" y="117.348" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="115.824" y="115.824" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="115.57" y="114.3" size="1.27" layer="97" align="center"/>
+</instance>
+<instance part="R3" gate="G$1" x="116.84" y="109.22" smashed="yes">
+<attribute name="NAME" x="115.57" y="111.252" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="115.316" y="107.188" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="115.316" y="105.664" size="1.27" layer="97" align="center-right"/>
+<attribute name="POWER" x="115.824" y="107.188" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="115.824" y="105.664" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="115.57" y="104.14" size="1.27" layer="97" align="center"/>
+</instance>
+<instance part="C2" gate="G$1" x="101.6" y="99.06" smashed="yes">
+<attribute name="NAME" x="104.394" y="104.14" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="104.394" y="102.616" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="104.394" y="101.092" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="104.394" y="99.568" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="104.394" y="98.044" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="104.394" y="96.52" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="C3" gate="G$1" x="88.9" y="99.06" smashed="yes">
+<attribute name="NAME" x="91.694" y="104.14" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="91.694" y="102.616" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="91.694" y="101.092" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="91.694" y="99.568" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="91.694" y="98.044" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="91.694" y="96.52" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="FB1" gate="G$1" x="93.98" y="142.24" smashed="yes">
+<attribute name="NAME" x="92.71" y="144.78" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="92.456" y="140.208" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="92.964" y="140.208" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="92.456" y="138.684" size="1.27" layer="97" align="center-right"/>
+<attribute name="DCR" x="92.964" y="138.684" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="92.71" y="137.16" size="1.27" layer="97" align="center"/>
+</instance>
+<instance part="C4" gate="G$1" x="101.6" y="132.08" smashed="yes">
+<attribute name="NAME" x="104.394" y="137.16" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="104.394" y="135.636" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="104.394" y="134.112" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="104.394" y="132.588" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="104.394" y="131.064" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="104.394" y="129.54" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="C5" gate="G$1" x="76.2" y="132.08" smashed="yes">
+<attribute name="NAME" x="78.994" y="137.16" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="78.994" y="135.636" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="78.994" y="134.112" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="78.994" y="132.588" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="78.994" y="131.064" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="78.994" y="129.54" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY8" gate="1" x="91.44" y="124.46" smashed="yes"/>
+<instance part="SUPPLY16" gate="1" x="93.98" y="91.44" smashed="yes"/>
+<instance part="SUPPLY6" gate="1" x="73.66" y="104.14" smashed="yes"/>
+<instance part="SUPPLY29" gate="G$1" x="68.58" y="71.12" smashed="yes"/>
+<instance part="C12" gate="G$1" x="73.66" y="81.28" smashed="yes">
+<attribute name="NAME" x="76.454" y="86.36" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="76.454" y="84.836" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="76.454" y="83.312" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="76.454" y="81.788" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="76.454" y="80.264" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="76.454" y="78.74" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="R13" gate="G$1" x="88.9" y="81.28" smashed="yes">
+<attribute name="NAME" x="90.17" y="86.36" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="90.17" y="84.836" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="90.17" y="81.788" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="90.17" y="80.264" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="90.17" y="78.74" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="90.17" y="83.312" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY30" gate="1" x="88.9" y="71.12" smashed="yes"/>
+<instance part="C6" gate="G$1" x="116.84" y="132.08" smashed="yes">
+<attribute name="NAME" x="119.634" y="137.16" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="119.634" y="135.636" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="119.634" y="134.112" size="1.27" layer="97" align="center-left"/>
+<attribute name="PACKAGE" x="119.634" y="132.588" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="119.634" y="131.064" size="1.27" layer="97" align="center-left"/>
+<attribute name="ESR" x="119.634" y="129.54" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="R7" gate="G$1" x="124.46" y="91.44" smashed="yes">
+<attribute name="NAME" x="123.19" y="93.472" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="122.936" y="89.408" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="122.936" y="87.884" size="1.27" layer="97" align="center-right"/>
+<attribute name="POWER" x="123.444" y="89.408" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="123.444" y="87.884" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="123.19" y="86.36" size="1.27" layer="97" align="center"/>
+</instance>
+<instance part="C8" gate="G$1" x="139.7" y="91.44" smashed="yes">
+<attribute name="NAME" x="138.43" y="94.742" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="138.176" y="88.138" size="1.27" layer="96" align="center-right"/>
+<attribute name="SKU" x="138.43" y="85.09" size="1.27" layer="97" align="center"/>
+<attribute name="PACKAGE" x="138.684" y="88.138" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="138.176" y="86.614" size="1.27" layer="97" align="center-right"/>
+<attribute name="TEMP" x="138.684" y="86.614" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY7" gate="1" x="149.86" y="86.36" smashed="yes"/>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="UMB_IN" class="0">
 <segment>
-<wire x1="172.72" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="129.54" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
+<label x="185.42" y="129.54" size="1.778" layer="97" rot="MR0"/>
+</segment>
+</net>
+<net name="PGND" class="0">
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="PGND"/>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="180.34" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="20.32" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="PGND"/>
+<wire x1="20.32" y1="25.4" x2="20.32" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UMB_RX" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
+<wire x1="185.42" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
+<label x="185.42" y="127" size="1.778" layer="97" rot="MR0"/>
+</segment>
+</net>
+<net name="UMB_TX" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
+<wire x1="185.42" y1="124.46" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<label x="185.42" y="124.46" size="1.778" layer="97" rot="MR0"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+<pinref part="U1" gate="G$1" pin="3V3OUT"/>
+<wire x1="137.16" y1="124.46" x2="132.08" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="124.46" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCCIO"/>
+<wire x1="132.08" y1="127" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="127" x2="132.08" y2="127" width="0.1524" layer="91"/>
+<junction x="132.08" y="127"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="96.52" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DGND" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="SUPPLY10" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="DGND"/>
+<pinref part="SUPPLY13" gate="1" pin="DGND"/>
+<wire x1="137.16" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY14" gate="1" pin="DGND"/>
+<wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="76.2" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="127" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="127" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<junction x="101.6" y="127"/>
+<pinref part="SUPPLY8" gate="1" pin="DGND"/>
+<junction x="91.44" y="127"/>
+<pinref part="C6" gate="G$1" pin="C"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="96.52" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="93.98" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<junction x="93.98" y="93.98"/>
+<pinref part="SUPPLY16" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY6" gate="1" pin="DGND"/>
+<wire x1="68.58" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="73.66" width="0.1524" layer="91"/>
+<junction x="88.9" y="76.2"/>
+<pinref part="SUPPLY30" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="91.44" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="1" pin="DGND"/>
+</segment>
+</net>
+<net name="USB_P" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="USBD_P"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_N" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="USBD_N"/>
+<wire x1="137.16" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="127" y1="116.84" x2="127" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="127" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_CONN_P" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="119.38" x2="88.9" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="119.38" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="DATA_P"/>
+<wire x1="88.9" y1="111.76" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
+<junction x="88.9" y="111.76"/>
+</segment>
+</net>
+<net name="USB_CONN_N" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="109.22" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="109.22" x2="68.58" y2="109.22" width="0.1524" layer="91"/>
+<junction x="101.6" y="109.22"/>
+<pinref part="J1" gate="G$1" pin="DATA_N"/>
+</segment>
+</net>
+<net name="USB5V_FILTERED" class="0">
+<segment>
+<wire x1="134.62" y1="142.24" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="137.16" y1="129.54" x2="134.62" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="FB1" gate="G$1" pin="2"/>
+<wire x1="134.62" y1="142.24" x2="116.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="142.24" x2="101.6" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="142.24" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
+<junction x="116.84" y="142.24"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="142.24" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
+<junction x="101.6" y="142.24"/>
+<pinref part="C6" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="USB5V" class="0">
+<segment>
+<pinref part="FB1" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="142.24" x2="76.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="142.24" x2="76.2" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="68.58" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="142.24" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
+<junction x="76.2" y="142.24"/>
+</segment>
+</net>
+<net name="CHASSIS" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="SHIELD"/>
+<wire x1="68.58" y1="104.14" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="73.66" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="SUPPLY29" gate="G$1" pin="CHASSIS"/>
+<wire x1="68.58" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<junction x="68.58" y="91.44"/>
+<wire x1="73.66" y1="86.36" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
+<junction x="73.66" y="91.44"/>
+<wire x1="88.9" y1="91.44" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
+<wire x1="127" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
+<junction x="132.08" y="91.44"/>
+<pinref part="U1" gate="G$1" pin="!RESET"/>
+<wire x1="137.16" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
