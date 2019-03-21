@@ -3727,9 +3727,9 @@ Last character is an incremented letter for each variant of the same value and p
 Page 2: Battery Charger
 Page 3: Serial Transciever
 Page 4: Mechanical</text>
-<wire x1="30.48" y1="114.3" x2="33.02" y2="78.74" width="0.254" layer="94"/>
-<wire x1="33.02" y1="78.74" x2="78.74" y2="78.74" width="0.254" layer="94"/>
-<wire x1="78.74" y1="78.74" x2="76.2" y2="114.3" width="0.254" layer="94"/>
+<wire x1="30.48" y1="114.3" x2="30.48" y2="78.74" width="0.254" layer="94"/>
+<wire x1="30.48" y1="78.74" x2="76.2" y2="78.74" width="0.254" layer="94"/>
+<wire x1="76.2" y1="78.74" x2="76.2" y2="114.3" width="0.254" layer="94"/>
 <wire x1="76.2" y1="114.3" x2="30.48" y2="114.3" width="0.254" layer="94"/>
 <text x="53.34" y="99.06" size="3.81" layer="94" align="center">Connector:
 To CougSat</text>
@@ -4167,14 +4167,14 @@ To USB B Female</text>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="CHARGING_STAT_G_LED" class="0">
 <segment>
 <pinref part="DS1" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="CHARGING_STAT_R_LED" class="0">
 <segment>
 <pinref part="DS2" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="91.44" x2="27.94" y2="91.44" width="0.1524" layer="91"/>
