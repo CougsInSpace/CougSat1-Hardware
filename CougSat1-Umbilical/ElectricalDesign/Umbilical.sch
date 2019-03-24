@@ -538,17 +538,6 @@ Space EE</text>
 <wire x1="2.54" y1="0" x2="1.524" y2="1.016" width="0.254" layer="94"/>
 <text x="0" y="0" size="1.27" layer="97" align="center">IN</text>
 </symbol>
-<symbol name="OFF_SHEET-BI">
-<description>&lt;h3&gt;Off Sheet Connector - Bidirectional&lt;/h3&gt;
-&lt;p&gt;Used to indicate a signal is connected on a different sheet&lt;/h3&gt;</description>
-<wire x1="-1.524" y1="-1.016" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="1.524" y1="1.016" x2="-1.524" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.524" y2="1.016" width="0.254" layer="94"/>
-<text x="0" y="0" size="1.27" layer="97" align="center">BI</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A" prefix="FRAME">
@@ -570,20 +559,6 @@ Space EE</text>
 &lt;p&gt;Used to indicate a signal is connected on a different sheet&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="OFF_SHEET-IN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OFF_SHEET-BI" prefix="OFFSHEET">
-<description>&lt;h3&gt;Off Sheet Connector - Bidirectional&lt;/h3&gt;
-&lt;p&gt;Used to indicate a signal is connected on a different sheet&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="OFF_SHEET-BI" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -3724,8 +3699,8 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TITLE" value="Serial Transceiver"/>
 </part>
 <part name="U1" library="CougsInSpace-IC-Conversion" deviceset="FT230X" device="-QFN16" value="FT230XQ"/>
-<part name="J1" library="CougsInSpace-Connectors" deviceset="USB" device="-B-FEMALE"/>
-<part name="J2" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK"/>
+<part name="J1" library="CougsInSpace-Connectors" deviceset="USB" device="-B-FEMALE" value="USB"/>
+<part name="J2" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Umbilical"/>
 <part name="OFFSHEET1" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY1" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="C1" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
@@ -3793,7 +3768,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-POL-V" device="-4028" technology="-4.7UF" value="4.7µF 10%"/>
 <part name="R5" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
 <part name="R6" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
-<part name="OFFSHEET2" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="R10" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="R8" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
 <part name="R7" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
@@ -3805,7 +3779,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="TP4" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 <part name="TP5" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 <part name="TP6" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
-<part name="TP7" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -4098,7 +4071,6 @@ To USB B Female</text>
 <attribute name="TEMP" x="24.384" y="75.184" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="24.13" y="73.66" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="OFFSHEET2" gate="G$1" x="246.38" y="111.76" smashed="yes"/>
 <instance part="R10" gate="G$1" x="213.36" y="78.74" smashed="yes">
 <attribute name="NAME" x="214.63" y="83.82" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="214.63" y="82.296" size="1.27" layer="96" align="center-left"/>
@@ -4107,13 +4079,13 @@ To USB B Female</text>
 <attribute name="TEMP" x="214.63" y="76.2" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="214.63" y="80.772" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="R8" gate="G$1" x="187.96" y="111.76" smashed="yes">
-<attribute name="NAME" x="186.69" y="113.792" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="186.436" y="109.728" size="1.27" layer="96" align="center-right"/>
-<attribute name="PACKAGE" x="186.436" y="108.204" size="1.27" layer="97" align="center-right"/>
-<attribute name="POWER" x="186.944" y="109.728" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="186.944" y="108.204" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="186.69" y="106.68" size="1.27" layer="97" align="center"/>
+<instance part="R8" gate="G$1" x="180.34" y="111.76" smashed="yes">
+<attribute name="NAME" x="179.07" y="113.792" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="178.816" y="109.728" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="178.816" y="108.204" size="1.27" layer="97" align="center-right"/>
+<attribute name="POWER" x="179.324" y="109.728" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="179.324" y="108.204" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="179.07" y="106.68" size="1.27" layer="97" align="center"/>
 </instance>
 <instance part="TP1" gate="G$1" x="43.18" y="170.18" smashed="yes">
 <attribute name="NAME" x="41.656" y="171.704" size="1.27" layer="95" align="center"/>
@@ -4391,16 +4363,15 @@ To USB B Female</text>
 <junction x="160.02" y="101.6"/>
 <wire x1="172.72" y1="111.76" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BAT_CHARGE_OUT" class="0">
+<net name="UMB_IN" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="SR_N"/>
 <wire x1="81.28" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="101.6" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="111.76" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="182.88" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="101.6" x2="195.58" y2="111.76" width="0.1524" layer="91"/>
@@ -4430,6 +4401,8 @@ To USB B Female</text>
 <wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="114.3" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="223.52" y="111.76"/>
+<junction x="208.28" y="111.76"/>
+<label x="233.68" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VFB" class="0">
@@ -4468,7 +4441,7 @@ To USB B Female</text>
 <wire x1="137.16" y1="137.16" x2="137.16" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="162.56" x2="167.64" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
 <text x="138.43" y="142.24" size="1.778" layer="97">CAD Note: Decoupling</text>
-<text x="168.91" y="129.54" size="1.778" layer="97" align="bottom-right">3B6&gt; </text>
+<text x="170.18" y="129.54" size="1.27" layer="97" align="center-right">3B6&gt; </text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -4620,23 +4593,20 @@ To USB B Female</text>
 <attribute name="TEMP" x="123.444" y="87.884" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="123.19" y="86.36" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="C8" gate="G$1" x="139.7" y="91.44" smashed="yes">
-<attribute name="NAME" x="138.43" y="94.742" size="1.27" layer="95" align="center"/>
-<attribute name="VALUE" x="138.176" y="88.138" size="1.27" layer="96" align="center-right"/>
-<attribute name="SKU" x="138.43" y="85.09" size="1.27" layer="97" align="center"/>
-<attribute name="PACKAGE" x="138.684" y="88.138" size="1.27" layer="97" align="center-left"/>
-<attribute name="VOLTAGE" x="138.176" y="86.614" size="1.27" layer="97" align="center-right"/>
-<attribute name="TEMP" x="138.684" y="86.614" size="1.27" layer="97" align="center-left"/>
+<instance part="C8" gate="G$1" x="144.78" y="91.44" smashed="yes">
+<attribute name="NAME" x="143.51" y="94.742" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="143.256" y="88.138" size="1.27" layer="96" align="center-right"/>
+<attribute name="SKU" x="143.51" y="85.09" size="1.27" layer="97" align="center"/>
+<attribute name="PACKAGE" x="143.764" y="88.138" size="1.27" layer="97" align="center-left"/>
+<attribute name="VOLTAGE" x="143.256" y="86.614" size="1.27" layer="97" align="center-right"/>
+<attribute name="TEMP" x="143.764" y="86.614" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY7" gate="1" x="149.86" y="86.36" smashed="yes"/>
-<instance part="TP5" gate="G$1" x="73.66" y="144.78" smashed="yes" rot="MR180">
-<attribute name="NAME" x="72.136" y="143.256" size="1.27" layer="95" rot="MR180" align="center"/>
+<instance part="TP5" gate="G$1" x="73.66" y="144.78" smashed="yes">
+<attribute name="NAME" x="72.136" y="146.304" size="1.27" layer="95" align="center"/>
 </instance>
 <instance part="TP6" gate="G$1" x="127" y="144.78" smashed="yes">
 <attribute name="NAME" x="125.476" y="146.304" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="TP7" gate="G$1" x="172.72" y="114.3" smashed="yes">
-<attribute name="NAME" x="171.196" y="115.824" size="1.27" layer="95" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -4757,7 +4727,7 @@ To USB B Female</text>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="1" pin="DGND"/>
 </segment>
@@ -4855,12 +4825,12 @@ To USB B Female</text>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="USB_RESET" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="127" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="91.44" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
 <junction x="132.08" y="91.44"/>
 <pinref part="U1" gate="G$1" pin="!RESET"/>
