@@ -8,3 +8,8 @@ OldVersions/
 
 # Microsoft Temp Files
 *~$*
+
+#  LTSpice Simulation Results
+*.log*
+*.raw*
+*.plt*
