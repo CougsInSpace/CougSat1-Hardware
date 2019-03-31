@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2209,10 +2209,10 @@ Last character is an incremented letter for each variant of the same value and p
 </library>
 </libraries>
 <attributes>
-<attribute name="DESIGNER" value="Bradley L. Davis"/>
+<attribute name="DESIGNER" value="Hendrik Melse"/>
 <attribute name="PART_NUMBER" value="68-0005"/>
 <attribute name="PROJECT" value="CougSat-1: Backplane"/>
-<attribute name="REV" value="2.1.2"/>
+<attribute name="REV" value="3.0.0"/>
 </attributes>
 <variantdefs>
 </variantdefs>
