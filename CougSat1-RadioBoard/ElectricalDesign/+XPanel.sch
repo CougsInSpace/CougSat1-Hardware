@@ -2618,7 +2618,9 @@ under the package</text>
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
-<part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device=""/>
+<part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="TITLE" value="Photodiode"/>
+</part>
 <part name="U1" library="CougsInSpace-IC-Conversion" deviceset="LTC2499" device="" value="LTC2499"/>
 <part name="SUPPLY1" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY2" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -2647,7 +2649,9 @@ under the package</text>
 <part name="OFFSHEET2" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET3" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET4" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device=""/>
+<part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="TITLE" value="Antennae"/>
+</part>
 <part name="SUPPLY14" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY15" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="J2" library="CougsInSpace-Connectors" deviceset="1X01" device="-SOCKET-0.38~0.56MM" value="Low Gain +"/>
@@ -2667,9 +2671,11 @@ under the package</text>
 <part name="R9" library="CougsInSpace-Resistors" deviceset="RES-V" device="-THT-15MM" technology="-15R" value="15Ω 5%"/>
 <part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="OFFSHEET5" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET6" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET7" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET8" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="FRAME4" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="TITLE" value="Mechanical"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -2797,6 +2803,7 @@ in the center of the board</text>
 <attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
 <instance part="U1" gate="G$1" x="81.28" y="149.86" smashed="yes">
 <attribute name="NAME" x="81.28" y="179.07" size="1.778" layer="95" align="center"/>
@@ -3178,6 +3185,7 @@ in the center of the board</text>
 <attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
 <instance part="J2" gate="G$1" x="33.02" y="180.34" smashed="yes">
 <attribute name="VALUE" x="33.655" y="176.53" size="1.778" layer="96" align="center"/>
@@ -3263,7 +3271,6 @@ in the center of the board</text>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="86.36" y="71.12" smashed="yes"/>
 <instance part="OFFSHEET5" gate="G$1" x="78.74" y="83.82" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET6" gate="G$1" x="78.74" y="81.28" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET7" gate="G$1" x="33.02" y="109.22" smashed="yes" rot="MR270"/>
 <instance part="OFFSHEET8" gate="G$1" x="33.02" y="58.42" smashed="yes" rot="R90"/>
 </instances>
@@ -3353,11 +3360,11 @@ in the center of the board</text>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <junction x="86.36" y="76.2"/>
-</segment>
-<segment>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="63.5" y="81.28" size="1.778" layer="95"/>
+<wire x1="76.2" y1="81.28" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="H4" gate="G$1" pin="MOUNT"/>
@@ -3387,7 +3394,32 @@ in the center of the board</text>
 </net>
 </nets>
 </sheet>
+<sheet>
+<plain>
+<text x="121.92" y="106.68" size="10.16" layer="91">Finish after layout</text>
+</plain>
+<instances>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="PART_NUMBER" x="257.81" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="PROJECT" x="227.33" y="13.97" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="DESIGNER" x="227.33" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="LAST_DATE_TIME" x="227.33" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="REV" x="257.81" y="7.62" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+<attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
 </sheets>
+<errors>
+<approved hash="104,2,66.04,175.26,U1,VCC,3.3V,,,"/>
+<approved hash="113,2,178.664,174.593,J1,,,,,"/>
+<approved hash="113,3,56.7439,83.1528,J6,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
