@@ -10838,10 +10838,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY246" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY247" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="U27" library="CougsInSpace-IC-Power" deviceset="LM2776" device="" value="LM2776"/>
-<part name="C98" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
+<part name="C98" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="SUPPLY251" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="C142" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
-<part name="C106" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
+<part name="C142" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
+<part name="C106" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="SUPPLY218" library="CougsInSpace-PowerSymbols" deviceset="AVDD-NEG" device=""/>
 <part name="FB7" library="CougsInSpace-Coils" deviceset="CHOKE-H" device="-1608" technology="-1.5K" value="1.5kΩ @ 100MHz"/>
 <part name="C92" library="CougsInSpace-Capacitors" deviceset="CAP-POL-V" device="-4028" technology="-4.7UF" value="4.7µF 10%"/>
@@ -11095,8 +11095,8 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="Z1" library="CougsInSpace-Coils" deviceset="BALUN-SCT" device="-SM-22" technology="-ETK42T" value="Balun 1:4"/>
 <part name="C107" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
 <part name="C124" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-100PF" value="100pF 1%"/>
-<part name="C117" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF" value="1µF 10%"/>
-<part name="C105" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
+<part name="C117" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF-B" value="1µF 10%"/>
+<part name="C105" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C90" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C108" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="OFFSHEET197" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
