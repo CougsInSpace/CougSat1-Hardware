@@ -5429,13 +5429,11 @@ Page 5: Mechanical</text>
 <sheet>
 <plain>
 <wire x1="5.08" y1="60.96" x2="5.08" y2="12.7" width="0.254" layer="97" style="shortdash"/>
-<wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="97" style="shortdash"/>
-<wire x1="25.4" y1="12.7" x2="48.26" y2="12.7" width="0.254" layer="97" style="shortdash"/>
+<wire x1="5.08" y1="12.7" x2="48.26" y2="12.7" width="0.254" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="12.7" x2="48.26" y2="60.96" width="0.254" layer="97" style="shortdash"/>
 <wire x1="48.26" y1="60.96" x2="5.08" y2="60.96" width="0.254" layer="97" style="shortdash"/>
 <text x="25.4" y="63.5" size="1.778" layer="97" align="center">CAD Note: Mounting Holes</text>
-<wire x1="90" y1="150" x2="131.5" y2="150" width="0.254" layer="94"/>
-<wire x1="131.5" y1="150" x2="173" y2="150" width="0.254" layer="94"/>
+<wire x1="90" y1="150" x2="173" y2="150" width="0.254" layer="94"/>
 <wire x1="173" y1="150" x2="173" y2="64" width="0.254" layer="94"/>
 <wire x1="173" y1="64" x2="90" y2="64" width="0.254" layer="94"/>
 <wire x1="90" y1="64" x2="90" y2="150" width="0.254" layer="94"/>
