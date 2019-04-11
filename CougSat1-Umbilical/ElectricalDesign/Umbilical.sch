@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,26 +53,26 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="9" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="9" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -570,127 +570,6 @@ Space EE</text>
 </deviceset>
 </devicesets>
 </library>
-<library name="CougsInSpace-IC-Conversion">
-<description>&lt;h3&gt;Conversion ICs&lt;/h3&gt;
-&lt;p&gt;Analog to digital conversion, as well as digital to analog. This includes not only strict ADCs, but audio in and out converters, decoders, thermocouple measurement ics the like. Anything that is a single part that works between the two domains goes here.&lt;/p&gt;
-&lt;p&gt;SKUs&lt;br&gt;
-27-xxxx: Conversion ICs</description>
-<packages>
-<package name="QFN-16-4040">
-<description>&lt;h3&gt;Quad Flat No-Leads (QFN) - 16 pins - 4.0 x 4.0 mm&lt;/h3&gt;</description>
-<smd name="2" x="-1.8" y="0.325" dx="0.8" dy="0.28" layer="1"/>
-<smd name="1" x="-1.8" y="0.975" dx="0.8" dy="0.28" layer="1"/>
-<smd name="3" x="-1.8" y="-0.325" dx="0.8" dy="0.28" layer="1"/>
-<smd name="4" x="-1.8" y="-0.975" dx="0.8" dy="0.28" layer="1"/>
-<smd name="5" x="-0.975" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
-<smd name="6" x="-0.325" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
-<smd name="7" x="0.325" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
-<smd name="8" x="0.975" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
-<smd name="9" x="1.8" y="-0.975" dx="0.8" dy="0.28" layer="1" rot="R180"/>
-<smd name="10" x="1.8" y="-0.325" dx="0.8" dy="0.28" layer="1" rot="R180"/>
-<smd name="11" x="1.8" y="0.325" dx="0.8" dy="0.28" layer="1" rot="R180"/>
-<smd name="12" x="1.8" y="0.975" dx="0.8" dy="0.28" layer="1" rot="R180"/>
-<smd name="13" x="0.975" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
-<smd name="14" x="0.325" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
-<smd name="15" x="-0.325" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
-<smd name="16" x="-0.975" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
-<smd name="PAD" x="0" y="0" dx="2.1" dy="2.1" layer="1"/>
-<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.15" layer="51"/>
-<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.15" layer="51"/>
-<wire x1="2" y1="-2" x2="2" y2="2" width="0.15" layer="51"/>
-<wire x1="2" y1="2" x2="-2" y2="2" width="0.15" layer="51"/>
-<wire x1="-2" y1="-1.325" x2="-2" y2="-2" width="0.15" layer="21"/>
-<wire x1="-2" y1="-2" x2="-1.325" y2="-2" width="0.15" layer="21"/>
-<wire x1="1.325" y1="-2" x2="2" y2="-2" width="0.15" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="-1.325" width="0.15" layer="21"/>
-<wire x1="2" y1="1.325" x2="2" y2="2" width="0.15" layer="21"/>
-<wire x1="2" y1="2" x2="1.325" y2="2" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2" y="2"/>
-<vertex x="-2" y="1.325"/>
-<vertex x="-1.325" y="2"/>
-</polygon>
-<wire x1="-2.525" y1="2.525" x2="-2.525" y2="-2.525" width="0.15" layer="21"/>
-<wire x1="-2.525" y1="-2.525" x2="2.525" y2="-2.525" width="0.15" layer="21"/>
-<wire x1="2.525" y1="-2.525" x2="2.525" y2="2.525" width="0.15" layer="21"/>
-<wire x1="2.525" y1="2.525" x2="-2.525" y2="2.525" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2.525" y="2.525"/>
-<vertex x="-2.525" y="1.375"/>
-<vertex x="-1.375" y="2.525"/>
-</polygon>
-<text x="0" y="3.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-2.525" y1="2.525" x2="2.525" y2="2.525" width="0.15" layer="39"/>
-<wire x1="2.525" y1="2.525" x2="2.525" y2="-2.525" width="0.15" layer="39"/>
-<wire x1="2.525" y1="-2.525" x2="-2.525" y2="-2.525" width="0.15" layer="39"/>
-<wire x1="-2.525" y1="-2.525" x2="-2.525" y2="2.525" width="0.15" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FT230X">
-<description>&lt;h3&gt;FT230x USB/UART Bridge&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/CougsInSpace/Resources/blob/master/SupplierDocuments/FTDI/FT230X_USB-UARTBridge.pdf"&gt;FT230x&lt;/a&gt;&lt;/p&gt;</description>
-<pin name="USBD_P" x="-12.7" y="2.54" length="short"/>
-<pin name="USBD_N" x="-12.7" y="0" length="short"/>
-<pin name="!RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
-<pin name="3V3OUT" x="-12.7" y="7.62" length="short" direction="out"/>
-<pin name="TXD" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
-<pin name="RXD" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
-<pin name="CTS" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="RTS" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
-<pin name="CBUS0" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="CBUS1" x="12.7" y="-5.08" length="short" rot="R180"/>
-<pin name="CBUS2" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="CBUS3" x="12.7" y="-10.16" length="short" rot="R180"/>
-<pin name="VCCIO" x="-12.7" y="10.16" length="short" direction="pwr"/>
-<pin name="VCC" x="-12.7" y="12.7" length="short" direction="pwr"/>
-<pin name="DGND" x="-12.7" y="-10.16" length="short" direction="pwr"/>
-<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
-<text x="0" y="16.51" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-13.97" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<text x="0" y="-16.002" size="1.778" layer="97" align="center">&gt;SKU</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FT230X" prefix="U">
-<description>&lt;h3&gt;FT230x USB/UART Bridge&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/CougsInSpace/Resources/blob/master/SupplierDocuments/FTDI/FT230X_USB-UARTBridge.pdf"&gt;FT230x&lt;/a&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="FT230X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-QFN16" package="QFN-16-4040">
-<connects>
-<connect gate="G$1" pin="!RESET" pad="9"/>
-<connect gate="G$1" pin="3V3OUT" pad="8"/>
-<connect gate="G$1" pin="CBUS0" pad="12"/>
-<connect gate="G$1" pin="CBUS1" pad="11"/>
-<connect gate="G$1" pin="CBUS2" pad="5"/>
-<connect gate="G$1" pin="CBUS3" pad="14"/>
-<connect gate="G$1" pin="CTS" pad="4"/>
-<connect gate="G$1" pin="DGND" pad="3 13 PAD"/>
-<connect gate="G$1" pin="RTS" pad="16"/>
-<connect gate="G$1" pin="RXD" pad="2"/>
-<connect gate="G$1" pin="TXD" pad="15"/>
-<connect gate="G$1" pin="USBD_N" pad="7"/>
-<connect gate="G$1" pin="USBD_P" pad="6"/>
-<connect gate="G$1" pin="VCC" pad="10"/>
-<connect gate="G$1" pin="VCCIO" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="SKU" value="27-0003" constant="no"/>
-<attribute name="VALUE" value="FT230XQ" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="CougsInSpace-Connectors">
 <description>&lt;h3&gt;Connectors&lt;/h3&gt;
 &lt;p&gt;Various PTH and SMD connectors. Also has test points.&lt;/p&gt;
@@ -943,7 +822,7 @@ Normal closed switch</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="SKU" value="05-0004" constant="no"/>
+<attribute name="SKU" value="05-0004"/>
 </technology>
 </technologies>
 </device>
@@ -986,7 +865,7 @@ Normal closed switch</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="SKU" value="05-0005" constant="no"/>
+<attribute name="SKU" value="05-0005"/>
 </technology>
 </technologies>
 </device>
@@ -1808,25 +1687,25 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-10UF">
-<attribute name="ESR" value="Max 850Ω" constant="no"/>
-<attribute name="PACKAGE" value="Tant-B" constant="no"/>
-<attribute name="SKU" value="16-106A" constant="no"/>
-<attribute name="VALUE" value="10µF" constant="no"/>
-<attribute name="VOLTAGE" value="20V" constant="no"/>
+<attribute name="ESR" value="Max 850Ω"/>
+<attribute name="PACKAGE" value="Tant-B"/>
+<attribute name="SKU" value="16-106A"/>
+<attribute name="VALUE" value="10µF"/>
+<attribute name="VOLTAGE" value="20V"/>
 </technology>
 <technology name="-4.7UF">
-<attribute name="ESR" value="Max 900mΩ" constant="no"/>
-<attribute name="PACKAGE" value="Tant-B" constant="no"/>
-<attribute name="SKU" value="16-475A" constant="no"/>
-<attribute name="VALUE" value="4.7µF 10%" constant="no"/>
-<attribute name="VOLTAGE" value="20V" constant="no"/>
+<attribute name="ESR" value="Max 900mΩ"/>
+<attribute name="PACKAGE" value="Tant-B"/>
+<attribute name="SKU" value="16-475A"/>
+<attribute name="VALUE" value="4.7µF 10%"/>
+<attribute name="VOLTAGE" value="20V"/>
 </technology>
 <technology name="-47UF">
-<attribute name="ESR" value="Max 400mΩ" constant="no"/>
-<attribute name="PACKAGE" value="Tant-B" constant="no"/>
-<attribute name="SKU" value="16-476A" constant="no"/>
-<attribute name="VALUE" value="47µF" constant="no"/>
-<attribute name="VOLTAGE" value="10V" constant="no"/>
+<attribute name="ESR" value="Max 400mΩ"/>
+<attribute name="PACKAGE" value="Tant-B"/>
+<attribute name="SKU" value="16-476A"/>
+<attribute name="VALUE" value="47µF"/>
+<attribute name="VOLTAGE" value="10V"/>
 </technology>
 </technologies>
 </device>
@@ -1837,11 +1716,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-220UF">
-<attribute name="ESR" value="Max 80mΩ" constant="no"/>
-<attribute name="PACKAGE" value="Tant-C" constant="no"/>
-<attribute name="SKU" value="16-227A" constant="no"/>
-<attribute name="VALUE" value="220µF 10%" constant="no"/>
-<attribute name="VOLTAGE" value="6.3V" constant="no"/>
+<attribute name="ESR" value="Max 80mΩ"/>
+<attribute name="PACKAGE" value="Tant-C"/>
+<attribute name="SKU" value="16-227A"/>
+<attribute name="VALUE" value="220µF 10%"/>
+<attribute name="VOLTAGE" value="6.3V"/>
 </technology>
 </technologies>
 </device>
@@ -2792,26 +2671,6 @@ Last character is an incremented letter for each variant of the same value and p
 &lt;p&gt;Inductors: First 3 characters in SKU is the value in nH (i.e. 224 = 22*10^4nH = 220µH)&lt;br&gt;
 Last character is an incremented letter for each variant of the same value and package A-Z. Namely different temperature and or voltage ratings&lt;/p&gt;</description>
 <packages>
-<package name="1608">
-<description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
-<wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
-<wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
-<smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
-<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
-</package>
 <package name="7575">
 <description>&lt;h3&gt;SMD 7.5 x 7.5 mm &lt;/h3&gt;
 &lt;p&gt;Coilcraft XAL7030&lt;/p&gt;</description>
@@ -2944,6 +2803,26 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="3.625" y1="-3.65" x2="3.625" y2="3.65" width="0.15" layer="39"/>
 <wire x1="3.625" y1="3.65" x2="-3.625" y2="3.65" width="0.15" layer="39"/>
 </package>
+<package name="1608">
+<description>&lt;h3&gt;1608 (0603 in)&lt;/h3&gt;</description>
+<wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
+<wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="0.145" y1="0.35" x2="-0.145" y2="0.35" width="0.15" layer="21"/>
+<wire x1="-0.145" y1="-0.35" x2="0.145" y2="-0.35" width="0.15" layer="21"/>
+<smd name="1" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
+<smd name="2" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
+<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CHOKE-H">
@@ -2995,11 +2874,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-1.5K">
-<attribute name="CURRENT" value="500mA" constant="no"/>
-<attribute name="DCR" value="500mΩ" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="36-152A" constant="no"/>
-<attribute name="VALUE" value="1.5kΩ @ 100MHz" constant="no"/>
+<attribute name="CURRENT" value="500mA"/>
+<attribute name="DCR" value="500mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="36-152A"/>
+<attribute name="VALUE" value="1.5kΩ @ 100MHz"/>
 </technology>
 </technologies>
 </device>
@@ -3017,19 +2896,26 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-1UH">
+<attribute name="CURRENT" value="22A"/>
+<attribute name="DCR" value="5.00mΩ"/>
+<attribute name="PACKAGE" value="7575"/>
+<attribute name="SKU" value="34-102A"/>
+<attribute name="VALUE" value="1.0µH 20%"/>
+</technology>
 <technology name="-3.3UH">
-<attribute name="CURRENT" value="10A" constant="no"/>
-<attribute name="DCR" value="21.45mΩ" constant="no"/>
-<attribute name="PACKAGE" value="7575" constant="no"/>
-<attribute name="SKU" value="34-332A" constant="no"/>
-<attribute name="VALUE" value="3.3µH 20%" constant="no"/>
+<attribute name="CURRENT" value="10A"/>
+<attribute name="DCR" value="21.45mΩ"/>
+<attribute name="PACKAGE" value="7575"/>
+<attribute name="SKU" value="34-332A"/>
+<attribute name="VALUE" value="3.3µH 20%"/>
 </technology>
 <technology name="-4.7UH">
-<attribute name="CURRENT" value="9A" constant="no"/>
-<attribute name="DCR" value="30mΩ" constant="no"/>
-<attribute name="PACKAGE" value="7575" constant="no"/>
-<attribute name="SKU" value="34-472A" constant="no"/>
-<attribute name="VALUE" value="4.7µH 20%" constant="no"/>
+<attribute name="CURRENT" value="9A"/>
+<attribute name="DCR" value="30.00mΩ"/>
+<attribute name="PACKAGE" value="7575"/>
+<attribute name="SKU" value="34-472A"/>
+<attribute name="VALUE" value="4.7µH 20%"/>
 </technology>
 </technologies>
 </device>
@@ -3040,11 +2926,11 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-10UH">
-<attribute name="CURRENT" value="1.8A" constant="no"/>
-<attribute name="DCR" value="100mΩ" constant="no"/>
-<attribute name="PACKAGE" value="6060" constant="no"/>
-<attribute name="SKU" value="34-103A" constant="no"/>
-<attribute name="VALUE" value="10µH 20%" constant="no"/>
+<attribute name="CURRENT" value="1.8A"/>
+<attribute name="DCR" value="100mΩ"/>
+<attribute name="PACKAGE" value="6060"/>
+<attribute name="SKU" value="34-103A"/>
+<attribute name="VALUE" value="10µH 20%"/>
 </technology>
 </technologies>
 </device>
@@ -3054,12 +2940,61 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-110NH">
+<attribute name="CURRENT" value="440mA"/>
+<attribute name="DCR" value="580mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-111A"/>
+<attribute name="VALUE" value="110nH 2%"/>
+</technology>
+<technology name="-15NH">
+<attribute name="CURRENT" value="2.2A"/>
+<attribute name="DCR" value="25mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-150A"/>
+<attribute name="VALUE" value="15nH 5%"/>
+</technology>
+<technology name="-22NH">
+<attribute name="CURRENT" value="700mA"/>
+<attribute name="DCR" value="190mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-220A"/>
+<attribute name="VALUE" value="22nH 2%"/>
+</technology>
+<technology name="-4.3NH">
+<attribute name="CURRENT" value="700mA"/>
+<attribute name="DCR" value="63mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-4.3A"/>
+<attribute name="VALUE" value="4.3nH 2%"/>
+</technology>
 <technology name="-4.7UH">
-<attribute name="CURRENT" value="620mA" constant="no"/>
-<attribute name="DCR" value="440mΩ" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="31-472A" constant="no"/>
-<attribute name="VALUE" value="4.7µH 20%" constant="no"/>
+<attribute name="CURRENT" value="620mA"/>
+<attribute name="DCR" value="440mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-472A"/>
+<attribute name="VALUE" value="4.7µH 20%"/>
+</technology>
+<technology name="-560NH">
+<attribute name="CURRENT" value="530mA"/>
+<attribute name="DCR" value="490mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-561A"/>
+<attribute name="VALUE" value="560nH 5%"/>
+</technology>
+<technology name="-7.5NH">
+<attribute name="CURRENT" value="750mA"/>
+<attribute name="DCR" value="82mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-7.5A"/>
+<attribute name="VALUE" value="7.5nH ±0.2nH"/>
+</technology>
+<technology name="-9.1NH">
+<attribute name="CURRENT" value="1.6A"/>
+<attribute name="DCR" value="52mΩ"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="31-9.1A"/>
+<attribute name="VALUE" value="9.1nH 2%"/>
 </technology>
 </technologies>
 </device>
@@ -3187,8 +3122,8 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="">
-<attribute name="SKU" value="60-0008" constant="no"/>
-<attribute name="VALUE" value="BQ24650" constant="no"/>
+<attribute name="SKU" value="60-0008"/>
+<attribute name="VALUE" value="BQ24650"/>
 </technology>
 </technologies>
 </device>
@@ -3369,7 +3304,7 @@ Last character is an incremented letter for each variant of the same value and p
 <pin name="IN" x="-10.16" y="2.54" visible="off" length="short" direction="pas"/>
 <pin name="OUT" x="10.16" y="2.54" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="CTL" x="10.16" y="-2.54" visible="pin" length="short" direction="in" rot="R180"/>
-<pin name="STAT" x="10.16" y="0" visible="pin" length="short" direction="out" rot="R180"/>
+<pin name="STAT" x="10.16" y="0" visible="pin" length="short" direction="oc" rot="R180"/>
 <pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short" direction="pwr"/>
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="2.54" width="0.254" layer="94"/>
@@ -3571,36 +3506,33 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in) - Polarized&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.85" x2="1.7" y2="0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.85" x2="1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.85" x2="-1.7" y2="-0.85" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.85" x2="-1.7" y2="0.85" width="0.15" layer="39"/>
+<wire x1="0" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
+<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
+<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
 <wire x1="0.145" y1="0.35" x2="0" y2="0.35" width="0.15" layer="21"/>
 <smd name="C" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="A" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<text x="0.011" y="1.412" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <polygon width="0.15" layer="21">
 <vertex x="0" y="-0.35"/>
-<vertex x="0" y="-0.85"/>
-<vertex x="-1.7" y="-0.85"/>
-<vertex x="-1.7" y="0.85"/>
-<vertex x="0" y="0.85"/>
+<vertex x="0" y="-0.825"/>
+<vertex x="-1.7" y="-0.825"/>
+<vertex x="-1.7" y="0.825"/>
+<vertex x="0" y="0.825"/>
 <vertex x="0" y="0.35"/>
 <vertex x="-0.15" y="0.35"/>
 <vertex x="-0.15" y="0.725"/>
-<vertex x="-0.275" y="0.725"/>
 <vertex x="-1.575" y="0.725"/>
-<vertex x="-1.575" y="-0.7"/>
 <vertex x="-1.575" y="-0.725"/>
-<vertex x="-0.45" y="-0.725"/>
 <vertex x="-0.15" y="-0.725"/>
 <vertex x="-0.15" y="-0.35"/>
 </polygon>
-<wire x1="1.7" y1="-0.85" x2="0" y2="-0.85" width="0.15" layer="21"/>
+<wire x1="1.7" y1="-0.825" x2="0" y2="-0.825" width="0.15" layer="21"/>
 <wire x1="0" y1="-0.35" x2="0.15" y2="-0.35" width="0.15" layer="21"/>
 <wire x1="-0.15" y1="0.35" x2="-0.15" y2="-0.35" width="0.15" layer="21"/>
 </package>
@@ -3645,32 +3577,153 @@ Last character is an incremented letter for each variant of the same value and p
 </connects>
 <technologies>
 <technology name="-BLU">
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="63-0004" constant="no"/>
-<attribute name="VALUE" value="Blue" constant="no"/>
-<attribute name="VF" value="3.3V" constant="no"/>
+<attribute name="CURRENT" value="20mA"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="63-0004"/>
+<attribute name="VALUE" value="Blue"/>
+<attribute name="VF" value="3.3V"/>
 </technology>
 <technology name="-GRN">
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="63-0001" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-<attribute name="VF" value="2.2V" constant="no"/>
+<attribute name="CURRENT" value="20mA"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="63-0001"/>
+<attribute name="VALUE" value="Green"/>
+<attribute name="VF" value="2.2V"/>
 </technology>
 <technology name="-RED">
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="63-0002" constant="no"/>
-<attribute name="VALUE" value="Red" constant="no"/>
-<attribute name="VF" value="2V" constant="no"/>
+<attribute name="CURRENT" value="20mA"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="63-0002"/>
+<attribute name="VALUE" value="Red"/>
+<attribute name="VF" value="2V"/>
 </technology>
 <technology name="-YLW">
-<attribute name="CURRENT" value="20mA" constant="no"/>
-<attribute name="PACKAGE" value="1608" constant="no"/>
-<attribute name="SKU" value="63-0003" constant="no"/>
-<attribute name="VALUE" value="Yellow" constant="no"/>
-<attribute name="VF" value="2.1V" constant="no"/>
+<attribute name="CURRENT" value="20mA"/>
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="63-0003"/>
+<attribute name="VALUE" value="Yellow"/>
+<attribute name="VF" value="2.1V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="CougsInSpace-IC-Comms">
+<description>&lt;h3&gt;Communication ICs&lt;/h3&gt;
+&lt;p&gt;USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.&lt;/p&gt;
+&lt;p&gt;SKUs&lt;br&gt;
+09-xxxx: Communication ICs</description>
+<packages>
+<package name="QFN-16-4040">
+<description>&lt;h3&gt;Quad Flat No-Leads (QFN) - 16 pins - 4.0 x 4.0 mm&lt;/h3&gt;</description>
+<smd name="2" x="-1.8" y="0.325" dx="0.8" dy="0.28" layer="1"/>
+<smd name="1" x="-1.8" y="0.975" dx="0.8" dy="0.28" layer="1"/>
+<smd name="3" x="-1.8" y="-0.325" dx="0.8" dy="0.28" layer="1"/>
+<smd name="4" x="-1.8" y="-0.975" dx="0.8" dy="0.28" layer="1"/>
+<smd name="5" x="-0.975" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
+<smd name="6" x="-0.325" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
+<smd name="7" x="0.325" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
+<smd name="8" x="0.975" y="-1.8" dx="0.8" dy="0.28" layer="1" rot="R90"/>
+<smd name="9" x="1.8" y="-0.975" dx="0.8" dy="0.28" layer="1" rot="R180"/>
+<smd name="10" x="1.8" y="-0.325" dx="0.8" dy="0.28" layer="1" rot="R180"/>
+<smd name="11" x="1.8" y="0.325" dx="0.8" dy="0.28" layer="1" rot="R180"/>
+<smd name="12" x="1.8" y="0.975" dx="0.8" dy="0.28" layer="1" rot="R180"/>
+<smd name="13" x="0.975" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
+<smd name="14" x="0.325" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
+<smd name="15" x="-0.325" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
+<smd name="16" x="-0.975" y="1.8" dx="0.8" dy="0.28" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="2.1" dy="2.1" layer="1"/>
+<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.15" layer="51"/>
+<wire x1="-2" y1="-2" x2="2" y2="-2" width="0.15" layer="51"/>
+<wire x1="2" y1="-2" x2="2" y2="2" width="0.15" layer="51"/>
+<wire x1="2" y1="2" x2="-2" y2="2" width="0.15" layer="51"/>
+<wire x1="-2" y1="-1.325" x2="-2" y2="-2" width="0.15" layer="21"/>
+<wire x1="-2" y1="-2" x2="-1.325" y2="-2" width="0.15" layer="21"/>
+<wire x1="1.325" y1="-2" x2="2" y2="-2" width="0.15" layer="21"/>
+<wire x1="2" y1="-2" x2="2" y2="-1.325" width="0.15" layer="21"/>
+<wire x1="2" y1="1.325" x2="2" y2="2" width="0.15" layer="21"/>
+<wire x1="2" y1="2" x2="1.325" y2="2" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-2" y="2"/>
+<vertex x="-2" y="1.325"/>
+<vertex x="-1.325" y="2"/>
+</polygon>
+<wire x1="-2.525" y1="2.525" x2="-2.525" y2="-2.525" width="0.15" layer="21"/>
+<wire x1="-2.525" y1="-2.525" x2="2.525" y2="-2.525" width="0.15" layer="21"/>
+<wire x1="2.525" y1="-2.525" x2="2.525" y2="2.525" width="0.15" layer="21"/>
+<wire x1="2.525" y1="2.525" x2="-2.525" y2="2.525" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-2.525" y="2.525"/>
+<vertex x="-2.525" y="1.375"/>
+<vertex x="-1.375" y="2.525"/>
+</polygon>
+<text x="0" y="3.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-2.525" y1="2.525" x2="2.525" y2="2.525" width="0.15" layer="39"/>
+<wire x1="2.525" y1="2.525" x2="2.525" y2="-2.525" width="0.15" layer="39"/>
+<wire x1="2.525" y1="-2.525" x2="-2.525" y2="-2.525" width="0.15" layer="39"/>
+<wire x1="-2.525" y1="-2.525" x2="-2.525" y2="2.525" width="0.15" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FT230X">
+<description>&lt;h3&gt;FT230x USB/UART Bridge&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/CougsInSpace/Resources/blob/master/SupplierDocuments/FTDI/FT230X_USB-UARTBridge.pdf"&gt;FT230x&lt;/a&gt;&lt;/p&gt;</description>
+<pin name="USBD_P" x="-12.7" y="2.54" length="short"/>
+<pin name="USBD_N" x="-12.7" y="0" length="short"/>
+<pin name="!RESET" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="3V3OUT" x="-12.7" y="7.62" length="short" direction="out"/>
+<pin name="TXD" x="12.7" y="10.16" length="short" direction="out" rot="R180"/>
+<pin name="RXD" x="12.7" y="7.62" length="short" direction="in" rot="R180"/>
+<pin name="CTS" x="12.7" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="RTS" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="CBUS0" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="CBUS1" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="CBUS2" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="CBUS3" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="VCCIO" x="-12.7" y="10.16" length="short" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="12.7" length="short" direction="pwr"/>
+<pin name="DGND" x="-12.7" y="-10.16" length="short" direction="pwr"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<text x="0" y="16.51" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-13.97" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-16.002" size="1.778" layer="97" align="center">&gt;SKU</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FT230X" prefix="U">
+<description>&lt;h3&gt;FT230x USB/UART Bridge&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/CougsInSpace/Resources/blob/master/SupplierDocuments/FTDI/FT230X_USB-UARTBridge.pdf"&gt;FT230x&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FT230X" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-QFN16" package="QFN-16-4040">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="9"/>
+<connect gate="G$1" pin="3V3OUT" pad="8"/>
+<connect gate="G$1" pin="CBUS0" pad="12"/>
+<connect gate="G$1" pin="CBUS1" pad="11"/>
+<connect gate="G$1" pin="CBUS2" pad="5"/>
+<connect gate="G$1" pin="CBUS3" pad="14"/>
+<connect gate="G$1" pin="CTS" pad="4"/>
+<connect gate="G$1" pin="DGND" pad="3 13 PAD"/>
+<connect gate="G$1" pin="RTS" pad="16"/>
+<connect gate="G$1" pin="RXD" pad="2"/>
+<connect gate="G$1" pin="TXD" pad="15"/>
+<connect gate="G$1" pin="USBD_N" pad="7"/>
+<connect gate="G$1" pin="USBD_P" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="10"/>
+<connect gate="G$1" pin="VCCIO" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SKU" value="09-0002"/>
+<attribute name="VALUE" value="FT230XQ"/>
 </technology>
 </technologies>
 </device>
@@ -3698,7 +3751,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Serial Transceiver"/>
 </part>
-<part name="U1" library="CougsInSpace-IC-Conversion" deviceset="FT230X" device="-QFN16" value="FT230XQ"/>
+<part name="U1" library="CougsInSpace-IC-Comms" deviceset="FT230X" device="-QFN16" value="FT230XQ"/>
 <part name="J1" library="CougsInSpace-Connectors" deviceset="USB" device="-B-FEMALE" value="USB"/>
 <part name="J2" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="Umbilical"/>
 <part name="OFFSHEET1" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -4636,7 +4689,6 @@ To USB B Female</text>
 <net name="UMB_RX" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="TXD"/>
 <wire x1="185.42" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
 <label x="185.42" y="127" size="1.778" layer="97" rot="MR0"/>
@@ -4840,6 +4892,19 @@ To USB B Female</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,3,162.56,119.38,U1,CTS,,,,"/>
+<approved hash="104,3,137.16,127,U1,VCCIO,3.3V,,,"/>
+<approved hash="104,3,137.16,129.54,U1,VCC,USB5V_FILTERED,,,"/>
+<approved hash="104,3,68.58,114.3,J1,VCC,USB5V,,,"/>
+<approved hash="104,3,68.58,106.68,J1,GND,DGND,,,"/>
+<approved hash="104,2,50.8,99.06,U2,PAD,PGND,,,"/>
+<approved hash="104,2,55.88,162.56,D1,GND,PGND,,,"/>
+<approved hash="208,3,132.08,129.54,3.3V,sup,,,,"/>
+<approved hash="208,3,137.16,124.46,3.3V,out,,,,"/>
+<approved hash="208,3,152.4,157.48,3.3V,sup,,,,"/>
+<approved hash="208,3,119.38,96.52,3.3V,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
