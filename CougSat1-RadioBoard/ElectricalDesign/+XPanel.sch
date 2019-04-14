@@ -2603,7 +2603,7 @@ under the package</text>
 </library>
 </libraries>
 <attributes>
-<attribute name="DESIGNER" value="Bradley L. Davis"/>
+<attribute name="DESIGNER" value="Reid Collins"/>
 <attribute name="PART_NUMBER" value="68-0006"/>
 <attribute name="PROJECT" value="CougSat-1: +X Panel"/>
 <attribute name="REV" value="1.0.0"/>
@@ -2633,7 +2633,7 @@ under the package</text>
 <part name="SUPPLY8" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="D1" library="CougsInSpace-Sensors" deviceset="PHOTODIODE" device="-SFH2430" value="SFH 2430"/>
 <part name="SUPPLY9" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="J1" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK"/>
+<part name="J1" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="ADCS Connector"/>
 <part name="R2" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="R3" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="R4" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
@@ -2681,8 +2681,11 @@ under the package</text>
 <sheet>
 <plain>
 <wire x1="137.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
-<text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram</text>
-<text x="96.52" y="132.08" size="3.81" layer="94" align="center">Low Gain
+<text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram
+Page 2: Photodiode
+Page 3: Antennae
+Page 4: Mechanical</text>
+<text x="96.52" y="142.24" size="3.81" layer="94" align="center">Low Gain
 700mm
 Antenna</text>
 <text x="96.52" y="81.28" size="3.81" layer="94" align="center">GPS Patch
@@ -2690,16 +2693,16 @@ Antenna</text>
 <text x="96.52" y="106.68" size="3.81" layer="94" align="center">Antenna
 Deploy
 Release</text>
-<text x="157.48" y="132.08" size="3.81" layer="94" align="center">Connector:
+<text x="157.48" y="142.24" size="3.81" layer="94" align="center">Connector:
 To Comms</text>
 <text x="157.48" y="106.68" size="3.81" layer="94" align="center">Connector:
 To EPS</text>
 <text x="157.48" y="81.28" size="3.81" layer="94" align="center">Connector:
 To Avionics</text>
-<wire x1="142.24" y1="139.7" x2="172.72" y2="139.7" width="0.254" layer="94"/>
-<wire x1="172.72" y1="139.7" x2="172.72" y2="124.46" width="0.254" layer="94"/>
-<wire x1="172.72" y1="124.46" x2="142.24" y2="124.46" width="0.254" layer="94"/>
-<wire x1="142.24" y1="124.46" x2="142.24" y2="139.7" width="0.254" layer="94"/>
+<wire x1="142.24" y1="149.86" x2="172.72" y2="149.86" width="0.254" layer="94"/>
+<wire x1="172.72" y1="149.86" x2="172.72" y2="134.62" width="0.254" layer="94"/>
+<wire x1="172.72" y1="134.62" x2="142.24" y2="134.62" width="0.254" layer="94"/>
+<wire x1="142.24" y1="134.62" x2="142.24" y2="149.86" width="0.254" layer="94"/>
 <wire x1="142.24" y1="114.3" x2="142.24" y2="99.06" width="0.254" layer="94"/>
 <wire x1="142.24" y1="99.06" x2="172.72" y2="99.06" width="0.254" layer="94"/>
 <wire x1="172.72" y1="99.06" x2="172.72" y2="114.3" width="0.254" layer="94"/>
@@ -2708,30 +2711,22 @@ To Avionics</text>
 <wire x1="172.72" y1="88.9" x2="172.72" y2="73.66" width="0.254" layer="94"/>
 <wire x1="172.72" y1="73.66" x2="142.24" y2="73.66" width="0.254" layer="94"/>
 <wire x1="142.24" y1="73.66" x2="142.24" y2="88.9" width="0.254" layer="94"/>
-<wire x1="81.28" y1="142.24" x2="111.76" y2="142.24" width="0.254" layer="94"/>
-<wire x1="111.76" y1="142.24" x2="111.76" y2="121.92" width="0.254" layer="94"/>
-<wire x1="111.76" y1="121.92" x2="81.28" y2="121.92" width="0.254" layer="94"/>
-<wire x1="81.28" y1="121.92" x2="81.28" y2="142.24" width="0.254" layer="94"/>
 <wire x1="81.28" y1="91.44" x2="111.76" y2="91.44" width="0.254" layer="94"/>
 <wire x1="81.28" y1="71.12" x2="81.28" y2="91.44" width="0.254" layer="94"/>
 <wire x1="111.76" y1="71.12" x2="81.28" y2="71.12" width="0.254" layer="94"/>
 <wire x1="111.76" y1="91.44" x2="111.76" y2="71.12" width="0.254" layer="94"/>
-<wire x1="81.28" y1="116.84" x2="111.76" y2="116.84" width="0.254" layer="94"/>
-<wire x1="81.28" y1="116.84" x2="81.28" y2="96.52" width="0.254" layer="94"/>
-<wire x1="111.76" y1="116.84" x2="111.76" y2="96.52" width="0.254" layer="94"/>
-<wire x1="81.28" y1="96.52" x2="111.76" y2="96.52" width="0.254" layer="94"/>
-<wire x1="111.76" y1="132.08" x2="142.24" y2="132.08" width="0.254" layer="97"/>
-<wire x1="139.7" y1="134.62" x2="142.24" y2="132.08" width="0.254" layer="97"/>
-<wire x1="142.24" y1="132.08" x2="139.7" y2="129.54" width="0.254" layer="97"/>
-<wire x1="114.3" y1="134.62" x2="111.76" y2="132.08" width="0.254" layer="97"/>
-<wire x1="111.76" y1="132.08" x2="114.3" y2="129.54" width="0.254" layer="97"/>
+<wire x1="111.76" y1="142.24" x2="142.24" y2="142.24" width="0.254" layer="97"/>
+<wire x1="139.7" y1="144.78" x2="142.24" y2="142.24" width="0.254" layer="97"/>
+<wire x1="142.24" y1="142.24" x2="139.7" y2="139.7" width="0.254" layer="97"/>
+<wire x1="114.3" y1="144.78" x2="111.76" y2="142.24" width="0.254" layer="97"/>
+<wire x1="111.76" y1="142.24" x2="114.3" y2="139.7" width="0.254" layer="97"/>
 <wire x1="142.24" y1="106.68" x2="111.76" y2="106.68" width="0.254" layer="97"/>
 <wire x1="114.3" y1="109.22" x2="111.76" y2="106.68" width="0.254" layer="97"/>
 <wire x1="111.76" y1="106.68" x2="114.3" y2="104.14" width="0.254" layer="97"/>
 <wire x1="111.76" y1="81.28" x2="142.24" y2="81.28" width="0.254" layer="97"/>
 <wire x1="142.24" y1="81.28" x2="139.7" y2="83.82" width="0.254" layer="97"/>
 <wire x1="142.24" y1="81.28" x2="139.7" y2="78.74" width="0.254" layer="97"/>
-<text x="127" y="132.588" size="1.778" layer="97" align="bottom-center">RF</text>
+<text x="127" y="142.748" size="1.778" layer="97" align="bottom-center">RF</text>
 <text x="127" y="81.788" size="1.778" layer="97" align="bottom-center">RF</text>
 <text x="127" y="107.188" size="1.778" layer="97" align="bottom-center">Power</text>
 <wire x1="81.28" y1="63.5" x2="111.76" y2="63.5" width="0.254" layer="94"/>
@@ -2763,6 +2758,21 @@ To Avionics</text>
 <wire x1="172.72" y1="45.72" x2="175.26" y2="43.18" width="0.254" layer="97"/>
 <text x="185.42" y="63.5" size="1.778" layer="97" align="center">Power</text>
 <text x="185.42" y="48.26" size="1.778" layer="97" align="center">PC</text>
+<text x="110.49" y="44.45" size="1.778" layer="97" align="bottom-right">Page 2</text>
+<text x="110.49" y="72.39" size="1.778" layer="97" align="bottom-right">Page 3</text>
+<text x="96.52" y="106.68" size="3.81" layer="94" align="center">Antenna
+Deploy
+Release</text>
+<wire x1="81.28" y1="119.38" x2="81.28" y2="93.98" width="0.254" layer="94"/>
+<wire x1="81.28" y1="93.98" x2="111.76" y2="93.98" width="0.254" layer="94"/>
+<wire x1="111.76" y1="93.98" x2="111.76" y2="119.38" width="0.254" layer="94"/>
+<wire x1="111.76" y1="119.38" x2="81.28" y2="119.38" width="0.254" layer="94"/>
+<text x="110.49" y="95.25" size="1.778" layer="97" align="bottom-right">Page 3</text>
+<wire x1="81.28" y1="154.94" x2="81.28" y2="129.54" width="0.254" layer="94"/>
+<wire x1="81.28" y1="129.54" x2="111.76" y2="129.54" width="0.254" layer="94"/>
+<wire x1="111.76" y1="129.54" x2="111.76" y2="154.94" width="0.254" layer="94"/>
+<wire x1="111.76" y1="154.94" x2="81.28" y2="154.94" width="0.254" layer="94"/>
+<text x="110.49" y="130.81" size="1.778" layer="97" align="bottom-right">Page 3</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -2918,7 +2928,7 @@ in the center of the board</text>
 <instance part="SUPPLY14" gate="G$1" x="185.42" y="182.88" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="185.42" y="186.436" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="SUPPLY15" gate="G$1" x="185.42" y="167.64" smashed="yes"/>
+<instance part="SUPPLY15" gate="G$1" x="190.5" y="170.18" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3167,9 +3177,8 @@ in the center of the board</text>
 <net name="PGND" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="182.88" y1="172.72" x2="185.42" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY15" gate="G$1" pin="PGND"/>
-<wire x1="185.42" y1="172.72" x2="185.42" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="172.72" x2="190.5" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -3271,8 +3280,8 @@ in the center of the board</text>
 </instance>
 <instance part="SUPPLY18" gate="G$1" x="86.36" y="71.12" smashed="yes"/>
 <instance part="OFFSHEET5" gate="G$1" x="78.74" y="83.82" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET7" gate="G$1" x="33.02" y="109.22" smashed="yes" rot="MR270"/>
-<instance part="OFFSHEET8" gate="G$1" x="33.02" y="58.42" smashed="yes" rot="R90"/>
+<instance part="OFFSHEET7" gate="G$1" x="35.56" y="106.68" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET8" gate="G$1" x="35.56" y="60.96" smashed="yes" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3362,7 +3371,6 @@ in the center of the board</text>
 <junction x="86.36" y="76.2"/>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-<label x="63.5" y="81.28" size="1.778" layer="95"/>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 </segment>
