@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -36,10 +36,10 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -51,8 +51,8 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -82,7 +82,7 @@
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
@@ -97,15 +97,15 @@
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -171,7 +171,15 @@
 <wire x1="32" y1="43" x2="32" y2="41.5" width="0" layer="20"/>
 <wire x1="32" y1="41.5" x2="41.4" y2="41.5" width="0" layer="20"/>
 <wire x1="41.4" y1="41.5" x2="41.4" y2="-41.5" width="0" layer="20"/>
-<text x="-19.25" y="0" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">Backplane V3.0 1915</text>
+<text x="-22.5" y="0" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">Backplane V3.0</text>
+<text x="-19" y="-37.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 0</text>
+<text x="-19" y="-28.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 1</text>
+<text x="-19" y="-19.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 2</text>
+<text x="-19" y="-10.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 3</text>
+<text x="-19" y="10.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 4</text>
+<text x="-19" y="19.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 5</text>
+<text x="-19" y="28.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 6</text>
+<text x="-19" y="37.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 7</text>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">
@@ -1118,7 +1126,7 @@ Last character is an incremented letter for each variant of the same value and p
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="CougsInSpace">
+<designrules name="CougsInSpace *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1185,7 +1193,7 @@ design rules under a new name.</description>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
 <param name="mlMinStopFrame" value="0mil"/>
-<param name="mlMaxStopFrame" value="0.1mm"/>
+<param name="mlMaxStopFrame" value="0.01mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="1mm"/>
@@ -1327,45 +1335,45 @@ design rules under a new name.</description>
 <attribute name="SKU" value="48-004x" x="-30.51" y="97.79" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J1" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="37.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="37.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="37.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="55.28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J10" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-37.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="-37.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="-37.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="51.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J2" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="28.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="28.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="56.44" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J3" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="19.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="19.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="19.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="57.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J4" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="10.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="12.25" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="10.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="58.76" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J5" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="-32" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="-30.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
-<attribute name="PACKAGE" value="PicoLock" x="-29.46" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SKU" value="04-0001" x="-29.46" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="J5" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="-29" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="-27.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
+<attribute name="PACKAGE" value="PicoLock" x="-26.46" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SKU" value="04-0001" x="-26.46" y="19.05" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J6" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="32" y="0" smashed="yes" rot="R270">
-<attribute name="NAME" x="30.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="PACKAGE" value="PicoLock" x="29.46" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SKU" value="04-0001" x="29.46" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="J6" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="Separation Switch" x="29" y="0" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.6" y="0" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="PicoLock" x="26.46" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SKU" value="04-0001" x="26.46" y="-31.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J7" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-10.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="-12.25" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="-10.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="47.92" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J8" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-19.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="-19.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="-19.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="49.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J9" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-28.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="-18.65" y="-28.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="39.85" y="-28.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="50.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-9.5" y="1.8" smashed="yes" rot="R270">
@@ -1382,9 +1390,9 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="26" y="0" smashed="yes"/>
-<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-TEXT" value="Text" x="-25.3" y="0" smashed="yes" rot="R90"/>
-<element name="LOGO100" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="-28.05" y="-0.05" smashed="yes" rot="MR0"/>
+<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="25.5" y="0" smashed="yes"/>
+<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-TEXT" value="Text" x="-25.2" y="0" smashed="yes" rot="MR90"/>
+<element name="LOGO100" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="-29.2" y="25.7" smashed="yes"/>
 </elements>
 <signals>
 <signal name="BUS_I2C0_SDA">
@@ -2992,10 +3000,10 @@ design rules under a new name.</description>
 <wire x1="12.65" y1="5.815" x2="12.65" y2="7.25" width="0.26" layer="1"/>
 <wire x1="12.65" y1="-5.815" x2="12.65" y2="-7.25" width="0.26" layer="1"/>
 <wire x1="13.65" y1="11.75" x2="13.65" y2="9.25" width="0.26" layer="16"/>
-<wire x1="32" y1="0.75" x2="32" y2="2.25" width="0.26" layer="1"/>
+<wire x1="29" y1="0.75" x2="29" y2="2.25" width="0.26" layer="1"/>
 <wire x1="22.395" y1="9.83518125" x2="22.395" y2="11.16481875" width="0.26" layer="1"/>
-<wire x1="29.98018125" y1="2.25" x2="22.395" y2="9.83518125" width="0.26" layer="1"/>
-<wire x1="32" y1="2.25" x2="29.98018125" y2="2.25" width="0.26" layer="1"/>
+<wire x1="29" y1="3.23018125" x2="22.395" y2="9.83518125" width="0.26" layer="1"/>
+<wire x1="29" y1="2.25" x2="29" y2="3.23018125" width="0.26" layer="1"/>
 <wire x1="22.395" y1="18.83518125" x2="22.395" y2="20.16481875" width="0.26" layer="1"/>
 <wire x1="22.395" y1="27.83518125" x2="22.395" y2="29.16481875" width="0.26" layer="1"/>
 <wire x1="23.44" y1="12.20981875" x2="23.44" y2="17.79018125" width="0.26" layer="1"/>
@@ -3016,15 +3024,15 @@ design rules under a new name.</description>
 <wire x1="22.44" y1="39.07723125" x2="21.44" y2="40.07723125" width="0.26" layer="1"/>
 <wire x1="22.44" y1="38.42276875" x2="22.395" y2="38.37776875" width="0.26" layer="1"/>
 <wire x1="22.395" y1="38.37776875" x2="22.395" y2="36.83518125" width="0.26" layer="1"/>
-<wire x1="-32" y1="-0.75" x2="-32" y2="-2.25" width="0.26" layer="1"/>
+<wire x1="-29" y1="-0.75" x2="-29" y2="-2.25" width="0.26" layer="1"/>
 <wire x1="-17.755" y1="38.245" x2="-14.46" y2="41.54" width="0.26" layer="1"/>
 <wire x1="9.86" y1="41.54" x2="10.65" y2="40.75" width="0.26" layer="1"/>
 <wire x1="-14.46" y1="41.54" x2="9.86" y2="41.54" width="0.26" layer="1"/>
-<wire x1="-32" y1="-0.75" x2="-32" y2="-0.460125" width="0.26" layer="1"/>
-<wire x1="-32" y1="-0.460125" x2="-32.79" y2="0.329875" width="0.26" layer="1"/>
-<wire x1="-32.79" y1="2.670125" x2="-32.79" y2="0.329875" width="0.26" layer="1"/>
-<wire x1="-32.79" y1="2.670125" x2="-17.755" y2="17.705125" width="0.26" layer="1"/>
-<wire x1="-17.755" y1="17.705125" x2="-17.755" y2="38.245" width="0.26" layer="1"/>
+<wire x1="-29" y1="-0.75" x2="-29" y2="-0.460125" width="0.26" layer="1"/>
+<wire x1="-29" y1="-0.460125" x2="-29.79" y2="0.329875" width="0.26" layer="1"/>
+<wire x1="-29.79" y1="2.670125" x2="-29.79" y2="0.329875" width="0.26" layer="1"/>
+<wire x1="-29.79" y1="2.670125" x2="-17.755" y2="14.705125" width="0.26" layer="1"/>
+<wire x1="-17.755" y1="14.705125" x2="-17.755" y2="38.245" width="0.26" layer="1"/>
 <wire x1="9.5" y1="-2.665" x2="12.65" y2="-5.815" width="0.2" layer="1"/>
 <wire x1="9.5" y1="2.665" x2="12.65" y2="5.815" width="0.2" layer="1"/>
 </signal>
@@ -3068,8 +3076,8 @@ design rules under a new name.</description>
 <wire x1="-5.07" y1="1.50184375" x2="-5.35" y2="1.78184375" width="0.68" layer="1"/>
 <wire x1="-5.35" y1="1.78184375" x2="-5.35" y2="7.25" width="0.68" layer="1"/>
 <wire x1="-5.07" y1="-1.50184375" x2="-5.07" y2="1.50184375" width="0.68" layer="1"/>
-<wire x1="-32" y1="2.25" x2="-32" y2="0.75" width="0.26" layer="1"/>
-<wire x1="32" y1="-0.75" x2="32" y2="-2.25" width="0.26" layer="1"/>
+<wire x1="-29" y1="2.25" x2="-29" y2="0.75" width="0.26" layer="1"/>
+<wire x1="29" y1="-0.75" x2="29" y2="-2.25" width="0.26" layer="1"/>
 <wire x1="22.395" y1="-11.16481875" x2="22.395" y2="-9.83518125" width="0.26" layer="1"/>
 <wire x1="22.395" y1="-18.83518125" x2="22.395" y2="-20.16481875" width="0.26" layer="1"/>
 <wire x1="22.395" y1="-27.83518125" x2="22.395" y2="-29.16481875" width="0.26" layer="1"/>
@@ -3090,13 +3098,13 @@ design rules under a new name.</description>
 <wire x1="23.44" y1="-35.57723125" x2="22.28" y2="-36.73723125" width="0.26" layer="1"/>
 <wire x1="-4.56" y1="-41.54" x2="-5.35" y2="-40.75" width="0.26" layer="1"/>
 <wire x1="20.97723125" y1="-41.54" x2="-4.56" y2="-41.54" width="0.26" layer="1"/>
-<wire x1="-32" y1="0.75" x2="-17.755" y2="-13.495" width="0.26" layer="1"/>
+<wire x1="-29" y1="0.75" x2="-17.755" y2="-10.495" width="0.26" layer="1"/>
 <wire x1="-17.755" y1="-38.16481875" x2="-14.37981875" y2="-41.54" width="0.26" layer="1"/>
 <wire x1="-6.14" y1="-41.54" x2="-5.35" y2="-40.75" width="0.26" layer="1"/>
-<wire x1="-17.755" y1="-13.495" x2="-17.755" y2="-38.16481875" width="0.26" layer="1"/>
+<wire x1="-17.755" y1="-10.495" x2="-17.755" y2="-38.16481875" width="0.26" layer="1"/>
 <wire x1="-14.37981875" y1="-41.54" x2="-6.14" y2="-41.54" width="0.26" layer="1"/>
-<wire x1="29.98018125" y1="-2.25" x2="32" y2="-2.25" width="0.26" layer="1"/>
-<wire x1="22.395" y1="-9.83518125" x2="29.98018125" y2="-2.25" width="0.26" layer="1"/>
+<wire x1="29" y1="-3.23018125" x2="29" y2="-2.25" width="0.26" layer="1"/>
+<wire x1="22.395" y1="-9.83518125" x2="29" y2="-3.23018125" width="0.26" layer="1"/>
 </signal>
 <signal name="PR_3.3V-0">
 <contactref element="J10" pad="A1"/>
@@ -4209,8 +4217,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="8,1,e8502b41397e526b"/>
-<approved hash="8,1,438ed3a3d46cc653"/>
 <approved hash="4,1,2e9eca63f1c8f5f6"/>
 <approved hash="4,1,dea24a5a3dc1b9ca"/>
 <approved hash="4,1,f1da698f2d8f5519"/>
