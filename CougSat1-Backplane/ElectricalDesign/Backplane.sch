@@ -187,146 +187,36 @@
 <wire x1="-1.5" y1="-0.5" x2="2" y2="-0.2" width="0.2032" layer="29" curve="27.749383"/>
 <wire x1="0.36" y1="-1.98" x2="0.3" y2="0.1" width="0.2032" layer="29" curve="159"/>
 </package>
-<package name="SIGN-HENDRIK-HAM">
-<description>&lt;h3&gt;Signature - Hendrik the Ham&lt;/h3&gt;</description>
-<wire x1="9.2" y1="-2.8" x2="11.05" y2="-2.75" width="0.25" layer="21"/>
-<wire x1="11.05" y1="-2.75" x2="11.375" y2="-2.975" width="0.25" layer="21"/>
-<wire x1="11.375" y1="-2.975" x2="12" y2="-3.4" width="0.25" layer="21" curve="0.958903"/>
-<wire x1="12" y1="-3.4" x2="12.7" y2="-3.1" width="0.25" layer="21" curve="113.869664"/>
-<wire x1="12.7" y1="-3.1" x2="12.6" y2="-2.6" width="0.25" layer="21" curve="42.352358"/>
-<wire x1="12.6" y1="-2.6" x2="12" y2="-2" width="0.25" layer="21" curve="25.027722"/>
-<wire x1="9.2" y1="-1.6" x2="11" y2="-1.7" width="0.25" layer="21"/>
-<wire x1="11" y1="-1.7" x2="11.2" y2="-1.4" width="0.25" layer="21"/>
-<wire x1="11.2" y1="-1.4" x2="11.8" y2="-1" width="0.25" layer="21" curve="-45.23973"/>
-<wire x1="11.8" y1="-1" x2="12.3" y2="-1" width="0.25" layer="21" curve="-22.140082"/>
-<wire x1="12.3" y1="-1" x2="12.5" y2="-1.4" width="0.25" layer="21" curve="-104.729714"/>
-<wire x1="12.5" y1="-1.4" x2="12" y2="-2" width="0.25" layer="21" curve="-28.011873"/>
-<wire x1="5.7" y1="-3.6" x2="3.1" y2="-4.3" width="0.4" layer="21"/>
-<wire x1="3.1" y1="-4.3" x2="1.5" y2="-4.5" width="0.4" layer="21" curve="-15.886941"/>
-<wire x1="1.5" y1="-4.5" x2="0.8" y2="-4.5" width="0.4" layer="21" curve="1.636871"/>
-<wire x1="0.8" y1="-4.5" x2="0.1" y2="-4.6" width="0.4" layer="21" curve="14.623342"/>
-<wire x1="0.1" y1="-4.6" x2="-2.9" y2="-5" width="0.4" layer="21" curve="-15.69417"/>
-<wire x1="5.7" y1="-3.6" x2="6.3" y2="-3.5" width="0.4" layer="21" curve="-11.212332"/>
-<wire x1="6.3" y1="-3.5" x2="8.1" y2="-3.3" width="0.4" layer="21" curve="4.968178"/>
-<wire x1="8.1" y1="-3.3" x2="8.9" y2="-2.8" width="0.4" layer="21" curve="46.362176"/>
-<wire x1="8.9" y1="-2.8" x2="8.8" y2="-2.6" width="0.4" layer="21"/>
-<wire x1="8.8" y1="-2.6" x2="8.8" y2="-2.1" width="0.4" layer="21" curve="-53.130102"/>
-<wire x1="8.8" y1="-2.1" x2="9" y2="-1.7" width="0.4" layer="21"/>
-<wire x1="9" y1="-1.7" x2="8.8" y2="-1.4" width="0.4" layer="21" curve="120.509466"/>
-<wire x1="8.8" y1="-1.4" x2="8.3" y2="-1.4" width="0.4" layer="21" curve="-7.887878"/>
-<wire x1="8.3" y1="-1.4" x2="7.3" y2="-1.2" width="0.4" layer="21" curve="-14.731984"/>
-<wire x1="7.3" y1="-1.2" x2="6.8" y2="-0.9" width="0.4" layer="21" curve="-24.575726"/>
-<wire x1="6.8" y1="-0.9" x2="5.4" y2="0.3" width="0.4" layer="21" curve="5.300785"/>
-<wire x1="5.4" y1="0.3" x2="4.8" y2="0.7" width="0.4" layer="21" curve="8.521662"/>
-<wire x1="4.8" y1="0.7" x2="4.2" y2="1.2" width="0.4" layer="21" curve="-20.75272"/>
-<wire x1="4.2" y1="1.2" x2="1.6" y2="3.7" width="0.4" layer="21" curve="12.610384"/>
-<wire x1="1.6" y1="3.7" x2="-0.3" y2="4.5" width="0.4" layer="21" curve="29.475705"/>
-<wire x1="-0.3" y1="4.5" x2="-2.3" y2="4.4" width="0.4" layer="21" curve="21.916421"/>
-<wire x1="-2.28" y1="4.48" x2="-2.725" y2="4.4" width="0.25" layer="21"/>
-<wire x1="-2.725" y1="4.4" x2="-3.7" y2="3.9" width="0.25" layer="21" curve="27.818325"/>
-<wire x1="-3.7" y1="3.9" x2="-4.9" y2="1.6" width="0.25" layer="21" curve="42.776682"/>
-<wire x1="-4.9" y1="1.6" x2="-5" y2="-1.8" width="0.25" layer="21" curve="8.959486"/>
-<wire x1="-5" y1="-1.8" x2="-4.5" y2="-4" width="0.25" layer="21" curve="20.018425"/>
-<wire x1="-4.5" y1="-4" x2="-3.405" y2="-5.02" width="0.25" layer="21" curve="42.922574"/>
-<polygon width="0.25" layer="21">
-<vertex x="-3.9" y="0"/>
-<vertex x="-3.9" y="-0.3" curve="31.890792"/>
-<vertex x="-3.7" y="-1" curve="72.615536"/>
-<vertex x="-3.2" y="-1.2" curve="38.36777"/>
-<vertex x="-2.9" y="-1" curve="40.853842"/>
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.825" y="0"/>
-<vertex x="-2.825" y="-0.05" curve="-30.136956"/>
-<vertex x="-3" y="-0.7" curve="-52.346015"/>
-<vertex x="-3.3" y="-0.9" curve="-96.664162"/>
-<vertex x="-3.85" y="-0.425"/>
-</polygon>
-<polygon width="0.25" layer="21">
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.6" y="0.1" curve="31.890792"/>
-<vertex x="-2.8" y="0.8" curve="26.218557"/>
-<vertex x="-3" y="1" curve="63.781355"/>
-<vertex x="-3.5" y="1" curve="41.081603"/>
-<vertex x="-3.75" y="0.675"/>
-<vertex x="-3.725" y="0.725" curve="-61.059458"/>
-<vertex x="-3.3" y="1" curve="-78.490201"/>
-<vertex x="-2.9" y="0.7" curve="-15.538392"/>
-<vertex x="-2.825" y="0"/>
-</polygon>
-<wire x1="-3.9" y1="0" x2="-3.9" y2="0.1" width="0.25" layer="21"/>
-<wire x1="-3.9" y1="0.1" x2="-3.75" y2="0.675" width="0.25" layer="21" curve="-29.241723"/>
-<wire x1="-2.4" y1="4.4" x2="-2.3" y2="4.3" width="0.25" layer="21"/>
-<wire x1="-2.3" y1="4.3" x2="-1.4" y2="2.5" width="0.25" layer="21" curve="-36.869898"/>
-<wire x1="-1.4" y1="2.5" x2="-1.2" y2="0.8" width="0.25" layer="21" curve="-2.840436"/>
-<wire x1="-1.2" y1="0.8" x2="-1.5" y2="-2.5" width="0.25" layer="21" curve="-20.968083"/>
-<wire x1="-1.5" y1="-2.5" x2="-3.54" y2="-4.93" width="0.25" layer="21" curve="-48.254192"/>
-<wire x1="-2.9" y1="-5" x2="-3.375" y2="-4.95" width="0.4" layer="21" curve="-11.513131"/>
-<wire x1="-1.9" y1="-5" x2="-0.9" y2="-4.1" width="0.25" layer="21"/>
-<wire x1="-0.9" y1="-4.1" x2="1.9" y2="-0.9" width="0.25" layer="21" curve="13.653724"/>
-<wire x1="1.9" y1="-0.9" x2="3.5" y2="2" width="0.25" layer="21" curve="10.94495"/>
-<wire x1="-1.3" y1="-1.7" x2="-0.5" y2="-1.1" width="0.25" layer="21"/>
-<wire x1="-0.5" y1="-1.1" x2="1.3" y2="0.9" width="0.25" layer="21" curve="22.285782"/>
-<wire x1="1.3" y1="0.9" x2="2.3" y2="3.1" width="0.25" layer="21" curve="12.800706"/>
-<wire x1="-1.2" y1="1.3" x2="-1.075" y2="1.325" width="0.25" layer="21"/>
-<wire x1="-1.075" y1="1.325" x2="-0.6" y2="1.5" width="0.25" layer="21" curve="17.829854"/>
-<wire x1="-0.6" y1="1.5" x2="0.9" y2="4.2" width="0.25" layer="21" curve="63.611321"/>
-<wire x1="-1.45" y1="2.925" x2="-1.3" y2="3.05" width="0.25" layer="21"/>
-<wire x1="-1.3" y1="3.05" x2="-0.4" y2="4.473" width="0.25" layer="21" curve="40.106073"/>
-<wire x1="0.8" y1="-4.5" x2="1.4" y2="-3.9" width="0.25" layer="21"/>
-<wire x1="1.4" y1="-3.9" x2="4.4" y2="1" width="0.25" layer="21" curve="27.046326"/>
-<wire x1="3" y1="-4.3" x2="3.4" y2="-3.85" width="0.25" layer="21"/>
-<wire x1="3.4" y1="-3.85" x2="5.6" y2="0.2" width="0.25" layer="21" curve="26.244589"/>
-<wire x1="5.1" y1="-3.7" x2="5.4" y2="-3.325" width="0.25" layer="21"/>
-<wire x1="5.4" y1="-3.325" x2="6.45" y2="-0.625" width="0.25" layer="21" curve="34.818598"/>
-<wire x1="7.1" y1="-3.4" x2="7.3" y2="-3.075" width="0.25" layer="21"/>
-<wire x1="7.3" y1="-3.075" x2="7.9" y2="-1.3" width="0.25" layer="21" curve="25.861603"/>
-<wire x1="8.8" y1="-2.8" x2="8.1" y2="-2.4" width="0.25" layer="21"/>
-<wire x1="8.1" y1="-2.4" x2="6.9" y2="-1" width="0.25" layer="21" curve="-39.307648"/>
-<wire x1="7.4" y1="-3.4" x2="6.8" y2="-2.8" width="0.25" layer="21"/>
-<wire x1="6.8" y1="-2.8" x2="4.3" y2="0.9" width="0.25" layer="21" curve="-21.908123"/>
-<wire x1="5.7" y1="-3.6" x2="5.4" y2="-3.2" width="0.25" layer="21"/>
-<wire x1="5.4" y1="-3.2" x2="1" y2="4.1" width="0.25" layer="21" curve="-11.581716"/>
-<wire x1="4.4" y1="-4" x2="3.8" y2="-3.3" width="0.25" layer="21"/>
-<wire x1="3.8" y1="-3.3" x2="-0.5" y2="4.5" width="0.25" layer="21" curve="-23.468272"/>
-<wire x1="2.7" y1="-4.5" x2="2.2" y2="-3.8" width="0.25" layer="21"/>
-<wire x1="2.2" y1="-3.8" x2="-1.4" y2="2.7" width="0.25" layer="21" curve="-13.115941"/>
-<wire x1="0.9" y1="-4.5" x2="0.4" y2="-3.9" width="0.25" layer="21"/>
-<wire x1="0.4" y1="-3.9" x2="-1.2" y2="-1.1" width="0.25" layer="21" curve="-20.121379"/>
-<wire x1="-0.6" y1="-4.8" x2="-0.8" y2="-4.5" width="0.25" layer="21"/>
-<wire x1="-0.8" y1="-4.5" x2="-1.6" y2="-2.9" width="0.25" layer="21" curve="-14.250033"/>
-<wire x1="-1.6" y1="0" x2="-1.6" y2="-0.2" width="0.25" layer="21"/>
-<wire x1="-1.6" y1="-0.2" x2="-2" y2="-2.5" width="0.25" layer="21" curve="-19.731614"/>
-<wire x1="-2" y1="-2.5" x2="-3.1" y2="-4.1" width="0.25" layer="21" curve="-29.553843"/>
-<wire x1="-3.1" y1="-4.1" x2="-3.9" y2="-4" width="0.25" layer="21" curve="-95.679288"/>
-<wire x1="-3.9" y1="-4" x2="-4.5" y2="-2.5" width="0.25" layer="21" curve="-26.468125"/>
-<wire x1="-4.5" y1="-2.5" x2="-4.6" y2="0.4" width="0.25" layer="21" curve="-13.184804"/>
-<wire x1="-1.6" y1="0" x2="-1.8" y2="1.8" width="0.25" layer="21" curve="12.680383"/>
-<polygon width="0.25" layer="21">
-<vertex x="-4.6" y="0.4" curve="-26.254412"/>
-<vertex x="-3.8" y="2.9" curve="-28.256289"/>
-<vertex x="-3.4" y="3.3" curve="-78.003842"/>
-<vertex x="-2.7" y="3.2" curve="-20.265501"/>
-<vertex x="-1.8" y="1.8"/>
-<vertex x="-1.9" y="2.4" curve="34.205458"/>
-<vertex x="-2.5" y="3.6" curve="79.984078"/>
-<vertex x="-3.3" y="3.7" curve="24.266053"/>
-<vertex x="-3.8" y="3.2" curve="34.360994"/>
-</polygon>
-</package>
 <package name="SIGN-HENDRIK">
 <description>&lt;h3&gt;Signature - Hendrik Melse&lt;/h3&gt;</description>
-<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="1" curve="-43.729953"/>
-<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="1" curve="-43.977"/>
-<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="1" curve="-32.088536"/>
-<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="1" curve="-36.276177"/>
-<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="29" curve="-43.729953"/>
-<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="29" curve="-43.977"/>
-<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="1"/>
-<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="29" curve="-32.088536"/>
-<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="1"/>
-<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="29" curve="-36.276177"/>
-<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="29"/>
-<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="29"/>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="1"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="1"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="1"/>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="29"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="29"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="29"/>
+<polygon width="0.2" layer="41">
+<vertex x="-2.2" y="-1.2"/>
+<vertex x="1" y="-1.2"/>
+<vertex x="2.2" y="1.2"/>
+<vertex x="-1" y="1.2"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-2.5" y="-1.4"/>
+<vertex x="-1.1" y="1.4"/>
+<vertex x="2.5" y="1.4"/>
+<vertex x="1.1" y="-1.4"/>
+</polygon>
 </package>
 <package name="CIS-PATCH-1">
 <description>&lt;h3&gt;CougSat-1 Patch Silkscreen&lt;/h3&gt;</description>
@@ -2420,11 +2310,6 @@ Space EE</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="HENDRIK-HAM" package="SIGN-HENDRIK-HAM">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="HENDRIK" package="SIGN-HENDRIK">
 <technologies>
 <technology name=""/>
@@ -3898,7 +3783,7 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="DESIGNER" value="Hendrik Melse"/>
 <attribute name="PART_NUMBER" value="68-0005"/>
 <attribute name="PROJECT" value="CougSat-1: Backplane"/>
-<attribute name="REV" value="3.0.1"/>
+<attribute name="REV" value="3.0.2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3968,6 +3853,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="LOGO2" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="HENDRIK"/>
 <part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="CIS-LOGO" device="-TEXT" value="Text"/>
 <part name="LOGO100" library="CougsInSpace-Aesthetics" deviceset="CIS-LOGO" device="-SATELLITE-16MM" value="Satellite 16mm"/>
+<part name="LOGO3" library="CougsInSpace-Aesthetics" deviceset="CIS-LOGO" device="-SATELLITE-16MM" value="Satellite 16mm"/>
 </parts>
 <sheets>
 <sheet>
@@ -7221,8 +7107,8 @@ Page 5: Mechanical</text>
 <attribute name="TEMP" x="36.83" y="22.86" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="36.83" y="27.432" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="LOGO2" gate="G$1" x="73.66" y="10.16" smashed="yes">
-<attribute name="NAME" x="73.66" y="12.954" size="1.778" layer="95" align="bottom-center"/>
+<instance part="LOGO2" gate="G$1" x="121.92" y="27.94" smashed="yes">
+<attribute name="NAME" x="121.92" y="30.734" size="1.778" layer="95" align="bottom-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="121.92" y="10.16" smashed="yes">
 <attribute name="NAME" x="121.92" y="19.05" size="1.778" layer="95" align="center"/>
@@ -7231,6 +7117,10 @@ Page 5: Mechanical</text>
 <instance part="LOGO100" gate="G$1" x="96.52" y="10.16" smashed="yes">
 <attribute name="NAME" x="96.52" y="19.05" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="96.52" y="16.51" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="LOGO3" gate="G$1" x="96.52" y="27.94" smashed="yes">
+<attribute name="NAME" x="96.52" y="36.83" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="96.52" y="34.29" size="1.778" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>

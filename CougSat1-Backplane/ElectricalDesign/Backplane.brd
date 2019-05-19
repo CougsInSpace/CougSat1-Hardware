@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -159,18 +159,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="41.4" y1="-41.5" x2="32" y2="-41.5" width="0" layer="20"/>
-<wire x1="32" y1="-41.5" x2="32" y2="-43" width="0" layer="20"/>
+<wire x1="41.4" y1="-41.6" x2="32" y2="-41.6" width="0" layer="20"/>
+<wire x1="32" y1="-41.6" x2="32" y2="-43" width="0" layer="20"/>
 <wire x1="32" y1="-43" x2="-32" y2="-43" width="0" layer="20"/>
-<wire x1="-32" y1="-43" x2="-32" y2="-41.5" width="0" layer="20"/>
-<wire x1="-32" y1="-41.5" x2="-41.4" y2="-41.5" width="0" layer="20"/>
-<wire x1="-41.4" y1="-41.5" x2="-41.4" y2="41.5" width="0" layer="20"/>
-<wire x1="-41.4" y1="41.5" x2="-32" y2="41.5" width="0" layer="20"/>
-<wire x1="-32" y1="41.5" x2="-32" y2="43" width="0" layer="20"/>
+<wire x1="-32" y1="-43" x2="-32" y2="-41.6" width="0" layer="20"/>
+<wire x1="-32" y1="-41.6" x2="-41.4" y2="-41.6" width="0" layer="20"/>
+<wire x1="-41.4" y1="-41.6" x2="-41.5" y2="41.6" width="0" layer="20"/>
+<wire x1="-41.5" y1="41.6" x2="-32.1" y2="41.6" width="0" layer="20"/>
+<wire x1="-32.1" y1="41.6" x2="-32" y2="43" width="0" layer="20"/>
 <wire x1="-32" y1="43" x2="32" y2="43" width="0" layer="20"/>
-<wire x1="32" y1="43" x2="32" y2="41.5" width="0" layer="20"/>
-<wire x1="32" y1="41.5" x2="41.4" y2="41.5" width="0" layer="20"/>
-<wire x1="41.4" y1="41.5" x2="41.4" y2="-41.5" width="0" layer="20"/>
+<wire x1="32" y1="43" x2="32" y2="41.6" width="0" layer="20"/>
+<wire x1="32" y1="41.6" x2="41.4" y2="41.6" width="0" layer="20"/>
+<wire x1="41.4" y1="41.6" x2="41.4" y2="-41.6" width="0" layer="20"/>
 <text x="-22.5" y="0" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">Backplane V3.0</text>
 <text x="-19" y="-37.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 0</text>
 <text x="-19" y="-28.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 1</text>
@@ -484,18 +484,34 @@ Last character is an incremented letter for each variant of the same value and p
 <packages>
 <package name="SIGN-HENDRIK">
 <description>&lt;h3&gt;Signature - Hendrik Melse&lt;/h3&gt;</description>
-<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="1" curve="-43.729953"/>
-<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="1" curve="-43.977"/>
-<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="1" curve="-32.088536"/>
-<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="1" curve="-36.276177"/>
-<wire x1="-1.25" y1="2.2" x2="-1.2" y2="-2.2" width="0.2" layer="29" curve="-43.729953"/>
-<wire x1="-0.35" y1="1.725" x2="-0.325" y2="-1.775" width="0.2" layer="29" curve="-43.977"/>
-<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="1"/>
-<wire x1="0.5" y1="1.2" x2="0.55" y2="-1.3" width="0.2" layer="29" curve="-32.088536"/>
-<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="1"/>
-<wire x1="1.15" y1="0.75" x2="1.175" y2="-0.975" width="0.2" layer="29" curve="-36.276177"/>
-<wire x1="0.5" y1="1.2" x2="-0.85" y2="-0.85" width="0.2" layer="29"/>
-<wire x1="1.15" y1="0.75" x2="0.7" y2="0.075" width="0.2" layer="29"/>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="1"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="1"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="1"/>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="29"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="29"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="29"/>
+<polygon width="0.2" layer="41">
+<vertex x="-2.2" y="-1.2"/>
+<vertex x="1" y="-1.2"/>
+<vertex x="2.2" y="1.2"/>
+<vertex x="-1" y="1.2"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-2.5" y="-1.4"/>
+<vertex x="-1.1" y="1.4"/>
+<vertex x="2.5" y="1.4"/>
+<vertex x="1.1" y="-1.4"/>
+</polygon>
 </package>
 <package name="CIS-TEXT">
 <description>&lt;h3&gt;CIS Text Silkscreen&lt;/h3&gt;</description>
@@ -1390,9 +1406,10 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="25.5" y="0" smashed="yes"/>
-<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-TEXT" value="Text" x="-25.2" y="0" smashed="yes" rot="MR90"/>
-<element name="LOGO100" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="-29.2" y="25.7" smashed="yes"/>
+<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="25.5" y="0" smashed="yes" rot="R270"/>
+<element name="LOGO1" library="CougsInSpace-Aesthetics" package="CIS-TEXT" value="Text" x="-28.4" y="0.1" smashed="yes" rot="MR90"/>
+<element name="LOGO100" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="-29.7" y="26.7" smashed="yes" rot="R90"/>
+<element name="LOGO3" library="CougsInSpace-Aesthetics" package="CIS-SATELLITE-16" value="Satellite 16mm" x="-29.1" y="-26.9" smashed="yes" rot="R180"/>
 </elements>
 <signals>
 <signal name="BUS_I2C0_SDA">
@@ -4180,51 +4197,48 @@ design rules under a new name.</description>
 </signal>
 <signal name="BALANCING-TOP">
 <polygon width="0.16" layer="1" spacing="0.5" pour="hatch" rank="6">
-<vertex x="-41.4" y="41.5"/>
-<vertex x="-32" y="41.5"/>
+<vertex x="-41.4" y="41.6"/>
+<vertex x="-32" y="41.6"/>
 <vertex x="-32" y="43"/>
 <vertex x="32" y="43"/>
-<vertex x="32" y="41.5"/>
-<vertex x="41.4" y="41.5"/>
-<vertex x="41.4" y="-41.5"/>
-<vertex x="32" y="-41.5"/>
+<vertex x="32" y="41.6"/>
+<vertex x="41.4" y="41.6"/>
+<vertex x="41.4" y="-41.6"/>
+<vertex x="32" y="-41.6"/>
 <vertex x="32" y="-43"/>
 <vertex x="-32" y="-43"/>
-<vertex x="-32" y="-41.5"/>
-<vertex x="-41.4" y="-41.5"/>
+<vertex x="-32" y="-41.6"/>
+<vertex x="-41.4" y="-41.6"/>
 </polygon>
 <polygon width="0.16" layer="16" spacing="0.5" pour="hatch" rank="6">
-<vertex x="-41.4" y="41.5"/>
-<vertex x="-32" y="41.5"/>
+<vertex x="-41.4" y="41.6"/>
+<vertex x="-32" y="41.6"/>
 <vertex x="-32" y="43"/>
 <vertex x="32" y="43"/>
-<vertex x="32" y="41.5"/>
-<vertex x="41.4" y="41.5"/>
-<vertex x="41.4" y="-41.5"/>
-<vertex x="32" y="-41.5"/>
+<vertex x="32" y="41.6"/>
+<vertex x="41.4" y="41.6"/>
+<vertex x="41.4" y="-41.6"/>
+<vertex x="32" y="-41.6"/>
 <vertex x="32" y="-43"/>
 <vertex x="-32" y="-43"/>
-<vertex x="-32" y="-41.5"/>
-<vertex x="-41.4" y="-41.5"/>
+<vertex x="-32" y="-41.6"/>
+<vertex x="-41.4" y="-41.6"/>
 </polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="4,1,2e9eca63f1c8f5f6"/>
-<approved hash="4,1,dea24a5a3dc1b9ca"/>
-<approved hash="4,1,f1da698f2d8f5519"/>
-<approved hash="4,1,79dae18a99ba1119"/>
-<approved hash="4,16,2e9eca63f1c8f5f6"/>
-<approved hash="4,16,dea24a5a3dc1b9ca"/>
-<approved hash="4,16,f1da698f2d8f5519"/>
-<approved hash="4,16,79dae18a99ba1119"/>
+<approved hash="8,1,2a4b75270cbf3e47"/>
+<approved hash="8,1,213b7d2705bf36c7"/>
+<approved hash="8,1,d3dc2ff8e7c8e410"/>
+<approved hash="8,1,2bd3d7d71fd71e0f"/>
+<approved hash="8,1,2ddba0d70923299f"/>
 </errors>
 </board>
 </drawing>
