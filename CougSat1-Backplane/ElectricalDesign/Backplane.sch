@@ -3783,7 +3783,7 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="DESIGNER" value="Hendrik Melse"/>
 <attribute name="PART_NUMBER" value="68-0005"/>
 <attribute name="PROJECT" value="CougSat-1: Backplane"/>
-<attribute name="REV" value="3.0.2"/>
+<attribute name="REV" value="3.0.4"/>
 </attributes>
 <variantdefs>
 </variantdefs>
