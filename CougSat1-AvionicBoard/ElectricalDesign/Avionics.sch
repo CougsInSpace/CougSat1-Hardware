@@ -5547,6 +5547,91 @@ Last character is an incremented letter for each variant of the same value and p
 </deviceset>
 </devicesets>
 </library>
+<library name="CougsInSpace-IC-Amplifiers">
+<description>&lt;h3&gt;Amplifiers&lt;/h3&gt;
+&lt;p&gt;Mostly operational amplifiers but also has some headphone and audio amps with more specific applications. No RF&lt;/p&gt;
+&lt;p&gt;SKUs&lt;br&gt;
+08-xxxx: Amplifiers (excluding RF)</description>
+<packages>
+<package name="SOT363">
+<description>&lt;h3&gt;SOT363 (SC70-6)&lt;/h3&gt;</description>
+<smd name="2" x="-0.95" y="0" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="3" x="-0.95" y="-0.65" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="1" x="-0.95" y="0.65" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="5" x="0.95" y="0" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<smd name="6" x="0.95" y="0.65" dx="0.4" dy="0.5" layer="1" rot="R270"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="-1" width="0.15" layer="51"/>
+<wire x1="0.6" y1="-1" x2="-0.6" y2="-1" width="0.15" layer="51"/>
+<wire x1="-0.6" y1="-1" x2="-0.6" y2="1" width="0.15" layer="51"/>
+<wire x1="-0.6" y1="1" x2="0.6" y2="1" width="0.15" layer="51"/>
+<wire x1="0.525" y1="1" x2="-0.525" y2="1" width="0.15" layer="21"/>
+<wire x1="0.525" y1="-1" x2="-0.525" y2="-1" width="0.15" layer="21"/>
+<wire x1="1.525" y1="1.325" x2="1.525" y2="-1.325" width="0.15" layer="21"/>
+<wire x1="1.525" y1="-1.325" x2="-1.525" y2="-1.325" width="0.15" layer="21"/>
+<wire x1="-1.525" y1="-1.325" x2="-1.525" y2="1.325" width="0.15" layer="21"/>
+<wire x1="-1.525" y1="1.325" x2="1.525" y2="1.325" width="0.15" layer="21"/>
+<polygon width="0.15" layer="21">
+<vertex x="-1.525" y="1.325"/>
+<vertex x="-1.525" y="0.85"/>
+<vertex x="-1.05" y="1.325"/>
+</polygon>
+<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-1.525" y1="1.325" x2="-1.525" y2="-1.325" width="0.15" layer="39"/>
+<wire x1="-1.525" y1="-1.325" x2="1.525" y2="-1.325" width="0.15" layer="39"/>
+<wire x1="1.525" y1="-1.325" x2="1.525" y2="1.325" width="0.15" layer="39"/>
+<wire x1="1.525" y1="1.325" x2="-1.525" y2="1.325" width="0.15" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="INA199">
+<description>&lt;h3&gt;INA199&lt;/h3&gt;
+&lt;p&gt;Current-sense amplifier&lt;/p&gt;</description>
+<pin name="IN+" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
+<pin name="IN-" x="10.16" y="0" length="short" direction="in" rot="R180"/>
+<pin name="OUT" x="10.16" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="REF" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="VDD" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="8.89" size="1.778" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-8.89" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-10.922" size="1.778" layer="97" align="center">&gt;SKU</text>
+<text x="0" y="-12.954" size="1.778" layer="97" align="center">&gt;GAIN</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="INA199" prefix="U">
+<description>&lt;h3&gt;INA199&lt;/h3&gt;
+&lt;p&gt;Current-sense amplifier&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INA199" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT363">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN+" pad="4"/>
+<connect gate="G$1" pin="IN-" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="REF" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="C1">
+<attribute name="GAIN" value="50 V/V"/>
+<attribute name="SKU" value="08-0003"/>
+<attribute name="VALUE" value="INA199C1"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="DESIGNER" value="Gabe Adamson"/>
@@ -6255,6 +6340,30 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="RT7" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-10K" value="10kΩ 5%"/>
 <part name="SUPPLY193" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET71" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="U19" library="CougsInSpace-IC-Amplifiers" deviceset="INA199" device="" technology="C1" value="INA199C1"/>
+<part name="SUPPLY194" library="CougsInSpace-PowerSymbols" deviceset="3.3V-2" device=""/>
+<part name="SUPPLY195" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="R61" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
+<part name="OFFSHEET132" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET176" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET177" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET269" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="U20" library="CougsInSpace-IC-Amplifiers" deviceset="INA199" device="" technology="C1" value="INA199C1"/>
+<part name="SUPPLY196" library="CougsInSpace-PowerSymbols" deviceset="3.3V-2" device=""/>
+<part name="SUPPLY197" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="R62" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
+<part name="OFFSHEET270" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET271" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET272" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET273" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="U21" library="CougsInSpace-IC-Amplifiers" deviceset="INA199" device="" technology="C1" value="INA199C1"/>
+<part name="SUPPLY198" library="CougsInSpace-PowerSymbols" deviceset="3.3V-2" device=""/>
+<part name="SUPPLY199" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="R63" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-0.05R" value="50mΩ 1%"/>
+<part name="OFFSHEET274" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET275" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET276" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET277" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8877,6 +8986,30 @@ Decoupling</text>
 <instance part="SUPPLY69" gate="G$1" x="137.16" y="50.8"/>
 <instance part="SUPPLY84" gate="G$1" x="83.82" y="96.52"/>
 <instance part="SUPPLY25" gate="G$1" x="83.82" y="182.88"/>
+<instance part="U19" gate="G$1" x="195.58" y="167.64"/>
+<instance part="SUPPLY194" gate="G$1" x="182.88" y="175.26"/>
+<instance part="SUPPLY195" gate="G$1" x="182.88" y="157.48"/>
+<instance part="R61" gate="G$1" x="218.44" y="182.88"/>
+<instance part="OFFSHEET132" gate="G$1" x="182.88" y="182.88"/>
+<instance part="OFFSHEET176" gate="G$1" x="248.92" y="182.88" rot="R180"/>
+<instance part="OFFSHEET177" gate="G$1" x="157.48" y="167.64"/>
+<instance part="OFFSHEET269" gate="G$1" x="233.68" y="162.56" rot="R180"/>
+<instance part="U20" gate="G$1" x="193.04" y="93.98"/>
+<instance part="SUPPLY196" gate="G$1" x="180.34" y="101.6"/>
+<instance part="SUPPLY197" gate="G$1" x="180.34" y="83.82"/>
+<instance part="R62" gate="G$1" x="215.9" y="109.22"/>
+<instance part="OFFSHEET270" gate="G$1" x="180.34" y="109.22"/>
+<instance part="OFFSHEET271" gate="G$1" x="246.38" y="109.22" rot="R180"/>
+<instance part="OFFSHEET272" gate="G$1" x="154.94" y="93.98"/>
+<instance part="OFFSHEET273" gate="G$1" x="231.14" y="88.9" rot="R180"/>
+<instance part="U21" gate="G$1" x="193.04" y="53.34"/>
+<instance part="SUPPLY198" gate="G$1" x="180.34" y="60.96"/>
+<instance part="SUPPLY199" gate="G$1" x="180.34" y="43.18"/>
+<instance part="R63" gate="G$1" x="215.9" y="68.58"/>
+<instance part="OFFSHEET274" gate="G$1" x="180.34" y="68.58"/>
+<instance part="OFFSHEET275" gate="G$1" x="246.38" y="68.58" rot="R180"/>
+<instance part="OFFSHEET276" gate="G$1" x="154.94" y="53.34"/>
+<instance part="OFFSHEET277" gate="G$1" x="231.14" y="48.26" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8981,6 +9114,24 @@ Decoupling</text>
 <junction x="73.66" y="109.22"/>
 <pinref part="SUPPLY29" gate="G$1" pin="AGND"/>
 </segment>
+<segment>
+<pinref part="U19" gate="G$1" pin="GND"/>
+<wire x1="185.42" y1="162.56" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="162.56" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="SUPPLY195" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="GND"/>
+<wire x1="182.88" y1="88.9" x2="180.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="88.9" x2="180.34" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="SUPPLY197" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U21" gate="G$1" pin="GND"/>
+<wire x1="182.88" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="48.26" x2="180.34" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SUPPLY199" gate="G$1" pin="AGND"/>
+</segment>
 </net>
 <net name="ADCS_I2C0_SCL" class="0">
 <segment>
@@ -9061,12 +9212,32 @@ Decoupling</text>
 <label x="15.24" y="177.8" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="B1"/>
 </segment>
+<segment>
+<pinref part="U19" gate="G$1" pin="IN+"/>
+<wire x1="205.74" y1="172.72" x2="208.28" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="172.72" x2="208.28" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="182.88" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R61" gate="G$1" pin="1"/>
+<junction x="208.28" y="182.88"/>
+<wire x1="208.28" y1="182.88" x2="185.42" y2="182.88" width="0.1524" layer="91"/>
+<label x="187.96" y="182.88" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="COIL-X_COIL+" class="0">
 <segment>
 <wire x1="12.7" y1="175.26" x2="40.64" y2="175.26" width="0.1524" layer="91"/>
 <label x="15.24" y="175.26" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<pinref part="U19" gate="G$1" pin="IN-"/>
+<wire x1="205.74" y1="167.64" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="167.64" x2="226.06" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="182.88" x2="220.98" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R61" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="91"/>
+<junction x="226.06" y="182.88"/>
+<label x="228.6" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COIL-Y_OUT1" class="0">
@@ -9075,12 +9246,32 @@ Decoupling</text>
 <label x="15.24" y="167.64" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="B1"/>
 </segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="IN+"/>
+<wire x1="203.2" y1="99.06" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="99.06" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R62" gate="G$1" pin="1"/>
+<junction x="205.74" y="109.22"/>
+<wire x1="205.74" y1="109.22" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
+<label x="185.42" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="COIL-Y_COIL+" class="0">
 <segment>
 <wire x1="33.02" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="15.24" y="165.1" size="1.778" layer="95"/>
 <pinref part="R17" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="IN-"/>
+<wire x1="203.2" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="93.98" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R62" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<junction x="223.52" y="109.22"/>
+<label x="226.06" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COIL-Z_COIL+" class="0">
@@ -9089,12 +9280,32 @@ Decoupling</text>
 <label x="15.24" y="154.94" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="A1"/>
 </segment>
+<segment>
+<pinref part="U21" gate="G$1" pin="IN-"/>
+<wire x1="203.2" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="53.34" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R63" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<junction x="223.52" y="68.58"/>
+<label x="226.06" y="68.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="COIL-Z_OUT1" class="0">
 <segment>
 <wire x1="40.64" y1="157.48" x2="12.7" y2="157.48" width="0.1524" layer="91"/>
 <label x="15.24" y="157.48" size="1.778" layer="95"/>
 <pinref part="R31" gate="G$1" pin="B1"/>
+</segment>
+<segment>
+<pinref part="U21" gate="G$1" pin="IN+"/>
+<wire x1="203.2" y1="58.42" x2="205.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="58.42" x2="205.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="68.58" x2="210.82" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R63" gate="G$1" pin="1"/>
+<junction x="205.74" y="68.58"/>
+<wire x1="205.74" y1="68.58" x2="182.88" y2="68.58" width="0.1524" layer="91"/>
+<label x="185.42" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEMP_IHU" class="0">
@@ -9317,6 +9528,62 @@ Decoupling</text>
 <wire x1="86.36" y1="180.34" x2="83.82" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="180.34" x2="83.82" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="G$1" pin="3.3V_2"/>
+</segment>
+<segment>
+<pinref part="U19" gate="G$1" pin="VDD"/>
+<wire x1="185.42" y1="172.72" x2="182.88" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="172.72" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY194" gate="G$1" pin="3.3V_2"/>
+</segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="VDD"/>
+<wire x1="182.88" y1="99.06" x2="180.34" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="99.06" x2="180.34" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="SUPPLY196" gate="G$1" pin="3.3V_2"/>
+</segment>
+<segment>
+<pinref part="U21" gate="G$1" pin="VDD"/>
+<wire x1="182.88" y1="58.42" x2="180.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="58.42" x2="180.34" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY198" gate="G$1" pin="3.3V_2"/>
+</segment>
+</net>
+<net name="COIL-X_CURRENT" class="0">
+<segment>
+<pinref part="U19" gate="G$1" pin="OUT"/>
+<wire x1="205.74" y1="162.56" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
+<label x="208.28" y="162.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADCS_HALF-REF" class="0">
+<segment>
+<pinref part="U19" gate="G$1" pin="REF"/>
+<wire x1="185.42" y1="167.64" x2="160.02" y2="167.64" width="0.1524" layer="91"/>
+<label x="162.56" y="167.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="REF"/>
+<wire x1="182.88" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
+<label x="160.02" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U21" gate="G$1" pin="REF"/>
+<wire x1="182.88" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
+<label x="160.02" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="COIL-Y_CURRENT" class="0">
+<segment>
+<pinref part="U20" gate="G$1" pin="OUT"/>
+<wire x1="203.2" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
+<label x="205.74" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="COIL-Z_CURRENT" class="0">
+<segment>
+<pinref part="U21" gate="G$1" pin="OUT"/>
+<wire x1="203.2" y1="48.26" x2="228.6" y2="48.26" width="0.1524" layer="91"/>
+<label x="205.74" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
