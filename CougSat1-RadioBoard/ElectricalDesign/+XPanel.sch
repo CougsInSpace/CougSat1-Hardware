@@ -3112,7 +3112,6 @@ under the package</text>
 <part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="OFFSHEET5" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET7" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET8" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="FRAME4" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Mechanical"/>
 </part>
@@ -3180,6 +3179,7 @@ under the package</text>
 <part name="SUPPLY49" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY50" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY51" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
+<part name="SUPPLY52" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3306,9 +3306,9 @@ in the center of the board</text>
 <wire x1="93.98" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <text x="124.46" y="137.16" size="1.778" layer="97" align="center-left">&lt;2A5&gt;</text>
 <text x="124.46" y="139.7" size="1.778" layer="97" align="center-left">&lt;2A5</text>
-<text x="213.36" y="180.34" size="1.778" layer="97" align="center-left">&lt;2B3&gt;</text>
-<text x="213.36" y="177.8" size="1.778" layer="97" align="center-left">  2B3&gt;</text>
-<text x="104.14" y="60.96" size="1.778" layer="97">2B2&gt;</text>
+<text x="213.36" y="180.34" size="1.778" layer="97" align="center-left"> &lt;2B3&gt;</text>
+<text x="213.36" y="177.8" size="1.778" layer="97" align="center-left"> 2B3&gt;</text>
+<text x="104.14" y="60.96" size="1.778" layer="97" align="center-left"> 2B2&gt;</text>
 <text x="38.1" y="38.1" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
 <wire x1="25.4" y1="63.5" x2="25.4" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="25.4" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="97" style="shortdash"/>
@@ -3897,8 +3897,7 @@ Addr = 0x26 | R/W</text>
 </sheet>
 <sheet>
 <plain>
-<text x="172.72" y="142.24" size="1.778" layer="97">2C4&gt;</text>
-<text x="172.72" y="187.96" size="1.778" layer="97">&lt;3A5</text>
+<text x="172.72" y="187.96" size="1.778" layer="97" align="center-left"> &lt;3A5</text>
 <text x="208.28" y="165.1" size="1.778" layer="97">3A4&gt;</text>
 </plain>
 <instances>
@@ -3961,10 +3960,10 @@ Addr = 0x26 | R/W</text>
 <attribute name="VALUE" x="165.1" y="171.958" size="1.27" layer="96" align="center"/>
 <attribute name="SKU" x="165.1" y="170.434" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="H3" gate="G$1" x="152.4" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="152.4" y="158.242" size="1.27" layer="95" rot="MR0" align="center"/>
-<attribute name="VALUE" x="152.4" y="151.638" size="1.27" layer="96" rot="MR0" align="center"/>
-<attribute name="SKU" x="152.4" y="150.114" size="1.27" layer="97" rot="MR0" align="center"/>
+<instance part="H3" gate="G$1" x="154.94" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="154.94" y="158.242" size="1.27" layer="95" rot="MR0" align="center"/>
+<attribute name="VALUE" x="154.94" y="151.638" size="1.27" layer="96" rot="MR0" align="center"/>
+<attribute name="SKU" x="154.94" y="150.114" size="1.27" layer="97" rot="MR0" align="center"/>
 </instance>
 <instance part="H4" gate="G$1" x="165.1" y="154.94" smashed="yes">
 <attribute name="NAME" x="165.1" y="158.242" size="1.27" layer="95" align="center"/>
@@ -3996,7 +3995,6 @@ Addr = 0x26 | R/W</text>
 <instance part="SUPPLY18" gate="G$1" x="215.9" y="152.4" smashed="yes"/>
 <instance part="OFFSHEET5" gate="G$1" x="205.74" y="165.1" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET7" gate="G$1" x="170.18" y="187.96" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET8" gate="G$1" x="170.18" y="142.24" smashed="yes" rot="R180"/>
 <instance part="H5" gate="G$1" x="38.1" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="38.1" y="112.522" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="38.1" y="105.918" size="1.27" layer="96" rot="MR0" align="center"/>
@@ -4141,6 +4139,7 @@ Addr = 0x26 | R/W</text>
 <instance part="SUPPLY49" gate="G$1" x="152.4" y="66.04" smashed="yes"/>
 <instance part="SUPPLY50" gate="G$1" x="180.34" y="66.04" smashed="yes"/>
 <instance part="SUPPLY51" gate="G$1" x="162.56" y="66.04" smashed="yes"/>
+<instance part="SUPPLY52" gate="G$1" x="160.02" y="139.7" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -4237,11 +4236,11 @@ Addr = 0x26 | R/W</text>
 <pinref part="H4" gate="G$1" pin="MOUNT"/>
 <pinref part="H3" gate="G$1" pin="MOUNT"/>
 <wire x1="162.56" y1="154.94" x2="160.02" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="154.94" x2="160.02" y2="142.24" width="0.1524" layer="91"/>
 <junction x="160.02" y="154.94"/>
 <label x="160.02" y="144.78" size="1.778" layer="95"/>
-<wire x1="160.02" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="SUPPLY52" gate="G$1" pin="PGND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY36" gate="G$1" pin="PGND"/>
