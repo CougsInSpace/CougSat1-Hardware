@@ -5561,7 +5561,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY2" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY3" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY4" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
-<part name="SUPPLY5" library="CougsInSpace-PowerSymbols" deviceset="RFGND" device=""/>
 <part name="SUPPLY6" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY7" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="Y1" library="CougsInSpace-Clocks" deviceset="CRYSTAL-16MHZ" device="-SMD-4025" value="16MHz ±10ppm"/>
@@ -5596,7 +5595,6 @@ Last character is an incremented letter for each variant of the same value and p
 </part>
 <part name="R12" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-33K" value="33kΩ 1%"/>
 <part name="SUPPLY56" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="SUPPLY57" library="CougsInSpace-PowerSymbols" deviceset="RFGND" device=""/>
 <part name="R13" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
 <part name="DS1" library="CougsInSpace-LEDs" deviceset="LED-V" device="-1608" technology="-GRN" value="Green"/>
 <part name="C11" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
@@ -5797,8 +5795,8 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET166" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET167" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET168" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="J10" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH"/>
-<part name="J16" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH"/>
+<part name="J10" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH" value="iFJR SD1"/>
+<part name="J16" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH" value="IFJR SD0"/>
 <part name="SUPPLY115" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY116" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET169" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -5968,8 +5966,8 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-100NF" value="100nF 10%"/>
 <part name="C33" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-100NF" value="100nF 10%"/>
 <part name="C35" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-6.8NF" value="6.8nF 5%"/>
-<part name="J2" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH"/>
-<part name="J6" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH"/>
+<part name="J2" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH" value="IHU SD1"/>
+<part name="J6" library="CougsInSpace-Connectors" deviceset="µSD-SW" device="-PUSH-PUSH" value="IHU SD0"/>
 <part name="SUPPLY75" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY76" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET40" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -6274,6 +6272,10 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY78" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
 <part name="SUPPLY79" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
 <part name="SUPPLY81" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
+<part name="SUPPLY91" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
+<part name="SUPPLY92" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
+<part name="SUPPLY5" library="CougsInSpace-PowerSymbols" deviceset="RFGND" device=""/>
+<part name="SUPPLY57" library="CougsInSpace-PowerSymbols" deviceset="RFGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6705,9 +6707,9 @@ EEPROM</text>
 <instance part="SUPPLY2" gate="1" x="15.24" y="10.16" smashed="yes"/>
 <instance part="SUPPLY3" gate="G$1" x="30.48" y="10.16" smashed="yes"/>
 <instance part="SUPPLY4" gate="G$1" x="45.72" y="10.16" smashed="yes"/>
-<instance part="SUPPLY5" gate="G$1" x="60.96" y="10.16" smashed="yes"/>
 <instance part="DIA23" gate="G$1" x="172.72" y="121.92" smashed="yes"/>
 <instance part="DIA24" gate="G$1" x="205.74" y="121.92" smashed="yes"/>
+<instance part="SUPPLY5" gate="G$1" x="60.96" y="10.16" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6747,17 +6749,19 @@ EEPROM</text>
 <pinref part="SUPPLY3" gate="G$1" pin="AGND"/>
 <wire x1="30.48" y1="15.24" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY5" gate="G$1" pin="RFGND"/>
-<wire x1="60.96" y1="15.24" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="CHASSIS" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="SUPPLY4" gate="G$1" pin="CHASSIS"/>
 <wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RFGND" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="SUPPLY5" gate="G$1" pin="RFGND"/>
+<wire x1="60.96" y1="15.24" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -6825,7 +6829,6 @@ to µController</text>
 <text x="243.84" y="63.5" size="1.27" layer="97" align="center-left">   3A6&gt;</text>
 <text x="200.66" y="127" size="1.27" layer="97" align="center-left"> &lt;9B6</text>
 <text x="48.26" y="124.46" size="1.27" layer="97" align="center-left">   3D5&gt;</text>
-<text x="144.78" y="127" size="1.27" layer="97" align="center-left">   3D3&gt;</text>
 <text x="200.66" y="40.64" size="1.27" layer="97" align="center-right">3B2&gt; </text>
 <wire x1="91.44" y1="60.96" x2="91.44" y2="33.02" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="33.02" x2="114.3" y2="33.02" width="0.1524" layer="97" style="shortdash"/>
@@ -10273,7 +10276,6 @@ Connected</text>
 <attribute name="SKU" x="39.37" y="113.792" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY56" gate="1" x="73.66" y="86.36" smashed="yes"/>
-<instance part="SUPPLY57" gate="G$1" x="114.3" y="114.3" smashed="yes"/>
 <instance part="R13" gate="G$1" x="132.08" y="99.06" smashed="yes">
 <attribute name="NAME" x="130.81" y="101.092" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="130.556" y="97.028" size="1.27" layer="96" align="center-right"/>
@@ -10390,6 +10392,7 @@ Connected</text>
 <instance part="SUPPLY178" gate="G$1" x="60.96" y="73.66" smashed="yes">
 <attribute name="VALUE" x="60.96" y="77.216" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY57" gate="G$1" x="116.84" y="114.3" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10606,14 +10609,6 @@ Connected</text>
 </net>
 <net name="AGND" class="0">
 <segment>
-<pinref part="U9" gate="BASE" pin="RFGND"/>
-<wire x1="101.6" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="SUPPLY57" gate="G$1" pin="RFGND"/>
-<wire x1="114.3" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<junction x="114.3" y="116.84"/>
-<pinref part="AE1" gate="G$1" pin="SHIELD"/>
-</segment>
-<segment>
 <pinref part="RT1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY97" gate="G$1" pin="AGND"/>
 </segment>
@@ -10685,6 +10680,16 @@ Connected</text>
 <wire x1="60.96" y1="71.12" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="SUPPLY178" gate="G$1" pin="3.3V_2"/>
+</segment>
+</net>
+<net name="RFGND" class="0">
+<segment>
+<pinref part="U9" gate="BASE" pin="RFGND"/>
+<wire x1="101.6" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="AE1" gate="G$1" pin="SHIELD"/>
+<pinref part="SUPPLY57" gate="G$1" pin="RFGND"/>
+<wire x1="116.84" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<junction x="116.84" y="116.84"/>
 </segment>
 </net>
 </nets>
@@ -13005,6 +13010,12 @@ Decoupling</text>
 <instance part="SUPPLY81" gate="G$1" x="40.64" y="132.08" smashed="yes">
 <attribute name="VALUE" x="40.64" y="135.636" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY91" gate="G$1" x="111.76" y="160.02" smashed="yes">
+<attribute name="VALUE" x="111.76" y="163.576" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY92" gate="G$1" x="111.76" y="119.38" smashed="yes">
+<attribute name="VALUE" x="111.76" y="122.936" size="1.27" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13123,12 +13134,6 @@ Decoupling</text>
 <pinref part="J2" gate="G$1" pin="SW+"/>
 <wire x1="35.56" y1="109.22" x2="86.36" y2="109.22" width="0.1524" layer="91"/>
 <label x="66.04" y="109.22" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="3.3V_6" class="0">
-<segment>
-<pinref part="C65" gate="G$1" pin="1"/>
-<pinref part="SUPPLY221" gate="G$1" pin="3.3V_6"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -13297,6 +13302,14 @@ Decoupling</text>
 <wire x1="40.64" y1="121.92" x2="40.64" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SUPPLY81" gate="G$1" pin="3.3V_0"/>
 </segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="SUPPLY91" gate="G$1" pin="3.3V_0"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="SUPPLY92" gate="G$1" pin="3.3V_0"/>
+</segment>
 </net>
 <net name="AVREF-1" class="0">
 <segment>
@@ -13326,6 +13339,12 @@ Decoupling</text>
 <wire x1="40.64" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="22.86" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY192" gate="G$1" pin="AVREF-1"/>
+</segment>
+</net>
+<net name="3.3V_6" class="0">
+<segment>
+<pinref part="C65" gate="G$1" pin="1"/>
+<pinref part="SUPPLY221" gate="G$1" pin="3.3V_6"/>
 </segment>
 </net>
 </nets>
@@ -13532,24 +13551,21 @@ Decoupling</text>
 </net>
 <net name="COIL-Y_COIL-" class="0">
 <segment>
-<wire x1="78.74" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="165.1" x2="101.6" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="4"/>
 <label x="81.28" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COIL-Z_+" class="0">
 <segment>
-<wire x1="144.78" y1="167.64" x2="165.1" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="167.64" x2="167.64" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="J12" gate="G$1" pin="3"/>
 <label x="147.32" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="COIL-Z_COIL-" class="0">
 <segment>
-<wire x1="144.78" y1="165.1" x2="165.1" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="165.1" x2="167.64" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="J12" gate="G$1" pin="4"/>
 <label x="147.32" y="165.1" size="1.778" layer="95"/>
 </segment>
@@ -13562,9 +13578,8 @@ Decoupling</text>
 <wire x1="35.56" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="78.74" y1="172.72" x2="99.06" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 <label x="81.28" y="172.72" size="1.778" layer="95"/>
-<wire x1="99.06" y1="172.72" x2="101.6" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13603,9 +13618,8 @@ Decoupling</text>
 <pinref part="J11" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="144.78" y1="170.18" x2="165.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="147.32" y="170.18" size="1.778" layer="95"/>
-<wire x1="165.1" y1="170.18" x2="167.64" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -13644,6 +13658,154 @@ Decoupling</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,3,160.02,175.26,U2BASE,VDDA/VREF+,N$58,,,"/>
+<approved hash="104,3,119.38,177.8,U2BASE,VBAT,3.3V_2,,,"/>
+<approved hash="104,3,119.38,165.1,U2BASE,VDDUSB,3.3V_2,,,"/>
+<approved hash="104,3,119.38,172.72,U2BASE,VDD,3.3V_2,,,"/>
+<approved hash="104,3,119.38,170.18,U2BASE,VDD,3.3V_2,,,"/>
+<approved hash="104,3,119.38,167.64,U2BASE,VDD,3.3V_2,,,"/>
+<approved hash="104,3,160.02,160.02,U2BASE,VSS,DGND,,,"/>
+<approved hash="104,3,160.02,162.56,U2BASE,VSS,DGND,,,"/>
+<approved hash="104,3,160.02,165.1,U2BASE,VSS,DGND,,,"/>
+<approved hash="104,3,160.02,167.64,U2BASE,VSS,DGND,,,"/>
+<approved hash="104,3,160.02,172.72,U2BASE,VSSA/VREF-,DGND,,,"/>
+<approved hash="104,5,96.52,162.56,U5,VCC,3.3V_2,,,"/>
+<approved hash="104,5,121.92,162.56,U5,VM,VBATT_5,,,"/>
+<approved hash="104,5,96.52,111.76,U6,VCC,3.3V_2,,,"/>
+<approved hash="104,5,121.92,111.76,U6,VM,VBATT_5,,,"/>
+<approved hash="104,5,96.52,63.5,U7,VCC,3.3V_2,,,"/>
+<approved hash="104,5,121.92,63.5,U7,VM,VBATT_5,,,"/>
+<approved hash="104,7,76.2,119.38,U9BASE,VCC,3.3V_2,,,"/>
+<approved hash="104,7,76.2,116.84,U9BASE,VCC,3.3V_2,,,"/>
+<approved hash="104,7,76.2,111.76,U9BASE,VBAT,GPS_VBAT,,,"/>
+<approved hash="104,4,50.8,175.26,U10,VDD,3.3V_2,,,"/>
+<approved hash="104,4,50.8,172.72,U10,VDDIO,3.3V_2,,,"/>
+<approved hash="104,4,50.8,152.4,U10,DGNDIO,DGND,,,"/>
+<approved hash="104,8,162.56,172.72,U1BASE,VDDA/VREF+,N$59,,,"/>
+<approved hash="104,8,121.92,175.26,U1BASE,VBAT,3.3V_1,,,"/>
+<approved hash="104,8,121.92,162.56,U1BASE,VDDUSB,3.3V_1,,,"/>
+<approved hash="104,8,121.92,170.18,U1BASE,VDD,3.3V_1,,,"/>
+<approved hash="104,8,121.92,167.64,U1BASE,VDD,3.3V_1,,,"/>
+<approved hash="104,8,121.92,165.1,U1BASE,VDD,3.3V_1,,,"/>
+<approved hash="104,8,162.56,157.48,U1BASE,VSS,DGND,,,"/>
+<approved hash="104,8,162.56,160.02,U1BASE,VSS,DGND,,,"/>
+<approved hash="104,8,162.56,162.56,U1BASE,VSS,DGND,,,"/>
+<approved hash="104,8,162.56,165.1,U1BASE,VSS,DGND,,,"/>
+<approved hash="104,8,162.56,170.18,U1BASE,VSSA/VREF-,DGND,,,"/>
+<approved hash="104,9,160.02,175.26,U3BASE,VDDA/VREF+,N$60,,,"/>
+<approved hash="104,9,119.38,177.8,U3BASE,VBAT,3.3V_0,,,"/>
+<approved hash="104,9,119.38,165.1,U3BASE,VDDUSB,3.3V_0,,,"/>
+<approved hash="104,9,119.38,172.72,U3BASE,VDD,3.3V_0,,,"/>
+<approved hash="104,9,119.38,170.18,U3BASE,VDD,3.3V_0,,,"/>
+<approved hash="104,9,119.38,167.64,U3BASE,VDD,3.3V_0,,,"/>
+<approved hash="104,9,160.02,160.02,U3BASE,VSS,DGND,,,"/>
+<approved hash="104,9,160.02,162.56,U3BASE,VSS,DGND,,,"/>
+<approved hash="104,9,160.02,165.1,U3BASE,VSS,DGND,,,"/>
+<approved hash="104,9,160.02,167.64,U3BASE,VSS,DGND,,,"/>
+<approved hash="104,9,160.02,172.72,U3BASE,VSSA/VREF-,DGND,,,"/>
+<approved hash="104,3,33.02,81.28,U12,VCCA,3.3V_2,,,"/>
+<approved hash="104,3,58.42,81.28,U12,VCCB,3.3V_1,,,"/>
+<approved hash="104,3,127,81.28,U13,VCCA,3.3V_2,,,"/>
+<approved hash="104,3,152.4,81.28,U13,VCCB,3.3V_1,,,"/>
+<approved hash="104,3,55.88,45.72,U4,VCC,3.3V_2,,,"/>
+<approved hash="104,3,55.88,20.32,U11,VCC,3.3V_2,,,"/>
+<approved hash="104,8,30.48,25.4,J10,VDD,3.3V_1,,,"/>
+<approved hash="104,8,30.48,20.32,J10,VSS,DGND,,,"/>
+<approved hash="104,8,30.48,66.04,J16,VDD,3.3V_1,,,"/>
+<approved hash="104,8,30.48,60.96,J16,VSS,DGND,,,"/>
+<approved hash="104,4,50.8,86.36,U15,VDD,3.3V_2,,,"/>
+<approved hash="104,4,50.8,83.82,U15,VDDIO,3.3V_2,,,"/>
+<approved hash="104,4,50.8,63.5,U15,DGNDIO,DGND,,,"/>
+<approved hash="104,4,170.18,129.54,U16,VDD,3.3V_2,,,"/>
+<approved hash="104,4,170.18,127,U16,VDDIO,3.3V_2,,,"/>
+<approved hash="104,4,170.18,106.68,U16,DGNDIO,DGND,,,"/>
+<approved hash="104,11,53.34,76.2,J4POWER,PR_3.3V-0,3.3V_0,,,"/>
+<approved hash="104,11,53.34,73.66,J4POWER,PR_3.3V-1,3.3V_1,,,"/>
+<approved hash="104,11,53.34,71.12,J4POWER,PR_3.3V-2,3.3V_2,,,"/>
+<approved hash="204,11,53.34,68.58,J4POWER,PR_3.3V-3,,,,"/>
+<approved hash="204,11,53.34,66.04,J4POWER,PR_3.3V-4,,,,"/>
+<approved hash="204,11,53.34,63.5,J4POWER,PR_3.3V-5,,,,"/>
+<approved hash="204,11,53.34,60.96,J4POWER,PR_3.3V-6,,,,"/>
+<approved hash="204,11,53.34,58.42,J4POWER,PR_3.3V-7,,,,"/>
+<approved hash="204,11,53.34,55.88,J4POWER,PR_3.3V-8,,,,"/>
+<approved hash="204,11,53.34,53.34,J4POWER,PR_3.3V-9,,,,"/>
+<approved hash="204,11,53.34,50.8,J4POWER,PR_3.3V-10,,,,"/>
+<approved hash="204,11,53.34,48.26,J4POWER,PR_3.3V-11,,,,"/>
+<approved hash="204,11,53.34,45.72,J4POWER,PR_3.3V-12,,,,"/>
+<approved hash="204,11,53.34,43.18,J4POWER,PR_BATT-0,,,,"/>
+<approved hash="204,11,53.34,40.64,J4POWER,PR_BATT-1,,,,"/>
+<approved hash="204,11,53.34,38.1,J4POWER,PR_BATT-2,,,,"/>
+<approved hash="204,11,53.34,35.56,J4POWER,PR_BATT-3,,,,"/>
+<approved hash="204,11,53.34,33.02,J4POWER,PR_BATT-4,,,,"/>
+<approved hash="104,11,53.34,30.48,J4POWER,PR_BATT-5,VBATT_5,,,"/>
+<approved hash="204,11,53.34,27.94,J4POWER,PR_BATT-6,,,,"/>
+<approved hash="104,10,35.56,121.92,J2,VDD,3.3V_0,,,"/>
+<approved hash="104,10,35.56,116.84,J2,VSS,DGND,,,"/>
+<approved hash="104,10,35.56,162.56,J6,VDD,3.3V_0,,,"/>
+<approved hash="104,10,35.56,157.48,J6,VSS,DGND,,,"/>
+<approved hash="104,9,48.26,78.74,U17,VCCA,3.3V_0,,,"/>
+<approved hash="104,9,73.66,78.74,U17,VCCB,3.3V_1,,,"/>
+<approved hash="104,9,48.26,43.18,U18,VCCA,3.3V_0,,,"/>
+<approved hash="104,9,73.66,43.18,U18,VCCB,3.3V_1,,,"/>
+<approved hash="104,6,157.48,121.92,U19,VDD,3.3V_2,,,"/>
+<approved hash="104,6,157.48,111.76,U19,GND,AGND,,,"/>
+<approved hash="104,6,157.48,83.82,U20,VDD,3.3V_2,,,"/>
+<approved hash="104,6,157.48,73.66,U20,GND,AGND,,,"/>
+<approved hash="104,6,157.48,45.72,U21,VDD,3.3V_2,,,"/>
+<approved hash="104,6,157.48,35.56,U21,GND,AGND,,,"/>
+<approved hash="104,6,96.52,175.26,U8,VDRIVE,3.3V_2,,,"/>
+<approved hash="202,6,96.52,170.18,U8,!PD!/!RST,,,,"/>
+<approved hash="104,6,96.52,177.8,U8,VDD,AVDD,,,"/>
+<approved hash="104,6,76.2,134.62,U24,V+,AVDD,,,"/>
+<approved hash="104,6,76.2,119.38,U24,V-,AGND,,,"/>
+<approved hash="104,6,76.2,106.68,U14,V+,AVDD,,,"/>
+<approved hash="104,6,76.2,91.44,U14,V-,AGND,,,"/>
+<approved hash="202,6,182.88,170.18,U25,IN3,,,,"/>
+<approved hash="202,6,182.88,167.64,U25,IN4,,,,"/>
+<approved hash="202,6,182.88,165.1,U25,IN5,,,,"/>
+<approved hash="202,6,182.88,162.56,U25,IN6,,,,"/>
+<approved hash="202,6,182.88,160.02,U25,IN7,,,,"/>
+<approved hash="104,6,213.36,175.26,U25,VDRIVE,3.3V_2,,,"/>
+<approved hash="202,6,213.36,152.4,U25,AS0,,,,"/>
+<approved hash="202,6,213.36,170.18,U25,!PD!/!RST,,,,"/>
+<approved hash="104,6,213.36,177.8,U25,VDD,AVDD,,,"/>
+<approved hash="202,10,43.18,58.42,U26,IN6,,,,"/>
+<approved hash="202,10,43.18,55.88,U26,IN7,,,,"/>
+<approved hash="104,10,73.66,71.12,U26,VDRIVE,3.3V_0,,,"/>
+<approved hash="202,10,73.66,66.04,U26,!PD!/!RST,,,,"/>
+<approved hash="104,10,73.66,73.66,U26,VDD,AVDD,,,"/>
+<approved hash="104,10,53.34,30.48,U29,V+,AVDD,,,"/>
+<approved hash="104,10,53.34,15.24,U29,V-,AGND,,,"/>
+<approved hash="106,10,93.98,76.2,3.3V_6,,,,,"/>
+<approved hash="106,10,93.98,76.2,3.3V_6,,,,,"/>
+<approved hash="209,6,157.48,116.84,ADCS_HALF-REF,,,,,"/>
+<approved hash="209,6,157.48,78.74,ADCS_HALF-REF,,,,,"/>
+<approved hash="209,6,157.48,40.64,ADCS_HALF-REF,,,,,"/>
+<approved hash="106,3,76.2,129.54,ADCS_JDTO,,,,,"/>
+<approved hash="208,3,218.44,175.26,AVREF-0,sup,,,,"/>
+<approved hash="208,4,180.34,162.56,AVREF-0,sup,,,,"/>
+<approved hash="208,4,215.9,185.42,AVREF-0,sup,,,,"/>
+<approved hash="208,4,149.86,185.42,AVREF-0,sup,,,,"/>
+<approved hash="208,5,208.28,111.76,AVREF-0,sup,,,,"/>
+<approved hash="208,5,208.28,63.5,AVREF-0,sup,,,,"/>
+<approved hash="208,5,208.28,162.56,AVREF-0,sup,,,,"/>
+<approved hash="208,6,86.36,99.06,AVREF-0,out,,,,"/>
+<approved hash="208,6,109.22,101.6,AVREF-0,sup,,,,"/>
+<approved hash="208,7,68.58,149.86,AVREF-0,sup,,,,"/>
+<approved hash="208,8,215.9,167.64,AVREF-1,sup,,,,"/>
+<approved hash="208,8,175.26,53.34,AVREF-1,sup,,,,"/>
+<approved hash="208,8,121.92,53.34,AVREF-1,sup,,,,"/>
+<approved hash="208,9,210.82,172.72,AVREF-1,sup,,,,"/>
+<approved hash="208,10,139.7,129.54,AVREF-1,sup,,,,"/>
+<approved hash="208,10,139.7,170.18,AVREF-1,sup,,,,"/>
+<approved hash="208,10,63.5,22.86,AVREF-1,out,,,,"/>
+<approved hash="208,10,86.36,25.4,AVREF-1,sup,,,,"/>
+<approved hash="106,11,144.78,167.64,COIL-Z_+,,,,,"/>
+<approved hash="106,3,20.32,121.92,GPS_!RESET,,,,,"/>
+<approved hash="106,8,20.32,88.9,IFJR_JDTI,,,,,"/>
+<approved hash="106,9,132.08,104.14,IHU_SPI2_MISO,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
