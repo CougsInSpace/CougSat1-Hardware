@@ -4190,7 +4190,7 @@ Maximum input is ±1.65V</text>
 <sheet>
 <plain>
 <text x="172.72" y="187.96" size="1.778" layer="97" align="center-left"> &lt;3A5</text>
-<text x="208.28" y="165.1" size="1.778" layer="97">3A4&gt;</text>
+<text x="208.28" y="165.1" size="1.778" layer="97" align="center-left">3A4&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
