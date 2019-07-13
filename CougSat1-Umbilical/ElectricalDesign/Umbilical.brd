@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -563,12 +563,12 @@ Last character is an incremented letter for each variant of the same value and p
 <packages>
 <package name="USB-B-FEMALE">
 <description>&lt;h3&gt;USB 2.0 - B - Female&lt;/h3&gt;</description>
-<pad name="SHIELD@1" x="-6.02" y="0" drill="2.3"/>
-<pad name="SHIELD@2" x="6.02" y="0" drill="2.3"/>
-<pad name="3" x="-1.25" y="2.71" drill="0.9"/>
-<pad name="4" x="1.25" y="2.71" drill="0.9"/>
-<pad name="2" x="-1.25" y="4.71" drill="0.9"/>
-<pad name="1" x="1.25" y="4.71" drill="0.9"/>
+<pad name="SHIELD@1" x="-6.02" y="0" drill="2.3" diameter="3.4"/>
+<pad name="SHIELD@2" x="6.02" y="0" drill="2.3" diameter="3.4"/>
+<pad name="3" x="-1.25" y="2.71" drill="0.9" diameter="1.6"/>
+<pad name="4" x="1.25" y="2.71" drill="0.9" diameter="1.6"/>
+<pad name="2" x="-1.25" y="4.71" drill="0.9" diameter="1.6"/>
+<pad name="1" x="1.25" y="4.71" drill="0.9" diameter="1.6"/>
 <wire x1="-6" y1="-10.3" x2="6" y2="-10.3" width="0.15" layer="51"/>
 <wire x1="6" y1="-10.3" x2="6" y2="6.7" width="0.15" layer="51"/>
 <wire x1="6" y1="6.7" x2="-6" y2="6.7" width="0.15" layer="51"/>
@@ -652,9 +652,9 @@ Last character is an incremented letter for each variant of the same value and p
 </package>
 <package name="BARREL-2.1X5.5-R">
 <description>&lt;h3&gt;Barrel Connector - 2.1 x 5.5 mm - Right Angle&lt;/h3&gt;</description>
-<pad name="3" x="-4.7" y="0" drill="1.2"/>
-<pad name="1" x="0" y="-3" drill="1.2"/>
-<pad name="2" x="0" y="3" drill="1.2"/>
+<pad name="3" x="-4.7" y="0" drill="1.2" diameter="2"/>
+<pad name="1" x="0" y="-3" drill="1.2" diameter="2"/>
+<pad name="2" x="0" y="3" drill="1.2" diameter="2"/>
 <wire x1="-4.5" y1="10.7" x2="4.5" y2="10.7" width="0.15" layer="51"/>
 <wire x1="4.5" y1="10.7" x2="4.5" y2="-3.7" width="0.15" layer="51"/>
 <wire x1="4.5" y1="-3.7" x2="-4.6" y2="-3.7" width="0.15" layer="51"/>
@@ -677,7 +677,7 @@ Last character is an incremented letter for each variant of the same value and p
 </package>
 <package name="THT-1.0">
 <description>&lt;h3&gt;Through Hole 1.0 mm Drill</description>
-<pad name="1" x="0" y="0" drill="1"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.8"/>
 <text x="0" y="1.6" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <circle x="0" y="0" radius="1.075" width="0.15" layer="21"/>
 <circle x="0" y="0" radius="1.075" width="0.15" layer="39"/>
@@ -1335,7 +1335,6 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="C14" pad="2"/>
 <contactref element="D1" pad="2"/>
-<contactref element="D1" pad="4"/>
 <contactref element="D1" pad="3"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R12" pad="1"/>
@@ -1343,7 +1342,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="PAD"/>
 <contactref element="J2" pad="4"/>
 <contactref element="R1" pad="2"/>
-<wire x1="43.75" y1="17.29" x2="43.75" y2="19.91" width="0.355" layer="1"/>
 <wire x1="42.8" y1="17.29" x2="43.75" y2="17.29" width="0.355" layer="1"/>
 <wire x1="43.75" y1="17.29" x2="46.6" y2="14.44" width="0.355" layer="1"/>
 <wire x1="46.6" y1="14.44" x2="46.6" y2="12" width="0.355" layer="1"/>
@@ -1377,7 +1375,6 @@ design rules under a new name.</description>
 <wire x1="37" y1="34" x2="37.1" y2="34.1" width="0.355" layer="16"/>
 <via x="45.6" y="34.1" extent="1-16" drill="0.35"/>
 <wire x1="43.5" y1="31" x2="45.4775" y2="31" width="0.355" layer="1"/>
-<wire x1="43.75" y1="19.91" x2="46.6" y2="19.91" width="0.355" layer="1"/>
 <wire x1="46.6" y1="19.91" x2="46.6" y2="21.935" width="0.355" layer="1"/>
 <wire x1="45.565" y1="36.1" x2="45.565" y2="31" width="0.355" layer="1"/>
 <wire x1="24.1" y1="27.235" x2="24.1" y2="25.895" width="0.38" layer="1"/>
@@ -1414,6 +1411,7 @@ design rules under a new name.</description>
 <wire x1="45.6" y1="36.065" x2="45.6" y2="34.1" width="0.38" layer="1"/>
 <wire x1="20.365" y1="24.7" x2="19.33" y2="25.735" width="0.38" layer="1"/>
 <wire x1="19.33" y1="25.735" x2="19.33" y2="27.235" width="0.38" layer="1"/>
+<wire x1="43.75" y1="17.29" x2="46.6" y2="19.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIODE_OUT">
 <contactref element="D1" pad="5"/>
@@ -1450,6 +1448,13 @@ design rules under a new name.</description>
 <wire x1="43.95" y1="22.7" x2="43.95" y2="22.125" width="0.355" layer="1"/>
 <wire x1="43.95" y1="23.425" x2="43.95" y2="22.7" width="0.16" layer="1"/>
 <wire x1="43.95" y1="22.775" x2="43.95" y2="22.7" width="0.355" layer="1"/>
+<contactref element="U2" pad="2"/>
+<wire x1="30.35" y1="29.05" x2="30.35" y2="31.7805875" width="0.16" layer="1"/>
+<wire x1="30.35" y1="31.7805875" x2="30.17" y2="31.9605875" width="0.16" layer="1"/>
+<wire x1="30.17" y1="33.2394125" x2="30.3105875" y2="33.38" width="0.16" layer="1"/>
+<wire x1="30.3105875" y1="33.38" x2="31.885" y2="33.38" width="0.16" layer="1"/>
+<wire x1="31.885" y1="33.38" x2="32.665" y2="32.6" width="0.16" layer="1"/>
+<wire x1="30.17" y1="31.9605875" x2="30.17" y2="33.2394125" width="0.16" layer="1"/>
 </signal>
 <signal name="BTST">
 <contactref element="U2" pad="16"/>
@@ -1477,7 +1482,6 @@ design rules under a new name.</description>
 <contactref element="R6" pad="1"/>
 <contactref element="D1" pad="1"/>
 <contactref element="J3" pad="1"/>
-<contactref element="U2" pad="2"/>
 <contactref element="TP1" pad="1"/>
 <wire x1="41.9" y1="15" x2="41.9" y2="17.24" width="0.355" layer="1"/>
 <wire x1="41.9" y1="17.24" x2="41.85" y2="17.29" width="0.355" layer="1"/>
@@ -1492,18 +1496,11 @@ design rules under a new name.</description>
 <wire x1="19" y1="26" x2="19" y2="34" width="0.355" layer="16"/>
 <via x="19" y="34" extent="1-16" drill="0.3"/>
 <wire x1="24.835" y1="32.68" x2="24.815" y2="32.7" width="0.355" layer="1"/>
-<wire x1="24.815" y1="32.7" x2="24.7" y2="32.7" width="0.355" layer="1"/>
-<wire x1="24.7" y1="32.7" x2="22.965" y2="32.7" width="0.355" layer="1"/>
+<wire x1="24.815" y1="32.7" x2="22.965" y2="32.7" width="0.355" layer="1"/>
 <wire x1="22.965" y1="32.7" x2="21.665" y2="34" width="0.38" layer="1"/>
 <wire x1="21.665" y1="34" x2="19" y2="34" width="0.38" layer="1"/>
-<wire x1="29.6" y1="34" x2="29.6" y2="30.6" width="0.38" layer="1"/>
-<wire x1="29.6" y1="34" x2="29.3" y2="34.3" width="0.38" layer="1"/>
-<wire x1="29.3" y1="34.3" x2="26.3" y2="34.3" width="0.38" layer="1"/>
-<wire x1="26.3" y1="34.3" x2="24.7" y2="32.7" width="0.38" layer="1"/>
 <wire x1="40.8" y1="17.29" x2="38.61" y2="17.29" width="0.16" layer="1"/>
 <wire x1="38.61" y1="17.29" x2="38.5" y2="17.4" width="0.16" layer="1"/>
-<wire x1="29.6" y1="30.6" x2="30.35" y2="29.85" width="0.35" layer="1"/>
-<wire x1="30.35" y1="29.85" x2="30.35" y2="29.05" width="0.35" layer="1"/>
 </signal>
 <signal name="CHARGING_STAT_G">
 <contactref element="DS1" pad="C"/>
@@ -1556,8 +1553,8 @@ design rules under a new name.</description>
 <wire x1="28.43" y1="30.07" x2="28.43" y2="31.635" width="0.38" layer="1"/>
 <wire x1="28.6" y1="29.9" x2="29.5137625" y2="29.9" width="0.35" layer="1"/>
 <wire x1="29.5137625" y1="29.9" x2="29.825" y2="29.5887625" width="0.35" layer="1"/>
-<wire x1="29.825" y1="29.5887625" x2="29.825" y2="29.075" width="0.16" layer="1"/>
-<wire x1="29.825" y1="29.075" x2="29.85" y2="29.05" width="0.16" layer="1"/>
+<wire x1="29.825" y1="29.5887625" x2="29.85" y2="29.5637625" width="0.16" layer="1"/>
+<wire x1="29.85" y1="29.5637625" x2="29.85" y2="29.05" width="0.16" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U2" pad="1"/>
@@ -1717,7 +1714,7 @@ design rules under a new name.</description>
 <wire x1="29.35" y1="28.965" x2="29.35" y2="29.05" width="0.16" layer="1"/>
 <wire x1="24.1" y1="28.965" x2="29.3" y2="28.965" width="0.38" layer="1"/>
 </signal>
-<signal name="UMB_IN">
+<signal name="UMB_OUT">
 <contactref element="J2" pad="1"/>
 <contactref element="U2" pad="9"/>
 <contactref element="C16" pad="2"/>
@@ -2000,7 +1997,6 @@ design rules under a new name.</description>
 <approved hash="5,1,ee4420b440fcff3f"/>
 <approved hash="5,1,b2975ed9718b01ad"/>
 <approved hash="5,1,322a634af61da5c4"/>
-<approved hash="5,1,c873b4b8b0f420a0"/>
 </errors>
 </board>
 </drawing>
