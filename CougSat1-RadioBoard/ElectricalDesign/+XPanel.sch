@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3454,7 +3454,7 @@ under the package</text>
 <attribute name="DESIGNER" value="Reid Collins"/>
 <attribute name="PART_NUMBER" value="68-0006"/>
 <attribute name="PROJECT" value="CougSat-1: +X Panel"/>
-<attribute name="REV" value="1.0.1"/>
+<attribute name="REV" value="1.0.2"/>
 </attributes>
 <variantdefs>
 <variantdef name="Main" current="yes"/>
@@ -3770,6 +3770,12 @@ in the center of the board</text>
 <wire x1="96.52" y1="97.79" x2="66.04" y2="97.79" width="0.254" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="97.79" x2="66.04" y2="119.38" width="0.254" layer="97" style="shortdash"/>
 <text x="81.28" y="100.33" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
+<text x="114.3" y="50.8" size="1.778" layer="97" align="center">Note: See mechanical
+page for locations</text>
+<wire x1="99.06" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="129.54" y1="55.88" x2="129.54" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="129.54" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="99.06" y1="45.72" x2="99.06" y2="55.88" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -4388,7 +4394,7 @@ in the center of the board</text>
 <wire x1="38.1" y1="20.32" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="ADC-DCAP" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="137.16" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
@@ -4396,7 +4402,7 @@ in the center of the board</text>
 <wire x1="86.36" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="ADC-!RST" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!PD!/!RST"/>
 <pinref part="R3" gate="G$1" pin="1"/>
