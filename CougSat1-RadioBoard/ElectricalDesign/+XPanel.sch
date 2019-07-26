@@ -3235,23 +3235,6 @@ under the package</text>
 48-0070 and beyond: All other hardware&lt;/p&gt;
 &lt;p&gt;For bolts, the last character is an incremented letter for each variant of the same value. Namely different threads, heads, etc.&lt;/p&gt;</description>
 <packages>
-<package name="MOUNTING_HOLE-3.3">
-<description>&lt;h3&gt;Mounting Hole - 3.3mm&lt;/h3&gt;</description>
-<pad name="1" x="0" y="0" drill="3.3" diameter="6" thermals="no"/>
-<pad name="V5" x="-2.3" y="0" drill="0.45" stop="no" thermals="no"/>
-<pad name="V1" x="2.3" y="0" drill="0.45" stop="no" thermals="no"/>
-<pad name="V2" x="1.626346875" y="1.626346875" drill="0.45" stop="no" thermals="no"/>
-<pad name="V3" x="0" y="2.3" drill="0.45" stop="no" thermals="no"/>
-<pad name="V4" x="-1.626346875" y="1.626346875" drill="0.45" stop="no" thermals="no"/>
-<pad name="V7" x="0" y="-2.3" drill="0.45" stop="no" thermals="no"/>
-<pad name="V6" x="-1.626346875" y="-1.626346875" drill="0.45" stop="no" thermals="no"/>
-<pad name="V8" x="1.626346875" y="-1.626346875" drill="0.45" stop="no" thermals="no"/>
-<text x="0" y="4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="3.5" width="0.15" layer="21"/>
-<circle x="0" y="0" radius="3.5" width="0.15" layer="22"/>
-<circle x="0" y="0" radius="3.5" width="0.15" layer="39"/>
-<circle x="0" y="0" radius="3.5" width="0.15" layer="40"/>
-</package>
 <package name="MOUNTING_HOLE-1.7">
 <description>&lt;h3&gt;Mounting Hole - 1.7mm&lt;/h3&gt;</description>
 <pad name="1" x="0" y="0" drill="1.7" diameter="3" thermals="no"/>
@@ -3295,6 +3278,51 @@ under the package</text>
 <pad name="V7" x="0" y="-2.1" drill="0.45"/>
 <pad name="V8" x="1.484925" y="-1.484925" drill="0.45"/>
 </package>
+<package name="MOUNTING_HOLE-3.3">
+<description>&lt;h3&gt;Mounting Hole - 3.3mm&lt;/h3&gt;</description>
+<pad name="1" x="0" y="0" drill="3.3" diameter="6" thermals="no"/>
+<pad name="V1" x="2.3" y="0" drill="0.45" stop="no" thermals="no"/>
+<text x="0" y="4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="22"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="39"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="40"/>
+<pad name="V2" x="1.860740625" y="1.35190625" drill="0.45"/>
+<pad name="V3" x="0.710740625" y="2.18743125" drill="0.45"/>
+<pad name="V4" x="-0.710740625" y="2.18743125" drill="0.45"/>
+<pad name="V5" x="-1.860740625" y="1.35190625" drill="0.45"/>
+<pad name="V6" x="-2.3" y="0" drill="0.45"/>
+<pad name="V7" x="-1.860740625" y="-1.35190625" drill="0.45"/>
+<pad name="V8" x="-0.710740625" y="-2.18743125" drill="0.45"/>
+<pad name="V9" x="0.710740625" y="-2.18743125" drill="0.45"/>
+<pad name="V10" x="1.860740625" y="-1.35190625" drill="0.45"/>
+<wire x1="1.2" y1="-1.9" x2="2.2" y2="-0.9" width="0.15" layer="21"/>
+</package>
+<package name="MOUNTING_HOLE-6.6">
+<description>&lt;h3&gt;Mounting Hole - 6.6mm&lt;/h3&gt;</description>
+<pad name="1" x="0" y="0" drill="6.6" diameter="11" thermals="no"/>
+<text x="0" y="6.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="5.825" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="5.825" width="0.15" layer="22"/>
+<circle x="0" y="0" radius="5.825" width="0.15" layer="39"/>
+<circle x="0" y="0" radius="5.825" width="0.15" layer="40"/>
+<pad name="V1" x="4.4" y="0" drill="0.45"/>
+<pad name="V2" x="4.06506875" y="1.68380625" drill="0.45"/>
+<pad name="V3" x="3.11126875" y="3.11126875" drill="0.45"/>
+<pad name="V4" x="1.68380625" y="4.06506875" drill="0.45"/>
+<pad name="V5" x="0" y="4.4" drill="0.45"/>
+<pad name="V6" x="-1.68380625" y="4.06506875" drill="0.45"/>
+<pad name="V7" x="-3.11126875" y="3.11126875" drill="0.45"/>
+<pad name="V8" x="-4.06506875" y="1.68380625" drill="0.45"/>
+<pad name="V9" x="-4.4" y="0" drill="0.45"/>
+<pad name="V10" x="-4.06506875" y="-1.68380625" drill="0.45"/>
+<pad name="V11" x="-3.11126875" y="-3.11126875" drill="0.45"/>
+<pad name="V12" x="-1.68380625" y="-4.06506875" drill="0.45"/>
+<pad name="V13" x="0" y="-4.4" drill="0.45"/>
+<pad name="V14" x="1.68380625" y="-4.06506875" drill="0.45"/>
+<pad name="V15" x="3.11126875" y="-3.11126875" drill="0.45"/>
+<pad name="V16" x="4.06506875" y="-1.68380625" drill="0.45"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNTING_HOLE">
@@ -3319,7 +3347,7 @@ under the package</text>
 <devices>
 <device name="-3.3" package="MOUNTING_HOLE-3.3">
 <connects>
-<connect gate="G$1" pin="MOUNT" pad="1 V1 V2 V3 V4 V5 V6 V7 V8"/>
+<connect gate="G$1" pin="MOUNT" pad="1 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10"/>
 </connects>
 <technologies>
 <technology name="">
@@ -3358,6 +3386,17 @@ under the package</text>
 <technology name="-1MM">
 <attribute name="SKU" value="48-0074"/>
 <attribute name="VALUE" value="M2 Nut - 1mm"/>
+</technology>
+</technologies>
+</device>
+<device name="-6.6" package="MOUNTING_HOLE-6.6">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="1 V1 V2 V3 V4 V5 V6 V7 V8 V9 V10 V11 V12 V13 V14 V15 V16"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SKU" value="48-006x"/>
+<attribute name="VALUE" value="M6"/>
 </technology>
 </technologies>
 </device>
@@ -3457,7 +3496,7 @@ under the package</text>
 <attribute name="REV" value="1.0.1"/>
 </attributes>
 <variantdefs>
-<variantdef name="Main" current="yes"/>
+<variantdef name="Main"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -3512,37 +3551,37 @@ under the package</text>
 <part name="SUPPLY32" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY33" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="TP2" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-0.7"/>
-<part name="H5" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H5" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R2" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY34" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY35" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY36" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="H6" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H6" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C7" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R5" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY37" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY38" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY39" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="H7" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H7" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C8" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R6" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY40" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY41" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY42" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="H8" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H8" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C9" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R14" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY43" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY44" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY45" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="H9" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H9" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C10" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R15" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY46" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY47" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="SUPPLY48" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="H10" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
+<part name="H10" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-3.3" value="M3"/>
 <part name="C11" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="R16" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="SUPPLY49" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
