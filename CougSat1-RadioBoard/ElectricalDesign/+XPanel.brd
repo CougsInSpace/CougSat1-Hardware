@@ -169,6 +169,14 @@
 <wire x1="39.5" y1="42" x2="36.5" y2="45" width="0" layer="20" curve="90"/>
 <circle x="0" y="2.5" radius="6" width="0.1524" layer="20"/>
 <circle x="0" y="-12.35" radius="4.5" width="0.1524" layer="20"/>
+<wire x1="5" y1="-27" x2="-5" y2="-27" width="0.1524" layer="20"/>
+<wire x1="-5" y1="-27" x2="-6" y2="-26" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-6" y1="-26" x2="-6" y2="-22" width="0.1524" layer="20"/>
+<wire x1="-6" y1="-22" x2="-5" y2="-21" width="0.1524" layer="20" curve="-90"/>
+<wire x1="-5" y1="-21" x2="5" y2="-21" width="0.1524" layer="20"/>
+<wire x1="5" y1="-21" x2="6" y2="-22" width="0.1524" layer="20" curve="-90"/>
+<wire x1="6" y1="-22" x2="6" y2="-26" width="0.1524" layer="20"/>
+<wire x1="6" y1="-26" x2="5" y2="-27" width="0.1524" layer="20" curve="-90"/>
 </plain>
 <libraries>
 <library name="CougsInSpace-RF">
