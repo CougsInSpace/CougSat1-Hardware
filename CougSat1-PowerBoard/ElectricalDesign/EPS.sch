@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="9" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="9" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -8457,7 +8457,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <attribute name="DESIGNER" value="Bradley L. Davis"/>
 <attribute name="PART_NUMBER" value="68-0002"/>
 <attribute name="PROJECT" value="CougSat-1: EPS"/>
-<attribute name="REV" value="3.0.0"/>
+<attribute name="REV" value="3.0.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -9286,9 +9286,9 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET147" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET148" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET149" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="R7" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
+<part name="R7" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="SUPPLY144" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="R8" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
+<part name="R8" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="SUPPLY140" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="OFFSHEET293" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET299" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
@@ -9373,14 +9373,12 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C143" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C144" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY69" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="SUPPLY70" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY74" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY75" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C145" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C146" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C147" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY76" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="SUPPLY77" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY81" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="D3" library="CougsInSpace-DiscreteSemi" deviceset="DIODE-SCHOTTKY-H" device="-DO-219AB" value="SS1FH10"/>
 <part name="SUPPLY36" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -9427,7 +9425,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C12" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C34" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY83" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="SUPPLY84" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY87" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C148" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
 <part name="OFFSHEET193" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9448,7 +9445,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY94" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C150" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C151" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="SUPPLY101" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY113" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U2" library="CougsInSpace-IC-Conversion" deviceset="AD7291" device="" value="AD7291"/>
 <part name="SUPPLY102" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -9469,7 +9465,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY246" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C154" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C155" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="SUPPLY249" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY255" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U7" library="CougsInSpace-IC-Conversion" deviceset="AD7291" device="" value="AD7291"/>
 <part name="SUPPLY258" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -9487,7 +9482,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY289" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C158" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C159" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="SUPPLY292" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY298" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U9" library="CougsInSpace-IC-Conversion" deviceset="AD7291" device="" value="AD7291"/>
 <part name="SUPPLY88" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -9511,7 +9505,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY281" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C160" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C161" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="SUPPLY301" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY307" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U14" library="CougsInSpace-IC-Conversion" deviceset="AD7291" device="" value="AD7291"/>
 <part name="SUPPLY310" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -9534,7 +9527,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY336" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="C164" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C165" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
-<part name="SUPPLY337" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY339" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY99" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="RN17" library="CougsInSpace-Resistors" deviceset="RES_BUS-10" device="-3264" technology="-10K" value="10kΩ 5%"/>
@@ -9752,6 +9744,14 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY80" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY389" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY390" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
+<part name="SUPPLY84" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY70" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY77" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY101" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="SUPPLY249" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="SUPPLY292" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="SUPPLY301" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="SUPPLY337" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10232,25 +10232,25 @@ B</text>
 <wire x1="144.78" y1="187.96" x2="170.18" y2="187.96" width="0.254" layer="97"/>
 <wire x1="170.18" y1="187.96" x2="167.64" y2="190.5" width="0.254" layer="97"/>
 <wire x1="170.18" y1="187.96" x2="167.64" y2="185.42" width="0.254" layer="97"/>
-<text x="146.05" y="189.23" size="1.778" layer="97" align="center-left">PR_3.3V-0: 20mA</text>
+<text x="146.05" y="189.23" size="1.778" layer="97" align="center-left">PR_3.3V-0: 80mA</text>
 <wire x1="170.18" y1="182.88" x2="226.06" y2="182.88" width="0.254" layer="94"/>
 <wire x1="226.06" y1="182.88" x2="226.06" y2="177.8" width="0.254" layer="94"/>
 <wire x1="226.06" y1="177.8" x2="170.18" y2="177.8" width="0.254" layer="94"/>
 <wire x1="170.18" y1="177.8" x2="170.18" y2="182.88" width="0.254" layer="94"/>
-<text x="198.12" y="180.34" size="3.81" layer="94" align="center">C&amp;DH: SD Card</text>
+<text x="198.12" y="180.34" size="3.81" layer="94" align="center">Unused</text>
 <wire x1="144.78" y1="180.34" x2="170.18" y2="180.34" width="0.254" layer="97"/>
 <wire x1="170.18" y1="180.34" x2="167.64" y2="182.88" width="0.254" layer="97"/>
 <wire x1="170.18" y1="180.34" x2="167.64" y2="177.8" width="0.254" layer="97"/>
-<text x="146.05" y="181.61" size="1.778" layer="97" align="center-left">PR_3.3V-1: 60mA</text>
+<text x="146.05" y="181.61" size="1.778" layer="97" align="center-left">PR_3.3V-1: 0mA</text>
 <wire x1="170.18" y1="175.26" x2="226.06" y2="175.26" width="0.254" layer="94"/>
 <wire x1="226.06" y1="175.26" x2="226.06" y2="170.18" width="0.254" layer="94"/>
 <wire x1="226.06" y1="170.18" x2="170.18" y2="170.18" width="0.254" layer="94"/>
 <wire x1="170.18" y1="170.18" x2="170.18" y2="175.26" width="0.254" layer="94"/>
-<text x="198.12" y="172.72" size="3.81" layer="94" align="center">ADCS</text>
+<text x="198.12" y="172.72" size="3.81" layer="94" align="center">ADCS 3.3V</text>
 <wire x1="144.78" y1="172.72" x2="170.18" y2="172.72" width="0.254" layer="97"/>
 <wire x1="170.18" y1="172.72" x2="167.64" y2="175.26" width="0.254" layer="97"/>
 <wire x1="170.18" y1="172.72" x2="167.64" y2="170.18" width="0.254" layer="97"/>
-<text x="146.05" y="173.99" size="1.778" layer="97" align="center-left">PR_3.3V-2: 45mA</text>
+<text x="146.05" y="173.99" size="1.778" layer="97" align="center-left">PR_3.3V-2: 150mA</text>
 <wire x1="170.18" y1="167.64" x2="226.06" y2="167.64" width="0.254" layer="94"/>
 <wire x1="226.06" y1="167.64" x2="226.06" y2="162.56" width="0.254" layer="94"/>
 <wire x1="226.06" y1="162.56" x2="170.18" y2="162.56" width="0.254" layer="94"/>
@@ -10264,7 +10264,7 @@ B</text>
 <wire x1="226.06" y1="160.02" x2="226.06" y2="154.94" width="0.254" layer="94"/>
 <wire x1="226.06" y1="154.94" x2="170.18" y2="154.94" width="0.254" layer="94"/>
 <wire x1="170.18" y1="154.94" x2="170.18" y2="160.02" width="0.254" layer="94"/>
-<text x="198.12" y="157.48" size="3.81" layer="94" align="center">ADCS: GPS</text>
+<text x="198.12" y="157.48" size="3.81" layer="94" align="center">Unused</text>
 <wire x1="144.78" y1="157.48" x2="170.18" y2="157.48" width="0.254" layer="97"/>
 <wire x1="170.18" y1="157.48" x2="167.64" y2="160.02" width="0.254" layer="97"/>
 <wire x1="170.18" y1="157.48" x2="167.64" y2="154.94" width="0.254" layer="97"/>
@@ -10273,7 +10273,7 @@ B</text>
 <wire x1="226.06" y1="137.16" x2="226.06" y2="132.08" width="0.254" layer="94"/>
 <wire x1="226.06" y1="132.08" x2="170.18" y2="132.08" width="0.254" layer="94"/>
 <wire x1="170.18" y1="132.08" x2="170.18" y2="137.16" width="0.254" layer="94"/>
-<text x="198.12" y="134.62" size="3.81" layer="94" align="center">ADCS: Magnetorquers</text>
+<text x="198.12" y="134.62" size="3.81" layer="94" align="center">ADCS VBatt</text>
 <wire x1="144.78" y1="134.62" x2="170.18" y2="134.62" width="0.254" layer="97"/>
 <wire x1="170.18" y1="134.62" x2="167.64" y2="137.16" width="0.254" layer="97"/>
 <wire x1="170.18" y1="134.62" x2="167.64" y2="132.08" width="0.254" layer="97"/>
@@ -10282,7 +10282,7 @@ B</text>
 <wire x1="226.06" y1="152.4" x2="226.06" y2="147.32" width="0.254" layer="94"/>
 <wire x1="226.06" y1="147.32" x2="170.18" y2="147.32" width="0.254" layer="94"/>
 <wire x1="170.18" y1="147.32" x2="170.18" y2="152.4" width="0.254" layer="94"/>
-<text x="198.12" y="149.86" size="3.81" layer="94" align="center">IFJR &amp; SD Card</text>
+<text x="198.12" y="149.86" size="3.81" layer="94" align="center">IFJR</text>
 <wire x1="144.78" y1="149.86" x2="170.18" y2="149.86" width="0.254" layer="97"/>
 <wire x1="170.18" y1="149.86" x2="167.64" y2="152.4" width="0.254" layer="97"/>
 <wire x1="170.18" y1="149.86" x2="167.64" y2="147.32" width="0.254" layer="97"/>
@@ -10309,7 +10309,7 @@ B</text>
 <wire x1="226.06" y1="144.78" x2="226.06" y2="139.7" width="0.254" layer="94"/>
 <wire x1="226.06" y1="139.7" x2="170.18" y2="139.7" width="0.254" layer="94"/>
 <wire x1="170.18" y1="139.7" x2="170.18" y2="144.78" width="0.254" layer="94"/>
-<text x="198.12" y="142.24" size="3.81" layer="94" align="center">Comms &amp; Radios</text>
+<text x="198.12" y="142.24" size="3.81" layer="94" align="center">Comms 3.3V</text>
 <wire x1="144.78" y1="142.24" x2="170.18" y2="142.24" width="0.254" layer="97"/>
 <wire x1="170.18" y1="142.24" x2="167.64" y2="144.78" width="0.254" layer="97"/>
 <wire x1="170.18" y1="142.24" x2="167.64" y2="139.7" width="0.254" layer="97"/>
@@ -10318,7 +10318,7 @@ B</text>
 <wire x1="226.06" y1="50.8" x2="226.06" y2="45.72" width="0.254" layer="94"/>
 <wire x1="226.06" y1="45.72" x2="170.18" y2="45.72" width="0.254" layer="94"/>
 <wire x1="170.18" y1="45.72" x2="170.18" y2="50.8" width="0.254" layer="94"/>
-<text x="198.12" y="127" size="3.81" layer="94" align="center">Comms: RF Amplifiers</text>
+<text x="198.12" y="127" size="3.81" layer="94" align="center">Comms VBatt</text>
 <wire x1="144.78" y1="48.26" x2="170.18" y2="48.26" width="0.254" layer="97"/>
 <wire x1="170.18" y1="48.26" x2="167.64" y2="50.8" width="0.254" layer="97"/>
 <wire x1="170.18" y1="48.26" x2="167.64" y2="45.72" width="0.254" layer="97"/>
@@ -10388,7 +10388,7 @@ B</text>
 <text x="146.05" y="41.91" size="1.778" layer="97" align="center-left">PR_BATT-4: 0mA</text>
 <text x="228.6" y="116.84" size="1.778" layer="97" align="center-left">Germination Lighting</text>
 <text x="228.6" y="109.22" size="1.778" layer="97" align="center-left">Germination Camera</text>
-<text x="228.6" y="86.36" size="1.778" layer="97" align="center-left">Ground Camera</text>
+<text x="228.6" y="86.36" size="1.778" layer="97" align="center-left">Ground Camera 1</text>
 <text x="228.6" y="101.6" size="1.778" layer="97" align="center-left">Germination Sensors</text>
 <text x="228.6" y="93.98" size="1.778" layer="97" align="center-left">Ionizing Radiation Sensor</text>
 <text x="228.6" y="71.12" size="1.778" layer="97" align="center-left">Germination Heater</text>
@@ -10404,7 +10404,7 @@ B</text>
 <wire x1="144.78" y1="78.74" x2="170.18" y2="78.74" width="0.254" layer="97"/>
 <wire x1="170.18" y1="78.74" x2="167.64" y2="81.28" width="0.254" layer="97"/>
 <wire x1="170.18" y1="78.74" x2="167.64" y2="76.2" width="0.254" layer="97"/>
-<text x="146.05" y="80.01" size="1.778" layer="97" align="center-left">PR_3.3V-12: 0mA</text>
+<text x="146.05" y="80.01" size="1.778" layer="97" align="center-left">PR_3.3V-12: 390mA</text>
 <wire x1="170.18" y1="66.04" x2="226.06" y2="66.04" width="0.254" layer="94"/>
 <wire x1="226.06" y1="66.04" x2="226.06" y2="60.96" width="0.254" layer="94"/>
 <wire x1="226.06" y1="60.96" x2="170.18" y2="60.96" width="0.254" layer="94"/>
@@ -10426,7 +10426,7 @@ Charging</text>
 <wire x1="50.8" y1="121.92" x2="48.26" y2="124.46" width="0.254" layer="97"/>
 <wire x1="50.8" y1="121.92" x2="53.34" y2="124.46" width="0.254" layer="97"/>
 <text x="241.3" y="120.65" size="1.778" layer="97" align="center">CougSat-1 Payload</text>
-<text x="228.6" y="78.74" size="1.778" layer="97" align="center-left">Unused</text>
+<text x="228.6" y="78.74" size="1.778" layer="97" align="center-left">Ground Camera 2</text>
 <text x="228.6" y="63.5" size="1.778" layer="97" align="center-left">Unused</text>
 <text x="147.32" y="33.02" size="1.778" layer="97" align="center-left">Note: Each power rail channel (PR_) is rated for 1A
 PR_DEPLOY is rated for 2A
@@ -10644,6 +10644,9 @@ continuously</text>
 <text x="68.58" y="104.14" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
 <text x="213.36" y="106.68" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
 <text x="185.42" y="104.14" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
+<text x="86.36" y="190.5" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
+<text x="203.2" y="190.5" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
+<text x="76.2" y="25.4" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -13406,8 +13409,8 @@ optimize ringing and efficiency</text>
 Current Sense
 90 - 120mV
 = 4.1 - 5.5A</text>
-<text x="152.4" y="116.84" size="1.27" layer="97" align="center-right">0xx&gt; </text>
-<text x="152.4" y="111.76" size="1.27" layer="97" align="center-right">0xx&gt; </text>
+<text x="152.4" y="116.84" size="1.27" layer="97" align="center-right">5A6&gt; </text>
+<text x="152.4" y="111.76" size="1.27" layer="97" align="center-right">5C6&gt; </text>
 <text x="243.84" y="109.22" size="1.27" layer="97" align="center-left"> 11C4&gt;</text>
 <text x="218.44" y="116.84" size="1.27" layer="97" align="center-left">Note:
 Max ~230mA=0.3mA/LSB</text>
@@ -20310,7 +20313,6 @@ Fix offsheet afterwards</text>
 <attribute name="TEMP" x="221.234" y="177.8" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY69" gate="1" x="231.14" y="175.26" smashed="yes"/>
-<instance part="SUPPLY70" gate="G$1" x="218.44" y="175.26" smashed="yes"/>
 <instance part="SUPPLY74" gate="G$1" x="243.84" y="185.42" smashed="yes">
 <attribute name="VALUE" x="243.84" y="188.976" size="1.27" layer="96" align="center"/>
 </instance>
@@ -20340,7 +20342,6 @@ Fix offsheet afterwards</text>
 <attribute name="TEMP" x="221.234" y="99.06" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY76" gate="1" x="231.14" y="96.52" smashed="yes"/>
-<instance part="SUPPLY77" gate="G$1" x="218.44" y="96.52" smashed="yes"/>
 <instance part="SUPPLY81" gate="G$1" x="243.84" y="106.68" smashed="yes">
 <attribute name="VALUE" x="243.84" y="110.236" size="1.27" layer="96" align="center"/>
 </instance>
@@ -20496,7 +20497,6 @@ Fix offsheet afterwards</text>
 <attribute name="TEMP" x="43.434" y="53.34" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY83" gate="1" x="53.34" y="50.8" smashed="yes"/>
-<instance part="SUPPLY84" gate="G$1" x="40.64" y="50.8" smashed="yes"/>
 <instance part="SUPPLY87" gate="G$1" x="66.04" y="60.96" smashed="yes">
 <attribute name="VALUE" x="66.04" y="64.516" size="1.27" layer="96" align="center"/>
 </instance>
@@ -20527,6 +20527,9 @@ Fix offsheet afterwards</text>
 <instance part="SUPPLY390" gate="G$1" x="210.82" y="86.36" smashed="yes">
 <attribute name="VALUE" x="210.82" y="89.916" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY84" gate="1" x="40.64" y="50.8" smashed="yes"/>
+<instance part="SUPPLY70" gate="1" x="218.44" y="175.26" smashed="yes"/>
+<instance part="SUPPLY77" gate="1" x="218.44" y="96.52" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -20574,6 +20577,18 @@ Fix offsheet afterwards</text>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="SUPPLY83" gate="1" pin="DGND"/>
 </segment>
+<segment>
+<pinref part="C34" gate="G$1" pin="2"/>
+<pinref part="SUPPLY84" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C144" gate="G$1" pin="2"/>
+<pinref part="SUPPLY70" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C147" gate="G$1" pin="2"/>
+<pinref part="SUPPLY77" gate="1" pin="DGND"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -20617,14 +20632,6 @@ Fix offsheet afterwards</text>
 <segment>
 <pinref part="C141" gate="G$1" pin="2"/>
 <pinref part="SUPPLY68" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C144" gate="G$1" pin="2"/>
-<pinref part="SUPPLY70" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C147" gate="G$1" pin="2"/>
-<pinref part="SUPPLY77" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="RN2" gate="G$1" pin="A1"/>
@@ -20695,10 +20702,6 @@ Fix offsheet afterwards</text>
 <pinref part="RN14" gate="G$1" pin="A1"/>
 <pinref part="SUPPLY165" gate="G$1" pin="AGND"/>
 <wire x1="139.7" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C34" gate="G$1" pin="2"/>
-<pinref part="SUPPLY84" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -21487,7 +21490,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="86.614" y="179.324" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="86.614" y="177.8" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY101" gate="1" x="83.82" y="175.26" smashed="yes"/>
 <instance part="SUPPLY113" gate="G$1" x="96.52" y="185.42" smashed="yes">
 <attribute name="VALUE" x="96.52" y="188.976" size="1.27" layer="96" align="center"/>
 </instance>
@@ -21544,7 +21546,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="86.614" y="125.984" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="86.614" y="124.46" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY249" gate="1" x="83.82" y="121.92" smashed="yes"/>
 <instance part="SUPPLY255" gate="G$1" x="96.52" y="132.08" smashed="yes">
 <attribute name="VALUE" x="96.52" y="135.636" size="1.27" layer="96" align="center"/>
 </instance>
@@ -21598,7 +21599,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="86.614" y="72.644" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="86.614" y="71.12" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY292" gate="1" x="83.82" y="68.58" smashed="yes"/>
 <instance part="SUPPLY298" gate="G$1" x="96.52" y="78.74" smashed="yes">
 <attribute name="VALUE" x="96.52" y="82.296" size="1.27" layer="96" align="center"/>
 </instance>
@@ -21658,7 +21658,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="233.934" y="136.144" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="233.934" y="134.62" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY301" gate="1" x="231.14" y="132.08" smashed="yes"/>
 <instance part="SUPPLY307" gate="G$1" x="243.84" y="142.24" smashed="yes">
 <attribute name="VALUE" x="243.84" y="145.796" size="1.27" layer="96" align="center"/>
 </instance>
@@ -21717,7 +21716,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="233.934" y="72.644" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="233.934" y="71.12" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY337" gate="1" x="231.14" y="68.58" smashed="yes"/>
 <instance part="SUPPLY339" gate="G$1" x="243.84" y="78.74" smashed="yes">
 <attribute name="VALUE" x="243.84" y="82.296" size="1.27" layer="96" align="center"/>
 </instance>
@@ -21942,6 +21940,11 @@ Place at various locations around the PCB</text>
 <instance part="SUPPLY304" gate="G$1" x="73.66" y="132.08" smashed="yes">
 <attribute name="VALUE" x="73.66" y="135.636" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY101" gate="G$1" x="83.82" y="68.58" smashed="yes"/>
+<instance part="SUPPLY249" gate="G$1" x="83.82" y="175.26" smashed="yes"/>
+<instance part="SUPPLY292" gate="G$1" x="83.82" y="121.92" smashed="yes"/>
+<instance part="SUPPLY301" gate="G$1" x="231.14" y="68.58" smashed="yes"/>
+<instance part="SUPPLY337" gate="G$1" x="231.14" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -22050,6 +22053,26 @@ Place at various locations around the PCB</text>
 <segment>
 <pinref part="C167" gate="G$1" pin="2"/>
 <pinref part="SUPPLY346" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C159" gate="G$1" pin="2"/>
+<pinref part="SUPPLY101" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C151" gate="G$1" pin="2"/>
+<pinref part="SUPPLY249" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C155" gate="G$1" pin="2"/>
+<pinref part="SUPPLY292" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C165" gate="G$1" pin="2"/>
+<pinref part="SUPPLY301" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C161" gate="G$1" pin="2"/>
+<pinref part="SUPPLY337" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
@@ -22167,10 +22190,6 @@ Place at various locations around the PCB</text>
 <pinref part="C150" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C151" gate="G$1" pin="2"/>
-<pinref part="SUPPLY101" gate="1" pin="DGND"/>
-</segment>
-<segment>
 <pinref part="U2" gate="G$1" pin="DGND"/>
 <pinref part="SUPPLY103" gate="1" pin="DGND"/>
 <wire x1="40.64" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
@@ -22189,10 +22208,6 @@ Place at various locations around the PCB</text>
 <segment>
 <pinref part="SUPPLY246" gate="1" pin="DGND"/>
 <pinref part="C154" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="C155" gate="G$1" pin="2"/>
-<pinref part="SUPPLY249" gate="1" pin="DGND"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="DGND"/>
@@ -22219,10 +22234,6 @@ Place at various locations around the PCB</text>
 <pinref part="C158" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C159" gate="G$1" pin="2"/>
-<pinref part="SUPPLY292" gate="1" pin="DGND"/>
-</segment>
-<segment>
 <pinref part="U9" gate="G$1" pin="DGND"/>
 <pinref part="SUPPLY92" gate="1" pin="DGND"/>
 <wire x1="187.96" y1="109.22" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
@@ -22238,10 +22249,6 @@ Place at various locations around the PCB</text>
 <pinref part="C160" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C161" gate="G$1" pin="2"/>
-<pinref part="SUPPLY301" gate="1" pin="DGND"/>
-</segment>
-<segment>
 <pinref part="U14" gate="G$1" pin="DGND"/>
 <pinref part="SUPPLY313" gate="1" pin="DGND"/>
 <wire x1="187.96" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
@@ -22254,10 +22261,6 @@ Place at various locations around the PCB</text>
 <segment>
 <pinref part="SUPPLY336" gate="1" pin="DGND"/>
 <pinref part="C164" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="C165" gate="G$1" pin="2"/>
-<pinref part="SUPPLY337" gate="1" pin="DGND"/>
 </segment>
 <segment>
 <pinref part="U9" gate="G$1" pin="AS0"/>
