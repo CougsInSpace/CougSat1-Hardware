@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-02T19:16:56Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Umbilical"
+        },
+        "Owner": "jayson lopez <jayson.lopez@wsu.edu>",
+        "Size": {
+            "X": 49,
+            "Y": 48
+        }
+    }
+}
