@@ -4467,7 +4467,7 @@ in the center of the board</text>
 <wire x1="76.2" y1="45.72" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="DCAP" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="137.16" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
@@ -4475,7 +4475,7 @@ in the center of the board</text>
 <wire x1="86.36" y1="139.7" x2="78.74" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="PD_RST" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="!PD!/!RST"/>
 <pinref part="R3" gate="G$1" pin="1"/>
