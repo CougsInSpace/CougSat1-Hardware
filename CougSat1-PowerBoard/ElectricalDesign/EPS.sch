@@ -14089,6 +14089,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY231" gate="G$1" pin="PGND"/>
 <wire x1="218.44" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U26" gate="-SYM" pin="STAT"/>
+<wire x1="218.44" y1="106.68" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<junction x="220.98" y="101.6"/>
 </segment>
 <segment>
 <pinref part="SUPPLY232" gate="G$1" pin="PGND"/>
@@ -15129,6 +15133,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY238" gate="G$1" pin="PGND"/>
 <wire x1="53.34" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="157.48" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U27" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="162.56" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<junction x="55.88" y="157.48"/>
 </segment>
 <segment>
 <pinref part="SUPPLY242" gate="G$1" pin="PGND"/>
@@ -15139,6 +15147,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY241" gate="G$1" pin="PGND"/>
 <wire x1="119.38" y1="157.48" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U28" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="162.56" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<junction x="121.92" y="157.48"/>
 </segment>
 <segment>
 <pinref part="SUPPLY245" gate="G$1" pin="PGND"/>
@@ -15149,6 +15161,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY244" gate="G$1" pin="PGND"/>
 <wire x1="185.42" y1="157.48" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="157.48" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U29" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="162.56" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
+<junction x="187.96" y="157.48"/>
 </segment>
 <segment>
 <pinref part="SUPPLY248" gate="G$1" pin="PGND"/>
@@ -15159,6 +15175,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY247" gate="G$1" pin="PGND"/>
 <wire x1="53.34" y1="121.92" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U30" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="127" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
+<junction x="55.88" y="121.92"/>
 </segment>
 <segment>
 <pinref part="SUPPLY251" gate="G$1" pin="PGND"/>
@@ -15169,6 +15189,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY250" gate="G$1" pin="PGND"/>
 <wire x1="119.38" y1="121.92" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="121.92" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U31" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="127" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<junction x="121.92" y="121.92"/>
 </segment>
 <segment>
 <pinref part="SUPPLY254" gate="G$1" pin="PGND"/>
@@ -15179,6 +15203,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY253" gate="G$1" pin="PGND"/>
 <wire x1="185.42" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U32" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
+<junction x="187.96" y="121.92"/>
 </segment>
 <segment>
 <pinref part="SUPPLY257" gate="G$1" pin="PGND"/>
@@ -15189,6 +15217,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY256" gate="G$1" pin="PGND"/>
 <wire x1="53.34" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="86.36" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U33" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="91.44" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<junction x="55.88" y="86.36"/>
 </segment>
 <segment>
 <pinref part="SUPPLY260" gate="G$1" pin="PGND"/>
@@ -15199,6 +15231,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY259" gate="G$1" pin="PGND"/>
 <wire x1="119.38" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="86.36" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U34" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<junction x="121.92" y="86.36"/>
 </segment>
 <segment>
 <pinref part="SUPPLY263" gate="G$1" pin="PGND"/>
@@ -15209,6 +15245,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY262" gate="G$1" pin="PGND"/>
 <wire x1="185.42" y1="86.36" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U35" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="91.44" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<junction x="187.96" y="86.36"/>
 </segment>
 <segment>
 <pinref part="SUPPLY266" gate="G$1" pin="PGND"/>
@@ -15219,6 +15259,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY265" gate="G$1" pin="PGND"/>
 <wire x1="53.34" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U36" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="55.88" y="50.8"/>
 </segment>
 <segment>
 <pinref part="SUPPLY269" gate="G$1" pin="PGND"/>
@@ -15229,6 +15273,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY268" gate="G$1" pin="PGND"/>
 <wire x1="119.38" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="50.8" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U37" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="55.88" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="55.88" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<junction x="121.92" y="50.8"/>
 </segment>
 <segment>
 <pinref part="SUPPLY272" gate="G$1" pin="PGND"/>
@@ -15239,6 +15287,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY271" gate="G$1" pin="PGND"/>
 <wire x1="185.42" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="50.8" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U38" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="55.88" x2="187.96" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="55.88" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+<junction x="187.96" y="50.8"/>
 </segment>
 <segment>
 <pinref part="C68" gate="G$1" pin="2"/>
@@ -15277,6 +15329,10 @@ Max ~230mA=0.3mA/LSB</text>
 <pinref part="SUPPLY282" gate="G$1" pin="PGND"/>
 <wire x1="53.34" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U39" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<junction x="55.88" y="15.24"/>
 </segment>
 </net>
 <net name="PR_3.3V-0" class="0">
@@ -16375,6 +16431,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="55.88" y1="157.48" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U40" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY287" gate="G$1" pin="PGND"/>
+<pinref part="U40" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="162.56" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="162.56" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
+<junction x="55.88" y="157.48"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
@@ -16385,6 +16445,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="121.92" y1="157.48" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U41" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY290" gate="G$1" pin="PGND"/>
+<pinref part="U41" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="162.56" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="162.56" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
+<junction x="121.92" y="157.48"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -16395,6 +16459,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="187.96" y1="157.48" x2="187.96" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U42" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY293" gate="G$1" pin="PGND"/>
+<pinref part="U42" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="162.56" x2="187.96" y2="157.48" width="0.1524" layer="91"/>
+<junction x="187.96" y="157.48"/>
 </segment>
 <segment>
 <pinref part="R43" gate="G$1" pin="1"/>
@@ -16405,6 +16473,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="55.88" y1="121.92" x2="55.88" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U43" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY296" gate="G$1" pin="PGND"/>
+<pinref part="U43" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="127" x2="55.88" y2="121.92" width="0.1524" layer="91"/>
+<junction x="55.88" y="121.92"/>
 </segment>
 <segment>
 <pinref part="R58" gate="G$1" pin="1"/>
@@ -16415,6 +16487,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="121.92" y1="121.92" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U44" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY299" gate="G$1" pin="PGND"/>
+<pinref part="U44" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="127" x2="121.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="127" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
+<junction x="121.92" y="121.92"/>
 </segment>
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
@@ -16425,6 +16501,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="187.96" y1="121.92" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U45" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY302" gate="G$1" pin="PGND"/>
+<pinref part="U45" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
+<junction x="187.96" y="121.92"/>
 </segment>
 <segment>
 <pinref part="R60" gate="G$1" pin="1"/>
@@ -16435,6 +16515,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="55.88" y1="86.36" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U46" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY305" gate="G$1" pin="PGND"/>
+<pinref part="U46" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="91.44" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
+<junction x="55.88" y="86.36"/>
 </segment>
 <segment>
 <pinref part="R63" gate="G$1" pin="1"/>
@@ -16445,6 +16529,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="121.92" y1="86.36" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U47" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY308" gate="G$1" pin="PGND"/>
+<pinref part="U47" gate="-SYM" pin="STAT"/>
+<wire x1="119.38" y1="91.44" x2="121.92" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
+<junction x="121.92" y="86.36"/>
 </segment>
 <segment>
 <pinref part="R65" gate="G$1" pin="1"/>
@@ -16455,6 +16543,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="187.96" y1="86.36" x2="187.96" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U48" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY311" gate="G$1" pin="PGND"/>
+<pinref part="U48" gate="-SYM" pin="STAT"/>
+<wire x1="185.42" y1="91.44" x2="187.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="91.44" x2="187.96" y2="86.36" width="0.1524" layer="91"/>
+<junction x="187.96" y="86.36"/>
 </segment>
 <segment>
 <pinref part="R67" gate="G$1" pin="1"/>
@@ -16465,6 +16557,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="55.88" y1="50.8" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U49" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY314" gate="G$1" pin="PGND"/>
+<pinref part="U49" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="55.88" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="55.88" y="50.8"/>
 </segment>
 <segment>
 <pinref part="R68" gate="G$1" pin="1"/>
@@ -16475,6 +16571,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="127" y1="50.8" x2="127" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U50" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY317" gate="G$1" pin="PGND"/>
+<pinref part="U50" gate="-SYM" pin="STAT"/>
+<wire x1="124.46" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="50.8" width="0.1524" layer="91"/>
+<junction x="127" y="50.8"/>
 </segment>
 <segment>
 <pinref part="R69" gate="G$1" pin="1"/>
@@ -16561,6 +16661,10 @@ Max ~230mA=0.3mA/LSB</text>
 <wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U52" gate="-SYM" pin="PGND"/>
 <pinref part="SUPPLY331" gate="G$1" pin="PGND"/>
+<pinref part="U52" gate="-SYM" pin="STAT"/>
+<wire x1="53.34" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<junction x="55.88" y="15.24"/>
 </segment>
 <segment>
 <pinref part="R89" gate="G$1" pin="1"/>
