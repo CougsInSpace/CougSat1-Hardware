@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="16" fill="11" visible="yes" active="no"/>
@@ -2568,11 +2568,6 @@ Space EE</text>
 <wire x1="-0.5" y1="0" x2="-1" y2="0" width="0.15" layer="21"/>
 <wire x1="-2" y1="0" x2="-2.5" y2="0" width="0.15" layer="21"/>
 <wire x1="-3.5" y1="0" x2="-4" y2="0" width="0.15" layer="21"/>
-<wire x1="-7.15" y1="6.3" x2="-7.15" y2="7.85" width="0.15" layer="51"/>
-<wire x1="-7.15" y1="7.85" x2="-5.65" y2="7.85" width="0.15" layer="51"/>
-<wire x1="-5.65" y1="7.85" x2="5.65" y2="7.85" width="0.15" layer="51"/>
-<wire x1="5.65" y1="7.85" x2="7.15" y2="7.85" width="0.15" layer="51"/>
-<wire x1="7.15" y1="7.85" x2="7.15" y2="6.3" width="0.15" layer="51"/>
 <wire x1="-8.05" y1="6.425" x2="-8.05" y2="-0.825" width="0.15" layer="21"/>
 <wire x1="-8.05" y1="-0.825" x2="8.05" y2="-0.825" width="0.15" layer="21"/>
 <wire x1="8.05" y1="-0.825" x2="8.05" y2="6.425" width="0.15" layer="21"/>
@@ -2580,29 +2575,11 @@ Space EE</text>
 <wire x1="1" y1="0" x2="0.5" y2="0" width="0.15" layer="21"/>
 <wire x1="2.5" y1="0" x2="2" y2="0" width="0.15" layer="21"/>
 <wire x1="4" y1="0" x2="3.5" y2="0" width="0.15" layer="21"/>
-<text x="0" y="7.1" size="1.016" layer="51" align="center">Plug</text>
-<polygon width="0.15" layer="21">
-<vertex x="8.05" y="-0.825"/>
-<vertex x="6.65" y="-0.825"/>
-<vertex x="8.05" y="0.575"/>
-</polygon>
-<wire x1="-5.65" y1="7.85" x2="-5.65" y2="9.6" width="0.15" layer="51"/>
-<wire x1="-5.65" y1="9.6" x2="5.65" y2="9.6" width="0.15" layer="51"/>
-<wire x1="5.65" y1="9.6" x2="5.65" y2="7.85" width="0.15" layer="51"/>
-<text x="0" y="8.7" size="1.016" layer="51" align="center">Wires</text>
-<wire x1="-8.05" y1="6.425" x2="-8.05" y2="-0.825" width="0.15" layer="39"/>
-<wire x1="-8.05" y1="-0.825" x2="8.05" y2="-0.825" width="0.15" layer="39"/>
-<wire x1="8.05" y1="-0.825" x2="8.05" y2="6.425" width="0.15" layer="39"/>
-<wire x1="8.05" y1="6.425" x2="7.15" y2="6.425" width="0.15" layer="39"/>
-<wire x1="-7.15" y1="6.425" x2="-8.05" y2="6.425" width="0.15" layer="39"/>
-<wire x1="-7.15" y1="6.425" x2="-7.15" y2="7.85" width="0.15" layer="39"/>
-<wire x1="-7.15" y1="7.85" x2="-5.65" y2="7.85" width="0.15" layer="39"/>
-<wire x1="-5.65" y1="7.85" x2="-5.65" y2="9.6" width="0.15" layer="39"/>
-<wire x1="-5.65" y1="9.6" x2="5.65" y2="9.6" width="0.15" layer="39"/>
-<wire x1="5.65" y1="9.6" x2="5.65" y2="7.85" width="0.15" layer="39"/>
-<wire x1="5.65" y1="7.85" x2="7.15" y2="7.85" width="0.15" layer="39"/>
-<wire x1="7.15" y1="7.85" x2="7.15" y2="6.425" width="0.15" layer="39"/>
 <text x="0" y="-1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="5" y1="-0.8" x2="8.1" y2="0" layer="21"/>
+<rectangle x1="7.1" y1="0" x2="8.1" y2="2" layer="21"/>
+<rectangle x1="-8.05" y1="-0.8" x2="8.05" y2="6.4" layer="39"/>
+<rectangle x1="-7.1" y1="6.4" x2="7.2" y2="13.8" layer="39"/>
 </package>
 <package name="PICOLOCK1.5-04">
 <description>&lt;h3&gt;PicoLock 1.5mm - 4 Conductor&lt;/h3&gt;</description>
@@ -2624,38 +2601,15 @@ Space EE</text>
 <wire x1="1.75" y1="0" x2="1.25" y2="0" width="0.15" layer="21"/>
 <wire x1="0.25" y1="0" x2="-0.25" y2="0" width="0.15" layer="21"/>
 <wire x1="-1.25" y1="0" x2="-1.75" y2="0" width="0.15" layer="21"/>
-<wire x1="-4.9" y1="6.3" x2="-4.9" y2="7.85" width="0.15" layer="51"/>
-<wire x1="-4.9" y1="7.85" x2="-3.4" y2="7.85" width="0.15" layer="51"/>
-<wire x1="-3.4" y1="7.85" x2="3.4" y2="7.85" width="0.15" layer="51"/>
-<wire x1="3.4" y1="7.85" x2="4.9" y2="7.85" width="0.15" layer="51"/>
-<wire x1="4.9" y1="7.85" x2="4.9" y2="6.3" width="0.15" layer="51"/>
 <wire x1="-5.8" y1="6.425" x2="-5.8" y2="-0.825" width="0.15" layer="21"/>
 <wire x1="-5.8" y1="-0.825" x2="5.8" y2="-0.825" width="0.15" layer="21"/>
 <wire x1="5.8" y1="-0.825" x2="5.8" y2="6.425" width="0.15" layer="21"/>
 <wire x1="5.8" y1="6.425" x2="-5.8" y2="6.425" width="0.15" layer="21"/>
-<text x="0" y="7.1" size="1.016" layer="51" align="center">Plug</text>
-<wire x1="-3.4" y1="7.85" x2="-3.4" y2="9.6" width="0.15" layer="51"/>
-<wire x1="-3.4" y1="9.6" x2="3.4" y2="9.6" width="0.15" layer="51"/>
-<wire x1="3.4" y1="9.6" x2="3.4" y2="7.85" width="0.15" layer="51"/>
-<text x="0" y="8.7" size="1.016" layer="51" align="center">Wires</text>
-<polygon width="0.15" layer="21">
-<vertex x="5.8" y="-0.825"/>
-<vertex x="4.4" y="-0.825"/>
-<vertex x="5.8" y="0.575"/>
-</polygon>
 <text x="0" y="-1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-5.8" y1="-0.825" x2="-5.8" y2="6.425" width="0.15" layer="39"/>
-<wire x1="-5.8" y1="6.425" x2="-4.9" y2="6.425" width="0.15" layer="39"/>
-<wire x1="-4.9" y1="6.425" x2="-4.9" y2="7.85" width="0.15" layer="39"/>
-<wire x1="-4.9" y1="7.85" x2="-3.4" y2="7.85" width="0.15" layer="39"/>
-<wire x1="-3.4" y1="7.85" x2="-3.4" y2="9.6" width="0.15" layer="39"/>
-<wire x1="-3.4" y1="9.6" x2="3.4" y2="9.6" width="0.15" layer="39"/>
-<wire x1="3.4" y1="9.6" x2="3.4" y2="7.85" width="0.15" layer="39"/>
-<wire x1="3.4" y1="7.85" x2="4.9" y2="7.85" width="0.15" layer="39"/>
-<wire x1="4.9" y1="7.85" x2="4.9" y2="6.425" width="0.15" layer="39"/>
-<wire x1="4.9" y1="6.425" x2="5.8" y2="6.425" width="0.15" layer="39"/>
-<wire x1="5.8" y1="6.425" x2="5.8" y2="-0.825" width="0.15" layer="39"/>
-<wire x1="5.8" y1="-0.825" x2="-5.8" y2="-0.825" width="0.15" layer="39"/>
+<rectangle x1="2.75" y1="-0.85" x2="5.8" y2="0" layer="21"/>
+<rectangle x1="4.9" y1="0" x2="5.8" y2="2" layer="21"/>
+<rectangle x1="-5.8" y1="-0.8" x2="5.8" y2="6.4" layer="39"/>
+<rectangle x1="-4.9" y1="6.4" x2="4.9" y2="13.8" layer="39"/>
 </package>
 <package name="SMD2.54-1X06-R">
 <description>&lt;h3&gt;SMD 2.54mm - 1x6 Conductor - Right Angle&lt;/h3&gt;</description>
@@ -6809,6 +6763,7 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="4.15" y1="4.15" x2="4.15" y2="-4.15" width="0.15" layer="21"/>
 <wire x1="4.15" y1="-4.15" x2="-4.15" y2="-4.15" width="0.15" layer="21"/>
 <wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.15" layer="21"/>
+<rectangle x1="-1.4" y1="-3.7" x2="1.4" y2="3.7" layer="41"/>
 </package>
 <package name="6060">
 <description>&lt;h3&gt;SMD 6.0 x 6.0 mm&lt;/h3&gt;
@@ -7546,16 +7501,7 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.15" layer="39"/>
 <wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.15" layer="39"/>
 <text x="0" y="3.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.15" layer="21">
-<vertex x="-2.6" y="2.6"/>
-<vertex x="-1.1" y="2.6"/>
-<vertex x="-2.6" y="1.1"/>
-</polygon>
-<polygon width="0.15" layer="21">
-<vertex x="-2" y="2"/>
-<vertex x="-1.3" y="2"/>
-<vertex x="-2" y="1.3"/>
-</polygon>
+<rectangle x1="-2.6" y1="1.3" x2="-1.3" y2="2.6" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -7711,35 +7657,35 @@ Last character is an incremented letter for each variant of the same value and p
 <description>&lt;h3&gt;1608 (0603 in) - Polarized&lt;/h3&gt;</description>
 <wire x1="-0.45" y1="0.35" x2="0.45" y2="0.35" width="0.1" layer="51"/>
 <wire x1="-0.45" y1="-0.35" x2="0.45" y2="-0.35" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="21"/>
-<wire x1="-1.7" y1="0.825" x2="1.7" y2="0.825" width="0.15" layer="39"/>
-<wire x1="1.7" y1="0.825" x2="1.7" y2="-0.825" width="0.15" layer="39"/>
-<wire x1="1.7" y1="-0.825" x2="-1.7" y2="-0.825" width="0.15" layer="39"/>
-<wire x1="-1.7" y1="-0.825" x2="-1.7" y2="0.825" width="0.15" layer="39"/>
-<wire x1="0.145" y1="0.35" x2="0" y2="0.35" width="0.15" layer="21"/>
-<smd name="C" x="-0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
-<smd name="A" x="0.865" y="0" dx="1.05" dy="1.08" layer="1"/>
+<wire x1="0" y1="0.775" x2="1.375" y2="0.775" width="0.15" layer="21"/>
+<wire x1="1.375" y1="0.775" x2="1.375" y2="-0.775" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="0.775" x2="1.375" y2="0.775" width="0.15" layer="39"/>
+<wire x1="1.375" y1="0.775" x2="1.375" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="1.375" y1="-0.775" x2="-1.375" y2="-0.775" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="-0.775" x2="-1.375" y2="0.775" width="0.15" layer="39"/>
+<wire x1="0.275" y1="0.35" x2="0" y2="0.35" width="0.15" layer="21"/>
+<smd name="C" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.6" dy="0.9" layer="1"/>
 <text x="0" y="1.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <polygon width="0.15" layer="21">
 <vertex x="0" y="-0.35"/>
-<vertex x="0" y="-0.825"/>
-<vertex x="-1.7" y="-0.825"/>
-<vertex x="-1.7" y="0.825"/>
-<vertex x="0" y="0.825"/>
+<vertex x="0" y="-0.775"/>
+<vertex x="-1.375" y="-0.775"/>
+<vertex x="-1.375" y="0.775"/>
+<vertex x="0" y="0.775"/>
 <vertex x="0" y="0.35"/>
-<vertex x="-0.15" y="0.35"/>
-<vertex x="-0.15" y="0.725"/>
-<vertex x="-1.575" y="0.725"/>
-<vertex x="-1.575" y="-0.725"/>
-<vertex x="-0.15" y="-0.725"/>
-<vertex x="-0.15" y="-0.35"/>
+<vertex x="-0.27" y="0.35"/>
+<vertex x="-0.27" y="0.625"/>
+<vertex x="-1.225" y="0.625"/>
+<vertex x="-1.225" y="-0.625"/>
+<vertex x="-0.27" y="-0.625"/>
+<vertex x="-0.27" y="-0.35"/>
 </polygon>
-<wire x1="1.7" y1="-0.825" x2="0" y2="-0.825" width="0.15" layer="21"/>
-<wire x1="0" y1="-0.35" x2="0.15" y2="-0.35" width="0.15" layer="21"/>
-<wire x1="-0.15" y1="0.35" x2="-0.15" y2="-0.35" width="0.15" layer="21"/>
+<wire x1="1.375" y1="-0.775" x2="0" y2="-0.775" width="0.15" layer="21"/>
+<wire x1="0" y1="-0.35" x2="0.27" y2="-0.35" width="0.15" layer="21"/>
+<wire x1="-0.27" y1="0.35" x2="-0.27" y2="-0.35" width="0.15" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8526,7 +8472,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="C13" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-10UF" value="10µF 10%"/>
 <part name="C16" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-3216" technology="-10UF" value="10µF 10%"/>
 <part name="SUPPLY25" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
-<part name="TP9" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-0.7" value="TEST_POINT-THT-0.7"/>
+<part name="TP9" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25" value="TEST_POINT-SMD-C-1.25"/>
 <part name="FRAME10" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Output Switching"/>
 </part>
@@ -9269,7 +9215,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY169" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="RN16" library="CougsInSpace-Resistors" deviceset="RES-V-PAIRED" device="-1616" technology="-5K" value="5kΩ 0.1%"/>
 <part name="U13" library="CougsInSpace-IC-Conversion" deviceset="AD7291" device="" value="AD7291"/>
-<part name="SUPPLY170" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY171" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY237" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY82" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
@@ -9284,7 +9229,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY90" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY91" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C149" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10UF" value="10µF 10%"/>
-<part name="SUPPLY93" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET195" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET196" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET197" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9403,7 +9347,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY351" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY352" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="TP1" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
-<part name="TP47" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
+<part name="TP47" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25" value="TEST_POINT-SMD-C-1.25"/>
 <part name="TP48" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 <part name="TP49" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
 <part name="TP50" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0"/>
@@ -9589,7 +9533,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY389" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY390" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY101" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
-<part name="SUPPLY249" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY292" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY301" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY337" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -9598,6 +9541,9 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="R3" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-4.75M" value="4.75MΩ 1%"/>
 <part name="R4" library="CougsInSpace-Resistors" deviceset="RES-H" device="-1608" technology="-4.75M" value="4.75MΩ 1%"/>
 <part name="Q4" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL_COM_D-N" device="-UDFN-6-B" technology="-DMN2008LFU" value="DMN2008LFU"/>
+<part name="SUPPLY70" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
+<part name="SUPPLY71" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
+<part name="SUPPLY77" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20623,10 +20569,10 @@ Fix offsheet afterwards</text>
 <plain>
 <text x="88.9" y="165.1" size="1.27" layer="97" align="center-left"> &lt;9B1</text>
 <text x="88.9" y="162.56" size="1.27" layer="97" align="center-left"> &lt;9B1&gt;</text>
-<text x="93.98" y="171.45" size="1.778" layer="97" align="bottom-center">CAD Note: Decoupling</text>
-<wire x1="78.74" y1="190.5" x2="78.74" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="78.74" y1="170.18" x2="109.22" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="109.22" y1="170.18" x2="109.22" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
+<text x="93.98" y="170.18" size="1.778" layer="97" align="bottom-center">CAD Note: Decoupling</text>
+<wire x1="78.74" y1="190.5" x2="78.74" y2="168.91" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="78.74" y1="168.91" x2="109.22" y2="168.91" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="109.22" y1="168.91" x2="109.22" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="109.22" y1="190.5" x2="78.74" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="93.98" y="118.11" size="1.778" layer="97" align="bottom-center">CAD Note: Decoupling</text>
 <wire x1="78.74" y1="137.16" x2="78.74" y2="116.84" width="0.1524" layer="97" style="shortdash"/>
@@ -20699,14 +20645,14 @@ Place at various locations around the PCB</text>
 <text x="144.78" y="71.12" size="1.27" layer="97" align="center-right">11A5&gt; </text>
 <text x="144.78" y="68.58" size="1.27" layer="97" align="center-right">11A5&gt; </text>
 <text x="144.78" y="66.04" size="1.27" layer="97" align="center-right">11A5&gt; </text>
-<text x="12.7" y="182.88" size="1.27" layer="97" align="center-right">6A2&gt; </text>
-<text x="12.7" y="180.34" size="1.27" layer="97" align="center-right">6A4&gt; </text>
-<text x="12.7" y="177.8" size="1.27" layer="97" align="center-right">6A5&gt; </text>
-<text x="12.7" y="175.26" size="1.27" layer="97" align="center-right">6B2&gt; </text>
-<text x="12.7" y="172.72" size="1.27" layer="97" align="center-right">6B4&gt; </text>
-<text x="12.7" y="170.18" size="1.27" layer="97" align="center-right">6B5&gt; </text>
-<text x="12.7" y="167.64" size="1.27" layer="97" align="center-right">6C2&gt; </text>
-<text x="12.7" y="165.1" size="1.27" layer="97" align="center-right">6C4&gt; </text>
+<text x="12.7" y="165.1" size="1.27" layer="97" align="center-right">6A2&gt; </text>
+<text x="12.7" y="167.64" size="1.27" layer="97" align="center-right">6A4&gt; </text>
+<text x="12.7" y="170.18" size="1.27" layer="97" align="center-right">6A5&gt; </text>
+<text x="12.7" y="172.72" size="1.27" layer="97" align="center-right">6B2&gt; </text>
+<text x="12.7" y="175.26" size="1.27" layer="97" align="center-right">6B4&gt; </text>
+<text x="12.7" y="177.8" size="1.27" layer="97" align="center-right">6B5&gt; </text>
+<text x="12.7" y="180.34" size="1.27" layer="97" align="center-right">6C2&gt; </text>
+<text x="12.7" y="182.88" size="1.27" layer="97" align="center-right">6C4&gt; </text>
 <text x="12.7" y="129.54" size="1.27" layer="97" align="center-right">6C5&gt; </text>
 <text x="12.7" y="119.38" size="1.27" layer="97" align="center-right">6D2&gt; </text>
 <text x="12.7" y="116.84" size="1.27" layer="97" align="center-right">7A2&gt; </text>
@@ -20723,6 +20669,9 @@ Place at various locations around the PCB</text>
 <text x="12.7" y="127" size="1.27" layer="97" align="center-right">6C2&gt; </text>
 <text x="12.7" y="124.46" size="1.27" layer="97" align="center-right">6C4&gt; </text>
 <text x="12.7" y="121.92" size="1.27" layer="97" align="center-right">6C5&gt; </text>
+<text x="30.48" y="142.24" size="1.27" layer="97" align="center">Note:
+Inputs PGND
+Referenced</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0" smashed="yes">
@@ -20771,7 +20720,6 @@ Place at various locations around the PCB</text>
 <attribute name="VALUE" x="55.88" y="148.59" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="55.88" y="146.558" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="SUPPLY170" gate="G$1" x="33.02" y="147.32" smashed="yes"/>
 <instance part="SUPPLY171" gate="1" x="38.1" y="147.32" smashed="yes"/>
 <instance part="SUPPLY237" gate="G$1" x="76.2" y="180.34" smashed="yes">
 <attribute name="VALUE" x="76.2" y="183.896" size="1.27" layer="96" align="center"/>
@@ -20799,7 +20747,6 @@ Place at various locations around the PCB</text>
 <attribute name="VOLTAGE" x="25.146" y="151.384" size="1.27" layer="97" rot="MR0" align="center-left"/>
 <attribute name="TEMP" x="25.146" y="149.86" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
-<instance part="SUPPLY93" gate="G$1" x="27.94" y="147.32" smashed="yes"/>
 <instance part="OFFSHEET195" gate="G$1" x="15.24" y="182.88" smashed="yes"/>
 <instance part="OFFSHEET196" gate="G$1" x="15.24" y="180.34" smashed="yes"/>
 <instance part="OFFSHEET197" gate="G$1" x="15.24" y="177.8" smashed="yes"/>
@@ -21250,10 +21197,12 @@ Place at various locations around the PCB</text>
 <attribute name="VALUE" x="73.66" y="135.636" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="SUPPLY101" gate="G$1" x="83.82" y="68.58" smashed="yes"/>
-<instance part="SUPPLY249" gate="G$1" x="83.82" y="175.26" smashed="yes"/>
 <instance part="SUPPLY292" gate="G$1" x="83.82" y="121.92" smashed="yes"/>
 <instance part="SUPPLY301" gate="G$1" x="231.14" y="68.58" smashed="yes"/>
 <instance part="SUPPLY337" gate="G$1" x="231.14" y="132.08" smashed="yes"/>
+<instance part="SUPPLY70" gate="G$1" x="27.94" y="147.32" smashed="yes"/>
+<instance part="SUPPLY71" gate="G$1" x="33.02" y="147.32" smashed="yes"/>
+<instance part="SUPPLY77" gate="G$1" x="83.82" y="175.26" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -21266,16 +21215,6 @@ Place at various locations around the PCB</text>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY110" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="U13" gate="G$1" pin="AGND"/>
-<pinref part="SUPPLY170" gate="G$1" pin="AGND"/>
-<wire x1="40.64" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="154.94" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C149" gate="G$1" pin="2"/>
-<pinref part="SUPPLY93" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="AGND"/>
@@ -21366,10 +21305,6 @@ Place at various locations around the PCB</text>
 <segment>
 <pinref part="C159" gate="G$1" pin="2"/>
 <pinref part="SUPPLY101" gate="G$1" pin="AGND"/>
-</segment>
-<segment>
-<pinref part="C151" gate="G$1" pin="2"/>
-<pinref part="SUPPLY249" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C155" gate="G$1" pin="2"/>
@@ -21730,60 +21665,32 @@ Place at various locations around the PCB</text>
 <junction x="27.94" y="160.02"/>
 </segment>
 </net>
-<net name="I_3.3V-0" class="0">
-<segment>
-<wire x1="40.64" y1="182.88" x2="17.78" y2="182.88" width="0.1524" layer="91"/>
-<label x="19.05" y="182.88" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN0"/>
-</segment>
-</net>
-<net name="I_3.3V-1" class="0">
-<segment>
-<wire x1="40.64" y1="180.34" x2="17.78" y2="180.34" width="0.1524" layer="91"/>
-<label x="19.05" y="180.34" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN1"/>
-</segment>
-</net>
-<net name="I_3.3V-2" class="0">
-<segment>
-<wire x1="40.64" y1="177.8" x2="17.78" y2="177.8" width="0.1524" layer="91"/>
-<label x="19.05" y="177.8" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN2"/>
-</segment>
-</net>
-<net name="I_3.3V-3" class="0">
+<net name="I_3.3V-4" class="0">
 <segment>
 <wire x1="40.64" y1="175.26" x2="17.78" y2="175.26" width="0.1524" layer="91"/>
 <label x="19.05" y="175.26" size="1.778" layer="95"/>
 <pinref part="U13" gate="G$1" pin="IN3"/>
 </segment>
 </net>
-<net name="I_3.3V-4" class="0">
-<segment>
-<wire x1="40.64" y1="172.72" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
-<label x="19.05" y="172.72" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN4"/>
-</segment>
-</net>
 <net name="I_3.3V-5" class="0">
 <segment>
-<wire x1="40.64" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
-<label x="19.05" y="170.18" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN5"/>
+<wire x1="40.64" y1="177.8" x2="17.78" y2="177.8" width="0.1524" layer="91"/>
+<label x="19.05" y="177.8" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN2"/>
 </segment>
 </net>
 <net name="I_3.3V-6" class="0">
 <segment>
-<wire x1="40.64" y1="167.64" x2="17.78" y2="167.64" width="0.1524" layer="91"/>
-<label x="19.05" y="167.64" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN6"/>
+<wire x1="40.64" y1="180.34" x2="17.78" y2="180.34" width="0.1524" layer="91"/>
+<label x="19.05" y="180.34" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 <net name="I_3.3V-7" class="0">
 <segment>
-<wire x1="40.64" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
-<label x="19.05" y="165.1" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="IN7"/>
+<wire x1="40.64" y1="182.88" x2="17.78" y2="182.88" width="0.1524" layer="91"/>
+<label x="19.05" y="182.88" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN0"/>
 </segment>
 </net>
 <net name="ADC_DCAP-4" class="0">
@@ -22232,6 +22139,50 @@ Place at various locations around the PCB</text>
 <wire x1="132.08" y1="40.64" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY344" gate="G$1" pin="AVREF-1"/>
 <junction x="137.16" y="40.64"/>
+</segment>
+</net>
+<net name="I_3.3V-3" class="0">
+<segment>
+<wire x1="40.64" y1="172.72" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
+<label x="19.05" y="172.72" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN4"/>
+</segment>
+</net>
+<net name="I_3.3V-2" class="0">
+<segment>
+<wire x1="40.64" y1="170.18" x2="17.78" y2="170.18" width="0.1524" layer="91"/>
+<label x="19.05" y="170.18" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN5"/>
+</segment>
+</net>
+<net name="I_3.3V-1" class="0">
+<segment>
+<wire x1="40.64" y1="167.64" x2="17.78" y2="167.64" width="0.1524" layer="91"/>
+<label x="19.05" y="167.64" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN6"/>
+</segment>
+</net>
+<net name="I_3.3V-0" class="0">
+<segment>
+<wire x1="40.64" y1="165.1" x2="17.78" y2="165.1" width="0.1524" layer="91"/>
+<label x="19.05" y="165.1" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="IN7"/>
+</segment>
+</net>
+<net name="PGND" class="1">
+<segment>
+<pinref part="C149" gate="G$1" pin="2"/>
+<pinref part="SUPPLY70" gate="G$1" pin="PGND"/>
+</segment>
+<segment>
+<pinref part="U13" gate="G$1" pin="AGND"/>
+<wire x1="40.64" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="154.94" x2="33.02" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY71" gate="G$1" pin="PGND"/>
+</segment>
+<segment>
+<pinref part="C151" gate="G$1" pin="2"/>
+<pinref part="SUPPLY77" gate="G$1" pin="PGND"/>
 </segment>
 </net>
 </nets>
