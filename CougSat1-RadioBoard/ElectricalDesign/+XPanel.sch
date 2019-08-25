@@ -3532,6 +3532,9 @@ under the package</text>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="50Ohm" width="1.5" drill="0">
+<clearance class="1" value="0.5"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
@@ -4978,7 +4981,7 @@ by the EPS</text>
 <pinref part="SUPPLY16" gate="G$1" pin="RFGND-0"/>
 </segment>
 </net>
-<net name="RFGND-1" class="0">
+<net name="RFGND-1" class="1">
 <segment>
 <pinref part="AE1" gate="G$1" pin="SHIELD"/>
 <pinref part="J5" gate="G$1" pin="SHIELD"/>
@@ -4989,7 +4992,7 @@ by the EPS</text>
 <junction x="124.46" y="165.1"/>
 </segment>
 </net>
-<net name="GPS_COAX" class="0">
+<net name="GPS_COAX" class="1">
 <segment>
 <pinref part="AE1" gate="G$1" pin="CENTER"/>
 <pinref part="J5" gate="G$1" pin="CENTER"/>
