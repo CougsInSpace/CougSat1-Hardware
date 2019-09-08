@@ -4943,7 +4943,7 @@ by the EPS</text>
 <busses>
 </busses>
 <nets>
-<net name="LOW_GAIN_P" class="0">
+<net name="LOW_GAIN_P" class="1">
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="180.34" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
@@ -4952,7 +4952,7 @@ by the EPS</text>
 <wire x1="53.34" y1="170.18" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LOW_GAIN_N" class="0">
+<net name="LOW_GAIN_N" class="1">
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
@@ -4961,7 +4961,7 @@ by the EPS</text>
 <wire x1="53.34" y1="165.1" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LOW_GAIN_COAX" class="0">
+<net name="LOW_GAIN_COAX" class="1">
 <segment>
 <pinref part="Z1" gate="G$1" pin="SECONDARY-DOT"/>
 <wire x1="66.04" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
@@ -4970,7 +4970,7 @@ by the EPS</text>
 <wire x1="73.66" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RFGND-0" class="0">
+<net name="RFGND-0" class="1">
 <segment>
 <pinref part="J4" gate="G$1" pin="SHIELD"/>
 <pinref part="Z1" gate="G$1" pin="SECONDARY"/>
