@@ -1303,8 +1303,8 @@ design rules under a new name.</description>
 <element name="TP1" library="CougsInSpace-Connectors" package="THT-1.0" value="TEST_POINT-THT-1.0" x="35.4" y="9.1" smashed="yes">
 <attribute name="NAME" x="35.4" y="10.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="TP2" library="CougsInSpace-Connectors" package="THT-1.0" value="TEST_POINT-THT-1.0" x="42.1" y="13.1" smashed="yes">
-<attribute name="NAME" x="42.1" y="14.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<element name="TP2" library="CougsInSpace-Connectors" package="THT-1.0" value="TEST_POINT-THT-1.0" x="41.7" y="13.1" smashed="yes">
+<attribute name="NAME" x="41.7" y="14.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="TP3" library="CougsInSpace-Connectors" package="THT-1.0" value="TEST_POINT-THT-1.0" x="39.2" y="13.1" smashed="yes">
 <attribute name="NAME" x="39.2" y="14.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
@@ -1494,7 +1494,8 @@ design rules under a new name.</description>
 <wire x1="35.3" y1="29.85" x2="35.3" y2="28.6" width="0.16" layer="1"/>
 <wire x1="35.3" y1="28.6" x2="36.3" y2="27.6" width="0.16" layer="1"/>
 <wire x1="36.3" y1="27.6" x2="41.9" y2="27.6" width="0.16" layer="1"/>
-<wire x1="42.1" y1="13.1" x2="44.35" y2="12.81" width="0" layer="19" extent="1-1"/>
+<wire x1="42.725" y1="16.4" x2="42.725" y2="14.125" width="0.16" layer="1"/>
+<wire x1="42.725" y1="14.125" x2="41.7" y2="13.1" width="0.16" layer="1"/>
 </signal>
 <signal name="BTST">
 <contactref element="U2" pad="16"/>
@@ -1519,14 +1520,13 @@ design rules under a new name.</description>
 <contactref element="D1" pad="1"/>
 <contactref element="J3" pad="1"/>
 <contactref element="TP1" pad="1"/>
-<wire x1="44.35" y1="10.19" x2="44.26" y2="10.1" width="0.4" layer="1"/>
-<wire x1="22.57" y1="30.4" x2="22.45" y2="30.4" width="0.16" layer="1"/>
 <wire x1="42.6" y1="7.6" x2="42.6" y2="8.44" width="0.6" layer="1"/>
 <wire x1="42.6" y1="8.44" x2="44.35" y2="10.19" width="0.6" layer="1"/>
 <wire x1="24.72" y1="30.25" x2="23.65" y2="30.25" width="0.16" layer="1"/>
 <wire x1="23.5" y1="30.4" x2="23.65" y2="30.25" width="0.16" layer="1"/>
 <wire x1="22.45" y1="30.4" x2="23.5" y2="30.4" width="0.16" layer="1"/>
-<wire x1="42.6" y1="7.6" x2="34.6" y2="7.6" width="0.16" layer="1"/>
+<wire x1="42.6" y1="7.6" x2="35.8" y2="7.6" width="0.16" layer="1"/>
+<wire x1="35.8" y1="7.6" x2="34.6" y2="7.6" width="0.16" layer="1"/>
 <wire x1="23.69" y1="18.51" x2="23.6505875" y2="18.51" width="0.16" layer="1"/>
 <wire x1="23.6505875" y1="18.51" x2="23.3" y2="18.8605875" width="0.16" layer="1"/>
 <wire x1="21.7" y1="29.65" x2="22.45" y2="30.4" width="0.16" layer="1"/>
@@ -1534,7 +1534,8 @@ design rules under a new name.</description>
 <wire x1="23.3" y1="18.8605875" x2="23.3" y2="22" width="0.16" layer="1"/>
 <wire x1="23.3" y1="22" x2="21.7" y2="23.6" width="0.16" layer="1"/>
 <wire x1="21.7" y1="23.6" x2="21.7" y2="29.65" width="0.16" layer="1"/>
-<wire x1="42.6" y1="7.6" x2="35.4" y2="9.1" width="0" layer="19" extent="1-1"/>
+<wire x1="35.8" y1="7.6" x2="35.4" y2="8" width="0.16" layer="1"/>
+<wire x1="35.4" y1="8" x2="35.4" y2="9.1" width="0.16" layer="1"/>
 </signal>
 <signal name="CHARGING_STAT_G">
 <contactref element="DS1" pad="C"/>
@@ -1595,9 +1596,12 @@ design rules under a new name.</description>
 <contactref element="C10" pad="2"/>
 <contactref element="TP3" pad="1"/>
 <wire x1="40" y1="19.6" x2="39.0401875" y2="19.6" width="0.4" layer="1"/>
-<wire x1="40.85" y1="17.375" x2="40.85" y2="16.075" width="0.6" layer="1"/>
-<wire x1="39.35" y1="17.375" x2="39.35" y2="16.4" width="0.6" layer="1"/>
-<wire x1="39.35" y1="16.4" x2="39.35" y2="15.425" width="0.6" layer="1"/>
+<wire x1="40.85" y1="17.375" x2="40.85" y2="16.6" width="0.6" layer="1"/>
+<wire x1="40.85" y1="16.6" x2="40.85" y2="16.075" width="0.6" layer="1"/>
+<wire x1="39.35" y1="17.375" x2="39.35" y2="16.8" width="0.6" layer="1"/>
+<wire x1="39.35" y1="16.8" x2="39.35" y2="16.4" width="0.6" layer="1"/>
+<wire x1="39.35" y1="15.425" x2="39.35" y2="16" width="0.6" layer="1"/>
+<wire x1="39.35" y1="16" x2="39.35" y2="16.4" width="0.6" layer="1"/>
 <wire x1="38.125" y1="16.4" x2="39.35" y2="16.4" width="0.6" layer="1"/>
 <wire x1="40.85" y1="17.375" x2="40.1" y2="17.375" width="0.6" layer="1"/>
 <wire x1="40.1" y1="17.375" x2="39.35" y2="17.375" width="0.6" layer="1"/>
@@ -1610,10 +1614,11 @@ design rules under a new name.</description>
 <wire x1="35.05" y1="23.2" x2="34.72" y2="23.53" width="0.16" layer="1"/>
 <wire x1="34.72" y1="23.53" x2="34.72" y2="25.11631875" width="0.16" layer="1"/>
 <wire x1="34.72" y1="25.11631875" x2="32.78631875" y2="27.05" width="0.16" layer="1"/>
-<wire x1="40.85" y1="16.075" x2="40.85" y2="16.725" width="0" layer="19" extent="1-1"/>
-<wire x1="39.35" y1="16.075" x2="39.35" y2="15.425" width="0" layer="19" extent="1-1"/>
-<wire x1="39.35" y1="16.725" x2="39.35" y2="17.375" width="0" layer="19" extent="1-1"/>
-<wire x1="39.2" y1="13.1" x2="39.35" y2="15.425" width="0" layer="19" extent="1-1"/>
+<wire x1="38.125" y1="16.4" x2="39.2" y2="15.325" width="0.16" layer="1"/>
+<wire x1="39.2" y1="15.325" x2="39.2" y2="13.1" width="0.16" layer="1"/>
+<wire x1="40.85" y1="16.725" x2="40.85" y2="16.6" width="0.16" layer="1"/>
+<wire x1="39.35" y1="16.725" x2="39.35" y2="16.8" width="0.16" layer="1"/>
+<wire x1="39.35" y1="16.075" x2="39.35" y2="16" width="0.16" layer="1"/>
 </signal>
 <signal name="HIGHDV">
 <contactref element="U2" pad="15"/>
@@ -1727,7 +1732,8 @@ design rules under a new name.</description>
 <wire x1="46.25" y1="39.6" x2="44.85" y2="41" width="0.6" layer="1"/>
 <wire x1="36.9" y1="28.2" x2="36.95" y2="28.25" width="0.16" layer="1"/>
 <wire x1="36.95" y1="28.25" x2="38.2" y2="28.25" width="0.16" layer="1"/>
-<wire x1="44.85" y1="32.1" x2="47.1" y2="31.8" width="0" layer="19" extent="1-1"/>
+<wire x1="44.85" y1="32.1" x2="46.8" y2="32.1" width="0.16" layer="1"/>
+<wire x1="46.8" y1="32.1" x2="47.1" y2="31.8" width="0.16" layer="1"/>
 </signal>
 <signal name="UMB_RX">
 <contactref element="J2" pad="2"/>
@@ -1776,7 +1782,8 @@ design rules under a new name.</description>
 <wire x1="8.975" y1="25.5" x2="10.2875" y2="24.1875" width="0.16" layer="1"/>
 <wire x1="10.2875" y1="24.1875" x2="10.525" y2="23.95" width="0.16" layer="1"/>
 <wire x1="10.525" y1="23.95" x2="10.9" y2="23.95" width="0.16" layer="1"/>
-<wire x1="6.4" y1="31.2" x2="6.4" y2="28.475" width="0.16" layer="1"/>
+<wire x1="6.4" y1="28.475" x2="6.4" y2="30.2" width="0.16" layer="1"/>
+<wire x1="6.4" y1="30.2" x2="6.4" y2="31.2" width="0.16" layer="1"/>
 <wire x1="6.4" y1="28.475" x2="6.2" y2="28.275" width="0.16" layer="1"/>
 <wire x1="12.8" y1="22.15" x2="11" y2="23.95" width="0.16" layer="1"/>
 <wire x1="11" y1="23.95" x2="10.9" y2="23.95" width="0.4" layer="1"/>
@@ -1805,7 +1812,8 @@ design rules under a new name.</description>
 <wire x1="9.7" y1="31.425" x2="9.025" y2="31.425" width="0.16" layer="1"/>
 <wire x1="9.025" y1="31.425" x2="8.8" y2="31.2" width="0.16" layer="1"/>
 <wire x1="11.35" y1="30.2187375" x2="10.1437375" y2="31.425" width="0.16" layer="16"/>
-<wire x1="6.4" y1="30.1" x2="6.4" y2="31.2" width="0" layer="19" extent="1-1"/>
+<wire x1="6.365" y1="29.97131875" x2="6.365" y2="30.165" width="0.16" layer="1"/>
+<wire x1="6.365" y1="30.165" x2="6.4" y2="30.2" width="0.16" layer="1"/>
 </signal>
 <signal name="DGND">
 <contactref element="C1" pad="2"/>
@@ -1958,12 +1966,6 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="BALANCING-TOP">
-<polygon width="0.16" layer="1" spacing="0.5" pour="hatch" rank="6">
-<vertex x="0" y="0"/>
-<vertex x="0" y="48"/>
-<vertex x="49" y="48"/>
-<vertex x="49" y="0"/>
-</polygon>
 </signal>
 <signal name="CBUS1">
 <contactref element="U1" pad="11"/>
@@ -2058,6 +2060,11 @@ design rules under a new name.</description>
 <approved hash="5,1,20280b4dd0d018d2"/>
 <approved hash="5,1,545200b6e845c23d"/>
 <approved hash="5,1,bcadfa927f43ab43"/>
+<approved hash="5,1,d1549d7ede8a1385"/>
+<approved hash="5,1,ef9da833ec8da79a"/>
+<approved hash="5,1,ad920f3c1191e0b6"/>
+<approved hash="23,1,fd221f281f0bfd01"/>
+<approved hash="23,1,9370548c5487937b"/>
 </errors>
 </board>
 </drawing>
