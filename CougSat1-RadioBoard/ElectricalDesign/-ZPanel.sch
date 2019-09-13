@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3573,7 +3573,7 @@ To ADCS</text>
 <wire x1="50.8" y1="106.68" x2="78.74" y2="106.68" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="106.68" x2="78.74" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="129.54" x2="50.8" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
-<text x="40.64" y="182.88" size="1.778" layer="97">CAD Note: ADC Address: 10</text>
+<text x="40.64" y="182.88" size="1.778" layer="97">ADC Address: 10</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
