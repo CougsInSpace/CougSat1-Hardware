@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4987,6 +4987,7 @@ Place thermistors in location
 corresponding to net name</text>
 <text x="71.12" y="55.88" size="1.778" layer="97" align="center-left"> 4A3&gt;</text>
 <text x="71.12" y="53.34" size="1.778" layer="97" align="center-left"> 4A5&gt;</text>
+<text x="203.2" y="56.896" size="1.778" layer="97" align="center">Note: 2.5V</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
