@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1616,12 +1616,12 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-102.87" y="241.3" smashed="yes">
+<element name="C1" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-102.87" y="241.3" smashed="yes">
 <attribute name="NAME" x="-102.87" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="CougsInSpace-Capacitors" package="1608" value="1µF 10%" x="-129.54" y="241.3" smashed="yes">
 <attribute name="NAME" x="-129.54" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
@@ -1665,12 +1665,12 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C16" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-152.4" y="241.3" smashed="yes">
+<element name="C16" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-152.4" y="241.3" smashed="yes">
 <attribute name="NAME" x="-152.4" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C17" library="CougsInSpace-Capacitors" package="1608" value="15pF 1%" x="-156.21" y="241.3" smashed="yes">
 <attribute name="NAME" x="-156.21" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
@@ -1693,12 +1693,12 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-106.68" y="241.3" smashed="yes">
+<element name="C2" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-106.68" y="241.3" smashed="yes">
 <attribute name="NAME" x="-106.68" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C20" library="CougsInSpace-Capacitors" package="1608" value="100nF 10%" x="-167.64" y="241.3" smashed="yes">
 <attribute name="NAME" x="-167.64" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
@@ -1931,19 +1931,19 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C58" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-129.54" y="245.11" smashed="yes">
+<element name="C58" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-129.54" y="245.11" smashed="yes">
 <attribute name="NAME" x="-129.54" y="246.51" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C59" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-133.35" y="245.11" smashed="yes">
+<element name="C59" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-133.35" y="245.11" smashed="yes">
 <attribute name="NAME" x="-133.35" y="246.51" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="CougsInSpace-Capacitors" package="3216" value="100nF 10%" x="-16.51" y="241.3" smashed="yes">
 <attribute name="NAME" x="-16.51" y="243.2" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
@@ -2127,12 +2127,12 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="CougsInSpace-Capacitors" package="1608" value="8pF ±0.25" x="-125.73" y="241.3" smashed="yes">
+<element name="C9" library="CougsInSpace-Capacitors" package="1608" value="10pF 5%" x="-125.73" y="241.3" smashed="yes">
 <attribute name="NAME" x="-125.73" y="242.7" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-8.0A" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-100A" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="C0G" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="50V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="100V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="DS1" library="CougsInSpace-LEDs" package="1608-POL" value="Green" x="-60.96" y="248.92" smashed="yes">
 <attribute name="CURRENT" value="20mA" x="0" y="0" size="1.778" layer="27" display="off"/>
@@ -2162,7 +2162,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="63-0001" x="0" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VF" value="2.2V" x="0" y="0" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="CougsInSpace-Connectors" package="U.FL" value="To +X Panel" x="112.03305" y="221.62135" smashed="yes">
+<element name="J1" library="CougsInSpace-Connectors" package="U.FL" value="+X Panel GPS" x="112.03305" y="221.62135" smashed="yes">
 <attribute name="NAME" x="112.03305" y="224.52135" size="0.8" layer="21" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="U.FL" x="198.39305" y="-9.51865" size="1.778" layer="27" display="off"/>
 <attribute name="SKU" value="04-0008" x="198.39305" y="-9.51865" size="1.778" layer="27" display="off"/>
@@ -3687,18 +3687,18 @@ design rules under a new name.</description>
 <wire x1="65.52" y1="191.1" x2="96.8" y2="217.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADCS_OSC_32_OUT">
-<contactref element="Y2" pad="1"/>
 <contactref element="C13" pad="1"/>
 <contactref element="U2" pad="3"/>
-<wire x1="59.02" y1="199.6" x2="-59.67" y2="241.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-141.835" y1="241.3" x2="59.02" y2="199.6" width="0" layer="19" extent="1-1"/>
+<contactref element="Y2" pad="2"/>
+<wire x1="-141.835" y1="241.3" x2="-57.17" y2="241.3" width="0" layer="19" extent="1-1"/>
+<wire x1="59.02" y1="199.6" x2="-57.17" y2="241.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADCS_OSC_32_IN">
 <contactref element="U2" pad="4"/>
-<contactref element="Y2" pad="2"/>
 <contactref element="C14" pad="1"/>
-<wire x1="59.02" y1="199.1" x2="-57.17" y2="241.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-145.645" y1="241.3" x2="59.02" y2="199.1" width="0" layer="19" extent="1-1"/>
+<contactref element="Y2" pad="1"/>
+<wire x1="-145.645" y1="241.3" x2="-59.67" y2="241.3" width="0" layer="19" extent="1-1"/>
+<wire x1="59.02" y1="199.1" x2="-59.67" y2="241.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ADCS_!NRST">
 <contactref element="U2" pad="7"/>
@@ -4459,16 +4459,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="IFJR_OSC_32_OUT">
 <contactref element="U1" pad="3"/>
-<contactref element="Y4" pad="1"/>
 <contactref element="C17" pad="1"/>
-<wire x1="-75.6" y1="211.03" x2="-64.75" y2="241.3" width="0" layer="19" extent="1-1"/>
+<contactref element="Y4" pad="2"/>
+<wire x1="-75.6" y1="211.03" x2="-62.25" y2="241.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-157.075" y1="241.3" x2="-75.6" y2="211.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IFJR_OSC_32_IN">
 <contactref element="U1" pad="4"/>
-<contactref element="Y4" pad="2"/>
 <contactref element="C18" pad="1"/>
-<wire x1="-75.6" y1="210.53" x2="-62.25" y2="241.3" width="0" layer="19" extent="1-1"/>
+<contactref element="Y4" pad="1"/>
+<wire x1="-75.6" y1="210.53" x2="-64.75" y2="241.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-160.885" y1="241.3" x2="-75.6" y2="210.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IFJR_!NRST">
@@ -4662,18 +4662,18 @@ design rules under a new name.</description>
 <wire x1="-102.31" y1="50.3" x2="-102.31" y2="50.3" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="IHU_OSC_32_OUT">
-<contactref element="Y6" pad="1"/>
 <contactref element="C23" pad="1"/>
 <contactref element="U3" pad="3"/>
-<wire x1="-103.54" y1="211.03" x2="-69.83" y2="241.3" width="0" layer="19" extent="1-1"/>
+<contactref element="Y6" pad="2"/>
+<wire x1="-103.54" y1="211.03" x2="-67.33" y2="241.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-179.935" y1="241.3" x2="-103.54" y2="211.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IHU_OSC_32_IN">
-<contactref element="Y6" pad="2"/>
 <contactref element="C24" pad="1"/>
 <contactref element="U3" pad="4"/>
-<wire x1="-67.33" y1="241.3" x2="-16.105" y2="245.11" width="0" layer="19" extent="1-1"/>
-<wire x1="-103.54" y1="210.53" x2="-67.33" y2="241.3" width="0" layer="19" extent="1-1"/>
+<contactref element="Y6" pad="1"/>
+<wire x1="-69.83" y1="241.3" x2="-16.105" y2="245.11" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.54" y1="210.53" x2="-69.83" y2="241.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IHU_SD_CS0">
 <contactref element="U3" pad="25"/>
