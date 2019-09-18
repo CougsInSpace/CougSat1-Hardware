@@ -6711,10 +6711,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY222" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="C87" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY223" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
-<part name="SUPPLY203" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="SUPPLY219" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
-<part name="SUPPLY202" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY229" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY231" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY239" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -6889,6 +6885,10 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET310" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET311" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="SUPPLY2" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
+<part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
+<part name="SUPPLY200" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
+<part name="SUPPLY202" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
+<part name="SUPPLY203" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10905,18 +10905,6 @@ Place at various locations around the PCB</text>
 <instance part="SUPPLY9" gate="G$1" x="185.42" y="185.42" smashed="yes">
 <attribute name="VALUE" x="185.42" y="188.976" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY203" gate="G$1" x="55.88" y="58.42" smashed="yes">
-<attribute name="VALUE" x="55.88" y="61.976" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY219" gate="G$1" x="185.42" y="86.36" smashed="yes">
-<attribute name="VALUE" x="185.42" y="89.916" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY17" gate="G$1" x="86.36" y="58.42" smashed="yes">
-<attribute name="VALUE" x="86.36" y="61.976" size="1.27" layer="96" align="center"/>
-</instance>
-<instance part="SUPPLY202" gate="G$1" x="215.9" y="86.36" smashed="yes">
-<attribute name="VALUE" x="215.9" y="89.916" size="1.27" layer="96" align="center"/>
-</instance>
 <instance part="SUPPLY229" gate="G$1" x="55.88" y="48.26" smashed="yes"/>
 <instance part="SUPPLY231" gate="G$1" x="86.36" y="48.26" smashed="yes"/>
 <instance part="SUPPLY239" gate="G$1" x="185.42" y="76.2" smashed="yes"/>
@@ -10988,6 +10976,18 @@ Place at various locations around the PCB</text>
 </instance>
 <instance part="SUPPLY168" gate="G$1" x="220.98" y="175.26" smashed="yes">
 <attribute name="VALUE" x="220.98" y="178.816" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY17" gate="G$1" x="55.88" y="58.42" smashed="yes">
+<attribute name="VALUE" x="55.88" y="61.976" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY200" gate="G$1" x="86.36" y="58.42" smashed="yes">
+<attribute name="VALUE" x="86.36" y="61.976" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY202" gate="G$1" x="185.42" y="86.36" smashed="yes">
+<attribute name="VALUE" x="185.42" y="89.916" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="SUPPLY203" gate="G$1" x="215.9" y="86.36" smashed="yes">
+<attribute name="VALUE" x="215.9" y="89.916" size="1.27" layer="96" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -11176,24 +11176,6 @@ Place at various locations around the PCB</text>
 <label x="15.24" y="165.1" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="IN2"/>
 <wire x1="58.42" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="AVDD" class="0">
-<segment>
-<pinref part="C71" gate="G$1" pin="1"/>
-<pinref part="SUPPLY203" gate="G$1" pin="AVDD"/>
-</segment>
-<segment>
-<pinref part="C53" gate="G$1" pin="1"/>
-<pinref part="SUPPLY219" gate="G$1" pin="AVDD"/>
-</segment>
-<segment>
-<pinref part="C80" gate="G$1" pin="1"/>
-<pinref part="SUPPLY17" gate="G$1" pin="AVDD"/>
-</segment>
-<segment>
-<pinref part="C82" gate="G$1" pin="1"/>
-<pinref part="SUPPLY202" gate="G$1" pin="AVDD"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -11614,6 +11596,22 @@ Place at various locations around the PCB</text>
 <wire x1="218.44" y1="170.18" x2="220.98" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="170.18" x2="220.98" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="SUPPLY168" gate="G$1" pin="AVDD-0"/>
+</segment>
+<segment>
+<pinref part="C71" gate="G$1" pin="1"/>
+<pinref part="SUPPLY17" gate="G$1" pin="AVDD-0"/>
+</segment>
+<segment>
+<pinref part="C80" gate="G$1" pin="1"/>
+<pinref part="SUPPLY200" gate="G$1" pin="AVDD-0"/>
+</segment>
+<segment>
+<pinref part="C53" gate="G$1" pin="1"/>
+<pinref part="SUPPLY202" gate="G$1" pin="AVDD-0"/>
+</segment>
+<segment>
+<pinref part="C82" gate="G$1" pin="1"/>
+<pinref part="SUPPLY203" gate="G$1" pin="AVDD-0"/>
 </segment>
 </net>
 </nets>
