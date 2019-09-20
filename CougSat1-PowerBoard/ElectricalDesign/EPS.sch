@@ -8380,7 +8380,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <attribute name="DESIGNER" value="Bradley L. Davis"/>
 <attribute name="PART_NUMBER" value="68-0002"/>
 <attribute name="PROJECT" value="CougSat-1: EPS"/>
-<attribute name="REV" value="3.0.1"/>
+<attribute name="REV" value="3.0.2"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -9761,13 +9761,13 @@ ADCs</text>
 <text x="221.996" y="46.99" size="1.778" layer="97" align="center">I²C</text>
 <text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram
 Page 2: Power Rails
-Page 3: Input Switching Matrix
+Page 3: Input Switching
 Page 4: Batteries
 Page 5: 3.3V Regulation
-Page 6: Output Switching Matrix
-Page 7: Output Switching Matrix
+Page 6: Output Switching
+Page 7: Output Switching
 Page 8: Backplane Connections
-Page 9: Switching Default States</text>
+Page 9: PMIC</text>
 <wire x1="228.6" y1="180.34" x2="222.25" y2="180.34" width="0.254" layer="97"/>
 <wire x1="219.71" y1="180.34" x2="215.9" y2="180.34" width="0.254" layer="97"/>
 <wire x1="228.6" y1="172.72" x2="226.06" y2="170.18" width="0.254" layer="97"/>
@@ -9925,10 +9925,9 @@ IC</text>
 <wire x1="50.8" y1="88.9" x2="48.26" y2="91.44" width="0.254" layer="97"/>
 <wire x1="50.8" y1="88.9" x2="48.26" y2="86.36" width="0.254" layer="97"/>
 <text x="43.18" y="90.17" size="1.778" layer="97" align="center">4.1V CC</text>
-<text x="44.45" y="24.13" size="1.778" layer="97" align="top-left">Page 10: PMIC
-Page 11: SPI ADCs
-Page 12: I²C ADCs
-Page 13: Mechanical Layout</text>
+<text x="44.45" y="24.13" size="1.778" layer="97" align="top-left">Page 10: SPI ADCs
+Page 11: I²C ADCs
+Page 12: Mechanical Layout</text>
 <text x="156.21" y="41.91" size="1.778" layer="97" align="bottom-right">Page 10, 11</text>
 <wire x1="137.16" y1="40.64" x2="137.16" y2="60.96" width="0.254" layer="94"/>
 <wire x1="137.16" y1="60.96" x2="157.48" y2="60.96" width="0.254" layer="94"/>
@@ -10479,9 +10478,9 @@ continuously</text>
 <text x="45.72" y="53.34" size="1.27" layer="97" align="center-left"> 4D2&gt; 10C3&gt;</text>
 <text x="248.92" y="187.96" size="1.27" layer="97" align="center-left"> 4A1&gt; 4C2&gt;</text>
 <text x="248.92" y="185.42" size="1.27" layer="97" align="center-left"> 4A6&gt; 4C2&gt;</text>
-<text x="175.26" y="48.26" size="1.27" layer="97" align="center-left"> 10D3&gt;</text>
+<text x="175.26" y="48.26" size="1.27" layer="97" align="center-left"> 10C3&gt;</text>
 <text x="236.22" y="53.34" size="1.27" layer="97" align="center-left"> &lt;7C4</text>
-<text x="236.22" y="48.26" size="1.27" layer="97" align="center-left"> 10D3&gt;</text>
+<text x="236.22" y="48.26" size="1.27" layer="97" align="center-left"> 10D1&gt;</text>
 <text x="160.02" y="33.02" size="1.778" layer="97" align="center">Note: Sense is shorted to PGND while deployable is stored</text>
 <text x="127" y="12.7" size="1.27" layer="97" align="center-left"> 11C4&gt;</text>
 <text x="127" y="22.86" size="1.27" layer="97" align="center-left"> 11B4&gt;</text>
@@ -10490,12 +10489,9 @@ continuously</text>
 <text x="154.94" y="114.3" size="1.27" layer="97" align="center-left"> &lt;7D2</text>
 <text x="68.58" y="165.1" size="1.27" layer="97" align="center-left"> 10A3&gt;</text>
 <text x="96.52" y="167.64" size="1.27" layer="97" align="center-left"> 10A3&gt;</text>
-<text x="96.52" y="106.68" size="1.27" layer="97" align="center-left"> 10A3&gt;</text>
 <text x="185.42" y="165.1" size="1.27" layer="97" align="center-left"> 10A3&gt;</text>
 <text x="213.36" y="167.64" size="1.27" layer="97" align="center-left"> 10A3&gt;</text>
-<text x="68.58" y="104.14" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
-<text x="213.36" y="106.68" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
-<text x="185.42" y="104.14" size="1.27" layer="97" align="center-left"> 10B3&gt;</text>
+<text x="68.58" y="104.14" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
 <text x="86.36" y="190.5" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
 <text x="203.2" y="190.5" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
 <text x="76.2" y="25.4" size="1.778" layer="97" align="center">CAD Note: Decoupling</text>
@@ -10505,6 +10501,9 @@ continuously</text>
 <text x="154.94" y="111.76" size="1.27" layer="97" align="center-left"> &lt;9B4&gt;</text>
 <text x="154.94" y="170.18" size="1.27" layer="97" align="center-left"> &lt;9B4</text>
 <text x="154.94" y="172.72" size="1.27" layer="97" align="center-left"> &lt;9B4&gt;</text>
+<text x="96.52" y="106.68" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
+<text x="185.42" y="104.14" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
+<text x="213.36" y="106.68" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -11806,8 +11805,8 @@ Deployment or RBF switch drains this capacitor. It will
 slowly fill up (RC≈35s), the PMIC measures its voltage
 at bootup, and detects if it has recently been ejected
 from the launch provider or just a software reboot</text>
-<text x="50.8" y="149.86" size="1.27" layer="97" align="center-left"> 10B1&gt;</text>
-<text x="66.04" y="149.86" size="1.27" layer="97" align="center-right">&lt;10B1 </text>
+<text x="50.8" y="149.86" size="1.27" layer="97" align="center-left"> 10C3&gt;</text>
+<text x="66.04" y="149.86" size="1.27" layer="97" align="center-right">&lt;10A3 </text>
 <text x="106.68" y="175.26" size="1.27" layer="97" align="center-left"> 5A1&gt; 7A1&gt; 10B3&gt;</text>
 <wire x1="5.08" y1="190.5" x2="5.08" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
@@ -11818,9 +11817,9 @@ Decoupling</text>
 <text x="27.94" y="170.18" size="1.27" layer="97" align="center-right">3A6&gt; </text>
 <text x="101.6" y="137.16" size="1.27" layer="97" align="center-right">7B4&gt; </text>
 <text x="83.82" y="129.54" size="1.27" layer="97" align="center-right">&lt;11B4 </text>
-<text x="152.4" y="175.26" size="1.27" layer="97" align="center-right">&lt;5C1 &lt;7A1 &lt;10B3 </text>
-<text x="193.04" y="149.86" size="1.27" layer="97" align="center-left"> 10B1&gt;</text>
-<text x="208.28" y="149.86" size="1.27" layer="97" align="center-right">&lt;10B1 </text>
+<text x="152.4" y="175.26" size="1.27" layer="97" align="center-right">&lt;5C1 &lt;7A1 &lt;10C3 </text>
+<text x="193.04" y="149.86" size="1.27" layer="97" align="center-left"> 10C3&gt;</text>
+<text x="208.28" y="149.86" size="1.27" layer="97" align="center-right">&lt;10C3 </text>
 <wire x1="187.96" y1="127" x2="137.16" y2="127" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="127" x2="137.16" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="137.16" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
@@ -13262,7 +13261,7 @@ Current Sense
 90 - 120mV
 = 4.1 - 5.5A</text>
 <text x="17.78" y="187.96" size="1.27" layer="97" align="center-right">4A3&gt; </text>
-<text x="223.52" y="149.86" size="1.27" layer="97" align="center-left"> 5B4&gt; 6A1&gt; 7D1&gt; 10C3&gt;</text>
+<text x="223.52" y="149.86" size="1.27" layer="97" align="center-left"> 5B4&gt; 6A1&gt; 7D1&gt; 10B3&gt;</text>
 <wire x1="101.6" y1="143.51" x2="124.46" y2="143.51" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="124.46" y1="143.51" x2="124.46" y2="152.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="124.46" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="97" style="shortdash"/>
@@ -13290,10 +13289,10 @@ Current Sense
 optimize ringing and efficiency</text>
 <text x="50.8" y="58.42" size="1.778" layer="97" align="top-left">Note: Adjust gate resistor to
 optimize ringing and efficiency</text>
-<text x="116.84" y="175.26" size="1.27" layer="97" align="center-right">&lt;10B1 </text>
-<text x="195.58" y="129.54" size="1.27" layer="97" align="center-right">&lt;10C1 </text>
-<text x="195.58" y="35.56" size="1.27" layer="97" align="center-right">&lt;10C1 </text>
-<text x="116.84" y="81.28" size="1.27" layer="97" align="center-right">&lt;10B1 </text>
+<text x="116.84" y="175.26" size="1.27" layer="97" align="center-right">&lt;10B3 </text>
+<text x="195.58" y="129.54" size="1.27" layer="97" align="center-right">&lt;10C3 </text>
+<text x="195.58" y="35.56" size="1.27" layer="97" align="center-right">&lt;10D1 </text>
+<text x="116.84" y="81.28" size="1.27" layer="97" align="center-right">&lt;10D1 </text>
 <text x="78.74" y="76.2" size="1.778" layer="97" align="center-left">Note:
 Current Sense
 90 - 120mV
@@ -18011,9 +18010,6 @@ programming.</text>
 <text x="246.38" y="170.18" size="1.27" layer="97" align="center-left"> &lt;9B1&gt;</text>
 <text x="139.7" y="170.18" size="1.27" layer="97" align="center-right">&lt;6C2&gt; </text>
 <text x="246.38" y="93.98" size="1.27" layer="97" align="center-left"> &lt;7D2</text>
-<text x="73.66" y="91.44" size="1.778" layer="98" align="center">GPIO
-Connect anywhere, ease routing
-Fix offsheet afterwards</text>
 <text x="139.7" y="99.06" size="1.27" layer="97" align="center-right">&lt;3A1&gt; &lt;3A4&gt; 
 &lt;3B1&gt; &lt;3B4&gt; </text>
 <text x="43.18" y="182.88" size="1.27" layer="97" align="center-left"> 3A1&gt; 3C1&gt;</text>
@@ -19493,8 +19489,6 @@ Fix offsheet afterwards</text>
 <text x="7.62" y="91.44" size="1.27" layer="97" align="center-right">3B5&gt; </text>
 <text x="7.62" y="71.12" size="1.27" layer="97" align="center-right">3B5&gt; </text>
 <text x="124.46" y="137.16" size="1.27" layer="97" align="center-right">5A6&gt; </text>
-<text x="96.52" y="154.94" size="1.778" layer="98" align="center">Update offsheet</text>
-<text x="-15.24" y="63.5" size="1.778" layer="98" align="center">Update offsheet</text>
 <text x="129.54" y="71.12" size="1.27" layer="97" align="center-right">4A2&gt; </text>
 <text x="129.54" y="76.2" size="1.27" layer="97" align="center-right">4A5&gt; </text>
 <text x="124.46" y="144.78" size="1.27" layer="97" align="center-right">5A3&gt; </text>
