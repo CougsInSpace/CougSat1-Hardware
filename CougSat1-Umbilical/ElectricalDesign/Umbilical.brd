@@ -1987,6 +1987,7 @@ design rules under a new name.</description>
 <wire x1="13.55" y1="27.25" x2="14.65" y2="26.15" width="0.2" layer="1"/>
 <wire x1="15.1" y1="26.6" x2="17.4" y2="26.6" width="0.2" layer="1"/>
 <wire x1="17.4" y1="26.6" x2="18.3" y2="25.7" width="0.2" layer="1"/>
+<wire x1="14.6" y1="23.65" x2="15" y2="26.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB5V">
 <contactref element="FB1" pad="1"/>
