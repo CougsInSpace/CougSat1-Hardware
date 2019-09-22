@@ -1844,16 +1844,13 @@ design rules under a new name.</description>
 <contactref element="RN1" pad="5"/>
 <contactref element="RN1" pad="7"/>
 <contactref element="RN1" pad="6"/>
-<wire x1="8.975" y1="25.5" x2="10.2875" y2="24.1875" width="0.16" layer="1"/>
-<wire x1="10.2875" y1="24.1875" x2="10.525" y2="23.95" width="0.16" layer="1"/>
+<wire x1="8.975" y1="25.5" x2="10.525" y2="23.95" width="0.16" layer="1"/>
 <wire x1="10.525" y1="23.95" x2="10.9" y2="23.95" width="0.16" layer="1"/>
 <wire x1="6.4" y1="31.2" x2="6.2" y2="31" width="0.16" layer="1"/>
 <wire x1="6.2" y1="31" x2="6.2" y2="28.275" width="0.16" layer="1"/>
 <wire x1="12.8" y1="22.15" x2="11" y2="23.95" width="0.16" layer="1"/>
 <wire x1="11" y1="23.95" x2="10.9" y2="23.95" width="0.4" layer="1"/>
 <via x="10.648840625" y="24.648840625" extent="1-16" drill="0.35"/>
-<wire x1="10.648840625" y1="24.648840625" x2="10.648840625" y2="24.548840625" width="0.4" layer="1"/>
-<wire x1="10.648840625" y1="24.548840625" x2="10.2875" y2="24.1875" width="0.16" layer="1"/>
 <wire x1="11.35" y1="25.35" x2="10.648840625" y2="24.648840625" width="0.16" layer="16"/>
 <wire x1="11.35" y1="25.35" x2="11.35" y2="30.2187375" width="0.16" layer="16"/>
 <wire x1="6.4" y1="31.2" x2="7.2" y2="31.2" width="0.16" layer="1"/>
@@ -1876,6 +1873,8 @@ design rules under a new name.</description>
 <wire x1="4.015" y1="25" x2="4.135" y2="25.12" width="0.16" layer="1"/>
 <via x="4.135" y="25.12" extent="1-16" drill="0.35"/>
 <wire x1="4.135" y1="25.12" x2="4.18" y2="25.165" width="0.16" layer="16"/>
+<wire x1="10.648840625" y1="24.648840625" x2="10.9" y2="24.39768125" width="0.16" layer="1"/>
+<wire x1="10.9" y1="24.39768125" x2="10.9" y2="23.95" width="0.16" layer="1"/>
 </signal>
 <signal name="DGND">
 <contactref element="C1" pad="2"/>
@@ -2031,6 +2030,12 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="BALANCING-TOP">
+<polygon width="0.16" layer="1" spacing="0.5" pour="hatch" rank="6">
+<vertex x="0" y="0"/>
+<vertex x="0" y="48.05"/>
+<vertex x="48.95" y="48.05"/>
+<vertex x="48.95" y="0"/>
+</polygon>
 </signal>
 <signal name="CBUS1">
 <contactref element="U1" pad="11"/>
