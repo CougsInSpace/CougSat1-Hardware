@@ -4661,8 +4661,6 @@ Buffer</text>
 <part name="B2" library="CougsInSpace-Sensors" deviceset="ARDUCAM" device="" technology="-5MP-1.7MM-F2.8" value="ArduCam OV5642"/>
 <part name="SUPPLY20" library="CougsInSpace-PowerSymbols" deviceset="3.3V-11" device=""/>
 <part name="SUPPLY27" library="CougsInSpace-PowerSymbols" deviceset="3.3V-12" device=""/>
-<part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="SUPPLY31" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY32" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="SUPPLY33" library="CougsInSpace-PowerSymbols" deviceset="CHASSIS" device=""/>
 <part name="D1" library="CougsInSpace-Sensors" deviceset="PHOTODIODE" device="-X100-7-THD" value="X100-7"/>
@@ -4763,6 +4761,8 @@ Buffer</text>
 <part name="C24" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY70" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY71" library="CougsInSpace-PowerSymbols" deviceset="3.3V-11" device=""/>
+<part name="SUPPLY30" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
+<part name="SUPPLY31" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5979,8 +5979,6 @@ Decoupling</text>
 <instance part="SUPPLY27" gate="G$1" x="177.8" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="177.8" y="166.116" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
-<instance part="SUPPLY30" gate="1" x="182.88" y="127" smashed="yes" rot="MR0"/>
-<instance part="SUPPLY31" gate="1" x="76.2" y="127" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY32" gate="G$1" x="71.12" y="127" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY33" gate="G$1" x="177.8" y="127" smashed="yes" rot="MR0"/>
 <instance part="D1" gate="G$1" x="30.48" y="88.9" smashed="yes">
@@ -6234,6 +6232,8 @@ Decoupling</text>
 <instance part="SUPPLY71" gate="G$1" x="187.96" y="177.8" smashed="yes">
 <attribute name="VALUE" x="187.96" y="181.356" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY30" gate="G$1" x="76.2" y="127" smashed="yes"/>
+<instance part="SUPPLY31" gate="G$1" x="182.88" y="127" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6311,18 +6311,6 @@ Decoupling</text>
 </segment>
 </net>
 <net name="DGND" class="0">
-<segment>
-<pinref part="B2" gate="G$1" pin="DGND"/>
-<pinref part="SUPPLY30" gate="1" pin="DGND"/>
-<wire x1="175.26" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="134.62" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="DGND"/>
-<pinref part="SUPPLY31" gate="1" pin="DGND"/>
-<wire x1="68.58" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="134.62" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="DGND"/>
 <wire x1="147.32" y1="53.34" x2="144.78" y2="53.34" width="0.1524" layer="91"/>
@@ -6710,16 +6698,28 @@ Decoupling</text>
 <wire x1="53.34" y1="20.32" x2="53.34" y2="10.16" width="0.1524" layer="91"/>
 <junction x="60.96" y="20.32"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="DGND"/>
+<wire x1="68.58" y1="134.62" x2="76.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="134.62" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY30" gate="G$1" pin="PGND"/>
+</segment>
+<segment>
+<pinref part="B2" gate="G$1" pin="DGND"/>
+<wire x1="175.26" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="134.62" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY31" gate="G$1" pin="PGND"/>
+</segment>
 </net>
 <net name="COUNTER_RESET" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="P14"/>
 <wire x1="185.42" y1="48.26" x2="175.26" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="48.26" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="48.26" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="43.18" x2="139.7" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="RESET"/>
 <wire x1="139.7" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="45.72" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="43.18" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
