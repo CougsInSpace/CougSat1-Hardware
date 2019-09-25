@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -174,6 +174,9 @@
 <wire x1="12.7" y1="17.8" x2="12.7" y2="20.5" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="13.3" y2="19.9" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="12.1" y2="19.9" width="0.1524" layer="21"/>
+<hole x="12.5" y="45.5" drill="2"/>
+<hole x="31.9" y="45.5" drill="2"/>
+<hole x="23.8" y="4" drill="2"/>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">

@@ -4194,7 +4194,7 @@ To USB B Female</text>
 <wire x1="91.44" y1="96.52" x2="76.2" y2="96.52" width="0.254" layer="97"/>
 <wire x1="76.2" y1="96.52" x2="78.74" y2="99.06" width="0.254" layer="97"/>
 <wire x1="76.2" y1="96.52" x2="78.74" y2="93.98" width="0.254" layer="97"/>
-<text x="103.632" y="117.348" size="1.778" layer="97" align="bottom-right">4.1V CC</text>
+<text x="94.488" y="118.872" size="1.778" layer="97" rot="R180" align="bottom-right">4.2V CC</text>
 <text x="100.584" y="86.868" size="1.778" layer="97" align="bottom-right">UART</text>
 <text x="157.48" y="86.614" size="1.778" layer="97" align="bottom-center">USB</text>
 <text x="147.32" y="76.2" size="1.27" layer="97" rot="R180" align="center-left">Page 2</text>
