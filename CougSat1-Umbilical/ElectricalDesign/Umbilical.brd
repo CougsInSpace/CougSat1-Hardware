@@ -159,10 +159,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="49" y2="0" width="0" layer="20"/>
-<wire x1="49" y1="0" x2="49" y2="48" width="0" layer="20"/>
-<wire x1="49" y1="48" x2="0" y2="48" width="0" layer="20"/>
-<wire x1="0" y1="48" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="50" y2="0" width="0" layer="20"/>
+<wire x1="50" y1="0" x2="50" y2="50" width="0" layer="20"/>
+<wire x1="50" y1="50" x2="0" y2="50" width="0" layer="20"/>
+<wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
 <text x="27.5" y="1.7" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="center">Umbilical V1.0.3</text>
 <wire x1="16.1" y1="10.4" x2="16.1" y2="7" width="0.1524" layer="21"/>
 <wire x1="16.1" y1="7" x2="21.6" y2="7" width="0.1524" layer="21"/>
@@ -174,9 +174,9 @@
 <wire x1="12.7" y1="17.8" x2="12.7" y2="20.5" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="13.3" y2="19.9" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="12.1" y2="19.9" width="0.1524" layer="21"/>
-<hole x="3.5" y="45.4" drill="2"/>
-<hole x="46" y="45.4" drill="2"/>
-<hole x="23.8" y="4" drill="2"/>
+<hole x="4" y="46" drill="2"/>
+<hole x="46" y="46" drill="2"/>
+<hole x="25" y="22" drill="2"/>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">
@@ -2030,17 +2030,17 @@ design rules under a new name.</description>
 <signal name="BALANCING-BOTTOM">
 <polygon width="0.16" layer="16" spacing="0.5" pour="hatch" rank="6">
 <vertex x="0" y="0"/>
-<vertex x="0" y="48.05"/>
-<vertex x="48.95" y="48.05"/>
-<vertex x="48.95" y="0"/>
+<vertex x="0" y="50"/>
+<vertex x="50" y="50"/>
+<vertex x="50" y="0"/>
 </polygon>
 </signal>
 <signal name="BALANCING-TOP">
 <polygon width="0.16" layer="1" spacing="0.5" pour="hatch" rank="6">
-<vertex x="0" y="0"/>
-<vertex x="0" y="48.05"/>
-<vertex x="48.95" y="48.05"/>
-<vertex x="48.95" y="0"/>
+<vertex x="0" y="0.1"/>
+<vertex x="0" y="50"/>
+<vertex x="50" y="50"/>
+<vertex x="50" y="0.1"/>
 </polygon>
 </signal>
 <signal name="CBUS1">
