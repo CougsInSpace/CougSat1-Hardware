@@ -5363,7 +5363,26 @@ To USB B Female</text>
 </sheet>
 <sheet>
 <plain>
-<text x="170.18" y="45.72" size="6.4516" layer="97">Do Later</text>
+<wire x1="50.8" y1="152.4" x2="50.8" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="50.8" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="50.8" x2="152.4" y2="152.4" width="0.1524" layer="94"/>
+<wire x1="152.4" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="147.32" x2="109.22" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="109.22" y1="129.54" x2="139.7" y2="129.54" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="129.54" x2="139.7" y2="147.32" width="0.1524" layer="94"/>
+<wire x1="139.7" y1="147.32" x2="109.22" y2="147.32" width="0.1524" layer="94"/>
+<wire x1="116.84" y1="73.66" x2="137.16" y2="73.66" width="0.1524" layer="94"/>
+<wire x1="137.16" y1="73.66" x2="137.16" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="137.16" y1="53.34" x2="116.84" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="116.84" y1="53.34" x2="116.84" y2="73.66" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="71.12" x2="60.96" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="60.96" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="94"/>
+<wire x1="81.28" y1="53.34" x2="81.28" y2="71.12" width="0.1524" layer="94"/>
+<wire x1="81.28" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="94"/>
+<text x="124.46" y="139.7" size="1.778" layer="97" align="center">PicoLock
+To Satellite</text>
+<text x="127" y="60.96" size="1.778" layer="97" align="center">5V Input</text>
+<text x="71.12" y="60.96" size="1.778" layer="97" align="center">USB Output</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">
