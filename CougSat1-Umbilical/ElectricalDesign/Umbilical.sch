@@ -220,35 +220,35 @@
 </package>
 <package name="SIGN-JAYSON">
 <description>&lt;h3&gt;Signature - Jayson Lopez&lt;/h3&gt;</description>
-<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.15" layer="1"/>
-<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.15" layer="1"/>
-<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.15" layer="1"/>
-<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.15" layer="1"/>
-<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.15" layer="1"/>
-<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.15" layer="1"/>
-<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.15" layer="1"/>
-<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.15" layer="1"/>
-<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.15" layer="1"/>
-<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.15" layer="1"/>
-<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.15" layer="1"/>
-<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.15" layer="1"/>
-<wire x1="0.6" y1="0" x2="0" y2="0" width="0.15" layer="1"/>
-<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.15" layer="1"/>
-<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.15" layer="29"/>
-<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.15" layer="29"/>
-<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.15" layer="29"/>
-<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.15" layer="29"/>
-<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.15" layer="29"/>
-<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.15" layer="29"/>
-<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.15" layer="29"/>
-<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.15" layer="29"/>
-<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.15" layer="29"/>
-<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.15" layer="29"/>
-<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.15" layer="29"/>
-<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.15" layer="29"/>
-<wire x1="0.6" y1="0" x2="0" y2="0" width="0.15" layer="29"/>
-<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.15" layer="29"/>
-<polygon width="0.15" layer="41">
+<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.2" layer="1"/>
+<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="1"/>
+<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.2" layer="1"/>
+<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.2" layer="1"/>
+<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.2" layer="1"/>
+<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.2" layer="1"/>
+<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0" x2="0" y2="0" width="0.2" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.2" layer="1"/>
+<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.2" layer="29"/>
+<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="29"/>
+<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.2" layer="29"/>
+<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.2" layer="29"/>
+<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.2" layer="29"/>
+<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.2" layer="29"/>
+<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0" x2="0" y2="0" width="0.2" layer="29"/>
+<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.2" layer="29"/>
+<polygon width="0.2" layer="41">
 <vertex x="-2.6" y="-1.2"/>
 <vertex x="-2.6" y="-0.8"/>
 <vertex x="-1.3" y="-0.8"/>
@@ -1477,6 +1477,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="VALUE" value="270pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
 </technology>
+<technology name="-2PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-2.0A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="2pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
+</technology>
 <technology name="-3.3PF">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="11-3.3A"/>
@@ -1697,6 +1704,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="C0G"/>
 <attribute name="VALUE" value="270pF 1%"/>
 <attribute name="VOLTAGE" value="100V"/>
+</technology>
+<technology name="-2PF">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="SKU" value="11-2.0A"/>
+<attribute name="TEMP" value="C0G"/>
+<attribute name="VALUE" value="2pF ±0.1pF"/>
+<attribute name="VOLTAGE" value="250V"/>
 </technology>
 <technology name="-3.3PF">
 <attribute name="PACKAGE" value="1608"/>
@@ -1923,10 +1937,56 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="3.675" y1="-1.175" x2="-3.675" y2="-1.175" width="0.15" layer="40"/>
 <wire x1="-3.675" y1="-1.175" x2="-3.675" y2="1.2" width="0.15" layer="40"/>
 </package>
+<package name="1632">
+<description>&lt;h3&gt;1632 (0612 in)&lt;/h3&gt;</description>
+<smd name="2" x="-0.4" y="-0.7" dx="0.5" dy="0.7" layer="1"/>
+<smd name="3" x="0.4" y="-0.7" dx="0.5" dy="0.7" layer="1"/>
+<smd name="6" x="0.4" y="0.7" dx="0.5" dy="0.7" layer="1"/>
+<smd name="7" x="-0.4" y="0.7" dx="0.5" dy="0.7" layer="1"/>
+<smd name="1" x="-1.2" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="8" x="-1.2" y="0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="4" x="1.2" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="5" x="1.2" y="0.7" dx="0.64" dy="0.7" layer="1"/>
+<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.15" layer="51"/>
+<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.15" layer="51"/>
+<wire x1="-1.7" y1="0.8" x2="-1.7" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="1.7" y1="0.8" x2="1.7" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.375" x2="2" y2="1.375" width="0.15" layer="21"/>
+<wire x1="2" y1="1.375" x2="2" y2="-1.375" width="0.15" layer="21"/>
+<wire x1="2" y1="-1.375" x2="-2" y2="-1.375" width="0.15" layer="21"/>
+<wire x1="-2" y1="-1.375" x2="-2" y2="1.375" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.375" x2="2" y2="1.375" width="0.15" layer="39"/>
+<wire x1="2" y1="1.375" x2="2" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="2" y1="-1.375" x2="-2" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="-2" y1="-1.375" x2="-2" y2="1.375" width="0.15" layer="39"/>
+<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="3216">
+<description>&lt;h3&gt;3216 (1206 in)&lt;/h3&gt;</description>
+<smd name="1" x="-1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<smd name="2" x="1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
+<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.15" layer="51"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.15" layer="51"/>
+<wire x1="-2.225" y1="1.175" x2="-2.225" y2="-1.175" width="0.15" layer="39"/>
+<wire x1="-2.225" y1="-1.175" x2="2.225" y2="-1.175" width="0.15" layer="39"/>
+<wire x1="2.225" y1="-1.175" x2="2.225" y2="1.175" width="0.15" layer="39"/>
+<wire x1="2.225" y1="1.175" x2="-2.225" y2="1.175" width="0.15" layer="39"/>
+<wire x1="-2.225" y1="1.175" x2="2.225" y2="1.175" width="0.15" layer="21"/>
+<wire x1="2.225" y1="1.175" x2="2.225" y2="-1.175" width="0.15" layer="21"/>
+<wire x1="2.225" y1="-1.175" x2="-2.225" y2="-1.175" width="0.15" layer="21"/>
+<wire x1="-2.225" y1="-1.175" x2="-2.225" y2="1.175" width="0.15" layer="21"/>
+<wire x1="-0.825" y1="0.725" x2="0.825" y2="0.725" width="0.15" layer="21"/>
+<wire x1="0.825" y1="-0.725" x2="-0.825" y2="-0.725" width="0.15" layer="21"/>
+<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 <package name="THT-15MM">
 <description>&lt;h3&gt;Through Hole - 15mm Spacing&lt;/h3&gt;</description>
-<pad name="1" x="-7.5" y="0" drill="1"/>
-<pad name="2" x="7.5" y="0" drill="1"/>
+<pad name="1" x="-7.5" y="0" drill="1" diameter="1.6"/>
+<pad name="2" x="7.5" y="0" drill="1" diameter="1.6"/>
 <wire x1="-5.5" y1="2.3" x2="5.5" y2="2.3" width="0.15" layer="51"/>
 <wire x1="5.5" y1="2.3" x2="5.5" y2="-2.3" width="0.15" layer="51"/>
 <wire x1="5.5" y1="-2.3" x2="-5.5" y2="-2.3" width="0.15" layer="51"/>
@@ -1974,52 +2034,6 @@ Last character is an incremented letter for each variant of the same value and p
 <circle x="-7.5" y="0" radius="1" width="0.15" layer="40"/>
 <circle x="7.5" y="0" radius="1" width="0.15" layer="40"/>
 <text x="0" y="2.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="1632">
-<description>&lt;h3&gt;1632 (0612 in)&lt;/h3&gt;</description>
-<smd name="2" x="-0.4" y="-0.7" dx="0.5" dy="0.7" layer="1"/>
-<smd name="3" x="0.4" y="-0.7" dx="0.5" dy="0.7" layer="1"/>
-<smd name="6" x="0.4" y="0.7" dx="0.5" dy="0.7" layer="1"/>
-<smd name="7" x="-0.4" y="0.7" dx="0.5" dy="0.7" layer="1"/>
-<smd name="1" x="-1.2" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
-<smd name="8" x="-1.2" y="0.7" dx="0.64" dy="0.7" layer="1"/>
-<smd name="4" x="1.2" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
-<smd name="5" x="1.2" y="0.7" dx="0.64" dy="0.7" layer="1"/>
-<wire x1="-1.6" y1="0.75" x2="1.6" y2="0.75" width="0.15" layer="51"/>
-<wire x1="1.6" y1="0.75" x2="1.6" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="1.6" y1="-0.75" x2="-1.6" y2="-0.75" width="0.15" layer="51"/>
-<wire x1="-1.6" y1="-0.75" x2="-1.6" y2="0.75" width="0.15" layer="51"/>
-<wire x1="-1.7" y1="0.8" x2="-1.7" y2="-0.8" width="0.15" layer="21"/>
-<wire x1="1.7" y1="0.8" x2="1.7" y2="-0.8" width="0.15" layer="21"/>
-<wire x1="-2" y1="1.375" x2="2" y2="1.375" width="0.15" layer="21"/>
-<wire x1="2" y1="1.375" x2="2" y2="-1.375" width="0.15" layer="21"/>
-<wire x1="2" y1="-1.375" x2="-2" y2="-1.375" width="0.15" layer="21"/>
-<wire x1="-2" y1="-1.375" x2="-2" y2="1.375" width="0.15" layer="21"/>
-<wire x1="-2" y1="1.375" x2="2" y2="1.375" width="0.15" layer="39"/>
-<wire x1="2" y1="1.375" x2="2" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="2" y1="-1.375" x2="-2" y2="-1.375" width="0.15" layer="39"/>
-<wire x1="-2" y1="-1.375" x2="-2" y2="1.375" width="0.15" layer="39"/>
-<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="3216">
-<description>&lt;h3&gt;3216 (1206 in)&lt;/h3&gt;</description>
-<smd name="1" x="-1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
-<smd name="2" x="1.45" y="0" dx="0.9" dy="1.7" layer="1"/>
-<rectangle x1="-1.6" y1="-0.8" x2="-1.1" y2="0.8" layer="51"/>
-<rectangle x1="1.1" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
-<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.15" layer="51"/>
-<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.15" layer="51"/>
-<wire x1="-2.225" y1="1.175" x2="-2.225" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="-2.225" y1="-1.175" x2="2.225" y2="-1.175" width="0.15" layer="39"/>
-<wire x1="2.225" y1="-1.175" x2="2.225" y2="1.175" width="0.15" layer="39"/>
-<wire x1="2.225" y1="1.175" x2="-2.225" y2="1.175" width="0.15" layer="39"/>
-<wire x1="-2.225" y1="1.175" x2="2.225" y2="1.175" width="0.15" layer="21"/>
-<wire x1="2.225" y1="1.175" x2="2.225" y2="-1.175" width="0.15" layer="21"/>
-<wire x1="2.225" y1="-1.175" x2="-2.225" y2="-1.175" width="0.15" layer="21"/>
-<wire x1="-2.225" y1="-1.175" x2="-2.225" y2="1.175" width="0.15" layer="21"/>
-<wire x1="-0.825" y1="0.725" x2="0.825" y2="0.725" width="0.15" layer="21"/>
-<wire x1="0.825" y1="-0.725" x2="-0.825" y2="-0.725" width="0.15" layer="21"/>
-<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2114,6 +2128,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="SKU" value="21-1002"/>
 <attribute name="TEMP" value="25ppm/°C"/>
 <attribute name="VALUE" value="10kΩ 0.1%"/>
+</technology>
+<technology name="-10M">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1005"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="10MΩ 0.5%"/>
 </technology>
 <technology name="-10R">
 <attribute name="PACKAGE" value="1608"/>
@@ -2373,6 +2394,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="SKU" value="21-7500"/>
 <attribute name="TEMP" value="25ppm/°C"/>
 <attribute name="VALUE" value="750Ω 0.5%"/>
+</technology>
+<technology name="-75K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-7502"/>
+<attribute name="TEMP" value="10ppm/°C"/>
+<attribute name="VALUE" value="75kΩ 0.1%"/>
 </technology>
 <technology name="-8.45K">
 <attribute name="PACKAGE" value="1608"/>
@@ -2498,6 +2526,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="TEMP" value="25ppm/°C"/>
 <attribute name="VALUE" value="10kΩ 0.1%"/>
 </technology>
+<technology name="-10M">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-1005"/>
+<attribute name="TEMP" value="50ppm/°C"/>
+<attribute name="VALUE" value="10MΩ 0.5%"/>
+</technology>
 <technology name="-10R">
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="POWER" value="1/10W"/>
@@ -2756,6 +2791,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="SKU" value="21-7500"/>
 <attribute name="TEMP" value="25ppm/°C"/>
 <attribute name="VALUE" value="750Ω 0.5%"/>
+</technology>
+<technology name="-75K">
+<attribute name="PACKAGE" value="1608"/>
+<attribute name="POWER" value="1/10W"/>
+<attribute name="SKU" value="21-7502"/>
+<attribute name="TEMP" value="10ppm/°C"/>
+<attribute name="VALUE" value="75kΩ 0.1%"/>
 </technology>
 <technology name="-8.45K">
 <attribute name="PACKAGE" value="1608"/>
@@ -3391,11 +3433,7 @@ Last character is an incremented letter for each variant of the same value and p
 <smd name="3" x="-1.31" y="-0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <smd name="1" x="-1.31" y="0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <text x="0" y="2.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.15" layer="21">
-<vertex x="-2.25" y="1.9"/>
-<vertex x="-2.25" y="1.25"/>
-<vertex x="-1.6" y="1.9"/>
-</polygon>
+<rectangle x1="-2.25" y1="1.4" x2="0" y2="1.9" layer="21"/>
 </package>
 <package name="SON-3333">
 <description>&lt;h3&gt;SON 3.3 x 3.3mm&lt;h3&gt;</description>
@@ -3427,15 +3465,11 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="2.175" y1="-1.95" x2="2.175" y2="1.95" width="0.15" layer="21"/>
 <wire x1="2.175" y1="1.95" x2="-2.175" y2="1.95" width="0.15" layer="21"/>
 <text x="0" y="2.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.15" layer="21">
-<vertex x="-2.175" y="1.125"/>
-<vertex x="-2.175" y="1.95"/>
-<vertex x="-1.35" y="1.95"/>
-</polygon>
 <wire x1="-2.175" y1="1.95" x2="-2.175" y2="-1.95" width="0.15" layer="39"/>
 <wire x1="-2.175" y1="-1.95" x2="2.175" y2="-1.95" width="0.15" layer="39"/>
 <wire x1="2.175" y1="-1.95" x2="2.175" y2="1.95" width="0.15" layer="39"/>
 <wire x1="2.175" y1="1.95" x2="-2.175" y2="1.95" width="0.15" layer="39"/>
+<rectangle x1="-2.2" y1="1.3" x2="-0.7" y2="1.95" layer="21"/>
 </package>
 <package name="SOT23-3">
 <description>&lt;h3&gt;SOT23 - 3 Pin&lt;/h3&gt;</description>
@@ -3517,6 +3551,100 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="-1.675" y1="-1.6" x2="3.05" y2="-1.6" width="0.15" layer="39"/>
 <wire x1="3.05" y1="-1.6" x2="3.05" y2="1.6" width="0.15" layer="39"/>
 <wire x1="3.05" y1="1.6" x2="-1.675" y2="1.6" width="0.15" layer="39"/>
+</package>
+<package name="TO-247-3">
+<description>&lt;h3&gt;Transistor Outline (TO) - 247 - 3 Pins&lt;/h3&gt;</description>
+<pad name="1" x="-5.46" y="0" drill="1.5" diameter="2.5" shape="octagon"/>
+<pad name="3" x="5.46" y="0" drill="1.5" diameter="2.5"/>
+<wire x1="-7.8" y1="2.7" x2="7.8" y2="2.7" width="0.15" layer="21"/>
+<wire x1="7.8" y1="2.7" x2="7.8" y2="-2.3" width="0.15" layer="21"/>
+<wire x1="7.8" y1="-2.3" x2="-7.8" y2="-2.3" width="0.15" layer="21"/>
+<wire x1="-7.8" y1="-2.3" x2="-7.8" y2="2.7" width="0.15" layer="21"/>
+<text x="0" y="3.6" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-8.2" y1="3.1" x2="8.2" y2="3.1" width="0.15" layer="21"/>
+<wire x1="8.2" y1="3.1" x2="8.2" y2="-2.7" width="0.15" layer="21"/>
+<wire x1="8.2" y1="-2.7" x2="-8.2" y2="-2.7" width="0.15" layer="21"/>
+<wire x1="-8.2" y1="-2.7" x2="-8.2" y2="3.1" width="0.15" layer="21"/>
+<wire x1="-8.2" y1="3.1" x2="-8.2" y2="-2.7" width="0.15" layer="39"/>
+<wire x1="-8.2" y1="-2.7" x2="8.2" y2="-2.7" width="0.15" layer="39"/>
+<wire x1="8.2" y1="-2.7" x2="8.2" y2="3.1" width="0.15" layer="39"/>
+<wire x1="8.2" y1="3.1" x2="-8.2" y2="3.1" width="0.15" layer="39"/>
+<wire x1="-7.05" y1="1.55" x2="7.05" y2="1.55" width="0.15" layer="40"/>
+<wire x1="7.05" y1="1.55" x2="7.05" y2="-1.55" width="0.15" layer="40"/>
+<wire x1="7.05" y1="-1.55" x2="-7.05" y2="-1.55" width="0.15" layer="40"/>
+<wire x1="-7.05" y1="-1.55" x2="-7.05" y2="1.55" width="0.15" layer="40"/>
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5"/>
+<rectangle x1="-7.8" y1="1.5" x2="7.8" y2="2.7" layer="21"/>
+</package>
+<package name="TO-247-3-DOWN">
+<description>&lt;h3&gt;Transistor Outline (TO) - 247 - 3 Pins - Bent Down&lt;/h3&gt;
+&lt;p&gt;Bent such that the metal tab is outwards away from the PCB&lt;/p&gt;</description>
+<pad name="1" x="-5.46" y="0" drill="1.5" diameter="2.5" shape="octagon"/>
+<pad name="3" x="5.46" y="0" drill="1.5" diameter="2.5"/>
+<text x="0" y="2.2" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-8.2" y1="1.6" x2="8.2" y2="1.6" width="0.15" layer="21"/>
+<wire x1="-7.05" y1="1.55" x2="7.05" y2="1.55" width="0.15" layer="40"/>
+<wire x1="7.05" y1="1.55" x2="7.05" y2="-1.55" width="0.15" layer="40"/>
+<wire x1="7.05" y1="-1.55" x2="-7.05" y2="-1.55" width="0.15" layer="40"/>
+<wire x1="-7.05" y1="-1.55" x2="-7.05" y2="1.55" width="0.15" layer="40"/>
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5"/>
+<wire x1="-7.8" y1="-5" x2="-7.8" y2="-17.8" width="0.15" layer="21"/>
+<wire x1="-7.8" y1="-17.8" x2="-7.8" y2="-23.2" width="0.15" layer="21"/>
+<wire x1="-7.8" y1="-23.2" x2="-7.8" y2="-26" width="0.15" layer="21"/>
+<wire x1="-7.8" y1="-26" x2="7.8" y2="-26" width="0.15" layer="21"/>
+<wire x1="7.8" y1="-26" x2="7.8" y2="-23.2" width="0.15" layer="21"/>
+<wire x1="7.8" y1="-23.2" x2="7.8" y2="-17.8" width="0.15" layer="21"/>
+<wire x1="7.8" y1="-17.8" x2="7.8" y2="-5" width="0.15" layer="21"/>
+<wire x1="7.8" y1="-5" x2="-7.8" y2="-5" width="0.15" layer="21"/>
+<wire x1="-8.2" y1="1.6" x2="-8.2" y2="-26.4" width="0.15" layer="21"/>
+<wire x1="-8.2" y1="-26.4" x2="8.2" y2="-26.4" width="0.15" layer="21"/>
+<wire x1="8.2" y1="-26.4" x2="8.2" y2="1.6" width="0.15" layer="21"/>
+<pad name="PAD" x="0" y="-20.5" drill="3.7" diameter="7"/>
+<wire x1="7.8" y1="-17.8" x2="7.8" y2="-23.2" width="0.15" layer="21" curve="180"/>
+<wire x1="-7.8" y1="-23.2" x2="-7.8" y2="-17.8" width="0.15" layer="21" curve="180"/>
+<text x="0" y="-15.7" size="0.8" layer="21" font="vector" ratio="15" align="center">Themal Pad
+Visible</text>
+<rectangle x1="-8.2" y1="-26.4" x2="8.2" y2="1.6" layer="39"/>
+<text x="0" y="-11" size="0.8" layer="51" font="vector" ratio="15" align="center">Height:
+4.6-5.3mm</text>
+</package>
+<package name="POWERPAK-SO-8">
+<description>&lt;h3&gt;PowerPAK SO-8&lt;/h3&gt;</description>
+<smd name="1" x="-3" y="1.905" dx="1.3" dy="0.6" layer="1"/>
+<smd name="2" x="-3" y="0.635" dx="1.3" dy="0.6" layer="1"/>
+<smd name="3" x="-3" y="-0.635" dx="1.3" dy="0.6" layer="1"/>
+<smd name="4" x="-3" y="-1.905" dx="1.3" dy="0.6" layer="1"/>
+<smd name="5" x="3" y="-1.905" dx="1.3" dy="0.6" layer="1"/>
+<smd name="8" x="3" y="1.905" dx="1.3" dy="0.6" layer="1"/>
+<smd name="7" x="3" y="0.635" dx="1.3" dy="0.6" layer="1"/>
+<smd name="6" x="3" y="-0.635" dx="1.3" dy="0.6" layer="1"/>
+<smd name="PAD" x="0.35" y="0" dx="3.8" dy="3.9" layer="1"/>
+<wire x1="-3.1" y1="2.6" x2="3.1" y2="2.6" width="0.15" layer="51"/>
+<wire x1="3.1" y1="2.6" x2="3.1" y2="-2.6" width="0.15" layer="51"/>
+<wire x1="3.1" y1="-2.6" x2="-3.1" y2="-2.6" width="0.15" layer="51"/>
+<wire x1="-3.1" y1="-2.6" x2="-3.1" y2="2.6" width="0.15" layer="51"/>
+<wire x1="-3.1" y1="2.4" x2="-3.1" y2="2.6" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="2.6" x2="3.1" y2="2.6" width="0.15" layer="21"/>
+<wire x1="3.1" y1="2.6" x2="3.1" y2="2.4" width="0.15" layer="21"/>
+<wire x1="3.1" y1="1.425" x2="3.1" y2="1.125" width="0.15" layer="21"/>
+<wire x1="3.1" y1="0.15" x2="3.1" y2="-0.15" width="0.15" layer="21"/>
+<wire x1="3.1" y1="-1.125" x2="3.1" y2="-1.425" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="-1.125" x2="-3.1" y2="-1.425" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="0.15" x2="-3.1" y2="-0.15" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="1.425" x2="-3.1" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="-2.4" x2="-3.1" y2="-2.6" width="0.15" layer="21"/>
+<wire x1="-3.1" y1="-2.6" x2="3.1" y2="-2.6" width="0.15" layer="21"/>
+<wire x1="3.1" y1="-2.6" x2="3.1" y2="-2.4" width="0.15" layer="21"/>
+<wire x1="-3.975" y1="3" x2="-3.975" y2="-3" width="0.15" layer="21"/>
+<wire x1="-3.975" y1="-3" x2="3.975" y2="-3" width="0.15" layer="21"/>
+<wire x1="3.975" y1="-3" x2="3.975" y2="3" width="0.15" layer="21"/>
+<wire x1="3.975" y1="3" x2="-3.975" y2="3" width="0.15" layer="21"/>
+<wire x1="-3.975" y1="3" x2="-3.975" y2="-3" width="0.15" layer="39"/>
+<wire x1="-3.975" y1="-3" x2="3.975" y2="-3" width="0.15" layer="39"/>
+<wire x1="3.975" y1="-3" x2="3.975" y2="3" width="0.15" layer="39"/>
+<wire x1="3.975" y1="3" x2="-3.975" y2="3" width="0.15" layer="39"/>
+<rectangle x1="-4" y1="2.325" x2="-2.2" y2="3" layer="21"/>
+<text x="0" y="3.5" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -3673,6 +3801,54 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="SKU" value="56-0003"/>
 <attribute name="VALUE" value="DMN53D0L"/>
 <attribute name="VDS" value="50V"/>
+</technology>
+</technologies>
+</device>
+<device name="-TO247-3" package="TO-247-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="-IRFP4368PBF">
+<attribute name="CURRENT" value="195A"/>
+<attribute name="RDS" value="1.5mΩ"/>
+<attribute name="SKU" value="56-0008"/>
+<attribute name="VALUE" value="IRFP4368PBF"/>
+<attribute name="VDS" value="75V"/>
+</technology>
+</technologies>
+</device>
+<device name="-TO247-3-DOWN" package="TO-247-3-DOWN">
+<connects>
+<connect gate="G$1" pin="D" pad="2 PAD"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="-IRFP4368PBF">
+<attribute name="CURRENT" value="195A"/>
+<attribute name="RDS" value="1.5mΩ"/>
+<attribute name="SKU" value="56-0008"/>
+<attribute name="VALUE" value="IRFP4368PBF"/>
+<attribute name="VDS" value="75V"/>
+</technology>
+</technologies>
+</device>
+<device name="-POWERPAK-SO8" package="POWERPAK-SO-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="-SIRA20DP">
+<attribute name="CURRENT" value="80A"/>
+<attribute name="RDS" value="0.82mΩ"/>
+<attribute name="SKU" value="56-0009"/>
+<attribute name="VALUE" value="SiRA20DP"/>
+<attribute name="VDS" value="25V"/>
 </technology>
 </technologies>
 </device>
