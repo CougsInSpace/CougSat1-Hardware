@@ -4392,7 +4392,7 @@ Visible</text>
 </classes>
 <parts>
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
-<attribute name="REV" value="1.0.3"/>
+<attribute name="REV" value="1.0.4"/>
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
 <part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
@@ -4420,7 +4420,7 @@ Visible</text>
 <part name="C4" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C5" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
-<attribute name="REV" value="1.0.1"/>
+<attribute name="REV" value="1.0.4"/>
 <attribute name="TITLE" value="Battery Charger"/>
 </part>
 <part name="U2" library="CougsInSpace-IC-Power" deviceset="BQ24650" device="" value="BQ24650"/>
