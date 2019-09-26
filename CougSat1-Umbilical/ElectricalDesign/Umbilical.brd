@@ -163,7 +163,7 @@
 <wire x1="50" y1="0" x2="50" y2="50" width="0" layer="20"/>
 <wire x1="50" y1="50" x2="0" y2="50" width="0" layer="20"/>
 <wire x1="0" y1="50" x2="0" y2="0" width="0" layer="20"/>
-<text x="27.5" y="1.7" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="center">Umbilical V1.0.3</text>
+<text x="14.1" y="1.4" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="center">Umbilical V1.0.3</text>
 <wire x1="16.1" y1="10.4" x2="16.1" y2="7" width="0.1524" layer="21"/>
 <wire x1="16.1" y1="7" x2="21.6" y2="7" width="0.1524" layer="21"/>
 <wire x1="21.6" y1="10.4" x2="18.8" y2="10.4" width="0.1524" layer="21"/>
@@ -174,9 +174,6 @@
 <wire x1="12.7" y1="17.8" x2="12.7" y2="20.5" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="13.3" y2="19.9" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="20.5" x2="12.1" y2="19.9" width="0.1524" layer="21"/>
-<hole x="4" y="46" drill="2"/>
-<hole x="46" y="46" drill="2"/>
-<hole x="25" y="4" drill="2"/>
 <hole x="19.8" y="45.3" drill="3"/>
 <hole x="20" y="38.5" drill="3"/>
 </plain>
@@ -908,6 +905,41 @@ Last character is an incremented letter for each variant of the same value and p
 </package>
 </packages>
 </library>
+<library name="CougsInSpace-Hardware">
+<description>&lt;h3&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;Stand offs, heatsinks, etc.&lt;/p&gt;
+&lt;p&gt;SKUs&lt;br&gt;
+48-001x: Bolts [0, 1) mm&lt;br&gt;
+48-002x: Bolts [1, 2) mm&lt;br&gt;
+48-003x: Bolts [2, 3) mm&lt;br&gt;
+48-004x: Bolts [3, 4) mm&lt;br&gt;
+48-005x: Bolts [4, 5) mm&lt;br&gt;
+48-006x: Bolts 5mm and larger&lt;br&gt;
+48-0070 and beyond: All other hardware&lt;/p&gt;
+&lt;p&gt;For bolts, the last character is an incremented letter for each variant of the same value. Namely different threads, heads, etc.&lt;/p&gt;</description>
+<packages>
+<package name="MOUNTING_HOLE-3.3">
+<description>&lt;h3&gt;Mounting Hole - 3.3mm&lt;/h3&gt;</description>
+<pad name="1" x="0" y="0" drill="3.3" diameter="6" thermals="no"/>
+<pad name="V1" x="2.3" y="0" drill="0.45" diameter="0.6" stop="no" thermals="no"/>
+<text x="0" y="4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="22"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="39"/>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="40"/>
+<pad name="V2" x="1.860740625" y="1.35190625" drill="0.45" diameter="0.6"/>
+<pad name="V3" x="0.710740625" y="2.18743125" drill="0.45" diameter="0.6"/>
+<pad name="V4" x="-0.710740625" y="2.18743125" drill="0.45" diameter="0.6"/>
+<pad name="V5" x="-1.860740625" y="1.35190625" drill="0.45" diameter="0.6"/>
+<pad name="V6" x="-2.3" y="0" drill="0.45" diameter="0.6"/>
+<pad name="V7" x="-1.860740625" y="-1.35190625" drill="0.45" diameter="0.6"/>
+<pad name="V8" x="-0.710740625" y="-2.18743125" drill="0.45" diameter="0.6"/>
+<pad name="V9" x="0.710740625" y="-2.18743125" drill="0.45" diameter="0.6"/>
+<pad name="V10" x="1.860740625" y="-1.35190625" drill="0.45" diameter="0.6"/>
+<wire x1="1.2" y1="-1.9" x2="2.2" y2="-0.9" width="0.15" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1442,6 +1474,18 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="70°C Max 2A" x="42.4" y="36.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LOGO1" library="CougsInSpace-Aesthetics" package="SIGN-JAYSON" value="SIGNATUREJAYSON" x="4.1" y="36.7" smashed="yes"/>
+<element name="H1" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="45" y="45" smashed="yes">
+<attribute name="NAME" x="45" y="49" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="SKU" value="48-004x" x="45" y="45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H2" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="5" y="45" smashed="yes">
+<attribute name="NAME" x="5" y="49" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="SKU" value="48-004x" x="5" y="45" size="1.778" layer="27" display="off"/>
+</element>
+<element name="H3" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="25" y="5" smashed="yes">
+<attribute name="NAME" x="25" y="9" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="SKU" value="48-004x" x="25" y="5" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PGND">
