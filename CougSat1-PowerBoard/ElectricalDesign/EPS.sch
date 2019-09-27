@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8380,7 +8380,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <attribute name="DESIGNER" value="Bradley L. Davis"/>
 <attribute name="PART_NUMBER" value="68-0002"/>
 <attribute name="PROJECT" value="CougSat-1: EPS"/>
-<attribute name="REV" value="3.0.2"/>
+<attribute name="REV" value="3.0.3"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -21859,11 +21859,7 @@ Referenced</text>
 <segment>
 <label x="147.32" y="121.92" size="1.778" layer="95"/>
 <pinref part="U35" gate="G$1" pin="IN7"/>
-<wire x1="190.5" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="RN19" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="144.78" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<junction x="187.96" y="121.92"/>
+<wire x1="190.5" y1="121.92" x2="147.32" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I_DEPLOY-1" class="0">
