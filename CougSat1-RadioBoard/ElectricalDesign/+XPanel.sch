@@ -3727,8 +3727,8 @@ under the package</text>
 <part name="SUPPLY56" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="H11" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-M2_NUT" technology="-1MM" value="M2 Nut - 1mm"/>
 <part name="H12" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-M2_NUT" technology="-1MM" value="M2 Nut - 1mm"/>
-<part name="SUPPLY57" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="TP1" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
+<part name="SUPPLY58" library="CougsInSpace-PowerSymbols" deviceset="RFGND-0" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4977,7 +4977,7 @@ by the EPS</text>
 <attribute name="VALUE" x="223.52" y="128.778" size="1.27" layer="96" align="center"/>
 <attribute name="SKU" x="223.52" y="127.254" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="SUPPLY57" gate="G$1" x="210.82" y="121.92" smashed="yes"/>
+<instance part="SUPPLY58" gate="G$1" x="210.82" y="119.38" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -5018,6 +5018,15 @@ by the EPS</text>
 <wire x1="73.66" y1="162.56" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
 <junction x="73.66" y="165.1"/>
 <pinref part="SUPPLY16" gate="G$1" pin="RFGND-0"/>
+</segment>
+<segment>
+<pinref part="H11" gate="G$1" pin="MOUNT"/>
+<wire x1="200.66" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="132.08" x2="210.82" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="H12" gate="G$1" pin="MOUNT"/>
+<wire x1="210.82" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
+<junction x="210.82" y="132.08"/>
+<pinref part="SUPPLY58" gate="G$1" pin="RFGND-0"/>
 </segment>
 </net>
 <net name="RFGND-1" class="1">
@@ -5138,15 +5147,6 @@ by the EPS</text>
 <pinref part="SUPPLY50" gate="G$1" pin="PGND"/>
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="180.34" y1="68.58" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="H11" gate="G$1" pin="MOUNT"/>
-<wire x1="200.66" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="SUPPLY57" gate="G$1" pin="PGND"/>
-<wire x1="210.82" y1="132.08" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="H12" gate="G$1" pin="MOUNT"/>
-<wire x1="210.82" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
-<junction x="210.82" y="132.08"/>
 </segment>
 </net>
 <net name="SENSE" class="0">
