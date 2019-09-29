@@ -5932,22 +5932,12 @@ corresponding to net name</text>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
-<pinref part="J1" gate="DATA" pin="BUS_I2C1_SDA"/>
-<wire x1="40.64" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
-<label x="43.18" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="208.28" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 <label x="210.82" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
-<segment>
-<pinref part="J1" gate="DATA" pin="BUS_I2C1_SCL"/>
-<wire x1="40.64" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
-<label x="43.18" y="101.6" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="208.28" y1="86.36" x2="223.52" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SCL"/>
@@ -6088,6 +6078,20 @@ corresponding to net name</text>
 <wire x1="40.64" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <label x="43.18" y="53.34" size="1.778" layer="95"/>
 <pinref part="J1" gate="GPIO" pin="GPIO-1"/>
+</segment>
+</net>
+<net name="BUS_I2C_SDA" class="0">
+<segment>
+<pinref part="J1" gate="DATA" pin="BUS_I2C1_SDA"/>
+<wire x1="40.64" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
+<label x="43.18" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_I2C_SCL" class="0">
+<segment>
+<pinref part="J1" gate="DATA" pin="BUS_I2C1_SCL"/>
+<wire x1="40.64" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
+<label x="43.18" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -6511,20 +6515,6 @@ Decoupling</text>
 <wire x1="58.42" y1="20.32" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!CS-TELEPHOTO" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="!CS"/>
-<wire x1="93.98" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
-<label x="91.44" y="147.32" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="!CS-WIDE_ANGLE" class="0">
-<segment>
-<wire x1="200.66" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<label x="198.12" y="147.32" size="1.778" layer="95" rot="MR0"/>
-<pinref part="B2" gate="G$1" pin="!CS"/>
-</segment>
-</net>
 <net name="PD_IN" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -6846,88 +6836,102 @@ Decoupling</text>
 <wire x1="139.7" y1="43.18" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPI_MISO_CAM0" class="0">
+<net name="SPI_MISO-CAM0" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="MISO"/>
 <wire x1="68.58" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
 <label x="91.44" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_MOSI_CAM0" class="0">
+<net name="SPI_MOSI-CAM0" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="MOSI"/>
 <wire x1="93.98" y1="152.4" x2="68.58" y2="152.4" width="0.1524" layer="91"/>
 <label x="91.44" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_SCK_CAM0" class="0">
+<net name="SPI_SCK-CAM0" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="SCK"/>
 <wire x1="68.58" y1="149.86" x2="93.98" y2="149.86" width="0.1524" layer="91"/>
 <label x="91.44" y="149.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="SPI_MISO_CAM1" class="0">
+<net name="SPI_MISO-CAM1" class="0">
 <segment>
 <wire x1="175.26" y1="154.94" x2="200.66" y2="154.94" width="0.1524" layer="91"/>
 <label x="198.12" y="154.94" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B2" gate="G$1" pin="MISO"/>
 </segment>
 </net>
-<net name="SPI_MOSI_CAM1" class="0">
+<net name="SPI_MOSI-CAM1" class="0">
 <segment>
 <wire x1="200.66" y1="152.4" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
 <label x="198.12" y="152.4" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B2" gate="G$1" pin="MOSI"/>
 </segment>
 </net>
-<net name="SPI_SCK_CAM1" class="0">
+<net name="SPI_SCK-CAM1" class="0">
 <segment>
 <wire x1="175.26" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
 <label x="198.12" y="149.86" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B2" gate="G$1" pin="SCK"/>
 </segment>
 </net>
-<net name="I2C_SCL_CAM1" class="0">
+<net name="I2C_SCL-CAM1" class="0">
 <segment>
 <wire x1="200.66" y1="142.24" x2="175.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="198.12" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B2" gate="G$1" pin="SCL"/>
 </segment>
 </net>
-<net name="I2C_SDA_CAM1" class="0">
+<net name="I2C_SDA-CAM1" class="0">
 <segment>
 <wire x1="200.66" y1="139.7" x2="175.26" y2="139.7" width="0.1524" layer="91"/>
 <label x="198.12" y="139.7" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B2" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="I2C_SCL_CAM0" class="0">
+<net name="I2C_SCL-CAM0" class="0">
 <segment>
 <wire x1="93.98" y1="142.24" x2="68.58" y2="142.24" width="0.1524" layer="91"/>
 <label x="91.44" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B1" gate="G$1" pin="SCL"/>
 </segment>
 </net>
-<net name="I2C_SDA_CAM0" class="0">
+<net name="I2C_SDA-CAM0" class="0">
 <segment>
 <wire x1="93.98" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
 <label x="91.44" y="139.7" size="1.778" layer="95" rot="MR0"/>
 <pinref part="B1" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="I2C_SDA_GPIO" class="0">
+<net name="I2C_SDA" class="0">
 <segment>
 <wire x1="233.68" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 <label x="231.14" y="78.74" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U8" gate="G$1" pin="SDA"/>
 </segment>
 </net>
-<net name="I2C_SCL_GPIO" class="0">
+<net name="I2C_SCL" class="0">
 <segment>
 <wire x1="233.68" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 <label x="231.14" y="76.2" size="1.778" layer="95" rot="MR0"/>
 <pinref part="U8" gate="G$1" pin="SCL"/>
+</segment>
+</net>
+<net name="!CS-CAM1" class="0">
+<segment>
+<wire x1="200.66" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<label x="198.12" y="147.32" size="1.778" layer="95" rot="MR0"/>
+<pinref part="B2" gate="G$1" pin="!CS"/>
+</segment>
+</net>
+<net name="!CS-CAM0" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="!CS"/>
+<wire x1="93.98" y1="147.32" x2="68.58" y2="147.32" width="0.1524" layer="91"/>
+<label x="91.44" y="147.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
@@ -7033,88 +7037,47 @@ Decoupling</text>
 <busses>
 </busses>
 <nets>
-<net name="I2C_SDA" class="0">
-<segment>
-<wire x1="43.18" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
-<label x="45.72" y="152.4" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="A1"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
-<label x="137.16" y="152.4" size="1.778" layer="95"/>
-<pinref part="U12" gate="G$1" pin="A1"/>
-</segment>
-<segment>
-<wire x1="43.18" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
-<label x="45.72" y="53.34" size="1.778" layer="95"/>
-<pinref part="U15" gate="G$1" pin="A1"/>
-</segment>
-</net>
-<net name="I2C_SCL" class="0">
-<segment>
-<wire x1="43.18" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
-<label x="45.72" y="147.32" size="1.778" layer="95"/>
-<pinref part="U9" gate="G$1" pin="A2"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
-<label x="137.16" y="147.32" size="1.778" layer="95"/>
-<pinref part="U12" gate="G$1" pin="A2"/>
-</segment>
-<segment>
-<wire x1="43.18" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
-<label x="45.72" y="48.26" size="1.778" layer="95"/>
-<pinref part="U15" gate="G$1" pin="A2"/>
-</segment>
-</net>
 <net name="SPI_SCK" class="0">
 <segment>
-<wire x1="43.18" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
-<label x="45.72" y="121.92" size="1.778" layer="95"/>
+<wire x1="35.56" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
+<label x="38.1" y="121.92" size="1.778" layer="95"/>
 <pinref part="U10" gate="G$1" pin="A1"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
-<label x="137.16" y="121.92" size="1.778" layer="95"/>
+<wire x1="127" y1="121.92" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
+<label x="129.54" y="121.92" size="1.778" layer="95"/>
 <pinref part="U13" gate="G$1" pin="A1"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<wire x1="60.96" y1="116.84" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
-<label x="45.72" y="116.84" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A2"/>
+<wire x1="60.96" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<label x="45.72" y="86.36" size="1.778" layer="95"/>
+<pinref part="U11" gate="G$1" pin="A2"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="116.84" x2="134.62" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.778" layer="95"/>
-<pinref part="U13" gate="G$1" pin="A2"/>
+<wire x1="152.4" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
+<label x="137.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="U14" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
-<wire x1="35.56" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<label x="38.1" y="91.44" size="1.778" layer="95"/>
+<wire x1="43.18" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="45.72" y="91.44" size="1.778" layer="95"/>
 <pinref part="U11" gate="G$1" pin="A1"/>
 </segment>
 <segment>
-<wire x1="127" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
-<label x="129.54" y="91.44" size="1.778" layer="95"/>
+<wire x1="134.62" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<label x="137.16" y="91.44" size="1.778" layer="95"/>
 <pinref part="U14" gate="G$1" pin="A1"/>
 </segment>
 </net>
-<net name="!CS-TELEPHOTO1" class="0">
+<net name="!CS-TELEPHOTO" class="0">
 <segment>
-<wire x1="35.56" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="A2"/>
-<label x="38.1" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="!CS-WIDE_ANGLE1" class="0">
-<segment>
-<wire x1="127" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U14" gate="G$1" pin="A2"/>
-<label x="129.54" y="86.36" size="1.778" layer="95"/>
+<wire x1="35.56" y1="116.84" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
+<label x="38.1" y="116.84" size="1.778" layer="95"/>
+<pinref part="U10" gate="G$1" pin="A2"/>
 </segment>
 </net>
 <net name="DGND" class="0">
@@ -7277,6 +7240,145 @@ Decoupling</text>
 <pinref part="U15" gate="G$1" pin="VCCA"/>
 <wire x1="58.42" y1="60.96" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="I2C_SDA-CAM0" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="B1"/>
+<wire x1="86.36" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+<label x="91.44" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SCL-CAM0" class="0">
+<segment>
+<wire x1="86.36" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U9" gate="G$1" pin="B2"/>
+<label x="91.44" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CS-CAM0" class="0">
+<segment>
+<wire x1="86.36" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="B2"/>
+<label x="91.44" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_MOSI-CAM0" class="0">
+<segment>
+<wire x1="86.36" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="B1"/>
+<label x="91.44" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_MISO-CAM0" class="0">
+<segment>
+<wire x1="86.36" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="B2"/>
+<label x="91.44" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SDA" class="0">
+<segment>
+<wire x1="86.36" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U15" gate="G$1" pin="B1"/>
+<label x="91.44" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SCL" class="0">
+<segment>
+<wire x1="86.36" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="U15" gate="G$1" pin="B2"/>
+<label x="91.44" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_MISO_CAM1" class="0">
+<segment>
+<wire x1="177.8" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U14" gate="G$1" pin="B2"/>
+<label x="182.88" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_MOSI_CAM1" class="0">
+<segment>
+<wire x1="177.8" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U14" gate="G$1" pin="B1"/>
+<label x="182.88" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SPI_SCK-CAM1" class="0">
+<segment>
+<wire x1="177.8" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="B1"/>
+<label x="182.88" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SCL-CAM1" class="0">
+<segment>
+<wire x1="177.8" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="B2"/>
+<label x="182.88" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C_SDA-CAM1" class="0">
+<segment>
+<wire x1="177.8" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="B1"/>
+<label x="182.88" y="152.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CS-WIDE_ANGLE" class="0">
+<segment>
+<wire x1="127" y1="116.84" x2="152.4" y2="116.84" width="0.1524" layer="91"/>
+<label x="129.54" y="116.84" size="1.778" layer="95"/>
+<pinref part="U13" gate="G$1" pin="A2"/>
+</segment>
+</net>
+<net name="SPI_SCK-CAM0" class="0">
+<segment>
+<wire x1="86.36" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U10" gate="G$1" pin="B1"/>
+<label x="91.44" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!CS-CAM1" class="0">
+<segment>
+<pinref part="U13" gate="G$1" pin="B2"/>
+<wire x1="177.8" y1="116.84" x2="198.12" y2="116.84" width="0.1524" layer="91"/>
+<label x="182.88" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BUS_I2C_SDA" class="0">
+<segment>
+<wire x1="43.18" y1="53.34" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
+<label x="45.72" y="53.34" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="152.4" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
+<label x="45.72" y="152.4" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<wire x1="134.62" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<label x="137.16" y="152.4" size="1.778" layer="95"/>
+<pinref part="U12" gate="G$1" pin="A1"/>
+</segment>
+</net>
+<net name="BUS_I2C_SCL" class="0">
+<segment>
+<wire x1="43.18" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<label x="45.72" y="48.26" size="1.778" layer="95"/>
+<pinref part="U15" gate="G$1" pin="A2"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="147.32" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
+<label x="45.72" y="147.32" size="1.778" layer="95"/>
+<pinref part="U9" gate="G$1" pin="A2"/>
+</segment>
+<segment>
+<wire x1="134.62" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
+<label x="137.16" y="147.32" size="1.778" layer="95"/>
+<pinref part="U12" gate="G$1" pin="A2"/>
 </segment>
 </net>
 </nets>
