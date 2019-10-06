@@ -5201,7 +5201,6 @@ Buffer</text>
 <part name="RT7" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-10K" value="10kΩ 5%"/>
 <part name="RT8" library="CougsInSpace-Resistors" deviceset="THERMISTOR-V" device="-1608" technology="-10K" value="10kΩ 5%"/>
 <part name="C5" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-1UF" value="1µF 10%"/>
-<part name="SUPPLY21" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="TP3" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
 <part name="C6" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY22" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -5394,6 +5393,7 @@ Buffer</text>
 <part name="R14" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="R15" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-20K" value="20kΩ 0.5%"/>
 <part name="SUPPLY96" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
+<part name="SUPPLY21" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5848,7 +5848,6 @@ corresponding to net name</text>
 <attribute name="VOLTAGE" x="200.914" y="42.164" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="200.914" y="40.64" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY21" gate="1" x="198.12" y="35.56" smashed="yes"/>
 <instance part="TP3" gate="G$1" x="200.66" y="53.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="202.184" y="54.864" size="1.27" layer="95" rot="MR0" align="center"/>
 </instance>
@@ -6031,6 +6030,7 @@ corresponding to net name</text>
 <instance part="TP7" gate="G$1" x="248.92" y="165.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="254.254" y="165.1" size="1.27" layer="95" rot="MR0" align="center"/>
 </instance>
+<instance part="SUPPLY21" gate="G$1" x="198.12" y="35.56" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6205,6 +6205,11 @@ corresponding to net name</text>
 <pinref part="SUPPLY25" gate="G$1" pin="AGND"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="38.1" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="G$1" pin="AGND"/>
+</segment>
 </net>
 <net name="AVDD" class="0">
 <segment>
@@ -6251,11 +6256,6 @@ corresponding to net name</text>
 <segment>
 <pinref part="SUPPLY17" gate="1" pin="DGND"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="SUPPLY21" gate="1" pin="DGND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="38.1" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY29" gate="1" pin="DGND"/>
