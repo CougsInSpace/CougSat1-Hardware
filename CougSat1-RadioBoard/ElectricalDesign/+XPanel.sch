@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3571,8 +3571,8 @@ under the package</text>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="50Ohm" width="1.5" drill="0">
-<clearance class="1" value="0.5"/>
+<class number="1" name="50Ohm" width="0.3" drill="0">
+<clearance class="1" value="0.25"/>
 </class>
 </classes>
 <parts>
