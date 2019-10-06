@@ -3549,13 +3549,13 @@ To ADCS</text>
 </sheet>
 <sheet>
 <plain>
-<text x="22.86" y="172.72" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="170.18" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="167.64" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="165.1" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="162.56" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="160.02" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
-<text x="22.86" y="157.48" size="1.27" layer="97" align="center-right">&gt;2C2  </text>
+<text x="22.86" y="172.72" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="170.18" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="167.64" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="165.1" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="162.56" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="160.02" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
+<text x="22.86" y="157.48" size="1.27" layer="97" align="center-right">2C2&gt;  </text>
 <text x="68.58" y="88.9" size="1.27" layer="97" align="center-right">&lt;2A1 </text>
 <text x="68.58" y="86.36" size="1.27" layer="97" align="center-right">&lt;2A1 </text>
 <text x="68.58" y="83.82" size="1.27" layer="97" align="center-right">&lt;2A1 </text>
@@ -4544,7 +4544,7 @@ To ADCS</text>
 <pinref part="SUPPLY31" gate="G$1" pin="RFGND"/>
 </segment>
 </net>
-<net name="PHOTODIO_ADC" class="0">
+<net name="PHOTODIODE_ADC" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="IN0"/>
 <wire x1="40.64" y1="175.26" x2="15.24" y2="175.26" width="0.1524" layer="91"/>
