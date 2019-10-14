@@ -1,5 +1,5 @@
-# Autodesk old versions
-OldVersions/
+# Autodesk
+OldVersions
 *.ipj
 
 # EAGLE old versions
@@ -14,3 +14,4 @@ OldVersions/
 *.log*
 *.raw*
 *.plt*
+*.net
