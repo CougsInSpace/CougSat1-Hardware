@@ -7074,7 +7074,7 @@ Decoupling</text>
 <wire x1="15.24" y1="96.52" x2="15.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAMP_IN" class="0">
+<net name="QAMP_IN" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="U3" gate="A" pin="IN-"/>
@@ -7139,7 +7139,7 @@ Decoupling</text>
 <pinref part="SUPPLY41" gate="G$1" pin="5.0V"/>
 </segment>
 </net>
-<net name="CAMP_OUT" class="0">
+<net name="QAMP_OUT" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="OUT"/>
 <pinref part="C10" gate="G$1" pin="1"/>
@@ -7450,7 +7450,7 @@ Decoupling</text>
 <pinref part="B1" gate="G$1" pin="!CS"/>
 </segment>
 </net>
-<net name="SENSOR_OUT" class="0">
+<net name="ATRIP" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="132.08" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
