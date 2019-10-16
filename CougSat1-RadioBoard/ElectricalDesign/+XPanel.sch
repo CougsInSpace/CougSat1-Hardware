@@ -4050,7 +4050,7 @@ in the center of the board</text>
 <wire x1="38.1" y1="67.31" x2="38.1" y2="93.98" width="0.254" layer="97" style="shortdash"/>
 <text x="60.96" y="72.39" size="1.778" layer="97" align="center">CAD Note: Decoupling for AD7291
 (C3 for Pin 10, C13 for Pin 16)</text>
-<text x="111.76" y="162.56" size="1.27" layer="97" rot="R180" align="center-right">2B2&gt; </text>
+<text x="119.38" y="162.56" size="1.27" layer="97" rot="R180" align="center-right">2B2&gt; </text>
 <text x="33.02" y="134.62" size="1.27" layer="97" align="center-right">2A3&gt; </text>
 </plain>
 <instances>
@@ -4392,7 +4392,7 @@ in the center of the board</text>
 <attribute name="SKU" x="85.09" y="175.26" size="1.27" layer="97" align="center"/>
 </instance>
 <instance part="SUPPLY60" gate="G$1" x="66.04" y="144.78" smashed="yes"/>
-<instance part="OFFSHEET5" gate="G$1" x="109.22" y="162.56" smashed="yes" rot="R180"/>
+<instance part="OFFSHEET5" gate="G$1" x="116.84" y="162.56" smashed="yes" rot="R180"/>
 <instance part="OFFSHEET16" gate="G$1" x="35.56" y="134.62" smashed="yes"/>
 <instance part="SUPPLY15" gate="1" x="157.48" y="124.46" smashed="yes"/>
 </instances>
@@ -4868,7 +4868,12 @@ in the center of the board</text>
 <wire x1="66.04" y1="180.34" x2="81.28" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="OUT2" class="0">
+<net name="PHOTO" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="IN0"/>
+<wire x1="38.1" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
+<label x="38.1" y="134.62" size="1.778" layer="95"/>
+</segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="88.9" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
@@ -4877,13 +4882,8 @@ in the center of the board</text>
 <wire x1="101.6" y1="162.56" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
 <junction x="101.6" y="162.56"/>
-</segment>
-</net>
-<net name="PHOTO" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="IN0"/>
-<wire x1="38.1" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
-<label x="38.1" y="134.62" size="1.778" layer="95"/>
+<label x="104.14" y="162.56" size="1.778" layer="95"/>
+<wire x1="106.68" y1="162.56" x2="114.3" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
