@@ -5371,7 +5371,9 @@ Buffer</text>
 <part name="C29" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="C30" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY108" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
-<part name="J2" library="CougsInSpace-Boards" deviceset="CIS_CARD-OPEN+X" device="" value="CougSat Card"/>
+<part name="J2" library="CougsInSpace-Boards" deviceset="CIS_CARD-OPEN+X" device="" value="CougSat Card">
+<attribute name="SKU" value="68-0007"/>
+</part>
 <part name="SUPPLY109" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY26" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="SUPPLY97" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
@@ -8267,6 +8269,25 @@ Decoupling</text>
 <wire x1="138.2014" y1="94.488" x2="138.2014" y2="54.102" width="0.254" layer="94"/>
 <circle x="78.74" y="111.76" radius="7.184203125" width="0.254" layer="94"/>
 <circle x="78.74" y="86.36" radius="7.184203125" width="0.254" layer="94"/>
+<wire x1="142.24" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="94"/>
+<wire x1="172.72" y1="137.16" x2="172.72" y2="106.68" width="0.1524" layer="94"/>
+<wire x1="172.72" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="94"/>
+<wire x1="142.24" y1="106.68" x2="142.24" y2="137.16" width="0.1524" layer="94"/>
+<text x="157.48" y="121.92" size="1.778" layer="94" align="center">Analog</text>
+<wire x1="175.26" y1="124.46" x2="175.26" y2="101.6" width="0.1524" layer="94"/>
+<wire x1="175.26" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="101.6" x2="213.36" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="94"/>
+<wire x1="175.26" y1="96.52" x2="175.26" y2="73.66" width="0.1524" layer="94"/>
+<wire x1="175.26" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="73.66" x2="213.36" y2="96.52" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="96.52" x2="175.26" y2="96.52" width="0.1524" layer="94"/>
+<text x="194.31" y="113.03" size="1.778" layer="94" align="center">Telephoto Camera</text>
+<text x="194.31" y="85.09" size="1.778" layer="94" align="center">Wide-Angle Camera</text>
+<text x="78.74" y="111.252" size="1.778" layer="94" align="center">Telephoto
+Lens</text>
+<text x="78.74" y="85.852" size="1.778" layer="94" align="center">Wide-Angle
+Lens</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes">

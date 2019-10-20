@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -1799,7 +1799,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="09-0001" x="-114.05" y="114.18" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="J2" library="CougsInSpace-Boards" package="CARD-FULL-OPEN+X" value="CougSat Card" x="7.5" y="50" locked="yes" smashed="yes">
-<attribute name="SKU" value="[Override]" x="7.5" y="50" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="68-0007" x="7.5" y="50" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -3797,10 +3797,78 @@ design rules under a new name.</description>
 <wire x1="87.085" y1="45.67588125" x2="87.085" y2="49.23005" width="0.2" layer="16"/>
 <wire x1="87.085" y1="49.23005" x2="85.93505" y2="50.38" width="0.2" layer="16"/>
 </signal>
+<signal name="BALANCING-TOP">
+<polygon width="0.2" layer="1" spacing="0.5" pour="hatch">
+<vertex x="10" y="2.1"/>
+<vertex x="97.4" y="2.1" curve="90"/>
+<vertex x="97.9" y="2.6"/>
+<vertex x="97.9" y="45" curve="90"/>
+<vertex x="96.9" y="46" curve="-90"/>
+<vertex x="95.9" y="47"/>
+<vertex x="95.9" y="53" curve="-90"/>
+<vertex x="96.9" y="54" curve="90"/>
+<vertex x="97.9" y="55"/>
+<vertex x="97.9" y="97.4" curve="90"/>
+<vertex x="97.4" y="97.9"/>
+<vertex x="18" y="97.9" curve="90"/>
+<vertex x="17.5" y="97.4"/>
+<vertex x="17.5" y="86.6" curve="-90"/>
+<vertex x="17" y="86.1"/>
+<vertex x="8" y="86.1"/>
+<vertex x="7.5" y="85.6"/>
+<vertex x="7.5" y="75.45"/>
+<vertex x="8" y="74.95"/>
+<vertex x="15.9" y="74.95" curve="-180"/>
+<vertex x="15.9" y="73.05"/>
+<vertex x="8" y="73.05"/>
+<vertex x="7.5" y="72.55"/>
+<vertex x="7.5" y="35.35"/>
+<vertex x="8" y="34.85"/>
+<vertex x="17.5" y="34.85" curve="-180"/>
+<vertex x="17.5" y="31.3"/>
+<vertex x="10" y="31.3" curve="90"/>
+<vertex x="9.5" y="30.8"/>
+<vertex x="9.5" y="2.6" curve="90"/>
+</polygon>
+</signal>
+<signal name="BALANCING-BOTTOM">
+<polygon width="0.2" layer="16" spacing="0.5" pour="hatch">
+<vertex x="10" y="2.1"/>
+<vertex x="97.4" y="2.1" curve="90"/>
+<vertex x="97.9" y="2.6"/>
+<vertex x="97.9" y="45" curve="90"/>
+<vertex x="96.9" y="46" curve="-90"/>
+<vertex x="95.9" y="47"/>
+<vertex x="95.9" y="53" curve="-90"/>
+<vertex x="96.9" y="54" curve="90"/>
+<vertex x="97.9" y="55"/>
+<vertex x="97.9" y="97.4" curve="90"/>
+<vertex x="97.4" y="97.9"/>
+<vertex x="18" y="97.9" curve="90"/>
+<vertex x="17.5" y="97.4"/>
+<vertex x="17.5" y="86.6" curve="-90"/>
+<vertex x="17" y="86.1"/>
+<vertex x="8" y="86.1"/>
+<vertex x="7.5" y="85.6"/>
+<vertex x="7.5" y="75.45"/>
+<vertex x="8" y="74.95"/>
+<vertex x="15.9" y="74.95" curve="-180"/>
+<vertex x="15.9" y="73.05"/>
+<vertex x="8" y="73.05"/>
+<vertex x="7.5" y="72.55"/>
+<vertex x="7.5" y="35.35"/>
+<vertex x="8" y="34.85"/>
+<vertex x="17.5" y="34.85" curve="-180"/>
+<vertex x="17.5" y="31.3"/>
+<vertex x="10" y="31.3" curve="90"/>
+<vertex x="9.5" y="30.8"/>
+<vertex x="9.5" y="2.6" curve="90"/>
+</polygon>
+</signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
-<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8FF0000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFFFFFF"/>
 <mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
