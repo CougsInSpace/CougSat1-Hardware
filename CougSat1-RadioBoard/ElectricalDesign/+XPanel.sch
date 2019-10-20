@@ -3718,7 +3718,7 @@ under the package</text>
 <attribute name="REV" value="1.0.2"/>
 </attributes>
 <variantdefs>
-<variantdef name="Main"/>
+<variantdef name="Main" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
