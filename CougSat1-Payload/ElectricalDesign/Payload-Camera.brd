@@ -178,13 +178,9 @@
 <wire x1="94.5" y1="55.4" x2="94.5" y2="50.7" width="0.2" layer="22"/>
 <wire x1="94.5" y1="50.7" x2="88.1" y2="50.7" width="0.2" layer="22"/>
 <wire x1="88.1" y1="50.7" x2="88.1" y2="55.4" width="0.2" layer="22"/>
-<wire x1="88.1" y1="55.4" x2="89.8" y2="55.4" width="0.2" layer="22"/>
-<wire x1="89.8" y1="55.4" x2="94.5" y2="55.4" width="0.2" layer="22"/>
-<wire x1="89.8" y1="55.4" x2="89.8" y2="56.1" width="0.16" layer="22"/>
-<wire x1="89.8" y1="56.1" x2="87.8" y2="58.1" width="0.16" layer="22"/>
-<wire x1="87.8" y1="58.1" x2="87.8" y2="59.7" width="0.16" layer="22"/>
-<wire x1="87.8" y1="59.7" x2="88.2" y2="59.3" width="0.16" layer="22"/>
-<wire x1="87.8" y1="59.7" x2="87.4" y2="59.3" width="0.16" layer="22"/>
+<wire x1="88.1" y1="55.4" x2="89.1" y2="55.4" width="0.2" layer="22"/>
+<wire x1="89.1" y1="55.4" x2="94.5" y2="55.4" width="0.2" layer="22"/>
+<wire x1="89.1" y1="55.4" x2="89.1" y2="59.8" width="0.16" layer="22"/>
 <text x="21" y="87.05" size="0.8128" layer="21" font="vector" ratio="15" rot="R180" align="center">3.3V</text>
 <text x="21.1" y="89.5" size="0.8128" layer="21" font="vector" ratio="15" align="center">GND</text>
 <text x="38" y="82.6" size="0.8128" layer="21" font="vector" ratio="15" align="center">GND</text>
@@ -436,6 +432,8 @@
 <circle x="80" y="17.9" radius="0.33" width="0" layer="29"/>
 <circle x="95.1" y="57.7" radius="0.33" width="0" layer="29"/>
 <circle x="77.8" y="19.3" radius="0.33" width="0" layer="29"/>
+<wire x1="89.1" y1="59.8" x2="88.7" y2="59.4" width="0.16" layer="22"/>
+<wire x1="89.1" y1="59.8" x2="89.5" y2="59.4" width="0.16" layer="22"/>
 </plain>
 <libraries>
 <library name="CougsInSpace-Sensors">
@@ -3443,15 +3441,15 @@ design rules under a new name.</description>
 <wire x1="10.6" y1="46.5" x2="13.5" y2="46.5" width="0.6" layer="16"/>
 <via x="13.5" y="46.5" extent="1-16" drill="0.3"/>
 <wire x1="13.5" y1="46.5" x2="10.6" y2="46.5" width="0.6" layer="1"/>
-<wire x1="13.5" y1="46.5" x2="18.1" y2="46.5" width="0.2" layer="1"/>
-<wire x1="18.1" y1="46.5" x2="18.6" y2="47" width="0.2" layer="1"/>
+<wire x1="13.5" y1="46.5" x2="17.8" y2="46.5" width="0.2" layer="1"/>
+<wire x1="17.8" y1="46.5" x2="18.3" y2="47" width="0.2" layer="1"/>
 <via x="38.6" y="47" extent="1-16" drill="0.3"/>
 <wire x1="37.4" y1="47" x2="38.6" y2="47" width="0.2" layer="1"/>
 <wire x1="38.6" y1="47" x2="38.6" y2="41.3" width="0.2" layer="16"/>
 <wire x1="33.35" y1="36.05" x2="32.45" y2="36.05" width="0.2" layer="16"/>
 <wire x1="38.6" y1="41.3" x2="33.35" y2="36.05" width="0.2" layer="16"/>
 <via x="37.4" y="47" extent="1-16" drill="0.3"/>
-<wire x1="18.6" y1="47" x2="37.4" y2="47" width="0.2" layer="1"/>
+<wire x1="18.3" y1="47" x2="37.4" y2="47" width="0.2" layer="1"/>
 <wire x1="37.4" y1="47" x2="37.4" y2="48.2" width="0.2" layer="16"/>
 <via x="37.4" y="48.2" extent="1-16" drill="0.3"/>
 <wire x1="37.4" y1="48.2" x2="37.4" y2="60.1" width="0.2" layer="1"/>
