@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2642,25 +2642,16 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="2" y1="-2" x2="2" y2="-1.575" width="0.15" layer="21"/>
 <wire x1="2" y1="1.575" x2="2" y2="2" width="0.15" layer="21"/>
 <wire x1="2" y1="2" x2="1.575" y2="2" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2" y="2"/>
-<vertex x="-2" y="1.575"/>
-<vertex x="-1.575" y="2"/>
-</polygon>
 <wire x1="-2.525" y1="2.525" x2="-2.525" y2="-2.525" width="0.15" layer="21"/>
 <wire x1="-2.525" y1="-2.525" x2="2.525" y2="-2.525" width="0.15" layer="21"/>
 <wire x1="2.525" y1="-2.525" x2="2.525" y2="2.525" width="0.15" layer="21"/>
 <wire x1="2.525" y1="2.525" x2="-2.525" y2="2.525" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2.525" y="2.525"/>
-<vertex x="-2.525" y="1.375"/>
-<vertex x="-1.375" y="2.525"/>
-</polygon>
 <text x="0" y="3.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-2.525" y1="2.525" x2="2.525" y2="2.525" width="0.15" layer="39"/>
 <wire x1="2.525" y1="2.525" x2="2.525" y2="-2.525" width="0.15" layer="39"/>
 <wire x1="2.525" y1="-2.525" x2="-2.525" y2="-2.525" width="0.15" layer="39"/>
 <wire x1="-2.525" y1="-2.525" x2="-2.525" y2="2.525" width="0.15" layer="39"/>
+<rectangle x1="-2.5" y1="1.5" x2="-1.5" y2="2.5" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2953,6 +2944,10 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="B" pin="OUT" pad="7"/>
 </connects>
 <technologies>
+<technology name="-AD8542">
+<attribute name="SKU" value="08-0006"/>
+<attribute name="VALUE" value="AD8542"/>
+</technology>
 <technology name="-AD8616">
 <attribute name="SKU" value="08-0005"/>
 <attribute name="VALUE" value="AD8616"/>
@@ -4482,11 +4477,6 @@ Buffer</text>
 <wire x1="-3.8" y1="-5.4" x2="3.8" y2="-5.4" width="0.15" layer="39"/>
 <wire x1="3.8" y1="-5.4" x2="3.8" y2="5.4" width="0.15" layer="39"/>
 <wire x1="3.8" y1="5.4" x2="-3.8" y2="5.4" width="0.15" layer="39"/>
-<polygon width="0.15" layer="21">
-<vertex x="-3.8" y="5.4"/>
-<vertex x="-3.8" y="4.75"/>
-<vertex x="-3.15" y="5.4"/>
-</polygon>
 <text x="0" y="5.94" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-1.95" y1="5" x2="-1.95" y2="-5" width="0.15" layer="51"/>
 <wire x1="1.95" y1="-5" x2="1.95" y2="5" width="0.15" layer="51"/>
@@ -4516,6 +4506,7 @@ Buffer</text>
 <wire x1="1.95" y1="2.675" x2="1.95" y2="2.4" width="0.15" layer="21"/>
 <wire x1="1.95" y1="3.95" x2="1.95" y2="3.675" width="0.15" layer="21"/>
 <wire x1="1.95" y1="5" x2="1.95" y2="4.925" width="0.15" layer="21"/>
+<rectangle x1="-3.8" y1="4.9" x2="-1.9" y2="5.4" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4614,11 +4605,7 @@ Buffer</text>
 <smd name="3" x="-1.31" y="-0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <smd name="1" x="-1.31" y="0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <text x="0" y="2.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.15" layer="21">
-<vertex x="-2.25" y="1.9"/>
-<vertex x="-2.25" y="1.25"/>
-<vertex x="-1.6" y="1.9"/>
-</polygon>
+<rectangle x1="-2.25" y1="1.4" x2="0" y2="1.9" layer="21"/>
 </package>
 <package name="SOT363">
 <description>&lt;h3&gt;SOT363 (SC70-6)&lt;/h3&gt;</description>
@@ -4638,16 +4625,12 @@ Buffer</text>
 <wire x1="1.525" y1="-1.325" x2="-1.525" y2="-1.325" width="0.15" layer="21"/>
 <wire x1="-1.525" y1="-1.325" x2="-1.525" y2="1.325" width="0.15" layer="21"/>
 <wire x1="-1.525" y1="1.325" x2="1.525" y2="1.325" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-1.525" y="1.325"/>
-<vertex x="-1.525" y="0.85"/>
-<vertex x="-1.05" y="1.325"/>
-</polygon>
 <text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-1.525" y1="1.325" x2="-1.525" y2="-1.325" width="0.15" layer="39"/>
 <wire x1="-1.525" y1="-1.325" x2="1.525" y2="-1.325" width="0.15" layer="39"/>
 <wire x1="1.525" y1="-1.325" x2="1.525" y2="1.325" width="0.15" layer="39"/>
 <wire x1="1.525" y1="1.325" x2="-1.525" y2="1.325" width="0.15" layer="39"/>
+<rectangle x1="-1.5" y1="1" x2="0" y2="1.3" layer="21"/>
 </package>
 </packages>
 <symbols>
