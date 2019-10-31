@@ -4004,6 +4004,8 @@ Release</text>
 <wire x1="144.78" y1="50.8" x2="142.24" y2="53.34" width="0.254" layer="97"/>
 <text x="113.03" y="44.45" size="1.778" layer="97" align="bottom-right">Page 2</text>
 <text x="173.99" y="82.55" size="1.778" layer="97" align="bottom-right">Page 3</text>
+<text x="210.82" y="27.94" size="3.81" layer="97" align="bottom-right">Variant: </text>
+<text x="210.82" y="27.94" size="3.81" layer="97">&gt;ASSEMBLY_VARIANT</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
