@@ -2459,6 +2459,28 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="3.6" y1="-2.42" x2="3.6" y2="2.43" width="0.15" layer="39"/>
 <wire x1="3.6" y1="2.43" x2="-3.6" y2="2.43" width="0.15" layer="39"/>
 </package>
+<package name="1616">
+<description>&lt;h3&gt;1616 (0606 in)&lt;/h3&gt;</description>
+<smd name="1" x="-0.47" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="4" x="-0.47" y="0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="2" x="0.47" y="-0.7" dx="0.64" dy="0.7" layer="1"/>
+<smd name="3" x="0.47" y="0.7" dx="0.64" dy="0.7" layer="1"/>
+<wire x1="-0.8" y1="0.75" x2="0.8" y2="0.75" width="0.15" layer="51"/>
+<wire x1="0.8" y1="0.75" x2="0.8" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="0.8" y1="-0.75" x2="-0.8" y2="-0.75" width="0.15" layer="51"/>
+<wire x1="-0.8" y1="-0.75" x2="-0.8" y2="0.75" width="0.15" layer="51"/>
+<wire x1="-1" y1="0.8" x2="-1" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-1.3" y1="1.375" x2="1.3" y2="1.375" width="0.15" layer="21"/>
+<wire x1="1.3" y1="1.375" x2="1.3" y2="-1.375" width="0.15" layer="21"/>
+<wire x1="1.3" y1="-1.375" x2="-1.3" y2="-1.375" width="0.15" layer="21"/>
+<wire x1="-1.3" y1="-1.375" x2="-1.3" y2="1.375" width="0.15" layer="21"/>
+<wire x1="-1.3" y1="1.375" x2="1.3" y2="1.375" width="0.15" layer="39"/>
+<wire x1="1.3" y1="1.375" x2="1.3" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="1.3" y1="-1.375" x2="-1.3" y2="-1.375" width="0.15" layer="39"/>
+<wire x1="-1.3" y1="-1.375" x2="-1.3" y2="1.375" width="0.15" layer="39"/>
+<text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="CougsInSpace-IC-Conversion">
@@ -6532,6 +6554,13 @@ design rules under a new name.</description>
 <attribute name="POWER" value="1/10W" x="-84.8" y="-289.1" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SKU" value="21-0000" x="-84.8" y="-289.1" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-84.8" y="-289.1" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="RN4" library="CougsInSpace-Resistors" package="1616" value="5kΩ 0.1%" x="-84.8" y="-297" smashed="yes">
+<attribute name="NAME" x="-84.8" y="-295.1" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="PACKAGE" value="1616" x="-84.8" y="-297" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="POWER" value="1/8W" x="-84.8" y="-297" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="SKU" value="26-0007" x="-84.8" y="-297" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="TEMP" value="±10ppm/°C" x="-84.8" y="-297" size="0.8" layer="27" font="vector" ratio="15" display="off"/>
 </element>
 </elements>
 <signals>
@@ -15921,7 +15950,9 @@ design rules under a new name.</description>
 <signal name="PA_PDET-700">
 <contactref element="U32" pad="1"/>
 <contactref element="U32" pad="4"/>
+<contactref element="RN4" pad="2"/>
 <wire x1="-77.29" y1="-139.55" x2="-79.91" y2="-137.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-84.33" y1="-297.7" x2="-77.29" y2="-139.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA_RFOUT-700">
 <contactref element="U19" pad="7"/>
