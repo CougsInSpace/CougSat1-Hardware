@@ -2641,14 +2641,6 @@ None functional footprints to increase the aesthetic</description>
 <pin name="3.3V_0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="3.556" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="3.3V-2">
-<description>&lt;h3&gt;3.3V Supply - Channel 2&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="0.762" y="0.508" size="0.8128" layer="94" align="center">2</text>
-<pin name="3.3V_2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="3.556" size="1.27" layer="96" align="center">&gt;VALUE</text>
-</symbol>
 <symbol name="5.0V-0">
 <description>&lt;h3&gt;5.0V Supply - Channel 0&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -2831,19 +2823,6 @@ None functional footprints to increase the aesthetic</description>
 <description>&lt;h3&gt;3.3V Supply - Channel 0&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="3.3V-0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="3.3V-2" prefix="SUPPLY">
-<description>&lt;h3&gt;3.3V Supply - Channel 2&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="3.3V-2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -4512,6 +4491,8 @@ None functional footprints to increase the aesthetic</description>
 <wire x1="90.4" y1="-47.4" x2="90.4" y2="-44.9" width="0" layer="20"/>
 <rectangle x1="0" y1="-15.2" x2="5.7" y2="36.2" layer="29"/>
 <rectangle x1="0" y1="-15.2" x2="5.7" y2="36.2" layer="30"/>
+<rectangle x1="0" y1="-15.2" x2="8" y2="36.2" layer="40"/>
+<rectangle x1="0" y1="-15.2" x2="8" y2="36.2" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -4893,12 +4874,8 @@ None functional footprints to increase the aesthetic</description>
 <wire x1="2.325" y1="2.325" x2="2.325" y2="-2.325" width="0.15" layer="39"/>
 <wire x1="2.325" y1="-2.325" x2="-2.325" y2="-2.325" width="0.15" layer="39"/>
 <wire x1="-2.325" y1="-2.325" x2="-2.325" y2="2.325" width="0.15" layer="39"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2.325" y="-2.325"/>
-<vertex x="-0.95" y="-2.325"/>
-<vertex x="-2.325" y="-0.95"/>
-</polygon>
 <text x="0" y="2.9" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-2.3" y1="-2.3" x2="-0.6" y2="-1.2" layer="21"/>
 </package>
 <package name="BNC-T-R">
 <description>&lt;h3&gt;BNC - Female - Right angle&lt;/h3&gt;</description>
@@ -6377,6 +6354,52 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="-4.15" y1="-4.15" x2="-4.15" y2="4.15" width="0.15" layer="21"/>
 <rectangle x1="-1.4" y1="-3.7" x2="1.4" y2="3.7" layer="41"/>
 </package>
+<package name="SRU1038">
+<description>&lt;h3&gt;Bourns SRU1038&lt;/h3&gt;</description>
+<smd name="2" x="4.5" y="0" dx="1.8" dy="4" layer="1"/>
+<smd name="1" x="-4.5" y="0" dx="1.8" dy="4" layer="1"/>
+<wire x1="-5" y1="2.1" x2="-2.1" y2="5" width="0.15" layer="51"/>
+<wire x1="-2.1" y1="5" x2="2.1" y2="5" width="0.15" layer="51"/>
+<wire x1="2.1" y1="5" x2="5" y2="2.1" width="0.15" layer="51"/>
+<wire x1="5" y1="2.1" x2="5" y2="-2.1" width="0.15" layer="51"/>
+<wire x1="5" y1="-2.1" x2="2.1" y2="-5" width="0.15" layer="51"/>
+<wire x1="2.1" y1="-5" x2="-2.1" y2="-5" width="0.15" layer="51"/>
+<wire x1="-2.1" y1="-5" x2="-5" y2="-2.1" width="0.15" layer="51"/>
+<wire x1="-5" y1="-2.1" x2="-5" y2="2.1" width="0.15" layer="51"/>
+<wire x1="-4.9" y1="2.2" x2="-2.1" y2="5" width="0.15" layer="21"/>
+<wire x1="-2.1" y1="5" x2="2.1" y2="5" width="0.15" layer="21"/>
+<wire x1="2.1" y1="5" x2="4.9" y2="2.2" width="0.15" layer="21"/>
+<wire x1="4.9" y1="-2.2" x2="2.1" y2="-5" width="0.15" layer="21"/>
+<wire x1="2.1" y1="-5" x2="-2.1" y2="-5" width="0.15" layer="21"/>
+<wire x1="-2.1" y1="-5" x2="-4.9" y2="-2.2" width="0.15" layer="21"/>
+<polygon width="0.15" layer="39">
+<vertex x="-3.4" y="-2.2"/>
+<vertex x="-4.1" y="-2.9"/>
+<vertex x="-4.1" y="-3"/>
+<vertex x="-2.1" y="-5"/>
+<vertex x="2.1" y="-5"/>
+<vertex x="4.1" y="-3"/>
+<vertex x="4.1" y="-2.9"/>
+<vertex x="3.4" y="-2.2"/>
+<vertex x="3.4" y="2.2"/>
+<vertex x="4.1" y="2.9"/>
+<vertex x="4.1" y="3"/>
+<vertex x="2.1" y="5"/>
+<vertex x="-2.1" y="5"/>
+<vertex x="-4.1" y="3"/>
+<vertex x="-4.1" y="2.9"/>
+<vertex x="-3.4" y="2.2"/>
+</polygon>
+<wire x1="-5.7" y1="2" x2="-2.3" y2="5.4" width="0.15" layer="22"/>
+<wire x1="-2.3" y1="5.4" x2="2.3" y2="5.4" width="0.15" layer="22"/>
+<wire x1="2.3" y1="5.4" x2="5.7" y2="2" width="0.15" layer="22"/>
+<wire x1="5.7" y1="2" x2="5.7" y2="-2" width="0.15" layer="22"/>
+<wire x1="5.7" y1="-2" x2="2.3" y2="-5.4" width="0.15" layer="22"/>
+<wire x1="2.3" y1="-5.4" x2="-2.3" y2="-5.4" width="0.15" layer="22"/>
+<wire x1="-2.3" y1="-5.4" x2="-5.7" y2="-2" width="0.15" layer="22"/>
+<wire x1="-5.7" y1="-2" x2="-5.7" y2="2" width="0.15" layer="22"/>
+<text x="0" y="5.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CHOKE-H">
@@ -6679,6 +6702,21 @@ Last character is an incremented letter for each variant of the same value and p
 </technology>
 </technologies>
 </device>
+<device name="-SRU1038" package="SRU1038">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-10UH">
+<attribute name="CURRENT" value="3.6A"/>
+<attribute name="DCR" value="25mΩ"/>
+<attribute name="PACKAGE" value="SRU1038"/>
+<attribute name="SKU" value="34-103B"/>
+<attribute name="VALUE" value="10µH 30%"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="INDUCTOR-V" prefix="L">
@@ -6841,6 +6879,21 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="PACKAGE" value="1608"/>
 <attribute name="SKU" value="31-9.1A"/>
 <attribute name="VALUE" value="9.1nH 2%"/>
+</technology>
+</technologies>
+</device>
+<device name="-SRU1038" package="SRU1038">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="-10UH">
+<attribute name="CURRENT" value="3.6A"/>
+<attribute name="DCR" value="25mΩ"/>
+<attribute name="PACKAGE" value="SRU1038"/>
+<attribute name="SKU" value="34-103B"/>
+<attribute name="VALUE" value="10µH 30%"/>
 </technology>
 </technologies>
 </device>
@@ -9721,11 +9774,11 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="50Ohm" width="0.3" drill="0">
-<clearance class="1" value="0.16"/>
+<class number="1" name="50Ohm" width="0.22" drill="0">
+<clearance class="1" value="0.5"/>
 </class>
-<class number="2" name="200Ohm" width="0.16" drill="0">
-<clearance class="2" value="0.3"/>
+<class number="2" name="200Ohm" width="0.25" drill="0">
+<clearance class="2" value="0.6"/>
 </class>
 <class number="3" name="Supplies" width="0.25" drill="0">
 </class>
@@ -9972,7 +10025,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="DIA31" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA32" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA41" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
-<part name="SUPPLY129" library="CougsInSpace-PowerSymbols" deviceset="3.3V-2" device=""/>
 <part name="C5" library="CougsInSpace-Capacitors" deviceset="CAP-POL-V" device="-4028" technology="-47UF" value="47µF"/>
 <part name="J1" library="CougsInSpace-Connectors" deviceset="COAX" device="-U.FL" value="230mm Antenna"/>
 <part name="C143" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
@@ -10864,6 +10916,7 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="SUPPLY194" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R13" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="RN4" library="CougsInSpace-Resistors" deviceset="RES-H-PAIRED" device="-1616" technology="-5K" value="5kΩ 0.1%"/>
+<part name="SUPPLY129" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13625,10 +13678,11 @@ JTAG termination</text>
 <pinref part="SUPPLY397" gate="G$1" pin="3.3V_0"/>
 </segment>
 <segment>
-<pinref part="J2" gate="POWER" pin="PWR_CTRL_SW"/>
 <pinref part="SUPPLY86" gate="G$1" pin="3.3V_0"/>
-<wire x1="241.3" y1="182.88" x2="246.38" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="182.88" x2="246.38" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-0"/>
+<wire x1="241.3" y1="180.34" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="180.34" x2="246.38" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BUS_CTRL_SYNC" class="0">
@@ -18648,9 +18702,6 @@ Divides by 2</text>
 <attribute name="TEMP" x="229.87" y="139.7" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="229.87" y="144.272" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY129" gate="G$1" x="127" y="175.26" smashed="yes">
-<attribute name="VALUE" x="127" y="178.816" size="1.27" layer="96" align="center"/>
-</instance>
 <instance part="Y4" gate="G$1" x="101.6" y="170.18" smashed="yes">
 <attribute name="NAME" x="101.6" y="176.53" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="101.6" y="163.83" size="1.778" layer="96" align="center"/>
@@ -18910,6 +18961,9 @@ Divides by 2</text>
 <instance part="SUPPLY180" gate="G$1" x="15.24" y="58.42" smashed="yes"/>
 <instance part="SUPPLY181" gate="G$1" x="15.24" y="45.72" smashed="yes"/>
 <instance part="SUPPLY182" gate="G$1" x="15.24" y="7.62" smashed="yes"/>
+<instance part="SUPPLY129" gate="G$1" x="127" y="175.26" smashed="yes">
+<attribute name="VALUE" x="127" y="178.816" size="1.27" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19109,26 +19163,6 @@ Divides by 2</text>
 <label x="189.23" y="165.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="3.3V_2" class="0">
-<segment>
-<pinref part="U20" gate="G$1" pin="AVDD"/>
-<wire x1="129.54" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U20" gate="G$1" pin="DVDD"/>
-<wire x1="129.54" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="127" y1="170.18" x2="127" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="U20" gate="G$1" pin="VVCO"/>
-<wire x1="129.54" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="127" y1="167.64" x2="127" y2="170.18" width="0.1524" layer="91"/>
-<junction x="127" y="170.18"/>
-<wire x1="127" y1="172.72" x2="127" y2="175.26" width="0.1524" layer="91"/>
-<junction x="127" y="172.72"/>
-<pinref part="U20" gate="G$1" pin="CE"/>
-<wire x1="129.54" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="127" y1="149.86" x2="127" y2="167.64" width="0.1524" layer="91"/>
-<junction x="127" y="167.64"/>
-<pinref part="SUPPLY129" gate="G$1" pin="3.3V_2"/>
-</segment>
-</net>
 <net name="RFCLK_REFIN-DEMOD" class="0">
 <segment>
 <wire x1="124.46" y1="170.18" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
@@ -19299,6 +19333,24 @@ Divides by 2</text>
 <segment>
 <pinref part="C191" gate="G$1" pin="1"/>
 <pinref part="SUPPLY441" gate="G$1" pin="3.1V_2"/>
+</segment>
+<segment>
+<pinref part="U20" gate="G$1" pin="AVDD"/>
+<wire x1="129.54" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U20" gate="G$1" pin="DVDD"/>
+<wire x1="129.54" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="127" y1="170.18" x2="127" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U20" gate="G$1" pin="VVCO"/>
+<wire x1="129.54" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="127" y1="167.64" x2="127" y2="170.18" width="0.1524" layer="91"/>
+<junction x="127" y="170.18"/>
+<wire x1="127" y1="172.72" x2="127" y2="175.26" width="0.1524" layer="91"/>
+<junction x="127" y="172.72"/>
+<pinref part="U20" gate="G$1" pin="CE"/>
+<wire x1="129.54" y1="149.86" x2="127" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="127" y1="149.86" x2="127" y2="167.64" width="0.1524" layer="91"/>
+<junction x="127" y="167.64"/>
+<pinref part="SUPPLY129" gate="G$1" pin="3.1V_2"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
@@ -22865,7 +22917,7 @@ Length 3mm</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,5,241.3,180.34,J2POWER,PR_3.3V-0,,,,"/>
+<approved hash="104,5,241.3,180.34,J2POWER,PR_3.3V-0,3.3V_0,,,"/>
 <approved hash="204,5,241.3,177.8,J2POWER,PR_3.3V-1,,,,"/>
 <approved hash="204,5,241.3,175.26,J2POWER,PR_3.3V-2,,,,"/>
 <approved hash="204,5,241.3,172.72,J2POWER,PR_3.3V-3,,,,"/>
