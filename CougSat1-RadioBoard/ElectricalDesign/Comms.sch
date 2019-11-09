@@ -9830,7 +9830,7 @@ Lid needs manual filing or spacer where traces go under</text>
 <variantdef name="Main"/>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.16" drill="0">
 </class>
 <class number="1" name="50Ohm" width="0.2" drill="0">
 <clearance class="1" value="0.16"/>
@@ -10785,8 +10785,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY235" library="CougsInSpace-PowerSymbols" deviceset="3.1V-1" device=""/>
 <part name="SUPPLY238" library="CougsInSpace-PowerSymbols" deviceset="3.1V-1" device=""/>
 <part name="SUPPLY239" library="CougsInSpace-PowerSymbols" deviceset="3.1V-1" device=""/>
-<part name="OFFSHEET92" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET94" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="C151" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10PF" value="10pF 5%"/>
 <part name="C156" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-18PF" value="18pF 1%"/>
 <part name="C185" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
@@ -10965,6 +10963,9 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="RN4" library="CougsInSpace-Resistors" deviceset="RES-H-PAIRED" device="-1616" technology="-5K" value="5kΩ 0.1%"/>
 <part name="SUPPLY129" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
 <part name="SUPPLY195" library="CougsInSpace-PowerSymbols" deviceset="RFGND-1" device=""/>
+<part name="SUPPLY197" library="CougsInSpace-PowerSymbols" deviceset="RFGND-1" device=""/>
+<part name="OFFSHEET92" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET94" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12320,8 +12321,6 @@ Amplifier</text>
 <attribute name="SKU" x="237.49" y="159.512" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="OFFSHEET208" gate="G$1" x="251.46" y="142.24" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET92" gate="G$1" x="302.26" y="165.1" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET94" gate="G$1" x="302.26" y="167.64" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET115" gate="G$1" x="302.26" y="86.36" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET129" gate="G$1" x="48.26" y="86.36" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET138" gate="G$1" x="302.26" y="78.74" smashed="yes" rot="MR0"/>
@@ -12387,6 +12386,8 @@ Amplifier</text>
 <instance part="SUPPLY153" gate="G$1" x="228.6" y="137.16" smashed="yes">
 <attribute name="VALUE" x="228.6" y="140.716" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="OFFSHEET92" gate="G$1" x="302.26" y="167.64" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET94" gate="G$1" x="302.26" y="165.1" smashed="yes" rot="MR0"/>
 </instances>
 <busses>
 <bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK-230,DAC_BUS_CLK-700,DAC_SELECT_I/!Q">
@@ -12827,7 +12828,7 @@ Amplifier</text>
 <label x="273.05" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <wire x1="99.06" y1="172.72" x2="93.98" y2="172.72" width="0.1524" layer="91"/>
 <junction x="93.98" y="172.72"/>
@@ -13545,7 +13546,7 @@ JTAG termination</text>
 <pinref part="J2" gate="JTAG" pin="BUS_JTAG_EN-0"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <wire x1="121.92" y1="48.26" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
@@ -13605,7 +13606,7 @@ JTAG termination</text>
 <pinref part="SUPPLY62" gate="G$1" pin="3.3V_6"/>
 </segment>
 </net>
-<net name="3.3V_5" class="0">
+<net name="3.3V_5" class="3">
 <segment>
 <wire x1="93.98" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
@@ -13701,7 +13702,7 @@ JTAG termination</text>
 <pinref part="J2" gate="DATA" pin="!COM_SPI_CS"/>
 </segment>
 </net>
-<net name="3.3V_0" class="0">
+<net name="3.3V_0" class="3">
 <segment>
 <wire x1="93.98" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="147.32" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
@@ -14339,7 +14340,7 @@ JTAG termination</text>
 <wire x1="101.6" y1="139.7" x2="101.6" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <pinref part="U48" gate="G$1" pin="VDRIVE"/>
 <pinref part="SUPPLY20" gate="G$1" pin="3.3V_6"/>
@@ -15027,7 +15028,7 @@ Gain: 100000
 <wire x1="127" y1="104.14" x2="127" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.0V" class="0">
+<net name="5.0V" class="3">
 <segment>
 <wire x1="180.34" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="137.16" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
@@ -15701,7 +15702,7 @@ Decoupling</text>
 <pinref part="SUPPLY425" gate="G$1" pin="PGND"/>
 </segment>
 </net>
-<net name="5.0V" class="0">
+<net name="5.0V" class="3">
 <segment>
 <pinref part="SUPPLY270" gate="G$1" pin="5.0V"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
@@ -15721,7 +15722,7 @@ Decoupling</text>
 <pinref part="SUPPLY428" gate="G$1" pin="5.0V"/>
 </segment>
 </net>
-<net name="5.0V_1" class="0">
+<net name="5.0V_1" class="3">
 <segment>
 <pinref part="R119" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="91.44" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
@@ -15828,7 +15829,7 @@ Decoupling</text>
 <junction x="91.44" y="157.48"/>
 </segment>
 </net>
-<net name="3.1V_0" class="0">
+<net name="3.1V_0" class="3">
 <segment>
 <pinref part="U2" gate="G$1" pin="OUT"/>
 <wire x1="127" y1="170.18" x2="134.62" y2="170.18" width="0.1524" layer="91"/>
@@ -15966,7 +15967,7 @@ Decoupling</text>
 <junction x="96.52" y="43.18"/>
 </segment>
 </net>
-<net name="3.1V_1" class="0">
+<net name="3.1V_1" class="3">
 <segment>
 <pinref part="U14" gate="G$1" pin="OUT"/>
 <wire x1="127" y1="106.68" x2="134.62" y2="106.68" width="0.1524" layer="91"/>
@@ -15977,7 +15978,7 @@ Decoupling</text>
 <pinref part="SUPPLY95" gate="G$1" pin="3.1V_1"/>
 </segment>
 </net>
-<net name="3.1V_2" class="0">
+<net name="3.1V_2" class="3">
 <segment>
 <pinref part="U51" gate="G$1" pin="OUT"/>
 <wire x1="127" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
@@ -16057,7 +16058,7 @@ Decoupling</text>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
-<net name="5.0V_0" class="0">
+<net name="5.0V_0" class="3">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="154.94" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
@@ -16111,7 +16112,7 @@ Decoupling</text>
 <label x="101.6" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <wire x1="81.28" y1="58.42" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
@@ -16643,7 +16644,7 @@ Adjust resistors to 2mA</text>
 <label x="160.02" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RFCLK_REFIN-230" class="1">
+<net name="RFCLK_REFIN-230" class="0">
 <segment>
 <wire x1="124.46" y1="170.18" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
@@ -16652,7 +16653,7 @@ Adjust resistors to 2mA</text>
 <pinref part="C64" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="REF_CLK_VDD-0" class="0">
+<net name="REF_CLK_VDD-0" class="3">
 <segment>
 <pinref part="Y1" gate="G$1" pin="VDD"/>
 <wire x1="93.98" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
@@ -16796,14 +16797,14 @@ Adjust resistors to 2mA</text>
 <pinref part="SUPPLY161" gate="G$1" pin="RFGND-0"/>
 </segment>
 </net>
-<net name="RFCLK_REFOUT-230" class="1">
+<net name="RFCLK_REFOUT-230" class="0">
 <segment>
 <pinref part="Y1" gate="G$1" pin="OUT"/>
 <wire x1="109.22" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C64" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="3.1V_0" class="0">
+<net name="3.1V_0" class="3">
 <segment>
 <pinref part="U5" gate="G$1" pin="AVDD"/>
 <wire x1="129.54" y1="172.72" x2="127" y2="172.72" width="0.1524" layer="91"/>
@@ -16898,7 +16899,7 @@ Adjust resistors to 2mA</text>
 <wire x1="149.86" y1="38.1" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RFCLK_L2-230" class="3">
+<net name="RFCLK_L2-230" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="L2"/>
 <wire x1="160.02" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
@@ -16906,7 +16907,7 @@ Adjust resistors to 2mA</text>
 <pinref part="L13" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="RFCLK_L1-230" class="3">
+<net name="RFCLK_L1-230" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="L1"/>
 <wire x1="160.02" y1="157.48" x2="208.28" y2="157.48" width="0.1524" layer="91"/>
@@ -16998,7 +16999,7 @@ Adjust resistors to 2mA</text>
 <pinref part="U22" gate="G$1" pin="DB6"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <pinref part="U44" gate="G$1" pin="VCCA"/>
 <pinref part="SUPPLY306" gate="G$1" pin="3.3V_6"/>
@@ -17831,7 +17832,7 @@ Adjust resistors to 2mA</text>
 <wire x1="170.18" y1="149.86" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="REF_CLK_VDD-1" class="0">
+<net name="REF_CLK_VDD-1" class="3">
 <segment>
 <pinref part="Y5" gate="G$1" pin="VDD"/>
 <wire x1="93.98" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
@@ -17989,7 +17990,7 @@ Adjust resistors to 2mA</text>
 <pinref part="SUPPLY227" gate="G$1" pin="RFGND-1"/>
 </segment>
 </net>
-<net name="3.1V_1" class="0">
+<net name="3.1V_1" class="3">
 <segment>
 <pinref part="FB9" gate="G$1" pin="2"/>
 <pinref part="SUPPLY85" gate="G$1" pin="3.1V_1"/>
@@ -18070,7 +18071,7 @@ Adjust resistors to 2mA</text>
 <pinref part="SUPPLY239" gate="G$1" pin="3.1V_1"/>
 </segment>
 </net>
-<net name="RFCLK_REFOUT-MOD" class="1">
+<net name="RFCLK_REFOUT-MOD" class="0">
 <segment>
 <pinref part="Y5" gate="G$1" pin="OUT"/>
 <pinref part="C57" gate="G$1" pin="1"/>
@@ -18105,7 +18106,7 @@ Adjust resistors to 2mA</text>
 <pinref part="U16" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <pinref part="U18" gate="G$1" pin="VCCA"/>
 <pinref part="SUPPLY173" gate="G$1" pin="3.3V_6"/>
@@ -19120,7 +19121,7 @@ Divides by 2</text>
 <label x="189.23" y="165.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="RFCLK_REFIN-DEMOD" class="1">
+<net name="RFCLK_REFIN-DEMOD" class="0">
 <segment>
 <wire x1="124.46" y1="170.18" x2="124.46" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
@@ -19129,7 +19130,7 @@ Divides by 2</text>
 <pinref part="C62" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="REF_CLK_VDD-2" class="0">
+<net name="REF_CLK_VDD-2" class="3">
 <segment>
 <pinref part="Y4" gate="G$1" pin="VDD"/>
 <wire x1="93.98" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
@@ -19236,14 +19237,14 @@ Divides by 2</text>
 <pinref part="SUPPLY440" gate="G$1" pin="RFGND-1"/>
 </segment>
 </net>
-<net name="RFCLK_REFOUT-DEMOD" class="1">
+<net name="RFCLK_REFOUT-DEMOD" class="0">
 <segment>
 <pinref part="Y4" gate="G$1" pin="OUT"/>
 <wire x1="109.22" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C62" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="3.1V_2" class="0">
+<net name="3.1V_2" class="3">
 <segment>
 <pinref part="FB4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY124" gate="G$1" pin="3.1V_2"/>
@@ -19324,7 +19325,7 @@ Divides by 2</text>
 <pinref part="U54" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="3.3V_6" class="0">
+<net name="3.3V_6" class="3">
 <segment>
 <pinref part="U55" gate="G$1" pin="VCCA"/>
 <pinref part="SUPPLY433" gate="G$1" pin="3.3V_6"/>
@@ -20258,7 +20259,7 @@ Length 3mm</text>
 <wire x1="226.06" y1="162.56" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5.0V_0" class="0">
+<net name="5.0V_0" class="3">
 <segment>
 <pinref part="R87" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="175.26" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
@@ -20383,7 +20384,7 @@ Length 3mm</text>
 <label x="109.22" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="3.1V_0" class="0">
+<net name="3.1V_0" class="3">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="180.34" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
@@ -21317,7 +21318,7 @@ Length 3mm</text>
 <pinref part="SUPPLY285" gate="G$1" pin="PGND"/>
 </segment>
 </net>
-<net name="5.0V" class="0">
+<net name="5.0V" class="3">
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
 <pinref part="SUPPLY185" gate="G$1" pin="5.0V"/>
@@ -21412,7 +21413,7 @@ Length 3mm</text>
 <junction x="175.26" y="81.28"/>
 </segment>
 </net>
-<net name="5.0V_1" class="0">
+<net name="5.0V_1" class="3">
 <segment>
 <pinref part="L8" gate="G$1" pin="2"/>
 <pinref part="SUPPLY263" gate="G$1" pin="5.0V_1"/>
@@ -21543,7 +21544,7 @@ Length 3mm</text>
 <wire x1="106.68" y1="76.2" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.1V_1" class="0">
+<net name="3.1V_1" class="3">
 <segment>
 <pinref part="R75" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="180.34" x2="38.1" y2="177.8" width="0.1524" layer="91"/>
@@ -21901,6 +21902,15 @@ Length 3mm</text>
 <instance part="SUPPLY371" gate="G$1" x="99.06" y="165.1" smashed="yes">
 <attribute name="VALUE" x="99.06" y="168.656" size="1.27" layer="96" align="center"/>
 </instance>
+<instance part="SUPPLY197" gate="G$1" x="38.1" y="93.98" smashed="yes"/>
+<instance part="Q3" gate="B" x="38.1" y="101.6" smashed="yes">
+<attribute name="NAME" x="41.656" y="105.41" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="41.656" y="103.886" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="41.656" y="102.362" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="41.656" y="100.838" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="41.656" y="99.314" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="41.656" y="97.79" size="1.27" layer="97" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22093,8 +22103,20 @@ Length 3mm</text>
 <pinref part="C201" gate="G$1" pin="2"/>
 <pinref part="SUPPLY351" gate="G$1" pin="RFGND-1"/>
 </segment>
+<segment>
+<pinref part="SUPPLY197" gate="G$1" pin="RFGND-1"/>
+<wire x1="38.1" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="106.68" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="99.06" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="B" pin="G"/>
+<junction x="30.48" y="99.06"/>
+<pinref part="Q3" gate="B" pin="D"/>
+<pinref part="Q3" gate="B" pin="S"/>
+<junction x="38.1" y="96.52"/>
+</segment>
 </net>
-<net name="3.1V_2" class="0">
+<net name="3.1V_2" class="3">
 <segment>
 <pinref part="R67" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="165.1" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
@@ -22516,7 +22538,7 @@ Length 3mm</text>
 <label x="60.96" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DEMOD_700_BALUN_PRIMARY1" class="1">
+<net name="DEMOD_700_BALUN_PRIMARY1" class="2">
 <segment>
 <pinref part="C124" gate="G$1" pin="2"/>
 <pinref part="Z1" gate="G$1" pin="PRIMARY-DOT"/>
@@ -22712,7 +22734,7 @@ Length 3mm</text>
 <wire x1="93.98" y1="116.84" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.1V_2" class="0">
+<net name="3.1V_2" class="3">
 <segment>
 <pinref part="R59" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="170.18" x2="68.58" y2="167.64" width="0.1524" layer="91"/>
