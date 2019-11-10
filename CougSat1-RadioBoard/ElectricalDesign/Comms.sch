@@ -9811,12 +9811,14 @@ Lid needs manual filing or spacer where traces go under</text>
 <class number="0" name="default" width="0.16" drill="0">
 </class>
 <class number="1" name="50Ohm" width="0.2" drill="0">
-<clearance class="1" value="0.6"/>
+<clearance class="1" value="0.2"/>
 </class>
 <class number="2" name="200Ohm" width="0.1" drill="0">
 <clearance class="2" value="0.16"/>
 </class>
 <class number="3" name="Supplies" width="0.25" drill="0">
+</class>
+<class number="4" name="AGND" width="0.2" drill="0">
 </class>
 </classes>
 <parts>
@@ -11934,7 +11936,7 @@ Amplifier</text>
 <wire x1="27.94" y1="15.24" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="R71" gate="G$1" pin="1"/>
 <pinref part="SUPPLY365" gate="G$1" pin="AGND"/>
@@ -12498,7 +12500,7 @@ Amplifier</text>
 <label x="20.32" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <wire x1="139.7" y1="172.72" x2="142.24" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="AGND"/>
@@ -14058,7 +14060,7 @@ JTAG termination</text>
 <busses>
 </busses>
 <nets>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="C93" gate="G$1" pin="C"/>
 <pinref part="SUPPLY109" gate="G$1" pin="AGND"/>
@@ -15017,7 +15019,7 @@ Gain: 100000
 <label x="91.44" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT19" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
@@ -15757,7 +15759,7 @@ Decoupling</text>
 <pinref part="SUPPLY67" gate="G$1" pin="3.1V_0"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="U50" gate="G$1" pin="REF"/>
 <pinref part="SUPPLY408" gate="G$1" pin="AGND"/>
@@ -15944,7 +15946,7 @@ Decoupling</text>
 <junction x="91.44" y="93.98"/>
 </segment>
 </net>
-<net name="I_5.0V-0P" class="0">
+<net name="I_5.0V-0P" class="3">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
@@ -16678,7 +16680,7 @@ Adjust resistors to 2mA</text>
 <pinref part="SUPPLY237" gate="G$1" pin="3.1V_0"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY274" gate="G$1" pin="AGND"/>
@@ -17852,7 +17854,7 @@ Adjust resistors to 2mA</text>
 <wire x1="109.22" y1="170.18" x2="114.3" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT7" gate="G$1" pin="2"/>
 <pinref part="SUPPLY217" gate="G$1" pin="AGND"/>
@@ -18357,7 +18359,7 @@ Adjust resistors to 2mA</text>
 <pinref part="U15" gate="G$1" pin="SLEEP"/>
 </segment>
 </net>
-<net name="N$7" class="3">
+<net name="N$7" class="0">
 <segment>
 <pinref part="L12" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
@@ -18837,7 +18839,7 @@ Divides by 2</text>
 <busses>
 </busses>
 <nets>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="R73" gate="G$1" pin="1"/>
 <pinref part="SUPPLY168" gate="G$1" pin="AGND"/>
@@ -20154,7 +20156,7 @@ Length 3mm</text>
 <wire x1="177.8" y1="93.98" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT1" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
@@ -21117,7 +21119,7 @@ Length 3mm</text>
 <junction x="15.24" y="20.32"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT9" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="132.08" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
@@ -21979,7 +21981,7 @@ Length 3mm</text>
 <pinref part="SUPPLY371" gate="G$1" pin="3.1V_2"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT11" gate="G$1" pin="2"/>
 <pinref part="SUPPLY302" gate="G$1" pin="AGND"/>
@@ -22631,7 +22633,7 @@ Length 3mm</text>
 <label x="60.96" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AGND" class="3">
+<net name="AGND" class="4">
 <segment>
 <pinref part="RT10" gate="G$1" pin="2"/>
 <pinref part="SUPPLY328" gate="G$1" pin="AGND"/>
