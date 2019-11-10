@@ -2657,15 +2657,6 @@ None functional footprints to increase the aesthetic</description>
 <pin name="5.0V_1" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="3.556" size="1.27" layer="96" align="center">&gt;VALUE</text>
 </symbol>
-<symbol name="RFGND-1">
-<description>&lt;h3&gt;Radio Frequency (RF) Ground - Channel 1&lt;/h3&gt;</description>
-<wire x1="-1.778" y1="0" x2="1.778" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-1.524" x2="0.762" y2="-1.524" width="0.254" layer="94"/>
-<text x="-1.27" y="0.254" size="1.27" layer="97" rot="R180" align="top-center">RF</text>
-<pin name="RFGND-1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0.762" y="0.762" size="0.8128" layer="94" align="center">1</text>
-</symbol>
 <symbol name="3.3V-6">
 <description>&lt;h3&gt;3.3V Supply - Channel 6&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
@@ -2840,19 +2831,6 @@ None functional footprints to increase the aesthetic</description>
 <description>&lt;h3&gt;5.0V Supply - Channel 1&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="5.0V-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RFGND-1" prefix="SUPPLY">
-<description>&lt;h3&gt;Radio Frequency (RF) Ground - Channel 1&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="RFGND-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -10697,8 +10675,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="L19" library="CougsInSpace-Coils" deviceset="INDUCTOR-V" device="-1608" technology="-5.6NH" value="5.6nH 2%"/>
 <part name="L20" library="CougsInSpace-Coils" deviceset="INDUCTOR-H" device="-1608" technology="-56NH" value="56nH 2%"/>
 <part name="C67" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-47PF" value="47pF 5%"/>
-<part name="SUPPLY246" library="CougsInSpace-PowerSymbols" deviceset="RFGND-1" device=""/>
-<part name="SUPPLY247" library="CougsInSpace-PowerSymbols" deviceset="RFGND-1" device=""/>
 <part name="C202" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-220PF" value="220pF 1%"/>
 <part name="SUPPLY263" library="CougsInSpace-PowerSymbols" deviceset="5.0V-1" device=""/>
 <part name="SUPPLY277" library="CougsInSpace-PowerSymbols" deviceset="5.0V-1" device=""/>
@@ -10938,6 +10914,9 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY195" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY309" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY310" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY246" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY247" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="SUPPLY325" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17634,6 +17613,7 @@ Adjust resistors to 2mA</text>
 <instance part="SUPPLY189" gate="1" x="88.9" y="162.56" smashed="yes"/>
 <instance part="SUPPLY191" gate="1" x="83.82" y="162.56" smashed="yes"/>
 <instance part="SUPPLY198" gate="1" x="20.32" y="170.18" smashed="yes"/>
+<instance part="SUPPLY325" gate="1" x="218.44" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 <bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK-230,DAC_BUS_CLK-700,DAC_SELECT_I/!Q">
@@ -18073,6 +18053,16 @@ Adjust resistors to 2mA</text>
 <pinref part="C189" gate="G$1" pin="2"/>
 <pinref part="SUPPLY198" gate="1" pin="DGND"/>
 </segment>
+<segment>
+<pinref part="L12" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R83" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="137.16" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="137.16" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
+<junction x="218.44" y="137.16"/>
+<pinref part="SUPPLY325" gate="1" pin="DGND"/>
+</segment>
 </net>
 <net name="MOD_SCK" class="0">
 <segment>
@@ -18357,17 +18347,6 @@ Adjust resistors to 2mA</text>
 <wire x1="111.76" y1="58.42" x2="78.74" y2="58.42" width="0.1524" layer="91"/>
 <label x="78.74" y="58.42" size="1.778" layer="95"/>
 <pinref part="U15" gate="G$1" pin="SLEEP"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="L12" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="137.16" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="137.16" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="137.16" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
-<junction x="218.44" y="137.16"/>
 </segment>
 </net>
 </nets>
@@ -20796,8 +20775,6 @@ Length 3mm</text>
 <attribute name="VOLTAGE" x="249.174" y="171.704" size="1.27" layer="97" align="center-left"/>
 <attribute name="TEMP" x="249.174" y="170.18" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY246" gate="G$1" x="63.5" y="60.96" smashed="yes" rot="MR0"/>
-<instance part="SUPPLY247" gate="G$1" x="142.24" y="71.12" smashed="yes"/>
 <instance part="C202" gate="G$1" x="170.18" y="81.28" smashed="yes">
 <attribute name="NAME" x="168.91" y="84.582" size="1.27" layer="95" align="center"/>
 <attribute name="VALUE" x="168.656" y="77.978" size="1.27" layer="96" align="center-right"/>
@@ -20874,6 +20851,8 @@ Length 3mm</text>
 <instance part="SUPPLY258" gate="1" x="15.24" y="25.4" smashed="yes"/>
 <instance part="SUPPLY259" gate="1" x="15.24" y="7.62" smashed="yes"/>
 <instance part="SUPPLY260" gate="1" x="30.48" y="7.62" smashed="yes"/>
+<instance part="SUPPLY246" gate="1" x="63.5" y="60.96" smashed="yes"/>
+<instance part="SUPPLY247" gate="1" x="142.24" y="71.12" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -21071,18 +21050,6 @@ Length 3mm</text>
 <pinref part="RT13" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="93.98" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RFGND-1" class="3">
-<segment>
-<pinref part="C193" gate="G$1" pin="2"/>
-<pinref part="SUPPLY246" gate="G$1" pin="RFGND-1"/>
-</segment>
-<segment>
-<pinref part="U19" gate="G$1" pin="RFGND"/>
-<pinref part="SUPPLY247" gate="G$1" pin="RFGND-1"/>
-<wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5.0V" class="3">
@@ -21522,6 +21489,16 @@ Length 3mm</text>
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
 <pinref part="SUPPLY260" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="C193" gate="G$1" pin="2"/>
+<pinref part="SUPPLY246" gate="1" pin="DGND"/>
+</segment>
+<segment>
+<pinref part="U19" gate="G$1" pin="RFGND"/>
+<wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY247" gate="1" pin="DGND"/>
 </segment>
 </net>
 </nets>
