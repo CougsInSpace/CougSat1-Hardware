@@ -21582,14 +21582,6 @@ Length 3mm</text>
 <attribute name="TEMP" x="179.07" y="119.38" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="179.07" y="123.952" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="Q12" gate="A" x="147.32" y="124.46" smashed="yes">
-<attribute name="NAME" x="150.876" y="128.27" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="150.876" y="126.746" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="150.876" y="125.222" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="150.876" y="123.698" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="150.876" y="122.174" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="150.876" y="120.65" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="OFFSHEET78" gate="G$1" x="121.92" y="121.92" smashed="yes"/>
 <instance part="C102" gate="G$1" x="241.3" y="139.7" smashed="yes">
 <attribute name="NAME" x="240.03" y="143.002" size="1.27" layer="95" align="center"/>
@@ -21768,14 +21760,6 @@ Length 3mm</text>
 <instance part="SUPPLY371" gate="G$1" x="99.06" y="165.1" smashed="yes">
 <attribute name="VALUE" x="99.06" y="168.656" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="Q3" gate="B" x="38.1" y="101.6" smashed="yes">
-<attribute name="NAME" x="41.656" y="105.41" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="41.656" y="103.886" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="41.656" y="102.362" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="41.656" y="100.838" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="41.656" y="99.314" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="41.656" y="97.79" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="SUPPLY197" gate="1" x="83.82" y="48.26" smashed="yes"/>
 <instance part="SUPPLY261" gate="1" x="101.6" y="48.26" smashed="yes"/>
 <instance part="SUPPLY262" gate="1" x="114.3" y="48.26" smashed="yes"/>
@@ -21793,8 +21777,24 @@ Length 3mm</text>
 <instance part="SUPPLY292" gate="1" x="99.06" y="129.54" smashed="yes"/>
 <instance part="SUPPLY293" gate="1" x="68.58" y="114.3" smashed="yes"/>
 <instance part="SUPPLY294" gate="1" x="55.88" y="114.3" smashed="yes"/>
-<instance part="SUPPLY295" gate="1" x="38.1" y="93.98" smashed="yes"/>
+<instance part="SUPPLY295" gate="1" x="83.82" y="27.94" smashed="yes"/>
 <instance part="SUPPLY296" gate="1" x="38.1" y="114.3" smashed="yes"/>
+<instance part="Q3" gate="B" x="147.32" y="124.46" smashed="yes">
+<attribute name="NAME" x="150.876" y="128.27" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="150.876" y="126.746" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="150.876" y="125.222" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="150.876" y="123.698" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="150.876" y="122.174" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="150.876" y="120.65" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q12" gate="A" x="83.82" y="35.56" smashed="yes">
+<attribute name="NAME" x="87.376" y="39.37" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="87.376" y="37.846" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="87.376" y="36.322" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="87.376" y="34.798" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="87.376" y="33.274" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="87.376" y="31.75" size="1.27" layer="97" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21839,9 +21839,9 @@ Length 3mm</text>
 </net>
 <net name="!RX_LNA_EN" class="0">
 <segment>
-<pinref part="Q12" gate="A" pin="G"/>
 <wire x1="139.7" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
 <label x="124.46" y="121.92" size="1.778" layer="95"/>
+<pinref part="Q3" gate="B" pin="G"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
@@ -21875,10 +21875,10 @@ Length 3mm</text>
 <wire x1="177.8" y1="144.78" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="144.78" x2="180.34" y2="144.78" width="0.1524" layer="91"/>
 <junction x="177.8" y="144.78"/>
-<pinref part="Q12" gate="A" pin="D"/>
 <wire x1="165.1" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="132.08" x2="147.32" y2="129.54" width="0.1524" layer="91"/>
 <junction x="165.1" y="132.08"/>
+<pinref part="Q3" gate="B" pin="D"/>
 </segment>
 </net>
 <net name="DEMOD_RF" class="1">
@@ -22046,9 +22046,9 @@ Length 3mm</text>
 <pinref part="SUPPLY269" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<pinref part="Q12" gate="A" pin="S"/>
 <wire x1="147.32" y1="119.38" x2="147.32" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="SUPPLY275" gate="1" pin="DGND"/>
+<pinref part="Q3" gate="B" pin="S"/>
 </segment>
 <segment>
 <pinref part="C91" gate="G$1" pin="2"/>
@@ -22099,16 +22099,16 @@ Length 3mm</text>
 <pinref part="SUPPLY294" gate="1" pin="DGND"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="106.68" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="99.06" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="Q3" gate="B" pin="G"/>
-<junction x="30.48" y="99.06"/>
-<pinref part="Q3" gate="B" pin="D"/>
-<pinref part="Q3" gate="B" pin="S"/>
+<wire x1="83.82" y1="40.64" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="40.64" x2="76.2" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY295" gate="1" pin="DGND"/>
-<junction x="38.1" y="96.52"/>
+<pinref part="Q12" gate="A" pin="G"/>
+<junction x="76.2" y="33.02"/>
+<pinref part="Q12" gate="A" pin="D"/>
+<pinref part="Q12" gate="A" pin="S"/>
+<junction x="83.82" y="30.48"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="A" pin="S"/>
