@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4409,9 +4409,9 @@ To ADCS</text>
 <label x="74.93" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN1"/>
-<wire x1="40.64" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<label x="28.702" y="172.974" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN7"/>
+<wire x1="40.64" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
+<label x="28.702" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM-1" class="0">
@@ -4425,9 +4425,9 @@ To ADCS</text>
 <label x="74.93" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN2"/>
-<wire x1="40.64" y1="170.18" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
-<label x="28.702" y="170.434" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN6"/>
+<wire x1="40.64" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
+<label x="28.702" y="160.274" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM-2" class="0">
@@ -4441,9 +4441,9 @@ To ADCS</text>
 <label x="74.93" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN3"/>
-<wire x1="40.64" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
-<label x="28.702" y="167.894" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN5"/>
+<wire x1="40.64" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
+<label x="28.702" y="162.814" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM-3" class="0">
@@ -4473,9 +4473,9 @@ To ADCS</text>
 <label x="74.93" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN5"/>
-<wire x1="40.64" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<label x="28.702" y="162.814" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN3"/>
+<wire x1="40.64" y1="167.64" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<label x="28.702" y="167.894" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM-5" class="0">
@@ -4489,9 +4489,9 @@ To ADCS</text>
 <label x="74.93" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN6"/>
-<wire x1="40.64" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
-<label x="28.702" y="160.274" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN2"/>
+<wire x1="40.64" y1="170.18" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<label x="28.702" y="170.434" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="THERM-6" class="0">
@@ -4505,9 +4505,9 @@ To ADCS</text>
 <label x="74.93" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IN7"/>
-<wire x1="40.64" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
-<label x="28.702" y="157.48" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IN1"/>
+<wire x1="40.64" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
+<label x="28.702" y="172.974" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RFGND" class="0">
