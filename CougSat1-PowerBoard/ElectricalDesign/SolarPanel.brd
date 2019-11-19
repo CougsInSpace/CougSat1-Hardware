@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2391,12 +2391,12 @@ design rules under a new name.</description>
 <element name="TP4" library="CougsInSpace-Connectors" package="THT-1.0" value="TEST_POINT-THT-1.0" x="-54.5" y="-249.6" smashed="yes">
 <attribute name="NAME" x="-54.5" y="-248" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R17" library="CougsInSpace-Resistors" package="1608" value="2kΩ 0.1%" x="-53.6" y="-253" smashed="yes">
+<element name="R17" library="CougsInSpace-Resistors" package="1608" value="1.33kΩ 0.1%" x="-53.6" y="-253" smashed="yes">
 <attribute name="NAME" x="-53.6" y="-251.6" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
-<attribute name="POWER" value="1/10W" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="21-2001" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="25ppm/°C" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
+<attribute name="POWER" value="1/5W" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="21-1331" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="50ppm/°C" x="-53.6" y="-253" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L1" library="CougsInSpace-Coils" package="SRU1038" value="10µH 30%" x="-61.5" y="-248.5" smashed="yes">
 <attribute name="CURRENT" value="3.6A" x="-61.5" y="-248.5" size="1.778" layer="27" display="off"/>
