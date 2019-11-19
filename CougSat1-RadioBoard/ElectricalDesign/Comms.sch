@@ -9996,9 +9996,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="L10" library="CougsInSpace-Coils" deviceset="INDUCTOR-V" device="-1608" technology="-4.3NH" value="4.3nH 2%"/>
 <part name="R69" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-470R" value="470Ω 0.5%"/>
 <part name="R64" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-470R" value="470Ω 0.5%"/>
-<part name="DS1" library="CougsInSpace-LEDs" deviceset="LED-V" device="-1608" technology="-GRN" value="Green"/>
-<part name="R115" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
-<part name="SUPPLY152" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="U4" library="CougsInSpace-RF" deviceset="AD834X" device="" technology="6" value="AD8346"/>
 <part name="C19" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1UF-B" value="1µF 10%"/>
 <part name="C24" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1NF-B" value="1nF 1%"/>
@@ -10235,19 +10232,11 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="Y3" library="CougsInSpace-Clocks" deviceset="CRYSTAL" device="-SMD-3215" technology="-32.768K" value="32.768kHz ±10ppm"/>
 <part name="DIA54" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
 <part name="DIA55" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
-<part name="OFFSHEET12" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET13" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET105" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET165" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET59" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET46" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET44" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET45" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET95" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET96" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET103" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET60" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET183" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY62" library="CougsInSpace-PowerSymbols" deviceset="3.3V-6" device=""/>
 <part name="SUPPLY63" library="CougsInSpace-PowerSymbols" deviceset="VBATT-6" device=""/>
 <part name="SUPPLY86" library="CougsInSpace-PowerSymbols" deviceset="3.3V-0" device=""/>
@@ -10369,7 +10358,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY413" library="CougsInSpace-PowerSymbols" deviceset="3.3V-6" device=""/>
 <part name="SUPPLY17" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET48" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET49" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY115" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="DS2" library="CougsInSpace-LEDs" deviceset="LED-V" device="-1608" technology="-GRN" value="Green"/>
 <part name="R62" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
@@ -10401,8 +10389,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="OFFSHEET63" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET64" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET70" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET71" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET73" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY68" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="C58" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF 10%"/>
 <part name="SUPPLY69" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
@@ -10467,7 +10453,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY430" library="CougsInSpace-PowerSymbols" deviceset="AVDD" device=""/>
 <part name="SUPPLY271" library="CougsInSpace-PowerSymbols" deviceset="5.0V-0" device=""/>
 <part name="OFFSHEET47" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
-<part name="OFFSHEET62" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET84" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET85" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="RT4" library="CougsInSpace-Resistors" deviceset="THERMISTOR-H" device="-1608" technology="-10K" value="10kΩ 5%"/>
@@ -10673,7 +10658,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY244" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET109" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET110" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET115" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY245" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
 <part name="SUPPLY288" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
 <part name="SUPPLY289" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
@@ -10686,7 +10670,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="OFFSHEET128" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET129" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET130" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET138" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY328" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET76" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="C77" library="CougsInSpace-Capacitors" deviceset="CAP-H" device="-1608" technology="-1NF-B" value="1nF 1%"/>
@@ -10713,7 +10696,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="OFFSHEET153" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET154" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET155" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="OFFSHEET158" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="C29" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="C35" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-10NF" value="10nF 10%"/>
 <part name="C44" library="CougsInSpace-Capacitors" deviceset="CAP-V" device="-1608" technology="-100PF" value="100pF 1%"/>
@@ -10778,7 +10760,6 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="R13" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-0" value="0Ω &lt;20mΩ"/>
 <part name="RN4" library="CougsInSpace-Resistors" deviceset="RES-H-PAIRED" device="-1616" technology="-5K" value="5kΩ 0.1%"/>
 <part name="SUPPLY129" library="CougsInSpace-PowerSymbols" deviceset="3.1V-2" device=""/>
-<part name="OFFSHEET92" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="SUPPLY5" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY23" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
 <part name="SUPPLY57" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
@@ -10918,6 +10899,25 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="SUPPLY335" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
 <part name="OFFSHEET1" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET94" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET49" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET12" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="DS1" library="CougsInSpace-LEDs" deviceset="LED-V" device="-1608" technology="-GRN" value="Green"/>
+<part name="R115" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-1K" value="1kΩ 0.1%"/>
+<part name="SUPPLY152" library="CougsInSpace-PowerSymbols" deviceset="DGND" device=""/>
+<part name="OFFSHEET71" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET138" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET96" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET60" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET165" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET92" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET105" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET95" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET103" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
+<part name="OFFSHEET183" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET115" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET73" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET62" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="OFFSHEET158" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12076,23 +12076,6 @@ Amplifier</text>
 <attribute name="TEMP" x="60.706" y="165.1" size="1.27" layer="97" rot="MR0" align="center-left"/>
 </instance>
 <instance part="SUPPLY108" gate="1" x="71.12" y="157.48" smashed="yes"/>
-<instance part="DS1" gate="G$1" x="63.5" y="88.9" smashed="yes">
-<attribute name="NAME" x="66.04" y="93.98" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="66.04" y="92.456" size="1.27" layer="95" align="center-left"/>
-<attribute name="SKU" x="66.04" y="90.932" size="1.27" layer="95" align="center-left"/>
-<attribute name="CURRENT" x="66.04" y="87.884" size="1.27" layer="95" align="center-left"/>
-<attribute name="VF" x="66.04" y="86.36" size="1.27" layer="95" align="center-left"/>
-<attribute name="PACKAGE" x="66.04" y="89.408" size="1.27" layer="95" align="center-left"/>
-</instance>
-<instance part="R115" gate="G$1" x="63.5" y="78.74" smashed="yes">
-<attribute name="NAME" x="64.77" y="83.82" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="64.77" y="82.296" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="64.77" y="79.248" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="64.77" y="77.724" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="64.77" y="76.2" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="64.77" y="80.772" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="SUPPLY152" gate="1" x="63.5" y="71.12" smashed="yes"/>
 <instance part="R53" gate="G$1" x="20.32" y="182.88" smashed="yes">
 <attribute name="NAME" x="21.59" y="187.96" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="21.59" y="186.436" size="1.27" layer="96" align="center-left"/>
@@ -12129,19 +12112,11 @@ Amplifier</text>
 <attribute name="LOADCAP" x="215.9" y="61.214" size="1.27" layer="97" align="center"/>
 <attribute name="SKU" x="215.9" y="62.738" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="OFFSHEET12" gate="G$1" x="48.26" y="88.9" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET13" gate="G$1" x="48.26" y="91.44" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET105" gate="G$1" x="48.26" y="22.86" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET165" gate="G$1" x="48.26" y="40.64" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET59" gate="G$1" x="127" y="73.66" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET46" gate="G$1" x="127" y="76.2" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET44" gate="G$1" x="127" y="78.74" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET45" gate="G$1" x="127" y="86.36" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET95" gate="G$1" x="48.26" y="17.78" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET96" gate="G$1" x="233.68" y="99.06" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET103" gate="G$1" x="48.26" y="12.7" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET60" gate="G$1" x="48.26" y="43.18" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET183" gate="G$1" x="48.26" y="20.32" smashed="yes" rot="MR0"/>
 <instance part="SUPPLY15" gate="G$1" x="91.44" y="175.26" smashed="yes">
 <attribute name="VALUE" x="91.44" y="178.816" size="1.27" layer="96" align="center"/>
 </instance>
@@ -12161,12 +12136,8 @@ Amplifier</text>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="139.7" y="132.08" smashed="yes"/>
-<instance part="OFFSHEET49" gate="G$1" x="233.68" y="96.52" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET70" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET71" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET73" gate="G$1" x="233.68" y="104.14" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET47" gate="G$1" x="48.26" y="35.56" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET62" gate="G$1" x="233.68" y="101.6" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET206" gate="G$1" x="170.18" y="149.86" smashed="yes"/>
 <instance part="OFFSHEET207" gate="G$1" x="170.18" y="119.38" smashed="yes"/>
 <instance part="OFFSHEET210" gate="G$1" x="170.18" y="157.48" smashed="yes"/>
@@ -12219,10 +12190,7 @@ Amplifier</text>
 <attribute name="SKU" x="237.49" y="159.512" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="OFFSHEET208" gate="G$1" x="251.46" y="142.24" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET115" gate="G$1" x="48.26" y="15.24" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET129" gate="G$1" x="48.26" y="86.36" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET138" gate="G$1" x="127" y="63.5" smashed="yes" rot="MR0"/>
-<instance part="OFFSHEET158" gate="G$1" x="48.26" y="25.4" smashed="yes" rot="MR0"/>
 <instance part="U6" gate="BASE" x="119.38" y="170.18" smashed="yes">
 <attribute name="NAME" x="119.38" y="189.23" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="119.38" y="151.13" size="1.778" layer="96" align="center"/>
@@ -12284,9 +12252,41 @@ Amplifier</text>
 <instance part="SUPPLY153" gate="G$1" x="228.6" y="137.16" smashed="yes">
 <attribute name="VALUE" x="228.6" y="140.716" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="OFFSHEET92" gate="G$1" x="48.26" y="38.1" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET1" gate="G$1" x="233.68" y="93.98" smashed="yes" rot="MR0"/>
 <instance part="OFFSHEET94" gate="G$1" x="233.68" y="91.44" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET49" gate="G$1" x="48.26" y="88.9" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET12" gate="G$1" x="48.26" y="96.52" smashed="yes" rot="MR0"/>
+<instance part="DS1" gate="G$1" x="63.5" y="20.32" smashed="yes">
+<attribute name="NAME" x="66.04" y="25.4" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="66.04" y="23.876" size="1.27" layer="95" align="center-left"/>
+<attribute name="SKU" x="66.04" y="22.352" size="1.27" layer="95" align="center-left"/>
+<attribute name="CURRENT" x="66.04" y="19.304" size="1.27" layer="95" align="center-left"/>
+<attribute name="VF" x="66.04" y="17.78" size="1.27" layer="95" align="center-left"/>
+<attribute name="PACKAGE" x="66.04" y="20.828" size="1.27" layer="95" align="center-left"/>
+</instance>
+<instance part="R115" gate="G$1" x="63.5" y="10.16" smashed="yes">
+<attribute name="NAME" x="64.77" y="15.24" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="64.77" y="13.716" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="64.77" y="10.668" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="64.77" y="9.144" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="64.77" y="7.62" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="64.77" y="12.192" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="SUPPLY152" gate="1" x="63.5" y="2.54" smashed="yes"/>
+<instance part="OFFSHEET71" gate="G$1" x="48.26" y="111.76" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET138" gate="G$1" x="48.26" y="93.98" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET96" gate="G$1" x="233.68" y="96.52" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET60" gate="G$1" x="127" y="88.9" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET165" gate="G$1" x="127" y="91.44" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET92" gate="G$1" x="48.26" y="30.48" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET105" gate="G$1" x="48.26" y="48.26" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET95" gate="G$1" x="48.26" y="43.18" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET103" gate="G$1" x="48.26" y="38.1" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET183" gate="G$1" x="48.26" y="45.72" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET115" gate="G$1" x="48.26" y="40.64" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET73" gate="G$1" x="233.68" y="101.6" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET62" gate="G$1" x="233.68" y="99.06" smashed="yes" rot="MR0"/>
+<instance part="OFFSHEET158" gate="G$1" x="233.68" y="104.14" smashed="yes" rot="MR0"/>
 </instances>
 <busses>
 <bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK-230,DAC_BUS_CLK-700,DAC_SELECT_I/!Q">
@@ -12363,11 +12363,6 @@ Amplifier</text>
 <pinref part="Y2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY152" gate="1" pin="DGND"/>
-<pinref part="R115" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="73.66" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C49" gate="G$1" pin="2"/>
 <pinref part="SUPPLY317" gate="1" pin="DGND"/>
 </segment>
@@ -12408,6 +12403,11 @@ Amplifier</text>
 <junction x="7.62" y="132.08"/>
 <pinref part="SUPPLY40" gate="1" pin="DGND"/>
 <junction x="45.72" y="132.08"/>
+</segment>
+<segment>
+<pinref part="SUPPLY152" gate="1" pin="DGND"/>
+<pinref part="R115" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="5.08" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -12610,21 +12610,6 @@ Amplifier</text>
 <pinref part="U6" gate="BASE" pin="PH1-OSC_OUT"/>
 </segment>
 </net>
-<net name="LED_C" class="0">
-<segment>
-<pinref part="R115" gate="G$1" pin="2"/>
-<pinref part="DS1" gate="G$1" pin="C"/>
-<wire x1="63.5" y1="83.82" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LED_A" class="0">
-<segment>
-<pinref part="DS1" gate="G$1" pin="A"/>
-<wire x1="63.5" y1="96.52" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="PA1"/>
-<wire x1="17.78" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="SWD_VSENSE" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="VSENSE"/>
@@ -12633,25 +12618,11 @@ Amplifier</text>
 <wire x1="20.32" y1="180.34" x2="20.32" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DEMOD_ID" class="0">
-<segment>
-<wire x1="17.78" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
-<label x="19.05" y="88.9" size="1.778" layer="95"/>
-<pinref part="U6" gate="A" pin="PA4"/>
-</segment>
-</net>
 <net name="DEMOD_QD" class="0">
 <segment>
 <wire x1="17.78" y1="91.44" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
 <label x="19.05" y="91.44" size="1.778" layer="95"/>
 <pinref part="U6" gate="A" pin="PA3"/>
-</segment>
-</net>
-<net name="MUXOUT-DEMOD" class="0">
-<segment>
-<wire x1="17.78" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
-<label x="19.05" y="22.86" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD10"/>
 </segment>
 </net>
 <net name="REG_EN-5" class="0">
@@ -12701,34 +12672,6 @@ Amplifier</text>
 <wire x1="200.66" y1="149.86" x2="172.72" y2="149.86" width="0.1524" layer="91"/>
 <label x="173.99" y="149.86" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="!CE"/>
-</segment>
-</net>
-<net name="!RFCLK_CS-MOD" class="0">
-<segment>
-<wire x1="17.78" y1="17.78" x2="45.72" y2="17.78" width="0.1524" layer="91"/>
-<label x="19.05" y="17.78" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD12"/>
-</segment>
-</net>
-<net name="ANTENNA_SW" class="0">
-<segment>
-<wire x1="17.78" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
-<label x="19.05" y="20.32" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD11"/>
-</segment>
-</net>
-<net name="MUXOUT-MOD" class="0">
-<segment>
-<wire x1="17.78" y1="12.7" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
-<label x="19.05" y="12.7" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD14"/>
-</segment>
-</net>
-<net name="MUXOUT-230" class="0">
-<segment>
-<wire x1="17.78" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<label x="19.05" y="43.18" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD2"/>
 </segment>
 </net>
 <net name="3.3V_6" class="3">
@@ -12830,13 +12773,6 @@ Amplifier</text>
 <pinref part="SUPPLY153" gate="G$1" pin="3.3V_6"/>
 </segment>
 </net>
-<net name="!ADC_RESET" class="0">
-<segment>
-<wire x1="203.2" y1="96.52" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="204.47" y="96.52" size="1.778" layer="95"/>
-<pinref part="U6" gate="C" pin="PC3"/>
-</segment>
-</net>
 <net name="PC_3.1V-0" class="0">
 <segment>
 <wire x1="17.78" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
@@ -12844,46 +12780,11 @@ Amplifier</text>
 <pinref part="U6" gate="D" pin="PD6"/>
 </segment>
 </net>
-<net name="PC_3.1V-1" class="0">
-<segment>
-<wire x1="17.78" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
-<label x="19.05" y="93.98" size="1.778" layer="95"/>
-<pinref part="U6" gate="A" pin="PA2"/>
-</segment>
-</net>
-<net name="PC_3.1V-2" class="0">
-<segment>
-<wire x1="203.2" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="204.47" y="104.14" size="1.778" layer="95"/>
-<pinref part="U6" gate="C" pin="PC0"/>
-</segment>
-</net>
 <net name="!PC_5.0V-0" class="0">
 <segment>
 <wire x1="17.78" y1="35.56" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <label x="19.05" y="35.56" size="1.778" layer="95"/>
 <pinref part="U6" gate="D" pin="PD5"/>
-</segment>
-</net>
-<net name="!PC_5.0V-1" class="0">
-<segment>
-<wire x1="203.2" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
-<label x="204.47" y="101.6" size="1.778" layer="95"/>
-<pinref part="U6" gate="C" pin="PC1"/>
-</segment>
-</net>
-<net name="!RFCLK_CS-DEMOD" class="0">
-<segment>
-<wire x1="203.2" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
-<label x="204.47" y="99.06" size="1.778" layer="95"/>
-<pinref part="U6" gate="C" pin="PC2"/>
-</segment>
-</net>
-<net name="!RFCLK_CS-230" class="0">
-<segment>
-<wire x1="17.78" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
-<label x="19.05" y="40.64" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD3"/>
 </segment>
 </net>
 <net name="FLASH_HOLD-A" class="0">
@@ -12902,39 +12803,11 @@ Amplifier</text>
 <wire x1="236.22" y1="119.38" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DAC_SLEEP-230" class="0">
-<segment>
-<wire x1="17.78" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="19.05" y="38.1" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD4"/>
-</segment>
-</net>
-<net name="PA_PD-700" class="0">
-<segment>
-<wire x1="17.78" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<label x="19.05" y="15.24" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD13"/>
-</segment>
-</net>
 <net name="DEMOD_VGIN" class="0">
 <segment>
 <wire x1="17.78" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="19.05" y="86.36" size="1.778" layer="95"/>
 <pinref part="U6" gate="A" pin="PA5"/>
-</segment>
-</net>
-<net name="DEMOD_ENABLE" class="0">
-<segment>
-<wire x1="96.52" y1="63.5" x2="124.46" y2="63.5" width="0.1524" layer="91"/>
-<label x="97.79" y="63.5" size="1.778" layer="95"/>
-<pinref part="U6" gate="B" pin="PB14"/>
-</segment>
-</net>
-<net name="!RX_LNA_EN" class="0">
-<segment>
-<wire x1="17.78" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="19.05" y="25.4" size="1.778" layer="95"/>
-<pinref part="U6" gate="D" pin="PD9"/>
 </segment>
 </net>
 <net name="!COM_SPI_CS" class="0">
@@ -13103,6 +12976,132 @@ Amplifier</text>
 <wire x1="203.2" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="204.47" y="91.44" size="1.778" layer="95"/>
 <pinref part="U6" gate="C" pin="PC5"/>
+</segment>
+</net>
+<net name="!ADC_RESET" class="0">
+<segment>
+<wire x1="17.78" y1="88.9" x2="45.72" y2="88.9" width="0.1524" layer="91"/>
+<label x="19.05" y="88.9" size="1.778" layer="95"/>
+<pinref part="U6" gate="A" pin="PA4"/>
+</segment>
+</net>
+<net name="DEMOD_ID" class="0">
+<segment>
+<wire x1="17.78" y1="96.52" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<label x="19.05" y="96.52" size="1.778" layer="95"/>
+<pinref part="U6" gate="A" pin="PA1"/>
+</segment>
+</net>
+<net name="LED_C" class="0">
+<segment>
+<pinref part="R115" gate="G$1" pin="2"/>
+<pinref part="DS1" gate="G$1" pin="C"/>
+<wire x1="63.5" y1="15.24" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_A" class="0">
+<segment>
+<pinref part="DS1" gate="G$1" pin="A"/>
+<wire x1="63.5" y1="27.94" x2="63.5" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U6" gate="D" pin="PD8"/>
+<wire x1="17.78" y1="27.94" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PC_3.1V-1" class="0">
+<segment>
+<wire x1="17.78" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+<label x="19.05" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DEMOD_ENABLE" class="0">
+<segment>
+<wire x1="17.78" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
+<label x="19.05" y="93.98" size="1.778" layer="95"/>
+<pinref part="U6" gate="A" pin="PA2"/>
+</segment>
+</net>
+<net name="!RFCLK_CS-DEMOD" class="0">
+<segment>
+<wire x1="203.2" y1="96.52" x2="231.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="204.47" y="96.52" size="1.778" layer="95"/>
+<pinref part="U6" gate="C" pin="PC3"/>
+</segment>
+</net>
+<net name="MUXOUT-230" class="0">
+<segment>
+<wire x1="96.52" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<label x="97.79" y="88.9" size="1.778" layer="95"/>
+<pinref part="U6" gate="B" pin="PB4"/>
+</segment>
+</net>
+<net name="!RFCLK_CS-230" class="0">
+<segment>
+<wire x1="96.52" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
+<label x="97.79" y="91.44" size="1.778" layer="95"/>
+<pinref part="U6" gate="B" pin="PB3"/>
+</segment>
+</net>
+<net name="DAC_SLEEP-230" class="0">
+<segment>
+<wire x1="17.78" y1="30.48" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<label x="19.05" y="30.48" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD7"/>
+</segment>
+</net>
+<net name="MUXOUT-DEMOD" class="0">
+<segment>
+<wire x1="17.78" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<label x="19.05" y="48.26" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD0"/>
+</segment>
+</net>
+<net name="!RFCLK_CS-MOD" class="0">
+<segment>
+<wire x1="17.78" y1="43.18" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
+<label x="19.05" y="43.18" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD2"/>
+</segment>
+</net>
+<net name="ANTENNA_SW" class="0">
+<segment>
+<wire x1="17.78" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
+<label x="19.05" y="45.72" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD1"/>
+</segment>
+</net>
+<net name="MUXOUT-MOD" class="0">
+<segment>
+<wire x1="17.78" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="19.05" y="38.1" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD4"/>
+</segment>
+</net>
+<net name="PA_PD-700" class="0">
+<segment>
+<wire x1="17.78" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<label x="19.05" y="40.64" size="1.778" layer="95"/>
+<pinref part="U6" gate="D" pin="PD3"/>
+</segment>
+</net>
+<net name="PC_3.1V-2" class="0">
+<segment>
+<wire x1="203.2" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
+<label x="204.47" y="101.6" size="1.778" layer="95"/>
+<pinref part="U6" gate="C" pin="PC1"/>
+</segment>
+</net>
+<net name="!PC_5.0V-1" class="0">
+<segment>
+<wire x1="203.2" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="204.47" y="99.06" size="1.778" layer="95"/>
+<pinref part="U6" gate="C" pin="PC2"/>
+</segment>
+</net>
+<net name="!RX_LNA_EN" class="0">
+<segment>
+<wire x1="203.2" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="204.47" y="104.14" size="1.778" layer="95"/>
+<pinref part="U6" gate="C" pin="PC0"/>
 </segment>
 </net>
 </nets>
