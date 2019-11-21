@@ -3543,25 +3543,16 @@ LIMIT</text>
 <wire x1="2" y1="-2" x2="2" y2="-1.575" width="0.15" layer="21"/>
 <wire x1="2" y1="1.575" x2="2" y2="2" width="0.15" layer="21"/>
 <wire x1="2" y1="2" x2="1.575" y2="2" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2" y="2"/>
-<vertex x="-2" y="1.575"/>
-<vertex x="-1.575" y="2"/>
-</polygon>
 <wire x1="-2.525" y1="2.525" x2="-2.525" y2="-2.525" width="0.15" layer="21"/>
 <wire x1="-2.525" y1="-2.525" x2="2.525" y2="-2.525" width="0.15" layer="21"/>
 <wire x1="2.525" y1="-2.525" x2="2.525" y2="2.525" width="0.15" layer="21"/>
 <wire x1="2.525" y1="2.525" x2="-2.525" y2="2.525" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-2.525" y="2.525"/>
-<vertex x="-2.525" y="1.375"/>
-<vertex x="-1.375" y="2.525"/>
-</polygon>
 <text x="0" y="3.1" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-2.525" y1="2.525" x2="2.525" y2="2.525" width="0.15" layer="39"/>
 <wire x1="2.525" y1="2.525" x2="2.525" y2="-2.525" width="0.15" layer="39"/>
 <wire x1="2.525" y1="-2.525" x2="-2.525" y2="-2.525" width="0.15" layer="39"/>
 <wire x1="-2.525" y1="-2.525" x2="-2.525" y2="2.525" width="0.15" layer="39"/>
+<rectangle x1="-2.5" y1="1.5" x2="-1.5" y2="2.5" layer="21"/>
 </package>
 <package name="SOT23-6">
 <description>&lt;h3&gt;SOT23 - 6 Pin&lt;/h3&gt;</description>
@@ -3584,13 +3575,9 @@ LIMIT</text>
 <smd name="2" x="-1.31" y="0" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <smd name="3" x="-1.31" y="-0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
 <smd name="1" x="-1.31" y="0.95" dx="0.62" dy="1.22" layer="1" rot="R90"/>
-<text x="-0.0255" y="2.478" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<polygon width="0.15" layer="21">
-<vertex x="-2.25" y="1.9"/>
-<vertex x="-2.25" y="1.25"/>
-<vertex x="-1.6" y="1.9"/>
-</polygon>
+<text x="0" y="2.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <smd name="5" x="1.31" y="0" dx="0.62" dy="1.22" layer="1" rot="R90"/>
+<rectangle x1="-2.2" y1="1.4" x2="0" y2="1.9" layer="21"/>
 </package>
 <package name="DFN-8-2020">
 <description>&lt;h3&gt;Dual Flat No-Leads (DFN) - 8 Pins - 2.0 x 2.0mm&lt;/h3&gt;</description>
@@ -3617,12 +3604,8 @@ LIMIT</text>
 <wire x1="1.6" y1="1.4" x2="1.6" y2="-1.4" width="0.15" layer="39"/>
 <wire x1="1.6" y1="-1.4" x2="-1.6" y2="-1.4" width="0.15" layer="39"/>
 <wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.15" layer="39"/>
-<polygon width="0.15" layer="21">
-<vertex x="-1.6" y="1.4"/>
-<vertex x="-1" y="1.4"/>
-<vertex x="-1.6" y="0.8"/>
-</polygon>
 <text x="0" y="1.9" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-1.6" y1="1" x2="0" y2="1.4" layer="21"/>
 </package>
 <package name="TSSOP-16">
 <description>&lt;h3&gt;Thin Shrink Small Outline Package - 16 Pins&lt;/h3&gt;</description>
@@ -3657,12 +3640,8 @@ LIMIT</text>
 <wire x1="3.8" y1="2.9" x2="3.8" y2="-2.8" width="0.15" layer="21"/>
 <wire x1="3.8" y1="-2.8" x2="-3.8" y2="-2.8" width="0.15" layer="21"/>
 <wire x1="-3.8" y1="-2.8" x2="-3.8" y2="2.9" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-3.8" y="2.9"/>
-<vertex x="-3.8" y="2.3"/>
-<vertex x="-3.2" y="2.9"/>
-</polygon>
 <text x="0" y="3.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-3.8" y1="2.55" x2="0" y2="2.9" layer="21"/>
 </package>
 <package name="TSSOP-28">
 <description>&lt;h3&gt;Thin Shrink Small Outline Package - 28 Pins&lt;/h3&gt;</description>
@@ -3900,16 +3879,12 @@ LIMIT</text>
 <wire x1="1.775" y1="1.65" x2="1.775" y2="-1.775" width="0.15" layer="21"/>
 <wire x1="1.775" y1="-1.775" x2="-1.775" y2="-1.775" width="0.15" layer="21"/>
 <wire x1="-1.775" y1="-1.775" x2="-1.775" y2="1.65" width="0.15" layer="21"/>
-<polygon width="0.15" layer="21">
-<vertex x="-1.775" y="1.65"/>
-<vertex x="-1.775" y="0.75"/>
-<vertex x="-0.875" y="1.65"/>
-</polygon>
 <text x="0" y="2.2" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-1.775" y1="1.65" x2="-1.775" y2="-1.775" width="0.15" layer="39"/>
 <wire x1="-1.775" y1="-1.775" x2="1.775" y2="-1.775" width="0.15" layer="39"/>
 <wire x1="1.775" y1="-1.775" x2="1.775" y2="1.65" width="0.15" layer="39"/>
 <wire x1="1.775" y1="1.65" x2="-1.775" y2="1.65" width="0.15" layer="39"/>
+<rectangle x1="-1.8" y1="1" x2="0" y2="1.7" layer="21"/>
 </package>
 </packages>
 </library>
@@ -5110,12 +5085,12 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="211.08" y="125.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="211.08" y="125.24" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C140" library="CougsInSpace-Capacitors" package="1608" value="1µF 10%" x="60" y="-22.5" smashed="yes">
+<element name="C140" library="CougsInSpace-Capacitors" package="1608" value="1nF 1%" x="60" y="-22.5" smashed="yes">
 <attribute name="NAME" x="54.1" y="-20.4" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="1608" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
-<attribute name="SKU" value="11-105B" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
-<attribute name="TEMP" value="X7R" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
-<attribute name="VOLTAGE" value="16V" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
+<attribute name="SKU" value="11-102B" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
+<attribute name="TEMP" value="C0G" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
+<attribute name="VOLTAGE" value="50V" x="151.44" y="-196.49" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C44" library="CougsInSpace-Capacitors" package="1608" value="100nF 10%" x="42.6" y="27.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="42.8" y="29.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
