@@ -11372,8 +11372,8 @@ Amplifier</text>
 <text x="129.54" y="86.36" size="1.27" layer="97" align="center-left"> 4A4&gt;</text>
 <text x="129.54" y="78.74" size="1.27" layer="97" align="center-left"> 4B4&gt;</text>
 <text x="129.54" y="76.2" size="1.27" layer="97" align="center-left"> 4B6&gt;</text>
-<text x="236.22" y="73.66" size="1.27" layer="97" align="center-left"> 4A4&gt; 9A1&gt; 10A1&gt; 11A1&gt;</text>
-<text x="236.22" y="78.74" size="1.27" layer="97" align="center-left"> 4A4&gt; 9A1&gt; 10A1&gt; 11A1&gt;</text>
+<text x="236.22" y="73.66" size="1.27" layer="97" align="center-left"> 4A4&gt; 9A1&gt; 10A1&gt;</text>
+<text x="236.22" y="78.74" size="1.27" layer="97" align="center-left"> 4A4&gt; 9A1&gt; 10A1&gt;</text>
 <text x="236.22" y="76.2" size="1.27" layer="97" align="center-left"> &lt;4A4</text>
 <text x="165.1" y="157.48" size="1.27" layer="97" align="center-right">4C6&gt; </text>
 <text x="165.1" y="152.4" size="1.27" layer="97" align="center-right">4C6&gt; </text>
@@ -11386,19 +11386,19 @@ Amplifier</text>
 <text x="236.22" y="71.12" size="1.27" layer="97" align="center-left"> 8C2&gt;</text>
 <text x="236.22" y="99.06" size="1.27" layer="97" align="center-left"> 8B5&gt;</text>
 <text x="236.22" y="101.6" size="1.27" layer="97" align="center-left"> 8D2&gt;</text>
-<text x="147.32" y="48.26" size="1.27" layer="97" align="center-left"> 9B2&gt; 10B2&gt;</text>
-<text x="50.8" y="38.1" size="1.27" layer="97" align="center-left"> &lt;10B3</text>
-<text x="50.8" y="48.26" size="1.27" layer="97" align="center-left"> &lt;11B3</text>
-<text x="236.22" y="91.44" size="1.27" layer="97" align="center-left"> 10C2&gt;</text>
-<text x="50.8" y="43.18" size="1.27" layer="97" align="center-left"> 10B1&gt;</text>
-<text x="236.22" y="96.52" size="1.27" layer="97" align="center-left"> 11B1&gt;</text>
-<text x="50.8" y="96.52" size="1.27" layer="97" align="center-left"> &lt;11C3</text>
-<text x="50.8" y="91.44" size="1.27" layer="97" align="center-left"> &lt;11D3</text>
-<text x="50.8" y="45.72" size="1.27" layer="97" align="center-left"> 13D2&gt;</text>
-<text x="50.8" y="40.64" size="1.27" layer="97" align="center-left"> 13C3&gt;</text>
-<text x="236.22" y="104.14" size="1.27" layer="97" align="center-left"> 14B1&gt; 14B3&gt; 14C2&gt;</text>
-<text x="50.8" y="86.36" size="1.27" layer="97" align="center-left"> 15B2&gt;</text>
-<text x="50.8" y="93.98" size="1.27" layer="97" align="center-left"> 15B2&gt;</text>
+<text x="147.32" y="48.26" size="1.27" layer="97" align="center-left"> 9B2&gt;</text>
+<text x="50.8" y="38.1" size="1.27" layer="97" align="center-left"> &lt;9B3</text>
+<text x="50.8" y="48.26" size="1.27" layer="97" align="center-left"> &lt;10B3</text>
+<text x="236.22" y="91.44" size="1.27" layer="97" align="center-left"> 9C2&gt;</text>
+<text x="50.8" y="43.18" size="1.27" layer="97" align="center-left"> 9B1&gt;</text>
+<text x="236.22" y="96.52" size="1.27" layer="97" align="center-left"> 10B1&gt;</text>
+<text x="50.8" y="96.52" size="1.27" layer="97" align="center-left"> &lt;10C3</text>
+<text x="50.8" y="91.44" size="1.27" layer="97" align="center-left"> &lt;10D3</text>
+<text x="50.8" y="45.72" size="1.27" layer="97" align="center-left"> 11D2&gt;</text>
+<text x="50.8" y="40.64" size="1.27" layer="97" align="center-left"> 11C3&gt;</text>
+<text x="236.22" y="104.14" size="1.27" layer="97" align="center-left"> 12B1&gt; 12B3&gt; 12C2&gt;</text>
+<text x="50.8" y="86.36" size="1.27" layer="97" align="center-left"> 13B2&gt;</text>
+<text x="50.8" y="93.98" size="1.27" layer="97" align="center-left"> 13B2&gt;</text>
 </plain>
 <instances>
 <instance part="J3" gate="G$1" x="10.16" y="170.18" smashed="yes">
@@ -11726,7 +11726,7 @@ Amplifier</text>
 <instance part="OFFSHEET158" gate="G$1" x="233.68" y="104.14" smashed="yes" rot="MR0"/>
 </instances>
 <busses>
-<bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK-230,DAC_BUS_CLK-700,DAC_SELECT_I/!Q">
+<bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK,DAC_SELECT_I/!Q">
 <segment>
 <wire x1="127" y1="45.72" x2="129.54" y2="48.26" width="0.762" layer="92"/>
 <wire x1="129.54" y1="48.26" x2="142.24" y2="48.26" width="0.762" layer="92"/>
@@ -12283,7 +12283,7 @@ Amplifier</text>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="DAC_BUS_CLK-700" class="0">
+<net name="DAC_BUS_CLK" class="0">
 <segment>
 <wire x1="96.52" y1="38.1" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="38.1" x2="127" y2="40.64" width="0.1524" layer="91"/>
@@ -12471,7 +12471,7 @@ Amplifier</text>
 <pinref part="U37" gate="D" pin="PD4"/>
 </segment>
 </net>
-<net name="PA_PD-700" class="0">
+<net name="PA_PD" class="0">
 <segment>
 <wire x1="17.78" y1="40.64" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <label x="19.05" y="40.64" size="1.778" layer="95"/>
@@ -13117,7 +13117,6 @@ JTAG termination</text>
 <text x="121.92" y="76.2" size="1.27" layer="97" align="center-left"> &lt;4C2</text>
 <text x="147.32" y="167.64" size="1.27" layer="97" align="center-right">4B3&gt; </text>
 <text x="147.32" y="170.18" size="1.27" layer="97" align="center-right">7A3&gt; </text>
-<text x="147.32" y="162.56" size="1.27" layer="97" align="center-right">8A3&gt; </text>
 <text x="147.32" y="152.4" size="1.27" layer="97" align="center-right">8B3&gt; </text>
 <text x="17.78" y="160.02" size="1.27" layer="97" align="center-right">8C3&gt; </text>
 <text x="17.78" y="71.12" size="1.27" layer="97" align="center-right">8B2&gt; </text>
@@ -13125,23 +13124,24 @@ JTAG termination</text>
 <text x="17.78" y="68.58" size="1.27" layer="97" align="center-right">8C5&gt; </text>
 <text x="17.78" y="83.82" size="1.27" layer="97" align="center-right">7C3&gt; </text>
 <text x="17.78" y="78.74" size="1.27" layer="97" align="center-right">7B6&gt; </text>
-<text x="147.32" y="160.02" size="1.27" layer="97" align="center-right">9A3&gt; </text>
-<text x="147.32" y="165.1" size="1.27" layer="97" align="center-right">9D3&gt; </text>
-<text x="17.78" y="170.18" size="1.27" layer="97" align="center-right">10A3&gt; </text>
-<text x="17.78" y="162.56" size="1.27" layer="97" align="center-right">10D3&gt; </text>
-<text x="17.78" y="154.94" size="1.27" layer="97" align="center-right">11A3&gt; </text>
-<text x="147.32" y="154.94" size="1.27" layer="97" align="center-right">12B2&gt; </text>
-<text x="147.32" y="157.48" size="1.27" layer="97" align="center-right">12C3&gt; </text>
-<text x="17.78" y="165.1" size="1.27" layer="97" align="center-right">13B2&gt; </text>
-<text x="17.78" y="167.64" size="1.27" layer="97" align="center-right">13C3&gt; </text>
-<text x="17.78" y="152.4" size="1.27" layer="97" align="center-right">14D3&gt; </text>
-<text x="17.78" y="157.48" size="1.27" layer="97" align="center-right">15B3&gt; </text>
-<text x="17.78" y="96.52" size="1.27" layer="97" align="center-right">13C1&gt; </text>
+<text x="147.32" y="165.1" size="1.27" layer="97" align="center-right">6C5&gt; </text>
+<text x="17.78" y="170.18" size="1.27" layer="97" align="center-right">9A3&gt; </text>
+<text x="17.78" y="162.56" size="1.27" layer="97" align="center-right">9D3&gt; </text>
+<text x="17.78" y="154.94" size="1.27" layer="97" align="center-right">10A3&gt; </text>
+<text x="17.78" y="165.1" size="1.27" layer="97" align="center-right">11B2&gt; </text>
+<text x="17.78" y="167.64" size="1.27" layer="97" align="center-right">11C3&gt; </text>
+<text x="17.78" y="152.4" size="1.27" layer="97" align="center-right">12D3&gt; </text>
+<text x="17.78" y="157.48" size="1.27" layer="97" align="center-right">13B3&gt; </text>
+<text x="17.78" y="96.52" size="1.27" layer="97" align="center-right">11C1&gt; </text>
 <text x="208.28" y="66.04" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
 <text x="208.28" y="55.88" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
 <text x="208.28" y="76.2" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
 <text x="208.28" y="35.56" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
 <text x="208.28" y="45.72" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
+<text x="147.32" y="162.56" size="1.27" layer="97" align="center-right">6C5&gt; </text>
+<text x="147.32" y="160.02" size="1.27" layer="97" align="center-right">6C5&gt; </text>
+<text x="147.32" y="157.48" size="1.27" layer="97" align="center-right">6D5&gt; </text>
+<text x="147.32" y="154.94" size="1.27" layer="97" align="center-right">6D5&gt; </text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
@@ -13750,6 +13750,14 @@ JTAG termination</text>
 <pinref part="SUPPLY409" gate="1" pin="DGND"/>
 <wire x1="68.58" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="IN4"/>
+<wire x1="66.04" y1="53.34" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+<junction x="66.04" y="53.34"/>
+<pinref part="U4" gate="G$1" pin="IN3"/>
+<wire x1="68.58" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="73.66" width="0.1524" layer="91"/>
+<junction x="66.04" y="73.66"/>
 </segment>
 <segment>
 <pinref part="SUPPLY407" gate="1" pin="DGND"/>
@@ -15357,12 +15365,9 @@ Converted: 0.7±0.3V
 <text x="220.98" y="93.98" size="1.778" layer="97" align="center-left">Note:
 FS 2mA = 16 * (1.2V) / (9.6kΩ)
 Adjust resistors to 2mA</text>
-<text x="195.58" y="167.64" size="1.27" layer="97" align="center-left"> 13A1&gt;</text>
-<text x="195.58" y="165.1" size="1.27" layer="97" align="center-left"> 13A1&gt;</text>
-<text x="246.38" y="68.58" size="1.27" layer="97" align="center-left"> 13A2&gt;</text>
-<text x="246.38" y="66.04" size="1.27" layer="97" align="center-left"> 13A2&gt;</text>
-<text x="246.38" y="53.34" size="1.27" layer="97" align="center-left"> 13A2&gt;</text>
-<text x="246.38" y="50.8" size="1.27" layer="97" align="center-left"> 13A2&gt;</text>
+<text x="195.58" y="167.64" size="1.27" layer="97" align="center-left"> 11A1&gt;</text>
+<text x="195.58" y="165.1" size="1.27" layer="97" align="center-left"> 11A1&gt;</text>
+<text x="246.38" y="68.58" size="1.27" layer="97" align="center-left"> 11A2&gt;</text>
 <text x="121.92" y="182.88" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
 <text x="109.22" y="38.1" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
 <text x="96.52" y="144.78" size="1.27" layer="97" align="center-right">&lt;4D2 </text>
@@ -15371,6 +15376,9 @@ Adjust resistors to 2mA</text>
 <text x="12.7" y="127" size="1.27" layer="97" align="center-right">4D2&gt; </text>
 <text x="12.7" y="157.48" size="1.27" layer="97" align="center-right">4C6&gt; </text>
 <text x="12.7" y="152.4" size="1.27" layer="97" align="center-right">4C6&gt; </text>
+<text x="246.38" y="66.04" size="1.27" layer="97" align="center-left"> 11A2&gt;</text>
+<text x="246.38" y="53.34" size="1.27" layer="97" align="center-left"> 11A2&gt;</text>
+<text x="246.38" y="50.8" size="1.27" layer="97" align="center-left"> 11A2&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes">
@@ -15777,7 +15785,7 @@ Adjust resistors to 2mA</text>
 <instance part="SUPPLY325" gate="1" x="218.44" y="132.08" smashed="yes"/>
 </instances>
 <busses>
-<bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK-230,DAC_BUS_CLK-700,DAC_SELECT_I/!Q">
+<bus name="DAC_BUS:DAC_BUS_[0..9],DAC_BUS_CLK,DAC_SELECT_I/!Q">
 <segment>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="99.06" width="0.762" layer="92"/>
 <wire x1="76.2" y1="99.06" x2="60.96" y2="99.06" width="0.762" layer="92"/>
@@ -16490,7 +16498,7 @@ Adjust resistors to 2mA</text>
 <label x="114.3" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="DAC_BUS_CLK-700" class="0">
+<net name="DAC_BUS_CLK" class="0">
 <segment>
 <pinref part="U23" gate="G$1" pin="WRITE"/>
 <wire x1="111.76" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
@@ -16553,15 +16561,15 @@ Divides by 2</text>
 <text x="12.7" y="127" size="1.27" layer="97" align="center-right">4B6&gt; </text>
 <text x="96.52" y="144.78" size="1.27" layer="97" align="center-right">&lt;4D2 </text>
 <text x="121.92" y="182.88" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
-<text x="7.62" y="81.28" size="1.27" layer="97" align="center-right">15A4&gt; </text>
-<text x="7.62" y="78.74" size="1.27" layer="97" align="center-right">15A4&gt; </text>
-<text x="7.62" y="30.48" size="1.27" layer="97" align="center-right">15B4&gt; </text>
-<text x="7.62" y="27.94" size="1.27" layer="97" align="center-right">15B4&gt; </text>
-<text x="195.58" y="167.64" size="1.27" layer="97" align="center-left"> 15A1&gt;</text>
-<text x="195.58" y="165.1" size="1.27" layer="97" align="center-left"> 15B1&gt;</text>
-<text x="101.6" y="101.6" size="1.27" layer="97" align="center-left"> &lt;11C5</text>
-<text x="101.6" y="50.8" size="1.27" layer="97" align="center-left"> &lt;11C5</text>
-<text x="200.66" y="81.28" size="1.27" layer="97" align="center-left"> 11B3&gt; 11C3&gt;</text>
+<text x="7.62" y="81.28" size="1.27" layer="97" align="center-right">13A4&gt; </text>
+<text x="7.62" y="78.74" size="1.27" layer="97" align="center-right">13A4&gt; </text>
+<text x="7.62" y="30.48" size="1.27" layer="97" align="center-right">13B4&gt; </text>
+<text x="7.62" y="27.94" size="1.27" layer="97" align="center-right">13B4&gt; </text>
+<text x="195.58" y="167.64" size="1.27" layer="97" align="center-left"> 13A1&gt;</text>
+<text x="195.58" y="165.1" size="1.27" layer="97" align="center-left"> 13B1&gt;</text>
+<text x="101.6" y="101.6" size="1.27" layer="97" align="center-left"> &lt;10C5</text>
+<text x="101.6" y="50.8" size="1.27" layer="97" align="center-left"> &lt;10C5</text>
+<text x="200.66" y="81.28" size="1.27" layer="97" align="center-left"> 10B3&gt; 10C3&gt;</text>
 <text x="101.6" y="81.28" size="1.27" layer="97" align="center-left"> 4B1&gt;</text>
 <text x="101.6" y="30.48" size="1.27" layer="97" align="center-left"> 4C1&gt;</text>
 </plain>
@@ -17631,15 +17639,15 @@ Divides by 2</text>
 <text x="81.28" y="132.08" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
 <text x="88.9" y="55.88" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
 <text x="10.16" y="71.12" size="1.27" layer="97" align="center-right">&lt;6B1 </text>
-<text x="7.62" y="162.56" size="1.27" layer="97" align="center-right">10A5&gt; </text>
-<text x="7.62" y="149.86" size="1.27" layer="97" align="center-right">10A5&gt; </text>
-<text x="63.5" y="165.1" size="1.27" layer="97" align="center-right">10C6&gt; </text>
-<text x="63.5" y="162.56" size="1.27" layer="97" align="center-right">10C6&gt; </text>
-<text x="63.5" y="149.86" size="1.27" layer="97" align="center-right">10C6&gt; </text>
-<text x="63.5" y="147.32" size="1.27" layer="97" align="center-right">10C6&gt; </text>
+<text x="7.62" y="162.56" size="1.27" layer="97" align="center-right">9A5&gt; </text>
+<text x="7.62" y="149.86" size="1.27" layer="97" align="center-right">9A5&gt; </text>
+<text x="63.5" y="165.1" size="1.27" layer="97" align="center-right">9C6&gt; </text>
 <text x="121.92" y="63.5" size="1.27" layer="97" align="center-right">4D2&gt; </text>
 <text x="60.96" y="20.32" size="1.27" layer="97" align="center-right">4D2&gt; </text>
-<text x="170.18" y="33.02" size="1.27" layer="97" align="center-right">&lt;14B1 </text>
+<text x="170.18" y="33.02" size="1.27" layer="97" align="center-right">&lt;12B1 </text>
+<text x="63.5" y="162.56" size="1.27" layer="97" align="center-right">9C6&gt; </text>
+<text x="63.5" y="149.86" size="1.27" layer="97" align="center-right">9C6&gt; </text>
+<text x="63.5" y="147.32" size="1.27" layer="97" align="center-right">9C6&gt; </text>
 </plain>
 <instances>
 <instance part="FRAME14" gate="G$1" x="0" y="0" smashed="yes">
@@ -18502,7 +18510,7 @@ Divides by 2</text>
 <wire x1="195.58" y1="101.6" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PA_PD-700" class="0">
+<net name="PA_PD" class="0">
 <segment>
 <pinref part="U27" gate="G$1" pin="PD"/>
 <pinref part="C105" gate="G$1" pin="1"/>
@@ -18812,7 +18820,7 @@ Divides by 2</text>
 -54dBm</text>
 <text x="146.05" y="74.93" size="1.778" layer="97">Note:
 -35dBm</text>
-<text x="193.04" y="73.66" size="1.27" layer="97" align="center-left"> 15B1&gt;</text>
+<text x="193.04" y="73.66" size="1.27" layer="97" align="center-left"> 13B1&gt;</text>
 <text x="134.62" y="40.64" size="1.778" layer="97" align="center">CAD Note: Thermally Connected</text>
 <text x="19.05" y="143.51" size="1.778" layer="97">Note:
 -92dBm
@@ -18821,7 +18829,7 @@ Divides by 2</text>
 -92dBm</text>
 <text x="100.33" y="140.97" size="1.778" layer="97">Note:
 -73dBm</text>
-<text x="10.16" y="139.7" size="1.27" layer="97" align="center-right">13D5&gt; </text>
+<text x="10.16" y="139.7" size="1.27" layer="97" align="center-right">11D5&gt; </text>
 <text x="10.16" y="121.92" size="1.27" layer="97" align="center-right">4B6&gt; </text>
 <text x="119.38" y="121.92" size="1.27" layer="97" align="center-right">4B6&gt; </text>
 <text x="55.88" y="55.88" size="1.27" layer="97" align="center-right">4B6&gt; </text>
@@ -19438,16 +19446,16 @@ Divides by 2</text>
 <wire x1="86.36" y1="162.56" x2="86.36" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="93.98" y="184.15" size="1.778" layer="97">CAD Note: Decoupling</text>
 <text x="132.08" y="101.6" size="1.778" layer="97" align="center">CAD Note: Thermally Connected</text>
-<text x="33.02" y="152.4" size="1.27" layer="97" align="center-right">11A5&gt; </text>
-<text x="33.02" y="139.7" size="1.27" layer="97" align="center-right">11A5&gt; </text>
-<text x="12.7" y="116.84" size="1.27" layer="97" align="center-right">14C5&gt; </text>
+<text x="33.02" y="152.4" size="1.27" layer="97" align="center-right">9A5&gt; </text>
+<text x="33.02" y="139.7" size="1.27" layer="97" align="center-right">9A5&gt; </text>
+<text x="12.7" y="116.84" size="1.27" layer="97" align="center-right">12C5&gt; </text>
 <text x="55.88" y="101.6" size="1.27" layer="97" align="center-right">4C2&gt; </text>
 <text x="55.88" y="96.52" size="1.27" layer="97" align="center-right">4C2&gt; </text>
 <text x="114.3" y="96.52" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
-<text x="172.72" y="149.86" size="1.27" layer="97" align="center-left"> 11C1&gt;</text>
-<text x="172.72" y="147.32" size="1.27" layer="97" align="center-left"> 11C1&gt;</text>
-<text x="172.72" y="134.62" size="1.27" layer="97" align="center-left"> 11D1&gt;</text>
-<text x="172.72" y="132.08" size="1.27" layer="97" align="center-left"> 11D1&gt;</text>
+<text x="172.72" y="149.86" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
+<text x="172.72" y="147.32" size="1.27" layer="97" align="center-left"> 10C1&gt;</text>
+<text x="172.72" y="134.62" size="1.27" layer="97" align="center-left"> 10D1&gt;</text>
+<text x="172.72" y="132.08" size="1.27" layer="97" align="center-left"> 10D1&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0" smashed="yes">
@@ -20023,14 +20031,6 @@ Divides by 2</text>
 <wire x1="139.6" y1="87.6" x2="139.6" y2="50.1" width="0.254" layer="94"/>
 <wire x1="142" y1="100" x2="139.6" y2="102.4" width="0.254" layer="94"/>
 <wire x1="142" y1="90" x2="139.6" y2="87.6" width="0.254" layer="94"/>
-<wire x1="80" y1="51" x2="78" y2="53" width="0.254" layer="94" curve="-90"/>
-<wire x1="78" y1="53" x2="78" y2="78" width="0.254" layer="94"/>
-<wire x1="78" y1="78" x2="80" y2="80" width="0.254" layer="94" curve="-90"/>
-<wire x1="80" y1="80" x2="121" y2="80" width="0.254" layer="94"/>
-<wire x1="121" y1="80" x2="123" y2="78" width="0.254" layer="94" curve="-90"/>
-<wire x1="123" y1="78" x2="123" y2="53" width="0.254" layer="94"/>
-<wire x1="123" y1="53" x2="121" y2="51" width="0.254" layer="94" curve="-90"/>
-<wire x1="121" y1="51" x2="80" y2="51" width="0.254" layer="94"/>
 <wire x1="80" y1="110" x2="78" y2="112" width="0.254" layer="94" curve="-90"/>
 <wire x1="78" y1="112" x2="78" y2="137" width="0.254" layer="94"/>
 <wire x1="78" y1="137" x2="80" y2="139" width="0.254" layer="94" curve="-90"/>
@@ -20048,13 +20048,11 @@ Divides by 2</text>
 <wire x1="113" y1="81" x2="72" y2="81" width="0.254" layer="94"/>
 <wire x1="72" y1="108" x2="113" y2="108" width="0.254" layer="94"/>
 <circle x="121" y="106" radius="2" width="0.254" layer="94"/>
-<circle x="121" y="83" radius="2" width="0.254" layer="94"/>
 <wire x1="39" y1="74" x2="39" y2="54" width="0.254" layer="94"/>
 <wire x1="39" y1="54" x2="59" y2="54" width="0.254" layer="94"/>
 <wire x1="59" y1="54" x2="59" y2="74" width="0.254" layer="94"/>
 <wire x1="59" y1="74" x2="39" y2="74" width="0.254" layer="94"/>
 <text x="49" y="64" size="1.27" layer="97" align="center">µController</text>
-<text x="101" y="65" size="1.27" layer="97" align="center">230mm Downlink</text>
 <text x="93" y="95" size="1.27" layer="97" align="center">700mm Downlink</text>
 <text x="101" y="124" size="1.27" layer="97" align="center">700mm Uplink</text>
 <wire x1="224" y1="67" x2="208" y2="67" width="0.254" layer="94"/>
@@ -20063,7 +20061,6 @@ Divides by 2</text>
 <wire x1="224" y1="53" x2="224" y2="67" width="0.254" layer="94"/>
 <text x="216" y="60" size="1.27" layer="97" align="center">SWD Header</text>
 <circle x="144" y="106" radius="2" width="0.254" layer="94"/>
-<circle x="144" y="83" radius="2" width="0.254" layer="94"/>
 </plain>
 <instances>
 <instance part="FRAME11" gate="G$1" x="0" y="0" smashed="yes">
@@ -20152,109 +20149,106 @@ Divides by 2</text>
 <approved hash="204,5,241.3,137.16,J2POWER,PR_BATT-4,,,,"/>
 <approved hash="204,5,241.3,134.62,J2POWER,PR_BATT-5,,,,"/>
 <approved hash="104,5,241.3,132.08,J2POWER,PR_BATT-6,VBATT_6,,,"/>
-<approved hash="104,7,119.38,137.16,U3,VOUT,5.0V,,,"/>
-<approved hash="104,7,119.38,116.84,U3,AGND,PGND,,,"/>
-<approved hash="104,8,127,170.18,U2,OUT,3.1V_0,,,"/>
-<approved hash="104,9,129.54,167.64,U36,VVCO,3.1V_1,,,"/>
-<approved hash="104,9,160.02,142.24,U36,AGND,DGND,,,"/>
-<approved hash="104,9,129.54,170.18,U36,DVDD,3.1V_1,,,"/>
-<approved hash="104,9,160.02,137.16,U36,PAD,DGND,,,"/>
-<approved hash="104,9,160.02,144.78,U36,CPGND,DGND,,,"/>
-<approved hash="104,9,129.54,172.72,U36,AVDD,3.1V_1,,,"/>
-<approved hash="104,9,93.98,172.72,Y5,VDD,REF_CLK_VDD-1,,,"/>
-<approved hash="104,9,93.98,167.64,Y5,GND,DGND,,,"/>
-<approved hash="104,10,129.54,167.64,U20,VVCO,3.1V_2,,,"/>
-<approved hash="104,10,160.02,142.24,U20,AGND,DGND,,,"/>
-<approved hash="104,10,129.54,170.18,U20,DVDD,3.1V_2,,,"/>
-<approved hash="104,10,160.02,137.16,U20,PAD,DGND,,,"/>
-<approved hash="104,10,160.02,144.78,U20,CPGND,DGND,,,"/>
-<approved hash="104,10,129.54,172.72,U20,AVDD,3.1V_2,,,"/>
-<approved hash="104,10,167.64,88.9,U24,V+,AVDD,,,"/>
-<approved hash="104,10,167.64,73.66,U24,V-,AGND,,,"/>
-<approved hash="104,5,93.98,45.72,U35,VCCA,3.3V_5,,,"/>
-<approved hash="104,5,119.38,45.72,U35,VCCB,3.3V_6,,,"/>
-<approved hash="104,5,93.98,76.2,U30,VCCA,3.3V_5,,,"/>
-<approved hash="104,5,119.38,76.2,U30,VCCB,3.3V_6,,,"/>
-<approved hash="104,11,213.36,152.4,U23,RFGND,DGND,,,"/>
-<approved hash="104,11,119.38,165.1,U26,VPS1,3.1V_1,,,"/>
-<approved hash="104,11,119.38,162.56,U26,VPS2,3.1V_1,,,"/>
-<approved hash="104,11,119.38,147.32,U26,RFGND,DGND,,,"/>
-<approved hash="104,11,228.6,73.66,U21,RFGND,DGND,,,"/>
-<approved hash="104,12,205.74,134.62,U25,RFGND,DGND,,,"/>
-<approved hash="104,12,142.24,68.58,U31,RFGND,DGND,,,"/>
-<approved hash="104,10,93.98,172.72,Y4,VDD,REF_CLK_VDD-2,,,"/>
-<approved hash="104,10,93.98,167.64,Y4,GND,DGND,,,"/>
-<approved hash="104,10,68.58,88.9,U40,V+,AVDD,,,"/>
-<approved hash="104,10,68.58,73.66,U40,V-,AGND,,,"/>
-<approved hash="104,10,68.58,38.1,U39,V+,AVDD,,,"/>
-<approved hash="104,10,68.58,22.86,U39,V-,AGND,,,"/>
-<approved hash="104,13,114.3,147.32,U28,VPOS3,3.1V_2,,,"/>
-<approved hash="104,13,114.3,149.86,U28,VPOS2,3.1V_2,,,"/>
-<approved hash="104,13,114.3,152.4,U28,VPOS1,3.1V_2,,,"/>
-<approved hash="104,13,144.78,114.3,U28,RFGND,DGND,,,"/>
-<approved hash="104,4,226.06,157.48,U8,VCC,3.3V_6,,,"/>
-<approved hash="104,4,226.06,127,U9,VCC,3.3V_6,,,"/>
-<approved hash="104,5,93.98,116.84,U45,VCCA,3.3V_0,,,"/>
-<approved hash="104,5,119.38,116.84,U45,VCCB,3.3V_6,,,"/>
-<approved hash="104,5,93.98,147.32,U46,VCCA,3.3V_0,,,"/>
-<approved hash="104,5,119.38,147.32,U46,VCCB,3.3V_6,,,"/>
-<approved hash="104,5,93.98,177.8,U47,VCCA,3.3V_0,,,"/>
-<approved hash="104,5,119.38,177.8,U47,VCCB,3.3V_6,,,"/>
-<approved hash="104,6,99.06,167.64,U48,VDRIVE,3.3V_6,,,"/>
-<approved hash="104,6,99.06,170.18,U48,VDD,AVDD,,,"/>
-<approved hash="104,6,30.48,139.7,U11,V+,AVDD,,,"/>
-<approved hash="104,6,30.48,124.46,U11,V-,AGND,,,"/>
-<approved hash="104,6,228.6,167.64,U12,VDRIVE,3.3V_6,,,"/>
-<approved hash="104,6,228.6,170.18,U12,VDD,AVDD,,,"/>
-<approved hash="104,6,160.02,139.7,U13,V+,AVDD,,,"/>
-<approved hash="104,6,160.02,124.46,U13,V-,AGND,,,"/>
-<approved hash="104,6,99.06,81.28,U29,VDRIVE,3.3V_6,,,"/>
-<approved hash="104,6,99.06,83.82,U29,VDD,AVDD,,,"/>
-<approved hash="104,7,73.66,88.9,U49,V+,AVDD,,,"/>
-<approved hash="104,7,73.66,73.66,U49,V-,AGND,,,"/>
-<approved hash="104,8,48.26,175.26,U50,VDD,AVDD,,,"/>
-<approved hash="104,8,48.26,165.1,U50,GND,AGND,,,"/>
-<approved hash="104,8,127,106.68,U14,OUT,3.1V_1,,,"/>
-<approved hash="104,8,48.26,111.76,U43,VDD,AVDD,,,"/>
-<approved hash="104,8,48.26,101.6,U43,GND,AGND,,,"/>
-<approved hash="104,8,127,43.18,U51,OUT,3.1V_2,,,"/>
-<approved hash="104,8,48.26,48.26,U52,VDD,AVDD,,,"/>
-<approved hash="104,8,48.26,38.1,U52,GND,AGND,,,"/>
-<approved hash="104,8,180.34,157.48,U1,VDD,AVDD,,,"/>
-<approved hash="104,8,180.34,147.32,U1,GND,AGND,,,"/>
-<approved hash="104,8,180.34,93.98,U53,VDD,AVDD,,,"/>
-<approved hash="104,8,180.34,83.82,U53,GND,AGND,,,"/>
-<approved hash="104,9,40.64,162.56,U16,VCCA,3.3V_6,,,"/>
-<approved hash="104,9,66.04,162.56,U16,VCCB,3.1V_1,,,"/>
-<approved hash="104,9,40.64,132.08,U18,VCCA,3.3V_6,,,"/>
-<approved hash="104,9,66.04,132.08,U18,VCCB,3.1V_1,,,"/>
-<approved hash="104,10,40.64,162.56,U54,VCCA,3.3V_6,,,"/>
-<approved hash="104,10,66.04,162.56,U54,VCCB,3.1V_2,,,"/>
-<approved hash="104,10,40.64,132.08,U55,VCCA,3.3V_6,,,"/>
-<approved hash="104,10,66.04,132.08,U55,VCCB,3.1V_2,,,"/>
-<approved hash="104,11,139.7,76.2,U19,RFGND,RFGND-1,,,"/>
-<approved hash="104,11,139.7,88.9,U19,VCC1,PA_VCC1-700,,,"/>
-<approved hash="104,11,109.22,88.9,U19,VBIAS,5.0V_1,,,"/>
-<approved hash="104,9,111.76,101.6,U15,AVDD,3.1V_1,,,"/>
-<approved hash="104,9,111.76,99.06,U15,DVDD,3.3V_6,,,"/>
-<approved hash="104,9,111.76,53.34,U15,DVSS,DGND,,,"/>
-<approved hash="104,9,111.76,50.8,U15,AVSS,DGND,,,"/>
-<approved hash="104,11,43.18,78.74,U32,V+,AVDD,,,"/>
-<approved hash="104,11,43.18,63.5,U32,V-,AGND,,,"/>
-<approved hash="104,12,96.52,134.62,U37,RFGND,DGND,,,"/>
-<approved hash="104,4,139.7,180.34,U6BASE,VDDA,AVDD,,,"/>
-<approved hash="104,4,99.06,162.56,U6BASE,VDD,3.3V_6,,,"/>
-<approved hash="104,4,99.06,160.02,U6BASE,VDDUSB,3.3V_6,,,"/>
-<approved hash="104,4,99.06,172.72,U6BASE,VDD,3.3V_6,,,"/>
-<approved hash="104,4,99.06,170.18,U6BASE,VDD,3.3V_6,,,"/>
-<approved hash="104,4,99.06,167.64,U6BASE,VDD,3.3V_6,,,"/>
-<approved hash="104,4,99.06,165.1,U6BASE,VDD,3.3V_6,,,"/>
-<approved hash="104,4,139.7,157.48,U6BASE,VSS,DGND,,,"/>
-<approved hash="104,4,139.7,160.02,U6BASE,VSS,DGND,,,"/>
-<approved hash="104,4,139.7,162.56,U6BASE,VSS,DGND,,,"/>
-<approved hash="104,4,139.7,165.1,U6BASE,VSS,DGND,,,"/>
-<approved hash="104,4,139.7,154.94,U6BASE,VSS,DGND,,,"/>
-<approved hash="104,4,139.7,172.72,U6BASE,VSSA,AGND,,,"/>
+<approved hash="104,7,119.38,137.16,U21,VOUT,5.0V,,,"/>
+<approved hash="104,7,119.38,116.84,U21,AGND,PGND,,,"/>
+<approved hash="104,9,129.54,167.64,U29,VVCO,3.1V_1,,,"/>
+<approved hash="104,9,160.02,142.24,U29,AGND,DGND,,,"/>
+<approved hash="104,9,129.54,170.18,U29,DVDD,3.1V_1,,,"/>
+<approved hash="104,9,160.02,137.16,U29,PAD,DGND,,,"/>
+<approved hash="104,9,160.02,144.78,U29,CPGND,DGND,,,"/>
+<approved hash="104,9,129.54,172.72,U29,AVDD,3.1V_1,,,"/>
+<approved hash="104,9,93.98,172.72,Y2,VDD,REF_CLK_VDD-1,,,"/>
+<approved hash="104,9,93.98,167.64,Y2,GND,DGND,,,"/>
+<approved hash="104,10,129.54,167.64,U13,VVCO,3.1V_2,,,"/>
+<approved hash="104,10,160.02,142.24,U13,AGND,DGND,,,"/>
+<approved hash="104,10,129.54,170.18,U13,DVDD,3.1V_2,,,"/>
+<approved hash="104,10,160.02,137.16,U13,PAD,DGND,,,"/>
+<approved hash="104,10,160.02,144.78,U13,CPGND,DGND,,,"/>
+<approved hash="104,10,129.54,172.72,U13,AVDD,3.1V_2,,,"/>
+<approved hash="104,10,167.64,88.9,U17,V+,AVDD,,,"/>
+<approved hash="104,10,167.64,73.66,U17,V-,AGND,,,"/>
+<approved hash="104,5,93.98,45.72,U36,VCCA,3.3V_5,,,"/>
+<approved hash="104,5,119.38,45.72,U36,VCCB,3.3V_6,,,"/>
+<approved hash="104,5,93.98,76.2,U35,VCCA,3.3V_5,,,"/>
+<approved hash="104,5,119.38,76.2,U35,VCCB,3.3V_6,,,"/>
+<approved hash="104,11,213.36,152.4,U34,RFGND,DGND,,,"/>
+<approved hash="104,11,119.38,165.1,U22,VPS1,3.1V_1,,,"/>
+<approved hash="104,11,119.38,162.56,U22,VPS2,3.1V_1,,,"/>
+<approved hash="104,11,119.38,147.32,U22,RFGND,DGND,,,"/>
+<approved hash="104,11,228.6,73.66,U19,RFGND,DGND,,,"/>
+<approved hash="104,12,205.74,134.62,U8,RFGND,DGND,,,"/>
+<approved hash="104,12,142.24,68.58,U5,RFGND,DGND,,,"/>
+<approved hash="104,10,93.98,172.72,Y1,VDD,REF_CLK_VDD-2,,,"/>
+<approved hash="104,10,93.98,167.64,Y1,GND,DGND,,,"/>
+<approved hash="104,10,68.58,88.9,U11,V+,AVDD,,,"/>
+<approved hash="104,10,68.58,73.66,U11,V-,AGND,,,"/>
+<approved hash="104,10,68.58,38.1,U10,V+,AVDD,,,"/>
+<approved hash="104,10,68.58,22.86,U10,V-,AGND,,,"/>
+<approved hash="104,13,114.3,147.32,U6,VPOS3,3.1V_2,,,"/>
+<approved hash="104,13,114.3,149.86,U6,VPOS2,3.1V_2,,,"/>
+<approved hash="104,13,114.3,152.4,U6,VPOS1,3.1V_2,,,"/>
+<approved hash="104,13,144.78,114.3,U6,RFGND,DGND,,,"/>
+<approved hash="104,4,223.52,157.48,U39,VCC,3.3V_6,,,"/>
+<approved hash="104,4,223.52,127,U38,VCC,3.3V_6,,,"/>
+<approved hash="104,5,93.98,116.84,U25,VCCA,3.3V_0,,,"/>
+<approved hash="104,5,119.38,116.84,U25,VCCB,3.3V_6,,,"/>
+<approved hash="104,5,93.98,147.32,U24,VCCA,3.3V_0,,,"/>
+<approved hash="104,5,119.38,147.32,U24,VCCB,3.3V_6,,,"/>
+<approved hash="104,5,93.98,177.8,U32,VCCA,3.3V_0,,,"/>
+<approved hash="104,5,119.38,177.8,U32,VCCB,3.3V_6,,,"/>
+<approved hash="104,6,99.06,167.64,U3,VDRIVE,3.3V_6,,,"/>
+<approved hash="104,6,99.06,170.18,U3,VDD,AVDD,,,"/>
+<approved hash="104,6,30.48,139.7,U1,V+,AVDD,,,"/>
+<approved hash="104,6,30.48,124.46,U1,V-,AGND,,,"/>
+<approved hash="104,6,228.6,167.64,U7,VDRIVE,3.3V_6,,,"/>
+<approved hash="104,6,228.6,170.18,U7,VDD,AVDD,,,"/>
+<approved hash="104,6,160.02,139.7,U2,V+,AVDD,,,"/>
+<approved hash="104,6,160.02,124.46,U2,V-,AGND,,,"/>
+<approved hash="104,6,99.06,81.28,U4,VDRIVE,3.3V_6,,,"/>
+<approved hash="104,6,99.06,83.82,U4,VDD,AVDD,,,"/>
+<approved hash="104,7,73.66,88.9,U16,V+,AVDD,,,"/>
+<approved hash="104,7,73.66,73.66,U16,V-,AGND,,,"/>
+<approved hash="104,8,127,106.68,U33,OUT,3.1V_1,,,"/>
+<approved hash="104,8,127,101.6,U33,PGND,DGND,,,"/>
+<approved hash="104,8,48.26,111.76,U31,VDD,AVDD,,,"/>
+<approved hash="104,8,48.26,101.6,U31,GND,AGND,,,"/>
+<approved hash="104,8,127,43.18,U18,OUT,3.1V_2,,,"/>
+<approved hash="104,8,127,38.1,U18,PGND,DGND,,,"/>
+<approved hash="104,8,48.26,48.26,U15,VDD,AVDD,,,"/>
+<approved hash="104,8,48.26,38.1,U15,GND,AGND,,,"/>
+<approved hash="104,8,180.34,93.98,U20,VDD,AVDD,,,"/>
+<approved hash="104,8,180.34,83.82,U20,GND,AGND,,,"/>
+<approved hash="104,9,40.64,162.56,U30,VCCA,3.3V_6,,,"/>
+<approved hash="104,9,66.04,162.56,U30,VCCB,3.1V_1,,,"/>
+<approved hash="104,9,40.64,132.08,U26,VCCA,3.3V_6,,,"/>
+<approved hash="104,9,66.04,132.08,U26,VCCB,3.1V_1,,,"/>
+<approved hash="104,10,40.64,162.56,U12,VCCA,3.3V_6,,,"/>
+<approved hash="104,10,66.04,162.56,U12,VCCB,3.1V_2,,,"/>
+<approved hash="104,10,40.64,132.08,U9,VCCA,3.3V_6,,,"/>
+<approved hash="104,10,66.04,132.08,U9,VCCB,3.1V_2,,,"/>
+<approved hash="104,11,139.7,76.2,U27,RFGND,DGND,,,"/>
+<approved hash="104,11,139.7,88.9,U27,VCC1,PA_VCC1-700,,,"/>
+<approved hash="104,11,109.22,88.9,U27,VBIAS,5.0V_1,,,"/>
+<approved hash="104,9,111.76,101.6,U23,AVDD,3.1V_1,,,"/>
+<approved hash="104,9,111.76,99.06,U23,DVDD,3.3V_6,,,"/>
+<approved hash="104,9,111.76,53.34,U23,DVSS,DGND,,,"/>
+<approved hash="104,9,111.76,50.8,U23,AVSS,DGND,,,"/>
+<approved hash="104,11,43.18,78.74,U28,V+,AVDD,,,"/>
+<approved hash="104,11,43.18,63.5,U28,V-,AGND,,,"/>
+<approved hash="104,12,96.52,134.62,U14,RFGND,DGND,,,"/>
+<approved hash="104,4,139.7,180.34,U37BASE,VDDA,AVDD,,,"/>
+<approved hash="104,4,99.06,162.56,U37BASE,VDD,3.3V_6,,,"/>
+<approved hash="104,4,99.06,160.02,U37BASE,VDDUSB,3.3V_6,,,"/>
+<approved hash="104,4,99.06,172.72,U37BASE,VDD,3.3V_6,,,"/>
+<approved hash="104,4,99.06,170.18,U37BASE,VDD,3.3V_6,,,"/>
+<approved hash="104,4,99.06,167.64,U37BASE,VDD,3.3V_6,,,"/>
+<approved hash="104,4,99.06,165.1,U37BASE,VDD,3.3V_6,,,"/>
+<approved hash="104,4,139.7,157.48,U37BASE,VSS,DGND,,,"/>
+<approved hash="104,4,139.7,160.02,U37BASE,VSS,DGND,,,"/>
+<approved hash="104,4,139.7,162.56,U37BASE,VSS,DGND,,,"/>
+<approved hash="104,4,139.7,165.1,U37BASE,VSS,DGND,,,"/>
+<approved hash="104,4,139.7,154.94,U37BASE,VSS,DGND,,,"/>
+<approved hash="104,4,139.7,172.72,U37BASE,VSSA,AGND,,,"/>
 <approved hash="208,6,66.04,185.42,AVREF-0,sup,,,,"/>
 <approved hash="208,6,20.32,132.08,AVREF-0,out,,,,"/>
 <approved hash="208,6,17.78,134.62,AVREF-0,sup,,,,"/>
