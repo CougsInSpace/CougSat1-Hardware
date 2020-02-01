@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6419,9 +6419,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="J9" library="CougsInSpace-Connectors" deviceset="SWD" device="SMD-6-R" value="SWD"/>
 <part name="U12" library="CougsInSpace-IC-Comms" deviceset="LEVEL_SHIFTER-2BIT" device="-XSON-8" value="TXS0102DQM"/>
 <part name="U13" library="CougsInSpace-IC-Comms" deviceset="LEVEL_SHIFTER-2BIT" device="-XSON-8" value="TXS0102DQM"/>
-<part name="OFFSHEET62" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
-<part name="OFFSHEET63" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
-<part name="OFFSHEET64" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET69" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET70" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET73" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
@@ -7109,8 +7106,6 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="SUPPLY200" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
 <part name="SUPPLY202" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
 <part name="SUPPLY203" library="CougsInSpace-PowerSymbols" deviceset="AVDD-0" device=""/>
-<part name="OFFSHEET14" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
-<part name="OFFSHEET16" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET28" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET223" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 <part name="OFFSHEET312" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
@@ -7154,6 +7149,11 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET76" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET34" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="TP2" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
+<part name="OFFSHEET63" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
+<part name="OFFSHEET62" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
+<part name="OFFSHEET64" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
+<part name="OFFSHEET50" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
+<part name="OFFSHEET14" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-BI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13400,7 +13400,7 @@ Connected</text>
 <text x="104.14" y="101.6" size="1.27" layer="97" align="center-left"> &lt;11B6&gt;</text>
 <text x="48.26" y="121.92" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
 <text x="48.26" y="111.76" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
-<text x="248.92" y="91.44" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
+<text x="248.92" y="91.44" size="1.27" layer="97" align="center-left"> &lt;11B4&gt;</text>
 <text x="48.26" y="119.38" size="1.27" layer="97" align="center-left">   11B6&gt;  9C3&gt;</text>
 <text x="48.26" y="114.3" size="1.27" layer="97" align="center-left">   11B6&gt;  9D3&gt;</text>
 <text x="48.26" y="116.84" size="1.27" layer="97" align="center-left"> &lt;11B6  &lt;9C3</text>
@@ -13455,22 +13455,17 @@ Connected</text>
 Thermally
 Connected</text>
 <text x="241.3" y="162.56" size="1.27" layer="97" rot="MR0" align="center-right">   12C1&gt;</text>
-<text x="48.26" y="132.08" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
-<text x="48.26" y="129.54" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
-<text x="48.26" y="127" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
 <text x="48.26" y="124.46" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
 <text x="170.18" y="121.92" size="1.27" layer="97" align="center-left">   12C3&gt;</text>
 <text x="170.18" y="129.54" size="1.27" layer="97" align="center-left">   11B6&gt;</text>
 <text x="251.46" y="104.14" size="1.27" layer="97" align="center-left"> &lt;11B4</text>
-<text x="248.92" y="88.9" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
-<text x="248.92" y="86.36" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
+<text x="248.92" y="88.9" size="1.27" layer="97" align="center-left"> &lt;11B3&gt;</text>
+<text x="248.92" y="86.36" size="1.27" layer="97" align="center-left"> &lt;11B3&gt;</text>
 <text x="248.92" y="83.82" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
 <text x="248.92" y="81.28" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
 <text x="248.92" y="78.74" size="1.27" layer="97" align="center-left"> &lt;11B2&gt;</text>
 <text x="50.8" y="106.68" size="1.27" layer="97" align="center-left">   9D3&gt;</text>
 <text x="193.04" y="185.42" size="1.27" layer="97" align="center-left"> &lt;11D6</text>
-<text x="170.18" y="116.84" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
-<text x="170.18" y="114.3" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
 <text x="248.92" y="76.2" size="1.27" layer="97" align="center-left"> &lt;11B4&gt;</text>
 <text x="248.92" y="73.66" size="1.27" layer="97" align="center-left"> &lt;11B4&gt;</text>
 <wire x1="98.806" y1="39.37" x2="99.06" y2="15.24" width="0.1524" layer="97" style="shortdash"/>
@@ -13481,6 +13476,11 @@ Connected</text>
 Decoupling</text>
 <text x="10.16" y="73.66" size="1.27" layer="97" align="center-right">&lt;11C2   </text>
 <text x="10.16" y="68.58" size="1.27" layer="97" align="center-right">&lt;11B2   </text>
+<text x="104.14" y="93.98" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
+<text x="170.18" y="109.22" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
+<text x="104.14" y="96.52" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
+<text x="170.18" y="114.3" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
+<text x="170.18" y="116.84" size="1.27" layer="97" align="center-left"> &lt;11C6&gt;</text>
 </plain>
 <instances>
 <instance part="FRAME9" gate="G$1" x="0" y="0" smashed="yes">
@@ -13560,9 +13560,6 @@ Decoupling</text>
 <attribute name="SKU" x="201.93" y="29.718" size="1.778" layer="97" align="center"/>
 <attribute name="PACKAGE" x="201.93" y="27.686" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="OFFSHEET62" gate="G$1" x="45.72" y="132.08" smashed="yes"/>
-<instance part="OFFSHEET63" gate="G$1" x="45.72" y="129.54" smashed="yes"/>
-<instance part="OFFSHEET64" gate="G$1" x="45.72" y="127" smashed="yes"/>
 <instance part="OFFSHEET69" gate="G$1" x="45.72" y="121.92" smashed="yes"/>
 <instance part="OFFSHEET70" gate="G$1" x="45.72" y="124.46" smashed="yes"/>
 <instance part="OFFSHEET73" gate="G$1" x="45.72" y="111.76" smashed="yes"/>
@@ -13765,8 +13762,6 @@ Decoupling</text>
 </instance>
 <instance part="OFFSHEET308" gate="G$1" x="48.26" y="106.68" smashed="yes" rot="R180"/>
 <instance part="OFFSHEET311" gate="G$1" x="190.5" y="185.42" smashed="yes" rot="R180"/>
-<instance part="OFFSHEET14" gate="G$1" x="167.64" y="116.84" smashed="yes"/>
-<instance part="OFFSHEET16" gate="G$1" x="167.64" y="114.3" smashed="yes"/>
 <instance part="OFFSHEET28" gate="G$1" x="246.38" y="76.2" smashed="yes"/>
 <instance part="OFFSHEET223" gate="G$1" x="246.38" y="73.66" smashed="yes"/>
 <instance part="C101" gate="G$1" x="104.14" y="22.86" smashed="yes">
@@ -13795,6 +13790,11 @@ Decoupling</text>
 </instance>
 <instance part="OFFSHEET298" gate="G$1" x="12.7" y="73.66" smashed="yes"/>
 <instance part="OFFSHEET111" gate="G$1" x="12.7" y="68.58" smashed="yes"/>
+<instance part="OFFSHEET63" gate="G$1" x="101.6" y="93.98" smashed="yes"/>
+<instance part="OFFSHEET62" gate="G$1" x="167.64" y="109.22" smashed="yes"/>
+<instance part="OFFSHEET64" gate="G$1" x="101.6" y="96.52" smashed="yes"/>
+<instance part="OFFSHEET50" gate="G$1" x="167.64" y="114.3" smashed="yes"/>
+<instance part="OFFSHEET14" gate="G$1" x="167.64" y="116.84" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -14116,38 +14116,38 @@ Decoupling</text>
 </net>
 <net name="IHU_GPIO-0" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="PA0"/>
-<wire x1="20.32" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="22.86" y="132.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="220.98" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <label x="223.52" y="91.44" size="1.778" layer="95"/>
 <pinref part="J4" gate="GPIO" pin="GPIO-0"/>
 </segment>
+<segment>
+<wire x1="137.16" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="139.7" y="109.22" size="1.778" layer="95"/>
+<pinref part="U3" gate="C" pin="PC9"/>
+</segment>
 </net>
 <net name="IHU_GPIO-1" class="0">
-<segment>
-<wire x1="20.32" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="PA1"/>
-<label x="22.86" y="129.54" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="220.98" y1="88.9" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
 <label x="223.52" y="88.9" size="1.778" layer="95"/>
 <pinref part="J4" gate="GPIO" pin="GPIO-1"/>
 </segment>
+<segment>
+<wire x1="73.66" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+<label x="76.2" y="93.98" size="1.778" layer="95"/>
+<pinref part="U3" gate="B" pin="PB15"/>
+</segment>
 </net>
 <net name="IHU_GPIO-2" class="0">
-<segment>
-<wire x1="20.32" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="PA2"/>
-<label x="22.86" y="127" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="220.98" y1="86.36" x2="243.84" y2="86.36" width="0.1524" layer="91"/>
 <label x="223.52" y="86.36" size="1.778" layer="95"/>
 <pinref part="J4" gate="GPIO" pin="GPIO-2"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
+<label x="76.2" y="96.52" size="1.778" layer="95"/>
+<pinref part="U3" gate="B" pin="PB14"/>
 </segment>
 </net>
 <net name="IHU_GPIO-3" class="0">
@@ -14512,26 +14512,26 @@ Decoupling</text>
 </net>
 <net name="IHU_GPIO-7" class="0">
 <segment>
-<pinref part="U3" gate="C" pin="PC7"/>
-<wire x1="137.16" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="139.7" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="220.98" y1="73.66" x2="243.84" y2="73.66" width="0.1524" layer="91"/>
 <label x="223.52" y="73.66" size="1.778" layer="95"/>
 <pinref part="J4" gate="GPIO" pin="GPIO-7"/>
 </segment>
-</net>
-<net name="IHU_GPIO-6" class="0">
 <segment>
-<pinref part="U3" gate="C" pin="PC6"/>
 <wire x1="137.16" y1="116.84" x2="165.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="139.7" y="116.84" size="1.778" layer="95"/>
+<pinref part="U3" gate="C" pin="PC6"/>
 </segment>
+</net>
+<net name="IHU_GPIO-6" class="0">
 <segment>
 <wire x1="220.98" y1="76.2" x2="243.84" y2="76.2" width="0.1524" layer="91"/>
 <label x="223.52" y="76.2" size="1.778" layer="95"/>
 <pinref part="J4" gate="GPIO" pin="GPIO-6"/>
+</segment>
+<segment>
+<wire x1="137.16" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
+<label x="139.7" y="114.3" size="1.778" layer="95"/>
+<pinref part="U3" gate="C" pin="PC7"/>
 </segment>
 </net>
 </nets>
