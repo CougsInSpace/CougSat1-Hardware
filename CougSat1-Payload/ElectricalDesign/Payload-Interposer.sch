@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3866,11 +3866,6 @@ Bulkhead</text>
 <wire x1="144.78" y1="167.132" x2="144.78" y2="190.5" width="0.1524" layer="97" style="shortdash"/>
 <text x="154.94" y="170.18" size="1.778" layer="97" align="center">CAD Note:
 U5 Decoupling</text>
-<text x="170.18" y="132.08" size="1.778" layer="95">LED 1</text>
-<text x="170.18" y="129.54" size="1.778" layer="95">LED 2</text>
-<text x="170.18" y="127" size="1.778" layer="95">LED 3</text>
-<text x="170.18" y="124.46" size="1.778" layer="95">LED 4</text>
-<text x="170.18" y="121.92" size="1.778" layer="95">HEATER</text>
 <wire x1="58.42" y1="187.96" x2="78.74" y2="187.96" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="187.96" x2="78.74" y2="164.592" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="78.74" y1="164.592" x2="58.42" y2="164.592" width="0.1524" layer="97" style="shortdash"/>
@@ -4085,13 +4080,13 @@ DS5 Decoupling</text>
 <instance part="SUPPLY54" gate="G$1" x="241.3" y="157.48" smashed="yes">
 <attribute name="VALUE" x="241.3" y="161.036" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="R6" gate="G$1" x="179.324" y="134.62" smashed="yes">
-<attribute name="NAME" x="180.594" y="139.7" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="180.594" y="138.176" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="180.594" y="135.128" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="180.594" y="133.604" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="180.594" y="132.08" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="180.594" y="136.652" size="1.27" layer="97" align="center-left"/>
+<instance part="R6" gate="G$1" x="179.324" y="137.16" smashed="yes">
+<attribute name="NAME" x="180.594" y="142.24" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="180.594" y="140.716" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="180.594" y="137.668" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="180.594" y="136.144" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="180.594" y="134.62" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="180.594" y="139.192" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="R7" gate="G$1" x="192.024" y="137.16" smashed="yes">
 <attribute name="NAME" x="193.294" y="142.24" size="1.27" layer="95" align="center-left"/>
@@ -4117,8 +4112,8 @@ DS5 Decoupling</text>
 <attribute name="TEMP" x="218.694" y="134.62" size="1.27" layer="97" align="center-left"/>
 <attribute name="SKU" x="218.694" y="139.192" size="1.27" layer="97" align="center-left"/>
 </instance>
-<instance part="SUPPLY55" gate="G$1" x="179.324" y="149.86" smashed="yes">
-<attribute name="VALUE" x="179.324" y="153.416" size="1.27" layer="96" align="center"/>
+<instance part="SUPPLY55" gate="G$1" x="179.324" y="152.4" smashed="yes">
+<attribute name="VALUE" x="179.324" y="155.956" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="SUPPLY57" gate="G$1" x="192.024" y="152.4" smashed="yes">
 <attribute name="VALUE" x="192.024" y="155.956" size="1.27" layer="96" align="center"/>
@@ -4146,13 +4141,13 @@ DS5 Decoupling</text>
 <attribute name="SKU" x="229.87" y="149.352" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY60" gate="G$1" x="241.3" y="121.92" smashed="yes"/>
-<instance part="DS1" gate="G$1" x="179.324" y="144.78" smashed="yes">
-<attribute name="NAME" x="181.864" y="149.86" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="181.864" y="148.336" size="1.27" layer="95" align="center-left"/>
-<attribute name="SKU" x="181.864" y="146.812" size="1.27" layer="95" align="center-left"/>
-<attribute name="CURRENT" x="181.864" y="143.764" size="1.27" layer="95" align="center-left"/>
-<attribute name="VF" x="181.864" y="142.24" size="1.27" layer="95" align="center-left"/>
-<attribute name="PACKAGE" x="181.864" y="145.288" size="1.27" layer="95" align="center-left"/>
+<instance part="DS1" gate="G$1" x="179.324" y="147.32" smashed="yes">
+<attribute name="NAME" x="181.864" y="152.4" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="181.864" y="150.876" size="1.27" layer="95" align="center-left"/>
+<attribute name="SKU" x="181.864" y="149.352" size="1.27" layer="95" align="center-left"/>
+<attribute name="CURRENT" x="181.864" y="146.304" size="1.27" layer="95" align="center-left"/>
+<attribute name="VF" x="181.864" y="144.78" size="1.27" layer="95" align="center-left"/>
+<attribute name="PACKAGE" x="181.864" y="147.828" size="1.27" layer="95" align="center-left"/>
 </instance>
 <instance part="DS2" gate="G$1" x="192.024" y="147.32" smashed="yes">
 <attribute name="NAME" x="194.564" y="152.4" size="1.27" layer="95" align="center-left"/>
@@ -4780,7 +4775,7 @@ DS5 Decoupling</text>
 <pinref part="C20" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="HEATER" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="!OUT0"/>
 <wire x1="228.6" y1="144.78" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
@@ -4790,72 +4785,78 @@ DS5 Decoupling</text>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="233.68" y1="142.24" x2="228.6" y2="142.24" width="0.1524" layer="91"/>
 <junction x="228.6" y="142.24"/>
+<label x="170.18" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="LED_1_INT" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="179.324" y1="142.24" x2="179.324" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="DS1" gate="G$1" pin="C"/>
+<wire x1="179.324" y1="144.78" x2="179.324" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="LED_2_INT" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="192.024" y1="144.78" x2="192.024" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="DS2" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="LED_3_INT" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="204.724" y1="144.78" x2="204.724" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="DS3" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="LED_4_INT" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="217.424" y1="144.78" x2="217.424" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="DS4" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="U5" gate="G$1" pin="!OUT4"/>
-<wire x1="179.324" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
+<net name="LED-\2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="!OUT3"/>
 <wire x1="192.024" y1="134.62" x2="192.024" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="192.024" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<label x="170.18" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="LED-3" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="!OUT2"/>
 <wire x1="204.724" y1="134.62" x2="204.724" y2="127" width="0.1524" layer="91"/>
 <wire x1="204.724" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<label x="170.18" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$22" class="0">
+<net name="LED-4" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="!OUT1"/>
 <wire x1="217.424" y1="134.62" x2="217.424" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="217.424" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<label x="170.18" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="HEATER_SOURCE" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="241.3" y1="132.08" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED-1" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="!OUT4"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="132.08" x2="179.324" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="179.324" y1="132.08" x2="179.324" y2="134.62" width="0.1524" layer="91"/>
+<label x="170.18" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -4912,7 +4913,7 @@ B1 Decoupling</text>
 <attribute name="SKU" x="149.86" y="80.518" size="1.778" layer="97" rot="MR0" align="center"/>
 <attribute name="LENS" x="149.86" y="78.486" size="1.778" layer="97" rot="MR0" align="center"/>
 </instance>
-<instance part="SUPPLY25" gate="G$1" x="119.38" y="86.36" smashed="yes"/>
+<instance part="SUPPLY25" gate="G$1" x="116.84" y="81.28" smashed="yes"/>
 <instance part="SUPPLY26" gate="G$1" x="223.52" y="177.8" smashed="yes"/>
 <instance part="SUPPLY27" gate="G$1" x="243.84" y="175.26" smashed="yes"/>
 <instance part="R1" gate="G$1" x="243.84" y="180.34" smashed="yes">
@@ -5146,7 +5147,8 @@ B1 Decoupling</text>
 <segment>
 <pinref part="B1" gate="G$1" pin="DGND"/>
 <pinref part="SUPPLY25" gate="G$1" pin="PGND"/>
-<wire x1="121.92" y1="88.9" x2="119.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY26" gate="G$1" pin="PGND"/>
@@ -5241,9 +5243,6 @@ B1 Decoupling</text>
 <net name="I2C_SCL_OUT" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="SCK"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="147.32" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="147.32" x2="106.68" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="B2" gate="G$1" pin="RX/SCL"/>
 <wire x1="86.36" y1="20.32" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="63.5" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
@@ -5252,14 +5251,18 @@ B1 Decoupling</text>
 <wire x1="45.72" y1="83.82" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="106.68" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="134.62" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="165.1" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="147.32" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="165.1" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
 <junction x="45.72" y="106.68"/>
 <pinref part="U6" gate="G$1" pin="A2"/>
 <wire x1="45.72" y1="83.82" x2="63.5" y2="83.82" width="0.1524" layer="91"/>
 <junction x="45.72" y="83.82"/>
 <wire x1="23.0124" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="147.32" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<junction x="86.36" y="147.32"/>
 </segment>
 <segment>
 <label x="25.4" y="106.68" size="1.778" layer="95"/>
@@ -5334,11 +5337,6 @@ B1 Decoupling</text>
 <pinref part="SUPPLY47" gate="G$1" pin="CHASSIS"/>
 <wire x1="55.88" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="15.24" x2="53.34" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<junction x="86.36" y="147.32"/>
 </segment>
 </net>
 <net name="I2C_SDA_OUT1" class="0">
