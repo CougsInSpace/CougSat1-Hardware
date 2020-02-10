@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
@@ -1506,7 +1506,7 @@ Last character is an incremented letter for each variant of the same value and p
 <variantdef name="PV0 (+Z)"/>
 <variantdef name="PV1 (-Y)"/>
 <variantdef name="PV2 (-X)"/>
-<variantdef name="PV3 (+Y)"/>
+<variantdef name="PV3 (+Y)" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -1925,7 +1925,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="PicoLock" x="-2.5" y="-23.75" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="SKU" value="04-0007" x="-2.5" y="-23.75" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="L100" library="CougsInSpace-Coils" package="SMD-3030-2" value="xxx Turns" x="18.75" y="-26.5" smashed="yes" rot="MR270">
+<element name="L100" library="CougsInSpace-Coils" package="SMD-3030-2" value="xxx Turns" x="18.75" y="-26.5" populate="no" smashed="yes" rot="MR270">
 <attribute name="AREA" value="xxx mm²" x="18.75" y="-26.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="DCR" value="xxΩ x%" x="18.75" y="-26.5" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="16.25" y="-26.5" size="0.8" layer="26" font="vector" ratio="15" rot="MR270" align="center"/>
@@ -2040,14 +2040,14 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="25.64" y="-2.71" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="25.64" y="-2.71" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R101" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-26.25" smashed="yes" rot="MR180">
+<element name="R101" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-26.25" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="0" y="-37.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="-26.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="0" y="-26.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="SKU" value="21-2201" x="0" y="-26.25" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP" value="100ppm/°C" x="0" y="-26.25" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R100" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-28" smashed="yes" rot="MR180">
+<element name="R100" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-28" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="0" y="-38.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="0" y="-28" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="0" y="-28" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2066,14 +2066,14 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="16.5" y="-13.25" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="16.5" y="-13.25" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R103" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-23.5" smashed="yes" rot="MR0">
+<element name="R103" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-23.5" populate="no" smashed="yes" rot="MR0">
 <attribute name="NAME" x="0" y="-35.75" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-0.5" y="-23.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="-0.5" y="-23.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="SKU" value="21-2201" x="-0.5" y="-23.5" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP" value="100ppm/°C" x="-0.5" y="-23.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R104" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-21.75" smashed="yes" rot="MR0">
+<element name="R104" library="CougsInSpace-Resistors" package="1608" value="2.2kΩ 1%" x="0" y="-21.75" populate="no" smashed="yes" rot="MR0">
 <attribute name="NAME" x="0" y="-34.75" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-0.5" y="-21.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="-0.5" y="-21.75" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2138,7 +2138,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="23.5" y="-14.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR90" align="center"/>
 <attribute name="SKU" value="27-0003" x="26.85" y="-19.65" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R134" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-18.25" y="10.75" smashed="yes" rot="MR0">
+<element name="R134" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-18.25" y="10.75" populate="no" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-27" y="2.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-18.25" y="10.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="-18.25" y="10.75" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2159,7 +2159,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="-18.25" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-18.25" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R131" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-15.25" y="9" smashed="yes" rot="MR0">
+<element name="R131" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-15.25" y="9" populate="no" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-24" y="1.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-15.25" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="POWER" value="1/10W" x="-15.25" y="9" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2180,7 +2180,7 @@ design rules under a new name.</description>
 <attribute name="TEMP" value="X7R" x="14" y="-13.75" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="14" y="-13.75" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="R110" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="20" y="-8.75" smashed="yes" rot="MR180">
+<element name="R110" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="20" y="-8.75" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="20" y="-6.25" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="20.6" y="-8.75" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="20.6" y="-8.75" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2201,7 +2201,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="20.6" y="-7.3" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="20.6" y="-7.3" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R111" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="17" y="-10.5" smashed="yes" rot="MR180">
+<element name="R111" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="17" y="-10.5" populate="no" smashed="yes" rot="MR180">
 <attribute name="NAME" x="14" y="-10.5" size="0.8" layer="26" font="vector" ratio="15" rot="MR180" align="center"/>
 <attribute name="PACKAGE" value="1608" x="14.7" y="-4.1" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="POWER" value="1/10W" x="14.7" y="-4.1" size="1.778" layer="28" rot="MR180" display="off"/>
