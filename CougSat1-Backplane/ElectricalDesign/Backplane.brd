@@ -171,7 +171,7 @@
 <wire x1="-20.5" y1="-43" x2="-21" y2="-42.5" width="0" layer="20" curve="-90"/>
 <wire x1="-21" y1="-42.5" x2="-21" y2="16.5" width="0" layer="20"/>
 <wire x1="-21" y1="16.5" x2="-20.5" y2="17" width="0" layer="20" curve="-90"/>
-<text x="-3.4" y="0" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">Backplane V3.1</text>
+<text x="30" y="0.1" size="1.5" layer="21" font="vector" ratio="15" rot="R180" align="center">Backplane V3.2</text>
 <text x="-19" y="-37.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 0</text>
 <text x="-19" y="-28.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 1</text>
 <text x="-19" y="-19.5" size="1.5" layer="21" font="vector" ratio="15" rot="R270" align="center">Slot 2</text>
@@ -713,7 +713,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-85.75" y="-37.57" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="0.75" y="3.75" smashed="yes" rot="R90"/>
+<element name="LOGO2" library="CougsInSpace-Aesthetics" package="SIGN-HENDRIK" value="SIGNATUREHENDRIK" x="22.5" y="0" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="BUS_I2C0_SDA">
@@ -1773,6 +1773,7 @@ design rules under a new name.</description>
 <wire x1="35.65" y1="-11.75" x2="35.65" y2="-9.25" width="0.6" layer="16"/>
 <wire x1="35.65" y1="11.75" x2="35.65" y2="9.25" width="0.6" layer="16"/>
 <wire x1="35.65" y1="9.25" x2="35.65" y2="-9.25" width="0.6" layer="16"/>
+<wire x1="35.65" y1="9.25" x2="35.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-1">
 <contactref element="J10" pad="A2"/>
@@ -1802,6 +1803,7 @@ design rules under a new name.</description>
 <wire x1="34.65" y1="-16.25" x2="34.65" y2="-22.75" width="0.6" layer="16"/>
 <wire x1="34.65" y1="7.25" x2="34.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="34.65" y1="-7.25" x2="34.65" y2="7.25" width="0.6" layer="16"/>
+<wire x1="34.65" y1="-7.25" x2="34.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-2">
 <contactref element="J10" pad="A3"/>
@@ -1831,6 +1833,7 @@ design rules under a new name.</description>
 <wire x1="33.65" y1="-11.75" x2="33.65" y2="-9.25" width="0.6" layer="16"/>
 <wire x1="33.65" y1="11.75" x2="33.65" y2="9.25" width="0.6" layer="16"/>
 <wire x1="33.65" y1="9.25" x2="33.65" y2="-9.25" width="0.6" layer="16"/>
+<wire x1="33.65" y1="9.25" x2="33.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-3">
 <contactref element="J10" pad="A4"/>
@@ -1860,6 +1863,7 @@ design rules under a new name.</description>
 <wire x1="32.65" y1="-16.25" x2="32.65" y2="-22.75" width="0.6" layer="16"/>
 <wire x1="32.65" y1="7.25" x2="32.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="32.65" y1="-7.25" x2="32.65" y2="7.25" width="0.6" layer="16"/>
+<wire x1="32.65" y1="-7.25" x2="32.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-4">
 <contactref element="J10" pad="A5"/>
@@ -1889,6 +1893,7 @@ design rules under a new name.</description>
 <wire x1="31.65" y1="-11.75" x2="31.65" y2="-9.25" width="0.6" layer="16"/>
 <wire x1="31.65" y1="11.75" x2="31.65" y2="9.25" width="0.6" layer="16"/>
 <wire x1="31.65" y1="9.25" x2="31.65" y2="-9.25" width="0.6" layer="16"/>
+<wire x1="31.65" y1="9.25" x2="31.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-5">
 <contactref element="J10" pad="A6"/>
@@ -1918,6 +1923,7 @@ design rules under a new name.</description>
 <wire x1="30.65" y1="-16.25" x2="30.65" y2="-22.75" width="0.6" layer="16"/>
 <wire x1="30.65" y1="7.25" x2="30.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="30.65" y1="-7.25" x2="30.65" y2="7.25" width="0.6" layer="16"/>
+<wire x1="30.65" y1="-7.25" x2="30.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-6">
 <contactref element="J10" pad="A7"/>
@@ -1947,6 +1953,7 @@ design rules under a new name.</description>
 <wire x1="29.65" y1="-11.75" x2="29.65" y2="-9.25" width="0.6" layer="16"/>
 <wire x1="29.65" y1="11.75" x2="29.65" y2="9.25" width="0.6" layer="16"/>
 <wire x1="29.65" y1="-9.25" x2="29.65" y2="9.25" width="0.6" layer="16"/>
+<wire x1="29.65" y1="9.25" x2="29.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-7">
 <contactref element="J10" pad="A8"/>
@@ -1976,6 +1983,7 @@ design rules under a new name.</description>
 <wire x1="28.65" y1="-16.25" x2="28.65" y2="-22.75" width="0.6" layer="16"/>
 <wire x1="28.65" y1="7.25" x2="28.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="28.65" y1="7.25" x2="28.65" y2="-7.25" width="0.6" layer="16"/>
+<wire x1="28.65" y1="-7.25" x2="28.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-8">
 <contactref element="J10" pad="A9"/>
@@ -2005,6 +2013,7 @@ design rules under a new name.</description>
 <wire x1="27.65" y1="-11.75" x2="27.65" y2="-9.25" width="0.6" layer="16"/>
 <wire x1="27.65" y1="11.75" x2="27.65" y2="9.25" width="0.6" layer="16"/>
 <wire x1="27.65" y1="-9.25" x2="27.65" y2="9.25" width="0.6" layer="16"/>
+<wire x1="27.65" y1="9.25" x2="27.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-9">
 <contactref element="J10" pad="A10"/>
@@ -2034,6 +2043,7 @@ design rules under a new name.</description>
 <wire x1="26.65" y1="-16.25" x2="26.65" y2="-22.75" width="0.6" layer="16"/>
 <wire x1="26.65" y1="7.25" x2="26.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="26.65" y1="7.25" x2="26.65" y2="-7.25" width="0.6" layer="16"/>
+<wire x1="26.65" y1="-7.25" x2="26.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-10">
 <contactref element="J10" pad="A11"/>
@@ -2102,8 +2112,8 @@ design rules under a new name.</description>
 <wire x1="25.81" y1="9.75026875" x2="25.81" y2="11.24973125" width="0.6" layer="16"/>
 <wire x1="25.81" y1="11.24973125" x2="25.65" y2="11.40973125" width="0.6" layer="16"/>
 <wire x1="25.65" y1="11.40973125" x2="25.65" y2="11.75" width="0.6" layer="16"/>
-<wire x1="25.65" y1="-9.25" x2="25.65" y2="-0.2" width="0.6" layer="16"/>
-<wire x1="25.65" y1="-0.2" x2="25.65" y2="9.25" width="0.6" layer="16"/>
+<wire x1="25.65" y1="9.25" x2="25.65" y2="-9.25" width="0.6" layer="1"/>
+<wire x1="25.65" y1="9.25" x2="25.65" y2="-9.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_3.3V-11">
 <contactref element="J10" pad="A12"/>
@@ -2145,6 +2155,9 @@ design rules under a new name.</description>
 <wire x1="20.65" y1="8.83578125" x2="20.65" y2="12.16421875" width="0.6" layer="16"/>
 <wire x1="22.23578125" y1="13.75" x2="22.65" y2="13.75" width="0.6" layer="16"/>
 <wire x1="20.65" y1="12.16421875" x2="22.23578125" y2="13.75" width="0.6" layer="16"/>
+<wire x1="22.65" y1="-22.75" x2="22.65" y2="-25.25" width="0.6" layer="16"/>
+<wire x1="22.65" y1="-34.25" x2="22.65" y2="-31.75" width="0.6" layer="16"/>
+<wire x1="22.65" y1="-13.75" x2="22.65" y2="-16.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_3.3V-12">
 <contactref element="J10" pad="A13"/>
@@ -2512,6 +2525,36 @@ design rules under a new name.</description>
 <wire x1="-7.95" y1="5.4" x2="-6.35" y2="7" width="0.2" layer="16"/>
 <wire x1="-6.35" y1="-7.118625" x2="-7.95" y2="-5.518625" width="0.2" layer="16"/>
 <wire x1="-7.95" y1="-5.518625" x2="-7.95" y2="5.4" width="0.2" layer="16"/>
+</signal>
+<signal name="BALANCING-BOTTOM">
+<polygon width="0.16" layer="16" spacing="0.5" pour="hatch">
+<vertex x="-21" y="-42.5"/>
+<vertex x="-21" y="16.5" curve="-90"/>
+<vertex x="-20.5" y="17"/>
+<vertex x="40.9" y="17" curve="-90"/>
+<vertex x="41.4" y="16.5"/>
+<vertex x="41.4" y="-41.6"/>
+<vertex x="32.5" y="-41.6" curve="90"/>
+<vertex x="32" y="-42.1"/>
+<vertex x="32" y="-42.5" curve="-90"/>
+<vertex x="31.5" y="-43"/>
+<vertex x="-20.5" y="-43" curve="-90"/>
+</polygon>
+</signal>
+<signal name="BALANCING-BOTTOM1">
+<polygon width="0.16" layer="1" spacing="0.5" pour="hatch">
+<vertex x="-21" y="-42.5"/>
+<vertex x="-21" y="16.5" curve="-90"/>
+<vertex x="-20.5" y="17"/>
+<vertex x="40.9" y="17" curve="-90"/>
+<vertex x="41.4" y="16.5"/>
+<vertex x="41.4" y="-41.6"/>
+<vertex x="32.5" y="-41.6" curve="90"/>
+<vertex x="32" y="-42.1"/>
+<vertex x="32" y="-42.5" curve="-90"/>
+<vertex x="31.5" y="-43"/>
+<vertex x="-20.5" y="-43" curve="-90"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
