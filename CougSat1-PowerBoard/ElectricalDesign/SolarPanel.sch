@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2754,12 +2754,8 @@ Space EE</text>
 <wire x1="-2.2" y1="-1.5" x2="-2.2" y2="-1.4" width="0.15" layer="21"/>
 <wire x1="-2.2" y1="-1.5" x2="2.2" y2="-1.5" width="0.15" layer="51"/>
 <wire x1="2.2" y1="1.5" x2="-2.2" y2="1.5" width="0.15" layer="51"/>
-<polygon width="0.15" layer="21">
-<vertex x="-4.175" y="1.9"/>
-<vertex x="-4.175" y="1.2"/>
-<vertex x="-3.475" y="1.9"/>
-</polygon>
 <text x="0" y="2.4" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-4.2" y1="1.3" x2="0" y2="1.9" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -4239,6 +4235,13 @@ Last character is an incremented letter for each variant of the same value and p
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0">
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="23-0000"/>
+<attribute name="TEMP" value="70°C Max 2A"/>
+<attribute name="VALUE" value="0Ω &lt;20mΩ"/>
+</technology>
 <technology name="-0.01R">
 <attribute name="PACKAGE" value="3216"/>
 <attribute name="POWER" value="1/2W"/>
@@ -4282,6 +4285,13 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="SKU" value="25-15.0"/>
 <attribute name="TEMP" value="-40~275°C"/>
 <attribute name="VALUE" value="15Ω 5%"/>
+</technology>
+<technology name="-5R">
+<attribute name="PACKAGE" value="THT 15mm"/>
+<attribute name="POWER" value="1W"/>
+<attribute name="SKU" value="25-5.00"/>
+<attribute name="TEMP" value="-65~250°C"/>
+<attribute name="VALUE" value="5Ω 1%"/>
 </technology>
 </technologies>
 </device>
@@ -6441,7 +6451,7 @@ Last character is an incremented letter for each variant of the same value and p
 <variantdef name="PV0 (+Z)"/>
 <variantdef name="PV1 (-Y)"/>
 <variantdef name="PV2 (-X)"/>
-<variantdef name="PV3 (+Y)" current="yes"/>
+<variantdef name="PV3 (+Y)"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
