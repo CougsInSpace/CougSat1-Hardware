@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2123,7 +2123,7 @@ Last character is an incremented letter for each variant of the same value and p
 <attribute name="DESIGNER" value="Hendrik Melse"/>
 <attribute name="PART_NUMBER" value="68-0005"/>
 <attribute name="PROJECT" value="CougSat-1: Backplane"/>
-<attribute name="REV" value="3.2.0"/>
+<attribute name="REV" value="3.2.1"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -2135,13 +2135,13 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="FRAME1" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Data Bus Slots 0 - 3"/>
 </part>
-<part name="J10" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
+<part name="J0" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
 <part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Block Diagram"/>
 </part>
-<part name="J9" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
-<part name="J8" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
-<part name="J7" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
+<part name="J1" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
+<part name="J2" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
+<part name="J3" library="CougsInSpace-Connectors" deviceset="CIS_CARD" device="-PCIE" value="CougSat Socket"/>
 <part name="FRAME3" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Power Bus"/>
 </part>
@@ -2270,42 +2270,42 @@ Page 5: Mechanical</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="J10" gate="DATA" x="17.78" y="142.24" smashed="yes">
+<instance part="J0" gate="DATA" x="17.78" y="142.24" smashed="yes">
 <attribute name="NAME" x="17.78" y="171.45" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="17.78" y="123.19" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="17.78" y="121.158" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J10" gate="JTAG" x="17.78" y="58.42" smashed="yes">
+<instance part="J0" gate="JTAG" x="17.78" y="58.42" smashed="yes">
 <attribute name="NAME" x="17.78" y="72.39" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="17.78" y="46.99" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="17.78" y="44.958" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J9" gate="DATA" x="78.74" y="142.24" smashed="yes">
+<instance part="J1" gate="DATA" x="78.74" y="142.24" smashed="yes">
 <attribute name="NAME" x="78.74" y="171.45" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="78.74" y="123.19" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="78.74" y="121.158" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J9" gate="JTAG" x="78.74" y="58.42" smashed="yes">
+<instance part="J1" gate="JTAG" x="78.74" y="58.42" smashed="yes">
 <attribute name="NAME" x="78.74" y="72.39" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="78.74" y="46.99" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="78.74" y="44.958" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J8" gate="DATA" x="139.7" y="142.24" smashed="yes">
+<instance part="J2" gate="DATA" x="139.7" y="142.24" smashed="yes">
 <attribute name="NAME" x="139.7" y="171.45" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="139.7" y="123.19" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="139.7" y="121.158" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J8" gate="JTAG" x="139.7" y="58.42" smashed="yes">
+<instance part="J2" gate="JTAG" x="139.7" y="58.42" smashed="yes">
 <attribute name="NAME" x="139.7" y="72.39" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="139.7" y="46.99" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="139.7" y="44.958" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J7" gate="DATA" x="200.66" y="142.24" smashed="yes">
+<instance part="J3" gate="DATA" x="200.66" y="142.24" smashed="yes">
 <attribute name="NAME" x="200.66" y="171.45" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="200.66" y="123.19" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="200.66" y="121.158" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J7" gate="JTAG" x="200.66" y="58.42" smashed="yes">
+<instance part="J3" gate="JTAG" x="200.66" y="58.42" smashed="yes">
 <attribute name="NAME" x="200.66" y="72.39" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="200.66" y="46.99" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="200.66" y="44.958" size="1.778" layer="97" align="center"/>
@@ -2313,22 +2313,22 @@ Page 5: Mechanical</text>
 <instance part="OFFSHEET1" gate="G$1" x="248.92" y="175.26" smashed="yes"/>
 <instance part="OFFSHEET2" gate="G$1" x="248.92" y="111.76" smashed="yes"/>
 <instance part="OFFSHEET3" gate="G$1" x="248.92" y="76.2" smashed="yes"/>
-<instance part="J7" gate="GPIO" x="200.66" y="96.52" smashed="yes">
+<instance part="J3" gate="GPIO" x="200.66" y="96.52" smashed="yes">
 <attribute name="NAME" x="200.66" y="107.95" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="200.66" y="82.55" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="200.66" y="80.518" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J8" gate="GPIO" x="139.7" y="96.52" smashed="yes">
+<instance part="J2" gate="GPIO" x="139.7" y="96.52" smashed="yes">
 <attribute name="NAME" x="139.7" y="107.95" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="139.7" y="82.55" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="139.7" y="80.518" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J9" gate="GPIO" x="78.74" y="96.52" smashed="yes">
+<instance part="J1" gate="GPIO" x="78.74" y="96.52" smashed="yes">
 <attribute name="NAME" x="78.74" y="107.95" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="78.74" y="82.55" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="78.74" y="80.518" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J10" gate="GPIO" x="17.78" y="96.52" smashed="yes">
+<instance part="J0" gate="GPIO" x="17.78" y="96.52" smashed="yes">
 <attribute name="NAME" x="17.78" y="107.95" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="17.78" y="82.55" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="17.78" y="80.518" size="1.778" layer="97" align="center"/>
@@ -2387,25 +2387,25 @@ Page 5: Mechanical</text>
 <nets>
 <net name="BUS_I2C0_SDA" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C0_SDA"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C0_SDA"/>
 <wire x1="58.42" y1="167.64" x2="55.88" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="165.1" x2="30.48" y2="165.1" width="0.1524" layer="91"/>
 <label x="30.48" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C0_SDA"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C0_SDA"/>
 <wire x1="119.38" y1="167.64" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="165.1" x2="91.44" y2="165.1" width="0.1524" layer="91"/>
 <label x="91.44" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C0_SDA"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C0_SDA"/>
 <wire x1="180.34" y1="167.64" x2="177.8" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="165.1" x2="152.4" y2="165.1" width="0.1524" layer="91"/>
 <label x="152.4" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C0_SDA"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C0_SDA"/>
 <wire x1="241.3" y1="167.64" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
 <label x="213.36" y="167.64" size="1.778" layer="95"/>
@@ -2413,25 +2413,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_I2C0_SCL" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C0_SCL"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C0_SCL"/>
 <wire x1="58.42" y1="165.1" x2="55.88" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="162.56" x2="30.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="30.48" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C0_SCL"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C0_SCL"/>
 <wire x1="119.38" y1="165.1" x2="116.84" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="162.56" x2="91.44" y2="162.56" width="0.1524" layer="91"/>
 <label x="91.44" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C0_SCL"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C0_SCL"/>
 <wire x1="180.34" y1="165.1" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
 <label x="152.4" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C0_SCL"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C0_SCL"/>
 <wire x1="241.3" y1="165.1" x2="238.76" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
 <label x="213.36" y="165.1" size="1.778" layer="95"/>
@@ -2439,25 +2439,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_I2C0_IRQ" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C0_IRQ"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C0_IRQ"/>
 <wire x1="58.42" y1="162.56" x2="55.88" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="160.02" x2="30.48" y2="160.02" width="0.1524" layer="91"/>
 <label x="30.48" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C0_IRQ"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C0_IRQ"/>
 <wire x1="119.38" y1="162.56" x2="116.84" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="160.02" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 <label x="91.44" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C0_IRQ"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C0_IRQ"/>
 <wire x1="180.34" y1="162.56" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="160.02" x2="152.4" y2="160.02" width="0.1524" layer="91"/>
 <label x="152.4" y="162.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C0_IRQ"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C0_IRQ"/>
 <wire x1="241.3" y1="162.56" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="160.02" x2="213.36" y2="160.02" width="0.1524" layer="91"/>
 <label x="213.36" y="162.56" size="1.778" layer="95"/>
@@ -2465,25 +2465,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_I2C1_SDA" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C1_SDA"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C1_SDA"/>
 <wire x1="58.42" y1="160.02" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="157.48" x2="30.48" y2="157.48" width="0.1524" layer="91"/>
 <label x="30.48" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C1_SDA"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C1_SDA"/>
 <wire x1="119.38" y1="160.02" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="157.48" x2="91.44" y2="157.48" width="0.1524" layer="91"/>
 <label x="91.44" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C1_SDA"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C1_SDA"/>
 <wire x1="180.34" y1="160.02" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="157.48" x2="152.4" y2="157.48" width="0.1524" layer="91"/>
 <label x="152.4" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C1_SDA"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C1_SDA"/>
 <wire x1="241.3" y1="160.02" x2="238.76" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="213.36" y="160.02" size="1.778" layer="95"/>
@@ -2491,25 +2491,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_I2C1_SCL" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C1_SCL"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C1_SCL"/>
 <wire x1="58.42" y1="157.48" x2="55.88" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="154.94" x2="30.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="30.48" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C1_SCL"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C1_SCL"/>
 <wire x1="119.38" y1="157.48" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <label x="91.44" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C1_SCL"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C1_SCL"/>
 <wire x1="180.34" y1="157.48" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="154.94" x2="152.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="152.4" y="157.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C1_SCL"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C1_SCL"/>
 <wire x1="241.3" y1="157.48" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
 <label x="213.36" y="157.48" size="1.778" layer="95"/>
@@ -2517,25 +2517,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_I2C1_IRQ" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_I2C1_IRQ"/>
+<pinref part="J0" gate="DATA" pin="BUS_I2C1_IRQ"/>
 <wire x1="58.42" y1="154.94" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="152.4" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
 <label x="30.48" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_I2C1_IRQ"/>
+<pinref part="J1" gate="DATA" pin="BUS_I2C1_IRQ"/>
 <wire x1="119.38" y1="154.94" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="152.4" x2="91.44" y2="152.4" width="0.1524" layer="91"/>
 <label x="91.44" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_I2C1_IRQ"/>
+<pinref part="J2" gate="DATA" pin="BUS_I2C1_IRQ"/>
 <wire x1="180.34" y1="154.94" x2="177.8" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
 <label x="152.4" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_I2C1_IRQ"/>
+<pinref part="J3" gate="DATA" pin="BUS_I2C1_IRQ"/>
 <wire x1="241.3" y1="154.94" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="213.36" y="154.94" size="1.778" layer="95"/>
@@ -2543,25 +2543,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_SPI_SCK" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_SPI_SCK"/>
+<pinref part="J0" gate="DATA" pin="BUS_SPI_SCK"/>
 <wire x1="58.42" y1="152.4" x2="55.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="149.86" x2="30.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="30.48" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_SPI_SCK"/>
+<pinref part="J1" gate="DATA" pin="BUS_SPI_SCK"/>
 <wire x1="119.38" y1="152.4" x2="116.84" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 <label x="91.44" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_SPI_SCK"/>
+<pinref part="J2" gate="DATA" pin="BUS_SPI_SCK"/>
 <wire x1="180.34" y1="152.4" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="152.4" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_SPI_SCK"/>
+<pinref part="J3" gate="DATA" pin="BUS_SPI_SCK"/>
 <wire x1="241.3" y1="152.4" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
 <label x="213.36" y="152.4" size="1.778" layer="95"/>
@@ -2569,25 +2569,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_SPI_MISO" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_SPI_MISO"/>
+<pinref part="J0" gate="DATA" pin="BUS_SPI_MISO"/>
 <wire x1="58.42" y1="149.86" x2="55.88" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="30.48" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_SPI_MISO"/>
+<pinref part="J1" gate="DATA" pin="BUS_SPI_MISO"/>
 <wire x1="119.38" y1="149.86" x2="116.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="147.32" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <label x="91.44" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_SPI_MISO"/>
+<pinref part="J2" gate="DATA" pin="BUS_SPI_MISO"/>
 <wire x1="180.34" y1="149.86" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="147.32" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
 <label x="152.4" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_SPI_MISO"/>
+<pinref part="J3" gate="DATA" pin="BUS_SPI_MISO"/>
 <wire x1="241.3" y1="149.86" x2="238.76" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="147.32" x2="213.36" y2="147.32" width="0.1524" layer="91"/>
 <label x="213.36" y="149.86" size="1.778" layer="95"/>
@@ -2595,25 +2595,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_SPI_MOSI" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="BUS_SPI_MOSI"/>
+<pinref part="J0" gate="DATA" pin="BUS_SPI_MOSI"/>
 <wire x1="58.42" y1="147.32" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
 <label x="30.48" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="BUS_SPI_MOSI"/>
+<pinref part="J1" gate="DATA" pin="BUS_SPI_MOSI"/>
 <wire x1="119.38" y1="147.32" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <label x="91.44" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="BUS_SPI_MOSI"/>
+<pinref part="J2" gate="DATA" pin="BUS_SPI_MOSI"/>
 <wire x1="180.34" y1="147.32" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 <label x="152.4" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="BUS_SPI_MOSI"/>
+<pinref part="J3" gate="DATA" pin="BUS_SPI_MOSI"/>
 <wire x1="241.3" y1="147.32" x2="238.76" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
 <label x="213.36" y="147.32" size="1.778" layer="95"/>
@@ -2621,25 +2621,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="CTRL_SYNC" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="CTRL_SYNC"/>
+<pinref part="J0" gate="DATA" pin="CTRL_SYNC"/>
 <wire x1="58.42" y1="142.24" x2="55.88" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="139.7" x2="30.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="30.48" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="CTRL_SYNC"/>
+<pinref part="J1" gate="DATA" pin="CTRL_SYNC"/>
 <wire x1="119.38" y1="142.24" x2="116.84" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="139.7" x2="91.44" y2="139.7" width="0.1524" layer="91"/>
 <label x="91.44" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="CTRL_SYNC"/>
+<pinref part="J2" gate="DATA" pin="CTRL_SYNC"/>
 <wire x1="180.34" y1="142.24" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="139.7" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
 <label x="152.4" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="CTRL_SYNC"/>
+<pinref part="J3" gate="DATA" pin="CTRL_SYNC"/>
 <wire x1="241.3" y1="142.24" x2="238.76" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="139.7" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
 <label x="213.36" y="139.7" size="1.778" layer="95"/>
@@ -2647,25 +2647,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="COM_SPI_SCK" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="COM_SPI_SCK"/>
+<pinref part="J0" gate="DATA" pin="COM_SPI_SCK"/>
 <wire x1="58.42" y1="137.16" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="134.62" x2="30.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="30.48" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="COM_SPI_SCK"/>
+<pinref part="J1" gate="DATA" pin="COM_SPI_SCK"/>
 <wire x1="119.38" y1="137.16" x2="116.84" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="91.44" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="COM_SPI_SCK"/>
+<pinref part="J2" gate="DATA" pin="COM_SPI_SCK"/>
 <wire x1="180.34" y1="137.16" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="134.62" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="152.4" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="COM_SPI_SCK"/>
+<pinref part="J3" gate="DATA" pin="COM_SPI_SCK"/>
 <wire x1="241.3" y1="137.16" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="134.62" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 <label x="213.36" y="134.62" size="1.778" layer="95"/>
@@ -2673,25 +2673,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="COM_SPI_MISO" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="COM_SPI_MISO"/>
+<pinref part="J0" gate="DATA" pin="COM_SPI_MISO"/>
 <wire x1="58.42" y1="134.62" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
 <label x="30.48" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="COM_SPI_MISO"/>
+<pinref part="J1" gate="DATA" pin="COM_SPI_MISO"/>
 <wire x1="119.38" y1="134.62" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 <label x="91.44" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="COM_SPI_MISO"/>
+<pinref part="J2" gate="DATA" pin="COM_SPI_MISO"/>
 <wire x1="180.34" y1="134.62" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
 <label x="152.4" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="COM_SPI_MISO"/>
+<pinref part="J3" gate="DATA" pin="COM_SPI_MISO"/>
 <wire x1="241.3" y1="134.62" x2="238.76" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="132.08" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
 <label x="213.36" y="132.08" size="1.778" layer="95"/>
@@ -2699,25 +2699,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="COM_SPI_MOSI" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="COM_SPI_MOSI"/>
+<pinref part="J0" gate="DATA" pin="COM_SPI_MOSI"/>
 <wire x1="58.42" y1="132.08" x2="55.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
 <label x="30.48" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="COM_SPI_MOSI"/>
+<pinref part="J1" gate="DATA" pin="COM_SPI_MOSI"/>
 <wire x1="119.38" y1="132.08" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="91.44" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="COM_SPI_MOSI"/>
+<pinref part="J2" gate="DATA" pin="COM_SPI_MOSI"/>
 <wire x1="180.34" y1="132.08" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
 <label x="152.4" y="129.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="COM_SPI_MOSI"/>
+<pinref part="J3" gate="DATA" pin="COM_SPI_MOSI"/>
 <wire x1="241.3" y1="132.08" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="129.54" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <label x="213.36" y="129.54" size="1.778" layer="95"/>
@@ -2725,25 +2725,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="COM_SPI_CS" class="0">
 <segment>
-<pinref part="J10" gate="DATA" pin="COM_SPI_CS"/>
+<pinref part="J0" gate="DATA" pin="COM_SPI_CS"/>
 <wire x1="58.42" y1="129.54" x2="55.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
 <label x="30.48" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="DATA" pin="COM_SPI_CS"/>
+<pinref part="J1" gate="DATA" pin="COM_SPI_CS"/>
 <wire x1="119.38" y1="129.54" x2="116.84" y2="127" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="127" x2="91.44" y2="127" width="0.1524" layer="91"/>
 <label x="91.44" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="DATA" pin="COM_SPI_CS"/>
+<pinref part="J2" gate="DATA" pin="COM_SPI_CS"/>
 <wire x1="180.34" y1="129.54" x2="177.8" y2="127" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 <label x="152.4" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="DATA" pin="COM_SPI_CS"/>
+<pinref part="J3" gate="DATA" pin="COM_SPI_CS"/>
 <wire x1="241.3" y1="129.54" x2="238.76" y2="127" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
 <label x="213.36" y="127" size="1.778" layer="95"/>
@@ -2754,25 +2754,25 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="106.68" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="104.14" x2="30.48" y2="104.14" width="0.1524" layer="91"/>
 <label x="30.48" y="104.14" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-0"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-0"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="106.68" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
 <label x="91.44" y="104.14" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-0"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-0"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="106.68" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="104.14" x2="152.4" y2="104.14" width="0.1524" layer="91"/>
 <label x="152.4" y="104.14" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-0"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-0"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="106.68" x2="238.76" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="213.36" y="104.14" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-0"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-0"/>
 </segment>
 </net>
 <net name="GPIO-1" class="0">
@@ -2780,25 +2780,25 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="104.14" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="101.6" x2="30.48" y2="101.6" width="0.1524" layer="91"/>
 <label x="30.48" y="101.6" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-1"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-1"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="104.14" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="101.6" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <label x="91.44" y="101.6" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-1"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-1"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="104.14" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="101.6" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 <label x="152.4" y="101.6" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-1"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-1"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="104.14" x2="238.76" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="213.36" y="101.6" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-1"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-1"/>
 </segment>
 </net>
 <net name="GPIO-2" class="0">
@@ -2806,25 +2806,25 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="101.6" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="99.06" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 <label x="30.48" y="99.06" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-2"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-2"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="101.6" x2="116.84" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 <label x="91.44" y="99.06" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-2"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-2"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="101.6" x2="177.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="99.06" x2="152.4" y2="99.06" width="0.1524" layer="91"/>
 <label x="152.4" y="99.06" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-2"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-2"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="101.6" x2="238.76" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="99.06" x2="213.36" y2="99.06" width="0.1524" layer="91"/>
 <label x="213.36" y="99.06" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-2"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-2"/>
 </segment>
 </net>
 <net name="GPIO-3" class="0">
@@ -2832,25 +2832,25 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="99.06" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="30.48" y="96.52" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-3"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-3"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="99.06" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <label x="91.44" y="96.52" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-3"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-3"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="99.06" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <label x="152.4" y="96.52" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-3"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-3"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="99.06" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="213.36" y="96.52" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-3"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-3"/>
 </segment>
 </net>
 <net name="GPIO-4" class="0">
@@ -2858,25 +2858,25 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="96.52" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="30.48" y="93.98" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-4"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-4"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="96.52" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="91.44" y="93.98" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-4"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-4"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 <label x="152.4" y="93.98" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-4"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-4"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="96.52" x2="238.76" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="93.98" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
 <label x="213.36" y="93.98" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-4"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-4"/>
 </segment>
 </net>
 <net name="GPIO-5" class="0">
@@ -2884,48 +2884,48 @@ Page 5: Mechanical</text>
 <wire x1="58.42" y1="93.98" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <label x="30.48" y="91.44" size="1.778" layer="95"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-5"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-5"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="93.98" x2="116.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
 <label x="91.44" y="91.44" size="1.778" layer="95"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-5"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-5"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="93.98" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
 <label x="152.4" y="91.44" size="1.778" layer="95"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-5"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-5"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="93.98" x2="238.76" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <label x="213.36" y="91.44" size="1.778" layer="95"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-5"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-5"/>
 </segment>
 </net>
 <net name="BUS_JTAG_TCK" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_TCK"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_TCK"/>
 <wire x1="58.42" y1="71.12" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
 <label x="30.48" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_TCK"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_TCK"/>
 <wire x1="119.38" y1="71.12" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
 <label x="91.44" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_TCK"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_TCK"/>
 <wire x1="180.34" y1="71.12" x2="177.8" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <label x="152.4" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_TCK"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_TCK"/>
 <wire x1="241.3" y1="71.12" x2="238.76" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
 <label x="213.36" y="68.58" size="1.778" layer="95"/>
@@ -2933,25 +2933,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_TDI" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_TDI"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_TDI"/>
 <wire x1="58.42" y1="68.58" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
 <label x="30.48" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_TDI"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_TDI"/>
 <wire x1="119.38" y1="68.58" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <label x="91.44" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_TDI"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_TDI"/>
 <wire x1="180.34" y1="68.58" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
 <label x="152.4" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_TDI"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_TDI"/>
 <wire x1="241.3" y1="68.58" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
 <label x="213.36" y="66.04" size="1.778" layer="95"/>
@@ -2959,25 +2959,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_TDO" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_TDO"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_TDO"/>
 <wire x1="58.42" y1="66.04" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 <label x="30.48" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_TDO"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_TDO"/>
 <wire x1="119.38" y1="66.04" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <label x="91.44" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_TDO"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_TDO"/>
 <wire x1="180.34" y1="66.04" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <label x="152.4" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_TDO"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_TDO"/>
 <wire x1="241.3" y1="66.04" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
 <label x="213.36" y="63.5" size="1.778" layer="95"/>
@@ -2985,25 +2985,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_TMS" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_TMS"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_TMS"/>
 <wire x1="58.42" y1="63.5" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="30.48" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_TMS"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_TMS"/>
 <wire x1="119.38" y1="63.5" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
 <label x="91.44" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_TMS"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_TMS"/>
 <wire x1="180.34" y1="63.5" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
 <label x="152.4" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_TMS"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_TMS"/>
 <wire x1="241.3" y1="63.5" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
 <label x="213.36" y="60.96" size="1.778" layer="95"/>
@@ -3011,25 +3011,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_EN-0" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_EN-0"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_EN-0"/>
 <wire x1="58.42" y1="60.96" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="58.42" x2="30.48" y2="58.42" width="0.1524" layer="91"/>
 <label x="30.48" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_EN-0"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_EN-0"/>
 <wire x1="119.38" y1="60.96" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
 <label x="91.44" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_EN-0"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_EN-0"/>
 <wire x1="180.34" y1="60.96" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <label x="152.4" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_EN-0"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_EN-0"/>
 <wire x1="241.3" y1="60.96" x2="238.76" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
 <label x="213.36" y="58.42" size="1.778" layer="95"/>
@@ -3037,25 +3037,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_EN-1" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_EN-1"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_EN-1"/>
 <wire x1="58.42" y1="58.42" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
 <label x="30.48" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_EN-1"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_EN-1"/>
 <wire x1="119.38" y1="58.42" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <label x="91.44" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_EN-1"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_EN-1"/>
 <wire x1="180.34" y1="58.42" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 <label x="152.4" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_EN-1"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_EN-1"/>
 <wire x1="241.3" y1="58.42" x2="238.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
 <label x="213.36" y="55.88" size="1.778" layer="95"/>
@@ -3063,25 +3063,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_EN-2" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_EN-2"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_EN-2"/>
 <wire x1="58.42" y1="55.88" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="30.48" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_EN-2"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_EN-2"/>
 <wire x1="119.38" y1="55.88" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
 <label x="91.44" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_EN-2"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_EN-2"/>
 <wire x1="180.34" y1="55.88" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <label x="152.4" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_EN-2"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_EN-2"/>
 <wire x1="241.3" y1="55.88" x2="238.76" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="53.34" x2="213.36" y2="53.34" width="0.1524" layer="91"/>
 <label x="213.36" y="53.34" size="1.778" layer="95"/>
@@ -3089,25 +3089,25 @@ Page 5: Mechanical</text>
 </net>
 <net name="BUS_JTAG_EN-3" class="0">
 <segment>
-<pinref part="J10" gate="JTAG" pin="BUS_JTAG_EN-3"/>
+<pinref part="J0" gate="JTAG" pin="BUS_JTAG_EN-3"/>
 <wire x1="58.42" y1="53.34" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="30.48" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J9" gate="JTAG" pin="BUS_JTAG_EN-3"/>
+<pinref part="J1" gate="JTAG" pin="BUS_JTAG_EN-3"/>
 <wire x1="119.38" y1="53.34" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
 <label x="91.44" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J8" gate="JTAG" pin="BUS_JTAG_EN-3"/>
+<pinref part="J2" gate="JTAG" pin="BUS_JTAG_EN-3"/>
 <wire x1="180.34" y1="53.34" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="50.8" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 <label x="152.4" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J7" gate="JTAG" pin="BUS_JTAG_EN-3"/>
+<pinref part="J3" gate="JTAG" pin="BUS_JTAG_EN-3"/>
 <wire x1="241.3" y1="53.34" x2="238.76" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="50.8" x2="213.36" y2="50.8" width="0.1524" layer="91"/>
 <label x="213.36" y="50.8" size="1.778" layer="95"/>
@@ -3117,25 +3117,25 @@ Page 5: Mechanical</text>
 <segment>
 <wire x1="58.42" y1="91.44" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-6"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-6"/>
 <label x="30.48" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="91.44" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-6"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-6"/>
 <label x="91.44" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="91.44" x2="177.8" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="88.9" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-6"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-6"/>
 <label x="152.4" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="91.44" x2="238.76" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-6"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-6"/>
 <label x="213.36" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3143,25 +3143,25 @@ Page 5: Mechanical</text>
 <segment>
 <wire x1="58.42" y1="88.9" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J10" gate="GPIO" pin="GPIO-7"/>
+<pinref part="J0" gate="GPIO" pin="GPIO-7"/>
 <label x="30.48" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="119.38" y1="88.9" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J9" gate="GPIO" pin="GPIO-7"/>
+<pinref part="J1" gate="GPIO" pin="GPIO-7"/>
 <label x="91.44" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="180.34" y1="88.9" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="86.36" x2="152.4" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J8" gate="GPIO" pin="GPIO-7"/>
+<pinref part="J2" gate="GPIO" pin="GPIO-7"/>
 <label x="152.4" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="241.3" y1="88.9" x2="238.76" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="86.36" x2="213.36" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="J7" gate="GPIO" pin="GPIO-7"/>
+<pinref part="J3" gate="GPIO" pin="GPIO-7"/>
 <label x="213.36" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -3481,23 +3481,23 @@ Page 5: Mechanical</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
-<instance part="J10" gate="POWER" x="22.86" y="137.16" smashed="yes">
+<instance part="J0" gate="POWER" x="22.86" y="137.16" smashed="yes">
 <attribute name="NAME" x="22.86" y="166.37" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="22.86" y="105.41" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="22.86" y="103.378" size="1.778" layer="97" align="center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="38.1" y="104.14" smashed="yes"/>
-<instance part="J9" gate="POWER" x="83.82" y="137.16" smashed="yes">
+<instance part="J1" gate="POWER" x="83.82" y="137.16" smashed="yes">
 <attribute name="NAME" x="83.82" y="166.37" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="83.82" y="105.41" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="83.82" y="103.378" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J8" gate="POWER" x="144.78" y="137.16" smashed="yes">
+<instance part="J2" gate="POWER" x="144.78" y="137.16" smashed="yes">
 <attribute name="NAME" x="144.78" y="166.37" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="144.78" y="105.41" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="144.78" y="103.378" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="J7" gate="POWER" x="205.74" y="137.16" smashed="yes">
+<instance part="J3" gate="POWER" x="205.74" y="137.16" smashed="yes">
 <attribute name="NAME" x="205.74" y="166.37" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="205.74" y="105.41" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="205.74" y="103.378" size="1.778" layer="97" align="center"/>
@@ -3532,7 +3532,7 @@ Page 5: Mechanical</text>
 <nets>
 <net name="PGND" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PGND"/>
+<pinref part="J0" gate="POWER" pin="PGND"/>
 <wire x1="35.56" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="PGND"/>
 <wire x1="38.1" y1="109.22" x2="38.1" y2="106.68" width="0.1524" layer="91"/>
@@ -3541,19 +3541,19 @@ Page 5: Mechanical</text>
 <wire x1="96.52" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="PGND"/>
 <wire x1="99.06" y1="109.22" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J9" gate="POWER" pin="PGND"/>
+<pinref part="J1" gate="POWER" pin="PGND"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="PGND"/>
 <wire x1="160.02" y1="109.22" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J8" gate="POWER" pin="PGND"/>
+<pinref part="J2" gate="POWER" pin="PGND"/>
 </segment>
 <segment>
 <wire x1="218.44" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="G$1" pin="PGND"/>
 <wire x1="220.98" y1="109.22" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="J7" gate="POWER" pin="PGND"/>
+<pinref part="J3" gate="POWER" pin="PGND"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
@@ -3564,7 +3564,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PWR_CTRL_SW" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PWR_CTRL_SW"/>
+<pinref part="J0" gate="POWER" pin="PWR_CTRL_SW"/>
 <wire x1="63.5" y1="165.1" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <label x="35.56" y="162.56" size="1.778" layer="95"/>
@@ -3573,19 +3573,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="165.1" x2="121.92" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="162.56" x2="96.52" y2="162.56" width="0.1524" layer="91"/>
 <label x="96.52" y="162.56" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PWR_CTRL_SW"/>
+<pinref part="J1" gate="POWER" pin="PWR_CTRL_SW"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="165.1" x2="182.88" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="162.56" x2="157.48" y2="162.56" width="0.1524" layer="91"/>
 <label x="157.48" y="162.56" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PWR_CTRL_SW"/>
+<pinref part="J2" gate="POWER" pin="PWR_CTRL_SW"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="165.1" x2="243.84" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="162.56" x2="218.44" y2="162.56" width="0.1524" layer="91"/>
 <label x="218.44" y="162.56" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PWR_CTRL_SW"/>
+<pinref part="J3" gate="POWER" pin="PWR_CTRL_SW"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="88.9" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
@@ -3596,7 +3596,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-0" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-0"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-0"/>
 <wire x1="63.5" y1="162.56" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 <label x="35.56" y="160.02" size="1.778" layer="95"/>
@@ -3605,19 +3605,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="162.56" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="160.02" x2="96.52" y2="160.02" width="0.1524" layer="91"/>
 <label x="96.52" y="160.02" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-0"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-0"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="162.56" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="160.02" x2="157.48" y2="160.02" width="0.1524" layer="91"/>
 <label x="157.48" y="160.02" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-0"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-0"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="162.56" x2="243.84" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="160.02" x2="218.44" y2="160.02" width="0.1524" layer="91"/>
 <label x="218.44" y="160.02" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-0"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-0"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="86.36" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
@@ -3628,7 +3628,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-1" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-1"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-1"/>
 <wire x1="63.5" y1="160.02" x2="60.96" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <label x="35.56" y="157.48" size="1.778" layer="95"/>
@@ -3637,19 +3637,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="160.02" x2="121.92" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="157.48" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <label x="96.52" y="157.48" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-1"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-1"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="160.02" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="157.48" x2="157.48" y2="157.48" width="0.1524" layer="91"/>
 <label x="157.48" y="157.48" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-1"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-1"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="160.02" x2="243.84" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="157.48" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
 <label x="218.44" y="157.48" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-1"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-1"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="83.82" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
@@ -3660,7 +3660,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-2" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-2"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-2"/>
 <wire x1="63.5" y1="157.48" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
 <label x="35.56" y="154.94" size="1.778" layer="95"/>
@@ -3669,19 +3669,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="157.48" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="154.94" x2="96.52" y2="154.94" width="0.1524" layer="91"/>
 <label x="96.52" y="154.94" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-2"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-2"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="157.48" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
 <label x="157.48" y="154.94" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-2"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-2"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="157.48" x2="243.84" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="154.94" x2="218.44" y2="154.94" width="0.1524" layer="91"/>
 <label x="218.44" y="154.94" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-2"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-2"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="81.28" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
@@ -3692,7 +3692,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-3" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-3"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-3"/>
 <wire x1="63.5" y1="154.94" x2="60.96" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="152.4" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <label x="35.56" y="152.4" size="1.778" layer="95"/>
@@ -3701,19 +3701,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="154.94" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
 <label x="96.52" y="152.4" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-3"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-3"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="154.94" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="152.4" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
 <label x="157.48" y="152.4" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-3"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-3"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="154.94" x2="243.84" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="152.4" x2="218.44" y2="152.4" width="0.1524" layer="91"/>
 <label x="218.44" y="152.4" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-3"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-3"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="78.74" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
@@ -3724,7 +3724,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-4" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-4"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-4"/>
 <wire x1="63.5" y1="152.4" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <label x="35.56" y="149.86" size="1.778" layer="95"/>
@@ -3733,19 +3733,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="152.4" x2="121.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="96.52" y="149.86" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-4"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-4"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="152.4" x2="182.88" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
 <label x="157.48" y="149.86" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-4"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-4"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="152.4" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="149.86" x2="218.44" y2="149.86" width="0.1524" layer="91"/>
 <label x="218.44" y="149.86" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-4"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-4"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="76.2" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
@@ -3756,7 +3756,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-5" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-5"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-5"/>
 <wire x1="63.5" y1="149.86" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <label x="35.56" y="147.32" size="1.778" layer="95"/>
@@ -3765,19 +3765,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="149.86" x2="121.92" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 <label x="96.52" y="147.32" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-5"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-5"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="149.86" x2="182.88" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="147.32" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="157.48" y="147.32" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-5"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-5"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="149.86" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="147.32" x2="218.44" y2="147.32" width="0.1524" layer="91"/>
 <label x="218.44" y="147.32" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-5"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-5"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="73.66" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
@@ -3788,7 +3788,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-6" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-6"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-6"/>
 <wire x1="63.5" y1="147.32" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
 <label x="35.56" y="144.78" size="1.778" layer="95"/>
@@ -3797,19 +3797,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="147.32" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <label x="96.52" y="144.78" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-6"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-6"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="147.32" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="144.78" x2="157.48" y2="144.78" width="0.1524" layer="91"/>
 <label x="157.48" y="144.78" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-6"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-6"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="147.32" x2="243.84" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="144.78" x2="218.44" y2="144.78" width="0.1524" layer="91"/>
 <label x="218.44" y="144.78" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-6"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-6"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="71.12" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
@@ -3820,7 +3820,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-7" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-7"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-7"/>
 <wire x1="63.5" y1="144.78" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
 <label x="35.56" y="142.24" size="1.778" layer="95"/>
@@ -3829,19 +3829,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="144.78" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
 <label x="96.52" y="142.24" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-7"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-7"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="144.78" x2="182.88" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 <label x="157.48" y="142.24" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-7"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-7"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="144.78" x2="243.84" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <label x="218.44" y="142.24" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-7"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-7"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="68.58" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
@@ -3852,7 +3852,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-8" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-8"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-8"/>
 <wire x1="63.5" y1="142.24" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="35.56" y="139.7" size="1.778" layer="95"/>
@@ -3861,19 +3861,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="142.24" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
 <label x="96.52" y="139.7" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-8"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-8"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="142.24" x2="182.88" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <label x="157.48" y="139.7" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-8"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-8"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="142.24" x2="243.84" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <label x="218.44" y="139.7" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-8"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-8"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="66.04" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
@@ -3884,7 +3884,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-9" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-9"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-9"/>
 <wire x1="63.5" y1="139.7" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="35.56" y="137.16" size="1.778" layer="95"/>
@@ -3893,19 +3893,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="139.7" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 <label x="96.52" y="137.16" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-9"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-9"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="139.7" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="137.16" x2="157.48" y2="137.16" width="0.1524" layer="91"/>
 <label x="157.48" y="137.16" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-9"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-9"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="139.7" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 <label x="218.44" y="137.16" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-9"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-9"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="63.5" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
@@ -3916,7 +3916,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-10" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-10"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-10"/>
 <wire x1="63.5" y1="137.16" x2="60.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
 <label x="35.56" y="134.62" size="1.778" layer="95"/>
@@ -3925,19 +3925,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="137.16" x2="121.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <label x="96.52" y="134.62" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-10"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-10"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="137.16" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
 <label x="157.48" y="134.62" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-10"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-10"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="137.16" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="218.44" y="134.62" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-10"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-10"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="60.96" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
@@ -3948,7 +3948,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-11" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-11"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-11"/>
 <wire x1="63.5" y1="134.62" x2="60.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
 <label x="35.56" y="132.08" size="1.778" layer="95"/>
@@ -3957,19 +3957,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="134.62" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
 <label x="96.52" y="132.08" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-11"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-11"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="134.62" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 <label x="157.48" y="132.08" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-11"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-11"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="134.62" x2="243.84" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 <label x="218.44" y="132.08" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-11"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-11"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="58.42" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
@@ -3980,7 +3980,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_3.3V-12" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_3.3V-12"/>
+<pinref part="J0" gate="POWER" pin="PR_3.3V-12"/>
 <wire x1="63.5" y1="132.08" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="129.54" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
 <label x="35.56" y="129.54" size="1.778" layer="95"/>
@@ -3989,19 +3989,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="132.08" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
 <label x="96.52" y="129.54" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_3.3V-12"/>
+<pinref part="J1" gate="POWER" pin="PR_3.3V-12"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="132.08" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
 <label x="157.48" y="129.54" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_3.3V-12"/>
+<pinref part="J2" gate="POWER" pin="PR_3.3V-12"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="132.08" x2="243.84" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="218.44" y="129.54" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_3.3V-12"/>
+<pinref part="J3" gate="POWER" pin="PR_3.3V-12"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="55.88" x2="60.96" y2="53.34" width="0.1524" layer="91"/>
@@ -4012,7 +4012,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-0" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-0"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-0"/>
 <wire x1="63.5" y1="129.54" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127" size="1.778" layer="95"/>
@@ -4021,19 +4021,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="129.54" x2="121.92" y2="127" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="127" x2="96.52" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-0"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-0"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="129.54" x2="182.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="127" x2="157.48" y2="127" width="0.1524" layer="91"/>
 <label x="157.48" y="127" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-0"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-0"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="129.54" x2="243.84" y2="127" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
 <label x="218.44" y="127" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-0"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-0"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="53.34" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
@@ -4044,7 +4044,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-1" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-1"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-1"/>
 <wire x1="63.5" y1="127" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
 <label x="35.56" y="124.46" size="1.778" layer="95"/>
@@ -4053,19 +4053,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="127" x2="121.92" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <label x="96.52" y="124.46" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-1"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-1"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="127" x2="182.88" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="124.46" x2="157.48" y2="124.46" width="0.1524" layer="91"/>
 <label x="157.48" y="124.46" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-1"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-1"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="127" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <label x="218.44" y="124.46" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-1"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-1"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="50.8" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
@@ -4076,7 +4076,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-2" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-2"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-2"/>
 <wire x1="63.5" y1="124.46" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="121.92" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
 <label x="35.56" y="121.92" size="1.778" layer="95"/>
@@ -4085,19 +4085,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="124.46" x2="121.92" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <label x="96.52" y="121.92" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-2"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-2"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="124.46" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="121.92" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <label x="157.48" y="121.92" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-2"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-2"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="124.46" x2="243.84" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
 <label x="218.44" y="121.92" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-2"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-2"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="48.26" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
@@ -4108,7 +4108,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-3" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-3"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-3"/>
 <wire x1="63.5" y1="121.92" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
 <label x="35.56" y="119.38" size="1.778" layer="95"/>
@@ -4117,19 +4117,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="121.92" x2="121.92" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 <label x="96.52" y="119.38" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-3"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-3"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="121.92" x2="182.88" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="119.38" x2="157.48" y2="119.38" width="0.1524" layer="91"/>
 <label x="157.48" y="119.38" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-3"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-3"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="121.92" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="119.38" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
 <label x="218.44" y="119.38" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-3"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-3"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="45.72" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
@@ -4140,7 +4140,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-4" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-4"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-4"/>
 <wire x1="63.5" y1="119.38" x2="60.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="116.84" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
@@ -4149,19 +4149,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="119.38" x2="121.92" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <label x="96.52" y="116.84" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-4"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-4"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="119.38" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="116.84" x2="157.48" y2="116.84" width="0.1524" layer="91"/>
 <label x="157.48" y="116.84" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-4"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-4"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="119.38" x2="243.84" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
 <label x="218.44" y="116.84" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-4"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-4"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="43.18" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
@@ -4172,7 +4172,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-5" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-5"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-5"/>
 <wire x1="63.5" y1="116.84" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
 <label x="35.56" y="114.3" size="1.778" layer="95"/>
@@ -4181,19 +4181,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="116.84" x2="121.92" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
 <label x="96.52" y="114.3" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-5"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-5"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="116.84" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="157.48" y="114.3" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-5"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-5"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="116.84" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
 <label x="218.44" y="114.3" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-5"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-5"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="40.64" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
@@ -4204,7 +4204,7 @@ Page 5: Mechanical</text>
 </net>
 <net name="PR_BATT-6" class="0">
 <segment>
-<pinref part="J10" gate="POWER" pin="PR_BATT-6"/>
+<pinref part="J0" gate="POWER" pin="PR_BATT-6"/>
 <wire x1="63.5" y1="114.3" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="111.76" x2="35.56" y2="111.76" width="0.1524" layer="91"/>
 <label x="35.56" y="111.76" size="1.778" layer="95"/>
@@ -4213,19 +4213,19 @@ Page 5: Mechanical</text>
 <wire x1="124.46" y1="114.3" x2="121.92" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <label x="96.52" y="111.76" size="1.778" layer="95"/>
-<pinref part="J9" gate="POWER" pin="PR_BATT-6"/>
+<pinref part="J1" gate="POWER" pin="PR_BATT-6"/>
 </segment>
 <segment>
 <wire x1="185.42" y1="114.3" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
 <label x="157.48" y="111.76" size="1.778" layer="95"/>
-<pinref part="J8" gate="POWER" pin="PR_BATT-6"/>
+<pinref part="J2" gate="POWER" pin="PR_BATT-6"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
 <label x="218.44" y="111.76" size="1.778" layer="95"/>
-<pinref part="J7" gate="POWER" pin="PR_BATT-6"/>
+<pinref part="J3" gate="POWER" pin="PR_BATT-6"/>
 </segment>
 <segment>
 <wire x1="63.5" y1="38.1" x2="60.96" y2="35.56" width="0.1524" layer="91"/>

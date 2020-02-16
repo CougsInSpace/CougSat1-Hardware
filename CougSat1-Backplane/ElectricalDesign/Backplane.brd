@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -679,7 +679,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-14" y="-4" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="SKU" value="48-004x" x="-30.51" y="97.79" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J10" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-37.5" smashed="yes" rot="R180">
+<element name="J0" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-37.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.85" y="-37.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="51.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -687,15 +687,15 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.85" y="10.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="58.76" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J7" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-10.5" smashed="yes" rot="R180">
+<element name="J3" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-10.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.85" y="-10.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="47.92" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J8" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-19.5" smashed="yes" rot="R180">
+<element name="J2" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-19.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.85" y="-19.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="49.08" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J9" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-28.5" smashed="yes" rot="R180">
+<element name="J1" library="CougsInSpace-Connectors" package="PCIE-8" value="CougSat Socket" x="24" y="-28.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.85" y="-28.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="SKU" value="05-0006" x="-30.61" y="50.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -717,14 +717,14 @@ design rules under a new name.</description>
 </elements>
 <signals>
 <signal name="BUS_I2C0_SDA">
-<contactref element="J10" pad="A43"/>
-<contactref element="J10" pad="B43"/>
-<contactref element="J9" pad="A43"/>
-<contactref element="J9" pad="B43"/>
-<contactref element="J8" pad="A43"/>
-<contactref element="J8" pad="B43"/>
-<contactref element="J7" pad="A43"/>
-<contactref element="J7" pad="B43"/>
+<contactref element="J0" pad="A43"/>
+<contactref element="J0" pad="B43"/>
+<contactref element="J1" pad="A43"/>
+<contactref element="J1" pad="B43"/>
+<contactref element="J2" pad="A43"/>
+<contactref element="J2" pad="B43"/>
+<contactref element="J3" pad="A43"/>
+<contactref element="J3" pad="B43"/>
 <contactref element="J4" pad="A43"/>
 <contactref element="J4" pad="B43"/>
 <wire x1="-8.35" y1="11.75" x2="-8.35" y2="9.25" width="0.2" layer="1"/>
@@ -738,14 +738,14 @@ design rules under a new name.</description>
 <wire x1="-8.35" y1="-9.25" x2="-8.35" y2="9.25" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_I2C0_SCL">
-<contactref element="J10" pad="A44"/>
-<contactref element="J10" pad="B44"/>
-<contactref element="J9" pad="A44"/>
-<contactref element="J9" pad="B44"/>
-<contactref element="J8" pad="A44"/>
-<contactref element="J8" pad="B44"/>
-<contactref element="J7" pad="A44"/>
-<contactref element="J7" pad="B44"/>
+<contactref element="J0" pad="A44"/>
+<contactref element="J0" pad="B44"/>
+<contactref element="J1" pad="A44"/>
+<contactref element="J1" pad="B44"/>
+<contactref element="J2" pad="A44"/>
+<contactref element="J2" pad="B44"/>
+<contactref element="J3" pad="A44"/>
+<contactref element="J3" pad="B44"/>
 <contactref element="J4" pad="A44"/>
 <contactref element="J4" pad="B44"/>
 <wire x1="-9.35" y1="-40.75" x2="-9.35" y2="-34.25" width="0.2" layer="1"/>
@@ -759,14 +759,14 @@ design rules under a new name.</description>
 <wire x1="-9.35" y1="7.25" x2="-9.35" y2="-7.25" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_I2C0_IRQ">
-<contactref element="J10" pad="A45"/>
-<contactref element="J10" pad="B45"/>
-<contactref element="J9" pad="A45"/>
-<contactref element="J9" pad="B45"/>
-<contactref element="J8" pad="A45"/>
-<contactref element="J8" pad="B45"/>
-<contactref element="J7" pad="A45"/>
-<contactref element="J7" pad="B45"/>
+<contactref element="J0" pad="A45"/>
+<contactref element="J0" pad="B45"/>
+<contactref element="J1" pad="A45"/>
+<contactref element="J1" pad="B45"/>
+<contactref element="J2" pad="A45"/>
+<contactref element="J2" pad="B45"/>
+<contactref element="J3" pad="A45"/>
+<contactref element="J3" pad="B45"/>
 <contactref element="J4" pad="A45"/>
 <contactref element="J4" pad="B45"/>
 <wire x1="-10.35" y1="11.75" x2="-10.35" y2="9.25" width="0.2" layer="1"/>
@@ -780,14 +780,14 @@ design rules under a new name.</description>
 <wire x1="-10.35" y1="-9.25" x2="-10.35" y2="9.25" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_I2C1_SDA">
-<contactref element="J10" pad="A30"/>
-<contactref element="J10" pad="B30"/>
-<contactref element="J9" pad="A30"/>
-<contactref element="J9" pad="B30"/>
-<contactref element="J8" pad="A30"/>
-<contactref element="J8" pad="B30"/>
-<contactref element="J7" pad="A30"/>
-<contactref element="J7" pad="B30"/>
+<contactref element="J0" pad="A30"/>
+<contactref element="J0" pad="B30"/>
+<contactref element="J1" pad="A30"/>
+<contactref element="J1" pad="B30"/>
+<contactref element="J2" pad="A30"/>
+<contactref element="J2" pad="B30"/>
+<contactref element="J3" pad="A30"/>
+<contactref element="J3" pad="B30"/>
 <contactref element="J4" pad="A30"/>
 <contactref element="J4" pad="B30"/>
 <wire x1="4.65" y1="13.75" x2="4.65" y2="7.25" width="0.2" layer="1"/>
@@ -801,14 +801,14 @@ design rules under a new name.</description>
 <wire x1="4.65" y1="-34.25" x2="4.65" y2="-40.75" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_I2C1_SCL">
-<contactref element="J10" pad="A31"/>
-<contactref element="J10" pad="B31"/>
-<contactref element="J9" pad="A31"/>
-<contactref element="J9" pad="B31"/>
-<contactref element="J8" pad="A31"/>
-<contactref element="J8" pad="B31"/>
-<contactref element="J7" pad="A31"/>
-<contactref element="J7" pad="B31"/>
+<contactref element="J0" pad="A31"/>
+<contactref element="J0" pad="B31"/>
+<contactref element="J1" pad="A31"/>
+<contactref element="J1" pad="B31"/>
+<contactref element="J2" pad="A31"/>
+<contactref element="J2" pad="B31"/>
+<contactref element="J3" pad="A31"/>
+<contactref element="J3" pad="B31"/>
 <contactref element="J4" pad="A31"/>
 <contactref element="J4" pad="B31"/>
 <wire x1="3.65" y1="-38.75" x2="3.65" y2="-36.25" width="0.2" layer="1"/>
@@ -822,14 +822,14 @@ design rules under a new name.</description>
 <wire x1="3.65" y1="9.25" x2="3.65" y2="11.75" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_I2C1_IRQ">
-<contactref element="J10" pad="A32"/>
-<contactref element="J10" pad="B32"/>
-<contactref element="J9" pad="A32"/>
-<contactref element="J9" pad="B32"/>
-<contactref element="J8" pad="A32"/>
-<contactref element="J8" pad="B32"/>
-<contactref element="J7" pad="A32"/>
-<contactref element="J7" pad="B32"/>
+<contactref element="J0" pad="A32"/>
+<contactref element="J0" pad="B32"/>
+<contactref element="J1" pad="A32"/>
+<contactref element="J1" pad="B32"/>
+<contactref element="J2" pad="A32"/>
+<contactref element="J2" pad="B32"/>
+<contactref element="J3" pad="A32"/>
+<contactref element="J3" pad="B32"/>
 <contactref element="J4" pad="A32"/>
 <contactref element="J4" pad="B32"/>
 <wire x1="2.65" y1="13.75" x2="2.65" y2="7.25" width="0.2" layer="1"/>
@@ -843,14 +843,14 @@ design rules under a new name.</description>
 <wire x1="2.65" y1="-34.25" x2="2.65" y2="-40.75" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_SPI_SCK">
-<contactref element="J10" pad="A37"/>
-<contactref element="J10" pad="B37"/>
-<contactref element="J9" pad="A37"/>
-<contactref element="J9" pad="B37"/>
-<contactref element="J8" pad="A37"/>
-<contactref element="J8" pad="B37"/>
-<contactref element="J7" pad="A37"/>
-<contactref element="J7" pad="B37"/>
+<contactref element="J0" pad="A37"/>
+<contactref element="J0" pad="B37"/>
+<contactref element="J1" pad="A37"/>
+<contactref element="J1" pad="B37"/>
+<contactref element="J2" pad="A37"/>
+<contactref element="J2" pad="B37"/>
+<contactref element="J3" pad="A37"/>
+<contactref element="J3" pad="B37"/>
 <contactref element="J4" pad="A37"/>
 <contactref element="J4" pad="B37"/>
 <wire x1="-2.35" y1="11.75" x2="-2.35" y2="9.25" width="0.2" layer="1"/>
@@ -864,14 +864,14 @@ design rules under a new name.</description>
 <wire x1="-2.35" y1="-36.25" x2="-2.35" y2="-38.75" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_SPI_MISO">
-<contactref element="J10" pad="A38"/>
-<contactref element="J10" pad="B38"/>
-<contactref element="J9" pad="A38"/>
-<contactref element="J9" pad="B38"/>
-<contactref element="J8" pad="A38"/>
-<contactref element="J8" pad="B38"/>
-<contactref element="J7" pad="A38"/>
-<contactref element="J7" pad="B38"/>
+<contactref element="J0" pad="A38"/>
+<contactref element="J0" pad="B38"/>
+<contactref element="J1" pad="A38"/>
+<contactref element="J1" pad="B38"/>
+<contactref element="J2" pad="A38"/>
+<contactref element="J2" pad="B38"/>
+<contactref element="J3" pad="A38"/>
+<contactref element="J3" pad="B38"/>
 <contactref element="J4" pad="A38"/>
 <contactref element="J4" pad="B38"/>
 <wire x1="-3.35" y1="-40.75" x2="-3.35" y2="-34.25" width="0.2" layer="1"/>
@@ -885,14 +885,14 @@ design rules under a new name.</description>
 <wire x1="-3.35" y1="7.25" x2="-3.35" y2="13.75" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_SPI_MOSI">
-<contactref element="J10" pad="A39"/>
-<contactref element="J10" pad="B39"/>
-<contactref element="J9" pad="A39"/>
-<contactref element="J9" pad="B39"/>
-<contactref element="J8" pad="A39"/>
-<contactref element="J8" pad="B39"/>
-<contactref element="J7" pad="A39"/>
-<contactref element="J7" pad="B39"/>
+<contactref element="J0" pad="A39"/>
+<contactref element="J0" pad="B39"/>
+<contactref element="J1" pad="A39"/>
+<contactref element="J1" pad="B39"/>
+<contactref element="J2" pad="A39"/>
+<contactref element="J2" pad="B39"/>
+<contactref element="J3" pad="A39"/>
+<contactref element="J3" pad="B39"/>
 <contactref element="J4" pad="A39"/>
 <contactref element="J4" pad="B39"/>
 <wire x1="-4.35" y1="11.75" x2="-4.35" y2="9.25" width="0.2" layer="1"/>
@@ -906,14 +906,14 @@ design rules under a new name.</description>
 <wire x1="-4.35" y1="9.25" x2="-4.35" y2="-9.25" width="0.2" layer="1"/>
 </signal>
 <signal name="CTRL_SYNC">
-<contactref element="J10" pad="A42"/>
-<contactref element="J10" pad="B42"/>
-<contactref element="J9" pad="A42"/>
-<contactref element="J9" pad="B42"/>
-<contactref element="J8" pad="A42"/>
-<contactref element="J8" pad="B42"/>
-<contactref element="J7" pad="A42"/>
-<contactref element="J7" pad="B42"/>
+<contactref element="J0" pad="A42"/>
+<contactref element="J0" pad="B42"/>
+<contactref element="J1" pad="A42"/>
+<contactref element="J1" pad="B42"/>
+<contactref element="J2" pad="A42"/>
+<contactref element="J2" pad="B42"/>
+<contactref element="J3" pad="A42"/>
+<contactref element="J3" pad="B42"/>
 <contactref element="J4" pad="A42"/>
 <contactref element="J4" pad="B42"/>
 <wire x1="-7.35" y1="-40.75" x2="-7.35" y2="-34.25" width="0.2" layer="1"/>
@@ -931,14 +931,14 @@ design rules under a new name.</description>
 <wire x1="-6.75" y1="0.3656875" x2="-6.75" y2="-0.3656875" width="0.2" layer="1"/>
 </signal>
 <signal name="COM_SPI_SCK">
-<contactref element="J10" pad="A33"/>
-<contactref element="J10" pad="B33"/>
-<contactref element="J9" pad="A33"/>
-<contactref element="J9" pad="B33"/>
-<contactref element="J8" pad="A33"/>
-<contactref element="J8" pad="B33"/>
-<contactref element="J7" pad="A33"/>
-<contactref element="J7" pad="B33"/>
+<contactref element="J0" pad="A33"/>
+<contactref element="J0" pad="B33"/>
+<contactref element="J1" pad="A33"/>
+<contactref element="J1" pad="B33"/>
+<contactref element="J2" pad="A33"/>
+<contactref element="J2" pad="B33"/>
+<contactref element="J3" pad="A33"/>
+<contactref element="J3" pad="B33"/>
 <contactref element="J4" pad="A33"/>
 <contactref element="J4" pad="B33"/>
 <wire x1="1.65" y1="-38.75" x2="1.65" y2="-36.25" width="0.2" layer="1"/>
@@ -952,14 +952,14 @@ design rules under a new name.</description>
 <wire x1="1.65" y1="9.25" x2="1.65" y2="11.75" width="0.2" layer="1"/>
 </signal>
 <signal name="COM_SPI_MISO">
-<contactref element="J10" pad="A34"/>
-<contactref element="J10" pad="B34"/>
-<contactref element="J9" pad="A34"/>
-<contactref element="J9" pad="B34"/>
-<contactref element="J8" pad="A34"/>
-<contactref element="J8" pad="B34"/>
-<contactref element="J7" pad="A34"/>
-<contactref element="J7" pad="B34"/>
+<contactref element="J0" pad="A34"/>
+<contactref element="J0" pad="B34"/>
+<contactref element="J1" pad="A34"/>
+<contactref element="J1" pad="B34"/>
+<contactref element="J2" pad="A34"/>
+<contactref element="J2" pad="B34"/>
+<contactref element="J3" pad="A34"/>
+<contactref element="J3" pad="B34"/>
 <contactref element="J4" pad="A34"/>
 <contactref element="J4" pad="B34"/>
 <wire x1="0.65" y1="13.75" x2="0.65" y2="7.25" width="0.2" layer="1"/>
@@ -973,14 +973,14 @@ design rules under a new name.</description>
 <wire x1="0.65" y1="-34.25" x2="0.65" y2="-40.75" width="0.2" layer="1"/>
 </signal>
 <signal name="COM_SPI_MOSI">
-<contactref element="J10" pad="A35"/>
-<contactref element="J10" pad="B35"/>
-<contactref element="J9" pad="A35"/>
-<contactref element="J9" pad="B35"/>
-<contactref element="J8" pad="A35"/>
-<contactref element="J8" pad="B35"/>
-<contactref element="J7" pad="A35"/>
-<contactref element="J7" pad="B35"/>
+<contactref element="J0" pad="A35"/>
+<contactref element="J0" pad="B35"/>
+<contactref element="J1" pad="A35"/>
+<contactref element="J1" pad="B35"/>
+<contactref element="J2" pad="A35"/>
+<contactref element="J2" pad="B35"/>
+<contactref element="J3" pad="A35"/>
+<contactref element="J3" pad="B35"/>
 <contactref element="J4" pad="A35"/>
 <contactref element="J4" pad="B35"/>
 <wire x1="-0.35" y1="11.75" x2="-0.35" y2="9.25" width="0.2" layer="1"/>
@@ -994,14 +994,14 @@ design rules under a new name.</description>
 <wire x1="-0.35" y1="-36.25" x2="-0.35" y2="-38.75" width="0.2" layer="1"/>
 </signal>
 <signal name="COM_SPI_CS">
-<contactref element="J10" pad="A36"/>
-<contactref element="J10" pad="B36"/>
-<contactref element="J9" pad="A36"/>
-<contactref element="J9" pad="B36"/>
-<contactref element="J8" pad="A36"/>
-<contactref element="J8" pad="B36"/>
-<contactref element="J7" pad="A36"/>
-<contactref element="J7" pad="B36"/>
+<contactref element="J0" pad="A36"/>
+<contactref element="J0" pad="B36"/>
+<contactref element="J1" pad="A36"/>
+<contactref element="J1" pad="B36"/>
+<contactref element="J2" pad="A36"/>
+<contactref element="J2" pad="B36"/>
+<contactref element="J3" pad="A36"/>
+<contactref element="J3" pad="B36"/>
 <contactref element="J4" pad="A36"/>
 <contactref element="J4" pad="B36"/>
 <wire x1="-1.35" y1="-40.75" x2="-1.35" y2="-34.25" width="0.2" layer="1"/>
@@ -1015,10 +1015,10 @@ design rules under a new name.</description>
 <wire x1="-1.35" y1="7.25" x2="-1.35" y2="13.75" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-0">
-<contactref element="J10" pad="A24"/>
-<contactref element="J9" pad="A24"/>
-<contactref element="J8" pad="A24"/>
-<contactref element="J7" pad="A24"/>
+<contactref element="J0" pad="A24"/>
+<contactref element="J1" pad="A24"/>
+<contactref element="J2" pad="A24"/>
+<contactref element="J3" pad="A24"/>
 <contactref element="J4" pad="A24"/>
 <wire x1="10.64853125" y1="7.25146875" x2="10.65" y2="7.25" width="0.2" layer="1"/>
 <wire x1="10.65" y1="-13.75" x2="10.65" y2="-9.9470625" width="0.2" layer="1"/>
@@ -1053,10 +1053,10 @@ design rules under a new name.</description>
 <wire x1="10.85" y1="-36.7470625" x2="10.65" y2="-36.9470625" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-1">
-<contactref element="J10" pad="A25"/>
-<contactref element="J9" pad="A25"/>
-<contactref element="J8" pad="A25"/>
-<contactref element="J7" pad="A25"/>
+<contactref element="J0" pad="A25"/>
+<contactref element="J1" pad="A25"/>
+<contactref element="J2" pad="A25"/>
+<contactref element="J3" pad="A25"/>
 <contactref element="J4" pad="A25"/>
 <wire x1="9.65" y1="9.25" x2="9.65" y2="7.118625" width="0.2" layer="1"/>
 <wire x1="9.45" y1="-7.918625" x2="10.45" y2="-8.918625" width="0.2" layer="1"/>
@@ -1090,10 +1090,10 @@ design rules under a new name.</description>
 <wire x1="10.45" y1="-36.581375" x2="9.65" y2="-37.381375" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-2">
-<contactref element="J10" pad="A26"/>
-<contactref element="J9" pad="A26"/>
-<contactref element="J8" pad="A26"/>
-<contactref element="J7" pad="A26"/>
+<contactref element="J0" pad="A26"/>
+<contactref element="J1" pad="A26"/>
+<contactref element="J2" pad="A26"/>
+<contactref element="J3" pad="A26"/>
 <contactref element="J4" pad="A26"/>
 <wire x1="8.64853125" y1="7.25146875" x2="8.65" y2="7.25" width="0.2" layer="1"/>
 <wire x1="8.65" y1="7.25" x2="6.65" y2="5.25" width="0.2" layer="1"/>
@@ -1128,10 +1128,10 @@ design rules under a new name.</description>
 <wire x1="7.85" y1="-34.581375" x2="8.85" y2="-35.581375" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-3">
-<contactref element="J10" pad="A27"/>
-<contactref element="J9" pad="A27"/>
-<contactref element="J8" pad="A27"/>
-<contactref element="J7" pad="A27"/>
+<contactref element="J0" pad="A27"/>
+<contactref element="J1" pad="A27"/>
+<contactref element="J2" pad="A27"/>
+<contactref element="J3" pad="A27"/>
 <contactref element="J4" pad="A27"/>
 <wire x1="7.65" y1="9.25" x2="7.65" y2="7.118625" width="0.2" layer="1"/>
 <wire x1="7.45" y1="-7.918625" x2="8.45" y2="-8.918625" width="0.2" layer="1"/>
@@ -1165,10 +1165,10 @@ design rules under a new name.</description>
 <wire x1="8.45" y1="-36.581375" x2="7.65" y2="-37.381375" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-4">
-<contactref element="J10" pad="A28"/>
-<contactref element="J9" pad="A28"/>
-<contactref element="J8" pad="A28"/>
-<contactref element="J7" pad="A28"/>
+<contactref element="J0" pad="A28"/>
+<contactref element="J1" pad="A28"/>
+<contactref element="J2" pad="A28"/>
+<contactref element="J3" pad="A28"/>
 <contactref element="J4" pad="A28"/>
 <wire x1="6.65" y1="7.25" x2="5.85" y2="6.45" width="0.2" layer="1"/>
 <wire x1="6.65" y1="-9.9470625" x2="6.65" y2="-13.75" width="0.2" layer="1"/>
@@ -1200,10 +1200,10 @@ design rules under a new name.</description>
 <wire x1="6.85" y1="-36.7470625" x2="6.65" y2="-36.9470625" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-5">
-<contactref element="J10" pad="A29"/>
-<contactref element="J9" pad="A29"/>
-<contactref element="J8" pad="A29"/>
-<contactref element="J7" pad="A29"/>
+<contactref element="J0" pad="A29"/>
+<contactref element="J1" pad="A29"/>
+<contactref element="J2" pad="A29"/>
+<contactref element="J3" pad="A29"/>
 <contactref element="J4" pad="A29"/>
 <wire x1="5.65" y1="9.25" x2="5.45" y2="9.05" width="0.2" layer="1"/>
 <wire x1="5.45" y1="-7.918625" x2="6.45" y2="-8.918625" width="0.2" layer="1"/>
@@ -1234,10 +1234,10 @@ design rules under a new name.</description>
 <wire x1="6.45" y1="-36.581375" x2="5.65" y2="-37.381375" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_JTAG_TCK">
-<contactref element="J10" pad="A46"/>
-<contactref element="J9" pad="A46"/>
-<contactref element="J8" pad="A46"/>
-<contactref element="J7" pad="A46"/>
+<contactref element="J0" pad="A46"/>
+<contactref element="J1" pad="A46"/>
+<contactref element="J2" pad="A46"/>
+<contactref element="J3" pad="A46"/>
 <contactref element="J4" pad="A46"/>
 <wire x1="-17.3" y1="-1.36690625" x2="-17.3" y2="1.36690625" width="0.2" layer="1"/>
 <wire x1="-17.3" y1="-1.36690625" x2="-12.15" y2="-6.51690625" width="0.2" layer="1"/>
@@ -1271,10 +1271,10 @@ design rules under a new name.</description>
 <wire x1="-11.15" y1="-36.7470625" x2="-11.35" y2="-36.9470625" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_JTAG_TDI">
-<contactref element="J10" pad="A47"/>
-<contactref element="J9" pad="A47"/>
-<contactref element="J8" pad="A47"/>
-<contactref element="J7" pad="A47"/>
+<contactref element="J0" pad="A47"/>
+<contactref element="J1" pad="A47"/>
+<contactref element="J2" pad="A47"/>
+<contactref element="J3" pad="A47"/>
 <contactref element="J4" pad="A47"/>
 <wire x1="-12.35" y1="9.25" x2="-12.35" y2="6.88259375" width="0.2" layer="1"/>
 <wire x1="-12.55" y1="-6.68259375" x2="-12.55" y2="-7.7470625" width="0.2" layer="1"/>
@@ -1308,10 +1308,10 @@ design rules under a new name.</description>
 <wire x1="-11.55" y1="-36.581375" x2="-12.35" y2="-37.381375" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_JTAG_TDO">
-<contactref element="J10" pad="A48"/>
-<contactref element="J9" pad="A48"/>
-<contactref element="J8" pad="A48"/>
-<contactref element="J7" pad="A48"/>
+<contactref element="J0" pad="A48"/>
+<contactref element="J1" pad="A48"/>
+<contactref element="J2" pad="A48"/>
+<contactref element="J3" pad="A48"/>
 <contactref element="J4" pad="A48"/>
 <wire x1="-18.1" y1="-1.69828125" x2="-14.15" y2="-5.64828125" width="0.2" layer="1"/>
 <wire x1="-14.15" y1="-7.7529375" x2="-13.15" y2="-8.7529375" width="0.2" layer="1"/>
@@ -1346,10 +1346,10 @@ design rules under a new name.</description>
 <wire x1="-18.1" y1="1.69828125" x2="-18.1" y2="-1.69828125" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_JTAG_TMS">
-<contactref element="J10" pad="A49"/>
-<contactref element="J9" pad="A49"/>
-<contactref element="J8" pad="A49"/>
-<contactref element="J7" pad="A49"/>
+<contactref element="J0" pad="A49"/>
+<contactref element="J1" pad="A49"/>
+<contactref element="J2" pad="A49"/>
+<contactref element="J3" pad="A49"/>
 <contactref element="J4" pad="A49"/>
 <wire x1="-18.5" y1="-1.86396875" x2="-14.55" y2="-5.81396875" width="0.2" layer="1"/>
 <wire x1="-14.55" y1="-5.81396875" x2="-14.55" y2="-7.918625" width="0.2" layer="1"/>
@@ -1383,10 +1383,10 @@ design rules under a new name.</description>
 <wire x1="-18.5" y1="1.86396875" x2="-18.5" y2="-1.86396875" width="0.2" layer="1"/>
 </signal>
 <signal name="BUS_JTAG_EN-0">
-<contactref element="J10" pad="B46"/>
-<contactref element="J9" pad="B46"/>
-<contactref element="J8" pad="B46"/>
-<contactref element="J7" pad="B46"/>
+<contactref element="J0" pad="B46"/>
+<contactref element="J1" pad="B46"/>
+<contactref element="J2" pad="B46"/>
+<contactref element="J3" pad="B46"/>
 <contactref element="J4" pad="B46"/>
 <wire x1="-11.35" y1="13.75" x2="-11.35" y2="9.9470625" width="0.2" layer="16"/>
 <wire x1="-11.35" y1="9.9470625" x2="-11.15" y2="9.7470625" width="0.2" layer="16"/>
@@ -1420,10 +1420,10 @@ design rules under a new name.</description>
 <wire x1="-12.15" y1="-32.081375" x2="-11.35" y2="-32.881375" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_JTAG_EN-1">
-<contactref element="J10" pad="B47"/>
-<contactref element="J9" pad="B47"/>
-<contactref element="J8" pad="B47"/>
-<contactref element="J7" pad="B47"/>
+<contactref element="J0" pad="B47"/>
+<contactref element="J1" pad="B47"/>
+<contactref element="J2" pad="B47"/>
+<contactref element="J3" pad="B47"/>
 <contactref element="J4" pad="B47"/>
 <wire x1="-12.35" y1="11.75" x2="-12.35" y2="10.381375" width="0.2" layer="16"/>
 <wire x1="-12.35" y1="10.381375" x2="-11.55" y2="9.581375" width="0.2" layer="16"/>
@@ -1457,10 +1457,10 @@ design rules under a new name.</description>
 <wire x1="-12.55" y1="-32.2470625" x2="-12.35" y2="-32.4470625" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_JTAG_EN-2">
-<contactref element="J10" pad="B48"/>
-<contactref element="J9" pad="B48"/>
-<contactref element="J8" pad="B48"/>
-<contactref element="J7" pad="B48"/>
+<contactref element="J0" pad="B48"/>
+<contactref element="J1" pad="B48"/>
+<contactref element="J2" pad="B48"/>
+<contactref element="J3" pad="B48"/>
 <contactref element="J4" pad="B48"/>
 <wire x1="-13.35" y1="13.75" x2="-13.35" y2="9.9470625" width="0.2" layer="16"/>
 <wire x1="-13.35" y1="9.9470625" x2="-13.15" y2="9.7470625" width="0.2" layer="16"/>
@@ -1496,10 +1496,10 @@ design rules under a new name.</description>
 <wire x1="-14.15" y1="-32.081375" x2="-13.35" y2="-32.881375" width="0.2" layer="16"/>
 </signal>
 <signal name="BUS_JTAG_EN-3">
-<contactref element="J10" pad="B49"/>
-<contactref element="J9" pad="B49"/>
-<contactref element="J8" pad="B49"/>
-<contactref element="J7" pad="B49"/>
+<contactref element="J0" pad="B49"/>
+<contactref element="J1" pad="B49"/>
+<contactref element="J2" pad="B49"/>
+<contactref element="J3" pad="B49"/>
 <contactref element="J4" pad="B49"/>
 <wire x1="-13.55" y1="9.581375" x2="-13.55" y2="8.918625" width="0.2" layer="16"/>
 <wire x1="-14.35" y1="11.75" x2="-14.35" y2="10.381375" width="0.2" layer="16"/>
@@ -1533,54 +1533,54 @@ design rules under a new name.</description>
 <wire x1="-14.55" y1="-32.2470625" x2="-14.35" y2="-32.4470625" width="0.2" layer="16"/>
 </signal>
 <signal name="PGND">
-<contactref element="J10" pad="A21"/>
-<contactref element="J10" pad="A22"/>
-<contactref element="J10" pad="A23"/>
-<contactref element="J10" pad="B21"/>
-<contactref element="J10" pad="B22"/>
-<contactref element="J10" pad="B23"/>
-<contactref element="J10" pad="B24"/>
-<contactref element="J10" pad="B25"/>
-<contactref element="J10" pad="B26"/>
-<contactref element="J10" pad="B27"/>
-<contactref element="J10" pad="B28"/>
-<contactref element="J10" pad="B29"/>
-<contactref element="J9" pad="A21"/>
-<contactref element="J9" pad="A22"/>
-<contactref element="J9" pad="A23"/>
-<contactref element="J9" pad="B21"/>
-<contactref element="J9" pad="B22"/>
-<contactref element="J9" pad="B23"/>
-<contactref element="J9" pad="B24"/>
-<contactref element="J9" pad="B25"/>
-<contactref element="J9" pad="B26"/>
-<contactref element="J9" pad="B27"/>
-<contactref element="J9" pad="B28"/>
-<contactref element="J9" pad="B29"/>
-<contactref element="J8" pad="A21"/>
-<contactref element="J8" pad="A22"/>
-<contactref element="J8" pad="A23"/>
-<contactref element="J8" pad="B21"/>
-<contactref element="J8" pad="B22"/>
-<contactref element="J8" pad="B23"/>
-<contactref element="J8" pad="B24"/>
-<contactref element="J8" pad="B25"/>
-<contactref element="J8" pad="B26"/>
-<contactref element="J8" pad="B27"/>
-<contactref element="J8" pad="B28"/>
-<contactref element="J8" pad="B29"/>
-<contactref element="J7" pad="A21"/>
-<contactref element="J7" pad="A22"/>
-<contactref element="J7" pad="A23"/>
-<contactref element="J7" pad="B21"/>
-<contactref element="J7" pad="B22"/>
-<contactref element="J7" pad="B23"/>
-<contactref element="J7" pad="B24"/>
-<contactref element="J7" pad="B25"/>
-<contactref element="J7" pad="B26"/>
-<contactref element="J7" pad="B27"/>
-<contactref element="J7" pad="B28"/>
-<contactref element="J7" pad="B29"/>
+<contactref element="J0" pad="A21"/>
+<contactref element="J0" pad="A22"/>
+<contactref element="J0" pad="A23"/>
+<contactref element="J0" pad="B21"/>
+<contactref element="J0" pad="B22"/>
+<contactref element="J0" pad="B23"/>
+<contactref element="J0" pad="B24"/>
+<contactref element="J0" pad="B25"/>
+<contactref element="J0" pad="B26"/>
+<contactref element="J0" pad="B27"/>
+<contactref element="J0" pad="B28"/>
+<contactref element="J0" pad="B29"/>
+<contactref element="J1" pad="A21"/>
+<contactref element="J1" pad="A22"/>
+<contactref element="J1" pad="A23"/>
+<contactref element="J1" pad="B21"/>
+<contactref element="J1" pad="B22"/>
+<contactref element="J1" pad="B23"/>
+<contactref element="J1" pad="B24"/>
+<contactref element="J1" pad="B25"/>
+<contactref element="J1" pad="B26"/>
+<contactref element="J1" pad="B27"/>
+<contactref element="J1" pad="B28"/>
+<contactref element="J1" pad="B29"/>
+<contactref element="J2" pad="A21"/>
+<contactref element="J2" pad="A22"/>
+<contactref element="J2" pad="A23"/>
+<contactref element="J2" pad="B21"/>
+<contactref element="J2" pad="B22"/>
+<contactref element="J2" pad="B23"/>
+<contactref element="J2" pad="B24"/>
+<contactref element="J2" pad="B25"/>
+<contactref element="J2" pad="B26"/>
+<contactref element="J2" pad="B27"/>
+<contactref element="J2" pad="B28"/>
+<contactref element="J2" pad="B29"/>
+<contactref element="J3" pad="A21"/>
+<contactref element="J3" pad="A22"/>
+<contactref element="J3" pad="A23"/>
+<contactref element="J3" pad="B21"/>
+<contactref element="J3" pad="B22"/>
+<contactref element="J3" pad="B23"/>
+<contactref element="J3" pad="B24"/>
+<contactref element="J3" pad="B25"/>
+<contactref element="J3" pad="B26"/>
+<contactref element="J3" pad="B27"/>
+<contactref element="J3" pad="B28"/>
+<contactref element="J3" pad="B29"/>
 <contactref element="J4" pad="A21"/>
 <contactref element="J4" pad="A22"/>
 <contactref element="J4" pad="A23"/>
@@ -1705,14 +1705,14 @@ design rules under a new name.</description>
 <wire x1="-7.35" y1="-0.4" x2="-9.5" y2="-2.55" width="0.2" layer="1"/>
 </signal>
 <signal name="PWR_CTRL_SW">
-<contactref element="J10" pad="A40"/>
-<contactref element="J10" pad="B40"/>
-<contactref element="J9" pad="A40"/>
-<contactref element="J9" pad="B40"/>
-<contactref element="J8" pad="A40"/>
-<contactref element="J8" pad="B40"/>
-<contactref element="J7" pad="A40"/>
-<contactref element="J7" pad="B40"/>
+<contactref element="J0" pad="A40"/>
+<contactref element="J0" pad="B40"/>
+<contactref element="J1" pad="A40"/>
+<contactref element="J1" pad="B40"/>
+<contactref element="J2" pad="A40"/>
+<contactref element="J2" pad="B40"/>
+<contactref element="J3" pad="A40"/>
+<contactref element="J3" pad="B40"/>
 <contactref element="J4" pad="A40"/>
 <contactref element="J4" pad="B40"/>
 <wire x1="-5.35" y1="-34.25" x2="-5.35" y2="-31.75" width="0.2" layer="1"/>
@@ -1746,14 +1746,14 @@ design rules under a new name.</description>
 <wire x1="-5.15" y1="-36.7470625" x2="-5.15" y2="-35.7529375" width="0.2" layer="1"/>
 </signal>
 <signal name="PR_3.3V-0">
-<contactref element="J10" pad="A1"/>
-<contactref element="J10" pad="B1"/>
-<contactref element="J9" pad="A1"/>
-<contactref element="J9" pad="B1"/>
-<contactref element="J8" pad="A1"/>
-<contactref element="J8" pad="B1"/>
-<contactref element="J7" pad="A1"/>
-<contactref element="J7" pad="B1"/>
+<contactref element="J0" pad="A1"/>
+<contactref element="J0" pad="B1"/>
+<contactref element="J1" pad="A1"/>
+<contactref element="J1" pad="B1"/>
+<contactref element="J2" pad="A1"/>
+<contactref element="J2" pad="B1"/>
+<contactref element="J3" pad="A1"/>
+<contactref element="J3" pad="B1"/>
 <contactref element="J4" pad="A1"/>
 <contactref element="J4" pad="B1"/>
 <wire x1="35.65" y1="11.75" x2="35.65" y2="9.25" width="0.6" layer="1"/>
@@ -1776,14 +1776,14 @@ design rules under a new name.</description>
 <wire x1="35.65" y1="9.25" x2="35.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-1">
-<contactref element="J10" pad="A2"/>
-<contactref element="J10" pad="B2"/>
-<contactref element="J9" pad="A2"/>
-<contactref element="J9" pad="B2"/>
-<contactref element="J8" pad="A2"/>
-<contactref element="J8" pad="B2"/>
-<contactref element="J7" pad="A2"/>
-<contactref element="J7" pad="B2"/>
+<contactref element="J0" pad="A2"/>
+<contactref element="J0" pad="B2"/>
+<contactref element="J1" pad="A2"/>
+<contactref element="J1" pad="B2"/>
+<contactref element="J2" pad="A2"/>
+<contactref element="J2" pad="B2"/>
+<contactref element="J3" pad="A2"/>
+<contactref element="J3" pad="B2"/>
 <contactref element="J4" pad="A2"/>
 <contactref element="J4" pad="B2"/>
 <wire x1="34.65" y1="-34.25" x2="34.65" y2="-31.75" width="0.6" layer="1"/>
@@ -1806,14 +1806,14 @@ design rules under a new name.</description>
 <wire x1="34.65" y1="-7.25" x2="34.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-2">
-<contactref element="J10" pad="A3"/>
-<contactref element="J10" pad="B3"/>
-<contactref element="J9" pad="A3"/>
-<contactref element="J9" pad="B3"/>
-<contactref element="J8" pad="A3"/>
-<contactref element="J8" pad="B3"/>
-<contactref element="J7" pad="A3"/>
-<contactref element="J7" pad="B3"/>
+<contactref element="J0" pad="A3"/>
+<contactref element="J0" pad="B3"/>
+<contactref element="J1" pad="A3"/>
+<contactref element="J1" pad="B3"/>
+<contactref element="J2" pad="A3"/>
+<contactref element="J2" pad="B3"/>
+<contactref element="J3" pad="A3"/>
+<contactref element="J3" pad="B3"/>
 <contactref element="J4" pad="A3"/>
 <contactref element="J4" pad="B3"/>
 <wire x1="33.65" y1="-36.25" x2="33.65" y2="-29.75" width="0.6" layer="1"/>
@@ -1836,14 +1836,14 @@ design rules under a new name.</description>
 <wire x1="33.65" y1="9.25" x2="33.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-3">
-<contactref element="J10" pad="A4"/>
-<contactref element="J10" pad="B4"/>
-<contactref element="J9" pad="A4"/>
-<contactref element="J9" pad="B4"/>
-<contactref element="J8" pad="A4"/>
-<contactref element="J8" pad="B4"/>
-<contactref element="J7" pad="A4"/>
-<contactref element="J7" pad="B4"/>
+<contactref element="J0" pad="A4"/>
+<contactref element="J0" pad="B4"/>
+<contactref element="J1" pad="A4"/>
+<contactref element="J1" pad="B4"/>
+<contactref element="J2" pad="A4"/>
+<contactref element="J2" pad="B4"/>
+<contactref element="J3" pad="A4"/>
+<contactref element="J3" pad="B4"/>
 <contactref element="J4" pad="A4"/>
 <contactref element="J4" pad="B4"/>
 <wire x1="32.65" y1="13.75" x2="32.65" y2="7.25" width="0.6" layer="1"/>
@@ -1866,14 +1866,14 @@ design rules under a new name.</description>
 <wire x1="32.65" y1="-7.25" x2="32.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-4">
-<contactref element="J10" pad="A5"/>
-<contactref element="J10" pad="B5"/>
-<contactref element="J9" pad="A5"/>
-<contactref element="J9" pad="B5"/>
-<contactref element="J8" pad="A5"/>
-<contactref element="J8" pad="B5"/>
-<contactref element="J7" pad="A5"/>
-<contactref element="J7" pad="B5"/>
+<contactref element="J0" pad="A5"/>
+<contactref element="J0" pad="B5"/>
+<contactref element="J1" pad="A5"/>
+<contactref element="J1" pad="B5"/>
+<contactref element="J2" pad="A5"/>
+<contactref element="J2" pad="B5"/>
+<contactref element="J3" pad="A5"/>
+<contactref element="J3" pad="B5"/>
 <contactref element="J4" pad="A5"/>
 <contactref element="J4" pad="B5"/>
 <wire x1="31.65" y1="-36.25" x2="31.65" y2="-29.75" width="0.6" layer="1"/>
@@ -1896,14 +1896,14 @@ design rules under a new name.</description>
 <wire x1="31.65" y1="9.25" x2="31.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-5">
-<contactref element="J10" pad="A6"/>
-<contactref element="J10" pad="B6"/>
-<contactref element="J9" pad="A6"/>
-<contactref element="J9" pad="B6"/>
-<contactref element="J8" pad="A6"/>
-<contactref element="J8" pad="B6"/>
-<contactref element="J7" pad="A6"/>
-<contactref element="J7" pad="B6"/>
+<contactref element="J0" pad="A6"/>
+<contactref element="J0" pad="B6"/>
+<contactref element="J1" pad="A6"/>
+<contactref element="J1" pad="B6"/>
+<contactref element="J2" pad="A6"/>
+<contactref element="J2" pad="B6"/>
+<contactref element="J3" pad="A6"/>
+<contactref element="J3" pad="B6"/>
 <contactref element="J4" pad="A6"/>
 <contactref element="J4" pad="B6"/>
 <wire x1="30.65" y1="13.75" x2="30.65" y2="7.25" width="0.6" layer="1"/>
@@ -1926,14 +1926,14 @@ design rules under a new name.</description>
 <wire x1="30.65" y1="-7.25" x2="30.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-6">
-<contactref element="J10" pad="A7"/>
-<contactref element="J10" pad="B7"/>
-<contactref element="J9" pad="A7"/>
-<contactref element="J9" pad="B7"/>
-<contactref element="J8" pad="A7"/>
-<contactref element="J8" pad="B7"/>
-<contactref element="J7" pad="A7"/>
-<contactref element="J7" pad="B7"/>
+<contactref element="J0" pad="A7"/>
+<contactref element="J0" pad="B7"/>
+<contactref element="J1" pad="A7"/>
+<contactref element="J1" pad="B7"/>
+<contactref element="J2" pad="A7"/>
+<contactref element="J2" pad="B7"/>
+<contactref element="J3" pad="A7"/>
+<contactref element="J3" pad="B7"/>
 <contactref element="J4" pad="A7"/>
 <contactref element="J4" pad="B7"/>
 <wire x1="29.65" y1="-36.25" x2="29.65" y2="-29.75" width="0.6" layer="1"/>
@@ -1956,14 +1956,14 @@ design rules under a new name.</description>
 <wire x1="29.65" y1="9.25" x2="29.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-7">
-<contactref element="J10" pad="A8"/>
-<contactref element="J10" pad="B8"/>
-<contactref element="J9" pad="A8"/>
-<contactref element="J9" pad="B8"/>
-<contactref element="J8" pad="A8"/>
-<contactref element="J8" pad="B8"/>
-<contactref element="J7" pad="A8"/>
-<contactref element="J7" pad="B8"/>
+<contactref element="J0" pad="A8"/>
+<contactref element="J0" pad="B8"/>
+<contactref element="J1" pad="A8"/>
+<contactref element="J1" pad="B8"/>
+<contactref element="J2" pad="A8"/>
+<contactref element="J2" pad="B8"/>
+<contactref element="J3" pad="A8"/>
+<contactref element="J3" pad="B8"/>
 <contactref element="J4" pad="A8"/>
 <contactref element="J4" pad="B8"/>
 <wire x1="28.65" y1="-34.25" x2="28.65" y2="-31.75" width="0.6" layer="1"/>
@@ -1986,14 +1986,14 @@ design rules under a new name.</description>
 <wire x1="28.65" y1="-7.25" x2="28.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-8">
-<contactref element="J10" pad="A9"/>
-<contactref element="J10" pad="B9"/>
-<contactref element="J9" pad="A9"/>
-<contactref element="J9" pad="B9"/>
-<contactref element="J8" pad="A9"/>
-<contactref element="J8" pad="B9"/>
-<contactref element="J7" pad="A9"/>
-<contactref element="J7" pad="B9"/>
+<contactref element="J0" pad="A9"/>
+<contactref element="J0" pad="B9"/>
+<contactref element="J1" pad="A9"/>
+<contactref element="J1" pad="B9"/>
+<contactref element="J2" pad="A9"/>
+<contactref element="J2" pad="B9"/>
+<contactref element="J3" pad="A9"/>
+<contactref element="J3" pad="B9"/>
 <contactref element="J4" pad="A9"/>
 <contactref element="J4" pad="B9"/>
 <wire x1="27.65" y1="11.75" x2="27.65" y2="9.25" width="0.6" layer="1"/>
@@ -2016,14 +2016,14 @@ design rules under a new name.</description>
 <wire x1="27.65" y1="9.25" x2="27.65" y2="-9.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-9">
-<contactref element="J10" pad="A10"/>
-<contactref element="J10" pad="B10"/>
-<contactref element="J9" pad="A10"/>
-<contactref element="J9" pad="B10"/>
-<contactref element="J8" pad="A10"/>
-<contactref element="J8" pad="B10"/>
-<contactref element="J7" pad="A10"/>
-<contactref element="J7" pad="B10"/>
+<contactref element="J0" pad="A10"/>
+<contactref element="J0" pad="B10"/>
+<contactref element="J1" pad="A10"/>
+<contactref element="J1" pad="B10"/>
+<contactref element="J2" pad="A10"/>
+<contactref element="J2" pad="B10"/>
+<contactref element="J3" pad="A10"/>
+<contactref element="J3" pad="B10"/>
 <contactref element="J4" pad="A10"/>
 <contactref element="J4" pad="B10"/>
 <wire x1="26.65" y1="-40.75" x2="26.65" y2="-34.25" width="0.6" layer="1"/>
@@ -2046,14 +2046,14 @@ design rules under a new name.</description>
 <wire x1="26.65" y1="-7.25" x2="26.65" y2="7.25" width="0.6" layer="1"/>
 </signal>
 <signal name="PR_3.3V-10">
-<contactref element="J10" pad="A11"/>
-<contactref element="J10" pad="B11"/>
-<contactref element="J9" pad="A11"/>
-<contactref element="J9" pad="B11"/>
-<contactref element="J8" pad="A11"/>
-<contactref element="J8" pad="B11"/>
-<contactref element="J7" pad="A11"/>
-<contactref element="J7" pad="B11"/>
+<contactref element="J0" pad="A11"/>
+<contactref element="J0" pad="B11"/>
+<contactref element="J1" pad="A11"/>
+<contactref element="J1" pad="B11"/>
+<contactref element="J2" pad="A11"/>
+<contactref element="J2" pad="B11"/>
+<contactref element="J3" pad="A11"/>
+<contactref element="J3" pad="B11"/>
 <contactref element="J4" pad="A11"/>
 <contactref element="J4" pad="B11"/>
 <wire x1="25.65" y1="11.75" x2="25.65" y2="11.40973125" width="0.6" layer="1"/>
@@ -2116,14 +2116,14 @@ design rules under a new name.</description>
 <wire x1="25.65" y1="9.25" x2="25.65" y2="-9.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_3.3V-11">
-<contactref element="J10" pad="A12"/>
-<contactref element="J10" pad="B12"/>
-<contactref element="J9" pad="A12"/>
-<contactref element="J9" pad="B12"/>
-<contactref element="J8" pad="A12"/>
-<contactref element="J8" pad="B12"/>
-<contactref element="J7" pad="A12"/>
-<contactref element="J7" pad="B12"/>
+<contactref element="J0" pad="A12"/>
+<contactref element="J0" pad="B12"/>
+<contactref element="J1" pad="A12"/>
+<contactref element="J1" pad="B12"/>
+<contactref element="J2" pad="A12"/>
+<contactref element="J2" pad="B12"/>
+<contactref element="J3" pad="A12"/>
+<contactref element="J3" pad="B12"/>
 <contactref element="J4" pad="A12"/>
 <contactref element="J4" pad="B12"/>
 <wire x1="22.65" y1="7.25" x2="22.65" y2="-7.25" width="0.6" layer="1"/>
@@ -2160,14 +2160,14 @@ design rules under a new name.</description>
 <wire x1="22.65" y1="-13.75" x2="22.65" y2="-16.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_3.3V-12">
-<contactref element="J10" pad="A13"/>
-<contactref element="J10" pad="B13"/>
-<contactref element="J9" pad="A13"/>
-<contactref element="J9" pad="B13"/>
-<contactref element="J8" pad="A13"/>
-<contactref element="J8" pad="B13"/>
-<contactref element="J7" pad="A13"/>
-<contactref element="J7" pad="B13"/>
+<contactref element="J0" pad="A13"/>
+<contactref element="J0" pad="B13"/>
+<contactref element="J1" pad="A13"/>
+<contactref element="J1" pad="B13"/>
+<contactref element="J2" pad="A13"/>
+<contactref element="J2" pad="B13"/>
+<contactref element="J3" pad="A13"/>
+<contactref element="J3" pad="B13"/>
 <contactref element="J4" pad="A13"/>
 <contactref element="J4" pad="B13"/>
 <wire x1="21.65" y1="-36.25" x2="21.65" y2="-29.75" width="0.6" layer="1"/>
@@ -2186,14 +2186,14 @@ design rules under a new name.</description>
 <wire x1="21.65" y1="11.75" x2="21.65" y2="9.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-0">
-<contactref element="J10" pad="A14"/>
-<contactref element="J10" pad="B14"/>
-<contactref element="J9" pad="A14"/>
-<contactref element="J9" pad="B14"/>
-<contactref element="J8" pad="A14"/>
-<contactref element="J8" pad="B14"/>
-<contactref element="J7" pad="A14"/>
-<contactref element="J7" pad="B14"/>
+<contactref element="J0" pad="A14"/>
+<contactref element="J0" pad="B14"/>
+<contactref element="J1" pad="A14"/>
+<contactref element="J1" pad="B14"/>
+<contactref element="J2" pad="A14"/>
+<contactref element="J2" pad="B14"/>
+<contactref element="J3" pad="A14"/>
+<contactref element="J3" pad="B14"/>
 <contactref element="J4" pad="A14"/>
 <contactref element="J4" pad="B14"/>
 <wire x1="20.65" y1="13.75" x2="20.65" y2="7.25" width="0.6" layer="1"/>
@@ -2210,14 +2210,14 @@ design rules under a new name.</description>
 <wire x1="20.65" y1="-16.25" x2="20.65" y2="-13.75" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-1">
-<contactref element="J10" pad="A15"/>
-<contactref element="J10" pad="B15"/>
-<contactref element="J9" pad="A15"/>
-<contactref element="J9" pad="B15"/>
-<contactref element="J8" pad="A15"/>
-<contactref element="J8" pad="B15"/>
-<contactref element="J7" pad="A15"/>
-<contactref element="J7" pad="B15"/>
+<contactref element="J0" pad="A15"/>
+<contactref element="J0" pad="B15"/>
+<contactref element="J1" pad="A15"/>
+<contactref element="J1" pad="B15"/>
+<contactref element="J2" pad="A15"/>
+<contactref element="J2" pad="B15"/>
+<contactref element="J3" pad="A15"/>
+<contactref element="J3" pad="B15"/>
 <contactref element="J4" pad="A15"/>
 <contactref element="J4" pad="B15"/>
 <wire x1="19.65" y1="-9.25" x2="19.65" y2="-11.75" width="0.6" layer="1"/>
@@ -2239,14 +2239,14 @@ design rules under a new name.</description>
 <wire x1="19.65" y1="9.25" x2="19.65" y2="11.75" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-2">
-<contactref element="J10" pad="A16"/>
-<contactref element="J10" pad="B16"/>
-<contactref element="J9" pad="A16"/>
-<contactref element="J9" pad="B16"/>
-<contactref element="J8" pad="A16"/>
-<contactref element="J8" pad="B16"/>
-<contactref element="J7" pad="A16"/>
-<contactref element="J7" pad="B16"/>
+<contactref element="J0" pad="A16"/>
+<contactref element="J0" pad="B16"/>
+<contactref element="J1" pad="A16"/>
+<contactref element="J1" pad="B16"/>
+<contactref element="J2" pad="A16"/>
+<contactref element="J2" pad="B16"/>
+<contactref element="J3" pad="A16"/>
+<contactref element="J3" pad="B16"/>
 <contactref element="J4" pad="A16"/>
 <contactref element="J4" pad="B16"/>
 <wire x1="18.65" y1="-13.75" x2="18.65" y2="-7.25" width="0.6" layer="1"/>
@@ -2268,14 +2268,14 @@ design rules under a new name.</description>
 <wire x1="18.65" y1="7.25" x2="18.65" y2="13.75" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-3">
-<contactref element="J10" pad="A17"/>
-<contactref element="J10" pad="B17"/>
-<contactref element="J9" pad="A17"/>
-<contactref element="J9" pad="B17"/>
-<contactref element="J8" pad="A17"/>
-<contactref element="J8" pad="B17"/>
-<contactref element="J7" pad="A17"/>
-<contactref element="J7" pad="B17"/>
+<contactref element="J0" pad="A17"/>
+<contactref element="J0" pad="B17"/>
+<contactref element="J1" pad="A17"/>
+<contactref element="J1" pad="B17"/>
+<contactref element="J2" pad="A17"/>
+<contactref element="J2" pad="B17"/>
+<contactref element="J3" pad="A17"/>
+<contactref element="J3" pad="B17"/>
 <contactref element="J4" pad="A17"/>
 <contactref element="J4" pad="B17"/>
 <wire x1="17.65" y1="-9.25" x2="17.65" y2="-11.75" width="0.6" layer="1"/>
@@ -2297,14 +2297,14 @@ design rules under a new name.</description>
 <wire x1="17.65" y1="11.75" x2="17.65" y2="9.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-4">
-<contactref element="J10" pad="A18"/>
-<contactref element="J10" pad="B18"/>
-<contactref element="J9" pad="A18"/>
-<contactref element="J9" pad="B18"/>
-<contactref element="J8" pad="A18"/>
-<contactref element="J8" pad="B18"/>
-<contactref element="J7" pad="A18"/>
-<contactref element="J7" pad="B18"/>
+<contactref element="J0" pad="A18"/>
+<contactref element="J0" pad="B18"/>
+<contactref element="J1" pad="A18"/>
+<contactref element="J1" pad="B18"/>
+<contactref element="J2" pad="A18"/>
+<contactref element="J2" pad="B18"/>
+<contactref element="J3" pad="A18"/>
+<contactref element="J3" pad="B18"/>
 <contactref element="J4" pad="A18"/>
 <contactref element="J4" pad="B18"/>
 <wire x1="16.65" y1="-13.75" x2="16.65" y2="-7.25" width="0.6" layer="1"/>
@@ -2330,14 +2330,14 @@ design rules under a new name.</description>
 <wire x1="16.65" y1="13.75" x2="16.65" y2="7.25" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-5">
-<contactref element="J10" pad="A19"/>
-<contactref element="J10" pad="B19"/>
-<contactref element="J9" pad="A19"/>
-<contactref element="J9" pad="B19"/>
-<contactref element="J8" pad="A19"/>
-<contactref element="J8" pad="B19"/>
-<contactref element="J7" pad="A19"/>
-<contactref element="J7" pad="B19"/>
+<contactref element="J0" pad="A19"/>
+<contactref element="J0" pad="B19"/>
+<contactref element="J1" pad="A19"/>
+<contactref element="J1" pad="B19"/>
+<contactref element="J2" pad="A19"/>
+<contactref element="J2" pad="B19"/>
+<contactref element="J3" pad="A19"/>
+<contactref element="J3" pad="B19"/>
 <contactref element="J4" pad="A19"/>
 <contactref element="J4" pad="B19"/>
 <wire x1="15.65" y1="-9.25" x2="15.65" y2="-11.75" width="0.6" layer="1"/>
@@ -2363,14 +2363,14 @@ design rules under a new name.</description>
 <wire x1="15.65" y1="9.25" x2="15.65" y2="11.75" width="0.6" layer="16"/>
 </signal>
 <signal name="PR_BATT-6">
-<contactref element="J10" pad="A20"/>
-<contactref element="J10" pad="B20"/>
-<contactref element="J9" pad="A20"/>
-<contactref element="J9" pad="B20"/>
-<contactref element="J8" pad="A20"/>
-<contactref element="J8" pad="B20"/>
-<contactref element="J7" pad="A20"/>
-<contactref element="J7" pad="B20"/>
+<contactref element="J0" pad="A20"/>
+<contactref element="J0" pad="B20"/>
+<contactref element="J1" pad="A20"/>
+<contactref element="J1" pad="B20"/>
+<contactref element="J2" pad="A20"/>
+<contactref element="J2" pad="B20"/>
+<contactref element="J3" pad="A20"/>
+<contactref element="J3" pad="B20"/>
 <contactref element="J4" pad="A20"/>
 <contactref element="J4" pad="B20"/>
 <wire x1="14.65" y1="7.25" x2="14.65" y2="13.75" width="0.6" layer="1"/>
@@ -2466,10 +2466,10 @@ design rules under a new name.</description>
 <wire x1="14" y1="1.476690625" x2="13.289259375" y2="2.18743125" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-6">
-<contactref element="J10" pad="A41"/>
-<contactref element="J9" pad="A41"/>
-<contactref element="J8" pad="A41"/>
-<contactref element="J7" pad="A41"/>
+<contactref element="J0" pad="A41"/>
+<contactref element="J1" pad="A41"/>
+<contactref element="J2" pad="A41"/>
+<contactref element="J3" pad="A41"/>
 <contactref element="J4" pad="A41"/>
 <wire x1="-6.15" y1="-6.65" x2="-6.15" y2="-8.318625" width="0.2" layer="1"/>
 <wire x1="-6.35" y1="-10.381375" x2="-6.35" y2="-11.75" width="0.2" layer="1"/>
@@ -2496,10 +2496,10 @@ design rules under a new name.</description>
 <wire x1="-6.35" y1="-6.45" x2="-6.35" y2="9.25" width="0.2" layer="1"/>
 </signal>
 <signal name="GPIO-7">
-<contactref element="J10" pad="B41"/>
-<contactref element="J9" pad="B41"/>
-<contactref element="J8" pad="B41"/>
-<contactref element="J7" pad="B41"/>
+<contactref element="J0" pad="B41"/>
+<contactref element="J1" pad="B41"/>
+<contactref element="J2" pad="B41"/>
+<contactref element="J3" pad="B41"/>
 <contactref element="J4" pad="B41"/>
 <wire x1="-6.35" y1="11.75" x2="-6.35" y2="10.381375" width="0.2" layer="16"/>
 <wire x1="-6.35" y1="10.381375" x2="-5.55" y2="9.581375" width="0.2" layer="16"/>
@@ -2527,7 +2527,7 @@ design rules under a new name.</description>
 <wire x1="-7.95" y1="-5.518625" x2="-7.95" y2="5.4" width="0.2" layer="16"/>
 </signal>
 <signal name="BALANCING-BOTTOM">
-<polygon width="0.16" layer="16" spacing="0.5" pour="hatch">
+<polygon width="0.16" layer="16" spacing="0.5" pour="hatch" rank="6">
 <vertex x="-21" y="-42.5"/>
 <vertex x="-21" y="16.5" curve="-90"/>
 <vertex x="-20.5" y="17"/>
@@ -2542,7 +2542,7 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="BALANCING-BOTTOM1">
-<polygon width="0.16" layer="1" spacing="0.5" pour="hatch">
+<polygon width="0.16" layer="1" spacing="0.5" pour="hatch" rank="6">
 <vertex x="-21" y="-42.5"/>
 <vertex x="-21" y="16.5" curve="-90"/>
 <vertex x="-20.5" y="17"/>
@@ -2564,13 +2564,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="8,1,e3d5fff1c7c18419"/>
-<approved hash="8,1,21cbbdd6554e4636"/>
-<approved hash="8,1,2abbb5d65c4e4eb6"/>
-<approved hash="8,1,1bda07de3fde7e06"/>
-<approved hash="8,1,0ddbc0d61922399e"/>
-</errors>
 </board>
 </drawing>
 </eagle>
