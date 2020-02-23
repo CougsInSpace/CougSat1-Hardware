@@ -3,12 +3,12 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -197,6 +197,8 @@
 <wire x1="-29.5" y1="-41" x2="-25.5" y2="-45" width="0" layer="20" curve="-90"/>
 <wire x1="-25.5" y1="-45" x2="-25.5" y2="-48" width="0" layer="20"/>
 <wire x1="-25.5" y1="-48" x2="-23.25" y2="-48" width="0" layer="20"/>
+<text x="-32.75" y="14.75" size="0.8128" layer="25">AGND</text>
+<text x="-28.25" y="16.75" size="0.8128" layer="25">AGND</text>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">
@@ -865,19 +867,15 @@ design rules under a new name.</description>
 <attribute name="SKU" value="36-152A" x="-61.6" y="55.14" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="H1" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="-35" y="-35" locked="yes" smashed="yes">
-<attribute name="NAME" x="-35" y="-31" locked="yes" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="48-004x" x="6.91" y="-38.81" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H2" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="-35" y="35" locked="yes" smashed="yes">
-<attribute name="NAME" x="-35" y="39" locked="yes" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-<attribute name="SKU" value="48-004x" x="-18.49" y="18.49" locked="yes" size="1.778" layer="27" display="off"/>
+<element name="H2" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="-35" y="35" smashed="yes">
+<attribute name="SKU" value="48-004x" x="-18.49" y="18.49" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H3" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="35" y="-35" locked="yes" smashed="yes">
-<attribute name="NAME" x="35" y="-31" locked="yes" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="48-004x" x="59.13" y="-51.51" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
 <element name="H4" library="CougsInSpace-Hardware" package="MOUNTING_HOLE-3.3" value="M3" x="35" y="35" locked="yes" smashed="yes">
-<attribute name="NAME" x="35" y="39" locked="yes" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SKU" value="48-004x" x="66.75" y="18.49" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J4" library="CougsInSpace-Connectors" package="PICOLOCK1.5-04" value="ADCS" x="-14" y="20" locked="yes" smashed="yes" rot="R180">
@@ -886,7 +884,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="04-0001" x="-45.75" y="22.54" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="CougsInSpace-Resistors" package="1608" value="0Ω &lt;20mΩ" x="-1" y="42" smashed="yes" rot="SR270">
-<attribute name="NAME" x="-1" y="44.5" size="0.8" layer="25" font="vector" ratio="15" rot="SR270" align="center"/>
+<attribute name="NAME" x="-1" y="44.5" size="0.8" layer="25" font="vector" ratio="15" rot="SR90" align="center"/>
 <attribute name="PACKAGE" value="1608" x="-45.45" y="19.14" size="1.778" layer="27" rot="SR270" display="off"/>
 <attribute name="POWER" value="1/10W" x="-45.45" y="19.14" size="1.778" layer="27" rot="SR270" display="off"/>
 <attribute name="SKU" value="21-0000" x="-45.45" y="19.14" size="1.778" layer="27" rot="SR270" display="off"/>
@@ -990,9 +988,7 @@ design rules under a new name.</description>
 <attribute name="PACKAGE" value="1608" x="12.76" y="76.26" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SKU" value="26-0008" x="12.76" y="76.26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="TP2" library="CougsInSpace-Connectors" package="THT-0.7" value="TEST_POINT-THT-0.7" x="-26.75" y="15.31" smashed="yes">
-<attribute name="NAME" x="-26.75" y="16.81" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
-</element>
+<element name="TP2" library="CougsInSpace-Connectors" package="THT-0.7" value="TEST_POINT-THT-0.7" x="-26.75" y="15.31" smashed="yes"/>
 <element name="U1" library="CougsInSpace-IC-Conversion" package="QFN-20-4040" value="AD7291" x="0.25" y="37.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="-3.25" y="39.15" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="SKU" value="27-0003" x="-37.85" y="52.74" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1008,6 +1004,7 @@ design rules under a new name.</description>
 <attribute name="SKU" value="21-0000" x="-33.5" y="22.5" size="1.778" layer="27" display="off"/>
 <attribute name="TEMP" value="70°C Max 2A" x="-33.5" y="22.5" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TP1" library="CougsInSpace-Connectors" package="THT-0.7" value="TEST_POINT-THT-0.7" x="-31.25" y="13.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="I2C_SDA_ADCS">
@@ -1028,10 +1025,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="PAD"/>
 <contactref element="U1" pad="13"/>
 <contactref element="C12" pad="2"/>
-<contactref element="J4" pad="4"/>
 <contactref element="R11" pad="2"/>
 <contactref element="U1" pad="9"/>
-<wire x1="-11.75" y1="20" x2="-11.75" y2="22.5" width="0.16" layer="1"/>
 <wire x1="-0.25" y1="39.4" x2="-0.25" y2="40.25" width="0.16" layer="1"/>
 <wire x1="-0.25" y1="40.25" x2="-1" y2="41" width="0.16" layer="1"/>
 <wire x1="-1" y1="41" x2="-1" y2="41.25" width="0.16" layer="1"/>
@@ -1101,6 +1096,9 @@ design rules under a new name.</description>
 <wire x1="-10.75" y1="43.75" x2="-9.5" y2="42.5" width="0.16" layer="1"/>
 <wire x1="-13.25" y1="43.75" x2="-10.75" y2="43.75" width="0.16" layer="1"/>
 <wire x1="2" y1="42.75" x2="3.25" y2="41.5" width="0.16" layer="1"/>
+<contactref element="TP1" pad="1"/>
+<wire x1="-28.75" y1="9.5" x2="-31.25" y2="12" width="0.16" layer="1"/>
+<wire x1="-31.25" y1="12" x2="-31.25" y2="13.5" width="0.16" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="FB1" pad="1"/>
@@ -1190,6 +1188,16 @@ design rules under a new name.</description>
 <wire x1="30.5" y1="33.5" x2="30" y2="33.5" width="0.16" layer="1"/>
 <wire x1="-34.25" y1="28.5" x2="-34.25" y2="30.25" width="0.16" layer="1"/>
 <contactref element="R1" pad="1"/>
+<contactref element="J4" pad="4"/>
+<wire x1="-34.25" y1="22.5" x2="-31.25" y2="25.5" width="0.16" layer="1"/>
+<via x="-29.5" y="25.5" extent="1-16" drill="0.35"/>
+<wire x1="-29.5" y1="25.5" x2="-9.25" y2="25.5" width="0.16" layer="16"/>
+<wire x1="-9.25" y1="25.5" x2="-8" y2="24.25" width="0.16" layer="16"/>
+<wire x1="-8" y1="24.25" x2="-8" y2="23.5" width="0.16" layer="16"/>
+<via x="-8" y="23.5" extent="1-16" drill="0.35"/>
+<wire x1="-8" y1="23.5" x2="-11.5" y2="20" width="0.16" layer="1"/>
+<wire x1="-11.5" y1="20" x2="-11.75" y2="20" width="0.16" layer="1"/>
+<wire x1="-31.25" y1="25.5" x2="-29.5" y2="25.5" width="0.16" layer="1"/>
 </signal>
 <signal name="AVREF">
 <contactref element="U3" pad="1"/>
@@ -1249,7 +1257,7 @@ design rules under a new name.</description>
 <wire x1="-11.75" y1="42.75" x2="-11" y2="42" width="0.16" layer="1"/>
 <wire x1="-11" y1="42" x2="-11" y2="41.5" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-0">
+<signal name="FRONT_TOP_LEFT">
 <contactref element="RN1" pad="1"/>
 <contactref element="RT1" pad="2"/>
 <contactref element="U1" pad="5"/>
@@ -1266,7 +1274,7 @@ design rules under a new name.</description>
 <wire x1="6.75" y1="40" x2="5.75" y2="39" width="0.16" layer="1"/>
 <wire x1="5.75" y1="39" x2="4.25" y2="39" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-1">
+<signal name="FRONT_MIDDLE_LEFT">
 <contactref element="RN1" pad="2"/>
 <contactref element="RT2" pad="2"/>
 <contactref element="U1" pad="4"/>
@@ -1282,7 +1290,7 @@ design rules under a new name.</description>
 <wire x1="7.53" y1="40.03" x2="5.5" y2="38" width="0.16" layer="1"/>
 <wire x1="5.5" y1="38" x2="4.75" y2="38" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-2">
+<signal name="FRONT_BOTTOM_LEFT">
 <contactref element="RN1" pad="3"/>
 <contactref element="RT3" pad="2"/>
 <contactref element="U1" pad="3"/>
@@ -1299,7 +1307,7 @@ design rules under a new name.</description>
 <wire x1="8.33" y1="38.58" x2="8.33" y2="41.11" width="0.16" layer="1"/>
 <wire x1="6.75" y1="37" x2="8.33" y2="38.58" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-3">
+<signal name="FRONT_BOTTOM_MIDDLE">
 <contactref element="RN1" pad="4"/>
 <contactref element="RT4" pad="2"/>
 <contactref element="U1" pad="2"/>
@@ -1316,7 +1324,7 @@ design rules under a new name.</description>
 <wire x1="6.75" y1="36" x2="9.13" y2="38.38" width="0.16" layer="1"/>
 <wire x1="9.13" y1="38.38" x2="9.13" y2="41.11" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-4">
+<signal name="FRONT_BOTTOM_RIGHT">
 <contactref element="RT5" pad="2"/>
 <contactref element="RN2" pad="1"/>
 <contactref element="U1" pad="1"/>
@@ -1332,7 +1340,7 @@ design rules under a new name.</description>
 <wire x1="9" y1="35.75" x2="11.4" y2="38.15" width="0.16" layer="1"/>
 <wire x1="11.4" y1="38.15" x2="11.4" y2="41.11" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-5">
+<signal name="FRONT_MIDDLE_RIGHT">
 <contactref element="RT6" pad="2"/>
 <contactref element="RN2" pad="2"/>
 <contactref element="U1" pad="20"/>
@@ -1350,7 +1358,7 @@ design rules under a new name.</description>
 <wire x1="12.25" y1="37.5" x2="12.25" y2="41.06" width="0.16" layer="1"/>
 <wire x1="12.25" y1="41.06" x2="12.2" y2="41.11" width="0.16" layer="1"/>
 </signal>
-<signal name="THERM-6">
+<signal name="FRONT_TOP_RIGHT">
 <contactref element="RT7" pad="2"/>
 <contactref element="RN2" pad="3"/>
 <contactref element="U1" pad="19"/>
@@ -1561,7 +1569,8 @@ design rules under a new name.</description>
 <vertex x="-41" y="-27.5"/>
 <vertex x="-41" y="-35" curve="90"/>
 <vertex x="-35" y="-41"/>
-<vertex x="-25.5" y="-41"/>
+<vertex x="-29.5" y="-41" curve="-90"/>
+<vertex x="-25.5" y="-45"/>
 <vertex x="-25.5" y="-48"/>
 <vertex x="23.5" y="-48"/>
 <vertex x="23.5" y="-45" curve="-90"/>
