@@ -1622,6 +1622,13 @@ Space EE</text>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0">
+<attribute name="PACKAGE" value="3216"/>
+<attribute name="POWER" value="1/4W"/>
+<attribute name="SKU" value="23-0000"/>
+<attribute name="TEMP" value="70°C Max 2A"/>
+<attribute name="VALUE" value="0Ω &lt;20mΩ"/>
+</technology>
 <technology name="-0.01R">
 <attribute name="PACKAGE" value="3216"/>
 <attribute name="POWER" value="1/2W"/>
@@ -1665,6 +1672,13 @@ Space EE</text>
 <attribute name="SKU" value="25-15.0"/>
 <attribute name="TEMP" value="-40~275°C"/>
 <attribute name="VALUE" value="15Ω 5%"/>
+</technology>
+<technology name="-5R">
+<attribute name="PACKAGE" value="THT 15mm"/>
+<attribute name="POWER" value="1W"/>
+<attribute name="SKU" value="25-5.00"/>
+<attribute name="TEMP" value="-65~250°C"/>
+<attribute name="VALUE" value="5Ω 1%"/>
 </technology>
 </technologies>
 </device>
@@ -3799,8 +3813,6 @@ under the package</text>
 <part name="H7" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
 <part name="H4" library="CougsInSpace-Hardware" deviceset="MOUNTING_HOLE" device="-2.2" value="M2"/>
 <part name="J1" library="CougsInSpace-Connectors" deviceset="1X04" device="-PICOLOCK" value="EPS Connector"/>
-<part name="R11" library="CougsInSpace-Resistors" deviceset="RES-V" device="-THT-15MM" technology="-15R" value="15Ω 5%"/>
-<part name="R10" library="CougsInSpace-Resistors" deviceset="RES-V" device="-THT-15MM" technology="-15R" value="15Ω 5%"/>
 <part name="SUPPLY18" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="FRAME4" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
 <attribute name="TITLE" value="Mechanical"/>
@@ -3929,6 +3941,8 @@ under the package</text>
 <part name="R8" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-2K" value="2kΩ 0.1%"/>
 <part name="SUPPLY9" library="CougsInSpace-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="OFFSHEET5" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="R10" library="CougsInSpace-Resistors" deviceset="RES-V" device="-THT-15MM" technology="-5R" value="5Ω 1%"/>
+<part name="R11" library="CougsInSpace-Resistors" deviceset="RES-V" device="-THT-15MM" technology="-5R" value="5Ω 1%"/>
 </parts>
 <sheets>
 <sheet>
@@ -4932,22 +4946,6 @@ by the EPS</text>
 <attribute name="SKU" x="188.595" y="126.238" size="1.778" layer="97" align="center"/>
 <attribute name="PACKAGE" x="188.595" y="124.206" size="1.778" layer="97" align="center"/>
 </instance>
-<instance part="R11" gate="G$1" x="208.28" y="132.08" smashed="yes">
-<attribute name="NAME" x="209.55" y="137.16" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="209.55" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="209.55" y="132.588" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="209.55" y="131.064" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="209.55" y="129.54" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="209.55" y="134.112" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="R10" gate="G$1" x="223.52" y="132.08" smashed="yes">
-<attribute name="NAME" x="224.79" y="137.16" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="224.79" y="135.636" size="1.27" layer="96" align="center-left"/>
-<attribute name="PACKAGE" x="224.79" y="132.588" size="1.27" layer="97" align="center-left"/>
-<attribute name="POWER" x="224.79" y="131.064" size="1.27" layer="97" align="center-left"/>
-<attribute name="TEMP" x="224.79" y="129.54" size="1.27" layer="97" align="center-left"/>
-<attribute name="SKU" x="224.79" y="134.112" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="SUPPLY18" gate="G$1" x="208.28" y="121.92" smashed="yes"/>
 <instance part="H11" gate="G$1" x="30.48" y="83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="30.48" y="87.122" size="1.27" layer="95" rot="MR0" align="center"/>
@@ -5105,6 +5103,22 @@ by the EPS</text>
 <attribute name="SKU" x="215.9" y="101.854" size="1.27" layer="97" align="center"/>
 </instance>
 <instance part="SUPPLY58" gate="G$1" x="203.2" y="93.98" smashed="yes"/>
+<instance part="R10" gate="G$1" x="208.28" y="132.08" smashed="yes">
+<attribute name="NAME" x="209.55" y="137.16" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="209.55" y="135.636" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="209.55" y="132.588" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="209.55" y="131.064" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="209.55" y="129.54" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="209.55" y="134.112" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="R11" gate="G$1" x="223.52" y="132.08" smashed="yes">
+<attribute name="NAME" x="224.79" y="137.16" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="224.79" y="135.636" size="1.27" layer="96" align="center-left"/>
+<attribute name="PACKAGE" x="224.79" y="132.588" size="1.27" layer="97" align="center-left"/>
+<attribute name="POWER" x="224.79" y="131.064" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="224.79" y="129.54" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="224.79" y="134.112" size="1.27" layer="97" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5178,23 +5192,22 @@ by the EPS</text>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="139.7" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="139.7" x2="223.52" y2="139.7" width="0.1524" layer="91"/>
 <junction x="208.28" y="139.7"/>
-<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="139.7" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="137.16" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
 <junction x="198.12" y="139.7"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PGND" class="0">
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="PGND"/>
-<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="129.54" x2="208.28" y2="127" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="208.28" y1="127" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
@@ -5202,9 +5215,10 @@ by the EPS</text>
 <wire x1="198.12" y1="132.08" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="127" x2="208.28" y2="127" width="0.1524" layer="91"/>
 <junction x="208.28" y="127"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="129.54" x2="223.52" y2="127" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="127" x2="223.52" y2="127" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="H4" gate="G$1" pin="MOUNT"/>
