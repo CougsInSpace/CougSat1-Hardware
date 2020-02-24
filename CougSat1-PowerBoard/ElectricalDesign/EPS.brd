@@ -6588,8 +6588,6 @@ design rules under a new name.</description>
 <contactref element="R35" pad="1"/>
 <contactref element="J2" pad="7"/>
 <contactref element="J2" pad="6"/>
-<contactref element="J4" pad="3"/>
-<contactref element="J4" pad="4"/>
 <contactref element="J1" pad="4"/>
 <contactref element="D20" pad="2"/>
 <contactref element="D23" pad="2"/>
@@ -6605,7 +6603,6 @@ design rules under a new name.</description>
 <contactref element="J8" pad="6"/>
 <contactref element="D1" pad="2"/>
 <contactref element="D3" pad="2"/>
-<contactref element="D11" pad="2"/>
 <contactref element="C123" pad="2"/>
 <contactref element="C128" pad="2"/>
 <contactref element="C119" pad="2"/>
@@ -6618,8 +6615,6 @@ design rules under a new name.</description>
 <contactref element="C30" pad="2"/>
 <contactref element="C117" pad="2"/>
 <contactref element="C6" pad="2"/>
-<contactref element="C61" pad="2"/>
-<contactref element="C67" pad="2"/>
 <contactref element="J9" pad="4"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R34" pad="1"/>
@@ -7304,8 +7299,6 @@ design rules under a new name.</description>
 <wire x1="82" y1="13.8" x2="82" y2="11.1" width="0.2" layer="2"/>
 <wire x1="44.9" y1="20.8" x2="45.6" y2="20.1" width="0.6" layer="2"/>
 <wire x1="44.9" y1="23.2" x2="44.9" y2="20.8" width="0.6" layer="2"/>
-<wire x1="58" y1="1.05" x2="58" y2="1.5" width="0.6" layer="1"/>
-<wire x1="58" y1="1.5" x2="58" y2="2.55" width="0.6" layer="1"/>
 <via x="58" y="1.5" extent="1-16" drill="0.3"/>
 <wire x1="58" y1="1.5" x2="57.75" y2="1.75" width="0.6" layer="16"/>
 <wire x1="57.75" y1="7.71" x2="57.46" y2="8" width="0.6" layer="16"/>
@@ -7328,18 +7321,14 @@ design rules under a new name.</description>
 <wire x1="67.9" y1="-1.9" x2="66.79" y2="-1.9" width="0.6" layer="16"/>
 <wire x1="66.79" y1="-1.9" x2="66.2" y2="-1.31" width="0.6" layer="16"/>
 <wire x1="66.2" y1="-1.31" x2="66.2" y2="-0.1" width="0.6" layer="16"/>
-<wire x1="64.89" y1="-0.1" x2="66.2" y2="-0.1" width="0.3" layer="16"/>
-<wire x1="63" y1="-3.55" x2="63.55" y2="-4.1" width="0.3" layer="16"/>
 <wire x1="62.54" y1="-8" x2="61.06" y2="-6.52" width="0.6" layer="16"/>
 <wire x1="61.06" y1="-6.52" x2="61.06" y2="-3.5" width="0.6" layer="16"/>
 <wire x1="61.06" y1="-3.5" x2="61.06" y2="-0.09" width="0.6" layer="16"/>
 <wire x1="61.06" y1="-0.09" x2="62.83" y2="1.68" width="0.6" layer="16"/>
-<wire x1="66.2" y1="2.75" x2="66.25" y2="2.8" width="0.6" layer="16"/>
 <wire x1="66.2" y1="-0.1" x2="66.2" y2="1.6" width="0.6" layer="16"/>
 <wire x1="66.2" y1="1.6" x2="66.2" y2="2.75" width="0.6" layer="16"/>
 <wire x1="62.83" y1="1.68" x2="66.12" y2="1.68" width="0.6" layer="16"/>
 <wire x1="66.12" y1="1.68" x2="66.2" y2="1.6" width="0.6" layer="16"/>
-<wire x1="63" y1="-3.55" x2="61.11" y2="-3.55" width="0.3" layer="16"/>
 <wire x1="61.11" y1="-3.55" x2="61.06" y2="-3.5" width="0.3" layer="16"/>
 <wire x1="84.3" y1="35" x2="77.7" y2="35" width="0.2" layer="2"/>
 <wire x1="84.3" y1="35" x2="90" y2="29.3" width="0.2" layer="2"/>
@@ -7785,8 +7774,8 @@ design rules under a new name.</description>
 <wire x1="22.8" y1="3.25" x2="22.45" y2="-2.4" width="0" layer="19" extent="16-16"/>
 <wire x1="66.6" y1="37.05" x2="68.05" y2="36.7" width="0" layer="19" extent="16-16"/>
 <wire x1="73.65" y1="36.7" x2="71" y2="36.7" width="0" layer="19" extent="16-16"/>
-<wire x1="58" y1="2.55" x2="57.75" y2="7.71" width="0" layer="19" extent="1-16"/>
 <wire x1="6.1" y1="5.5" x2="11.8" y2="5.7" width="0" layer="19" extent="1-2"/>
+<wire x1="57.75" y1="1.75" x2="57.75" y2="7.71" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PV_I2C_SDA">
 <contactref element="J2" pad="2"/>
@@ -14270,9 +14259,19 @@ design rules under a new name.</description>
 <wire x1="12.3" y1="-3.9" x2="13.8" y2="-5.4" width="0.5" layer="1"/>
 <wire x1="13.8" y1="-5.4" x2="13.8" y2="-9.615" width="0.5" layer="1"/>
 <contactref element="J10" pad="1"/>
-<wire x1="12.8" y1="-10.8" x2="-9.7" y2="-48.5" width="0" layer="19" extent="1-1"/>
+<contactref element="D11" pad="2"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J4" pad="4"/>
+<contactref element="C67" pad="2"/>
+<contactref element="C61" pad="2"/>
+<wire x1="64.89" y1="-0.1" x2="66.25" y2="2.8" width="0" layer="19" extent="16-16"/>
+<wire x1="63" y1="-3.55" x2="64.89" y2="-0.1" width="0" layer="19" extent="16-16"/>
+<wire x1="58" y1="1.05" x2="63" y2="-3.55" width="0" layer="19" extent="1-16"/>
+<wire x1="58" y1="2.55" x2="58" y2="1.05" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2" y1="-8.85" x2="58" y2="1.05" width="0" layer="19" extent="1-16"/>
 <wire x1="8.5" y1="6.35" x2="12.3" y2="-3.9" width="0" layer="19" extent="16-16"/>
 <wire x1="7.9" y1="9.6" x2="9.45" y2="7.9" width="0" layer="19" extent="16-16"/>
+<wire x1="-9.7" y1="-48.5" x2="12.8" y2="-10.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBATT">
 <contactref element="Q1" pad="3"/>
