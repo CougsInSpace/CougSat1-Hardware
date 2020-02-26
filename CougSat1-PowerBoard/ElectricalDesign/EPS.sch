@@ -9332,8 +9332,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET213" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET214" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET218" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
-<part name="TP19" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0" value="TEST_POINT-THT-1.0"/>
-<part name="TP17" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-THT-1.0" value="TEST_POINT-THT-1.0"/>
 <part name="Y2" library="CougsInSpace-Clocks" deviceset="CRYSTAL" device="-SMD-3215" technology="-32.768K" value="32.768kHz ±10ppm"/>
 <part name="Y1" library="CougsInSpace-Clocks" deviceset="CRYSTAL-GROUNDED" device="-SMD-5032" technology="-8M" value="8MHz ±10ppm"/>
 <part name="SUPPLY170" library="CougsInSpace-PowerSymbols" deviceset="AGND" device=""/>
@@ -11928,12 +11926,6 @@ Switch (NC)</text>
 <attribute name="CURRENT" x="231.14" y="64.516" size="1.27" layer="97" align="center"/>
 <attribute name="RDS" x="231.14" y="62.992" size="1.27" layer="97" align="center"/>
 </instance>
-<instance part="TP19" gate="G$1" x="251.46" y="86.36" smashed="yes">
-<attribute name="NAME" x="249.936" y="87.884" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="TP17" gate="G$1" x="7.62" y="86.36" smashed="yes" rot="MR0">
-<attribute name="NAME" x="9.144" y="87.884" size="1.27" layer="95" rot="MR0" align="center"/>
-</instance>
 <instance part="R8" gate="G$1" x="187.96" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="189.23" y="154.432" size="1.27" layer="95" rot="MR0" align="center"/>
 <attribute name="VALUE" x="189.484" y="147.828" size="1.27" layer="96" rot="MR0" align="center-right"/>
@@ -12584,9 +12576,6 @@ Switch (NC)</text>
 <pinref part="R46" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="76.2" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
 <junction x="17.78" y="73.66"/>
-<pinref part="TP17" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="86.36" x2="5.08" y2="86.36" width="0.1524" layer="91"/>
-<junction x="5.08" y="86.36"/>
 <wire x1="5.08" y1="73.66" x2="5.08" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
@@ -12598,9 +12587,6 @@ Switch (NC)</text>
 <wire x1="241.3" y1="76.2" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S2"/>
 <junction x="241.3" y="73.66"/>
-<pinref part="TP19" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="86.36" x2="254" y2="86.36" width="0.1524" layer="91"/>
-<junction x="254" y="86.36"/>
 <wire x1="109.22" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="254" y1="60.96" x2="254" y2="73.66" width="0.1524" layer="91"/>
