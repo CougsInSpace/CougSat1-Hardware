@@ -9609,7 +9609,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET82" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET83" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="TP53" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
-<part name="Q13" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
 <part name="SUPPLY269" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R12" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="OFFSHEET84" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9632,7 +9631,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET88" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET89" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="TP55" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
-<part name="Q25" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
 <part name="SUPPLY285" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R45" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="OFFSHEET90" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9655,7 +9653,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET94" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET95" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="TP57" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
-<part name="Q33" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
 <part name="SUPPLY299" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R55" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="OFFSHEET96" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9678,7 +9675,6 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="OFFSHEET100" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET101" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="TP59" library="CougsInSpace-Connectors" deviceset="TEST_POINT" device="-SMD-C-1.25"/>
-<part name="Q36" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
 <part name="SUPPLY314" library="CougsInSpace-PowerSymbols" deviceset="PGND" device=""/>
 <part name="R76" library="CougsInSpace-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ 0.1%"/>
 <part name="OFFSHEET102" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
@@ -9811,6 +9807,10 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 <part name="DIA23" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA25" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
 <part name="DIA26" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
+<part name="Q13" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
+<part name="Q25" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
+<part name="Q33" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
+<part name="Q36" library="CougsInSpace-DiscreteSemi" deviceset="MOSFET_DUAL-N" device="-SOT363" technology="-DMN53D0LDW" value="DMN53D0LDW"/>
 </parts>
 <sheets>
 <sheet>
@@ -14711,7 +14711,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-0" class="0">
+<net name="PR_FET_3.3V-0" class="1">
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
@@ -14744,7 +14744,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-2" class="0">
+<net name="PR_FET_3.3V-2" class="1">
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
 <pinref part="Q10" gate="G$1" pin="S"/>
@@ -14777,7 +14777,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-3" class="0">
+<net name="PR_FET_3.3V-3" class="1">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="Q12" gate="G$1" pin="S"/>
@@ -14810,7 +14810,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="144.78" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-4" class="0">
+<net name="PR_FET_3.3V-4" class="1">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
 <pinref part="Q14" gate="G$1" pin="S"/>
@@ -14843,7 +14843,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-5" class="0">
+<net name="PR_FET_3.3V-5" class="1">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="Q16" gate="G$1" pin="S"/>
@@ -14880,7 +14880,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-6" class="0">
+<net name="PR_FET_3.3V-6" class="1">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
 <pinref part="Q18" gate="G$1" pin="S"/>
@@ -14913,7 +14913,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-7" class="0">
+<net name="PR_FET_3.3V-7" class="1">
 <segment>
 <pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="Q20" gate="G$1" pin="S"/>
@@ -14946,7 +14946,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-8" class="0">
+<net name="PR_FET_3.3V-8" class="1">
 <segment>
 <pinref part="R57" gate="G$1" pin="1"/>
 <pinref part="Q22" gate="G$1" pin="S"/>
@@ -14979,7 +14979,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-9" class="0">
+<net name="PR_FET_3.3V-9" class="1">
 <segment>
 <pinref part="R59" gate="G$1" pin="1"/>
 <pinref part="Q24" gate="G$1" pin="S"/>
@@ -15012,7 +15012,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-10" class="0">
+<net name="PR_FET_3.3V-10" class="1">
 <segment>
 <pinref part="R63" gate="G$1" pin="1"/>
 <pinref part="Q26" gate="G$1" pin="S"/>
@@ -15034,7 +15034,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-11" class="0">
+<net name="PR_FET_3.3V-11" class="1">
 <segment>
 <pinref part="R67" gate="G$1" pin="1"/>
 <pinref part="Q28" gate="G$1" pin="S"/>
@@ -15067,7 +15067,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="30.48" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-12" class="0">
+<net name="PR_FET_3.3V-12" class="1">
 <segment>
 <pinref part="R70" gate="G$1" pin="1"/>
 <pinref part="Q30" gate="G$1" pin="S"/>
@@ -15084,7 +15084,7 @@ from the launch provider or just a software reboot</text>
 <pinref part="R71" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-1" class="0">
+<net name="PR_FET_3.3V-1" class="1">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="S"/>
@@ -15504,14 +15504,6 @@ from the launch provider or just a software reboot</text>
 <instance part="TP53" gate="G$1" x="55.88" y="157.48" smashed="yes">
 <attribute name="NAME" x="54.356" y="159.004" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="Q13" gate="A" x="27.94" y="165.1" smashed="yes">
-<attribute name="NAME" x="31.496" y="168.91" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="31.496" y="167.386" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="31.496" y="165.862" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="31.496" y="164.338" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="31.496" y="162.814" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="31.496" y="161.29" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="SUPPLY269" gate="G$1" x="27.94" y="157.48" smashed="yes" rot="MR0"/>
 <instance part="R12" gate="G$1" x="27.94" y="180.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="26.67" y="185.42" size="1.27" layer="95" rot="MR0" align="center-left"/>
@@ -15593,14 +15585,6 @@ from the launch provider or just a software reboot</text>
 <instance part="OFFSHEET89" gate="G$1" x="246.38" y="157.48" smashed="yes" rot="MR0"/>
 <instance part="TP55" gate="G$1" x="223.52" y="157.48" smashed="yes">
 <attribute name="NAME" x="221.996" y="159.004" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="Q25" gate="A" x="195.58" y="165.1" smashed="yes">
-<attribute name="NAME" x="199.136" y="168.91" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="199.136" y="167.386" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="199.136" y="165.862" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="199.136" y="164.338" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="199.136" y="162.814" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="199.136" y="161.29" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY285" gate="G$1" x="195.58" y="157.48" smashed="yes" rot="MR0"/>
 <instance part="R45" gate="G$1" x="195.58" y="180.34" smashed="yes" rot="MR0">
@@ -15684,14 +15668,6 @@ from the launch provider or just a software reboot</text>
 <instance part="TP57" gate="G$1" x="139.7" y="119.38" smashed="yes">
 <attribute name="NAME" x="138.176" y="120.904" size="1.27" layer="95" align="center"/>
 </instance>
-<instance part="Q33" gate="A" x="111.76" y="127" smashed="yes">
-<attribute name="NAME" x="115.316" y="130.81" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="115.316" y="129.286" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="115.316" y="127.762" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="115.316" y="126.238" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="115.316" y="124.714" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="115.316" y="123.19" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="SUPPLY299" gate="G$1" x="111.76" y="119.38" smashed="yes" rot="MR0"/>
 <instance part="R55" gate="G$1" x="111.76" y="142.24" smashed="yes" rot="MR0">
 <attribute name="NAME" x="110.49" y="147.32" size="1.27" layer="95" rot="MR0" align="center-left"/>
@@ -15773,14 +15749,6 @@ from the launch provider or just a software reboot</text>
 <instance part="OFFSHEET101" gate="G$1" x="78.74" y="81.28" smashed="yes" rot="MR0"/>
 <instance part="TP59" gate="G$1" x="55.88" y="81.28" smashed="yes">
 <attribute name="NAME" x="54.356" y="82.804" size="1.27" layer="95" align="center"/>
-</instance>
-<instance part="Q36" gate="A" x="27.94" y="88.9" smashed="yes">
-<attribute name="NAME" x="31.496" y="92.71" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="31.496" y="91.186" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="31.496" y="89.662" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="31.496" y="88.138" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="31.496" y="86.614" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="31.496" y="85.09" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY314" gate="G$1" x="27.94" y="81.28" smashed="yes" rot="MR0"/>
 <instance part="R76" gate="G$1" x="27.94" y="104.14" smashed="yes" rot="MR0">
@@ -16019,38 +15987,6 @@ from the launch provider or just a software reboot</text>
 <attribute name="VALUE" x="195.58" y="74.676" size="1.27" layer="96" rot="MR0" align="center"/>
 </instance>
 <instance part="OFFSHEET121" gate="G$1" x="175.26" y="48.26" smashed="yes"/>
-<instance part="Q13" gate="B" x="111.76" y="165.1" smashed="yes">
-<attribute name="NAME" x="115.316" y="168.91" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="115.316" y="167.386" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="115.316" y="165.862" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="115.316" y="164.338" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="115.316" y="162.814" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="115.316" y="161.29" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="Q25" gate="B" x="27.94" y="127" smashed="yes">
-<attribute name="NAME" x="31.496" y="130.81" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="31.496" y="129.286" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="31.496" y="127.762" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="31.496" y="126.238" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="31.496" y="124.714" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="31.496" y="123.19" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="Q33" gate="B" x="195.58" y="127" smashed="yes">
-<attribute name="NAME" x="199.136" y="130.81" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="199.136" y="129.286" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="199.136" y="127.762" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="199.136" y="126.238" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="199.136" y="124.714" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="199.136" y="123.19" size="1.27" layer="97" align="center-left"/>
-</instance>
-<instance part="Q36" gate="B" x="111.76" y="88.9" smashed="yes">
-<attribute name="NAME" x="115.316" y="92.71" size="1.27" layer="95" align="center-left"/>
-<attribute name="VALUE" x="115.316" y="91.186" size="1.27" layer="96" align="center-left"/>
-<attribute name="SKU" x="115.316" y="89.662" size="1.27" layer="97" align="center-left"/>
-<attribute name="VDS" x="115.316" y="88.138" size="1.27" layer="97" align="center-left"/>
-<attribute name="CURRENT" x="115.316" y="86.614" size="1.27" layer="97" align="center-left"/>
-<attribute name="RDS" x="115.316" y="85.09" size="1.27" layer="97" align="center-left"/>
-</instance>
 <instance part="Q39" gate="B" x="27.94" y="50.8" smashed="yes">
 <attribute name="NAME" x="31.496" y="54.61" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="31.496" y="53.086" size="1.27" layer="96" align="center-left"/>
@@ -16132,6 +16068,70 @@ from the launch provider or just a software reboot</text>
 </instance>
 <instance part="SUPPLY392" gate="G$1" x="27.94" y="71.12" smashed="yes">
 <attribute name="VALUE" x="27.94" y="74.676" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="Q31" gate="B" x="27.94" y="165.1" smashed="yes">
+<attribute name="NAME" x="31.496" y="168.91" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="31.496" y="167.386" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="31.496" y="165.862" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="31.496" y="164.338" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="31.496" y="162.814" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="31.496" y="161.29" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q13" gate="A" x="111.76" y="165.1" smashed="yes">
+<attribute name="NAME" x="115.316" y="168.91" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="115.316" y="167.386" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="115.316" y="165.862" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="115.316" y="164.338" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="115.316" y="162.814" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="115.316" y="161.29" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q13" gate="B" x="195.58" y="165.1" smashed="yes">
+<attribute name="NAME" x="199.136" y="168.91" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="199.136" y="167.386" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="199.136" y="165.862" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="199.136" y="164.338" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="199.136" y="162.814" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="199.136" y="161.29" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q25" gate="A" x="27.94" y="127" smashed="yes">
+<attribute name="NAME" x="31.496" y="130.81" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="31.496" y="129.286" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="31.496" y="127.762" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="31.496" y="126.238" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="31.496" y="124.714" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="31.496" y="123.19" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q25" gate="B" x="111.76" y="127" smashed="yes">
+<attribute name="NAME" x="115.316" y="130.81" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="115.316" y="129.286" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="115.316" y="127.762" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="115.316" y="126.238" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="115.316" y="124.714" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="115.316" y="123.19" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q33" gate="A" x="195.58" y="127" smashed="yes">
+<attribute name="NAME" x="199.136" y="130.81" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="199.136" y="129.286" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="199.136" y="127.762" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="199.136" y="126.238" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="199.136" y="124.714" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="199.136" y="123.19" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q33" gate="B" x="27.94" y="88.9" smashed="yes">
+<attribute name="NAME" x="31.496" y="92.71" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="31.496" y="91.186" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="31.496" y="89.662" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="31.496" y="88.138" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="31.496" y="86.614" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="31.496" y="85.09" size="1.27" layer="97" align="center-left"/>
+</instance>
+<instance part="Q36" gate="A" x="111.76" y="88.9" smashed="yes">
+<attribute name="NAME" x="115.316" y="92.71" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="115.316" y="91.186" size="1.27" layer="96" align="center-left"/>
+<attribute name="SKU" x="115.316" y="89.662" size="1.27" layer="97" align="center-left"/>
+<attribute name="VDS" x="115.316" y="88.138" size="1.27" layer="97" align="center-left"/>
+<attribute name="CURRENT" x="115.316" y="86.614" size="1.27" layer="97" align="center-left"/>
+<attribute name="RDS" x="115.316" y="85.09" size="1.27" layer="97" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -16376,30 +16376,14 @@ from the launch provider or just a software reboot</text>
 <segment>
 <pinref part="Q9" gate="G$1" pin="G"/>
 <wire x1="38.1" y1="175.26" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="Q13" gate="A" pin="D"/>
 <wire x1="27.94" y1="170.18" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="175.26" x2="27.94" y2="177.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="175.26"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="Q31" gate="B" pin="D"/>
 </segment>
 </net>
 <net name="PGND" class="1">
-<segment>
-<pinref part="Q13" gate="A" pin="S"/>
-<pinref part="SUPPLY269" gate="G$1" pin="PGND"/>
-</segment>
-<segment>
-<pinref part="Q25" gate="A" pin="S"/>
-<pinref part="SUPPLY285" gate="G$1" pin="PGND"/>
-</segment>
-<segment>
-<pinref part="Q33" gate="A" pin="S"/>
-<pinref part="SUPPLY299" gate="G$1" pin="PGND"/>
-</segment>
-<segment>
-<pinref part="Q36" gate="A" pin="S"/>
-<pinref part="SUPPLY314" gate="G$1" pin="PGND"/>
-</segment>
 <segment>
 <pinref part="Q39" gate="A" pin="S"/>
 <pinref part="SUPPLY328" gate="G$1" pin="PGND"/>
@@ -16409,28 +16393,44 @@ from the launch provider or just a software reboot</text>
 <pinref part="SUPPLY391" gate="G$1" pin="PGND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY275" gate="G$1" pin="PGND"/>
-<pinref part="Q13" gate="B" pin="S"/>
-</segment>
-<segment>
-<pinref part="SUPPLY292" gate="G$1" pin="PGND"/>
-<pinref part="Q25" gate="B" pin="S"/>
-</segment>
-<segment>
-<pinref part="SUPPLY306" gate="G$1" pin="PGND"/>
-<pinref part="Q33" gate="B" pin="S"/>
-</segment>
-<segment>
-<pinref part="SUPPLY323" gate="G$1" pin="PGND"/>
-<pinref part="Q36" gate="B" pin="S"/>
-</segment>
-<segment>
 <pinref part="SUPPLY396" gate="G$1" pin="PGND"/>
 <pinref part="Q42" gate="B" pin="S"/>
 </segment>
 <segment>
 <pinref part="SUPPLY334" gate="G$1" pin="PGND"/>
 <pinref part="Q39" gate="B" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY269" gate="G$1" pin="PGND"/>
+<pinref part="Q31" gate="B" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY275" gate="G$1" pin="PGND"/>
+<pinref part="Q13" gate="A" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY285" gate="G$1" pin="PGND"/>
+<pinref part="Q13" gate="B" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY292" gate="G$1" pin="PGND"/>
+<pinref part="Q25" gate="A" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY299" gate="G$1" pin="PGND"/>
+<pinref part="Q25" gate="B" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY306" gate="G$1" pin="PGND"/>
+<pinref part="Q33" gate="A" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY314" gate="G$1" pin="PGND"/>
+<pinref part="Q33" gate="B" pin="S"/>
+</segment>
+<segment>
+<pinref part="SUPPLY323" gate="G$1" pin="PGND"/>
+<pinref part="Q36" gate="A" pin="S"/>
 </segment>
 </net>
 <net name="I_BATT-1_N" class="0">
@@ -16449,7 +16449,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="182.88" x2="147.32" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-0" class="0">
+<net name="PR_FET_BATT-0" class="1">
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="Q9" gate="G$1" pin="S"/>
@@ -16463,7 +16463,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="111.76" y1="175.26" x2="111.76" y2="177.8" width="0.1524" layer="91"/>
 <junction x="111.76" y="175.26"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<pinref part="Q13" gate="B" pin="D"/>
+<pinref part="Q13" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="I_BATT-2_N" class="0">
@@ -16482,7 +16482,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-2" class="0">
+<net name="PR_FET_BATT-2" class="1">
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="Q21" gate="G$1" pin="S"/>
@@ -16492,11 +16492,11 @@ from the launch provider or just a software reboot</text>
 <segment>
 <pinref part="Q21" gate="G$1" pin="G"/>
 <wire x1="205.74" y1="175.26" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="Q25" gate="A" pin="D"/>
 <wire x1="195.58" y1="170.18" x2="195.58" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="175.26" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <junction x="195.58" y="175.26"/>
 <pinref part="R45" gate="G$1" pin="1"/>
+<pinref part="Q13" gate="B" pin="D"/>
 </segment>
 </net>
 <net name="I_BATT-3_N" class="0">
@@ -16515,7 +16515,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="144.78" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-3" class="0">
+<net name="PR_FET_BATT-3" class="1">
 <segment>
 <pinref part="R50" gate="G$1" pin="1"/>
 <pinref part="Q29" gate="G$1" pin="S"/>
@@ -16529,7 +16529,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="27.94" y1="137.16" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
 <junction x="27.94" y="137.16"/>
 <pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="Q25" gate="B" pin="D"/>
+<pinref part="Q25" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="I_BATT-4_N" class="0">
@@ -16548,7 +16548,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="144.78" x2="147.32" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-4" class="0">
+<net name="PR_FET_BATT-4" class="1">
 <segment>
 <pinref part="R54" gate="G$1" pin="1"/>
 <pinref part="Q32" gate="G$1" pin="S"/>
@@ -16558,11 +16558,11 @@ from the launch provider or just a software reboot</text>
 <segment>
 <pinref part="Q32" gate="G$1" pin="G"/>
 <wire x1="121.92" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="Q33" gate="A" pin="D"/>
 <wire x1="111.76" y1="132.08" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="137.16" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
 <junction x="111.76" y="137.16"/>
 <pinref part="R55" gate="G$1" pin="1"/>
+<pinref part="Q25" gate="B" pin="D"/>
 </segment>
 </net>
 <net name="I_BATT-5_N" class="0">
@@ -16581,7 +16581,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-5" class="0">
+<net name="PR_FET_BATT-5" class="1">
 <segment>
 <pinref part="R56" gate="G$1" pin="1"/>
 <pinref part="Q34" gate="G$1" pin="S"/>
@@ -16603,7 +16603,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-6" class="0">
+<net name="PR_FET_BATT-6" class="1">
 <segment>
 <pinref part="R74" gate="G$1" pin="1"/>
 <pinref part="Q35" gate="G$1" pin="S"/>
@@ -16613,11 +16613,11 @@ from the launch provider or just a software reboot</text>
 <segment>
 <pinref part="Q35" gate="G$1" pin="G"/>
 <wire x1="38.1" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="Q36" gate="A" pin="D"/>
 <wire x1="27.94" y1="93.98" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="99.06" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="99.06"/>
 <pinref part="R76" gate="G$1" pin="1"/>
+<pinref part="Q33" gate="B" pin="D"/>
 </segment>
 </net>
 <net name="I_BH-0_N" class="0">
@@ -16636,7 +16636,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BH-0" class="0">
+<net name="PR_FET_BH-0" class="1">
 <segment>
 <pinref part="R79" gate="G$1" pin="1"/>
 <pinref part="Q37" gate="G$1" pin="S"/>
@@ -16650,7 +16650,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="111.76" y1="99.06" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <junction x="111.76" y="99.06"/>
 <pinref part="R81" gate="G$1" pin="1"/>
-<pinref part="Q36" gate="B" pin="D"/>
+<pinref part="Q36" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="I_BH-1_N" class="0">
@@ -16669,7 +16669,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_BH-1" class="0">
+<net name="PR_FET_BH-1" class="1">
 <segment>
 <pinref part="R84" gate="G$1" pin="1"/>
 <pinref part="Q38" gate="G$1" pin="S"/>
@@ -16702,7 +16702,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="48.26" y1="68.58" x2="63.5" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-21" class="0">
+<net name="PR_FET_3.3V-21" class="1">
 <segment>
 <pinref part="R86" gate="G$1" pin="1"/>
 <pinref part="Q40" gate="G$1" pin="S"/>
@@ -16724,7 +16724,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="132.08" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-22" class="0">
+<net name="PR_FET_3.3V-22" class="1">
 <segment>
 <pinref part="R88" gate="G$1" pin="1"/>
 <pinref part="Q41" gate="G$1" pin="S"/>
@@ -16746,7 +16746,7 @@ from the launch provider or just a software reboot</text>
 <wire x1="215.9" y1="68.58" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PR_FET_3.3V-PV" class="0">
+<net name="PR_FET_3.3V-PV" class="1">
 <segment>
 <pinref part="R90" gate="G$1" pin="1"/>
 <pinref part="Q43" gate="G$1" pin="S"/>
@@ -16763,7 +16763,7 @@ from the launch provider or just a software reboot</text>
 <pinref part="Q42" gate="B" pin="D"/>
 </segment>
 </net>
-<net name="PR_FET_BATT-1" class="0">
+<net name="PR_FET_BATT-1" class="1">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <pinref part="Q17" gate="G$1" pin="S"/>
@@ -16899,9 +16899,9 @@ from the launch provider or just a software reboot</text>
 </net>
 <net name="PC_BATT-0" class="0">
 <segment>
-<pinref part="Q13" gate="A" pin="G"/>
 <wire x1="20.32" y1="162.56" x2="10.16" y2="162.56" width="0.1524" layer="91"/>
 <label x="10.16" y="162.56" size="1.778" layer="95"/>
+<pinref part="Q31" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="PR_BATT-0" class="1">
@@ -16933,49 +16933,49 @@ from the launch provider or just a software reboot</text>
 <wire x1="195.58" y1="137.16" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
 <junction x="195.58" y="137.16"/>
 <pinref part="R73" gate="G$1" pin="1"/>
-<pinref part="Q33" gate="B" pin="D"/>
+<pinref part="Q33" gate="A" pin="D"/>
 </segment>
 </net>
 <net name="PC_BATT-1" class="0">
 <segment>
 <wire x1="104.14" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 <label x="93.98" y="162.56" size="1.778" layer="95"/>
-<pinref part="Q13" gate="B" pin="G"/>
+<pinref part="Q13" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="PC_BATT-2" class="0">
 <segment>
-<pinref part="Q25" gate="A" pin="G"/>
 <wire x1="187.96" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <label x="177.8" y="162.56" size="1.778" layer="95"/>
+<pinref part="Q13" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="PC_BATT-5" class="0">
 <segment>
 <wire x1="187.96" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <label x="177.8" y="124.46" size="1.778" layer="95"/>
-<pinref part="Q33" gate="B" pin="G"/>
+<pinref part="Q33" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="PC_BATT-4" class="0">
 <segment>
-<pinref part="Q33" gate="A" pin="G"/>
 <wire x1="104.14" y1="124.46" x2="93.98" y2="124.46" width="0.1524" layer="91"/>
 <label x="93.98" y="124.46" size="1.778" layer="95"/>
+<pinref part="Q25" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="PC_BATT-3" class="0">
 <segment>
 <wire x1="20.32" y1="124.46" x2="10.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="10.16" y="124.46" size="1.778" layer="95"/>
-<pinref part="Q25" gate="B" pin="G"/>
+<pinref part="Q25" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="PC_BATT-6" class="0">
 <segment>
-<pinref part="Q36" gate="A" pin="G"/>
 <wire x1="20.32" y1="86.36" x2="10.16" y2="86.36" width="0.1524" layer="91"/>
 <label x="10.16" y="86.36" size="1.778" layer="95"/>
+<pinref part="Q33" gate="B" pin="G"/>
 </segment>
 </net>
 <net name="PR_BATT-1" class="1">
@@ -17100,9 +17100,10 @@ from the launch provider or just a software reboot</text>
 </net>
 <net name="PC_BH-0" class="0">
 <segment>
-<wire x1="104.14" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 <label x="93.98" y="86.36" size="1.778" layer="95"/>
-<pinref part="Q36" gate="B" pin="G"/>
+<wire x1="101.6" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="Q36" gate="A" pin="G"/>
 </segment>
 </net>
 <net name="PC_BH-1" class="0">
