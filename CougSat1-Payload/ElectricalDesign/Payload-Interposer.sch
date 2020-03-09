@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3992,7 +3992,11 @@ Temperature</text>
 <text x="17.78" y="50.8" size="1.778" layer="97" align="center-left">Seeds</text>
 <wire x1="137.16" y1="25.4" x2="0" y2="25.4" width="0.254" layer="94"/>
 <text x="1.27" y="24.13" size="1.778" layer="97" align="top-left">Page 1: Block Diagram
-Page 2: Power Rails</text>
+Page 2: Power Rails
+Page 3: Interposer 
+Page 4: Voltage Regulator
+Page 5: Chamber
+Page 6: Mechanical</text>
 <text x="101.6" y="91.694" size="1.778" layer="97" align="bottom-center">SPI</text>
 <text x="33.02" y="144.78" size="3.81" layer="94" align="center">Heater</text>
 <wire x1="22.86" y1="154.94" x2="43.18" y2="154.94" width="0.254" layer="94"/>
@@ -4038,7 +4042,7 @@ Sensor</text>
 <wire x1="193.04" y1="116.84" x2="193.04" y2="76.2" width="0.254" layer="94"/>
 <wire x1="193.04" y1="76.2" x2="167.64" y2="76.2" width="0.254" layer="94"/>
 <wire x1="167.64" y1="76.2" x2="167.64" y2="116.84" width="0.254" layer="94"/>
-<text x="180.64" y="97.58" size="3.81" layer="94" rot="MR0" align="center">Interposer</text>
+<text x="180.34" y="96.52" size="3.81" layer="94" rot="MR0" align="center">Interposer</text>
 <text x="127" y="96.52" size="3.81" layer="94" align="center">Germination
 Chamber
 Board</text>
@@ -4072,6 +4076,8 @@ Expander</text>
 <wire x1="38.1" y1="71.12" x2="45.72" y2="71.12" width="0.254" layer="97"/>
 <wire x1="83.82" y1="104.14" x2="86.36" y2="106.68" width="0.254" layer="97"/>
 <wire x1="83.82" y1="104.14" x2="86.36" y2="101.6" width="0.254" layer="97"/>
+<text x="180.34" y="88.9" size="1.778" layer="97" align="bottom-center">Page 3</text>
+<text x="127" y="83.82" size="1.778" layer="97" align="bottom-center">Page 4</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -5086,6 +5092,12 @@ Vacuum Bulkhead</text>
 <wire x1="78.74" y1="165.1" x2="78.74" y2="190.5" width="0.254" layer="97" style="shortdash"/>
 <text x="55.88" y="88.9" size="1.27" layer="97" align="center-left">  4A3&gt; </text>
 <text x="88.9" y="160.02" size="1.778" layer="97" align="center-right"> &gt;4B2 </text>
+<text x="180.34" y="99.06" size="1.778" layer="97">CAD Note:
+Bulk Capacitor</text>
+<wire x1="177.8" y1="104.14" x2="177.8" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="177.8" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="198.12" y1="81.28" x2="198.12" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="198.12" y1="104.14" x2="177.8" y2="104.14" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
@@ -5783,7 +5795,8 @@ Vacuum Bulkhead</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="U4" gate="G$1" pin="SDI"/>
-<wire x1="73.66" y1="160.02" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="160.02" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="134.62" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <junction x="73.66" y="109.22"/>
 <pinref part="B2" gate="G$1" pin="TX/SDA"/>
@@ -5799,6 +5812,9 @@ Vacuum Bulkhead</text>
 <pinref part="U5" gate="G$1" pin="SDA"/>
 <wire x1="116.84" y1="63.5" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <junction x="73.66" y="63.5"/>
+<pinref part="U6" gate="G$1" pin="A2"/>
+<wire x1="83.82" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<junction x="73.66" y="134.62"/>
 </segment>
 </net>
 <net name="I2C_SCL_GERM" class="0">
@@ -5809,7 +5825,8 @@ Vacuum Bulkhead</text>
 <wire x1="76.2" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="106.68" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="66.04" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="106.68" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="106.68" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="139.7" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="165.1" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 <label x="27.94" y="106.68" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="2"/>
@@ -5821,6 +5838,9 @@ Vacuum Bulkhead</text>
 <pinref part="U5" gate="G$1" pin="SCL"/>
 <wire x1="116.84" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
 <junction x="76.2" y="66.04"/>
+<pinref part="U6" gate="G$1" pin="A1"/>
+<wire x1="83.82" y1="139.7" x2="76.2" y2="139.7" width="0.1524" layer="91"/>
+<junction x="76.2" y="139.7"/>
 </segment>
 </net>
 <net name="5.0V" class="0">
