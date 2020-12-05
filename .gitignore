@@ -10,8 +10,12 @@ OldVersions
 # Microsoft Temp Files
 *~$*
 
-#  LTSpice Simulation Results
+# LTSpice Simulation Results
 *.log*
 *.raw*
 *.plt*
 *.net
+
+# Vibes' Stupid Mac
+*.DS_Store
+
