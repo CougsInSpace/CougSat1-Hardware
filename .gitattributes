@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+## Linguist settings
+# Eagle language
+*.sch linguist-detectable=true
+*.brd linguist-detectable=true
+
+# LTSpice
+*.asc linguist-language=LTSpice-Symbol
+*.asc linguist-detectable=true
