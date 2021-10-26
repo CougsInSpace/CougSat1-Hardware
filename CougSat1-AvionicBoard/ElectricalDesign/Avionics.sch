@@ -163,6 +163,207 @@
 <description>&lt;h3&gt;Aesthetics&lt;/h3&gt;
 &lt;p&gt;Non-functional items such as logos, build/ordering notes, frame blocks, etc.&lt;/p&gt;</description>
 <packages>
+<package name="SIGN-BRADLEY">
+<description>&lt;h3&gt;Signature - Bradley Davis&lt;/h3&gt;</description>
+<wire x1="-1.5" y1="-1.9" x2="-2.1" y2="-1.9" width="0.2032" layer="1" curve="-150.513051"/>
+<wire x1="-2.1" y1="-1.9" x2="-1.6" y2="-1.5" width="0.2032" layer="1" curve="-132.166741"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="1" curve="20.138703"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="1" curve="17.950694"/>
+<wire x1="-1.5" y1="0.1" x2="-1.5" y2="-0.5" width="0.2032" layer="1" curve="162.048801"/>
+<wire x1="-1.5" y1="-0.5" x2="2" y2="-0.2" width="0.2032" layer="1" curve="27.749383"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="1" curve="-10"/>
+<wire x1="-1.5" y1="2.2" x2="-1.25" y2="0.5" width="0.2" layer="1" curve="-14"/>
+<wire x1="0.36" y1="-1.98" x2="0.3" y2="0.1" width="0.2032" layer="1" curve="159"/>
+<wire x1="-1.5" y1="2.2" x2="-1.25" y2="0.5" width="0.2" layer="29" curve="-14"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="1" curve="20.138703"/>
+<wire x1="-1.6" y1="-1.5" x2="0" y2="-2" width="0.2032" layer="29" curve="20.138703"/>
+<wire x1="-2.1" y1="-1.9" x2="-1.6" y2="-1.5" width="0.2032" layer="29" curve="-132.166741"/>
+<wire x1="-1.5" y1="-1.9" x2="-2.1" y2="-1.9" width="0.2032" layer="29" curve="-150.513051"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="1" curve="-10"/>
+<wire x1="-1.24" y1="-0.24" x2="-1.5" y2="-1.9" width="0.2032" layer="29" curve="-10"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="1" curve="17.950694"/>
+<wire x1="0.3" y1="0.1" x2="-1.5" y2="0.1" width="0.2032" layer="29" curve="17.950694"/>
+<wire x1="-1.5" y1="0.1" x2="-1.5" y2="-0.5" width="0.2032" layer="29" curve="162.048801"/>
+<wire x1="-1.5" y1="-0.5" x2="2" y2="-0.2" width="0.2032" layer="29" curve="27.749383"/>
+<wire x1="0.36" y1="-1.98" x2="0.3" y2="0.1" width="0.2032" layer="29" curve="159"/>
+</package>
+<package name="SIGN-HENDRIK">
+<description>&lt;h3&gt;Signature - Hendrik Melse&lt;/h3&gt;</description>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="1"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="1"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="1"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="1"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="1"/>
+<wire x1="-2" y1="-0.8" x2="-1" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-1.2" y1="-0.8" x2="-0.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="-0.4" y1="-0.8" x2="0.2" y2="0.4" width="0.2" layer="29"/>
+<wire x1="0.4" y1="-0.8" x2="1" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="1.8" y2="0.4" width="0.2" layer="29"/>
+<wire x1="1.8" y1="0.4" x2="-1.4" y2="0.4" width="0.2" layer="29"/>
+<wire x1="-0.2" y1="1.2" x2="2.2" y2="1.2" width="0.2" layer="29"/>
+<wire x1="1" y1="-1.2" x2="-2.2" y2="-1.2" width="0.2" layer="29"/>
+<polygon width="0.2" layer="41">
+<vertex x="-2.2" y="-1.2"/>
+<vertex x="1" y="-1.2"/>
+<vertex x="2.2" y="1.2"/>
+<vertex x="-1" y="1.2"/>
+</polygon>
+<polygon width="0.2" layer="41">
+<vertex x="-2.5" y="-1.4"/>
+<vertex x="-1.1" y="1.4"/>
+<vertex x="2.5" y="1.4"/>
+<vertex x="1.1" y="-1.4"/>
+</polygon>
+</package>
+<package name="SIGN-JAYSON">
+<description>&lt;h3&gt;Signature - Jayson Lopez&lt;/h3&gt;</description>
+<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.2" layer="1"/>
+<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.2" layer="1"/>
+<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="1"/>
+<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.2" layer="1"/>
+<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.2" layer="1"/>
+<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.2" layer="1"/>
+<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.2" layer="1"/>
+<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.2" layer="1"/>
+<wire x1="0.6" y1="0" x2="0" y2="0" width="0.2" layer="1"/>
+<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.2" layer="1"/>
+<wire x1="-1.7" y1="1.1" x2="-1.1" y2="1.1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="1.1" x2="0.8" y2="1.1" width="0.2" layer="29"/>
+<wire x1="1.6" y1="1.1" x2="1.1" y2="1.1" width="0.2" layer="29"/>
+<wire x1="1.1" y1="1.1" x2="1.1" y2="-1" width="0.2" layer="29"/>
+<wire x1="1.1" y1="-1" x2="2.4" y2="-1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="1.1" x2="-1.1" y2="-1" width="0.2" layer="29"/>
+<wire x1="-1.1" y1="-1" x2="-2.4" y2="-1" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0.3" x2="0.6" y2="0.8" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0.8" x2="-0.6" y2="0.8" width="0.2" layer="29"/>
+<wire x1="-0.6" y1="0.8" x2="-0.6" y2="-0.9" width="0.2" layer="29"/>
+<wire x1="-0.6" y1="-0.9" x2="0.6" y2="-0.9" width="0.2" layer="29"/>
+<wire x1="0.6" y1="-0.9" x2="0.6" y2="0" width="0.2" layer="29"/>
+<wire x1="0.6" y1="0" x2="0" y2="0" width="0.2" layer="29"/>
+<wire x1="0" y1="0" x2="0" y2="-0.4" width="0.2" layer="29"/>
+<polygon width="0.2" layer="41">
+<vertex x="-2.6" y="-1.2"/>
+<vertex x="-2.6" y="-0.8"/>
+<vertex x="-1.3" y="-0.8"/>
+<vertex x="-1.3" y="0.9"/>
+<vertex x="-1.9" y="0.9"/>
+<vertex x="-1.9" y="1.3"/>
+<vertex x="-1.5" y="1.3"/>
+<vertex x="1.8" y="1.3"/>
+<vertex x="1.8" y="0.9"/>
+<vertex x="1.3" y="0.9"/>
+<vertex x="1.3" y="-0.8"/>
+<vertex x="2.6" y="-0.8"/>
+<vertex x="2.6" y="-1.2"/>
+</polygon>
+</package>
+<package name="SIGN-JOSH">
+<wire x1="-0.6" y1="-0.46" x2="-0.03" y2="1.74" width="0.25" layer="1" curve="10.285058"/>
+<wire x1="0.24" y1="0.86" x2="-0.07" y2="-0.29" width="0.25" layer="1" curve="-3"/>
+<wire x1="-0.07" y1="-0.29" x2="-0.43" y2="-1.13" width="0.25" layer="1" curve="-12.356014"/>
+<wire x1="-0.73" y1="-1.2" x2="-0.15" y2="-1.21" width="0.16" layer="1" curve="-3.728444"/>
+<wire x1="-0.15" y1="-1.21" x2="0.43" y2="-1.21" width="0.16" layer="1" curve="5.6381"/>
+<wire x1="0.43" y1="-1.21" x2="0.64" y2="-1.18" width="0.16" layer="1" curve="10.622104"/>
+<wire x1="0.64" y1="-1.18" x2="1.19" y2="-0.86" width="0.16" layer="1" curve="33.500879"/>
+<wire x1="1.19" y1="-0.86" x2="1.51" y2="-0.26" width="0.16" layer="1" curve="29.970761"/>
+<wire x1="1.51" y1="-0.26" x2="1.5" y2="0.5" width="0.16" layer="1" curve="29.22928"/>
+<wire x1="1.5" y1="0.5" x2="1.07" y2="1.04" width="0.16" layer="1" curve="36.035003"/>
+<wire x1="1.07" y1="1.04" x2="0.76" y2="1.18" width="0.16" layer="1" curve="27.036687"/>
+<wire x1="0.76" y1="1.18" x2="0.34" y2="1.24" width="0.16" layer="1" curve="11.843315"/>
+<wire x1="0.34" y1="1.24" x2="0.26" y2="1.24" width="0.16" layer="1" curve="-2.114197"/>
+<wire x1="0.1" y1="1.79" x2="-0.14" y2="1.79" width="0.16" layer="1" curve="3.014872"/>
+<wire x1="-0.14" y1="1.79" x2="-0.59" y2="1.74" width="0.16" layer="1" curve="12.716758"/>
+<wire x1="-0.59" y1="1.74" x2="-1.05" y2="0.92" width="0.16" layer="1" curve="99.707955"/>
+<wire x1="-0.97" y1="-0.57" x2="-0.93" y2="0.53" width="0.16" layer="1" curve="-76.253779"/>
+<wire x1="-0.93" y1="0.53" x2="-0.62" y2="0.86" width="0.16" layer="1" curve="-10.133879"/>
+<wire x1="-1.67" y1="-0.81" x2="-0.84" y2="-0.87" width="0.16" layer="1" curve="94.940355"/>
+<wire x1="-0.6356" y1="-1.1998" x2="-0.4656" y2="-1.0998" width="0.16" layer="1" curve="68.559461"/>
+<wire x1="-0.6" y1="-0.46" x2="-0.03" y2="1.74" width="0.25" layer="29" curve="10.285058"/>
+<wire x1="0.24" y1="0.86" x2="-0.07" y2="-0.29" width="0.25" layer="29" curve="-3"/>
+<wire x1="-0.07" y1="-0.29" x2="-0.43" y2="-1.13" width="0.25" layer="29" curve="-12.356014"/>
+<wire x1="-0.73" y1="-1.2" x2="-0.15" y2="-1.21" width="0.16" layer="29" curve="-3.728444"/>
+<wire x1="-0.15" y1="-1.21" x2="0.43" y2="-1.21" width="0.16" layer="29" curve="5.6381"/>
+<wire x1="0.43" y1="-1.21" x2="0.64" y2="-1.18" width="0.16" layer="29" curve="10.622104"/>
+<wire x1="0.64" y1="-1.18" x2="1.19" y2="-0.86" width="0.16" layer="29" curve="33.500879"/>
+<wire x1="1.19" y1="-0.86" x2="1.51" y2="-0.26" width="0.16" layer="29" curve="29.970761"/>
+<wire x1="1.51" y1="-0.26" x2="1.5" y2="0.5" width="0.16" layer="29" curve="29.22928"/>
+<wire x1="1.5" y1="0.5" x2="1.07" y2="1.04" width="0.16" layer="29" curve="36.035003"/>
+<wire x1="1.07" y1="1.04" x2="0.76" y2="1.18" width="0.16" layer="29" curve="27.036687"/>
+<wire x1="0.76" y1="1.18" x2="0.34" y2="1.24" width="0.16" layer="29" curve="11.843315"/>
+<wire x1="0.34" y1="1.24" x2="0.26" y2="1.24" width="0.16" layer="29" curve="-2.114197"/>
+<wire x1="0.1" y1="1.79" x2="-0.14" y2="1.79" width="0.16" layer="29" curve="3.014872"/>
+<wire x1="-0.14" y1="1.79" x2="-0.59" y2="1.74" width="0.16" layer="29" curve="12.716758"/>
+<wire x1="-0.59" y1="1.74" x2="-1.05" y2="0.92" width="0.16" layer="29" curve="99.707955"/>
+<wire x1="-0.97" y1="-0.57" x2="-0.93" y2="0.53" width="0.16" layer="29" curve="-76.253779"/>
+<wire x1="-0.93" y1="0.53" x2="-0.62" y2="0.86" width="0.16" layer="29" curve="-10.133879"/>
+<wire x1="-1.67" y1="-0.81" x2="-0.84" y2="-0.87" width="0.16" layer="29" curve="94.940355"/>
+<wire x1="-0.6356" y1="-1.1998" x2="-0.4656" y2="-1.0998" width="0.16" layer="29" curve="68.559461"/>
+</package>
+<package name="SIGN-GABE">
+<description>&lt;h3&gt;Signature - Gabe Adamson&lt;/h3&gt;</description>
+<polygon width="0.2" layer="1">
+<vertex x="0.5" y="0"/>
+<vertex x="0.161803125" y="0.11755625"/>
+<vertex x="0.154509375" y="0.475528125"/>
+<vertex x="-0.061803125" y="0.1902125"/>
+<vertex x="-0.404509375" y="0.29389375"/>
+<vertex x="-0.2" y="0"/>
+<vertex x="-0.404509375" y="-0.29389375"/>
+<vertex x="-0.061803125" y="-0.1902125"/>
+<vertex x="0.154509375" y="-0.475528125"/>
+<vertex x="0.161803125" y="-0.11755625"/>
+</polygon>
+<wire x1="0" y1="0" x2="0.9" y2="0" width="0.2" layer="1"/>
+<wire x1="1.1" y1="1.3" x2="1.128234375" y2="1.441171875" width="0.2" layer="1"/>
+<wire x1="1.128234375" y1="1.441171875" x2="0.834059375" y2="1.8" width="0.2" layer="1"/>
+<wire x1="0.834059375" y1="1.8" x2="-0.348296875" y2="1.8" width="0.2" layer="1"/>
+<wire x1="-0.348296875" y1="1.8" x2="-0.745009375" y2="1.451178125" width="0.2" layer="1"/>
+<wire x1="-0.745009375" y1="1.451178125" x2="-1.0563375" y2="-0.961615625" width="0.2" layer="1"/>
+<wire x1="-1.0563375" y1="-0.961615625" x2="-0.758803125" y2="-1.3" width="0.2" layer="1"/>
+<wire x1="-0.758803125" y1="-1.3" x2="0.35683125" y2="-1.3" width="0.2" layer="1"/>
+<wire x1="0.35683125" y1="-1.3" x2="0.75218125" y2="-0.960821875" width="0.2" layer="1"/>
+<wire x1="0.75218125" y1="-0.960821875" x2="0.9" y2="0" width="0.2" layer="1"/>
+<polygon width="0.2" layer="41">
+<vertex x="-1.0563375" y="-0.961615625"/>
+<vertex x="-0.745009375" y="1.451178125"/>
+<vertex x="-0.348296875" y="1.8"/>
+<vertex x="0.834059375" y="1.8"/>
+<vertex x="1.128234375" y="1.441171875"/>
+<vertex x="1.1" y="1.3"/>
+<vertex x="0.75218125" y="-0.960821875"/>
+<vertex x="0.35683125" y="-1.3"/>
+<vertex x="-0.758803125" y="-1.3"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="0.5" y="0"/>
+<vertex x="0.161803125" y="0.11755625"/>
+<vertex x="0.154509375" y="0.475528125"/>
+<vertex x="-0.061803125" y="0.1902125"/>
+<vertex x="-0.404509375" y="0.29389375"/>
+<vertex x="-0.2" y="0"/>
+<vertex x="-0.404509375" y="-0.29389375"/>
+<vertex x="-0.061803125" y="-0.1902125"/>
+<vertex x="0.154509375" y="-0.475528125"/>
+<vertex x="0.161803125" y="-0.11755625"/>
+</polygon>
+<wire x1="0" y1="0" x2="0.9" y2="0" width="0.2" layer="29"/>
+<wire x1="1.1" y1="1.3" x2="1.128234375" y2="1.441171875" width="0.2" layer="29"/>
+<wire x1="1.128234375" y1="1.441171875" x2="0.834059375" y2="1.8" width="0.2" layer="29"/>
+<wire x1="0.834059375" y1="1.8" x2="-0.348296875" y2="1.8" width="0.2" layer="29"/>
+<wire x1="-0.348296875" y1="1.8" x2="-0.745009375" y2="1.451178125" width="0.2" layer="29"/>
+<wire x1="-0.745009375" y1="1.451178125" x2="-1.0563375" y2="-0.961615625" width="0.2" layer="29"/>
+<wire x1="-1.0563375" y1="-0.961615625" x2="-0.758803125" y2="-1.3" width="0.2" layer="29"/>
+<wire x1="-0.758803125" y1="-1.3" x2="0.35683125" y2="-1.3" width="0.2" layer="29"/>
+<wire x1="0.35683125" y1="-1.3" x2="0.75218125" y2="-0.960821875" width="0.2" layer="29"/>
+<wire x1="0.75218125" y1="-0.960821875" x2="0.9" y2="0" width="0.2" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-A">
@@ -579,6 +780,15 @@ Space EE</text>
 <wire x1="2.54" y1="-1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
 <text x="0" y="0" size="1.27" layer="97" align="center">Out</text>
 </symbol>
+<symbol name="SIGNATURE">
+<description>&lt;h3&gt;Signature of Designer&lt;/h3&gt;</description>
+<text x="0" y="2.794" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.778" layer="94" align="center">Signature</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-A" prefix="FRAME">
@@ -670,6 +880,39 @@ Space EE</text>
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIGNATURE" prefix="LOGO">
+<description>&lt;h3&gt;Designer's (Artist's) Signature&lt;h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIGNATURE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BRADLEY" package="SIGN-BRADLEY">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HENDRIK" package="SIGN-HENDRIK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JAYSON" package="SIGN-JAYSON">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JOSH" package="SIGN-JOSH">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="GABE" package="SIGN-GABE">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4830,6 +5073,15 @@ Last character is an incremented letter for each variant of the same value and p
 <circle x="0" y="0" radius="1.075" width="0.15" layer="39"/>
 <circle x="0" y="0" radius="1.075" width="0.15" layer="40"/>
 </package>
+<package name="THT-1.5">
+<description>&lt;h3&gt;Through Hole 1.5 mm Drill</description>
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.5"/>
+<text x="0" y="2" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="1.45" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="1.45" width="0.15" layer="39"/>
+<circle x="0" y="0" radius="1.45" width="0.15" layer="40"/>
+<circle x="0" y="0" radius="1.45" width="0.15" layer="22"/>
+</package>
 <package name="THT2.54-1X04-LOCK">
 <description>&lt;h3&gt;THT 2.54mm - 1x4 Conductor - With Offset Friction Lock&lt;/h3&gt;</description>
 <pad name="3" x="0" y="0" drill="1"/>
@@ -4852,15 +5104,7 @@ Last character is an incremented letter for each variant of the same value and p
 <wire x1="6.8" y1="-3" x2="-4.2" y2="-3" width="0.15" layer="21"/>
 <wire x1="-4.2" y1="-3" x2="-4.2" y2="3.7" width="0.15" layer="21"/>
 <text x="0" y="4.3" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="THT-1.5">
-<description>&lt;h3&gt;Through Hole 1.5 mm Drill</description>
-<pad name="1" x="0" y="0" drill="1.5" diameter="2.5"/>
-<text x="0" y="2" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="21"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="39"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="40"/>
-<circle x="0" y="0" radius="1.45" width="0.15" layer="22"/>
+<rectangle x1="-4.2" y1="-3" x2="6.8" y2="3.7" layer="39"/>
 </package>
 </packages>
 <symbols>
@@ -7217,6 +7461,7 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET124" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-IN" device=""/>
 <part name="OFFSHEET61" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET58" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
+<part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="GABE"/>
 </parts>
 <sheets>
 <sheet>
@@ -15674,6 +15919,9 @@ Decoupling</text>
 <attribute name="NAME" x="81.28" y="156.21" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="81.28" y="57.404" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="81.28" y="55.372" size="1.778" layer="97" align="center"/>
+</instance>
+<instance part="LOGO1" gate="G$1" x="10.16" y="5.08" smashed="yes">
+<attribute name="NAME" x="10.16" y="7.874" size="1.778" layer="95" align="bottom-center"/>
 </instance>
 </instances>
 <busses>

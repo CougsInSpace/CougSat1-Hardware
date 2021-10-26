@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="10" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="10" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
@@ -22,17 +22,17 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2105,6 +2105,70 @@ Last character is an incremented letter for each variant of the same value A-Z. 
 </package>
 </packages>
 </library>
+<library name="CougsInSpace-Aesthetics">
+<description>&lt;h3&gt;Aesthetics&lt;/h3&gt;
+&lt;p&gt;Non-functional items such as logos, build/ordering notes, frame blocks, etc.&lt;/p&gt;</description>
+<packages>
+<package name="SIGN-GABE">
+<description>&lt;h3&gt;Signature - Gabe Adamson&lt;/h3&gt;</description>
+<polygon width="0.2" layer="1">
+<vertex x="0.5" y="0"/>
+<vertex x="0.161803125" y="0.11755625"/>
+<vertex x="0.154509375" y="0.475528125"/>
+<vertex x="-0.061803125" y="0.1902125"/>
+<vertex x="-0.404509375" y="0.29389375"/>
+<vertex x="-0.2" y="0"/>
+<vertex x="-0.404509375" y="-0.29389375"/>
+<vertex x="-0.061803125" y="-0.1902125"/>
+<vertex x="0.154509375" y="-0.475528125"/>
+<vertex x="0.161803125" y="-0.11755625"/>
+</polygon>
+<wire x1="0" y1="0" x2="0.9" y2="0" width="0.2" layer="1"/>
+<wire x1="1.1" y1="1.3" x2="1.128234375" y2="1.441171875" width="0.2" layer="1"/>
+<wire x1="1.128234375" y1="1.441171875" x2="0.834059375" y2="1.8" width="0.2" layer="1"/>
+<wire x1="0.834059375" y1="1.8" x2="-0.348296875" y2="1.8" width="0.2" layer="1"/>
+<wire x1="-0.348296875" y1="1.8" x2="-0.745009375" y2="1.451178125" width="0.2" layer="1"/>
+<wire x1="-0.745009375" y1="1.451178125" x2="-1.0563375" y2="-0.961615625" width="0.2" layer="1"/>
+<wire x1="-1.0563375" y1="-0.961615625" x2="-0.758803125" y2="-1.3" width="0.2" layer="1"/>
+<wire x1="-0.758803125" y1="-1.3" x2="0.35683125" y2="-1.3" width="0.2" layer="1"/>
+<wire x1="0.35683125" y1="-1.3" x2="0.75218125" y2="-0.960821875" width="0.2" layer="1"/>
+<wire x1="0.75218125" y1="-0.960821875" x2="0.9" y2="0" width="0.2" layer="1"/>
+<polygon width="0.2" layer="41">
+<vertex x="-1.0563375" y="-0.961615625"/>
+<vertex x="-0.745009375" y="1.451178125"/>
+<vertex x="-0.348296875" y="1.8"/>
+<vertex x="0.834059375" y="1.8"/>
+<vertex x="1.128234375" y="1.441171875"/>
+<vertex x="1.1" y="1.3"/>
+<vertex x="0.75218125" y="-0.960821875"/>
+<vertex x="0.35683125" y="-1.3"/>
+<vertex x="-0.758803125" y="-1.3"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="0.5" y="0"/>
+<vertex x="0.161803125" y="0.11755625"/>
+<vertex x="0.154509375" y="0.475528125"/>
+<vertex x="-0.061803125" y="0.1902125"/>
+<vertex x="-0.404509375" y="0.29389375"/>
+<vertex x="-0.2" y="0"/>
+<vertex x="-0.404509375" y="-0.29389375"/>
+<vertex x="-0.061803125" y="-0.1902125"/>
+<vertex x="0.154509375" y="-0.475528125"/>
+<vertex x="0.161803125" y="-0.11755625"/>
+</polygon>
+<wire x1="0" y1="0" x2="0.9" y2="0" width="0.2" layer="29"/>
+<wire x1="1.1" y1="1.3" x2="1.128234375" y2="1.441171875" width="0.2" layer="29"/>
+<wire x1="1.128234375" y1="1.441171875" x2="0.834059375" y2="1.8" width="0.2" layer="29"/>
+<wire x1="0.834059375" y1="1.8" x2="-0.348296875" y2="1.8" width="0.2" layer="29"/>
+<wire x1="-0.348296875" y1="1.8" x2="-0.745009375" y2="1.451178125" width="0.2" layer="29"/>
+<wire x1="-0.745009375" y1="1.451178125" x2="-1.0563375" y2="-0.961615625" width="0.2" layer="29"/>
+<wire x1="-1.0563375" y1="-0.961615625" x2="-0.758803125" y2="-1.3" width="0.2" layer="29"/>
+<wire x1="-0.758803125" y1="-1.3" x2="0.35683125" y2="-1.3" width="0.2" layer="29"/>
+<wire x1="0.35683125" y1="-1.3" x2="0.75218125" y2="-0.960821875" width="0.2" layer="29"/>
+<wire x1="0.75218125" y1="-0.960821875" x2="0.9" y2="0" width="0.2" layer="29"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3634,6 +3698,7 @@ design rules under a new name.</description>
 <element name="TP1" library="CougsInSpace-Connectors" package="SMD-C-1.25" value="TEST_POINT-SMD-C-1.25" x="10.3" y="-20.2" smashed="yes">
 <attribute name="NAME" x="10.3" y="-21.8" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 </element>
+<element name="LOGO1" library="CougsInSpace-Aesthetics" package="SIGN-GABE" value="SIGNATUREGABE" x="87.3" y="-42.2" smashed="yes" rot="MR90"/>
 </elements>
 <signals>
 <signal name="PR_3.3V-1" class="1">
@@ -3856,7 +3921,6 @@ design rules under a new name.</description>
 <wire x1="26.8" y1="29.5768125" x2="27.07" y2="29.3068125" width="0.2" layer="16"/>
 <wire x1="27.07" y1="29.3068125" x2="27.07" y2="20.83769375" width="0.2" layer="16"/>
 <wire x1="27.07" y1="20.83769375" x2="25.34" y2="19.10769375" width="0.2" layer="16"/>
-<wire x1="72.5" y1="14.4" x2="71.8" y2="14.4" width="0.2" layer="16"/>
 <wire x1="6" y1="13.5" x2="6.2" y2="13.7" width="0.4" layer="1"/>
 <wire x1="8.75" y1="12.5" x2="6" y2="12.5" width="0.4" layer="16"/>
 <wire x1="25.2" y1="13.7" x2="25.3" y2="13.6" width="0.4" layer="1"/>
@@ -4276,7 +4340,6 @@ design rules under a new name.</description>
 <wire x1="38.325" y1="22.345" x2="37.895" y2="22.345" width="0.2" layer="16"/>
 <wire x1="37.895" y1="22.345" x2="37.55" y2="22" width="0.2" layer="16"/>
 <wire x1="14.6" y1="6.905" x2="14.6" y2="5.635" width="0.2" layer="16"/>
-<wire x1="10.25" y1="12.5" x2="10.25" y2="12.6" width="0.2" layer="16"/>
 <wire x1="10.995" y1="12.485" x2="10.265" y2="12.485" width="0.2" layer="16"/>
 <wire x1="10.265" y1="12.485" x2="10.25" y2="12.5" width="0.2" layer="16"/>
 <via x="10.995" y="12.485" extent="1-16" drill="0.3"/>
@@ -5179,6 +5242,9 @@ design rules under a new name.</description>
 <vertex x="11.1" y="13.1"/>
 <vertex x="10.1" y="13.1"/>
 </polygon>
+<wire x1="80" y1="-15" x2="75" y2="-15" width="0.2" layer="2"/>
+<wire x1="10" y1="15" x2="10.3" y2="14.7" width="0.2" layer="2"/>
+<wire x1="10.3" y1="14.7" x2="10.3" y2="11.7" width="0.2" layer="2"/>
 </signal>
 <signal name="AGND" class="1">
 <contactref element="R15" pad="1"/>
@@ -5517,7 +5583,6 @@ design rules under a new name.</description>
 <wire x1="84.8" y1="-6.4" x2="85.55" y2="-6.4" width="0.2" layer="16"/>
 <wire x1="85.55" y1="-6.4" x2="86.4" y2="-7.25" width="0.2" layer="16"/>
 <wire x1="84.8" y1="-5.6" x2="84.8" y2="-6.4" width="0.2" layer="16"/>
-<wire x1="78.275" y1="-12.1" x2="78.275" y2="-11.5" width="0.5" layer="16"/>
 <polygon width="0.2" layer="16" thermals="no" rank="2">
 <vertex x="74.2" y="-7.9"/>
 <vertex x="74.2" y="-12.6"/>
@@ -5580,7 +5645,6 @@ design rules under a new name.</description>
 <wire x1="78" y1="-14" x2="79" y2="-13" width="0.2" layer="15"/>
 <wire x1="79" y1="-13" x2="80" y2="-12" width="0.2" layer="15"/>
 <wire x1="80" y1="-12" x2="81" y2="-11" width="0.2" layer="15"/>
-<wire x1="81.05" y1="-10.95" x2="82" y2="-10" width="0.2" layer="15"/>
 <wire x1="82" y1="-10" x2="83" y2="-9" width="0.2" layer="15"/>
 <wire x1="83" y1="-9" x2="83.9" y2="-8.1" width="0.2" layer="15"/>
 <wire x1="83.9" y1="-8.1" x2="84" y2="-8.1" width="0.2" layer="15"/>
@@ -5651,6 +5715,9 @@ design rules under a new name.</description>
 <vertex x="80.2" y="-3.7"/>
 <vertex x="78.4" y="-3.7"/>
 </polygon>
+<wire x1="81" y1="-11" x2="82" y2="-10" width="0.2" layer="15"/>
+<wire x1="76.8" y1="-13.6" x2="76.4" y2="-13.6" width="0.2" layer="16"/>
+<wire x1="76.4" y1="-13.6" x2="76" y2="-14" width="0.2" layer="16"/>
 </signal>
 <signal name="ADCS_OSC_IN" class="1">
 <contactref element="U17" pad="5"/>
@@ -10131,6 +10198,15 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="8,16,8c938970b50c1c4a"/>
+<approved hash="8,16,675ab5752a44cce4"/>
+<approved hash="8,16,0a3196e9b3b59454"/>
+<approved hash="8,16,e82d5cfb4ef05fd8"/>
+<approved hash="8,16,8361f05467f58e42"/>
+<approved hash="8,16,5a3c47ac78cee40d"/>
+<approved hash="8,16,e562b92024d4bb36"/>
+</errors>
 </board>
 </drawing>
 </eagle>
