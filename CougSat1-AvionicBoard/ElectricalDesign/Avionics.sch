@@ -7261,7 +7261,11 @@ Last character is an incremented letter for each variant of the same value and p
 <part name="OFFSHEET61" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="OFFSHEET58" library="CougsInSpace-Aesthetics" deviceset="OFF_SHEET-OUT" device=""/>
 <part name="LOGO1" library="CougsInSpace-Aesthetics" deviceset="SIGNATURE" device="GABE"/>
+<<<<<<< Updated upstream
 <part name="U$1" library="CougsInSpace-Boards" deviceset="ORION_B16" device="" value="Orion B16"/>
+=======
+<part name="U27" library="CougsInSpace-Boards" deviceset="ORION_B16" device="" value="Orion B16"/>
+>>>>>>> Stashed changes
 </parts>
 <sheets>
 <sheet>
@@ -11912,10 +11916,18 @@ Place at various locations around the PCB</text>
 <wire x1="15.24" y1="129.54" x2="50.8" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="50.8" y1="129.54" x2="50.8" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="50.8" y1="154.94" x2="15.24" y2="154.94" width="0.1524" layer="97" style="shortdash"/>
+<<<<<<< Updated upstream
 <text x="10.16" y="101.6" size="1.27" layer="97" align="center-right">3B2&gt; </text>
 <text x="139.7" y="104.14" size="1.27" layer="97" rot="MR0" align="center-right"> &lt;3B2</text>
 <text x="139.7" y="109.22" size="1.27" layer="97" rot="MR0" align="center-right">   3B2&gt;</text>
 <text x="139.7" y="101.6" size="1.27" layer="97" rot="MR0" align="center-right">   3B2&gt;</text>
+=======
+<text x="12.7" y="101.6" size="1.27" layer="97" align="center-right">3B2&gt; </text>
+<text x="124.46" y="106.68" size="1.27" layer="97" rot="MR0" align="center-right"> &lt;3B2</text>
+<text x="121.92" y="88.9" size="1.27" layer="97" rot="R180" align="center-right">   3B3&gt;</text>
+<text x="124.46" y="109.22" size="1.27" layer="97" rot="MR0" align="center-right">   3B2&gt;</text>
+<text x="124.46" y="104.14" size="1.27" layer="97" rot="MR0" align="center-right">   3B2&gt;</text>
+>>>>>>> Stashed changes
 <text x="86.36" y="147.32" size="1.27" layer="97" align="center-left">CAD Note:
 Thermally
 Connected</text>
@@ -11931,7 +11943,27 @@ Connected</text>
 <attribute name="SHEET" x="257.81" y="1.27" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 <attribute name="TITLE" x="227.33" y="20.32" size="3.81" layer="94" ratio="15" align="bottom-right"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="SUPPLY56" gate="1" x="73.66" y="86.36" smashed="yes"/>
+=======
+<instance part="SUPPLY56" gate="1" x="50.8" y="86.36" smashed="yes"/>
+<instance part="R30" gate="G$1" x="132.08" y="99.06" smashed="yes">
+<attribute name="NAME" x="130.81" y="101.092" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="130.556" y="97.028" size="1.27" layer="96" align="center-right"/>
+<attribute name="PACKAGE" x="130.556" y="95.504" size="1.27" layer="97" align="center-right"/>
+<attribute name="POWER" x="131.064" y="97.028" size="1.27" layer="97" align="center-left"/>
+<attribute name="TEMP" x="131.064" y="95.504" size="1.27" layer="97" align="center-left"/>
+<attribute name="SKU" x="130.81" y="93.98" size="1.27" layer="97" align="center"/>
+</instance>
+<instance part="DS4" gate="G$1" x="139.7" y="104.14" smashed="yes">
+<attribute name="NAME" x="142.24" y="109.22" size="1.27" layer="95" align="center-left"/>
+<attribute name="VALUE" x="142.24" y="107.696" size="1.27" layer="95" align="center-left"/>
+<attribute name="SKU" x="142.24" y="106.172" size="1.27" layer="95" align="center-left"/>
+<attribute name="CURRENT" x="142.24" y="103.124" size="1.27" layer="95" align="center-left"/>
+<attribute name="VF" x="142.24" y="101.6" size="1.27" layer="95" align="center-left"/>
+<attribute name="PACKAGE" x="142.24" y="104.648" size="1.27" layer="95" align="center-left"/>
+</instance>
+>>>>>>> Stashed changes
 <instance part="C86" gate="G$1" x="22.86" y="142.24" smashed="yes">
 <attribute name="NAME" x="25.654" y="147.32" size="1.27" layer="95" align="center-left"/>
 <attribute name="VALUE" x="25.654" y="145.796" size="1.27" layer="96" align="center-left"/>
@@ -11949,9 +11981,16 @@ Connected</text>
 <attribute name="TEMP" x="40.894" y="139.7" size="1.27" layer="97" align="center-left"/>
 </instance>
 <instance part="SUPPLY61" gate="1" x="22.86" y="134.62" smashed="yes"/>
+<<<<<<< Updated upstream
 <instance part="OFFSHEET107" gate="G$1" x="134.62" y="109.22" smashed="yes" rot="R180"/>
 <instance part="OFFSHEET108" gate="G$1" x="134.62" y="101.6" smashed="yes" rot="R180"/>
 <instance part="OFFSHEET109" gate="G$1" x="134.62" y="104.14" smashed="yes" rot="R180"/>
+=======
+<instance part="OFFSHEET107" gate="G$1" x="121.92" y="109.22" smashed="yes" rot="R180"/>
+<instance part="OFFSHEET108" gate="G$1" x="121.92" y="104.14" smashed="yes" rot="R180"/>
+<instance part="OFFSHEET109" gate="G$1" x="121.92" y="106.68" smashed="yes" rot="R180"/>
+<instance part="OFFSHEET110" gate="G$1" x="119.38" y="88.9" smashed="yes" rot="R180"/>
+>>>>>>> Stashed changes
 <instance part="OFFSHEET21" gate="G$1" x="15.24" y="101.6" smashed="yes"/>
 <instance part="C79" gate="G$1" x="38.1" y="93.98" smashed="yes">
 <attribute name="NAME" x="40.894" y="99.06" size="1.27" layer="95" align="center-left"/>
@@ -11984,8 +12023,8 @@ Connected</text>
 <instance part="SUPPLY59" gate="G$1" x="116.84" y="132.08" smashed="yes">
 <attribute name="VALUE" x="116.84" y="135.636" size="1.27" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY60" gate="G$1" x="48.26" y="121.92" smashed="yes">
-<attribute name="VALUE" x="48.26" y="125.476" size="1.27" layer="96" align="center"/>
+<instance part="SUPPLY60" gate="G$1" x="48.26" y="124.46" smashed="yes">
+<attribute name="VALUE" x="48.26" y="128.016" size="1.27" layer="96" align="center"/>
 </instance>
 <instance part="SUPPLY57" gate="G$1" x="116.84" y="114.3" smashed="yes"/>
 <instance part="R28" gate="G$1" x="38.1" y="111.76" smashed="yes">
@@ -12002,10 +12041,17 @@ Connected</text>
 <attribute name="SKU" x="129.54" y="113.284" size="1.778" layer="96" align="center"/>
 <attribute name="PACKAGE" x="129.54" y="111.252" size="1.778" layer="96" align="center"/>
 </instance>
+<<<<<<< Updated upstream
 <instance part="U$1" gate="G$1" x="91.44" y="104.14" smashed="yes">
 <attribute name="NAME" x="91.44" y="123.19" size="1.778" layer="95" align="center"/>
 <attribute name="VALUE" x="91.44" y="85.09" size="1.778" layer="96" align="center"/>
 <attribute name="SKU" x="91.44" y="82.804" size="1.778" layer="97" align="center"/>
+=======
+<instance part="U27" gate="G$1" x="83.82" y="104.14" smashed="yes">
+<attribute name="NAME" x="83.82" y="123.19" size="1.778" layer="95" align="center"/>
+<attribute name="VALUE" x="83.82" y="85.09" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="83.82" y="82.804" size="1.778" layer="97" align="center"/>
+>>>>>>> Stashed changes
 </instance>
 </instances>
 <busses>
@@ -12017,8 +12063,8 @@ Connected</text>
 <wire x1="106.68" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="121.92" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
-<junction x="116.84" y="119.38"/>
 <pinref part="J14" gate="G$1" pin="CENTER"/>
+<<<<<<< Updated upstream
 <pinref part="U$1" gate="G$1" pin="RF_IN"/>
 </segment>
 </net>
@@ -12026,11 +12072,19 @@ Connected</text>
 <segment>
 <wire x1="106.68" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RXD"/>
+=======
+<pinref part="U27" gate="G$1" pin="RF_IN"/>
+<wire x1="99.06" y1="119.38" x2="116.84" y2="119.38" width="0.1524" layer="91"/>
+<junction x="116.84" y="119.38"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="!GPS_RESET" class="0">
 <segment>
+<<<<<<< Updated upstream
 <wire x1="76.2" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="38.1" y1="101.6" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="101.6" x2="17.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="20.32" y="101.6" size="1.778" layer="95"/>
@@ -12038,11 +12092,17 @@ Connected</text>
 <wire x1="38.1" y1="99.06" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
 <junction x="38.1" y="101.6"/>
 <pinref part="R28" gate="G$1" pin="1"/>
+<<<<<<< Updated upstream
 <pinref part="U$1" gate="G$1" pin="!RST"/>
+=======
+<pinref part="U27" gate="G$1" pin="!RST"/>
+<wire x1="68.58" y1="101.6" x2="38.1" y2="101.6" width="0.1524" layer="91"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="DGND" class="1">
 <segment>
+<<<<<<< Updated upstream
 <wire x1="73.66" y1="96.52" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
@@ -12060,6 +12120,28 @@ Connected</text>
 <wire x1="76.2" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <junction x="73.66" y="88.9"/>
 <wire x1="76.2" y1="96.52" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
+=======
+<wire x1="38.1" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY56" gate="1" pin="DGND"/>
+<pinref part="C79" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="88.9" x2="38.1" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U27" gate="G$1" pin="DGND@1"/>
+<wire x1="68.58" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="96.52" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="93.98" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="91.44" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="88.9" x2="50.8" y2="88.9" width="0.1524" layer="91"/>
+<junction x="50.8" y="88.9"/>
+<pinref part="U27" gate="G$1" pin="DGND@2"/>
+<wire x1="68.58" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="66.04" y="93.98"/>
+<pinref part="U27" gate="G$1" pin="DGND@3"/>
+<wire x1="68.58" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<junction x="66.04" y="91.44"/>
+<pinref part="U27" gate="G$1" pin="DGND@4"/>
+<wire x1="68.58" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+<junction x="66.04" y="88.9"/>
+>>>>>>> Stashed changes
 </segment>
 <segment>
 <pinref part="C93" gate="G$1" pin="2"/>
@@ -12101,15 +12183,17 @@ Connected</text>
 <pinref part="SUPPLY59" gate="G$1" pin="3.3V_2"/>
 </segment>
 <segment>
+<<<<<<< Updated upstream
 <wire x1="76.2" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+=======
+>>>>>>> Stashed changes
 <wire x1="38.1" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
-<junction x="73.66" y="119.38"/>
-<wire x1="48.26" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="119.38" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="119.38" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 <junction x="48.26" y="119.38"/>
+<<<<<<< Updated upstream
 <wire x1="48.26" y1="119.38" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY60" gate="G$1" pin="3.3V_2"/>
 <pinref part="R28" gate="G$1" pin="2"/>
@@ -12117,6 +12201,31 @@ Connected</text>
 <pinref part="U$1" gate="G$1" pin="BOOT_SEL"/>
 <pinref part="U$1" gate="G$1" pin="V_BCKP"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
+=======
+<wire x1="48.26" y1="119.38" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SUPPLY60" gate="G$1" pin="3.3V_2"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="U27" gate="G$1" pin="VCC"/>
+<wire x1="68.58" y1="119.38" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U27" gate="G$1" pin="BOOT_SEL"/>
+<wire x1="63.5" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U27" gate="G$1" pin="V_BCKP"/>
+<wire x1="68.58" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="116.84" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+<junction x="63.5" y="119.38"/>
+<wire x1="63.5" y1="119.38" x2="63.5" y2="127" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="127" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="99.06" x2="109.22" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="88.9" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="DS4" gate="G$1" pin="A"/>
+<pinref part="SUPPLY62" gate="G$1" pin="3.3V_2"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 <net name="RFGND" class="1">
@@ -12126,6 +12235,7 @@ Connected</text>
 <pinref part="J14" gate="G$1" pin="SHIELD"/>
 </segment>
 </net>
+<<<<<<< Updated upstream
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TXD"/>
@@ -12139,6 +12249,34 @@ Connected</text>
 <wire x1="76.2" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="124.46" x2="109.22" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+=======
+<net name="GPS_PULSE" class="0">
+<segment>
+<pinref part="U27" gate="G$1" pin="1PPS"/>
+<wire x1="68.58" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="106.68" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="124.46" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="124.46" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="109.22" x2="119.38" y2="109.22" width="0.1524" layer="91"/>
+<label x="106.68" y="109.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS_TX" class="0">
+<segment>
+<pinref part="U27" gate="G$1" pin="TXD"/>
+<wire x1="99.06" y1="104.14" x2="99.06" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="106.68" x2="119.38" y2="106.68" width="0.1524" layer="91"/>
+<label x="101.6" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPS_RX" class="0">
+<segment>
+<pinref part="U27" gate="G$1" pin="RXD"/>
+<wire x1="99.06" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="101.6" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
+<label x="101.6" y="101.6" size="1.778" layer="95"/>
+>>>>>>> Stashed changes
 </segment>
 </net>
 </nets>
