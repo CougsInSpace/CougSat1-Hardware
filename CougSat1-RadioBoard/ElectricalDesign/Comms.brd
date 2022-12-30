@@ -6920,6 +6920,11 @@ design rules under a new name.</description>
 <via x="76.25" y="4.2" extent="1-16" drill="0.3"/>
 <via x="76.25" y="4.9" extent="1-16" drill="0.3"/>
 <via x="76.25" y="3.5" extent="1-16" drill="0.3"/>
+<via x="77.9" y="-3.4" extent="1-16" drill="0.3"/>
+<via x="77.4" y="-2.9" extent="1-16" drill="0.3"/>
+<via x="78.4" y="-2.9" extent="1-16" drill="0.3"/>
+<via x="78.4" y="-3.9" extent="1-16" drill="0.3"/>
+<via x="77.4" y="-3.9" extent="1-16" drill="0.3"/>
 <via x="80" y="-3.4" extent="1-16" drill="0.3"/>
 <via x="80" y="-4" extent="1-16" drill="0.3"/>
 <contactref element="U27" pad="4"/>
@@ -6929,7 +6934,10 @@ design rules under a new name.</description>
 <wire x1="79.25" y1="-3.9" x2="79.9" y2="-3.9" width="0.25" layer="1"/>
 <wire x1="79.9" y1="-3.9" x2="80" y2="-4" width="0.25" layer="1"/>
 <wire x1="80" y1="-3.4" x2="80" y2="-4" width="0.25" layer="1"/>
+<wire x1="77.9" y1="-3.4" x2="78.4" y2="-3.9" width="0.25" layer="1"/>
+<wire x1="77.9" y1="-3.4" x2="77.4" y2="-3.9" width="0.25" layer="1"/>
 <wire x1="77.9" y1="-3.4" x2="77.4" y2="-2.9" width="0.25" layer="1"/>
+<wire x1="77.9" y1="-3.4" x2="78.4" y2="-2.9" width="0.25" layer="1"/>
 <wire x1="75.35" y1="4.2" x2="76.25" y2="4.2" width="0.25" layer="1"/>
 <wire x1="76.25" y1="4.2" x2="76.25" y2="4.9" width="0.25" layer="1"/>
 <wire x1="76.25" y1="4.2" x2="76.25" y2="3.5" width="0.25" layer="1"/>
@@ -7049,6 +7057,16 @@ design rules under a new name.</description>
 <vertex x="51.5" y="-5.7"/>
 <vertex x="51.5" y="-3.9"/>
 <vertex x="51.4" y="-3.8"/>
+</polygon>
+<polygon width="0.2" layer="15" thermals="no">
+<vertex x="77.3" y="-2.7"/>
+<vertex x="77.2" y="-2.8"/>
+<vertex x="77.2" y="-4"/>
+<vertex x="77.3" y="-4.1"/>
+<vertex x="78.5" y="-4.1"/>
+<vertex x="78.6" y="-4"/>
+<vertex x="78.6" y="-2.8"/>
+<vertex x="78.5" y="-2.7"/>
 </polygon>
 <polygon width="0.2" layer="15" thermals="no">
 <vertex x="79.9" y="-3.2"/>
@@ -7394,6 +7412,7 @@ design rules under a new name.</description>
 <via x="78.7" y="-1" extent="1-16" drill="0.3"/>
 <via x="78.7" y="0" extent="1-16" drill="0.3"/>
 <via x="77.25" y="0.4" extent="1-16" drill="0.3"/>
+<via x="76.5" y="-1.9" extent="1-16" drill="0.3"/>
 <via x="79.3" y="-1.9" extent="1-16" drill="0.3"/>
 <via x="79" y="2" extent="1-16" drill="0.3"/>
 <via x="77" y="2" extent="1-16" drill="0.3"/>
@@ -7627,6 +7646,12 @@ design rules under a new name.</description>
 <wire x1="69.45" y1="-6.45" x2="69.45" y2="-5.4" width="0.25" layer="2"/>
 <wire x1="71" y1="1" x2="73.1" y2="-1.1" width="0.25" layer="2"/>
 <wire x1="73.1" y1="-1.1" x2="73.1" y2="-1.25" width="0.25" layer="2"/>
+<wire x1="76.5" y1="-1.9" x2="77.4" y2="-2.8" width="0.25" layer="2"/>
+<wire x1="77.4" y1="-2.8" x2="77.4" y2="-2.9" width="0.25" layer="2"/>
+<wire x1="78.4" y1="-3.9" x2="79.4" y2="-4.9" width="0.25" layer="2"/>
+<wire x1="79.4" y1="-4.9" x2="79.4" y2="-5.8" width="0.25" layer="2"/>
+<wire x1="78.4" y1="-2.9" x2="79.3" y2="-2" width="0.25" layer="2"/>
+<wire x1="79.3" y1="-2" x2="79.3" y2="-1.9" width="0.25" layer="2"/>
 <wire x1="80" y1="-3.4" x2="80" y2="-2.6" width="0.25" layer="2"/>
 <wire x1="80" y1="-2.6" x2="79.3" y2="-1.9" width="0.25" layer="2"/>
 <wire x1="80.6" y1="-0.4" x2="79.2" y2="1" width="0.25" layer="2"/>
@@ -9544,6 +9569,7 @@ design rules under a new name.</description>
 <via x="89" y="-25" extent="1-16" drill="0.3"/>
 <wire x1="89" y1="-25" x2="85" y2="-25" width="0.25" layer="2"/>
 <wire x1="89" y1="-25" x2="87" y2="-23" width="0.25" layer="2"/>
+<wire x1="87" y1="-27" x2="85" y2="-25" width="0.25" layer="2"/>
 <via x="85" y="-29" extent="1-16" drill="0.3"/>
 <via x="81" y="-29" extent="1-16" drill="0.3"/>
 <via x="77" y="-29" extent="1-16" drill="0.3"/>
@@ -9569,7 +9595,7 @@ design rules under a new name.</description>
 <wire x1="81" y1="-29" x2="85" y2="-29" width="0.25" layer="2"/>
 <via x="89" y="-29" extent="1-16" drill="0.3"/>
 <wire x1="89" y1="-29" x2="85" y2="-29" width="0.25" layer="2"/>
-<wire x1="89" y1="-29" x2="85" y2="-25" width="0.25" layer="2"/>
+<wire x1="89" y1="-29" x2="87" y2="-27" width="0.25" layer="2"/>
 <via x="83" y="-31" extent="1-16" drill="0.3"/>
 <via x="79" y="-31" extent="1-16" drill="0.3"/>
 <via x="75" y="-31" extent="1-16" drill="0.3"/>
@@ -9780,9 +9806,6 @@ design rules under a new name.</description>
 <wire x1="38.5" y1="36.5" x2="38.5" y2="37" width="0.25" layer="1"/>
 <wire x1="38.5" y1="37" x2="37.1" y2="37" width="0.25" layer="1"/>
 <wire x1="37.1" y1="37" x2="36.6" y2="37.5" width="0.25" layer="1"/>
-<wire x1="79.25" y1="-3.4" x2="77.9" y2="-3.4" width="0" layer="19" extent="1-1"/>
-<wire x1="35.2" y1="-44.1" x2="35" y2="-43" width="0" layer="19" extent="1-1"/>
-<wire x1="76.8" y1="-10.4" x2="76.8" y2="-8.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AGND" class="4">
 <contactref element="R3" pad="1"/>
