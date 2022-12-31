@@ -7782,16 +7782,17 @@ Last character is an incremented letter for each variant of the same value and p
 <pin name="VBIAS" x="-15.24" y="7.62" length="short" direction="pwr"/>
 <pin name="PD" x="15.24" y="5.08" length="short" direction="in" rot="R180"/>
 <wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<pin name="PDET" x="-15.24" y="-5.08" length="short" direction="out"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="PDET" x="-15.24" y="-7.62" length="short" direction="out"/>
 <text x="0" y="11.43" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-8.89" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<text x="0" y="-10.922" size="1.778" layer="97" align="center">&gt;SKU</text>
+<text x="0" y="-11.43" size="1.778" layer="96" align="center">&gt;VALUE</text>
+<text x="0" y="-13.462" size="1.778" layer="97" align="center">&gt;SKU</text>
 <pin name="RFOUT/VCC2" x="15.24" y="0" length="short" direction="out" rot="R180"/>
 <pin name="VBA1" x="-15.24" y="5.08" length="short" direction="in"/>
 <pin name="VBA2" x="-15.24" y="2.54" length="short" direction="in"/>
+<pin name="PAD" x="15.24" y="-7.62" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -7986,9 +7987,10 @@ Last character is an incremented letter for each variant of the same value and p
 <devices>
 <device name="" package="QFN-12-3030">
 <connects>
+<connect gate="G$1" pin="PAD" pad="PAD"/>
 <connect gate="G$1" pin="PD" pad="10"/>
 <connect gate="G$1" pin="PDET" pad="6"/>
-<connect gate="G$1" pin="RFGND" pad="4 5 PAD"/>
+<connect gate="G$1" pin="RFGND" pad="4 5"/>
 <connect gate="G$1" pin="RFIN" pad="3"/>
 <connect gate="G$1" pin="RFOUT/VCC2" pad="7 8 9"/>
 <connect gate="G$1" pin="VBA1" pad="1"/>
@@ -18662,13 +18664,11 @@ Divides by 2</text>
 <segment>
 <pinref part="U27" gate="G$1" pin="PDET"/>
 <pinref part="U28" gate="G$1" pin="IN+"/>
-<wire x1="106.68" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C104" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="73.66" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="71.12" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
 <junction x="63.5" y="73.66"/>
-<wire x1="109.22" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="76.2" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.1V_1" class="3">
@@ -18892,6 +18892,12 @@ Divides by 2</text>
 <wire x1="139.7" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY247" gate="1" pin="DGND"/>
+</segment>
+</net>
+<net name="SELFNET" class="0">
+<segment>
+<pinref part="U27" gate="G$1" pin="PAD"/>
+<wire x1="139.7" y1="73.66" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
