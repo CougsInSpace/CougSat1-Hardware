@@ -18007,8 +18007,8 @@ Divides by 2</text>
 </instance>
 <instance part="U27" gate="G$1" x="124.46" y="81.28" smashed="yes">
 <attribute name="NAME" x="124.46" y="92.71" size="1.778" layer="95" align="center"/>
-<attribute name="VALUE" x="124.46" y="72.39" size="1.778" layer="96" align="center"/>
-<attribute name="SKU" x="124.46" y="70.358" size="1.778" layer="97" align="center"/>
+<attribute name="VALUE" x="124.46" y="69.85" size="1.778" layer="96" align="center"/>
+<attribute name="SKU" x="124.46" y="67.818" size="1.778" layer="97" align="center"/>
 </instance>
 <instance part="C76" gate="G$1" x="195.58" y="68.58" smashed="yes" rot="MR0">
 <attribute name="NAME" x="192.786" y="73.66" size="1.27" layer="95" rot="MR0" align="center-left"/>
@@ -18894,7 +18894,7 @@ Divides by 2</text>
 <pinref part="SUPPLY247" gate="1" pin="DGND"/>
 </segment>
 </net>
-<net name="SELFNET" class="0">
+<net name="PA_HEATSINK" class="0">
 <segment>
 <pinref part="U27" gate="G$1" pin="PAD"/>
 <wire x1="139.7" y1="73.66" x2="139.7" y2="68.58" width="0.1524" layer="91"/>

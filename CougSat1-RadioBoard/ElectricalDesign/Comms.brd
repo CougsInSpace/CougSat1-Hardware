@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -986,11 +986,6 @@
 <circle x="76.25" y="4.2" radius="0.3" width="0" layer="30"/>
 <circle x="76.25" y="4.9" radius="0.3" width="0" layer="30"/>
 <circle x="76.25" y="3.5" radius="0.3" width="0" layer="30"/>
-<circle x="77.9" y="-3.4" radius="0.3" width="0" layer="30"/>
-<circle x="77.4" y="-2.9" radius="0.3" width="0" layer="30"/>
-<circle x="78.4" y="-2.9" radius="0.3" width="0" layer="30"/>
-<circle x="78.4" y="-3.9" radius="0.3" width="0" layer="30"/>
-<circle x="77.4" y="-3.9" radius="0.3" width="0" layer="30"/>
 <circle x="80" y="-3.4" radius="0.3" width="0" layer="30"/>
 <circle x="80" y="-4" radius="0.3" width="0" layer="30"/>
 <circle x="75.75" y="-8.25" radius="0.3" width="0" layer="30"/>
@@ -1140,7 +1135,6 @@
 <circle x="78.7" y="-1" radius="0.3" width="0" layer="30"/>
 <circle x="78.7" y="0" radius="0.3" width="0" layer="30"/>
 <circle x="77.25" y="0.4" radius="0.3" width="0" layer="30"/>
-<circle x="76.5" y="-1.9" radius="0.3" width="0" layer="30"/>
 <circle x="79.3" y="-1.9" radius="0.3" width="0" layer="30"/>
 <circle x="79" y="2" radius="0.3" width="0" layer="30"/>
 <circle x="77" y="2" radius="0.3" width="0" layer="30"/>
@@ -1877,6 +1871,15 @@
 <circle x="7.4" y="15.2" radius="0.3" width="0" layer="30"/>
 <circle x="37.6" y="34.85" radius="0.3" width="0" layer="30"/>
 <circle x="31.22" y="32.55" radius="0.3" width="0" layer="30"/>
+<polygon width="0.2" layer="30">
+<vertex x="76.1" y="-3.1"/>
+<vertex x="76.1" y="-1.5"/>
+<vertex x="76.2" y="-1.4"/>
+<vertex x="78.1" y="-1.4"/>
+<vertex x="79.4" y="-2.7"/>
+<vertex x="79.4" y="-4.2"/>
+<vertex x="77.2" y="-4.2"/>
+</polygon>
 </plain>
 <libraries>
 <library name="CougsInSpace-Capacitors">
@@ -6920,11 +6923,6 @@ design rules under a new name.</description>
 <via x="76.25" y="4.2" extent="1-16" drill="0.3"/>
 <via x="76.25" y="4.9" extent="1-16" drill="0.3"/>
 <via x="76.25" y="3.5" extent="1-16" drill="0.3"/>
-<via x="77.9" y="-3.4" extent="1-16" drill="0.3"/>
-<via x="77.4" y="-2.9" extent="1-16" drill="0.3"/>
-<via x="78.4" y="-2.9" extent="1-16" drill="0.3"/>
-<via x="78.4" y="-3.9" extent="1-16" drill="0.3"/>
-<via x="77.4" y="-3.9" extent="1-16" drill="0.3"/>
 <via x="80" y="-3.4" extent="1-16" drill="0.3"/>
 <via x="80" y="-4" extent="1-16" drill="0.3"/>
 <contactref element="U27" pad="4"/>
@@ -7052,16 +7050,6 @@ design rules under a new name.</description>
 <vertex x="51.5" y="-5.7"/>
 <vertex x="51.5" y="-3.9"/>
 <vertex x="51.4" y="-3.8"/>
-</polygon>
-<polygon width="0.2" layer="15" thermals="no">
-<vertex x="77.3" y="-2.7"/>
-<vertex x="77.2" y="-2.8"/>
-<vertex x="77.2" y="-4"/>
-<vertex x="77.3" y="-4.1"/>
-<vertex x="78.5" y="-4.1"/>
-<vertex x="78.6" y="-4"/>
-<vertex x="78.6" y="-2.8"/>
-<vertex x="78.5" y="-2.7"/>
 </polygon>
 <polygon width="0.2" layer="15" thermals="no">
 <vertex x="79.9" y="-3.2"/>
@@ -7640,7 +7628,6 @@ design rules under a new name.</description>
 <wire x1="69.45" y1="-6.45" x2="69.45" y2="-5.4" width="0.25" layer="2"/>
 <wire x1="71" y1="1" x2="73.1" y2="-1.1" width="0.25" layer="2"/>
 <wire x1="73.1" y1="-1.1" x2="73.1" y2="-1.25" width="0.25" layer="2"/>
-<wire x1="79.3" y1="-2" x2="79.3" y2="-1.9" width="0.25" layer="2"/>
 <wire x1="80" y1="-3.4" x2="80" y2="-2.6" width="0.25" layer="2"/>
 <wire x1="80" y1="-2.6" x2="79.3" y2="-1.9" width="0.25" layer="2"/>
 <wire x1="80.6" y1="-0.4" x2="79.2" y2="1" width="0.25" layer="2"/>
@@ -17335,52 +17322,47 @@ design rules under a new name.</description>
 <wire x1="39.65" y1="-26.45" x2="30.825" y2="-26.45" width="0.16" layer="1"/>
 <wire x1="87.4" y1="-26.975" x2="40.175" y2="-26.975" width="0.16" layer="1"/>
 </signal>
-<signal name="SELFNET">
-<contactref element="U27" pad="PAD"/>
-</signal>
-<signal name="HEAT1">
-<polygon width="0.1524" layer="16">
-<vertex x="77.4" y="-3.8"/>
-<vertex x="76.9" y="-4.3"/>
-<vertex x="74.4" y="-4.3"/>
-<vertex x="75.1" y="-3.6"/>
-<vertex x="75.1" y="-2.2"/>
-<vertex x="76.7" y="-3.8"/>
+<signal name="PA_HEATSINK">
+<polygon width="0.2" layer="2">
+<vertex x="78.6" y="-4.1"/>
+<vertex x="77.2" y="-4.1"/>
+<vertex x="77.2" y="-2.7"/>
+<vertex x="78.6" y="-2.7"/>
 </polygon>
-</signal>
-<signal name="HEAT2">
-<polygon width="0.1524" layer="15">
-<vertex x="77.3" y="-2.9"/>
-<vertex x="74.5" y="-2.9"/>
-<vertex x="74.4" y="-3"/>
-<vertex x="74.4" y="-1.1"/>
-<vertex x="75.5" y="0"/>
-<vertex x="76.7" y="0"/>
-<vertex x="77.3" y="-0.6"/>
-</polygon>
-</signal>
-<signal name="HEAT4">
-<polygon width="0.1524" layer="1">
-<vertex x="78.5" y="-3.9"/>
-<vertex x="76" y="-6.4"/>
-<vertex x="76" y="-6.6"/>
-<vertex x="77.2" y="-7.8"/>
-<vertex x="79.5" y="-7.8"/>
-<vertex x="81.3" y="-7.8"/>
-<vertex x="81.8" y="-7.3"/>
-<vertex x="78.5" y="-4"/>
-</polygon>
-</signal>
-<signal name="HEAT3">
-<polygon width="0.1524" layer="2">
-<vertex x="78.4" y="-2.9"/>
-<vertex x="76.9" y="-1.4"/>
+<polygon width="0.2" layer="15">
+<vertex x="79" y="-4.9"/>
+<vertex x="76.8" y="-4.9"/>
+<vertex x="75.9" y="-4"/>
+<vertex x="75.9" y="-1.7"/>
 <vertex x="76.2" y="-1.4"/>
-<vertex x="77.7" y="0.1"/>
-<vertex x="78" y="0.1"/>
-<vertex x="79.6" y="-1.5"/>
-<vertex x="79.6" y="-2.9"/>
+<vertex x="78.5" y="-1.4"/>
+<vertex x="79.4" y="-2.3"/>
+<vertex x="79.4" y="-4.5"/>
 </polygon>
+<polygon width="0.2" layer="16">
+<vertex x="79.4" y="-4.5"/>
+<vertex x="77.1" y="-4.5"/>
+<vertex x="75.9" y="-3.3"/>
+<vertex x="75.9" y="-1.7"/>
+<vertex x="76.2" y="-1.4"/>
+<vertex x="79.5" y="-1.4"/>
+<vertex x="79.8" y="-1.7"/>
+<vertex x="79.8" y="-4.1"/>
+</polygon>
+<contactref element="U27" pad="PAD"/>
+<via x="77.9" y="-3.4" extent="1-16" drill="0.3"/>
+<via x="78.4" y="-2.9" extent="1-16" drill="0.3"/>
+<via x="78.4" y="-3.9" extent="1-16" drill="0.3"/>
+<via x="77.4" y="-3.9" extent="1-16" drill="0.3"/>
+<via x="77.4" y="-2.9" extent="1-16" drill="0.3"/>
+<via x="76.7" y="-2.2" extent="1-16" drill="0.3"/>
+<via x="76.2" y="-1.7" extent="1-16" drill="0.3"/>
+<wire x1="76.2" y1="-1.7" x2="76.7" y2="-2.2" width="0.2" layer="15"/>
+<wire x1="76.7" y1="-2.2" x2="77.4" y2="-2.9" width="0.2" layer="15"/>
+<wire x1="77.4" y1="-2.9" x2="77.9" y2="-3.4" width="0.2" layer="15"/>
+<wire x1="77.9" y1="-3.4" x2="78.4" y2="-3.9" width="0.2" layer="15"/>
+<wire x1="78.4" y1="-2.9" x2="77.9" y2="-3.4" width="0.2" layer="15"/>
+<wire x1="77.4" y1="-3.9" x2="77.9" y2="-3.4" width="0.2" layer="15"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
