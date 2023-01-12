@@ -12783,18 +12783,18 @@ Amplifier</text>
 <pinref part="U37" gate="C" pin="PC1"/>
 </segment>
 </net>
-<net name="!PC_5.0V-1" class="0">
-<segment>
-<wire x1="203.2" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
-<label x="204.47" y="99.06" size="1.778" layer="95"/>
-<pinref part="U37" gate="C" pin="PC2"/>
-</segment>
-</net>
 <net name="!RX_LNA_EN" class="0">
 <segment>
 <wire x1="203.2" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="204.47" y="104.14" size="1.778" layer="95"/>
 <pinref part="U37" gate="C" pin="PC0"/>
+</segment>
+</net>
+<net name="PC_5.0V" class="0">
+<segment>
+<wire x1="203.2" y1="99.06" x2="231.14" y2="99.06" width="0.1524" layer="91"/>
+<label x="204.47" y="99.06" size="1.778" layer="95"/>
+<pinref part="U37" gate="C" pin="PC2"/>
 </segment>
 </net>
 </nets>
@@ -15065,7 +15065,7 @@ Decoupling</text>
 <text x="114.3" y="63.5" size="1.778" layer="97" align="center">CAD Note: Thermally Connected</text>
 <text x="96.52" y="121.92" size="1.27" layer="97" align="center-right">&lt;6A4 </text>
 <text x="96.52" y="58.42" size="1.27" layer="97" align="center-right">&lt;6A1 </text>
-<text x="162.56" y="109.22" size="1.27" layer="97" align="center-right">4B6&gt; </text>
+<text x="165.1" y="109.22" size="1.27" layer="97" align="center-right">4B6&gt; </text>
 <text x="71.12" y="30.48" size="1.27" layer="97" align="center-right">4B6&gt; </text>
 <text x="71.12" y="93.98" size="1.27" layer="97" align="center-right">4C6&gt; </text>
 <text x="215.9" y="83.82" size="1.27" layer="97" align="center-left"> 6C1&gt;</text>
@@ -15544,7 +15544,7 @@ Decoupling</text>
 <junction x="91.44" y="93.98"/>
 </segment>
 </net>
-<net name="!PC_5.0V-1" class="0">
+<net name="!PC_5.0V" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
 <wire x1="208.28" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
@@ -15644,9 +15644,9 @@ Decoupling</text>
 <pinref part="SUPPLY332" gate="1" pin="DGND"/>
 </segment>
 </net>
-<net name="PC_5.0" class="0">
+<net name="PC_5.0V" class="0">
 <segment>
-<label x="170.18" y="111.76" size="1.778" layer="97"/>
+<label x="170.18" y="109.22" size="1.778" layer="97"/>
 <wire x1="170.18" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="G$1" pin="G"/>
 </segment>
