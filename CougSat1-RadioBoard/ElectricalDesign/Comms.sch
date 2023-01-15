@@ -9978,6 +9978,7 @@ Lid needs manual filing or spacer where traces go under</text>
 <part name="DIA14" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
 <part name="DIA15" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-MEASURE-T" device=""/>
 <part name="FRAME2" library="CougsInSpace-Aesthetics" deviceset="FRAME-A" device="">
+<attribute name="REV" value="1.3.0"/>
 <attribute name="TITLE" value="RF Diagram"/>
 </part>
 <part name="DIA16" library="CougsInSpace-Aesthetics" deviceset="DIAGRAM-CONNECT_DOT" device=""/>
@@ -12183,9 +12184,11 @@ Amplifier</text>
 <label x="20.32" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="96.52" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <label x="97.79" y="93.98" size="1.778" layer="95"/>
-<pinref part="U37" gate="B" pin="PB2"/>
+<pinref part="U37" gate="B" pin="PB3"/>
+<wire x1="99.06" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="91.44" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVDD" class="4">
